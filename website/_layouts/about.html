@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      {% include meta.html %}
+    </head>
+
+    <body itemscope itemtype="http://schema.org/WebPage">
+        {% include header.html %}
+        {% include nav.html %}
+
+        <main itemscope itemtype="http://schema.org/Person">
+            <h1 itemprop="headline">{{ page.title }}</h1>
+            <p>Written by <span itemprop="name">Vincent Pickering</span> in the UK, I try to update it most days.<br/>Please direct any correspondence to: <a href="mailto:hello@vincentp.me" title="Email Vincent Pickering" itemprop="email">hello@vincentp.me</a>.</p>
+
+            <h2>Website</h2>
+            <p>This website is currently in its 4<sup>th</sup> iteration, running on <a href="http://jekyllrb.com" title="Jekyll" rel="external">Jekyll</a> and hosted on Github. The intent, is to provoke thought and inspire great websites and apps.</p>
+
+            <h2>About Vincent</h2>
+            <p>Hello, I'm a UI/UX specialist focusing on large scale complex systems for well know big media brands. For the last 14 years I have been making websites and applications, where my client roster has included clients such as: The BBC, EE, The NHS, Orange, The Vatican, General Motors, Channel 5 and giffgaff.</p>
+            <p>I have also helped new businesses grow; creating websites and designs for smaller companies to help them make that first important step.</p>
+            <p>More recently <a href="http://speakerdeck.com/vincentp">I have begun speaking again</a>, so if you like what you have read here, and would like me to come and speak at your event <a href="mailto:hello@vincentp.me" title="Email Vincent Pickering">email me</a> and we can begin the conversation.</p>
+            <p>I can also be found around the web at: <a href="http://www.twitter.com/{{site.author.twitter}}" itemprop="url" rel="me" title="Twitter">Twitter</a>, <a href="http://www.github.com/{{site.author.github}}"  itemprop="url" rel="me" title="Github">Github</a>, <a href="http://dribbble.com/{{site.author.dribbble}}" itemprop="url" rel="me" title="Dribbble">Dribbble</a> and <a href="https://plus.google.com/u/0/{{site.author.googleplus}}/?rel=author" itemprop="url" rel="me" title="Google +">Google +</a>.</p>
+        </main>
+
+        {% include footer.html %}
+        {% include tracking.html %}
+    </body>
+</html>

@@ -1,0 +1,23 @@
+# Gems
+gems: [jekyll-paginate]
+
+# Conversion
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Outputting
+permalink: /blog/:title
+paginate: 20
+
+# Site Variables
+name: Vincent Pickering UI/UX Consultant
+url: http://vincentp.me
+
+author:
+  twitter: vipickering
+  github: vipickering
+  googleplus: +VincentPickering
+  email: hello@vincentp.me
+  job: UI/UX Consultant
+  name: Vincent Pickering

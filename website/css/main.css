@@ -1,0 +1,847 @@
+/*
+Typography
+Layout
+Z map
+Colour map
+components
+
+favicon loading correctly.
+check errors in google webmaster tools
+
+Grunt! - Got as far as basic install.
+*/
+/* Variables.
+-------------------------------------------------- */
+/* Reset
+-------------------------------------------------- */
+/* Reset
+-------------------------------------------------- */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, a, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strong, sub, sup, tt, var, b, u, i, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+h1, h2, h3, h4, h5, h6, p {
+  font-size: 1em; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+strong, b, mark {
+  font-weight: bold;
+  font-style: inherit; }
+
+em, i, cite, q, address, dfn, var {
+  font-style: italic;
+  font-weight: inherit; }
+
+abbr[title], dfn[title] {
+  cursor: help;
+  border-bottom: 1px dotted; }
+
+ins {
+  border-bottom: 1px solid; }
+
+a, u, ins {
+  text-decoration: none; }
+
+del, s {
+  text-decoration: line-through; }
+
+img {
+  border: none;
+  font-style: italic; }
+
+a img {
+  border: none; }
+
+input, select, option, optgroup, textarea, figcaption {
+  font: inherit; }
+
+* {
+  box-sizing: border-box; }
+
+/* Branding
+-------------------------------------------------- */
+/* Typography
+-------------------------------------------------- */
+/* Typography
+16px @ 1:1.5
+1020px @ 1:1.5
+-------------------------------------------------- */
+body {
+  font-family: "Gentium Book Basic", serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal; }
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+  font-style: normal;
+  line-height: 1.1;
+  text-transform: capitalize; }
+
+h2 {
+  font-family: "Gentium Book Basic", serif;
+  font-size: 1em;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 1.65;
+  text-transform: capitalize; }
+
+h3 {
+  font-family: "Gentium Book Basic", serif;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 1.6;
+  text-transform: capitalize; }
+
+p {
+  font-family: "Gentium Book Basic", serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 1em;
+  line-height: 1.6; }
+
+p strong {
+  font-family: "Gentium Book Basic", serif;
+  font-weight: 700;
+  font-style: normal; }
+
+figcaption {
+  font-size: 0.8125em;
+  line-height: 1.6; }
+
+li {
+  font-family: "Gentium Book Basic", serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6; }
+
+blockquote {
+  font-size: 1em; }
+  blockquote p:first-child {
+    margin-bottom: 0; }
+  blockquote p, blockquote li {
+    font-family: "Gentium Book Basic", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1em;
+    text-align: left;
+    line-height: 1.4; }
+
+.logo {
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.75em;
+  text-transform: uppercase;
+  line-height: 20px; }
+
+.siteTitle {
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.7em;
+  margin: 1em 0 2em 0; }
+
+.blogPostDate {
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.75em;
+  color: #b3b3b1; }
+
+.reference {
+  font-family: "Gentium Book Basic", serif;
+  font-size: 0.875em;
+  line-height: 14px;
+  font-weight: 400;
+  font-style: italic;
+  color: #32425c; }
+
+pre, code, samp, kbd {
+  font-family: Monaco, Consolas, "Andale Mono", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
+  font-style: normal;
+  font-weight: 400; }
+
+.previousBlogPost,
+.nextBlogPost {
+  font-size: 1em; }
+
+::-moz-selection {
+  background-color: #c83539;
+  color: #fff; }
+
+::selection {
+  background-color: #c83539;
+  color: #fff; }
+
+pre,
+code {
+  font-size: 0.875em; }
+
+footer {
+  font-size: 0.8125em; }
+
+/* Link styling
+-------------------------------------------------- */
+a:link,
+a:visited,
+a:active {
+  text-decoration: underline;
+  color: #c83539; }
+
+a:hover {
+  text-decoration: none;
+  color: #000000; }
+
+.logo {
+  display: block;
+  width: 205px; }
+
+.logo a {
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 2px;
+  background-color: #000000;
+  padding: 1em;
+  outline: 2px solid #000000;
+  outline-offset: 2px;
+  transition: background-color 0.3s; }
+
+.logo a:hover {
+  background-color: #c83539;
+  outline: 2px solid #c83539; }
+
+.tableCell a:link,
+.tableCell a:visited,
+.tableCell a:active {
+  color: #000000;
+  text-decoration: none; }
+
+.fixedCell a:link,
+.fixedCell a:visited,
+.fixedCell a:active {
+  font-weight: bold;
+  color: #000000;
+  text-decoration: none; }
+
+.tableCell a:hover,
+.fixedCell a:hover {
+  color: #c83539; }
+
+sup a {
+  text-decoration: none; }
+
+/* Common
+-------------------------------------------------- */
+.group:before {
+  content: "";
+  display: table; }
+
+.group::after {
+  content: "";
+  display: table;
+  clear: both; }
+
+/* Layout
+-------------------------------------------------- */
+/* 3rd Party
+-------------------------------------------------- */
+.highlight .hll {
+  background-color: #49483e; }
+
+.highlight {
+  background: #272822;
+  color: #f8f8f2; }
+
+.highlight .c {
+  color: #75715e; }
+
+/* Comment */
+.highlight .err {
+  color: #960050;
+  background-color: #1e0010; }
+
+/* Error */
+.highlight .k {
+  color: #66d9ef; }
+
+/* Keyword */
+.highlight .l {
+  color: #ae81ff; }
+
+/* Literal */
+.highlight .n {
+  color: #f8f8f2; }
+
+/* Name */
+.highlight .o {
+  color: #f92672; }
+
+/* Operator */
+.highlight .p {
+  color: #f8f8f2; }
+
+/* Punctuation */
+.highlight .cm {
+  color: #75715e; }
+
+/* Comment.Multiline */
+.highlight .cp {
+  color: #75715e; }
+
+/* Comment.Preproc */
+.highlight .c1 {
+  color: #75715e; }
+
+/* Comment.Single */
+.highlight .cs {
+  color: #75715e; }
+
+/* Comment.Special */
+.highlight .ge {
+  font-style: italic; }
+
+/* Generic.Emph */
+.highlight .gs {
+  font-weight: bold; }
+
+/* Generic.Strong */
+.highlight .kc {
+  color: #66d9ef; }
+
+/* Keyword.Constant */
+.highlight .kd {
+  color: #66d9ef; }
+
+/* Keyword.Declaration */
+.highlight .kn {
+  color: #f92672; }
+
+/* Keyword.Namespace */
+.highlight .kp {
+  color: #66d9ef; }
+
+/* Keyword.Pseudo */
+.highlight .kr {
+  color: #66d9ef; }
+
+/* Keyword.Reserved */
+.highlight .kt {
+  color: #66d9ef; }
+
+/* Keyword.Type */
+.highlight .ld {
+  color: #e6db74; }
+
+/* Literal.Date */
+.highlight .m {
+  color: #ae81ff; }
+
+/* Literal.Number */
+.highlight .s {
+  color: #e6db74; }
+
+/* Literal.String */
+.highlight .na {
+  color: #a6e22e; }
+
+/* Name.Attribute */
+.highlight .nb {
+  color: #f8f8f2; }
+
+/* Name.Builtin */
+.highlight .nc {
+  color: #a6e22e; }
+
+/* Name.Class */
+.highlight .no {
+  color: #66d9ef; }
+
+/* Name.Constant */
+.highlight .nd {
+  color: #a6e22e; }
+
+/* Name.Decorator */
+.highlight .ni {
+  color: #f8f8f2; }
+
+/* Name.Entity */
+.highlight .ne {
+  color: #a6e22e; }
+
+/* Name.Exception */
+.highlight .nf {
+  color: #a6e22e; }
+
+/* Name.Function */
+.highlight .nl {
+  color: #f8f8f2; }
+
+/* Name.Label */
+.highlight .nn {
+  color: #f8f8f2; }
+
+/* Name.Namespace */
+.highlight .nx {
+  color: #a6e22e; }
+
+/* Name.Other */
+.highlight .py {
+  color: #f8f8f2; }
+
+/* Name.Property */
+.highlight .nt {
+  color: #f92672; }
+
+/* Name.Tag */
+.highlight .nv {
+  color: #f8f8f2; }
+
+/* Name.Variable */
+.highlight .ow {
+  color: #f92672; }
+
+/* Operator.Word */
+.highlight .w {
+  color: #f8f8f2; }
+
+/* Text.Whitespace */
+.highlight .mf {
+  color: #ae81ff; }
+
+/* Literal.Number.Float */
+.highlight .mh {
+  color: #ae81ff; }
+
+/* Literal.Number.Hex */
+.highlight .mi {
+  color: #ae81ff; }
+
+/* Literal.Number.Integer */
+.highlight .mo {
+  color: #ae81ff; }
+
+/* Literal.Number.Oct */
+.highlight .sb {
+  color: #e6db74; }
+
+/* Literal.String.Backtick */
+.highlight .sc {
+  color: #e6db74; }
+
+/* Literal.String.Char */
+.highlight .sd {
+  color: #e6db74; }
+
+/* Literal.String.Doc */
+.highlight .s2 {
+  color: #e6db74; }
+
+/* Literal.String.Double */
+.highlight .se {
+  color: #ae81ff; }
+
+/* Literal.String.Escape */
+.highlight .sh {
+  color: #e6db74; }
+
+/* Literal.String.Heredoc */
+.highlight .si {
+  color: #e6db74; }
+
+/* Literal.String.Interpol */
+.highlight .sx {
+  color: #e6db74; }
+
+/* Literal.String.Other */
+.highlight .sr {
+  color: #e6db74; }
+
+/* Literal.String.Regex */
+.highlight .s1 {
+  color: #e6db74; }
+
+/* Literal.String.Single */
+.highlight .ss {
+  color: #e6db74; }
+
+/* Literal.String.Symbol */
+.highlight .bp {
+  color: #f8f8f2; }
+
+/* Name.Builtin.Pseudo */
+.highlight .vc {
+  color: #f8f8f2; }
+
+/* Name.Variable.Class */
+.highlight .vg {
+  color: #f8f8f2; }
+
+/* Name.Variable.Global */
+.highlight .vi {
+  color: #f8f8f2; }
+
+/* Name.Variable.Instance */
+.highlight .il {
+  color: #ae81ff; }
+
+/* Literal.Number.Integer.Long */
+/*
+REFACTOR BELOW CODE
+
+ Objects
+-------------------------------------------------- */
+.hide {
+  display: none; }
+
+.hidden {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden; }
+
+/* Layout
+-------------------------------------------------- */
+body {
+  background-color: #f3f3f3;
+  color: #222222; }
+
+.container {
+  position: relative;
+  width: 612px;
+  margin: 2em auto 1em auto; }
+
+.container > header {
+  margin-left: 20px; }
+
+.postContainer {
+  position: relative;
+  width: 612px;
+  margin: 2em auto 1em auto; }
+
+.postContainer > header {
+  float: left;
+  margin: 8px 0 0 -230px; }
+
+/* Index
+-------------------------------------------------- */
+.table {
+  display: table;
+  border-collapse: collapse;
+  width: 612px; }
+
+.tableRow {
+  display: table-row; }
+
+.tableCell,
+.fixedCell,
+.bulletCell {
+  display: table-cell;
+  padding: 0.8125em 0 0.8125em 0; }
+
+.bulletCell {
+  width: 1.375em; }
+
+.tableCell {
+  border-bottom: 1px solid #000000; }
+
+.fixedCell {
+  border-top: 3px solid #000000;
+  border-bottom: 3px solid #000000; }
+
+.bullet {
+  float: left;
+  width: 0.625em;
+  height: 0.625em;
+  text-align: center;
+  border-radius: 0.3125em; }
+
+.rowHeader {
+  display: table-header-group; }
+
+.cellBorder {
+  font-weight: bold;
+  border: none;
+  padding-bottom: 3.375em; }
+
+.cellBorder:after {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 10px;
+  border-bottom: 4px solid #000000; }
+
+.cellHeader {
+  padding-top: 0; }
+
+.dateCell {
+  width: 5.9375em; }
+
+.thoughts-bullet {
+  background-color: #c83539; }
+
+.idea-bullet {
+  background-color: #35abc8; }
+
+.process-bullet {
+  background-color: #000000; }
+
+.quote-bullet {
+  background-color: #41b526; }
+
+.event-bullet {
+  background-color: #ea4c89; }
+
+.code-bullet {
+  background-color: #666666; }
+
+/* Blog post formatting
+-------------------------------------------------- */
+.blogMain:before {
+  content: '';
+  display: block;
+  width: 100px;
+  border-top: 1px solid #cbc9c9;
+  float: left;
+  margin: -17px 0 0 -120px; }
+
+.blogMain {
+  margin-top: 1.5em;
+  border-top: 1px solid #cbc9c9;
+  padding-top: 1em; }
+
+.blogPost {
+  width: 612px;
+  margin: auto; }
+
+.pageContainer ul, .pageContainer ol {
+  margin: 0 0 1em 0;
+  padding: 0; }
+
+.pageContainer li {
+  margin-bottom: 0.25em; }
+
+.pageContainer blockquote {
+  padding: 2em 0 2em 0;
+  margin: 1em -2em 1em -2em;
+  border-top: 1px solid #787878;
+  border-bottom: 1px solid #222222;
+  color: #222222; }
+  .pageContainer blockquote ul, .pageContainer blockquote ol {
+    margin: 0 0 0 1em; }
+  .pageContainer blockquote li {
+    margin: 0 0 0.5em 0; }
+
+.pageContainer q {
+  display: block; }
+
+.pageContainer .blogPostDate {
+  display: block;
+  margin-top: 1.25em; }
+
+.pageContainer h2 {
+  float: left;
+  margin-left: -13.75em;
+  width: 11.75em;
+  text-align: right; }
+
+.pageContainer figure {
+  margin-bottom: 2em;
+  margin-top: 1em; }
+
+.pageContainer figcaption {
+  text-align: right;
+  float: left;
+  margin-left: -12.75em;
+  width: 11.75em;
+  border-top: 1px dotted #ccc;
+  border-bottom: 1px dotted #ccc;
+  padding: 13px 0; }
+
+.pageContainer footer {
+  width: 612px;
+  margin: 2em 0 0 0;
+  padding: 2em 0 2em 0;
+  border-top: 1px solid #cbc9c9;
+  border-bottom: 1px solid #cbc9c9; }
+
+.previousBlogPost {
+  float: left;
+  text-align: left; }
+
+.nextBlogPost {
+  float: right;
+  text-align: right; }
+
+.highlight {
+  padding: 1em 0.5em 1em 0.5em;
+  margin-bottom: 1em;
+  border-radius: 0.3125em; }
+
+p code,
+li code {
+  display: inline-block;
+  white-space: no-wrap;
+  padding: 0 0.25em 0 0.25em;
+  background: #ffffff;
+  color: #555555;
+  border: 1px solid #cbc9c9;
+  border-radius: 0.3125em; }
+
+.updateHighlight {
+  background: #ffffe0;
+  border: 1px solid #ffa500;
+  color: #000000;
+  padding: 1em; }
+
+/* Generic Page Layout
+-------------------------------------------------- */
+.genericMain {
+  margin-top: 1.5em;
+  border-top: 1px solid #cbc9c9;
+  padding-top: 1em; }
+
+.genericPage {
+  width: 612px;
+  margin: 1.875em auto 0 auto; }
+
+/* Footer
+-------------------------------------------------- */
+.siteFooter {
+  margin: 1em auto 3.125em auto;
+  width: 612px;
+  padding: 1em 0 1em 0;
+  text-align: center;
+  color: #787878; }
+
+.siteFooter address {
+  margin: 1em 0 1em 0; }
+
+/* Media Queries
+-------------------------------------------------- */
+@media all and (max-width: 1090px) {
+  .postContainer {
+    margin: 2em 5em 1em auto; }
+  .container > header {
+    position: relative;
+    left: 0;
+    top: 0; }
+  .postContainer > header {
+    float: left;
+    margin: 10px 0 0 -230px; }
+  .genericPage,
+  .blogPost {
+    width: 612px;
+    margin-left: 0; }
+  .pageContainer p, .pageContainer h2, .pageContainer h3 {
+    font-size: 0.875em;
+    margin-bottom: 12px; }
+  .pageContainer li {
+    font-size: 0.875em;
+    margin-bottom: 4px; }
+  .pageContainer blockquote {
+    margin-right: 0;
+    font-size: 1em; }
+    .pageContainer blockquote p, .pageContainer blockquote li {
+      font-size: 1em; }
+  footer.siteFooter {
+    margin: 1em 0 1em 0; }
+  h1 {
+    font-size: 2.125em; } }
+
+@media all and (max-width: 945px) {
+  .container,
+  .postContainer {
+    width: 80%;
+    min-width: 260px;
+    margin: 2em auto 1em auto; }
+  .blogMain:before {
+    display: none; }
+  .container > header {
+    float: none;
+    margin: 0; }
+  .postContainer > header {
+    float: none;
+    margin: 0; }
+  .genericPage,
+  .blogPost {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%; }
+  .pageContainer figcaption {
+    margin-bottom: 0.5em; }
+  .pageContainer figcaption, .pageContainer h2 {
+    float: none;
+    width: auto;
+    text-align: left;
+    margin-left: 0; }
+  .pageContainer footer {
+    width: 100%; }
+  .pageContainer .nextBlogPost,
+  .pageContainer .previousBlogPost {
+    display: block;
+    text-align: left;
+    margin: 1em 0 1em 0; }
+  .pageContainer .previousBlogPost {
+    margin: 1em 0 2em 0; }
+  figure img {
+    width: 100%; }
+  footer.siteFooter {
+    width: 100%;
+    margin: 0.5em 0 0.5em 0; }
+  a:link[class^="icon-"], a:visited[class^="icon-"], a:active[class^="icon-"],
+  a:link[class*=" icon-"], a:visited[class*=" icon-"], a:active[class*=" icon-"] {
+    font-size: 1.25em;
+    margin-right: 1em; } }
+
+@media all and (max-width: 700px) {
+  h1 {
+    font-size: 1.4em; }
+  .table {
+    display: block;
+    width: 100%; }
+  .tableRow {
+    display: block;
+    margin-bottom: 1em; }
+  .highlight {
+    overflow: scroll; }
+  .tableCell {
+    display: block;
+    padding: 0; }
+  .fixedCell {
+    display: block;
+    padding: 0; }
+  .bulletCell {
+    float: left;
+    margin: 5px 0 0 -20px;
+    padding: 0;
+    width: 1em; }
+  .tableCell {
+    border-bottom: none; }
+  .fixedCell {
+    border: none; }
+  .cellHeader {
+    display: none; }
+  .container > header,
+  .postContainer > header {
+    width: 210px;
+    margin: auto; }
+  .tableCell,
+  .dateCell {
+    font-size: 0.8em;
+    width: 100%; }
+  p {
+    line-height: 20px; }
+  .jam-text a {
+    width: 100%;
+    display: block; } }

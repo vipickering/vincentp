@@ -1,0 +1,45 @@
+// Normalise
+* {
+    box-sizing: border-box;
+}
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+//For IE only. meh.
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+    display: block;
+}
+
+//  root elements
+
+:root {
+    line-height: 1.6;
+    font-family: 'PT Serif', serif;
+    font-size: size(regular);
+    background-color: brand(white);
+    color: brand(black);
+}
+
+::selection {
+    background-color: brand(red);
+    color: brand(white);
+}

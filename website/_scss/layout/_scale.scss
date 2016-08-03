@@ -1,0 +1,23 @@
+$sizes: (
+     large : 30px,
+     medium : 24px,
+     regular :16px,
+     small : 14px,
+     x-small : 12px
+);
+
+//Create a quick reference to the contents of the map
+@function size($key) {
+    @if map-has-key($sizes, $key) {
+        @return map-get($sizes, $key);
+    }
+    @warn "Unknown `#{$key}` in $sizes.";
+    @return null;
+}
+
+//Make each value in the map available as a handy class
+@each $value, $size in $sizes {
+    .#{$value}{
+        font-size: $size;
+    }
+}
