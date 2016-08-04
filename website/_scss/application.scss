@@ -7,7 +7,7 @@
 @import "utility/_normalize.scss";
 @import "utility/_clearfix.scss";
 
-// Start CSS Proper
+// Layout CSS
 @import "layout/_grid.scss";
 @import "layout/_logo.scss";
 @import "layout/_images.scss";
@@ -20,6 +20,9 @@
 @import "layout/_aside.scss";
 @import "layout/_footer.scss";
 
+@import "layout/_homepage.scss";
+
+// Typography Styles
 @import "typography/_text.scss";
 @import "typography/_links.scss";
 

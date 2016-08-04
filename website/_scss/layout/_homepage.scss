@@ -1,0 +1,64 @@
+$mallory-light : 'mp-mallory-light', Verdana, sans-serif;
+$mallory-light-italic : 'mp-mallory-light-italic', Verdana, sans-serif;
+$mallory-book : 'mp-mallory-book', Verdana, sans-serif;
+$mallory-book-italic : 'mp-mallory-book-italic', Verdana, sans-serif;
+$mallory-bold : 'mp-mallory-bold', Verdana, sans-serif;
+
+.icon{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box{
+    background-color: brand(black);
+    margin-bottom: 3px;
+
+}
+
+.box.top{
+    margin-top:50px;
+    height : 100px;
+}
+
+.box.middle-left{
+    float: left;
+    width:66%;
+    height : 300px;
+}
+
+.box.middle-right{
+    float: left;
+    width:33%;
+    margin-left : 3px;
+    height : 300px;
+}
+
+.box.bottom{
+      height : 50px;
+}
+
+
+//Type
+h1.special {
+    font-family: $mallory-book;
+    text-transform: uppercase;
+    font-size : size(large);
+    margin:0 0 15px 0;
+}
+
+h2.special {
+    font-family: $mallory-bold;
+    font-size: size(small);
+    text-transform: uppercase;
+    padding: 0;
+    color: brand(grey);
+    margin: 0 0 8px 0;
+    line-height: 1;
+}
+
+p.foo{
+    font-family: 'mp-mallory-light';
+    margin: 0 0 15px 0;
+    font-style: 10px;
+}

@@ -4,11 +4,14 @@
         {% include meta.html %}
     </head>
 
-    <body itemscope itemtype="http://schema.org/Blog">
+    <body itemscope itemtype="http://schema.org/WebPage">
         {% include header.html %}
 
         <main role="main" class="container">
-            {{ content }}
+            <article itemscope itemtype="http://schema.org/CreativeWork">
+                <h1 itemprop="headline">{{ page.title }}</h1>
+                {% include two-column-grid.html %}
+            </article>
         </main>
 
         {% include footer.html %}

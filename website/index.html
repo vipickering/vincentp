@@ -9,17 +9,23 @@ meta: A blog about front-end development techniques, HTML, CSS and Javascript.
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage">
-
-  {% include header.html %}
-  {% include nav.html %}
+  <!-- {% include header.html %} -->
 
 <main class="container" role="main">
-  {% for post in site.posts %}
-    <div>
-        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-        <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_string }}</time>
-    </div>
-  {% endfor %}
+
+<!-- <div class="icon">
+<div class="box top"></div>
+<div class="grid-row">
+  <div class="box middle-left"></div>
+  <div class="box middle-right"></div>
+</div>
+<div class="box bottom"></div>
+</div> -->
+
+  <p class="foo">Next Available: July 2017</p>
+  <h1 class="special">Vincent Pickering</h1>
+  <h2 class="special">UI/UX Consultant</h2>
+  <p>Design.Development.Behaviour</p>
 </main>
   {% include footer.html %}
   {% include tracking.html %}

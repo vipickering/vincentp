@@ -1,9 +1,13 @@
 //local vars
 $column-width: 38em;
 $column-spacing: size(regular);
+$mallory-light-italic : 'mp-mallory-light-italic', Verdana, sans-serif;
+$mallory-book : 'mp-mallory-book', Verdana, sans-serif;
+$mallory-book-italic : 'mp-mallory-book-italic', Verdana, sans-serif;
+$mallory-bold : 'mp-mallory-bold', Verdana, sans-serif;
 
 h1 {
-    font-family: 'mp-mallory-black', sans-serif;
+    font-family: $mallory-bold;
     font-size : size(large);
     padding: 0;
     margin: 0;
@@ -11,7 +15,7 @@ h1 {
 }
 
 h2 {
-    font-family: 'mp-mallory-bold', sans-serif;
+    font-family: $mallory-bold;
     font-size: size(small);
     text-transform: uppercase;
     padding: 0;
@@ -26,7 +30,7 @@ p {
 
 small,
 aside{
-    font-family: mp-mallory-book;
+    font-family: $mallory-book;
     font-size: size(x-small);
     text-transform:uppercase;
 }
@@ -46,7 +50,7 @@ ol + h2  {
 
 b,
 strong {
-    font-family: 'mp-mallory-bold';
+    font-family: $mallory-bold;
     font-weight: normal;
 }
 
@@ -73,7 +77,7 @@ sup {
 q,
 blockquote {
     display: block;
-    font-family: 'mp-mallory-book-italic';
+    font-family: $mallory-book-italic;
     max-width: $column-width;
     border-left: 6px solid brand(red);
     padding:10px 10px 10px 30px;
@@ -91,7 +95,7 @@ content: '\201D';
 }
 
 time {
-    font-family: 'mp-mallory-book-italic';
+    font-family: $mallory-book-italic;
     margin:6px 0 30px 0;
 }
 
@@ -102,11 +106,10 @@ ul,ol {
 
 li {
     max-width: $column-width;
-    // margin-bottom: 6px ;
 }
 
 figcaption{
-       font-family: 'mp-mallory-light-italic';
+       font-family: $mallory-light-italic;
        font-size: size(small);
 }
 

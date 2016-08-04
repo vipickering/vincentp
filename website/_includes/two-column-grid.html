@@ -1,0 +1,15 @@
+ <div class="grid-row">
+    <div class="column-two-thirds">
+        {{ content }}
+    </div>
+
+    <aside class="column-one-third">
+        {% include next-prev.html %}
+
+        <!-- Loop through H2s, get IDs and output quick links down the page. -->
+
+        {% ifhascontent aside %}
+             {% contentblock aside %}
+         {% endifhascontent %}
+    </aside>
+</div>
