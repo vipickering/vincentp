@@ -1,0 +1,23 @@
+nav {
+    margin-top : 10px;
+    float:  right;
+}
+
+nav ul {
+    float: left;
+    margin-right: 30px;
+}
+
+nav li{
+    margin:0;
+    padding: 0;
+    list-style: none;
+    font-size: size(small);
+    text-transform: uppercase;
+    font-family: 'mp-mallory-bold';
+}
+
+nav a{
+
+    color: brand(black);
+}

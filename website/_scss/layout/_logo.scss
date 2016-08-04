@@ -1,3 +1,8 @@
+.logo-container{
+    float: left;
+    width:225px;
+}
+
 .logo {
     margin:10px;
     display: inline-block;
@@ -12,7 +17,7 @@
     outline-offset: 2px;
     transition: background-color 0.3s;
 
-    font-family: Verdana, Helvetica, Arial, sans-serif;
+    // font-family: Verdana, Helvetica, Arial, sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 0.75em;
@@ -26,9 +31,10 @@
 }
 
 .sub-title {
-    font-family: Verdana, Helvetica, Arial, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 0.7em;
-    margin: 1em 0 2em 0;
+    // font-family: Verdana, Helvetica, Arial, sans-serif;
+
+    font-size: size(x-small);
+
+    text-align: center;
+    width: 100%;
 }
