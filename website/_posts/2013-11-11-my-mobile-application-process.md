@@ -138,9 +138,7 @@ Finally, a short note on App stores approval. This is often something that gets 
 
 If you enjoyed this post and found it helpful, you should follow me on <a href="http://www.twitter.com/{{site.author.twitter}}" rel="me" title="Twitter">Twitter</a> where I am happy to chat further.
 
-## The Complete List
-
-### App Guidelines
+## App Guidelines
 - [Android]
 - [iOS7]
 - [Windows Phone]
@@ -148,18 +146,18 @@ If you enjoyed this post and found it helpful, you should follow me on <a href="
 - [Blackberry]
 - [Symbian]
 
-### Misc Productivity &amp; Planning Tools
+## Misc Productivity &amp; Planning Tools
 
 - [Pinboard]
 - [Ember]
 - [Moleskin]
 - [UI Stencils][5]
 
-### Coding Tools
+## Coding Tools
 
 -  [Layervault]
 
-### App Design &amp; Wireframing Tools
+## App Design &amp; Wireframing Tools
 
 -  [Skala Preview]
 -  [Instashare]

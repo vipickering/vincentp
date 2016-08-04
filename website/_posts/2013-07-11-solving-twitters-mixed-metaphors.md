@@ -20,14 +20,14 @@ I guarantee the answers will be mixed, especially if you ask a group of non-tech
 
 Extrapolating this further, let's look at some Use Cases for people pressing the favourite button in its current format and why that might be a bad idea.
 
-### Scenario 1: The Blogger
+## Scenario 1: The Blogger
 
 -  User sees in their stream a series of controversial tweets from someone in the public eye. They disagree with them greatly and want to bookmark them for a blog post later.
 -  The user clicks "favourite" on each tweet.
 
 Clicking "favourite" isn't something that makes sense when you simply want to save something for later, the metaphor breaks down and is confusing, Twitter newbies are often unaware they can save a tweet at all.
 
-### Scenario 2: Public Relations
+## Scenario 2: Public Relations
 
 -  A user is upset with a service and tweets at the company's Twitter account of the product to register their dis-satisfaction while pointing out a problem with the service received.
 -  The Public relations person, responds to the tweet to placate the customer but would also like to bookmark this conversation for future reference, so they "favourite" the tweets.
@@ -50,7 +50,7 @@ In essence, when debate happens opposing views are repeated by opposing parties 
 
 Use Case time!
 
-### Scenario 1: Celebrity Faux Pas
+## Scenario 1: Celebrity Faux Pas
 
 -  Female celebrity X tweets "If you're not size zero, it's time to hit the gym".
 -  Female celebrity x tweets "Double-D's too, seriously girls get some".
@@ -59,7 +59,7 @@ Use Case time!
 
 In this instance, the women's rights group is implying the context of disagreement by who they are, but not everyone may be familiar with their organisation and understand their position unless they read the final tweet back to the celebrity. Re-tweeting isn't implying agreement and context is unclear if all parts of the conversation are missing from a user's stream.
 
-### Scenario 2: The big announcement
+## Scenario 2: The big announcement
 
 -  A popular band announces they are reforming for one last show.
 -  Their followers all re-tweet the announcement.

@@ -1,4 +1,5 @@
-// Normalise
+// Normalise - Vincent P - Bespoke.
+
 * {
     box-sizing: border-box;
 }
@@ -29,8 +30,19 @@ summary {
     display: block;
 }
 
-//  root elements
+cite, em, var, address, dfn{
+    font-style: normal;
+}
 
+//Things to reset
+figure,
+pre,
+blockquote{
+    margin: 0;
+    padding: 0;
+}
+
+//  root elements
 :root {
     line-height: 1.6;
     font-family: 'mp-mallory-book', sans-serif;

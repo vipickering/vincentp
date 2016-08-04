@@ -17,6 +17,7 @@ paginate: 20
 # Site Variables
 name: Vincent Pickering UI/UX Consultant
 url: http://vincentp.me
+version: v6.0
 
 author:
   twitter: vipickering

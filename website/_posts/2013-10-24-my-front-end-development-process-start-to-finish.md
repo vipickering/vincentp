@@ -55,14 +55,14 @@ I am a big fan of [Slicy](http://macrabbit.com/slicy/) and it slots in to my wor
 
 My process to create a website has been honed over some time until I have boiled it down in to a flexible yet robust approach.
 
-### Always Start With The Typography
+## Always Start With The Typography
 99% of the time your website is primarily textual content, it is the cornerstone of your website, so choosing the right typeface can make or break your site. If the project does not have an existing brand I start by listing out the emotional responses the website should make. Once I am satisfied with the list I begin selecting typefaces that match those emotional responses. This stage is the most undefined, deliberately, because over time you begin to understand which typefaces work under what conditions, eventually you will gravitate to 3 or 4 that work under most circumstances (this can take years of working with multiple faces) and fit in with your design sensibilities. I mix and match the typefaces I have chosen until I am happy with the combinations, at the same time I will begin looking at suitable text sizing for body copy, headings and sub-headings. Once I have decided upon those factors the rest slots in to place quite neatly.
 
-### Choose A Scale
+## Choose A Scale
 
 Now we have a rough idea on typefaces and sizing, I pick a scale to unify the design. It's important to maintain as closely as possible to the sizes within the scale so elements don't look out-of-place or proportion. Usually during this period the original sizes selected will change, that's OK. Good design feels out the problem and discovers the true solution, rather than applying a fixed pattern to all. For creating a proportional scale, this can be any 2 numbers related by a ratio. You could select the size of the body copy and width of the website for instance, then use the golden ratio 1.618 to tie them together. If you're new to creating proportional scaling I recommend using Tim Brown's excellent [Modular Scale](http://www.modularscale.com) as a resource. Once you become proficient at this, you might even start creating your own, based on the width of the spacing around the company logo, or the size of a corporate asset that has to be in place on each page. Anything to unify the design styling and typography will make the design feel connected and "just right".
 
-### Define A Colour Scheme
+## Define A Colour Scheme
 
 The type and scale in place defining a colour scheme can also be a tricky thing to get right. Again I follow a similar process to select my type. I refer back to my list of emotional responses and begin creating swatches that I feel match those responses in to two categories:
 
@@ -71,7 +71,7 @@ The type and scale in place defining a colour scheme can also be a tricky thing 
 
 It is then a case of mixing and matching the primary and secondary selections until I have a contrast and mix that feel right. Again this is about feeling your way. If you don't have an existing colour scheme to work from you need to iterate reasonably quickly to a solution but also discover the proper path rather than arbitrary picking your favourite hue, pairing it with a contrasting colour and moving on. You want your work to reflect the content and avoid falling in to the trap of designing websites that all look the same. Respond to your subject matter and content, not your own wants.
 
-### Create The Style Tiles
+## Create The Style Tiles
 
 Once the colour scheme and text have been chosen and the wire-frames done. I create [Style Tiles](http://styletil.es) to iterate very quickly over my chosen selections. This step allows me to try out some of the choices I may have not wholly decided upon during the last few stages of the process. It's a great way to quickly test that all my selections work as a cohesive whole and to try adding or subtracting some of my possible other selections and sanity check my decisions have been correct.
 
@@ -116,13 +116,21 @@ Much has already been written on creating grids so I won't go in to the mechanic
 
 ## There Is No Spoon
 
-A question I am asked quite frequently is: <q>What framework do you use, and what would you recommend?</q>
+A question I am asked quite frequently is:
 
-My answer is something most developers aren't ready to hear: <q>Why would you use a framework for a one-off website?</q>
+> What framework do you use, and what would you recommend?
 
-The reply from the developer then follows the format of: <q>I don't just use it for one website, I use it for all my websites!</q>
+My answer is something most developers aren't ready to hear:
 
-To which I would always respond: <q>How can you make decisions on the approach before understanding the project?</q>
+> Why would you use a framework for a one-off website?
+
+The reply from the developer then follows the format of:
+
+> I don't just use it for one website, I use it for all my websites!
+
+To which I would always respond:
+
+> How can you make decisions on the approach before understanding the project?
 
 At this point, the developer usually thinks I am being awkward and wonders off, which is certainly not the case, more often than not they missed the point I have been making.
 
@@ -152,7 +160,7 @@ If you enjoyed this post and found it helpful, you should follow me on <a href="
 
 ## The Complete List
 
-### Misc Productivity &amp; Planning Tools
+## Misc Productivity &amp; Planning Tools
 
 - [Alfred](http://www.alfredapp.com)
 - [IA Writer](http://www.iawriter.com/mac/)
@@ -164,7 +172,7 @@ If you enjoyed this post and found it helpful, you should follow me on <a href="
 - [Bullet Journal System](http://www.bulletjournal.com)
 - [Wunderlist](https://www.wunderlist.com/en/)
 
-### Coding Tools
+## Coding Tools
 
 -  [Github](http://github.com)
 -  [Github client for OSX](http://mac.github.com)
@@ -177,13 +185,13 @@ If you enjoyed this post and found it helpful, you should follow me on <a href="
 -  [W3C Validators](http://validator.w3.org)
 -  [Soulver](http://www.acqualia.com/soulver/)
 
-### Web Servers and Technologies
+## Web Servers and Technologies
 
 -  [MAMP](http://www.mamp.info/en/index.html)
 -  [Jekyll](http://jekyllrb.com)
 -  [Anvil](http://anvilformac.com)
 
-### Design &amp; Wireframing Tools
+## Design &amp; Wireframing Tools
 
 -  [Adobe Creative Cloud](http://www.adobe.com/uk/products/creativecloud.html)
 -  [Keynote](http://www.apple.com/uk/iwork/keynote/)

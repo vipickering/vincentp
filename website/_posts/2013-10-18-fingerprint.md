@@ -9,7 +9,7 @@ For most of my life, I have had a small personal obsession over influencing the 
 
 This obsession has recently manifested itself in a small proof of concept project I like to call Fingerprint.
 
-### There Is Only One Of You
+## There Is Only One Of You
 
 Fingerprint was born from a passing thought I had one day while designing a login interface.
 
@@ -19,7 +19,7 @@ As the thought expanded in my mind, I realised this is something that could go f
 
 > When a user enters data in to your website or app they are feeding you information unique to their account, it's creating a digital legacy unique to them, so why not begin to shape the interface around that input?
 
-### Leaving Your Mark
+## Leaving Your Mark
 
 Fingerprint demonstrates the basic idea. It takes two strings, in this case your first and last name, but you can input anything (try it out!). It then turns each strings in to an MD5 hash.
 These hashes are then used in various ways to generate:
@@ -31,7 +31,7 @@ These hashes are then used in various ways to generate:
 
 I find it quite addictive trying out various combinations and seeing how they look at a website. As a proof of concept, it encapsulates the reactive interface idea quite well, obviously for a customer facing site you could take it further: make the grid responsive, make the colour schemes more diverse, make the algorithm more complex and add more features.
 
-### Reactive Interfaces
+## Reactive Interfaces
 
 At a basic level we can use user data to shape branding, logos, typography and layout to make an experience unique to each user. Taking this idea further you can begin to evolve the interface as more data is collected. Time has elapsed or perhaps other services are connected to the account to shape it further.
 
