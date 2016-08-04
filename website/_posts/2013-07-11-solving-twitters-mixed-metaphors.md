@@ -20,14 +20,14 @@ I guarantee the answers will be mixed, especially if you ask a group of non-tech
 
 Extrapolating this further, let's look at some Use Cases for people pressing the favourite button in its current format and why that might be a bad idea.
 
-###Scenario 1: The Blogger
+### Scenario 1: The Blogger
 
 -  User sees in their stream a series of controversial tweets from someone in the public eye. They disagree with them greatly and want to bookmark them for a blog post later.
 -  The user clicks "favourite" on each tweet.
 
 Clicking "favourite" isn't something that makes sense when you simply want to save something for later, the metaphor breaks down and is confusing, Twitter newbies are often unaware they can save a tweet at all.
 
-###Scenario 2: Public Relations
+### Scenario 2: Public Relations
 
 -  A user is upset with a service and tweets at the company's Twitter account of the product to register their dis-satisfaction while pointing out a problem with the service received.
 -  The Public relations person, responds to the tweet to placate the customer but would also like to bookmark this conversation for future reference, so they "favourite" the tweets.
@@ -50,7 +50,7 @@ In essence, when debate happens opposing views are repeated by opposing parties 
 
 Use Case time!
 
-###Scenario 1: Celebrity Faux Pas
+### Scenario 1: Celebrity Faux Pas
 
 -  Female celebrity X tweets "If you're not size zero, it's time to hit the gym".
 -  Female celebrity x tweets "Double-D's too, seriously girls get some".
@@ -59,7 +59,7 @@ Use Case time!
 
 In this instance, the women's rights group is implying the context of disagreement by who they are, but not everyone may be familiar with their organisation and understand their position unless they read the final tweet back to the celebrity. Re-tweeting isn't implying agreement and context is unclear if all parts of the conversation are missing from a user's stream.
 
-###Scenario 2: The big announcement
+### Scenario 2: The big announcement
 
 -  A popular band announces they are reforming for one last show.
 -  Their followers all re-tweet the announcement.
@@ -87,7 +87,7 @@ OK, so now we have our bookmark link <sup><a href="#point1" class="reference--nu
 
 Firstly we need to change the use of the term favourite, even with a bookmark link it is still an ambiguous word <sup><a href="#point2" class="reference--number">2</a></sup>. It's also worth bearing in mind that in order to add context to a re-tweet we will also need an opposite button.
 
-##Enter "Sentiment" buttons.
+## Enter "Sentiment" buttons.
 
 I mulled over the terms for these buttons for quite some time before arriving at these options. In the context of Twitter we want to show our feelings without causing offence. Conversation is a two way street and introducing terminology that punishes or isolates people's opinions will only push those opinions somewhere else. Encouraging discussion moves society forward and that's the positive we want from this.
 

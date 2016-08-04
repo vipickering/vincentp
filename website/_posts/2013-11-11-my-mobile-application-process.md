@@ -9,7 +9,7 @@ Intended as a companion piece to my previous post on my front-end process, this 
 
 Unlike many App designers, I do not focus exclusively on iOS and have created Apps in the past for multiple platforms and designed some Apps to work across many platforms. This type of App design presents many different challenges you may not be familiar with, which can become especially complex when focusing on mobile Apps and their different interaction methods, App store submission processes, resolution sizes or when you have to design an App that must support multiple platforms.
 
-##Don't Guess, Actually Use The Platforms
+## Don't Guess, Actually Use The Platforms
 The majority of designers tend to use either an iPhone or Android for their daily life and whatever is your platform of choice you would be reasonably comfortable if tasked to design an App on that device, and while there is some overlap between Android and iPhone, what about a Symbian or a Blackberry? What about being asked to design a desktop App for Windows 8?
 
 Not only are each of the interaction models different between these platforms they have their own quirks and nuances, its second nature for an iPhone user to double tap the home button and close an App running in the background, but a Windows Phone user designing on iPhone may not know this.
@@ -24,7 +24,7 @@ On a related note, it's commonplace for designers to laugh at platforms other th
 
 I've designed Apps in the past before on Symbian that have outperformed Apps on iPhone and Android in download numbers simply because Symbian is huge in lower income countries like India and the number of great Apps to download are far more limited. In a sea of great iOS and Android Apps you have to be exceptional to get noticed and even then the App may not get much use due to all the choice available to the user. If there are only a few good ones, not only will you get larger download numbers but the App itself will be more frequently used, a double win.
 
-##Mobile Apps
+## Mobile Apps
 Mobile Apps are a bit more complicated to assemble effectively, not only do you have to decide on navigation within the App screen layout and the user state(s) you also have to think about external factors interacting with the device. Mobile phones have a wealth of peripheral sensors that can give you incredibly interesting data, especially when you use them in an unexpected way.
 
 Bringing harmony and order to this initial chaos is the part I enjoy most in the App design process, feeling the way through to the solution that seems just right. I start by listing my success criteria, in the form of:
@@ -36,10 +36,10 @@ I then break them down further in to User Stories and Use Cases. It's important 
 
 > When your spending someone else's money make sure you can pay them back
 
-##Be Flexible In Your Approach
+## Be Flexible In Your Approach
 After I have assembled the Use Cases my approach to design the App is flexible based on the platform(s) it will need to support, so I'll expand each approach and its reasoning individually.
 
-##Single Platform Apps
+## Single Platform Apps
 Single platform Apps are probably what you are most familiar with and the most popular. They not only allow you to focus on only one platforms challenge and quirks but give you a much wider set of goalposts to aim for.
 
 I favour a rapid design approach. App design yields far better results when you actually use the software and test it in a real world scenario. There is something special that happens when you physically hold the design in your hand not only do you learn very quickly what is working and not working for yourself and other users but it can help you discover additional functionality or a new direction in your design you may not have considered.
@@ -100,7 +100,7 @@ So to recap, now we have:
 
 It may seem like a lot of work upfront, but it's amazing how much time is lost or spent with developers having to make their own decisions on how to implement something poorly defined or asking for guidance from the client. These "on the hoof" decisions often miss out something or fail to take things in to consideration, leading to a larger bug fixing stage or a disconnect between the initial App design, wire-frames and the finished product. You want to allow the developer to get on developing the App and writing code, when a designer has no content they are the first person to complain it's holding up the process, so treat developers fairly and give them everything they need to do their job too.
 
-##Multi-platform Apps
+## Multi-platform Apps
 
 Building Apps that span more than one platform is quite an extensive problem when you are tasked with making them. The initial problem is that the user flows and UX on each device will be different meaning you have to take these in to account when you design the initial App UX. Given that money is always limited and time is especially limited, depending upon the type of platforms you have to support you are left with 3 approaches:
 
@@ -120,7 +120,7 @@ Once you have your split, apply the native controls and interface to the low pow
 
 For high powered devices, I would craft a bespoke interface that will work across all the high powered devices. This way you are boiling down a highly complex design and UX task in to 2 smaller jobs. A fancy posh UI and a lower grade functional one.
 
-##Native or HTML?
+## Native or HTML?
 
 The eternal debate roles on over which is better, personally I am not going to try and tell you which you should develop on, however what I can tell you is that in my own experience I have seen the following:
 
@@ -128,19 +128,19 @@ I have worked with clients that have created HTML Apps under the idea it is writ
 
 That said, its easier to find a few JavaScript developers and have them all be familiar with one code-base so they can do any task than have individual programmers for each discipline and be heavily dependant upon them to all deliver the same consistent quality on each device. Weigh up the pro's and cons for what you want to achieve and most definitely check before starting that the HTML approach supports the hardware functionality you need if you want to do it that way.
 
-##Design Debugging
+## Design Debugging
 
 When it comes to debugging design issues further down the line, I utilize a combination of [Dropbox] and [Instashare] to take screenshots and share them for comparison between designs and the finished product.
 
-##App Store Submission
+## App Store Submission
 
 Finally, a short note on App stores approval. This is often something that gets overlooked until then end of the process, but I encourage you to make this one of the first things to research and plan. The main reason behind this is that each platform has a slightly different App approval process, for example if you are creating an App for Symbian or Windows Phone you must submit all your design documentation for sign-off by Microsoft/Nokia before submitting your final App code, where they will request changes should you not be following the design interaction guidelines, it catches a lot of designers out. Make sure you know at the start of the process what you must deliver at what time and things will run a lot more smoothly for all involved.
 
 If you enjoyed this post and found it helpful, you should follow me on <a href="http://www.twitter.com/{{site.author.twitter}}" rel="me" title="Twitter">Twitter</a> where I am happy to chat further.
 
-##The Complete List
+## The Complete List
 
-###App Guidelines
+### App Guidelines
 - [Android]
 - [iOS7]
 - [Windows Phone]
@@ -148,18 +148,18 @@ If you enjoyed this post and found it helpful, you should follow me on <a href="
 - [Blackberry]
 - [Symbian]
 
-###Misc Productivity &amp; Planning Tools
+### Misc Productivity &amp; Planning Tools
 
 - [Pinboard]
 - [Ember]
 - [Moleskin]
 - [UI Stencils][5]
 
-###Coding Tools
+### Coding Tools
 
 -  [Layervault]
 
-###App Design &amp; Wireframing Tools
+### App Design &amp; Wireframing Tools
 
 -  [Skala Preview]
 -  [Instashare]

@@ -7,27 +7,39 @@ meta: An overview of my web development tools and processes I use on a daily bas
 
 I'm a productivity fiend, and constantly hone my process to suit my needs. To that end, increasingly, I have become more of a keyboard jockey and tools that allow me to continue using the keyboard rather than reaching for the mouse allow me to stay in the flow and keep my thought pattern uninterrupted.
 
-##Productivity
+## Productivity
 
 A while back my good friend (and excellent designer) [Paul Bamford](https://twitter.com/the_pgb) introduced me to [Alfred](http://www.alfredapp.com). It has become a cornerstone of my work flow. [Alfred](http://www.alfredapp.com) allows you to set-up a shortcut key and just type the name of the "thing" you want to do and hit enter. It's effortless and amazing.
 
 Need to launch an application?
 
-Hit the short-cut <code>Alt + Space</code> type the name, hit enter done. The mental processing this saves while working is worth the price alone. There is nothing worse than stopping mid-flow to spend 10 minutes hunting for **that** file you can't remember where you put.
+Hit the short-cut
+
+{% highlight c %}
+Alt + Space
+{% endhighlight %}
+
+type the name, hit enter done. The mental processing this saves while working is worth the price alone. There is nothing worse than stopping mid-flow to spend 10 minutes hunting for **that** file you can't remember where you put.
 
 On the topic of being productive, I keep my thoughts ordered and on top of the TODO list with my trusty [Moleskin](http://www.moleskine.com/gb/collections/model/product/squared-soft-notebook-extra-large) and the [Bullet Journal System](http://www.bulletjournal.com). When it comes to an organised system of getting things done an analogue approach has always fit best with my work-flow. Digital systems have always fallen down for me because when I am at a computer there are so many other things competing for my attention and using the system is nearly always dependant upon the Internet. Both point of failure that can and will happen when simply trying to take some quick notes. I also feel (personally) if you sit at a laptop in a meeting with a client or colleague and take notes on it, it gives the impression you are not paying attention. On the other hand clients welcome you taking notes in your moleskin and are pleased that you are paying attention and taking notes. I suppose because a notebook is very open and obvious to all what you are doing but a laptop isn't always so clear, you only need to be sat opposite a client with your laptop and you have created a physical barrier between yourself and the client along with writing words the client can't see, you could in theory be writing **anything** which puts them on edge.
 
-##Inspiration and Resource Gathering
+## Inspiration and Resource Gathering
 
 When it comes to resource gathering I use a combination of mobile and desktop tools. For iPhone, [Feedly](http://cloud.feedly.com) is my <abbr title="Really Simple Syndication">RSS</abbr> reader of choice, which I combine with [Prismatic](http://getprismatic.com) to discover new and interesting content, interesting feeds are then rolled back in to my [Feedly](http://cloud.feedly.com) stream. It's a good cyclical process that keeps my reading content board, and yet focused, and avoids the creative tunnel vision that can happen, when you just rely on one source of information. Anything that piques my interest in particular is sent to my [Pinboard](https://pinboard.in/u:monkeymajiks/) account, where I store blog posts, resources, information and anything that interest me. I augment this when on my laptop / desktop with [Shiori](http://aki-null.net/shiori/), which is a fantastic front-end interface to [Pinboard](http://pinboard.in) and works in much the same way as [Alfred](http://www.alfredapp.com).
 
 In terms of visual inspiration, in the past I have tried Zootool, Iceber.gs and many other visual bookmarking services. All the web based solutions ended up suffering from the same problem, as your library starts to get quite large the service would become slower and slower. I can add quite a few images each day to my stream, so web based services were not ideal for my needs. Eventually I settled on [Ember](http://realmacsoftware.com/ember). Its combination of screen capture, <abbr title="Really Simple Syndication">RSS</abbr> feed reader (Where I store all my visual <abbr title="Really Simple Syndication">RSS</abbr> feeds) and image catalogue are ideal.
 
-##Blogging Tools
+## Blogging Tools
 
-Preferring to spend down time when travelling doing something productive, (on a crowded train, sometimes it's not practical to get the laptop out and start blogging) I like to use writing software that is not device dependant and can always access my content. Given that I use [Jekyll](http://jekyllrb.com) for the blog, the ability to write &amp; save the text in [Markdown](http://daringfireball.net/projects/markdown/) is a big plus. To that end [IA Writer](http://www.iawriter.com/mac/) is usually my tool of choice. In actual fact, I do the initial write-up and first pass to every blog post in [IA Writer](http://www.iawriter.com/mac/). Once it is complete, I move the post in to [Sublime Text](http://www.sublimetext.com), switch to Full Screen Distraction Mode <code>Alt + Cntrl + Shift + F</code> and add the YAML data before doing my final pass and edit.
+Preferring to spend down time when travelling doing something productive, (on a crowded train, sometimes it's not practical to get the laptop out and start blogging) I like to use writing software that is not device dependant and can always access my content. Given that I use [Jekyll](http://jekyllrb.com) for the blog, the ability to write &amp; save the text in [Markdown](http://daringfireball.net/projects/markdown/) is a big plus. To that end [IA Writer](http://www.iawriter.com/mac/) is usually my tool of choice. In actual fact, I do the initial write-up and first pass to every blog post in [IA Writer](http://www.iawriter.com/mac/). Once it is complete, I move the post in to [Sublime Text](http://www.sublimetext.com), switch to Full Screen Distraction Mode
 
-##Wireframing Websites
+{% highlight c %}
+Alt + Cntrl + Shift + F
+{% endhighlight %}
+
+and add the YAML data before doing my final pass and edit.
+
+## Wireframing Websites
 
 When it comes to designing websites I have been refining my process over quite a few years. My aim is always to answer the brief given, its important to me not to<br/>re-invent the wheel, you only have a finite resource to spend on most projects so the key is to use your time in the most efficient approach. Iterating over various solutions quickly using pencil and paper yields results quickly. I try to lock myself away somewhere (so I can't be disturbed). Turn off the iPhone, set 1 hour on my stopwatch and begin. It may seem a little odd, but over the years I have learnt that I perform well under pressure, it helps my brain focus in on what really matters. The other 'fun' but ultimately timely endeavours that may have distracted me in the past gets purposely relegated to when I have time left over in the project and don't cause the project delivery to suffer. This also permits the initial delivery to really focus in on the core of the idea. Remember a project is usually a moving target and subject to change, ultimately ideas will always evolve in the clients mind (and once it's been delivered to the public) taking you further from the agreed deliverables, so it is best not to try and dazzle them with other possibilities at this stage.
 
@@ -35,7 +47,7 @@ I create a mood-board in [Ember](http://realmacsoftware.com/ember) and collect m
 
 Once the wire frames and site-map are complete. I use [Keynote](http://www.apple.com/uk/iwork/keynote/) to quickly create them. Keynote is such an unbelievably intelligent piece of software to create mock-ups and prototypes in. It also affords a large amount of control over fidelity. Certain clients will not be happy with a Balsamiq hand drawn approach. Others will want to see a stripped back minimal pass for fear of spending money on going to far the wrong way. Keynote allows you to add a layer styling rapidly using the copy &amp; paste styling meaning you can go from boxes on a page to full fidelity wire frame minutes.
 
-##Designing  Websites
+## Designing  Websites
 
 With the wire frames and site-map agreed I move on to creating the designs. My tool of choice is still Photoshop. I have tried many other tools in the hope of replacing it someday and it's never felt the perfect tool to design websites. The closest alternative is [Pixelmator](http://www.pixelmator.com) which is closing in on Photoshop's feature set fast. In recent times, it's clear Adobe has realised they may no longer be the only software choice and have begun upping their game adding quite a few features to keep web designers happy, in particular the server and asset generation tools.
 
@@ -43,14 +55,14 @@ I am a big fan of [Slicy](http://macrabbit.com/slicy/) and it slots in to my wor
 
 My process to create a website has been honed over some time until I have boiled it down in to a flexible yet robust approach.
 
-###Always Start With The Typography
+### Always Start With The Typography
 99% of the time your website is primarily textual content, it is the cornerstone of your website, so choosing the right typeface can make or break your site. If the project does not have an existing brand I start by listing out the emotional responses the website should make. Once I am satisfied with the list I begin selecting typefaces that match those emotional responses. This stage is the most undefined, deliberately, because over time you begin to understand which typefaces work under what conditions, eventually you will gravitate to 3 or 4 that work under most circumstances (this can take years of working with multiple faces) and fit in with your design sensibilities. I mix and match the typefaces I have chosen until I am happy with the combinations, at the same time I will begin looking at suitable text sizing for body copy, headings and sub-headings. Once I have decided upon those factors the rest slots in to place quite neatly.
 
-###Choose A Scale
+### Choose A Scale
 
 Now we have a rough idea on typefaces and sizing, I pick a scale to unify the design. It's important to maintain as closely as possible to the sizes within the scale so elements don't look out-of-place or proportion. Usually during this period the original sizes selected will change, that's OK. Good design feels out the problem and discovers the true solution, rather than applying a fixed pattern to all. For creating a proportional scale, this can be any 2 numbers related by a ratio. You could select the size of the body copy and width of the website for instance, then use the golden ratio 1.618 to tie them together. If you're new to creating proportional scaling I recommend using Tim Brown's excellent [Modular Scale](http://www.modularscale.com) as a resource. Once you become proficient at this, you might even start creating your own, based on the width of the spacing around the company logo, or the size of a corporate asset that has to be in place on each page. Anything to unify the design styling and typography will make the design feel connected and "just right".
 
-###Define A Colour Scheme
+### Define A Colour Scheme
 
 The type and scale in place defining a colour scheme can also be a tricky thing to get right. Again I follow a similar process to select my type. I refer back to my list of emotional responses and begin creating swatches that I feel match those responses in to two categories:
 
@@ -59,13 +71,13 @@ The type and scale in place defining a colour scheme can also be a tricky thing 
 
 It is then a case of mixing and matching the primary and secondary selections until I have a contrast and mix that feel right. Again this is about feeling your way. If you don't have an existing colour scheme to work from you need to iterate reasonably quickly to a solution but also discover the proper path rather than arbitrary picking your favourite hue, pairing it with a contrasting colour and moving on. You want your work to reflect the content and avoid falling in to the trap of designing websites that all look the same. Respond to your subject matter and content, not your own wants.
 
-###Create The Style Tiles
+### Create The Style Tiles
 
 Once the colour scheme and text have been chosen and the wire-frames done. I create [Style Tiles](http://styletil.es) to iterate very quickly over my chosen selections. This step allows me to try out some of the choices I may have not wholly decided upon during the last few stages of the process. It's a great way to quickly test that all my selections work as a cohesive whole and to try adding or subtracting some of my possible other selections and sanity check my decisions have been correct.
 
 At this point, I usually make 3 selections that I prefer and show them to the client. This is a great way to get feedback and correct anything in the process where my opinion and the clients have differed. It's important to remember that as a designer you have been on a huge path of discovery up to this point, rejecting inferior ideas for superior ones. Your client on the other hand has not been on the same journey. Before you travel too far down the path on your own you need to ensure you are both on the same page. Using style tiles is a good approach because its still throwaway if you have got it wrong or your opinions differ to much but it is far less effort than mocking up individual pages to perfection and iterating endlessly upon those, which is often where the most time is lost on a project.
 
-##Coding Websites
+## Coding Websites
 
 Finally, creating the <abbr title="Hyper Text Markup Language">HTML</abbr>, <abbr title="Cascading Style Sheets">CSS</abbr> and JavaScript. Hand coding is essential, for production ready professional code and the best tool to create that is [Sublime Text](http://www.sublimetext.com). It's hands down the fastest and most feature rich tool to code in and has a huge variety of configurable options. [I wrote about my Sublime Text set-up here](http://vincentp.me/blog/sublime-text-setup/).
 
@@ -102,7 +114,7 @@ Once widgets are complete I create my typographic grid. To speed up the grid mat
 
 Much has already been written on creating grids so I won't go in to the mechanics of creating the actual <abbr title="Hyper Text Markup Language">HTML</abbr> &amp; <abbr title="Cascading Style Sheets">CSS</abbr> for the grid. When creating my grid, I always create my own preferring not to rely on other people's solutions. The reasoning behind this is that just like everything else in the creation I want it to be tied to the scale I am working from, getting the grid right is the final piece to getting things looking balanced to the eye. That said, there is a rather dogmatic approach prevalent in web design at the moment over sticking to the grid without deviation, this is not recommended advice to follow in my opinion. Breaking from your grid can create tension, excitement and interest. The trick is learning when to do this and not to do it constantly without good reason or you risk losing the harmony in the design.
 
-##There Is No Spoon
+## There Is No Spoon
 
 A question I am asked quite frequently is: <q>What framework do you use, and what would you recommend?</q>
 
@@ -126,7 +138,7 @@ That is not to say frameworks are without merit or not worth pursuing. Framework
 
 So what do I use? When setting out on a large scale website or application project I usually create my own framework with the other developers based on someone else's existing work, or we start from scratch, depending upon the requirements. However, for day-to-day smaller projects I don't use a framework at all. I use a *tool kit*.
 
-##Fit For Purpose
+## Fit For Purpose
 My mantra for the last few years has been not to outwardly dismiss ideas, techniques and approaches but to carefully consider each when presented and try to understand if it is fit for my purpose. If it is not correct I look for another way. While in this mindset it became evident that over time when starting out each new project's design process phase that I would be thinking ahead about how it would integrate with my existing code framework rather than focussing on being creative and solving the problem completely. I was slowly twisting decisions I had been taking based on previous projects outcomes, which in hindsight was pretty daft.
 
 To correct this I adopted a different direction, I took the components that re-occur in every project, the clearfix <abbr title="Cascading Style Sheets">CSS</abbr>, the <abbr title="Syntactically Awesome Stylesheets">SASS</abbr> grid equations etc and created a tool kit of flexible stubs. The key here is not to go too far, you want to provide launching pads to begin coding and not a complete solution that's ready to go, you want to provide as much flexibility as possible without making any design decisions.
@@ -138,9 +150,9 @@ If you enjoyed this post and found it helpful, you should follow me on <a href="
 <p class="updateHighlight"><strong>Update:</strong> I should point out that all my development is done on a Mac</p>
 
 
-##The Complete List
+## The Complete List
 
-###Misc Productivity &amp; Planning Tools
+### Misc Productivity &amp; Planning Tools
 
 - [Alfred](http://www.alfredapp.com)
 - [IA Writer](http://www.iawriter.com/mac/)
@@ -152,7 +164,7 @@ If you enjoyed this post and found it helpful, you should follow me on <a href="
 - [Bullet Journal System](http://www.bulletjournal.com)
 - [Wunderlist](https://www.wunderlist.com/en/)
 
-###Coding Tools
+### Coding Tools
 
 -  [Github](http://github.com)
 -  [Github client for OSX](http://mac.github.com)
@@ -165,13 +177,13 @@ If you enjoyed this post and found it helpful, you should follow me on <a href="
 -  [W3C Validators](http://validator.w3.org)
 -  [Soulver](http://www.acqualia.com/soulver/)
 
-###Web Servers and Technologies
+### Web Servers and Technologies
 
 -  [MAMP](http://www.mamp.info/en/index.html)
 -  [Jekyll](http://jekyllrb.com)
 -  [Anvil](http://anvilformac.com)
 
-###Design &amp; Wireframing Tools
+### Design &amp; Wireframing Tools
 
 -  [Adobe Creative Cloud](http://www.adobe.com/uk/products/creativecloud.html)
 -  [Keynote](http://www.apple.com/uk/iwork/keynote/)

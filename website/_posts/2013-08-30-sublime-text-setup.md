@@ -7,7 +7,7 @@ meta: My personal set-up for Sublime Text 2
 
 My personal set-up for <a href="http://www.sublimetext.com">Sublime Text 2</a>.
 
-##Preferences
+## Preferences
 
 I have to hot desk a lot and move around. I can't always guarantee I will be on a Mac or PC, so I have stored my preferences on [this Gist](https://gist.github.com/vipickering/6375327).
 
@@ -88,10 +88,15 @@ The second line increases the scrolling speed a touch, I am impatient.
   "scroll_speed": 2,
 {% endhighlight %}
 
-To update your user preferences to use the elements you like go to: <code>Preferences -> Settings - User</code>
+To update your user preferences to use the elements you like go to:
+
+{% highlight c %}
+  Preferences -> Settings -> User
+{% endhighlight %}
+
 and paste the code from the gist. Remember, your user preferences don't override the defaults so you should never break anything.
 
-##My Installed Packages
+## My Installed Packages
 [Install Package Control](https://sublime.wbond.net/installation), **then add the following:**
 
 -  [AdvancedNewFile](https://github.com/skuroda/Sublime-AdvancedNewFile)
@@ -111,40 +116,59 @@ and paste the code from the gist. Remember, your user preferences don't override
 -  [Bracket Highlighter](https://github.com/facelessuser/BracketHighlighter)
 -  [Function Name Display](https://github.com/akrabat/SublimeFunctionNameDisplay)
 
-##Code Short-cut Reminders (OSX)
+## Code Short-cut Reminders (OSX)
 
-Search DOM really quickly: <code>Cntrl+p type "@"</code>
+Search DOM really quickly:
 
-Go to Line number: <code>Cntrl+g is a short cut for typing Cntrl+p -> type ":"</code>
+{% highlight c %}
+Cntrl+p type "@"
+{% endhighlight %}
 
-##Code Specific Settings
+Go to Line number:
+
+{% highlight c %}
+Cntrl+g is a short cut for typing Cntrl+p -> type ":"
+{% endhighlight %}
+
+## Code Specific Settings
 To set-up a code specific file in sublime open the type of file you want to edit (e.g. for a Stylesheet open a .css file) then go to Sublime Text 2 menu:
 
-<code>Preferences -> Settings - More -> Syntax Specific - User</code>
+{% highlight c %}
+Preferences -> Settings - More -> Syntax Specific - User
+{% endhighlight %}
 
 This will then be the file for the selected syntax ONLY. Otherwise it defaults to your preferences file.
 
-##Markdown Settings
+## Markdown Settings
 
 For Markdown and Multi Markdown files I use the following Gists:
 
 -  [Markdown](https://gist.github.com/vipickering/6672778)
 -  [MultiMarkdown](https://gist.github.com/vipickering/6672771)
 
-##Maintaining Code Consistency
+## Maintaining Code Consistency
 
 My configuration file for CSS Comb is [here](https://gist.github.com/vipickering/6582514). I tend to order my files by most frequently edited properties grouped together near the start and less used near the end. My reasoning for this is that errors are usually spotted very quickly.
 
-##Projects Set-up
+## Projects Set-up
 Because I can be working on multiple machines with different machine names I don't like to include the project or workspace files in a git commit, so I exclude them to avoid polluting someone else's set-up.
 
 Projects are super simple to set up there are multiple methods, but my preferred method is to drag the project folder on to the Sublime Text icon in the dock, this should open up the project in the side bar.
 
-I then go to: <code>Project -> Save Project As..</code>
+I then go to:
+
+{% highlight c %}
+Project -> Save Project As..
+{% endhighlight %}
 
 Type a name and save the project files in the root of the project.
 
-To switch projects really fast press: <code>Cntrl+Alt+p</code>
+To switch projects really fast press:
+
+{% highlight c %}
+Cntrl+Alt+p
+{% endhighlight %}
+
 <p class="updateHighlight"><strong>Updated:</strong> 4th September to include code short-cuts, project information and more process information.<br/><strong>Updated:</strong> 23rd October to include additional packages.</p>
 
 
