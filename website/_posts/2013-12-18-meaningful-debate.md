@@ -35,22 +35,23 @@ Dr Paul Pangaro uses the acronym **C-L-E-A-T** which is broken down in to these 
 
 Let's just recap over those:
 
-### Context
+## Context
 When you strike up a conversation you need to understand the receiver's context. If your friend was in a meeting, and you gave them a call they would probably not pick up, because at this precise point in time your conversation isn't applicable to them. Both participants need to share the same context for a meaningful conversation to take place.
 
-### Shared Language
+## Shared Language
 Conversation participants need to both speak the same language. This doesn't just equate to a spoken language like English, French or German, but is also related to the way you think about the world. For example, when you send a message or speak with a friend you already infer some context because you understand their sense of humour or position on the topic to be discussed before beginning the conversation, a complete stranger does not bring with them this shared language so you have to establish a baseline.
 
-### Exchange or Engagement
+## Exchange or Engagement
 You have to have an exchange or be engaged in what the other person is saying in order for the conversation to be meaningful. If one of the participants is dismissive of what is being said, or not paying attention then the conversation quality degrades.
 
-### Agreement
+## Agreement
 A productive conversation ends with you agreeing on something, even if that point is to agree to disagree.
 
-### Action or Transaction
+## Action or Transaction
 The conversation should end by deciding between the participants on an agreed action.
 
 ## Sorry I'm Not That Sentimental
+
 When we break down the 1 to many conversation a speaker initiates like this we can quickly identify that the speaker and the audience share context, but when attendees cite:
 
 >  “&hellip;The content or the interaction<br/>could have been better in some way”.
@@ -73,7 +74,7 @@ If we are to truly have great speaking events, then we should never be openly di
 
 So now we have a better understanding of what is happening when we stand and speak in-front of a crowd who can we actually improve the experience?
 
-### Interference On The Line
+## Interference On The Line
 
 One of the key reasons why audience members can feel disconnected lands at the feet of the event organisers. It has become quite common these days for events to feature a wide range of speakers from several disciplines. The economic theory behind this is sound. If you cover various topics at your event then you can attract the widest audience, but when I see these events I often question to myself.
 
@@ -89,7 +90,7 @@ Surely it would be better to ensure when creating a conference that it is for a 
 
 Selecting a group of speakers around a shared set of problems to solve, will encourage like minded attendees, this massively reduces the issues around a shared language vocabulary, it promotes great thinking in a particular field and focuses the debate on real issues to solve. We can achieve a lot in a short space of time by saying very little. But when we talk about everything at once the problems are too vast and we end up saying nothing at all.
 
-### Not Every Problem Is A Square Peg
+## Not Every Problem Is A Square Peg
 
 The second problem I have identified is the ordinary speaker format. When a speaker gives a talk on a particular viewpoint it is nearly always a fixed time slot of an hour. This works neatly in to a schedule and package to sell to the public, but not every point needs an hour to be raised and framed. It's been my observation over the years that when brief points are raised, at smaller speaker events, say under 30 minutes, that the audience is far quicker to offer opinion and strike up a conversation after the event than an hour long talk. I think this stems from the amount of information needed to digest and form a cohesive response. When information is fed to us in bite sized portions we are able to process it quicker and draw conclusions based on our existing knowledge. It seems imposing such a long period of time causes the speaker not to focus in on the key issues that are important to their point and as a result introduces many ideas in the talk duration where audience members can get lost or fall behind the discussion.
 
@@ -97,7 +98,7 @@ Rapid prototyping has become the standard way to try out ideas and test ideas. I
 
 Smaller bite-sized tasks follow the same principle, get smaller ideas out there and get feedback quicker. Smaller ideas can be easily shaped and expanded in to much greater theories and solutions as more people join the discussion.
 
-### One Talk Is Not A Debate
+## One Talk Is Not A Debate
 
 Following on from the thought that 1 hour long talks are not always the most constructive way to begin a discussion, we also need to consider that many discussions need to be had to arrive at a satisfactory conclusion. Layers of conversation are how humans come to accept things in the world, it's our model for sharing knowledge and agreeing on things, weeding out the bad ideas and seeing what's left standing.
 

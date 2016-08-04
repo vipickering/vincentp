@@ -5,7 +5,7 @@ date: 2013-11-11
 meta: An overview of my mobile App tools and processes used on a daily basis from start to finish.
 ---
 
-Intended as a companion piece to my previous post on my front-end process, this post discusses my App design processes, there is some overlap so I recommend if you enjoy reading this post you should also [check out][2] the other one.
+Intended as a companion piece to my previous post on my front-end process, this post discusses my App design processes, there is some overlap so I recommend if you enjoy reading this post you should also [check out](2) the other one.
 
 Unlike many App designers, I do not focus exclusively on iOS and have created Apps in the past for multiple platforms and designed some Apps to work across many platforms. This type of App design presents many different challenges you may not be familiar with, which can become especially complex when focusing on mobile Apps and their different interaction methods, App store submission processes, resolution sizes or when you have to design an App that must support multiple platforms.
 
@@ -51,7 +51,7 @@ So to this end, I start with an blank notebook and quickly begin sketching label
 <img src="/images/blog/2013-11-11/ui-stencil.jpg" width="612" alt="An image of a UI Stencil next to some wireframes"/>
 </figure>
 
-Once I have something I am roughly OK with, I begin to add more fidelity using a [UI Stencil][5] they are a great way to focus on a higher fidelity mock-up and not get too distracted by the look and feel but at the same time keeping it neat and fast to draw.
+Once I have something I am roughly OK with, I begin to add more fidelity using a [UI Stencil](5) they are a great way to focus on a higher fidelity mock-up and not get too distracted by the look and feel but at the same time keeping it neat and fast to draw.
 
 I map out the screens one at a time until I think I have them all, then at this point I create an information map. An information map is like a site-map mashed up with a functional diagram, it's a great way to map out key functions in Apps. Depending upon the complexity of the App you can map out individual Use Case routes or display all the key routes on one diagram.
 
@@ -71,22 +71,22 @@ I create a Functional Specification document. Building software of any type is c
 
 I have tried many ways in the past to manage this document and this largely depends upon the client, some prefer an on-line version, others prefer a Word document, the important point to note is that the client needs to actually interact with the document or the process falls down so I keep mine in markdown and convert to the format I need depending upon the clients wishes.
 
-Building a functional specification document can be daunting if you haven't done it before, so I have made available in markdown [my functional specification boilerplate][4] for you to use in your App creation as a starting point, remember the great thing about markdown is you can covert it to pretty much anything.
+Building a functional specification document can be daunting if you haven't done it before, so I have made available in markdown [my functional specification boilerplate](4) for you to use in your App creation as a starting point, remember the great thing about markdown is you can covert it to pretty much anything.
 
 <figure>
 <figcaption>Blueprint, my rapid prototyping objects for keynote</figcaption>
 <img src="/images/blog/2013-11-11/blueprint.jpg"  width="612" alt="a screen shot of my rapid prototyping software Blueprint"/>
 </figure>
 
-Now comes the fun part, I take the Information Map with the sketched wire-frames and re-create them in [Keynote] using [my Blueprint rapid prototyping framework][3]. This allows me to very quickly make high fidelity wire-frames. I then export the screens to [Flinto] and link them up to test. This is a very powerful and prominent part of the process, not only can you iterate very quickly and discover mistakes, dead-end ideas and things you got wrong. It's a great touchstone point with your client. Once you have teased out the large bugs and clangers, get the prototype in the client's hand early on, get them playing with it, excited about the App and their feedback on your direction, choices etc.
+Now comes the fun part, I take the Information Map with the sketched wire-frames and re-create them in [Keynote] using [my Blueprint rapid prototyping framework](3). This allows me to very quickly make high fidelity wire-frames. I then export the screens to [Flinto] and link them up to test. This is a very powerful and prominent part of the process, not only can you iterate very quickly and discover mistakes, dead-end ideas and things you got wrong. It's a great touchstone point with your client. Once you have teased out the large bugs and clangers, get the prototype in the client's hand early on, get them playing with it, excited about the App and their feedback on your direction, choices etc.
 
 Now all the initial UX work is done we can start designing!
 
-I follow the same process for collecting visual inspiration and deciding artistic direction as [I do with websites][2].
+I follow the same process for collecting visual inspiration and deciding artistic direction as [I do with websites](2).
 
 While in my work designing on the web I have been unable to ditch Photoshop yet, I have recently transitioned to [Sketch] for my App designing. It's a fantastic tool to work with and has a ton of great tools to speed up App design. While designing I also use [Skala Preview] with [this plugin](https://github.com/marcisme/sketch-preview) to allow me to see the design taking shape in real-time on the phone. Adding this context really helps you get sizing and proportions right. Things that seem a great idea on killer large iMac screen don't always seem the best idea on a small iPhone 4 screen later.
 
-In my opinion, there still is a gap in the market for a great designer version of [Github]. It always makes me nervous when designing that I may loose something I really want to revert or keep later. I have tried [Adobe Creative Cloud], which is basically [Dropbox], with more storage as standard, but goes down constantly and is pretty unreliable. [Layervault] was a better alternative, but I also ran in to issues with content not being saved properly and a lot of slowdown every time my computer loaded. If you have any better suggestions I would love to [hear them on Twitter][1].
+In my opinion, there still is a gap in the market for a great designer version of [Github](http://www.github.com). It always makes me nervous when designing that I may loose something I really want to revert or keep later. I have tried [Adobe Creative Cloud](http://www.adobe.com/uk/creativecloud.html), which is basically [Dropbox](http://www.dropbox.com), with more storage as standard, but goes down constantly and is pretty unreliable. [Layervault](http://www.layervault.com) was a better alternative, but I also ran in to issues with content not being saved properly and a lot of slowdown every time my computer loaded. If you have any better suggestions I would love to [hear them on Twitter](1).
 
 So to recap, now we have:
 
@@ -138,6 +138,7 @@ Finally, a short note on App stores approval. This is often something that gets 
 
 If you enjoyed this post and found it helpful, you should follow me on <a href="http://www.twitter.com/{{site.author.twitter}}" rel="me" title="Twitter">Twitter</a> where I am happy to chat further.
 
+{% contentfor aside %}
 ## App Guidelines
 - [Android]
 - [iOS7]
@@ -151,7 +152,7 @@ If you enjoyed this post and found it helpful, you should follow me on <a href="
 - [Pinboard]
 - [Ember]
 - [Moleskin]
-- [UI Stencils][5]
+- [UI Stencils](5)
 
 ## Coding Tools
 
@@ -163,9 +164,9 @@ If you enjoyed this post and found it helpful, you should follow me on <a href="
 -  [Instashare]
 -  [Sketch]
 -  [Adobe Creative Cloud]
--  [Keynote] with [Blueprint][3]
+-  [Keynote] with [Blueprint](3)
 -  [Flinto]
--  [Functional Specification Document Boilerplate][4]
+-  [Functional Specification Document Boilerplate](4)
 
 [Android]: http://developer.android.com/design/index.html
 [iOS7]: https://developer.apple.com/library/ios/design/index.html
@@ -189,8 +190,9 @@ If you enjoyed this post and found it helpful, you should follow me on <a href="
 [Github]: http://www.github.com
 [email me a link]: mailto:hello@vincentp.me?subject=dribbble-giveaway
 
-[1]: http://www.twitter.com/{{site.author.twitter}}
+[1]:http://www.twitter.com/{{site.author.twitter}}
 [2]: http://vincentp.me/blog/my-front-end-development-process-start-to-finish/
 [3]: https://github.com/vipickering/Blueprint
 [4]: https://github.com/vipickering/Functional-Specification-Boilerplate
 [5]: http://www.uistencils.com/products/iphone-stencil-kit
+{% endcontentfor %}

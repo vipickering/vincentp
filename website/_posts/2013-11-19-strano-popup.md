@@ -16,7 +16,6 @@ The night took place at Jam in Headingly, we were greeted at the door and escort
   <img src="/images/blog/2013-11-19/bar.jpg " width="612" alt="Decor"/>
 </figure>
 
-
 At the bar, we had a choice of some interesting wines, fantastic beers and sparkling wines. I opted for some Madonna Pils, an Italian take on Czech Pilsner which was a total triumph, much softer than traditional Czech lager but still had the punch. My partner opted for a glass of sparkling wine which also went down very quickly!
 
 <figure>
