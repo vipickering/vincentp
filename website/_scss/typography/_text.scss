@@ -38,7 +38,10 @@ aside h2{
 /*
 Typography
 */
-
+ul + h2,
+ol + h2  {
+    padding-top:15px;
+}
 
 
 b,
@@ -104,6 +107,10 @@ li {
     // margin-bottom: 6px ;
 }
 
+figcaption{
+       font-family: 'mp-mallory-light-italic';
+       font-size: size(small);
+}
 
 // code,
 // kbd,

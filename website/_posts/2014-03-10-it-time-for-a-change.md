@@ -46,13 +46,13 @@ In February, at Hey! Stac [I presented my vision](https://speakerdeck.com/vincen
 
 What I am proposing in the slides is a 2 part idea, comprised of a website and day event. It works as follows:
 
-### The Website
+## The Website
 
 The website would be a mechanism for people to raise questions and ideas that warrant further discussion. These are categorised and up voted to show demand.
 
 Think of it as a mash-up between [Stack Overflow](http://stackoverflow.com) and [Sony Share](http://share.blog.us.playstation.com/ideas/status/ideas-in-action/). What we are doing here is peer reviewing the suggestions and making sure the most needed, desired and valid ideas float to the top.
 
-### Summit
+## Summit
 
 Summit events are run following a standard format, whereby they select a skill type to base the event on. For instance, they would only tackle CSS based questions. This both allows the attendees to understand if they would be able to contribute (a die hard Ruby developer may have little interest in attending a CSS based event) and ensure we are focusing our skill in one area at a time.
 
@@ -92,7 +92,7 @@ Summit, its website code and format is intended to always be open source and ope
 
 Let's make the future great together.
 
-### References
+## References
 
 <a id="heystac">1. Hey! Stac is a grass roots meet-up in Leeds UK,  the February meet-up I spoke at was sponsored by my good friend [Harry](http://www.csswizardry.com)
 

@@ -30,15 +30,17 @@
                         {{ content }}
                     </div>
 
-                    {% ifhascontent aside %}
                     <aside class="column-one-third">
-                        {% contentblock aside %}
+                        {% include next-prev.html %}
+                        {% ifhascontent aside %}
+                             {% contentblock aside %}
+                         {% endifhascontent %}
                     </aside>
-                    {% endifhascontent %}
+
                 </div>
             </article>
 
-            {% include next-prev.html %}
+
         </main>
 
         {% include footer.html %}

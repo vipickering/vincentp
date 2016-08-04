@@ -9,7 +9,7 @@ meta: Some fun use cases for CSS Calc operator
 
 **Sure thing, Harry, here are the main things I've used Calc for so far:**
 
-### Vertical centre
+## Vertical centre
 
 If you know the height of the element, [CSS Calc ](https://developer.mozilla.org/en-US/docs/Web/CSS/calc)  can make it super simple to position an element vertical centre *and* respect a responsive layout.
 
@@ -25,7 +25,7 @@ calc( 50vh – 1/2 the height of element )
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 <br/>
 
-### 100% fluid width next to a fixed element
+## 100% fluid width next to a fixed element
 
 This is my most common use of calc, often used on layouts with main area and a sidebar, for example. When dealing with a responsive layout and we need one area to fill the space and the other to be a fixed width (which could also be controlled via media queries for extra flare).
 
@@ -41,7 +41,7 @@ So long as you are also using border-box, then adding padding, margins etc will 
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 <br/>
 
-### Background positioning from the right side
+## Background positioning from the right side
 
 [Chris Coyer](https://css-tricks.com/a-couple-of-use-cases-for-calc/) has already covered this, but it’s worth mentioning if you haven’t seen it, since it can be useful occasionally.
 
@@ -59,7 +59,7 @@ So in the example below, we use calc to position the image all the way to the ri
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 <br/>
 
-### 100% container, equally distribute multiple containers within the box and account for “tweaks”
+## 100% container, equally distribute multiple containers within the box and account for “tweaks”
 
 A quite common design decision is to have multiple containers within a wrapping container. The inner containers will be a percentage width of the outer container, so are equally spaced. Given this scenario, you would usually just assign width:33%; to each container and move along. But sometimes, you want extra flexibility for those containers. For example, if you want each box to have a border, you then have to take this in to account as well.
 
@@ -75,7 +75,7 @@ This means that the 3 containers will all be equally spaced within their parent 
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 <br/>
 
-### 100% fluid width accounting for negative margins
+## 100% fluid width accounting for negative margins
 
 There are times when you want a child element to be 100% width of its parent container which has a negative margin. This is a pain, because the 100% width will not account for the negative margin and remove it from the calculation, thankfully calc can help:
 
@@ -89,7 +89,7 @@ This simply makes the width a bit bigger than 100% to account for the negative v
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 <br/>
 
-### Quick and dirty grid system
+## Quick and dirty grid system
 
 This is a development only technique and certainly isn’t advisable for a live system, but if you need to put together a quick demo or technical proof of concept for your colleagues, calc can very quickly apply a rudimentary grid system in a few lines:
 
