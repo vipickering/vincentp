@@ -5,9 +5,9 @@ date: 2013-11-20
 meta: A process to work quickly and easily with Jekyll.
 ---
 
-I selected [Jekyll](http://jekyllrb.com) as the platform for my blog after trying out many other options. It's a great blogging platform, and its balancing between code flexibility and simple blogging software really hits my sweet spot.
+I selected [Jekyll](http://jekyllrb.com){:rel="external"} as the platform for my blog after trying out many other options. It's a great blogging platform, and its balancing between code flexibility and simple blogging software really hits my sweet spot.
 
-One of the major selling points with Jekyll, is the tight integration with [Github Pages](http://pages.github.com). The easy deployment and removal of dealing with terrible hosting companies, FTP servers and all the usual deployment issues are a huge boon, especially when most people blog in their spare time. The last thing you want to deal with at 1AM is a server that has exceeded its bandwidth and gone down.
+One of the major selling points with Jekyll, is the tight integration with [Github Pages](http://pages.github.com){:rel="external"}. The easy deployment and removal of dealing with terrible hosting companies, FTP servers and all the usual deployment issues are a huge boon, especially when most people blog in their spare time. The last thing you want to deal with at 1AM is a server that has exceeded its bandwidth and gone down.
 
 ## Life Is Always Messy
 
@@ -29,11 +29,11 @@ So I came up with a simple stripped down way to have my cake and eat it.
 
 I tried quite a few approaches to making this work (even looking at Git sub-modules) but ultimately settled on two repos. Now I know that make some developers frown to have your code in two places but bear with me the logic is reasonably sound and it makes things much easier to manage.
 
-[I have a development environment](https://github.com/vipickering/vincentp-dev), this is my standard Jekyll environment and repo. I created a sub folder called website and run Jekyll here so that I can add elements to the repo (such as a README that will not get compiled by accident). In here I develop locally, play with code and try things out, I commit often but I don't have to worry if I swap and change between an unfinished blog post, code fix, update or anything else, I just write and commit, nothing gets lost, I can pick it up on another machine and carry on without getting myself tangled in knots.
+[I have a development environment](https://github.com/vipickering/vincentp-dev){:rel="external"}, this is my standard Jekyll environment and repo. I created a sub folder called website and run Jekyll here so that I can add elements to the repo (such as a README that will not get compiled by accident). In here I develop locally, play with code and try things out, I commit often but I don't have to worry if I swap and change between an unfinished blog post, code fix, update or anything else, I just write and commit, nothing gets lost, I can pick it up on another machine and carry on without getting myself tangled in knots.
 
-[My second repo](https://github.com/vipickering/vipickering.github.com) is my live site. This is my Github pages site and only contains the compiled live code, plus things like a CNAME file and various live only files.
+[My second repo](https://github.com/vipickering/vipickering.github.com){:rel="external"} is my live site. This is my Github pages site and only contains the compiled live code, plus things like a CNAME file and various live only files.
 
-The final piece to the puzzle is that I have a very simple <a href="#automater">Automater</a> script that watches the _site compiled folder and copies the data in this to the live site repo. Automater is one of those tools that is quite powerful and often gets overlooked. It worth learning it can save you quite a lot of time in the long run, think [Grunt](http://gruntjs.com) but for system tasks.
+The final piece to the puzzle is that I have a very simple <a href="#automater">Automater</a> script that watches the _site compiled folder and copies the data in this to the live site repo. Automater is one of those tools that is quite powerful and often gets overlooked. It worth learning it can save you quite a lot of time in the long run, think [Grunt](http://gruntjs.com){:rel="external"} but for system tasks.
 
 When it comes to deploying code from dev to live, I use Jekyll's inbuilt method of hiding files on compile. If you are not sure how this works all you simply need to do is add an underscore in-front of each file or folder you don't want live, these are then ignored by Jekyll when compiling.
 

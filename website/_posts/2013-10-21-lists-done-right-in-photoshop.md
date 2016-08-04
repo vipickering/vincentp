@@ -5,7 +5,7 @@ date: 2013-10-21
 meta: How to create lists correctly in Photoshop
 ---
 
-I have lost count the number of times I have seen over a <a href="http://hoveringartdirectors.tumblr.com" rel="external">designers shoulder</a> and noticed them struggling with formatting lists in Photoshop.
+I have lost count the number of times I have seen over a [designers shoulder](http://hoveringartdirectors.tumblr.com){:rel="external"} and noticed them struggling with formatting lists in Photoshop.
 
 Let's run through the ways not to do it:
 

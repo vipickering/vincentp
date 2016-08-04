@@ -8,7 +8,6 @@
         {% include header.html %}
 
         <main role="main" class="container">
-
             <article itemscope itemtype="http://schema.org/CreativeWork">
                 <h1 itemprop="headline">{{ page.title }}</h1>
 
@@ -32,15 +31,15 @@
 
                     <aside class="column-one-third">
                         {% include next-prev.html %}
+
+                        <!-- Loop through H2s, get IDs and output quick links down the page. -->
+
                         {% ifhascontent aside %}
                              {% contentblock aside %}
                          {% endifhascontent %}
                     </aside>
-
                 </div>
             </article>
-
-
         </main>
 
         {% include footer.html %}

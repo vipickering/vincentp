@@ -5,16 +5,17 @@ date: 2013-11-11
 meta: An overview of my mobile App tools and processes used on a daily basis from start to finish.
 ---
 
-Intended as a companion piece to my previous post on my front-end process, this post discusses my App design processes, there is some overlap so I recommend if you enjoy reading this post you should also [check out](2) the other one.
+Intended as a companion piece to my previous post on my front-end process, this post discusses my App design processes, there is some overlap so I recommend if you enjoy reading this post you should also [check out][2] the other one.
 
 Unlike many App designers, I do not focus exclusively on iOS and have created Apps in the past for multiple platforms and designed some Apps to work across many platforms. This type of App design presents many different challenges you may not be familiar with, which can become especially complex when focusing on mobile Apps and their different interaction methods, App store submission processes, resolution sizes or when you have to design an App that must support multiple platforms.
 
 ## Don't Guess, Actually Use The Platforms
+
 The majority of designers tend to use either an iPhone or Android for their daily life and whatever is your platform of choice you would be reasonably comfortable if tasked to design an App on that device, and while there is some overlap between Android and iPhone, what about a Symbian or a Blackberry? What about being asked to design a desktop App for Windows 8?
 
 Not only are each of the interaction models different between these platforms they have their own quirks and nuances, its second nature for an iPhone user to double tap the home button and close an App running in the background, but a Windows Phone user designing on iPhone may not know this.
 
-My daily phone of choice is an [iPhone](http://www.apple.com/iphone), but while this has won out in the feature set for me, I try to remain open minded:
+My daily phone of choice is an [iPhone](http://www.apple.com/iphone){:rel="external"}, but while this has won out in the feature set for me, I try to remain open minded:
 
 > My requirements and means are not the same as someone else's.
 
@@ -25,6 +26,7 @@ On a related note, it's commonplace for designers to laugh at platforms other th
 I've designed Apps in the past before on Symbian that have outperformed Apps on iPhone and Android in download numbers simply because Symbian is huge in lower income countries like India and the number of great Apps to download are far more limited. In a sea of great iOS and Android Apps you have to be exceptional to get noticed and even then the App may not get much use due to all the choice available to the user. If there are only a few good ones, not only will you get larger download numbers but the App itself will be more frequently used, a double win.
 
 ## Mobile Apps
+
 Mobile Apps are a bit more complicated to assemble effectively, not only do you have to decide on navigation within the App screen layout and the user state(s) you also have to think about external factors interacting with the device. Mobile phones have a wealth of peripheral sensors that can give you incredibly interesting data, especially when you use them in an unexpected way.
 
 Bringing harmony and order to this initial chaos is the part I enjoy most in the App design process, feeling the way through to the solution that seems just right. I start by listing my success criteria, in the form of:
@@ -37,9 +39,11 @@ I then break them down further in to User Stories and Use Cases. It's important 
 > When your spending someone else's money make sure you can pay them back
 
 ## Be Flexible In Your Approach
+
 After I have assembled the Use Cases my approach to design the App is flexible based on the platform(s) it will need to support, so I'll expand each approach and its reasoning individually.
 
 ## Single Platform Apps
+
 Single platform Apps are probably what you are most familiar with and the most popular. They not only allow you to focus on only one platforms challenge and quirks but give you a much wider set of goalposts to aim for.
 
 I favour a rapid design approach. App design yields far better results when you actually use the software and test it in a real world scenario. There is something special that happens when you physically hold the design in your hand not only do you learn very quickly what is working and not working for yourself and other users but it can help you discover additional functionality or a new direction in your design you may not have considered.
@@ -71,22 +75,22 @@ I create a Functional Specification document. Building software of any type is c
 
 I have tried many ways in the past to manage this document and this largely depends upon the client, some prefer an on-line version, others prefer a Word document, the important point to note is that the client needs to actually interact with the document or the process falls down so I keep mine in markdown and convert to the format I need depending upon the clients wishes.
 
-Building a functional specification document can be daunting if you haven't done it before, so I have made available in markdown [my functional specification boilerplate](4) for you to use in your App creation as a starting point, remember the great thing about markdown is you can covert it to pretty much anything.
+Building a functional specification document can be daunting if you haven't done it before, so I have made available in markdown [my functional specification boilerplate][4] for you to use in your App creation as a starting point, remember the great thing about markdown is you can covert it to pretty much anything.
 
 <figure>
 <figcaption>Blueprint, my rapid prototyping objects for keynote</figcaption>
 <img src="/images/blog/2013-11-11/blueprint.jpg"  width="612" alt="a screen shot of my rapid prototyping software Blueprint"/>
 </figure>
 
-Now comes the fun part, I take the Information Map with the sketched wire-frames and re-create them in [Keynote] using [my Blueprint rapid prototyping framework](3). This allows me to very quickly make high fidelity wire-frames. I then export the screens to [Flinto] and link them up to test. This is a very powerful and prominent part of the process, not only can you iterate very quickly and discover mistakes, dead-end ideas and things you got wrong. It's a great touchstone point with your client. Once you have teased out the large bugs and clangers, get the prototype in the client's hand early on, get them playing with it, excited about the App and their feedback on your direction, choices etc.
+Now comes the fun part, I take the Information Map with the sketched wire-frames and re-create them in [Keynote] using [my Blueprint rapid prototyping framework][3]. This allows me to very quickly make high fidelity wire-frames. I then export the screens to [Flinto] and link them up to test. This is a very powerful and prominent part of the process, not only can you iterate very quickly and discover mistakes, dead-end ideas and things you got wrong. It's a great touchstone point with your client. Once you have teased out the large bugs and clangers, get the prototype in the client's hand early on, get them playing with it, excited about the App and their feedback on your direction, choices etc.
 
 Now all the initial UX work is done we can start designing!
 
-I follow the same process for collecting visual inspiration and deciding artistic direction as [I do with websites](2).
+I follow the same process for collecting visual inspiration and deciding artistic direction as [I do with websites][2].
 
-While in my work designing on the web I have been unable to ditch Photoshop yet, I have recently transitioned to [Sketch] for my App designing. It's a fantastic tool to work with and has a ton of great tools to speed up App design. While designing I also use [Skala Preview] with [this plugin](https://github.com/marcisme/sketch-preview) to allow me to see the design taking shape in real-time on the phone. Adding this context really helps you get sizing and proportions right. Things that seem a great idea on killer large iMac screen don't always seem the best idea on a small iPhone 4 screen later.
+While in my work designing on the web I have been unable to ditch Photoshop yet, I have recently transitioned to [Sketch] for my App designing. It's a fantastic tool to work with and has a ton of great tools to speed up App design. While designing I also use [Skala Preview] with [this plugin](https://github.com/marcisme/sketch-preview){:rel="external"} to allow me to see the design taking shape in real-time on the phone. Adding this context really helps you get sizing and proportions right. Things that seem a great idea on killer large iMac screen don't always seem the best idea on a small iPhone 4 screen later.
 
-In my opinion, there still is a gap in the market for a great designer version of [Github](http://www.github.com). It always makes me nervous when designing that I may loose something I really want to revert or keep later. I have tried [Adobe Creative Cloud](http://www.adobe.com/uk/creativecloud.html), which is basically [Dropbox](http://www.dropbox.com), with more storage as standard, but goes down constantly and is pretty unreliable. [Layervault](http://www.layervault.com) was a better alternative, but I also ran in to issues with content not being saved properly and a lot of slowdown every time my computer loaded. If you have any better suggestions I would love to [hear them on Twitter](1).
+In my opinion, there still is a gap in the market for a great designer version of [Github](http://www.github.com){:rel="external"}. It always makes me nervous when designing that I may loose something I really want to revert or keep later. I have tried [Adobe Creative Cloud](http://www.adobe.com/uk/creativecloud.html){:rel="external"}, which is basically [Dropbox](http://www.dropbox.com){:rel="external"}, with more storage as standard, but goes down constantly and is pretty unreliable. [Layervault](http://www.layervault.com){:rel="external"} was a better alternative, but I also ran in to issues with content not being saved properly and a lot of slowdown every time my computer loaded. If you have any better suggestions I would love to [hear them on Twitter][1].
 
 So to recap, now we have:
 
@@ -136,61 +140,39 @@ When it comes to debugging design issues further down the line, I utilize a comb
 
 Finally, a short note on App stores approval. This is often something that gets overlooked until then end of the process, but I encourage you to make this one of the first things to research and plan. The main reason behind this is that each platform has a slightly different App approval process, for example if you are creating an App for Symbian or Windows Phone you must submit all your design documentation for sign-off by Microsoft/Nokia before submitting your final App code, where they will request changes should you not be following the design interaction guidelines, it catches a lot of designers out. Make sure you know at the start of the process what you must deliver at what time and things will run a lot more smoothly for all involved.
 
-If you enjoyed this post and found it helpful, you should follow me on <a href="http://www.twitter.com/{{site.author.twitter}}" rel="me" title="Twitter">Twitter</a> where I am happy to chat further.
+If you enjoyed this post and found it helpful, you should follow me on <a href="http://www.twitter.com/{{site.author.twitter}}" rel="me" title="Twitter" rel="external">Twitter</a> where I am happy to chat further.
 
 {% contentfor aside %}
 ## App Guidelines
-- [Android]
-- [iOS7]
-- [Windows Phone]
-- [Windows Desktop]
-- [Blackberry]
-- [Symbian]
+- [Android](http://developer.android.com/design/index.html){:rel="external"}
+- [iOS7](https://developer.apple.com/library/ios/design/index.html){:rel="external"}
+- [Windows Phone](http://developer.windowsphone.com/en-us/design/library){:rel="external"}
+- [Windows Desktop](http://msdn.microsoft.com/en-us/windows/desktop/aa511258){:rel="external"}
+- [Blackberry](http://docs.blackberry.com/en/developers/deliverables/17965/Designing_applications_for_BlackBerry_devices_1017063_11.jsp){:rel="external"}
+- [Symbian](http://developer.nokia.com/Design/Documentation/){:rel="external"}
 
 ## Misc Productivity &amp; Planning Tools
 
-- [Pinboard]
-- [Ember]
-- [Moleskin]
-- [UI Stencils](5)
+- [Pinboard](http://pinboard.in){:rel="external"}
+- [Ember](http://realmacsoftware.com/ember){:rel="external"}
+- [Moleskin](http://www.moleskine.com/gb/collections/model/product/squared-soft-notebook-extra-large){:rel="external"}
+- [UI Stencils][5]{:rel="external"}
 
 ## Coding Tools
 
--  [Layervault]
+-  [Layervault](http://layervault.com){:rel="external"}
 
 ## App Design &amp; Wireframing Tools
 
--  [Skala Preview]
--  [Instashare]
--  [Sketch]
--  [Adobe Creative Cloud]
--  [Keynote] with [Blueprint](3)
--  [Flinto]
--  [Functional Specification Document Boilerplate](4)
+-  [Skala Preview](http://bjango.com/mac/skalapreview/){:rel="external"}
+-  [Instashare](http://instashareapp.com){:rel="external"}
+-  [Sketch](http://www.bohemiancoding.com/sketch/){:rel="external"}
+-  [Adobe Creative Cloud](http://www.adobe.com/uk/products/creativecloud.html){:rel="external"}
+-  [Keynote](http://www.apple.com/uk/iwork/keynote/){:rel="external"}with [Blueprint][3]{:rel="external"}
+-  [Flinto](https://www.flinto.com){:rel="external"}
+-  [Functional Specification Document Boilerplate][4]{:rel="external"}
 
-[Android]: http://developer.android.com/design/index.html
-[iOS7]: https://developer.apple.com/library/ios/design/index.html
-[Windows Phone]: http://developer.windowsphone.com/en-us/design/library
-[Windows Desktop]: http://msdn.microsoft.com/en-us/windows/desktop/aa511258
-[Blackberry]: http://docs.blackberry.com/en/developers/deliverables/17965/Designing_applications_for_BlackBerry_devices_1017063_11.jsp
-[Symbian]: http://developer.nokia.com/Design/Documentation/
-[Pinboard]: http://pinboard.in
-[Shiori]: http://aki-null.net/shiori/
-[Ember]: http://realmacsoftware.com/ember
-[Moleskin]: http://www.moleskine.com/gb/collections/model/product/squared-soft-notebook-extra-large
-[Layervault]: http://layervault.com
-[Skala Preview]:http://bjango.com/mac/skalapreview/
-[Instashare]:http://instashareapp.com
-[Sketch]:http://www.bohemiancoding.com/sketch/
-[Adobe Creative Cloud]:http://www.adobe.com/uk/products/creativecloud.html
-[Keynote]:http://www.apple.com/uk/iwork/keynote/
-[Flinto]:https://www.flinto.com
-[Dropbox]: http://www.dropbox.com
-[Dribbble]: http://dribbble.com
-[Github]: http://www.github.com
-[email me a link]: mailto:hello@vincentp.me?subject=dribbble-giveaway
-
-[1]:http://www.twitter.com/{{site.author.twitter}}
+[1]: http://www.twitter.com/{{site.author.twitter}}
 [2]: http://vincentp.me/blog/my-front-end-development-process-start-to-finish/
 [3]: https://github.com/vipickering/Blueprint
 [4]: https://github.com/vipickering/Functional-Specification-Boilerplate

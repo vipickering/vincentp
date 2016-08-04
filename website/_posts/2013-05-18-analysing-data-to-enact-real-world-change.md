@@ -5,7 +5,7 @@ date: 2013-05-18
 meta: How the objects in our lives truly work with the Internet Of Things.
 ---
 
-The "Internet of things" is starting to become a reality. Interconnected devices like [FitBit](http://fitbit.com), [Withings Scale](http://www.withings.com/en/bodyanalyzer), [Nike Fuel Band](http://www.nike.com/Fuelband), [Google Glass](http://www.google.com/glass/start/) and even your mobile phone can give us real-time access to hard data about ourselves. Never has humanity had such an opportunity to be able to really try to understand our own behaviour and to use that data to help ourselves grow and improve.
+The "Internet of things" is starting to become a reality. Interconnected devices like [FitBit](http://fitbit.com "Fitbit"){:rel="external"}, [Withings Scale](http://www.withings.com/en/bodyanalyzer){:rel="external"}, [Nike Fuel Band](http://www.nike.com/Fuelband){:rel="external"}, [Google Glass](http://www.google.com/glass/start/){:rel="external"} and even your mobile phone can give us real-time access to hard data about ourselves. Never has humanity had such an opportunity to be able to really try to understand our own behaviour and to use that data to help ourselves grow and improve.
 
 ## Calling a spade a spade
 The tools we have to analyse the data often start out with well-meaning developers trying to simplify peoples lives. They do this by breaking down the information and giving users bite-sized chunks of data. It's unfortunately a slightly naïve way to solve the problem and quickly breaks down over time leading to a dashboard of "stats for the day":
@@ -32,7 +32,7 @@ Returning to the original problem, stating single facts lacks any context. Telli
 
 For example, take the hypothetical situation:
 
-If I had a web app that could allow me to make queries in a similar fashion to [IFTTT](http://www.ifttt.com/ "IFTTT"). Then I could create a query to help keep my social network standing intact and ran when the following conditions were met:
+If I had a web app that could allow me to make queries in a similar fashion to [IFTTT](http://www.ifttt.com/ "IFTTT"){:rel="external"}. Then I could create a query to help keep my social network standing intact and ran when the following conditions were met:
 
 If I check-in to more than 3 bars between the hours of 19:00 and 00:00:
 

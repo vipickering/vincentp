@@ -5,7 +5,7 @@ date: 2014-03-10
 meta: There is a disconnect between how ideas are shared and taking that discussion further.
 ---
 
-Yesterday, a tweet by [@leaverou](https://twitter.com/LeaVerou) popped up in my stream.
+Yesterday, a tweet by [@leaverou](https://twitter.com/LeaVerou){:rel="external"} popped up in my stream.
 
 <blockquote class="twitter-tweet" lang="en"><p>I don&#39;t understand why workshops are usually before conferences. They should be after — to expand on the talks.</p>&mdash; Lea Verou (@LeaVerou) <a href="https://twitter.com/LeaVerou/statuses/442809870476386304">March 9, 2014</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -23,9 +23,10 @@ So workshops are not the way to handle further debate, but Lea is right. When yo
 
 Currently our industry is terrible at this. We have conferences, which are great for voicing ideas and getting them out in the open, workshops and hackathons for teaching and working together, but nothing to take ideas further or develop them. What we do is the same silly approach to developing ideas that mathematicians or physicists do, disappear in to a room and try to work it out on your own.
 
-[Polymath](http://polymathprojects.org) is a project started as an effort for mathematicians to stop working individually on problems and come together to share their knowledge on previously unsolved equations. It's already solved many equations previously deemed unsolvable and is a fantastic example of coming together using group knowledge to achieve the previously unachievable.
+[Polymath](http://polymathprojects.org){:rel="external"} is a project started as an effort for mathematicians to stop working individually on problems and come together to share their knowledge on previously unsolved equations. It's already solved many equations previously deemed unsolvable and is a fantastic example of coming together using group knowledge to achieve the previously unachievable.
 
 ## Stop Being Dumb
+
 As an industry, we advocate rapid prototyping, agile methodologies and teamwork. But we don't practice what we preach at all, in an effort to be **"The First"** often ego's get in the way of solving problems and working together.
 
 Let's piece together how we work as an industry, and look at it from a productive point of view.
@@ -38,9 +39,9 @@ When we lay it out like this, the missing part is quite clear. We don't have a f
 
 ## Work Smarter
 
-What's needed is a lightning rod to draw people together and discuss ideas after a conference, to raise problems we all have and work smarter to solve them. You see, humans work better together when they can have [meaningful conversation](http://vincentp.me/blog/meaningful-debate/) face to face. We are more industrious and iterate faster.
+What's needed is a lightning rod to draw people together and discuss ideas after a conference, to raise problems we all have and work smarter to solve them. You see, humans work better together when they can have [meaningful conversation](http://vincentp.me/blog/meaningful-debate/){:rel="external"} face to face. We are more industrious and iterate faster.
 
-In February, at Hey! Stac [I presented my vision](https://speakerdeck.com/vincentp/the-need-for-conversation) for how this type of event (I am calling Summit) could work.
+In February, at Hey! Stac [I presented my vision](https://speakerdeck.com/vincentp/the-need-for-conversation){:rel="external"} for how this type of event (I am calling Summit) could work.
 
 ## The Pitch
 
@@ -50,7 +51,7 @@ What I am proposing in the slides is a 2 part idea, comprised of a website and d
 
 The website would be a mechanism for people to raise questions and ideas that warrant further discussion. These are categorised and up voted to show demand.
 
-Think of it as a mash-up between [Stack Overflow](http://stackoverflow.com) and [Sony Share](http://share.blog.us.playstation.com/ideas/status/ideas-in-action/). What we are doing here is peer reviewing the suggestions and making sure the most needed, desired and valid ideas float to the top.
+Think of it as a mash-up between [Stack Overflow](http://stackoverflow.com){:rel="external"} and [Sony Share](http://share.blog.us.playstation.com/ideas/status/ideas-in-action/){:rel="external"}. What we are doing here is peer reviewing the suggestions and making sure the most needed, desired and valid ideas float to the top.
 
 ## Summit
 
@@ -58,7 +59,7 @@ Summit events are run following a standard format, whereby they select a skill t
 
 The organiser can pick a list of questions from the Summit website to tackle for the day.
 
-When attendees arrive they are arranged in to small groups at random <sup><a href="#groups">2</a></sup> The organiser will then set the groups the (same) first question to solve.
+When attendees arrive they are arranged in to small groups at random <sup><a href="#groups">1</a></sup> The organiser will then set the groups the (same) first question to solve.
 
 Groups are then assigned a fixed tight time schedule to deal with this, say 30 minutes. Once the 30 minutes are up, a spokesperson for a couple of the groups will do a quick show and tell, on what they have achieved so far. After the quick presentations, people return to their groups and tackle the problem again for another 30 minute sprint.
 
@@ -88,12 +89,12 @@ Taking the idea further and my ultimate aim for the idea would be to build the w
 
 We work smarter, when we work together. That's why I am not arrogant to believe what I have proposed being the perfect solution, or indeed think I can make this work better all on my own. I am in the process of writing the website specification and event format. Once I have the general format, I will put it out on my Github for general feedback and suggestion ideas.
 
-Summit, its website code and format is intended to always be open source and open for all to hack and use as they see fit. If you are interested in learning more you can ask me yourself on Twitter [@vipickering](http://www.twitter.com/vipickering) or follow [@summit_event](http://www.twitter.com/summit_event) for updates on our progress, there should also be a website soon!
+Summit, its website code and format is intended to always be open source and open for all to hack and use as they see fit. If you are interested in learning more you can ask me yourself on Twitter [@vipickering](http://www.twitter.com/vipickering){:rel="external"} or follow [@summit_event](http://www.twitter.com/summit_event){:rel="external"} for updates on our progress, there should also be a website soon!
 
 Let's make the future great together.
 
+{% contentfor aside %}
 ## References
 
-<a id="heystac">1. Hey! Stac is a grass roots meet-up in Leeds UK,  the February meet-up I spoke at was sponsored by my good friend [Harry](http://www.csswizardry.com)
-
-<a id="groups">2. I have a reliable method to combine making friends and creating groups that will be revealed when the documentation is complete.</a>
+1. <span id="groups"></span>I have a reliable method to combine making friends and creating groups that will be revealed when the documentation is complete.
+{% endcontentfor %}

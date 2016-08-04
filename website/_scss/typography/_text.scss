@@ -54,7 +54,6 @@ strong {
  * Prevent `sub` and `sup` elements from affecting the line height in
  * all browsers.
  */
-
  sub,
  sup {
     font-size: 75%;
@@ -96,7 +95,6 @@ time {
     margin:6px 0 30px 0;
 }
 
-
 ul,ol {
     margin:0 0 size(regular) 0;
     padding-left:0;
@@ -112,18 +110,6 @@ figcaption{
        font-size: size(small);
 }
 
-// code,
-// kbd,
-// pre,
-// samp {
-//     font-family: monospace;
-//     font-size: 1em;
-// }
-
-// pre {
-//     margin:0 0 2em 0;
-//     padding:0.6em;
-//     background-color: #f8f8f8;
-//     border:1px solid currentColor;
-//     border-radius: 2px;
-// }
+pre {
+ overflow-x : auto;
+}

@@ -11,7 +11,7 @@ meta: Some fun use cases for CSS Calc operator
 
 ## Vertical centre
 
-If you know the height of the element, [CSS Calc ](https://developer.mozilla.org/en-US/docs/Web/CSS/calc)  can make it super simple to position an element vertical centre *and* respect a responsive layout.
+If you know the height of the element, [CSS Calc ](https://developer.mozilla.org/en-US/docs/Web/CSS/calc){:rel="external"}  can make it super simple to position an element vertical centre *and* respect a responsive layout.
 
 By using this simple equation:
 
@@ -23,7 +23,6 @@ calc( 50vh – 1/2 the height of element )
 
 <p data-height="268" data-theme-id="19182" data-slug-hash="QjWXMm" data-default-tab="result" data-user="vipickering" class='codepen'>See the Pen <a href='http://codepen.io/vipickering/pen/QjWXMm/'>Calc() - Abs Centre</a> by Vincent Pickering (<a href='http://codepen.io/vipickering'>@vipickering</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
-<br/>
 
 ## 100% fluid width next to a fixed element
 
@@ -39,11 +38,10 @@ So long as you are also using border-box, then adding padding, margins etc will 
 
 <p data-height="268" data-theme-id="19182" data-slug-hash="gaMZWY" data-default-tab="result" data-user="vipickering" class='codepen'>See the Pen <a href='http://codepen.io/vipickering/pen/gaMZWY/'>Calc() - 100% Width & fixed width elements</a> by Vincent Pickering (<a href='http://codepen.io/vipickering'>@vipickering</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
-<br/>
 
 ## Background positioning from the right side
 
-[Chris Coyer](https://css-tricks.com/a-couple-of-use-cases-for-calc/) has already covered this, but it’s worth mentioning if you haven’t seen it, since it can be useful occasionally.
+[Chris Coyer](https://css-tricks.com/a-couple-of-use-cases-for-calc/){:rel="external"} has already covered this, but it’s worth mentioning if you haven’t seen it, since it can be useful occasionally.
 
 Sometimes you want a background image to sit near but not absolutely in the bottom right corner of a container. Since background positioning is calculated from the top left corners, other work around or additional containers were needed to add the padding.
 
@@ -57,7 +55,6 @@ So in the example below, we use calc to position the image all the way to the ri
 
 <p data-height="268" data-theme-id="19182" data-slug-hash="ojLmaL" data-default-tab="result" data-user="vipickering" class='codepen'>See the Pen <a href='http://codepen.io/vipickering/pen/ojLmaL/'>CSS Calc - Background positioning from the right</a> by Vincent Pickering (<a href='http://codepen.io/vipickering'>@vipickering</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
-<br/>
 
 ## 100% container, equally distribute multiple containers within the box and account for “tweaks”
 
@@ -73,7 +70,6 @@ This means that the 3 containers will all be equally spaced within their parent 
 
 <p data-height="268" data-theme-id="19182" data-slug-hash="meEoyp" data-default-tab="result" data-user="vipickering" class='codepen'>See the Pen <a href='http://codepen.io/vipickering/pen/meEoyp/'>CSS Calc - boxes always a %age of their container</a> by Vincent Pickering (<a href='http://codepen.io/vipickering'>@vipickering</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
-<br/>
 
 ## 100% fluid width accounting for negative margins
 
@@ -87,7 +83,6 @@ This simply makes the width a bit bigger than 100% to account for the negative v
 
 <p data-height="268" data-theme-id="19182" data-slug-hash="GpqPOK" data-default-tab="result" data-user="vipickering" class='codepen'>See the Pen <a href='http://codepen.io/vipickering/pen/GpqPOK/'>Calc() - Flud Width, with negative margins</a> by Vincent Pickering (<a href='http://codepen.io/vipickering'>@vipickering</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
-<br/>
 
 ## Quick and dirty grid system
 
@@ -107,17 +102,7 @@ so we can simply do:
 
 <p data-height="268" data-theme-id="19182" data-slug-hash="gaMZZP" data-default-tab="result" data-user="vipickering" class='codepen'>See the Pen <a href='http://codepen.io/vipickering/pen/gaMZZP/'>Calc() - Quick and Dirty Grid System</a> by Vincent Pickering (<a href='http://codepen.io/vipickering'>@vipickering</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
-<br/>
 
 Got any other techniques, I’ve missed?
 
-<a href="http://www.twitter.com/vipickering">Talk to me Goose</a>.
-
-
-
-
-
-
-
-
-
+[Talk to me Goose](href="http://www.twitter.com/vipickering"){:rel="external"}.

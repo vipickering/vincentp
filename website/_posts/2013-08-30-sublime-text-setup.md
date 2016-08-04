@@ -5,11 +5,11 @@ date: 2013-08-30
 meta: My personal set-up for Sublime Text 2
 ---
 
-My personal set-up for <a href="http://www.sublimetext.com">Sublime Text 2</a>.
+My personal set-up for [Sublime Text 2](http://www.sublimetext.com "Sublime Text 2"){:rel="external"}.
 
 ## Preferences
 
-I have to hot desk a lot and move around. I can't always guarantee I will be on a Mac or PC, so I have stored my preferences on [this Gist](https://gist.github.com/vipickering/6375327).
+I have to hot desk a lot and move around. I can't always guarantee I will be on a Mac or PC, so I have stored my preferences on [this Gist](https://gist.github.com/vipickering/6375327){:rel="external"}.
 
 Some explanation around some of these settings.
 
@@ -97,24 +97,24 @@ To update your user preferences to use the elements you like go to:
 and paste the code from the gist. Remember, your user preferences don't override the defaults so you should never break anything.
 
 ## My Installed Packages
-[Install Package Control](https://sublime.wbond.net/installation), **then add the following:**
+[Install Package Control](https://sublime.wbond.net/installation){:rel="external"}, **then add the following:**
 
--  [AdvancedNewFile](https://github.com/skuroda/Sublime-AdvancedNewFile)
--  [All Autocomplete](https://github.com/alienhard/SublimeAllAutocomplete)
--  [Autoprefixer](https://github.com/sindresorhus/sublime-autoprefixer)
--  [Emmet](http://docs.emmet.io)
--  [Gist](https://github.com/condemil/Gist)
--  [Markdown Preview](https://github.com/revolunet/sublimetext-markdown-preview)
--  [Monokai Extended theme](https://github.com/jonschlinkert/sublime-monokai-extended)
--  [Nettuts+ (Fetch)](http://net.tutsplus.com/articles/news/introducing-nettuts-fetch/)
--  [SASS](https://github.com/mischah/Sublime-Text-2-Settings/tree/master/Sass)
--  [Sidebar Enhancements](https://github.com/titoBouzout/SideBarEnhancements/tree/st3)
--  [Sublime Linter](https://github.com/SublimeLinter/SublimeLinter)
--  [Syntax Highlighting For Sass](https://github.com/P233/Syntax-highlighting-for-Sass)
--  [CSS Comb](http://csscomb.com)
--  [Git Gutter](https://github.com/jisaacks/GitGutter)
--  [Bracket Highlighter](https://github.com/facelessuser/BracketHighlighter)
--  [Function Name Display](https://github.com/akrabat/SublimeFunctionNameDisplay)
+-  [AdvancedNewFile](https://github.com/skuroda/Sublime-AdvancedNewFile){:rel="external"}
+-  [All Autocomplete](https://github.com/alienhard/SublimeAllAutocomplete){:rel="external"}
+-  [Autoprefixer](https://github.com/sindresorhus/sublime-autoprefixer){:rel="external"}
+-  [Emmet](http://docs.emmet.io){:rel="external"}
+-  [Gist](https://github.com/condemil/Gist){:rel="external"}
+-  [Markdown Preview](https://github.com/revolunet/sublimetext-markdown-preview){:rel="external"}
+-  [Monokai Extended theme](https://github.com/jonschlinkert/sublime-monokai-extended){:rel="external"}
+-  [Nettuts+ (Fetch)](http://net.tutsplus.com/articles/news/introducing-nettuts-fetch/){:rel="external"}
+-  [SASS](https://github.com/mischah/Sublime-Text-2-Settings/tree/master/Sass){:rel="external"}
+-  [Sidebar Enhancements](https://github.com/titoBouzout/SideBarEnhancements/tree/st3){:rel="external"}
+-  [Sublime Linter](https://github.com/SublimeLinter/SublimeLinter){:rel="external"}
+-  [Syntax Highlighting For Sass](https://github.com/P233/Syntax-highlighting-for-Sass){:rel="external"}
+-  [CSS Comb](http://csscomb.com){:rel="external"}
+-  [Git Gutter](https://github.com/jisaacks/GitGutter){:rel="external"}
+-  [Bracket Highlighter](https://github.com/facelessuser/BracketHighlighter){:rel="external"}
+-  [Function Name Display](https://github.com/akrabat/SublimeFunctionNameDisplay){:rel="external"}
 
 ## Code Short-cut Reminders (OSX)
 
@@ -143,12 +143,12 @@ This will then be the file for the selected syntax ONLY. Otherwise it defaults t
 
 For Markdown and Multi Markdown files I use the following Gists:
 
--  [Markdown](https://gist.github.com/vipickering/6672778)
--  [MultiMarkdown](https://gist.github.com/vipickering/6672771)
+-  [Markdown](https://gist.github.com/vipickering/6672778){:rel="external"}
+-  [MultiMarkdown](https://gist.github.com/vipickering/6672771){:rel="external"}
 
 ## Maintaining Code Consistency
 
-My configuration file for CSS Comb is [here](https://gist.github.com/vipickering/6582514). I tend to order my files by most frequently edited properties grouped together near the start and less used near the end. My reasoning for this is that errors are usually spotted very quickly.
+My configuration file for CSS Comb is [here](https://gist.github.com/vipickering/6582514){:rel="external"}. I tend to order my files by most frequently edited properties grouped together near the start and less used near the end. My reasoning for this is that errors are usually spotted very quickly.
 
 ## Projects Set-up
 Because I can be working on multiple machines with different machine names I don't like to include the project or workspace files in a git commit, so I exclude them to avoid polluting someone else's set-up.
