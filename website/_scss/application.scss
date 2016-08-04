@@ -1,18 +1,22 @@
-
+// Import Maps and virtual data
 @import "colour/_brand.scss";
 @import "layout/_scale.scss";
 @import "typography/_mallory.scss";
 
+// Import utility classes
 @import "utility/_normalize.scss";
+@import "utility/_clearfix.scss";
 
+// Start CSS Proper
 @import "layout/_grid.scss";
 @import "layout/_logo.scss";
 @import "layout/_images.scss";
 @import "layout/_container.scss";
+@import "layout/_aside.scss";
 @import "layout/_footer.scss";
 
 @import "typography/_text.scss";
 @import "typography/_links.scss";
 
-
+// Import 3rd Party CSS for Code styling.
 @import "third-party/_monokai.scss";

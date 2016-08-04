@@ -159,8 +159,6 @@ If you enjoyed this post and found it helpful, you should follow me on <a href="
 
 
 {% contentfor aside %}
-## The Complete List
-
 ## Misc Productivity &amp; Planning Tools
 
 - [Alfred](http://www.alfredapp.com)

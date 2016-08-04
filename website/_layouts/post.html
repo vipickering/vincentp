@@ -8,31 +8,36 @@
         {% include header.html %}
         {% include nav.html %}
 
-        <main class="container">
-            <article role="main" itemscope itemtype="http://schema.org/CreativeWork">
+        <main role="main" class="container">
+
+            <article itemscope itemtype="http://schema.org/CreativeWork">
                 <h1 itemprop="headline">{{ page.title }}</h1>
 
                 <time itemprop="dateCreated" datetime="{{ post.date | date: "%Y-%m-%d" }}">
                     {% assign d = page.date | date: "%d" | plus:'0' %}
                     {{ page.date | date: "%B" }}
                     {% case d %}
-                    {% when 1 or 21 or 31 %}{{ d }}<sup>st</sup>
-                    {% when 2 or 22 %}{{ d }}<sup>nd</sup>
-                    {% when 3 or 23 %}{{ d }}<sup>rd</sup>
+                        {% when 1 or 21 or 31 %}{{ d }}<sup>st</sup>
+                        {% when 2 or 22 %}{{ d }}<sup>nd</sup>
+                        {% when 3 or 23 %}{{ d }}<sup>rd</sup>
                     {% else %}
-                    {{ d }}<sup>th</sup>
+                        {{ d }}<sup>th</sup>
                     {% endcase %}
                     {{ page.date | date: "%Y" }}
                 </time>
 
-                {{ content }}
-            </article>
+                <div class="grid-row">
+                    <div class="column-two-thirds">
+                        {{ content }}
+                    </div>
 
-            {% ifhascontent aside %}
-                <aside>
-                    {% contentblock aside %}
-                </aside>
-            {% endifhascontent %}
+                    {% ifhascontent aside %}
+                    <aside class="column-one-third">
+                        {% contentblock aside %}
+                    </aside>
+                    {% endifhascontent %}
+                </div>
+            </article>
 
             {% include next-prev.html %}
         </main>
