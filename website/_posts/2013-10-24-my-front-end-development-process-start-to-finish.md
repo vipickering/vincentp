@@ -155,9 +155,10 @@ Once the code is complete, I run it through the [W3C Validators](http://validato
 
 If you enjoyed this post and found it helpful, you should follow me on <a href="http://www.twitter.com/{{site.author.twitter}}" rel="me" title="Twitter">Twitter</a> where I am happy to chat further, also check the blog again soon where I will be sharing my cross platform mobile application design process.
 
-<p class="updateHighlight"><strong>Update:</strong> I should point out that all my development is done on a Mac</p>
+<p class="updateHighlight"><b>Update:</b> I should point out that all my development is done on a Mac</p>
 
 
+{% contentfor aside %}
 ## The Complete List
 
 ## Misc Productivity &amp; Planning Tools
@@ -197,3 +198,4 @@ If you enjoyed this post and found it helpful, you should follow me on <a href="
 -  [Keynote](http://www.apple.com/uk/iwork/keynote/)
 -  [Slicy](http://macrabbit.com/slicy/)
 -  [Style Tiles](http://styletil.es)
+{% endcontentfor %}

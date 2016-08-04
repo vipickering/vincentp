@@ -1,5 +1,5 @@
 # Gems
-gems: [jekyll-paginate]
+gems: [jekyll-paginate, jekyll-contentblocks]
 
 # Markdown
 

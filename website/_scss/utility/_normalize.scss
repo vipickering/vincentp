@@ -26,7 +26,8 @@ main,
 menu,
 nav,
 section,
-summary {
+summary,
+time {
     display: block;
 }
 
@@ -35,16 +36,19 @@ cite, em, var, address, dfn{
 }
 
 //Things to reset
-figure,
 pre,
 blockquote{
     margin: 0;
     padding: 0;
 }
 
+figure{
+    margin: 0 0 30px 0;
+}
+
 //  root elements
 :root {
-    line-height: 1.6;
+    line-height: 1.75;
     font-family: 'mp-mallory-book', sans-serif;
     font-size: size(regular);
     background-color: brand(white);

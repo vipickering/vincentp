@@ -27,6 +27,13 @@
 
                 {{ content }}
             </article>
+
+            {% ifhascontent aside %}
+                <aside>
+                    {% contentblock aside %}
+                </aside>
+            {% endifhascontent %}
+
             {% include next-prev.html %}
         </main>
 

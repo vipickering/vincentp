@@ -22,19 +22,22 @@ The objective here is to do this all in the text, that way the mock-up can alway
 Learn how to output a bullet point correctly in the font:
 
 On a Mac:
+
 {% highlight c %}
 Alt + 8
 {% endhighlight %}
 
- On a PC:
- {% highlight c %}
- Hold down the ALT key and type 0149
+On a PC:
+
+{% highlight c %}
+Hold down the ALT key and type 0149
 {% endhighlight %}
 
- Go to
- {% highlight c %}
- Window -> Paragraph
- {% endhighlight %}
+Go to:
+
+{% highlight c %}
+Window -> Paragraph
+{% endhighlight %}
 
  and the top left box dictates your left margin.
 
