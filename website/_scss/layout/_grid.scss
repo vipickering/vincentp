@@ -11,12 +11,18 @@ $gutter : 60px;
 }
 
 .column-one-third{
-    width: 34%;
-
+  width: 34%;
 }
 
 .column-two-thirds{
-    width: 66%;
+ width: 66%;
         padding-right: $gutter;
 }
 
+.height-two-thirds{
+    height: 75vh;
+}
+
+.height-one-third{
+    height: 25vh;
+}

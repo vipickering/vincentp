@@ -1,5 +1,24 @@
-.container{
+.container {
+    min-width : 300px;
     max-width : 800px;
+    padding-left : 10px;
+    padding-right : 10px;
     margin-left : auto;
     margin-right : auto;
 }
+
+// work out line-length.
+// calculate max container size.
+
+/*
+line height = (current-width - min-width) / ((max-width x min-width) x (line-height - min-line-height) + min-line-height)
+*/
+
+
+/*
+grid max width = max column width(s) + gutter(s) + margin(s)
+*/
+
+
+// max width 100% ?
+// lock max - widths to elements, so grid can flex and allow pop out elements at larger sizes.
