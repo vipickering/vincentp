@@ -24,12 +24,38 @@
 7.399px   | 0.493em  |  0.462em @ 16
 */
 
+// $sizes: (
+//      large : 30px,
+//      medium : 24px,
+//      regular :15px,
+//      small : 12px,
+//      x-small : 9px
+// );
+
 $sizes: (
-     large : 30px,
-     medium : 24px,
-     regular :15px,
-     small : 12px,
-     x-small : 9px
+    px99 : 6.172rem,
+    px88 : 5.486rem,
+    px78 : 4.877rem,
+    px69 : 4.335rem,
+    px62 : 3.853rem,
+    px54 : 3.425rem,
+    px49 : 3.044rem,
+    px43 : 2.706rem,
+    px38 : 2.405rem,
+    px34 : 2.138rem,
+    px30 : 1.901rem,
+    px27 : 1.689rem,
+    px24 : 1.502rem,
+    px21 : 1.335rem,
+    px19 : 1.187rem,
+    px17 : 1.055rem,
+    px15 : 0.938rem,
+    px13 : 0.833rem,
+    px12 : 0.741rem,
+    px10 : 0.658rem,
+    px9 : 0.585rem,
+    px8 : 0.52rem,
+    px7 : 0.462rem
 );
 
 //Create a quick reference to the contents of the map

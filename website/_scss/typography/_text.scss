@@ -1,6 +1,6 @@
 //local vars
 $column-width: 38em;
-$column-spacing: size(regular);
+$column-spacing: size(px15);
 $mallory-light-italic : 'mp-mallory-light-italic', Verdana, sans-serif;
 $mallory-book : 'mp-mallory-book', Verdana, sans-serif;
 $mallory-book-italic : 'mp-mallory-book-italic', Verdana, sans-serif;
@@ -8,7 +8,7 @@ $mallory-bold : 'mp-mallory-bold', Verdana, sans-serif;
 
 h1 {
     font-family: $mallory-bold;
-    font-size : size(large);
+    font-size : size(px30);
     padding: 0;
     margin: 0;
     line-height: 1;
@@ -16,27 +16,28 @@ h1 {
 
 h2 {
     font-family: $mallory-bold;
-    font-size: size(small);
+    font-size: size(px12);
     text-transform: uppercase;
     padding: 0;
-    margin: 0 0 8px 0;
+    margin: 0 0 0.52rem 0;
     line-height: 1;
 }
 
 p {
     max-width: $column-width;
-    margin: 0 0  30px 0;
+    margin: 0 0 1.901rem 0;
+    font-size: size(px15);
 }
 
 small,
 aside{
     font-family: $mallory-book;
-    font-size: size(x-small);
+    font-size: size(px9);
     text-transform:uppercase;
 }
 
 aside h2{
-    font-size: size(x-small);
+    font-size: size(px9);
 }
 
 /*
@@ -84,7 +85,10 @@ blockquote {
     margin-bottom: 30px;
 }
 
-blockquote > p { margin:0;     font-size:13px; }
+blockquote > p {
+    margin:0;
+    font-size: size(px13);
+}
 
 blockquote > p::before{
     content: '\201C';
@@ -100,7 +104,7 @@ time {
 }
 
 ul,ol {
-    margin:0 0 size(regular) 0;
+    margin:0 0 size(px15) 0;
     padding-left:0;
 }
 
@@ -110,7 +114,7 @@ li {
 
 figcaption{
        font-family: $mallory-light-italic;
-       font-size: size(small);
+       font-size: size(px12);
 }
 
 pre {

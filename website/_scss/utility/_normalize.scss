@@ -12,6 +12,7 @@ html {
 body {
     margin: 0;
     padding: 0;
+    font-size: 16px;
 }
 
 //For IE only. meh.
@@ -50,7 +51,6 @@ figure{
 :root {
     line-height: 1.75;
     font-family: 'mp-mallory-book', sans-serif;
-    font-size: size(regular);
     background-color: brand(white);
     color: brand(black);
 }
