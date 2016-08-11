@@ -2,11 +2,10 @@
 gems: [jekyll-paginate, jekyll-contentblocks]
 
 # Markdown
-
 markdown: kramdown
 
 kramdown:
-  input: GFM
+  # input: GFM
   hard_wrap: false
   syntax_highlighter: rouge
 

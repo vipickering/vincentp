@@ -55,7 +55,7 @@ So to this end, I start with an blank notebook and quickly begin sketching label
 <img src="/images/blog/2013-11-11/ui-stencil.jpg" width="612" alt="An image of a UI Stencil next to some wireframes"/>
 </figure>
 
-Once I have something I am roughly OK with, I begin to add more fidelity using a [UI Stencil](5) they are a great way to focus on a higher fidelity mock-up and not get too distracted by the look and feel but at the same time keeping it neat and fast to draw.
+Once I have something I am roughly OK with, I begin to add more fidelity using a [UI Stencil][5] they are a great way to focus on a higher fidelity mock-up and not get too distracted by the look and feel but at the same time keeping it neat and fast to draw.
 
 I map out the screens one at a time until I think I have them all, then at this point I create an information map. An information map is like a site-map mashed up with a functional diagram, it's a great way to map out key functions in Apps. Depending upon the complexity of the App you can map out individual Use Case routes or display all the key routes on one diagram.
 
@@ -90,7 +90,7 @@ I follow the same process for collecting visual inspiration and deciding artisti
 
 While in my work designing on the web I have been unable to ditch Photoshop yet, I have recently transitioned to [Sketch] for my App designing. It's a fantastic tool to work with and has a ton of great tools to speed up App design. While designing I also use [Skala Preview] with [this plugin](https://github.com/marcisme/sketch-preview){:rel="external"} to allow me to see the design taking shape in real-time on the phone. Adding this context really helps you get sizing and proportions right. Things that seem a great idea on killer large iMac screen don't always seem the best idea on a small iPhone 4 screen later.
 
-In my opinion, there still is a gap in the market for a great designer version of [Github](http://www.github.com){:rel="external"}. It always makes me nervous when designing that I may loose something I really want to revert or keep later. I have tried [Adobe Creative Cloud](http://www.adobe.com/uk/creativecloud.html){:rel="external"}, which is basically [Dropbox](http://www.dropbox.com){:rel="external"}, with more storage as standard, but goes down constantly and is pretty unreliable. [Layervault](http://www.layervault.com){:rel="external"} was a better alternative, but I also ran in to issues with content not being saved properly and a lot of slowdown every time my computer loaded. If you have any better suggestions I would love to [hear them on Twitter][1].
+In my opinion, there still is a gap in the market for a great designer version of [Github](http://www.github.com){:rel="external"}. It always makes me nervous when designing that I may loose something I really want to revert or keep later. I have tried [Adobe Creative Cloud](http://www.adobe.com/uk/creativecloud.html){:rel="external"}, which is basically [Dropbox](http://www.dropbox.com){:rel="external"}, with more storage as standard, but goes down constantly and is pretty unreliable. [Layervault](http://www.layervault.com){:rel="external"} was a better alternative, but I also ran in to issues with content not being saved properly and a lot of slowdown every time my computer loaded. If you have any better suggestions I would love to [hear them on Twitter][1] .
 
 So to recap, now we have:
 
@@ -142,6 +142,12 @@ Finally, a short note on App stores approval. This is often something that gets 
 
 If you enjoyed this post and found it helpful, you should follow me on <a href="http://www.twitter.com/{{site.author.twitter}}" rel="me" title="Twitter" rel="external">Twitter</a> where I am happy to chat further.
 
+[1]: http://www.twitter.com/{{site.author.twitter}}
+[2]: http://vincentp.me/blog/my-front-end-development-process-start-to-finish/
+[3]: https://github.com/vipickering/Blueprint
+[4]: https://github.com/vipickering/Functional-Specification-Boilerplate
+[5]: http://www.uistencils.com/products/iphone-stencil-kit
+
 {% contentfor aside %}
 ## App Guidelines
 - [Android](http://developer.android.com/design/index.html){:rel="external"}
@@ -177,4 +183,5 @@ If you enjoyed this post and found it helpful, you should follow me on <a href="
 [3]: https://github.com/vipickering/Blueprint
 [4]: https://github.com/vipickering/Functional-Specification-Boilerplate
 [5]: http://www.uistencils.com/products/iphone-stencil-kit
+
 {% endcontentfor %}

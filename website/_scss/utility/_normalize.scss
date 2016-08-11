@@ -12,8 +12,38 @@ html {
 body {
     margin: 0;
     padding: 0;
-    font-size: 16px;
 }
+
+
+// From http://kennethormandy.com/journal/normalize-opentype-css
+html, body, table {
+    font-feature-settings: "kern" 1, "liga" 1, "calt" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0, "dlig" 0;
+  }
+
+  h1, h2, h3 {
+    font-feature-settings: "kern" 1, "liga" 1, "calt" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0, "dlig" 1;
+  }
+
+  abbr {
+    text-transform: uppercase;
+    font-feature-settings: "kern" 1, "liga" 1, "calt" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0, "smcp" 1, "c2sc" 1;
+  }
+
+time {
+    font-feature-settings: "kern" 1, "liga" 1, "calt" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0;
+}
+
+pre, kbd, samp, code {
+    font-feature-settings: "kern" 0, "liga" 0, "calt" 1, "dlig" 0, "pnum" 0, "tnum" 1, "onum" 0, "lnum" 1, "zero" 1;
+}
+
+sup {
+    font-feature-settings: "kern" 1, "liga" 1, "calt" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0, "dlig" 0, "sups" 1;
+  }
+
+sub {
+    font-feature-settings: "kern" 1, "liga" 1, "calt" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0, "dlig" 0, "subs" 1;
+   }
 
 //For IE only. meh.
 article,
@@ -49,10 +79,11 @@ figure{
 
 //  root elements
 :root {
-    line-height: 1.75;
+    // line-height: 1.75;
     font-family: 'mp-mallory-book', sans-serif;
     background-color: brand(white);
     color: brand(black);
+    font-size: 16px;
 }
 
 ::selection {

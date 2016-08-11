@@ -1,5 +1,10 @@
+/*
+Add Typeset JS. IT Needs to run AFTER Jekyll compile.
+Will also need nodemon, to fun jeyklly build.
+*/
+
 //local vars
-$column-width: 38em;
+$column-width: 30em;
 $column-spacing: size(px15);
 $mallory-light-italic : 'mp-mallory-light-italic', Verdana, sans-serif;
 $mallory-book : 'mp-mallory-book', Verdana, sans-serif;
@@ -19,13 +24,13 @@ h2 {
     font-size: size(px12);
     text-transform: uppercase;
     padding: 0;
-    margin: 0 0 0.52rem 0;
+    margin: 0 0  size(px8) 0;
     line-height: 1;
 }
 
 p {
     max-width: $column-width;
-    margin: 0 0 1.901rem 0;
+    margin: 0 0 size(px27) 0;
     font-size: size(px15);
 }
 
@@ -45,7 +50,7 @@ Typography
 */
 ul + h2,
 ol + h2  {
-    padding-top:15px;
+    padding-top: size(px15);
 }
 
 
@@ -90,13 +95,13 @@ blockquote > p {
     font-size: size(px13);
 }
 
-blockquote > p::before{
-    content: '\201C';
-}
+// blockquote > p::before{
+//     content: '\201C';
+// }
 
-blockquote > p::after{
-content: '\201D';
-}
+// blockquote > p::after{
+// content: '\201D';
+// }
 
 time {
     font-family: $mallory-book-italic;
@@ -104,11 +109,12 @@ time {
 }
 
 ul,ol {
-    margin:0 0 size(px15) 0;
+    margin:0 0 size(px27) 0;
     padding-left:0;
 }
 
 li {
+      font-size: size(px13);
     max-width: $column-width;
 }
 

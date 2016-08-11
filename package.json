@@ -1,5 +1,5 @@
 {
-  "name": "vincentp-dev",
+  "name": "vincentp.me",
   "version": "1.0.0",
   "description": "personal website",
   "main": "website/index.html",
@@ -21,6 +21,7 @@
     "grunt": "^1.0.1",
     "grunt-contrib-watch": "^1.0.0",
     "grunt-csso": "^1.0.0",
+    "grunt-nodemon": "^0.4.2",
     "grunt-postcss": "^0.8.0",
     "grunt-sass": "^1.2.0",
     "load-grunt-config": "^0.19.2"
