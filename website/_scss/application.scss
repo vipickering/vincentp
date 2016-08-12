@@ -21,10 +21,12 @@
 @import "layout/_footer.scss";
 
 @import "layout/_homepage.scss";
+@import "layout/_toc.scss";
 
 // Typography Styles
 @import "typography/_text.scss";
 @import "typography/_links.scss";
+@import "typography/_line-height.scss";
 
 // Import 3rd Party CSS for Code styling.
 @import "third-party/_monokai.scss";

@@ -29,7 +29,6 @@ h2 {
 }
 
 p {
-    max-width: $column-width;
     margin: 0 0 size(px27) 0;
     font-size: size(px15);
 }
@@ -108,14 +107,8 @@ time {
     margin:6px 0 30px 0;
 }
 
-ul,ol {
-    margin:0 0 size(px27) 0;
-    padding-left:0;
-}
-
 li {
       font-size: size(px13);
-    max-width: $column-width;
 }
 
 figcaption{
@@ -125,4 +118,11 @@ figcaption{
 
 pre {
  overflow-x : auto;
+}
+
+
+.post-content{
+    p,
+    li       { max-width: $column-width; }
+    ul,ol { margin:0 0 size(px27) 0; padding-left:0; }
 }

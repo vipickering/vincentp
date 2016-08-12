@@ -20,8 +20,20 @@ address li{
     list-style: none;
 }
 
+address ul{
+    margin-bottom: 0;
+}
+
 address li::after{
     content: ":";
+    padding : 0 0 0 4px;
     display: inline-block;
+}
 
+address li:last-child::after{
+    content: none;
+}
+
+address a{
+    font-size: size(px12);
 }

@@ -8,12 +8,14 @@
   {% include header.html %}
 
     <main class="container" role="main">
+        <ol class="toc">
         {% for post in site.posts %}
-            <div>
-                <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-                <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_string }}</time>
-            </div>
+          <li>
+                <a href="{{ post.url }}" title="{{ post.title }}" class="toc-title">{{ post.title }}</a>
+                <time class="toc-date" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_string }}</time>
+            </li>
         {% endfor %}
+        </ol>
     </main>
   {% include footer.html %}
   {% include tracking.html %}

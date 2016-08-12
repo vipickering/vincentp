@@ -4,20 +4,20 @@ $gutter : 60px;
     @extend .clearfix;
 }
 
-// .column-one-third,
-// .column-two-thirds{
-//     float: left;
-//     display: inline-block;
-// }
+.column-one-third,
+.column-two-thirds{
+    float: left;
+    display: inline-block;
+}
 
-// .column-one-third{
-//   width: 34%;
-// }
+.column-one-third{
+  width: 34%;
+}
 
-// .column-two-thirds{
-//  width: 66%;
-//         padding-right: $gutter;
-// }
+.column-two-thirds{
+ width: 66%;
+        padding-right: $gutter;
+}
 
 .height-two-thirds{
     height: 75vh;

@@ -68,8 +68,8 @@ $sizes: (
 }
 
 //Make each value in the map available as a handy class
-@each $value, $size in $sizes {
-    .#{$value}{
-        font-size: $size;
-    }
-}
+// @each $value, $size in $sizes {
+//     .#{$value}{
+//         font-size: $size;
+//     }
+// }
