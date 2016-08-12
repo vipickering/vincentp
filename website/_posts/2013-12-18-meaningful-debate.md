@@ -13,7 +13,7 @@ The original article posited the statement that frequently conference participan
 
 >  “&hellip;The content or the interaction<br/>could have been better in some way”.
 
-In order to solve this problem the author (Wesley Hales) has created some open source software called [Onslyde](http://onslyde.com/){:rel="external"} which allows you to vote in real time as the speaker addresses the audience. Let me be clear, I wholeheartedly appreciate this effort, in-fact my hope, is that my response to this conversation will help re-inform the software perhaps in a direction I haven't considered, or spark more debate and inspire others to tackle this issue in a unique way. The conversation has just begun and we have a lot to talk about.
+In order to solve this problem the author (Wesley Hales) has created some open source software called Onslyde which allows you to vote in real time as the speaker addresses the audience. Let me be clear, I wholeheartedly appreciate this effort, in-fact my hope, is that my response to this conversation will help re-inform the software perhaps in a direction I haven't considered, or spark more debate and inspire others to tackle this issue in a unique way. The conversation has just begun and we have a lot to talk about.
 
 My rebuttal has a simple premise, I don't believe real-time sentiment tracking is the right way forward, but in order to frame my analysis to the original problem posed by Wesley first we need to to apply some design thinking to what is happening when a speaker is on stage addressing the audience.
 
@@ -23,7 +23,7 @@ Consider the question:
 
 When a speaker addresses the audience, they are starting a 1 to many conversation, so in order to diagnose the problem let's first understand how a conversation works and at what points it breaks down.
 
-There has been a great deal of research done on the conversation model, in particular [Dr Paul Pangaro](http://interactiondesign.sva.edu/people/faculty/paul-pangaro-phd/){:rel="external"} has done a [large amount of work](http://vimeo.com/43677920){:rel="external"}in this area, de-constructing the effective conversation model in to it's constituent components so that we can understand and write software to have meaningful conversation.
+There has been a great deal of research done on the conversation model, in particular Dr Paul Pangaro has done a [large amount of work](http://vimeo.com/43677920){:rel="external"}in this area, de-constructing the effective conversation model in to it's constituent components so that we can understand and write software to have meaningful conversation.
 
 Dr Paul Pangaro uses the acronym **C-L-E-A-T** which is broken down in to these parts:
 

@@ -31,7 +31,7 @@ In terms of visual inspiration, in the past I have tried Zootool, Iceber.gs and 
 
 ## Blogging Tools
 
-Preferring to spend down time when travelling doing something productive, (on a crowded train, sometimes it's not practical to get the laptop out and start blogging) I like to use writing software that is not device dependant and can always access my content. Given that I use [Jekyll](http://jekyllrb.com){:rel="external"} for the blog, the ability to write &amp; save the text in [Markdown](http://daringfireball.net/projects/markdown/){:rel="external"} is a big plus. To that end [IA Writer](http://www.iawriter.com/mac/){:rel="external"} is usually my tool of choice. In actual fact, I do the initial write-up and first pass to every blog post in [IA Writer](http://www.iawriter.com/mac/){:rel="external"}. Once it is complete, I move the post in to [Sublime Text](http://www.sublimetext.com){:rel="external"}, switch to Full Screen Distraction Mode
+Preferring to spend down time when travelling doing something productive, (on a crowded train, sometimes it's not practical to get the laptop out and start blogging) I like to use writing software that is not device dependant and can always access my content. Given that I use [Jekyll](http://jekyllrb.com){:rel="external"} for the blog, the ability to write &amp; save the text in [Markdown](http://daringfireball.net/projects/markdown/){:rel="external"} is a big plus. To that end [IA Writer](https://ia.net/writer){:rel="external"} is usually my tool of choice. In actual fact, I do the initial write-up and first pass to every blog post in [IA Writer](https://ia.net/writer){:rel="external"}. Once it is complete, I move the post in to [Sublime Text](http://www.sublimetext.com){:rel="external"}, switch to Full Screen Distraction Mode
 
 {% highlight c %}
 Alt + Cntrl + Shift + F
@@ -79,7 +79,7 @@ At this point, I usually make 3 selections that I prefer and show them to the cl
 
 ## Coding Websites
 
-Finally, creating the <abbr title="Hyper Text Markup Language">HTML</abbr>, <abbr title="Cascading Style Sheets">CSS</abbr> and JavaScript. Hand coding is essential, for production ready professional code and the best tool to create that is [Sublime Text](http://www.sublimetext.com){:rel="external"}. It's hands down the fastest and most feature rich tool to code in and has a huge variety of configurable options. [I wrote about my Sublime Text set-up here](http://vincentp.me/blog/sublime-text-setup/){:rel="external"}.
+Finally, creating the <abbr title="Hyper Text Markup Language">HTML</abbr>, <abbr title="Cascading Style Sheets">CSS</abbr> and JavaScript. Hand coding is essential, for production ready professional code and the best tool to create that is [Sublime Text](http://www.sublimetext.com){:rel="external"}. It's hands down the fastest and most feature rich tool to code in and has a huge variety of configurable options. [I wrote about my Sublime Text set-up here](http://vincentp.me/blog/sublime-text-setup){:rel="external"}.
 
 As with most web professionals, I use [Github](http://github.com){:rel="external"} to store and manage my code with the [Github client for OSX](http://mac.github.com){:rel="external"}. I don't mind using the terminal, but I'm not a masochist, I'd rather click the sync button than spend a few minutes remembering and typing in terminal commands if I don't have to.
 
@@ -162,7 +162,7 @@ If you enjoyed this post and found it helpful, you should follow me on <a href="
 ## Misc Productivity &amp; Planning Tools
 
 - [Alfred](http://www.alfredapp.com){:rel="external"}
-- [IA Writer](http://www.iawriter.com/mac/){:rel="external"}
+- [IA Writer](https://ia.net/writer){:rel="external"}
 - [Pinboard](http://pinboard.in){:rel="external"} with [Shiori](http://aki-null.net/shiori/){:rel="external"}
 - [Ember](http://realmacsoftware.com/ember){:rel="external"}
 - [Feedly](http://cloud.feedly.com){:rel="external"}
@@ -175,7 +175,7 @@ If you enjoyed this post and found it helpful, you should follow me on <a href="
 
 -  [Github](http://github.com){:rel="external"}
 -  [Github client for OSX](http://mac.github.com){:rel="external"}
--  [Sublime Text](http://www.sublimetext.com){:rel="external"}. Also see [my Sublime set-up](http://vincentp.me/blog/sublime-text-setup/){:rel="external"}
+-  [Sublime Text](http://www.sublimetext.com){:rel="external"}. Also see [my Sublime set-up](http://vincentp.me/blog/sublime-text-setup){:rel="external"}
 -  [CodeKit](http://incident57.com/codekit/){:rel="external"}
 -  [HTML Inspector](https://github.com/philipwalton/html-inspector){:rel="external"}
 -  [Holmes CSS Inspector](http://www.red-root.com/sandbox/holmes/){:rel="external"}

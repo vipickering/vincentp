@@ -104,7 +104,6 @@ blockquote > p {
 
 time {
     font-family: $mallory-book-italic;
-    margin:6px 0 30px 0;
 }
 
 li {
@@ -125,4 +124,5 @@ pre {
     p,
     li       { max-width: $column-width; }
     ul,ol { margin:0 0 size(px27) 0; padding-left:0; }
+    time { margin:6px 0 30px 0; }
 }

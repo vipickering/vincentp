@@ -105,4 +105,4 @@ so we can simply do:
 
 Got any other techniques, I’ve missed?
 
-[Talk to me Goose](href="http://www.twitter.com/vipickering"){:rel="external"}.
+[Talk to me Goose](http://www.twitter.com/vipickering"){:rel="external"}.

@@ -97,7 +97,7 @@ To update your user preferences to use the elements you like go to:
 and paste the code from the gist. Remember, your user preferences don't override the defaults so you should never break anything.
 
 ## My Installed Packages
-[Install Package Control](https://sublime.wbond.net/installation){:rel="external"}, **then add the following:**
+[Install Package Control](https://packagecontrol.io){:rel="external"}, **then add the following:**
 
 -  [AdvancedNewFile](https://github.com/skuroda/Sublime-AdvancedNewFile){:rel="external"}
 -  [All Autocomplete](https://github.com/alienhard/SublimeAllAutocomplete){:rel="external"}

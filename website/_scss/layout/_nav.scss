@@ -1,15 +1,14 @@
 nav {
-    margin-top : 5px;
     float:  right;
 }
 
 nav ul {
     float: left;
-    margin-right: 30px;
+    margin: 0 30px 0 0;
 }
 
 nav li{
-    margin:0;
+    margin: 0 0 size(px7) 0;
     padding: 0;
     list-style: none;
     font-size: size(px12);

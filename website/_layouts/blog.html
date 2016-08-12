@@ -8,9 +8,15 @@
   {% include header.html %}
 
     <main class="container" role="main">
+        <!-- Need to hide this title from screen readers -->
+        <div class="toc">
+          <div  class="toc-title-header">Index</div>
+          <div  class="toc-date-header">Posted</div>
+        </div>
+
         <ol class="toc">
         {% for post in site.posts %}
-          <li>
+            <li>
                 <a href="{{ post.url }}" title="{{ post.title }}" class="toc-title">{{ post.title }}</a>
                 <time class="toc-date" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_string }}</time>
             </li>

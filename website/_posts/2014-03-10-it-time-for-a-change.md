@@ -39,7 +39,7 @@ When we lay it out like this, the missing part is quite clear. We don't have a f
 
 ## Work Smarter
 
-What's needed is a lightning rod to draw people together and discuss ideas after a conference, to raise problems we all have and work smarter to solve them. You see, humans work better together when they can have [meaningful conversation](http://vincentp.me/blog/meaningful-debate/){:rel="external"} face to face. We are more industrious and iterate faster.
+What's needed is a lightning rod to draw people together and discuss ideas after a conference, to raise problems we all have and work smarter to solve them. You see, humans work better together when they can have [meaningful conversation](http://vincentp.me/blog/meaningful-debate) face to face. We are more industrious and iterate faster.
 
 In February, at Hey! Stac [I presented my vision](https://speakerdeck.com/vincentp/the-need-for-conversation){:rel="external"} for how this type of event (I am calling Summit) could work.
 

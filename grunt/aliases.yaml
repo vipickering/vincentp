@@ -3,3 +3,9 @@ default:
   - 'postcss'
   - 'csso'
   - 'watch'
+
+# test:
+# - 'nodemon'
+# - 'link checker'
+# - 'sass lint'
+# - 'Pa11y'
