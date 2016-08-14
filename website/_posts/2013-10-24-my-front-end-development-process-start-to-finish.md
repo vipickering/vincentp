@@ -25,7 +25,7 @@ On the topic of being productive, I keep my thoughts ordered and on top of the T
 
 ## Inspiration and Resource Gathering
 
-When it comes to resource gathering I use a combination of mobile and desktop tools. For iPhone, [Feedly](http://cloud.feedly.com){:rel="external"} is my <abbr title="Really Simple Syndication">RSS</abbr> reader of choice, which I combine with [Prismatic](http://getprismatic.com){:rel="external"} to discover new and interesting content, interesting feeds are then rolled back in to my [Feedly](http://cloud.feedly.com){:rel="external"} stream. It's a good cyclical process that keeps my reading content board, and yet focused, and avoids the creative tunnel vision that can happen, when you just rely on one source of information. Anything that piques my interest in particular is sent to my [Pinboard](https://pinboard.in/u:monkeymajiks/){:rel="external"} account, where I store blog posts, resources, information and anything that interest me. I augment this when on my laptop / desktop with [Shiori](http://aki-null.net/shiori/){:rel="external"}, which is a fantastic front-end interface to [Pinboard](http://pinboard.in){:rel="external"} and works in much the same way as [Alfred](http://www.alfredapp.com){:rel="external"}.
+When it comes to resource gathering I use a combination of mobile and desktop tools. For iPhone, [Feedly](http://cloud.feedly.com){:rel="external"} is my <abbr title="Really Simple Syndication">RSS</abbr> reader of choice, which I combine with Prismatic to discover new and interesting content, interesting feeds are then rolled back in to my [Feedly](http://cloud.feedly.com){:rel="external"} stream. It's a good cyclical process that keeps my reading content board, and yet focused, and avoids the creative tunnel vision that can happen, when you just rely on one source of information. Anything that piques my interest in particular is sent to my [Pinboard](https://pinboard.in/u:monkeymajiks/){:rel="external"} account, where I store blog posts, resources, information and anything that interest me. I augment this when on my laptop / desktop with [Shiori](http://aki-null.net/shiori/){:rel="external"}, which is a fantastic front-end interface to [Pinboard](http://pinboard.in){:rel="external"} and works in much the same way as [Alfred](http://www.alfredapp.com){:rel="external"}.
 
 In terms of visual inspiration, in the past I have tried Zootool, Iceber.gs and many other visual bookmarking services. All the web based solutions ended up suffering from the same problem, as your library starts to get quite large the service would become slower and slower. I can add quite a few images each day to my stream, so web based services were not ideal for my needs. Eventually I settled on [Ember](http://realmacsoftware.com/ember){:rel="external"}. Its combination of screen capture, <abbr title="Really Simple Syndication">RSS</abbr> feed reader (Where I store all my visual <abbr title="Really Simple Syndication">RSS</abbr> feeds) and image catalogue are ideal.
 
@@ -98,7 +98,7 @@ I work using a strict separation of development and live environments. The live 
 
 In the developer environment I use Philip Walton's [HTML Inspector](https://github.com/philipwalton/html-inspector){:rel="external"} which is a marvelous tool to catch <abbr title="Hyper Text Markup Language">HTML</abbr> errors and more. Where it really comes in to its own is using the custom rules to create your own validation patterns. When you are working in a team, it's a great way to establish a coding pattern and validate against it. While I dislike BEM there are many people who enjoy using it, and if your that way inclined, it also comes with some rules pre-built for BEM notation, including [Harry Roberts](http://csswizardry.com){:rel="external"} [Inuit](http://inuitcss.com){:rel="external"} which is all the rage with the kids these days.
 
-To complement HTML Inspector, I also use the excellent [Holmes CSS Inspector](http://www.red-root.com/sandbox/holmes/){:rel="external"}. Holmes looks for errors in the <abbr title="Cascading Style Sheets">CSS</abbr> and highlights them using visual cues, its pretty comprehensive and really helps to enforce good practices.
+To complement HTML Inspector, I also use the excellent Holmes CSS Inspector. Holmes looks for errors in the <abbr title="Cascading Style Sheets">CSS</abbr> and highlights them using visual cues, its pretty comprehensive and really helps to enforce good practices.
 
 On a side note, its also worth mentioning that occasionally I have to pick up a lengthy <abbr title="Cascading Style Sheets">CSS</abbr> file(s) from another team or developer and if it is quite complicated or heavily compressed with no uncompressed alternative I turn to [ProCSSor](http://procssorapp.com){:rel="external"}. It's the best tool I have found to quickly format a <abbr title="Cascading Style Sheets">CSS</abbr> file in to a readable format and have had no issues with it mangling code. If things are really mangled, before running the code through ProCSSor, I utilize the <abbr title="Cascading Style Sheets">CSS</abbr> Comb plugin for Sublime to bring some order to the chaos.
 
@@ -166,7 +166,6 @@ If you enjoyed this post and found it helpful, you should follow me on <a href="
 - [Pinboard](http://pinboard.in){:rel="external"} with [Shiori](http://aki-null.net/shiori/){:rel="external"}
 - [Ember](http://realmacsoftware.com/ember){:rel="external"}
 - [Feedly](http://cloud.feedly.com){:rel="external"}
-- [Prismatic](http://getprismatic.com){:rel="external"}
 - [Moleskin](http://www.moleskine.com/gb/collections/model/product/squared-soft-notebook-extra-large){:rel="external"}
 - [Bullet Journal System](http://www.bulletjournal.com){:rel="external"}
 - [Wunderlist](https://www.wunderlist.com/en/){:rel="external"}
@@ -178,7 +177,6 @@ If you enjoyed this post and found it helpful, you should follow me on <a href="
 -  [Sublime Text](http://www.sublimetext.com){:rel="external"}. Also see [my Sublime set-up](http://vincentp.me/blog/sublime-text-setup){:rel="external"}
 -  [CodeKit](http://incident57.com/codekit/){:rel="external"}
 -  [HTML Inspector](https://github.com/philipwalton/html-inspector){:rel="external"}
--  [Holmes CSS Inspector](http://www.red-root.com/sandbox/holmes/){:rel="external"}
 -  [ProCSSor](http://procssorapp.com){:rel="external"}
 -  [Adobe Edge Inspect](http://html.adobe.com/edge/inspect/){:rel="external"}
 -  [W3C Validators](http://validator.w3.org){:rel="external"}

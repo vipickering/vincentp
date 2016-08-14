@@ -75,8 +75,6 @@ I create a Functional Specification document. Building software of any type is c
 
 I have tried many ways in the past to manage this document and this largely depends upon the client, some prefer an on-line version, others prefer a Word document, the important point to note is that the client needs to actually interact with the document or the process falls down so I keep mine in markdown and convert to the format I need depending upon the clients wishes.
 
-Building a functional specification document can be daunting if you haven't done it before, so I have made available in markdown [my functional specification boilerplate][4] for you to use in your App creation as a starting point, remember the great thing about markdown is you can covert it to pretty much anything.
-
 <figure>
 <figcaption>Blueprint, my rapid prototyping objects for keynote</figcaption>
 <img src="/images/blog/2013-11-11/blueprint.jpg"  width="612" alt="a screen shot of my rapid prototyping software Blueprint"/>
@@ -143,20 +141,11 @@ Finally, a short note on App stores approval. This is often something that gets 
 If you enjoyed this post and found it helpful, you should follow me on <a href="http://www.twitter.com/{{site.author.twitter}}" rel="me" title="Twitter" rel="external">Twitter</a> where I am happy to chat further.
 
 [1]: http://www.twitter.com/{{site.author.twitter}}
-[2]: http://vincentp.me/blog/my-front-end-development-process-start-to-finish/
+[2]: http://vincentp.me/blog/my-front-end-development-process-start-to-finish
 [3]: https://github.com/vipickering/Blueprint
-[4]: https://github.com/vipickering/Functional-Specification-Boilerplate
 [5]: http://www.uistencils.com/products/iphone-stencil-kit
 
 {% contentfor aside %}
-## App Guidelines
-- [Android](http://developer.android.com/design/index.html){:rel="external"}
-- [iOS7](https://developer.apple.com/library/ios/design/index.html){:rel="external"}
-- [Windows Phone](http://developer.windowsphone.com/en-us/design/library){:rel="external"}
-- [Windows Desktop](http://msdn.microsoft.com/en-us/windows/desktop/aa511258){:rel="external"}
-- [Blackberry](http://docs.blackberry.com/en/developers/deliverables/17965/Designing_applications_for_BlackBerry_devices_1017063_11.jsp){:rel="external"}
-- [Symbian](http://developer.nokia.com/Design/Documentation/){:rel="external"}
-
 ## Misc Productivity &amp; Planning Tools
 
 - [Pinboard](http://pinboard.in){:rel="external"}
@@ -176,12 +165,10 @@ If you enjoyed this post and found it helpful, you should follow me on <a href="
 -  [Adobe Creative Cloud](http://www.adobe.com/uk/products/creativecloud.html){:rel="external"}
 -  [Keynote](http://www.apple.com/uk/iwork/keynote/){:rel="external"} with [Blueprint][3]{:rel="external"}
 -  [Flinto](https://www.flinto.com){:rel="external"}
--  [Functional Specification Document Boilerplate][4]{:rel="external"}
 
 [1]: http://www.twitter.com/{{site.author.twitter}}
 [2]: http://vincentp.me/blog/my-front-end-development-process-start-to-finish/
 [3]: https://github.com/vipickering/Blueprint
-[4]: https://github.com/vipickering/Functional-Specification-Boilerplate
 [5]: http://www.uistencils.com/products/iphone-stencil-kit
 
 {% endcontentfor %}

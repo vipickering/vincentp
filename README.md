@@ -16,16 +16,10 @@ npm update
 
 ## Running
 
-Launch Grunt from the site root:
+Launch the default Gulp task from the site root. This will build and watch for local changes, along with loading the jekyll site to watch.
 
 ```
-grunt
-```
-
-To launch the site. Navigate to the website folder, then type:
-
-```
-Jekyll serve --watch --drafts
+gulp
 ```
 
 ## Deploy
@@ -38,7 +32,7 @@ jekyll build
 
 ## Testing Tools
 
-### [Borken link Checker](https://github.com/stevenvachon/broken-link-checker)
+### [Broken link Checker](https://github.com/stevenvachon/broken-link-checker)
 
 Install BLC
 
