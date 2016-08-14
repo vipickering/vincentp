@@ -21,6 +21,8 @@ $list-text-size : size(px13);
 
 $blockquote-text-size:  $list-text-size;
 
+$aside-text-size : size(px9);
+
 // calc( #{$body-text} / 100 * 145);
 
 /***
@@ -167,7 +169,12 @@ Baseline
         margin:size(px7) 0 size(px30) 0;
     }
 
-    aside{
+    aside * {
         font-family: $mallory-book;
+        font-size: $aside-text-size;
+    }
+
+    aside{
+        p,li   { margin-bottom: size(px7); }
     }
 }
