@@ -11,6 +11,6 @@ gulp.task('default', function(){
         'clean',
         'build-css',
         'compress-css',
-        ['watch', 'shell']
+        ['watch', 'jekyll']
     );
 });
