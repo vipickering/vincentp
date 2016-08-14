@@ -1,0 +1,3 @@
+User-agent: *
+Sitemap: http://vincentp.me/sitemap.xml
+Disallow:
