@@ -17,8 +17,9 @@ $paragraph-spacing : size(px34);
 $heading-1-text-size : size(px30);
 $heading-2-text-size : size(px12);
 
-
 $list-text-size : size(px13);
+
+$blockquote-text-size:  $list-text-size;
 
 // calc( #{$body-text} / 100 * 145);
 
@@ -72,20 +73,7 @@ Baseline
 //     top: -0.5em;
 // }
 
-// q,
-// blockquote {
-//     display: block;
-//     font-family: $mallory-book-italic;
-//     max-width: $column-width;
-//     border-left: 6px solid brand(red);
-//     padding:10px 10px 10px 30px;
-//     margin-bottom: 30px;
-// }
 
-// blockquote > p {
-//     margin:0;
-//     font-size: size(px13);
-// }
 
 // time {
 //     font-family: $mallory-book-italic;
@@ -138,7 +126,6 @@ Baseline
     }
 
     li {
-        // font-family: $mallory-book-italic;
         font-size: $list-text-size;
         line-height: $paragraph-line-height;
         list-style: none;
@@ -159,6 +146,21 @@ Baseline
         margin : 0 0 $paragraph-spacing 0;
         padding-left: 0;
         max-width: $line-length;
+    }
+
+    q,
+    blockquote {
+        display: block;
+        font-family: $mallory-book-italic;
+        max-width: $line-length;
+        border-left: 6px solid brand(red);
+        padding:10px 10px 10px 30px;
+        margin-bottom: 30px;
+    }
+
+    blockquote > p {
+        margin: 0;
+        font-size: $blockquote-text-size;
     }
 
     time {
