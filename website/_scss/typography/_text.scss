@@ -4,125 +4,168 @@ Will also need nodemon, to fun jeyklly build.
 */
 
 //local vars
-$column-width: 30em;
-$column-spacing: size(px15);
 $mallory-light-italic : 'mp-mallory-light-italic', Verdana, sans-serif;
 $mallory-book : 'mp-mallory-book', Verdana, sans-serif;
 $mallory-book-italic : 'mp-mallory-book-italic', Verdana, sans-serif;
 $mallory-bold : 'mp-mallory-bold', Verdana, sans-serif;
 
-h1 {
-    font-family: $mallory-bold;
-    font-size : size(px30);
-    padding: 0;
-    margin: 0;
-    line-height: 1;
-}
+$body-text-size : size(px15);
+$line-length : 35em;
+$paragraph-line-height : 1.6;
+$paragraph-spacing : size(px34);
 
-h2 {
-    font-family: $mallory-bold;
-    font-size: size(px12);
-    text-transform: uppercase;
-    padding: 0;
-    margin: 0 0  size(px8) 0;
-    line-height: 1;
-}
-
-p {
-    margin: 0 0 size(px27) 0;
-    font-size: size(px15);
-}
-
-small,
-aside{
-    font-family: $mallory-book;
-    font-size: size(px9);
-    text-transform:uppercase;
-}
-
-aside h2{
-    font-size: size(px9);
-}
-
-/*
-Typography
-*/
-ul + h2,
-ol + h2  {
-    padding-top: size(px15);
-}
+$heading-1-text-size : size(px30);
+$heading-2-text-size : size(px12);
 
 
-b,
-strong {
-    font-family: $mallory-bold;
-    font-weight: normal;
-}
+$list-text-size : size(px13);
 
-/**
- * Prevent `sub` and `sup` elements from affecting the line height in
- * all browsers.
- */
- sub,
- sup {
-    font-size: 75%;
-    line-height: 0;
-    position: relative;
-    vertical-align: baseline;
-}
+// calc( #{$body-text} / 100 * 145);
 
-sub {
-    bottom: -0.25em;
-}
+/***
+Baseline
+***/
 
-sup {
-    top: -0.5em;
-}
-
-q,
-blockquote {
-    display: block;
-    font-family: $mallory-book-italic;
-    max-width: $column-width;
-    border-left: 6px solid brand(red);
-    padding:10px 10px 10px 30px;
-    margin-bottom: 30px;
-}
-
-blockquote > p {
-    margin:0;
-    font-size: size(px13);
-}
-
-// blockquote > p::before{
-//     content: '\201C';
+// small,
+// aside{
+//     font-family: $mallory-book;
+//     font-size: size(px9);
+//     text-transform:uppercase;
 // }
 
-// blockquote > p::after{
-// content: '\201D';
+// aside h2{
+//     font-size: size(px9);
 // }
 
-time {
-    font-family: $mallory-book-italic;
-}
+// /*
+// Typography
+// */
+// ul + h2,
+// ol + h2  {
+//     padding-top: size(px15);
+// }
 
-li {
-      font-size: size(px13);
-}
 
-figcaption{
-       font-family: $mallory-light-italic;
-       font-size: size(px12);
-}
+// b,
+// strong {
+//     font-family: $mallory-bold;
+//     font-weight: normal;
+// }
 
-pre {
- overflow-x : auto;
-}
+// *
+//  * Prevent `sub` and `sup` elements from affecting the line height in
+//  * all browsers.
+
+//  sub,
+//  sup {
+//     font-size: 75%;
+//     line-height: 0;
+//     position: relative;
+//     vertical-align: baseline;
+// }
+
+// sub {
+//     bottom: -0.25em;
+// }
+
+// sup {
+//     top: -0.5em;
+// }
+
+// q,
+// blockquote {
+//     display: block;
+//     font-family: $mallory-book-italic;
+//     max-width: $column-width;
+//     border-left: 6px solid brand(red);
+//     padding:10px 10px 10px 30px;
+//     margin-bottom: 30px;
+// }
+
+// blockquote > p {
+//     margin:0;
+//     font-size: size(px13);
+// }
+
+// time {
+//     font-family: $mallory-book-italic;
+// }
+
+// li {
+
+// }
+
+// figcaption{
+//        font-family: $mallory-light-italic;
+//        font-size: size(px12);
+// }
+
+// pre {
+//  overflow-x : auto;
+// }
 
 
 .post-content{
-    p,
-    li       { max-width: $column-width; }
-    ul,ol { margin:0 0 size(px27) 0; padding-left:0; }
-    time { margin:6px 0 30px 0; }
+     h1 {
+        font-family: $mallory-bold;
+        font-size : $heading-1-text-size;
+        padding: 0;
+        margin: 0;
+        line-height: 1;
+    }
+
+    h2 {
+        font-family: $mallory-bold;
+        font-size: $heading-2-text-size;
+        text-transform: uppercase;
+        letter-spacing: 0.05rem;
+        padding: 0;
+        margin: 0 0  size(px7) 0;
+        line-height: 1;
+    }
+
+    p {
+        font-size: $body-text-size;
+        max-width: $line-length;
+        line-height: $paragraph-line-height;
+        -webkit-hyphens: none;
+        -moz-hyphens: none;
+        -ms-hyphens: none;
+        -webkit-font-kerning: auto;
+        -moz-font-kerning: auto;
+        -ms-font-kerning: auto;
+        margin: 0 0 $paragraph-spacing 0;
+    }
+
+    li {
+        // font-family: $mallory-book-italic;
+        font-size: $list-text-size;
+        line-height: $paragraph-line-height;
+        list-style: none;
+        margin-bottom:  size(px7);
+    }
+
+    li:last-child {
+        margin-bottom: 0;
+    }
+
+    li::before{
+        float: left;
+        margin-left: -10px;
+        content: '\2022';
+    }
+
+    ul,ol{
+        margin : 0 0 $paragraph-spacing 0;
+        padding-left: 0;
+        max-width: $line-length;
+    }
+
+    time {
+        margin:size(px7) 0 size(px30) 0;
+    }
+
+    aside{
+        font-family: $mallory-book;
+    }
 }

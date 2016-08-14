@@ -216,6 +216,7 @@ a:hover {
   padding: 1em;
   outline: 2px solid #000000;
   outline-offset: 2px;
+  -webkit-transition: background-color 0.3s;
   transition: background-color 0.3s; }
 
 .logo a:hover {
