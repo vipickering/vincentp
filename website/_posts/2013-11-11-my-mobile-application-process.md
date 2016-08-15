@@ -132,7 +132,7 @@ That said, its easier to find a few JavaScript developers and have them all be f
 
 ## Design Debugging
 
-When it comes to debugging design issues further down the line, I utilize a combination of [Dropbox] and [Instashare] to take screenshots and share them for comparison between designs and the finished product.
+When it comes to debugging design issues further down the line, I utilize a combination of Dropbox and Instashare to take screenshots and share them for comparison between designs and the finished product.
 
 ## App Store Submission
 

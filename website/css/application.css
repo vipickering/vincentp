@@ -434,6 +434,11 @@ i, em {
   font-family: "mp-mallory-light-italic", Verdana, sans-serif;
   font-weight: normal; }
 
+figcaption {
+  font-family: "mp-mallory-light-italic", Verdana, sans-serif;
+  font-size: 0.741rem;
+  margin-bottom: 0.462rem; }
+
 pre {
   overflow-x: auto;
   font-size: 0.938rem; }
@@ -451,7 +456,6 @@ pre {
   font-family: "mp-mallory-bold", Verdana, sans-serif;
   font-size: 0.658rem;
   text-transform: uppercase;
-  letter-spacing: 0.05rem;
   padding: 0.462rem 0 0 0;
   margin: 0 0 0.938rem 0;
   line-height: 1.187rem; }

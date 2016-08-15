@@ -94,14 +94,15 @@ i, em{
 
 // }
 
-// figcaption{
-//        font-family: $mallory-light-italic;
-//        font-size: size(px12);
-// }
+figcaption{
+       font-family: $mallory-light-italic;
+       font-size: size(px12);
+       margin-bottom: size(px7);
+}
 
 pre {
- overflow-x : auto;
- font-size: $code-text-size;
+    overflow-x : auto;
+    font-size: $code-text-size;
 }
 
 
@@ -120,7 +121,6 @@ pre {
         font-family: $mallory-bold;
         font-size: $heading-2-text-size;
         text-transform: uppercase;
-        letter-spacing: 0.05rem;
         padding:  size(px7) 0 0 0;
         margin: 0 0  size(px15) 0;
         line-height: size(px19);
