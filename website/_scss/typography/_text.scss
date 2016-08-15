@@ -18,10 +18,13 @@ $heading-1-text-size : size(px30);
 $heading-2-text-size : size(px12);
 
 $list-text-size : size(px13);
+$list-margin :  size(px9);
 
 $blockquote-text-size:  $list-text-size;
 
 $aside-text-size : size(px9);
+
+$code-text-size : size(px15);
 
 // calc( #{$body-text} / 100 * 145);
 
@@ -90,9 +93,10 @@ Baseline
 //        font-size: size(px12);
 // }
 
-// pre {
-//  overflow-x : auto;
-// }
+pre {
+ overflow-x : auto;
+ font-size: $code-text-size;
+}
 
 
 .post-content{
@@ -127,28 +131,38 @@ Baseline
         margin: 0 0 $paragraph-spacing 0;
     }
 
+    ul,ol{
+        margin : 0 0 $paragraph-spacing 0;
+        padding-left: 0;
+        max-width: $line-length;
+    }
+
+    li ol,
+    li ul{
+         margin: size(px9) 0 size(px9) 0;
+    }
+
     li {
         font-size: $list-text-size;
         line-height: $paragraph-line-height;
-        list-style: none;
-        margin-bottom:  size(px7);
+        // list-style: none;
+        margin: 0 0 size(px9) 0;
     }
 
     li:last-child {
         margin-bottom: 0;
     }
 
-    li::before{
-        float: left;
-        margin-left: -10px;
-        content: '\2022';
-    }
+    // li::before{
+    //     float: left;
+    //     margin-left: -10px;
+    //     content: '\2022';
+    // }
 
-    ul,ol{
-        margin : 0 0 $paragraph-spacing 0;
-        padding-left: 0;
-        max-width: $line-length;
-    }
+     li ol,
+     li ul{
+        margin-left: 10px;
+     }
 
     q,
     blockquote {
@@ -160,6 +174,7 @@ Baseline
         margin-bottom: 30px;
     }
 
+    q,
     blockquote > p {
         margin: 0;
         font-size: $blockquote-text-size;

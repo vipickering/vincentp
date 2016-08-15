@@ -28,8 +28,6 @@ Lorem ipsum dolor sit amet, adipiscing elit. Nullam dignissim convallis est. Qui
 
 * * *
 
-# Block Elements
-
 ## Paragraphs and Images
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -44,15 +42,13 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam dignissim conva
 
 This is a standard paragraph. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
 
-> "**This is a blockquote**. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl."
+> **This is a blockquote**. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl.
 
 This is a standard paragraph. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
 
 *Note: the [Figure-Figcaption](http://html5doctor.com/the-figure-figcaption-elements/) and [Details-Summary](http://html5doctor.com/the-details-and-summary-elements/) elements are not currently supported in markdown.*
 
 * * *
-
-#  Text Elements
 
 The [a element](#) and [external a element](http://example.com) examples
 
@@ -109,26 +105,18 @@ The <var>var element</var> example
 
 * * *
 
-# Monospace / Preformatted
-
 Code block wrapped in "pre" and "code" tags:
 
-```javascript
+{% highlight javascript %}
 // Loop through Divs using Javascript.
 var divs = document.querySelectorAll('div'), i;
 
 for (i = 0; i < divs.length; ++i) {
   divs[i].style.color = "green";
 }
-```
-
-Monospace Text wrapped in "pre" tags:
-
-<pre>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl.</pre>
+{% endhighlight %}
 
 * * *
-
-# List Types
 
 ## Ordered List
 
@@ -165,16 +153,10 @@ Monospace Text wrapped in "pre" tags:
 
 * * *
 
-# Tables
+## Tables
 
 | Table Header 1 | Table Header 2 | Table Header 3 |
 | -------------- | -------------- | -------------- |
 | Division 1     | Division 2     | Division 3     |
 | Division 1     | Division 2     | Division 3     |
 | Division 1     | Division 2     | Division 3     |
-
-* * *
-
-# Media and Form Elements
-
-The remaining sections contain elements that cannot be represented in markdown. Please consult [the HTML version](https://github.com/bryanbraun/poor-mans-styleguide/blob/gh-pages/index.html), to see these elements.
