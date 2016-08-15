@@ -3,10 +3,10 @@
   color: #1a1919; }
 
 .grey {
-  color: rgba(40, 38, 38, 0); }
+  color: #282626; }
 
 .lightGrey {
-  color: rgba(138, 138, 138, 0); }
+  color: #8a8a8a; }
 
 .white {
   color: white; }
@@ -18,10 +18,10 @@
   background-color: #1a1919; }
 
 .bg-grey {
-  background-color: rgba(40, 38, 38, 0); }
+  background-color: #282626; }
 
 .bg-lightGrey {
-  background-color: rgba(138, 138, 138, 0); }
+  background-color: #8a8a8a; }
 
 .bg-white {
   background-color: white; }
@@ -191,7 +191,7 @@ figure {
   margin: 0 0 30px 0; }
 
 :root {
-  font-family: 'mp-mallory-book', sans-serif;
+  font-family: 'mp-mallory-light', sans-serif;
   background-color: white;
   color: #1a1919;
   font-size: 16px; }
@@ -279,8 +279,8 @@ line height = (current-width - min-width) / ((max-width x min-width) x (line-hei
 grid max width = max column width(s) + gutter(s) + margin(s)
 */
 header {
-  margin-top: 15px;
-  margin-bottom: 30px; }
+  margin-top: 0.938rem;
+  margin-bottom: 1.335rem; }
 
 .float-left {
   float: left; }
@@ -311,13 +311,6 @@ nav li {
 
 nav a {
   color: #1a1919; }
-
-aside {
-  border-top: 4px solid #1a1919;
-  padding-top: 20px;
-  border-bottom: 4px solid #1a1919;
-  padding-bottom: 20px;
-  margin-top: 10px; }
 
 .next-prev + h2 {
   margin-top: 30px; }
@@ -395,7 +388,7 @@ h2.special {
   font-size: 0.741rem;
   text-transform: uppercase;
   padding: 0;
-  color: rgba(40, 38, 38, 0);
+  color: #282626;
   margin: 0 0 8px 0;
   line-height: 1; }
 
@@ -413,7 +406,7 @@ p.foo {
   vertical-align: top;
   padding: 15px 0 15px 0;
   margin: 0 0 0 0;
-  border-bottom: 1px solid rgba(138, 138, 138, 0); }
+  border-bottom: 1px solid #8a8a8a; }
 
 .toc-title {
   display: inline-block;
@@ -432,25 +425,39 @@ Will also need nodemon, to fun jeyklly build.
 /***
 Baseline
 ***/
+b,
+strong {
+  font-family: "mp-mallory-bold", Verdana, sans-serif;
+  font-weight: normal; }
+
+i, em {
+  font-family: "mp-mallory-light-italic", Verdana, sans-serif;
+  font-weight: normal; }
+
 pre {
   overflow-x: auto;
   font-size: 0.938rem; }
 
 .post-content h1 {
+  border-top: 0.462rem solid #1a1919;
   font-family: "mp-mallory-bold", Verdana, sans-serif;
   font-size: 1.901rem;
-  padding: 0;
+  padding: 0.741rem 0 0 0;
   margin: 0;
-  line-height: 1; }
+  line-height: 2.405rem; }
 
 .post-content h2 {
+  border-top: 1px solid #282626;
   font-family: "mp-mallory-bold", Verdana, sans-serif;
-  font-size: 0.741rem;
+  font-size: 0.658rem;
   text-transform: uppercase;
   letter-spacing: 0.05rem;
-  padding: 0;
-  margin: 0 0 0.462rem 0;
-  line-height: 1; }
+  padding: 0.462rem 0 0 0;
+  margin: 0 0 0.938rem 0;
+  line-height: 1.187rem; }
+
+.post-content script + h2 {
+  margin-top: 1.502rem; }
 
 .post-content p {
   font-size: 0.938rem;
@@ -462,10 +469,10 @@ pre {
   -webkit-font-kerning: auto;
   -moz-font-kerning: auto;
   -ms-font-kerning: auto;
-  margin: 0 0 2.138rem 0; }
+  margin: 0 0 1.502rem 0; }
 
 .post-content ul, .post-content ol {
-  margin: 0 0 2.138rem 0;
+  margin: 0 0 1.502rem 0;
   padding-left: 0;
   max-width: 35em; }
 
@@ -475,6 +482,7 @@ pre {
 
 .post-content li {
   font-size: 0.833rem;
+  font-family: "mp-mallory-light-italic", Verdana, sans-serif;
   line-height: 1.6;
   margin: 0 0 0.585rem 0; }
 
@@ -503,8 +511,7 @@ pre {
   margin: 0.462rem 0 1.901rem 0; }
 
 .post-content aside * {
-  font-family: "mp-mallory-book", Verdana, sans-serif;
-  font-size: 0.585rem; }
+  font-size: 0.658rem; }
 
 .post-content aside p, .post-content aside li {
   margin-bottom: 0.462rem; }

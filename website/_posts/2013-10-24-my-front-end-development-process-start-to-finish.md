@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "My Entire Front End Development Processes From Start To Finish"
+title: "My Entire Front End Development Process From Start To Finish"
 date: 2013-10-24
 meta: An overview of my web development tools and processes I use on a daily basis from start to finish
 ---

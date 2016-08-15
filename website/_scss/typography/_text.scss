@@ -12,17 +12,17 @@ $mallory-bold : 'mp-mallory-bold', Verdana, sans-serif;
 $body-text-size : size(px15);
 $line-length : 35em;
 $paragraph-line-height : 1.6;
-$paragraph-spacing : size(px34);
+$paragraph-spacing : size(px24);
 
 $heading-1-text-size : size(px30);
-$heading-2-text-size : size(px12);
+$heading-2-text-size : size(px10);
 
 $list-text-size : size(px13);
 $list-margin :  size(px9);
 
 $blockquote-text-size:  $list-text-size;
 
-$aside-text-size : size(px9);
+$aside-text-size : size(px10);
 
 $code-text-size : size(px15);
 
@@ -52,11 +52,17 @@ Baseline
 // }
 
 
-// b,
-// strong {
-//     font-family: $mallory-bold;
-//     font-weight: normal;
-// }
+b,
+strong {
+    font-family: $mallory-bold;
+    font-weight: normal;
+}
+
+
+i, em{
+    font-family: $mallory-light-italic;
+    font-weight: normal;
+}
 
 // *
 //  * Prevent `sub` and `sup` elements from affecting the line height in
@@ -101,21 +107,28 @@ pre {
 
 .post-content{
      h1 {
+        border-top: size(px7) solid brand(black);
         font-family: $mallory-bold;
         font-size : $heading-1-text-size;
-        padding: 0;
+        padding: size(px12) 0 0 0;
         margin: 0;
-        line-height: 1;
+        line-height: size(px38);
     }
 
     h2 {
+        border-top: 1px solid brand(grey);
         font-family: $mallory-bold;
         font-size: $heading-2-text-size;
         text-transform: uppercase;
         letter-spacing: 0.05rem;
-        padding: 0;
-        margin: 0 0  size(px7) 0;
-        line-height: 1;
+        padding:  size(px7) 0 0 0;
+        margin: 0 0  size(px15) 0;
+        line-height: size(px19);
+    }
+
+    //If codepen examples used. Add paragraph spacing
+    script + h2{
+        margin-top:$paragraph-spacing;
     }
 
     p {
@@ -144,6 +157,7 @@ pre {
 
     li {
         font-size: $list-text-size;
+         font-family: $mallory-light-italic;
         line-height: $paragraph-line-height;
         // list-style: none;
         margin: 0 0 size(px9) 0;
@@ -185,7 +199,7 @@ pre {
     }
 
     aside * {
-        font-family: $mallory-book;
+        // font-family: $mallory-book;
         font-size: $aside-text-size;
     }
 
