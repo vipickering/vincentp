@@ -64,25 +64,27 @@ i, em{
     font-weight: normal;
 }
 
+
+//
 // *
 //  * Prevent `sub` and `sup` elements from affecting the line height in
 //  * all browsers.
 
-//  sub,
-//  sup {
-//     font-size: 75%;
-//     line-height: 0;
-//     position: relative;
-//     vertical-align: baseline;
-// }
+ sub,
+ sup {
 
-// sub {
-//     bottom: -0.25em;
-// }
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
 
-// sup {
-//     top: -0.5em;
-// }
+sub {
+    bottom: -0.25em;
+}
+
+sup {
+    top: -0.5em;
+}
 
 
 

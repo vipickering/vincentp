@@ -1,0 +1,5 @@
+<div class="next-post" itemscope itemtype="http://schema.org/WebPage">
+    {% if page.next.url %}
+        <a href="{{page.next.url}}" title="next Post: {{page.next.title}}" itemprop="significantLink"><span class="accessible-hide">Next Post</span> <span class="vertical-centre">&raquo;</span></a>
+    {% endif %}
+</div>

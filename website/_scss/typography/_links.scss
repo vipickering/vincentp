@@ -1,5 +1,6 @@
 a {
     color: brand(red);
+    padding : 0.2rem;
 }
 
 a:link {
@@ -19,3 +20,10 @@ a:hover {
 }
 
 
+a:focus{
+    color: brand(white);
+    background-color: brand(red);
+    text-decoration: none;
+    transition:0.2s;
+    outline: none;
+}
