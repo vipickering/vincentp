@@ -203,13 +203,12 @@ figure {
   background-color: #c83539;
   color: white; }
 
-.clearfix::before, .grid-row::before,
-.clearfix::after,
+.grid-row::before,
 .grid-row::after {
   content: " ";
   display: table; }
 
-.clearfix::after, .grid-row::after {
+.grid-row::after {
   clear: both; }
 
 .column-one-third,

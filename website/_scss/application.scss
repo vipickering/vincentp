@@ -1,14 +1,16 @@
 // Import Maps and virtual data
 @import "colour/_brand.scss";
-@import "layout/_scale.scss";
+@import "typography/_scale.scss";
 @import "typography/_mallory.scss";
 
 // Import utility classes
 @import "utility/_normalize.scss";
-@import "utility/_clearfix.scss";
+// @import "utility/_clearfix.scss";
+
+//Grid
+@import "grid/_grid.scss";
 
 // Layout CSS
-@import "layout/_grid.scss";
 @import "layout/_logo.scss";
 @import "layout/_images.scss";
 @import "layout/_container.scss";

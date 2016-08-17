@@ -1,8 +1,12 @@
 $gutter : 60px;
 
-.grid-row{
-    @extend .clearfix;
-}
+.grid-row::before,
+.grid-row::after     { content: " "; display: table; }
+.grid-row::after     { clear: both; }
+
+
+//Consider here, mobile and tablet transforms.
+//work within max and min widths of elements.
 
 .column-one-third,
 .column-two-thirds{
