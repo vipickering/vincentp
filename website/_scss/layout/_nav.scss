@@ -2,10 +2,7 @@ nav {
     float:  right;
 }
 
-nav ul {
-    float: left;
-    margin: 0 30px 0 0;
-}
+nav ul { float: left; }
 
 nav li{
     margin: 0 0 size(px7) 0;
@@ -17,6 +14,5 @@ nav li{
 }
 
 nav a{
-
     color: brand(black);
 }

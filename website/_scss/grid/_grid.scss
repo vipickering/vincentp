@@ -5,6 +5,16 @@ $gutter : 60px;
 .grid-row::after     { clear: both; }
 
 
+// .grid{
+//     display: flex;
+//     flex-row: row-wrap;
+// }
+
+// .grid > *{
+//     flex-basis: 10em;
+//     flex-grow: 1;
+// }
+
 //Consider here, mobile and tablet transforms.
 //work within max and min widths of elements.
 

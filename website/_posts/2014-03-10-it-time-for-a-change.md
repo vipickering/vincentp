@@ -5,10 +5,7 @@ date: 2014-03-10
 meta: There is a disconnect between how ideas are shared and taking that discussion further.
 ---
 
-Yesterday, a tweet by [@leaverou](https://twitter.com/LeaVerou){:rel="external"} popped up in my stream.
-
-<blockquote class="twitter-tweet" lang="en"><p>I don&#39;t understand why workshops are usually before conferences. They should be after — to expand on the talks.</p>&mdash; Lea Verou (@LeaVerou) <a href="https://twitter.com/LeaVerou/statuses/442809870476386304">March 9, 2014</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+Yesterday, a tweet by [@leaverou](https://twitter.com/LeaVerou/status/442809870476386304){:rel="external"} popped up in my stream.
 
 There are several layers to this tweet, which Lea may not have realised.
 

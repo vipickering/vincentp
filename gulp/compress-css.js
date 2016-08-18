@@ -7,5 +7,5 @@ gulp.task('compress-css', function () {
     return gulp.src('website/css/*.css')
         .pipe(debug({title: 'Compressing CSS file : '}))
         .pipe(csso())
-        .pipe(gulp.dest('website/css'));
+        .pipe(gulp.dest('website/css/'));
 });

@@ -4,7 +4,7 @@
 }
 
 .logo {
-    margin-bottom:10px;
+    margin-bottom: size(px10);
     display: inline-block;
     width: 205px;
     color: brand(white);
@@ -31,10 +31,7 @@
 }
 
 .sub-title {
-    // font-family: Verdana, Helvetica, Arial, sans-serif;
-
     font-size: size(px9);
-
     text-align: center;
     width: 100%;
 }
