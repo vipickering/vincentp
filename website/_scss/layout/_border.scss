@@ -1,0 +1,19 @@
+$borderPadding :size(px24);
+
+.border-vertical{
+    border-top: 1px solid brand(lightGrey);
+    border-bottom: 1px solid brand(lightGrey);
+    padding-top: $borderPadding;
+    padding-bottom: $borderPadding;
+}
+
+.border-top{
+    border-top: 1px solid brand(lightGrey);
+    padding-top: $borderPadding;
+}
+
+
+.border-bottom{
+    border-bottom: 1px solid brand(lightGrey);
+    padding-bottom: $borderPadding;
+}

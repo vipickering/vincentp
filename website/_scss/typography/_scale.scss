@@ -1,61 +1,35 @@
 /*
-98.749px | 6.583em  |  6.172em @ 16
-87.777px | 5.852em  |  5.486em @ 16
-78.024px | 5.202em  |  4.877em @ 16
-69.354px | 4.624em  |  4.335em @ 16
-61.648px | 4.11em    |  3.853em @ 16
-54.799px | 3.653em  |  3.425em @ 16
-48.71px   | 3.247em  |  3.044em @ 16
-43.298px | 2.887em  |  2.706em @ 16
-38.487px | 2.566em  |  2.405em @ 16
-34.21px   | 2.281em  |  2.138em @ 16
-30.409px | 2.027em  |  1.901em @ 16
-27.03px   | 1.802em  |  1.689em @ 16
-24.027px | 1.602em  |  1.502em @ 16
-21.357px | 1.424em  |  1.335em @ 16
-18.984px | 1.266em  |  1.187em @ 16
-16.875px | 1.125em  |  1.055em @ 16
-15px        | 1em         |  0.938em @ 16
-13.333px | 0.889em  |  0.833em @ 16
-11.852px | 0.79em    |  0.741em @ 16
-10.535px | 0.702em  |  0.658em @ 16
-9.364px   | 0.624em  |  0.585em @ 16
-8.324px   | 0.555em  |  0.52em   @ 16
-7.399px   | 0.493em  |  0.462em @ 16
+704.562px  46.971em
+435.453px  29.03em
+269.13px  17.942em
+166.335px  11.089em
+102.803px  6.854em
+63.537px  4.236em
+39.269px  2.618em
+24.27px  1.618em
+15px  1em
+9.271px  0.618em
+5.73px  0.382em
+3.541px  0.236em
+2.189px  0.146em
+1.353px  0.09em
 */
 
-// $sizes: (
-//      large : 30px,
-//      medium : 24px,
-//      regular :15px,
-//      small : 12px,
-//      x-small : 9px
-// );
-
 $sizes: (
-    px99 : 6.172rem,
-    px88 : 5.486rem,
-    px78 : 4.877rem,
-    px69 : 4.335rem,
-    px62 : 3.853rem,
-    px54 : 3.425rem,
-    px49 : 3.044rem,
-    px43 : 2.706rem,
-    px38 : 2.405rem,
-    px34 : 2.138rem,
-    px30 : 1.901rem,
-    px27 : 1.689rem,
-    px24 : 1.502rem,
-    px21 : 1.335rem,
-    px19 : 1.187rem,
-    px17 : 1.055rem,
-    px15 : 0.938rem,
-    px13 : 0.833rem,
-    px12 : 0.741rem,
-    px10 : 0.658rem,
-    px9 : 0.585rem,
-    px8 : 0.52rem,
-    px7 : 0.462rem
+    px704 : 47rem,
+    px435 : 29rem,
+    px269 : 18rem,
+    px166 : 11rem,
+    px102 : 6.8rem,
+    px63 : 4.2rem,
+    px39 : 2.6rem,
+    px24 : 1.6rem,
+    px15 : 1rem,
+    px9 :  0.6rem,
+    px5 :  0.38rem,
+    px3 :  0.23rem,
+    px2 :  0.14rem,
+    px1 :  0.09rem
 );
 
 //Create a quick reference to the contents of the map

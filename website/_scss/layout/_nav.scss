@@ -2,17 +2,16 @@ nav {
     float:  right;
 }
 
-nav ul { float: left; }
-
 nav li{
-    margin: 0 0 size(px7) 0;
+    margin: 0 0 size(px9) 0;
     padding: 0;
     list-style: none;
-    font-size: size(px12);
+    font-size: 12px;
     text-transform: uppercase;
     font-family: 'mp-mallory-bold';
 }
 
 nav a{
     color: brand(black);
+    text-decoration: none;
 }

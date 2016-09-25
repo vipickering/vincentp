@@ -1,11 +1,9 @@
  <div class="grid-row">
-    <div class="column-two-thirds">
-        {{ content }}
-    </div>
-
-    <aside class="column-one-third">
-        {% ifhascontent aside %}
-             {% contentblock aside %}
-         {% endifhascontent %}
-    </aside>
+    {{ content }}
 </div>
+
+<aside class="grid-row">
+    {% ifhascontent aside %}
+    {% contentblock aside %}
+    {% endifhascontent %}
+</aside>

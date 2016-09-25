@@ -7,14 +7,8 @@
     <body itemscope itemtype="http://schema.org/WebPage">
         {% include header.html %}
 
-        <main role="main" class="container">
-            {% include next-post.html %}
-            {% include previous-post.html %}
-            <article itemscope itemtype="http://schema.org/CreativeWork" class="post-content">
-                <h1 itemprop="headline">{{ page.title }}</h1>
-                {% include date-time-calc.html %}
-                {% include two-column-grid.html %}
-            </article>
+        <main>
+            {% include post.html %}
         </main>
 
         {% include footer.html %}

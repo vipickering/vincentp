@@ -1,10 +1,16 @@
-.container {
+body > * {
     min-width : 300px;
-    max-width : 800px;
-    padding-left : 10px;
-    padding-right : 10px;
+    max-width : size(px704);
+    padding-left : size(px15);
+    padding-right : size(px15);
     margin-left : auto;
     margin-right : auto;
+}
+
+@media (min-width: 640px) {
+    body > * {
+        padding : 0 ;
+    }
 }
 
 // work out line-length.

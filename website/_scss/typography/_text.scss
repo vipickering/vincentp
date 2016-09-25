@@ -14,15 +14,15 @@ $line-length : 35em;
 $paragraph-line-height : 1.6;
 $paragraph-spacing : size(px24);
 
-$heading-1-text-size : size(px30);
-$heading-2-text-size : size(px10);
+$heading-1-text-size : size(px24);
+$heading-2-text-size : size(px15);
 
-$list-text-size : size(px13);
+$list-text-size : size(px15);
 $list-margin :  size(px9);
 
 $blockquote-text-size:  $list-text-size;
 
-$aside-text-size : size(px10);
+$aside-text-size : size(px9);
 
 $code-text-size : size(px15);
 
@@ -32,16 +32,16 @@ $code-text-size : size(px15);
 Baseline
 ***/
 
-// small,
-// aside{
-//     font-family: $mallory-book;
-//     font-size: size(px9);
-//     text-transform:uppercase;
-// }
+small,
+aside{
+    font-family: $mallory-book;
+    font-size: size(px9);
+    text-transform:uppercase;
+}
 
-// aside h2{
-//     font-size: size(px9);
-// }
+aside h2{
+    font-size: size(px9);
+}
 
 // /*
 // Typography
@@ -72,7 +72,6 @@ i, em{
 
  sub,
  sup {
-
     line-height: 0;
     position: relative;
     vertical-align: baseline;
@@ -98,8 +97,8 @@ sup {
 
 figcaption{
        font-family: $mallory-light-italic;
-       font-size: size(px12);
-       margin-bottom: size(px7);
+       font-size: size(px15);
+       margin-bottom: size(px9);
 }
 
 pre {
@@ -107,25 +106,22 @@ pre {
     font-size: $code-text-size;
 }
 
-
-.post-content{
+article{
      h1 {
-        border-top: size(px7) solid brand(black);
         font-family: $mallory-bold;
         font-size : $heading-1-text-size;
-        padding: size(px12) 0 0 0;
+        padding: size(px15) 0 0 0;
         margin: 0;
-        line-height: size(px38);
+        line-height: size(px39);
     }
 
     h2 {
-        border-top: 1px solid brand(grey);
         font-family: $mallory-bold;
         font-size: $heading-2-text-size;
         text-transform: uppercase;
-        padding:  size(px7) 0 0 0;
-        margin: 0 0  size(px19) 0;
-        line-height: size(px19);
+        padding:  size(px5) 0 0 0;
+        margin: 0 0  size(px24) 0;
+        line-height: size(px24);
     }
 
     //If codepen examples used. Add paragraph spacing
@@ -164,7 +160,7 @@ pre {
 
      li ol,
      li ul{
-        margin-left: 10px;
+        margin-left: size(px9);
      }
 
     q,
@@ -172,8 +168,8 @@ pre {
         display: block;
         font-family: $mallory-book-italic;
         max-width: $line-length;
-        border-left: 6px solid brand(red);
-        padding:10px 10px 10px 30px;
+        border-left: sie(px5) solid brand(red);
+        padding:size(px9) size(px9) size(px9) size(px39);
     }
 
     q,
@@ -183,7 +179,7 @@ pre {
     }
 
     time {
-        margin:size(px7) 0 size(px30) 0;
+        margin:size(px5) 0 size(px24) 0;
     }
 
     aside * {
@@ -192,6 +188,6 @@ pre {
     }
 
     aside{
-        p,li   { margin-bottom: size(px7); }
+        p,li   { margin-bottom: size(px5); }
     }
 }

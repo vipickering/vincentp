@@ -11,10 +11,10 @@
             <article itemscope itemprop="about">
                 <h1 itemprop="person">{{ page.title }}</h1>
                 <div class="grid-row">
-                    <div class="column-two-thirds">
+
                         {{ content }}
-                    </div>
-                    <aside class="column-one-third">
+
+                    <aside>
                         {% ifhascontent aside %}
                             {% contentblock aside %}
                         {% endifhascontent %}

@@ -1,6 +1,3 @@
-# Gems
-gems: [jekyll-paginate, jekyll-contentblocks]
-
 # Markdown
 markdown: kramdown
 
@@ -25,3 +22,6 @@ author:
   email: hello@vincentp.me
   job: UI/UX Consultant
   name: Vincent Pickering
+
+# Gems
+gems: [jekyll-paginate, jekyll-contentblocks, jekyll-gist]

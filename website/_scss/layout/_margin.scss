@@ -2,16 +2,20 @@ $standard-margin : size(px24);
 $half-margin: size(px15);
 $small-margin: size(px9);
 
-body * + *  { margin-bottom: $standard-margin ; }
-nav             { margin-top: $small-margin; }
-nav ul         { margin: 0 $standard-margin 0 0; }
-nav li          { margin: 0 0 $small-margin 0; }
+// body * + *  { margin-bottom: $standard-margin ; }
+nav li          { display: inline; margin: 0 $small-margin  0 0; }
+
+.margin-0{
+    margin :0;
+}
+
 figcaption  { margin-bottom: $small-margin; }
 address ul  { margin-bottom: 0; }
-header        { margin-top: $half-margin; }
+
+body > header        { margin-top: $half-margin; }
 
 
-.post-content{
+article{
     h2               { margin: 0 0 $half-margin 0; }
     script + h2 { margin-top: $standard-margin; }
     li ol,
@@ -27,9 +31,9 @@ header        { margin-top: $half-margin; }
 }
 
 
-.home-container{ margin:auto; }
-.box{ margin-bottom: 3px; }
-.box.middle-right{ margin-left : 1%; }
-h1.special { margin:0 0 $half-margin 0; }
-h2.special { margin: 0 0 $small-margin 0; }
-p.foo { margin: 0 0 $half-margin 0; }
+// .home-container{ margin:auto; }
+// .box{ margin-bottom: 3px; }
+// .box.middle-right{ margin-left : 1%; }
+// h1.special { margin:0 0 $half-margin 0; }
+// h2.special { margin: 0 0 $small-margin 0; }
+// p.foo { margin: 0 0 $half-margin 0; }
