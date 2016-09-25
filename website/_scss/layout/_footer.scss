@@ -1,18 +1,10 @@
-footer {
-    padding : 0;
-}
-
-footer > .container{
-    border-top: 2px solid brand(black);
-    // padding-top:  size(px30);
+footer > *{
     text-align: center;
-    // line-height: 1.2;
 }
 
 footer p {
     max-width: 100%;
 }
-
 
 address li{
     display: inline;
@@ -30,5 +22,5 @@ address li:last-child::after{
 }
 
 address a{
-    font-size: size(px15);
+    font-size: 12px;
 }

@@ -9,6 +9,12 @@ nav li          { display: inline; margin: 0 $small-margin  0 0; }
     margin :0;
 }
 
+
+.margin-vertical-10{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
 figcaption  { margin-bottom: $small-margin; }
 address ul  { margin-bottom: 0; }
 

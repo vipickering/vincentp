@@ -1,17 +1,17 @@
 body > * {
     min-width : 300px;
     max-width : size(px704);
-    padding-left : size(px15);
-    padding-right : size(px15);
+    padding-left : size(px24);
+    padding-right : size(px24);
     margin-left : auto;
     margin-right : auto;
 }
 
-@media (min-width: 640px) {
-    body > * {
-        padding : 0 ;
-    }
-}
+// @media (min-width: 730px) {
+//     body > * {
+//         padding : 0 ;
+//     }
+// }
 
 // work out line-length.
 // calculate max container size.

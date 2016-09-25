@@ -110,7 +110,7 @@ article{
      h1 {
         font-family: $mallory-bold;
         font-size : $heading-1-text-size;
-        padding: size(px15) 0 0 0;
+        padding: 0;
         margin: 0;
         line-height: size(px39);
     }
@@ -179,7 +179,7 @@ article{
     }
 
     time {
-        margin:size(px5) 0 size(px24) 0;
+        margin:0 ;
     }
 
     aside * {
