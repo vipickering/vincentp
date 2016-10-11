@@ -1,19 +1,29 @@
 $borderPadding :size(px24);
 
-.border-vertical{
-    border-top: 1px solid brand(lightGrey);
-    border-bottom: 1px solid brand(lightGrey);
+// .border-vertical{
+//     border-top: 1px solid brand(lightGrey);
+//     border-bottom: 1px solid brand(lightGrey);
+//     padding-top: $borderPadding;
+//     padding-bottom: $borderPadding;
+// }
+
+// .border-top{
+//     border-top: 1px solid brand(lightGrey);
+//     padding-top: $borderPadding;
+// }
+
+.body-border-top{
+    border-top: 10px solid brand(lightGrey);
     padding-top: $borderPadding;
-    padding-bottom: $borderPadding;
 }
 
-.border-top{
-    border-top: 1px solid brand(lightGrey);
+.body-border-bottom{
+    border-bottom: 10px solid brand(lightGrey);
     padding-top: $borderPadding;
 }
 
 
-.border-bottom{
-    border-bottom: 1px solid brand(lightGrey);
-    padding-bottom: $borderPadding;
-}
+// .border-bottom{
+//     border-bottom: 1px solid brand(lightGrey);
+//     padding-bottom: $borderPadding;
+// }

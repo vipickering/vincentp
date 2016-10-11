@@ -288,9 +288,6 @@ figcaption {
 address ul {
   margin-bottom: 0; }
 
-body > header {
-  margin-top: 1rem; }
-
 article h2 {
   margin: 0 0 1rem 0; }
 
@@ -323,19 +320,13 @@ article aside p, article aside li {
 .padding-bottom-60 {
   padding-bottom: 60px; }
 
-.border-vertical {
-  border-top: 1px solid rgba(138, 138, 138, 0.5);
-  border-bottom: 1px solid rgba(138, 138, 138, 0.5);
-  padding-top: 1.6rem;
-  padding-bottom: 1.6rem; }
-
-.border-top {
-  border-top: 1px solid rgba(138, 138, 138, 0.5);
+.body-border-top {
+  border-top: 10px solid rgba(138, 138, 138, 0.5);
   padding-top: 1.6rem; }
 
-.border-bottom {
-  border-bottom: 1px solid rgba(138, 138, 138, 0.5);
-  padding-bottom: 1.6rem; }
+.body-border-bottom {
+  border-bottom: 10px solid rgba(138, 138, 138, 0.5);
+  padding-top: 1.6rem; }
 
 nav {
   float: right; }

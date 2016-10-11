@@ -5,7 +5,7 @@ permalink : "/hire"
 meta : "Hire Vincent Pickering UI/UX Consultant"
 ---
 
-bla bla here
+curret availability XXXX
 
 {% contentfor aside %}
 
