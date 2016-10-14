@@ -1,5 +1,10 @@
-$gutter : 60px;
+body{
+    display: flex;
+    flex-flow: row wrap;
+}
 
-.grid-row::before,
-.grid-row::after     { content: " "; display: table; }
-.grid-row::after     { clear: both; }
+body >*{
+     flex: 1 100%;
+     max-width:650px;
+     margin: auto;
+}

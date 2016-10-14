@@ -5,8 +5,8 @@ Will also need nodemon, to fun jeyklly build.
 
 //local vars
 $mallory-light-italic : 'mp-mallory-light-italic', Verdana, sans-serif;
-$mallory-book : 'mp-mallory-book', Verdana, sans-serif;
-$mallory-book-italic : 'mp-mallory-book-italic', Verdana, sans-serif;
+// $mallory-book : 'mp-mallory-book', Verdana, sans-serif;
+// $mallory-book-italic : 'mp-mallory-book-italic', Verdana, sans-serif;
 $mallory-bold : 'mp-mallory-bold', Verdana, sans-serif;
 
 $body-text-size : size(px15);
@@ -26,44 +26,26 @@ $aside-text-size : size(px9);
 
 $code-text-size : size(px15);
 
-// calc( #{$body-text} / 100 * 145);
 
-/***
-Baseline
-***/
-
-small,
-aside{
-    font-family: $mallory-book;
-    font-size: size(px9);
-    text-transform:uppercase;
-}
-
-aside h2{
-    font-size: size(px9);
-}
-
-// /*
-// Typography
-// */
-// ul + h2,
-// ol + h2  {
-//     padding-top: size(px15);
-// }
-
-
+// Typography Normalise
 b,
 strong {
     font-family: $mallory-bold;
     font-weight: normal;
 }
 
-
 i, em{
     font-family: $mallory-light-italic;
     font-weight: normal;
 }
 
+figcaption{
+       font-family: $mallory-light-italic;
+}
+
+pre {
+    overflow-x : auto;
+}
 
 //
 // *
@@ -86,108 +68,183 @@ sup {
 }
 
 
-
-// time {
-//     font-family: $mallory-book-italic;
-// }
-
-// li {
-
-// }
-
-figcaption{
-       font-family: $mallory-light-italic;
-       font-size: size(px15);
-       margin-bottom: size(px9);
+h1,h2,h3,h4,h5,h6{
+    color: brand(black);
 }
 
-pre {
-    overflow-x : auto;
-    font-size: $code-text-size;
-}
-
-article{
-     h1 {
-        font-family: $mallory-bold;
-        font-size : $heading-1-text-size;
-        padding: 0;
-        margin: 0;
-        line-height: size(px39);
-    }
-
-    h2 {
-        font-family: $mallory-bold;
-        font-size: $heading-2-text-size;
-        text-transform: uppercase;
-        padding:  size(px5) 0 0 0;
-        margin: 0 0  size(px24) 0;
-        line-height: size(px24);
-    }
-
-    //If codepen examples used. Add paragraph spacing
-    script + h2{
-        margin-top:$paragraph-spacing;
-    }
-
-    p {
-        font-size: $body-text-size;
-        max-width: $line-length;
+p{
+    color: brand(grey);
+     // max-width: $line-length;
         line-height: $paragraph-line-height;
         hyphens : none;
         font-kerning : auto;
-    }
-
-    ul,ol{
-        padding-left: 0;
-        max-width: $line-length;
-    }
-
-    li ol,
-    li ul{
-         margin: size(px9) 0 size(px9) 0;
-    }
-
-    li {
-        font-size: $list-text-size;
-        font-family: $mallory-light-italic;
-        line-height: $paragraph-line-height;
-        margin: 0 0 size(px9) 0;
-    }
-
-    li:last-child {
-        margin-bottom: 0;
-    }
-
-     li ol,
-     li ul{
-        margin-left: size(px9);
-     }
-
-    q,
-    blockquote {
-        display: block;
-        font-family: $mallory-book-italic;
-        max-width: $line-length;
-        border-left: sie(px5) solid brand(red);
-        padding:size(px9) size(px9) size(px9) size(px39);
-    }
-
-    q,
-    blockquote > p {
-        margin: 0;
-        font-size: $blockquote-text-size;
-    }
-
-    time {
-        margin:0 ;
-    }
-
-    aside * {
-        // font-family: $mallory-book;
-        font-size: $aside-text-size;
-    }
-
-    aside{
-        p,li   { margin-bottom: size(px5); }
-    }
 }
+
+// End Normalise.
+
+
+// // calc( #{$body-text} / 100 * 145);
+
+// /***
+// Baseline
+// ***/
+
+// small,
+// aside{
+//     font-family: $mallory-book;
+//     font-size: size(px9);
+//     text-transform:uppercase;
+// }
+
+// aside h2{
+//     font-size: size(px9);
+// }
+
+// // /*
+// // Typography
+// // */
+// // ul + h2,
+// // ol + h2  {
+// //     padding-top: size(px15);
+// // }
+
+
+// b,
+// strong {
+//     font-family: $mallory-bold;
+//     font-weight: normal;
+// }
+
+
+// i, em{
+//     font-family: $mallory-light-italic;
+//     font-weight: normal;
+// }
+
+
+// //
+// // *
+// //  * Prevent `sub` and `sup` elements from affecting the line height in
+// //  * all browsers.
+
+//  sub,
+//  sup {
+//     line-height: 0;
+//     position: relative;
+//     vertical-align: baseline;
+// }
+
+// sub {
+//     bottom: -0.25em;
+// }
+
+// sup {
+//     top: -0.5em;
+// }
+
+
+
+// // time {
+// //     font-family: $mallory-book-italic;
+// // }
+
+// // li {
+
+// // }
+
+// figcaption{
+//        font-family: $mallory-light-italic;
+//        font-size: size(px15);
+//        margin-bottom: size(px9);
+// }
+
+// pre {
+//     overflow-x : auto;
+//     font-size: $code-text-size;
+// }
+
+// article{
+//      h1 {
+//         font-family: $mallory-bold;
+//         font-size : $heading-1-text-size;
+//         padding: 0;
+//         margin: 0;
+//         line-height: size(px39);
+//     }
+
+//     h2 {
+//         font-family: $mallory-bold;
+//         font-size: $heading-2-text-size;
+//         text-transform: uppercase;
+//         padding:  size(px5) 0 0 0;
+//         margin: 0 0  size(px24) 0;
+//         line-height: size(px24);
+//     }
+
+//     //If codepen examples used. Add paragraph spacing
+//     script + h2{
+//         margin-top:$paragraph-spacing;
+//     }
+
+//     p {
+//         font-size: $body-text-size;
+//         max-width: $line-length;
+//         line-height: $paragraph-line-height;
+//         hyphens : none;
+//         font-kerning : auto;
+//     }
+
+//     ul,ol{
+//         padding-left: 0;
+//         max-width: $line-length;
+//     }
+
+//     li ol,
+//     li ul{
+//          margin: size(px9) 0 size(px9) 0;
+//     }
+
+//     li {
+//         font-size: $list-text-size;
+//         font-family: $mallory-light-italic;
+//         line-height: $paragraph-line-height;
+//         margin: 0 0 size(px9) 0;
+//     }
+
+//     li:last-child {
+//         margin-bottom: 0;
+//     }
+
+//      li ol,
+//      li ul{
+//         margin-left: size(px9);
+//      }
+
+//     q,
+//     blockquote {
+//         display: block;
+//         font-family: $mallory-book-italic;
+//         max-width: $line-length;
+//         border-left: sie(px5) solid brand(red);
+//         padding:size(px9) size(px9) size(px9) size(px39);
+//     }
+
+//     q,
+//     blockquote > p {
+//         margin: 0;
+//         font-size: $blockquote-text-size;
+//     }
+
+//     time {
+//         margin:0 ;
+//     }
+
+//     aside * {
+//         // font-family: $mallory-book;
+//         font-size: $aside-text-size;
+//     }
+
+//     aside{
+//         p,li   { margin-bottom: size(px5); }
+//     }
+// }
