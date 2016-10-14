@@ -7,19 +7,10 @@
     <body itemscope itemtype="http://schema.org/Blog">
         {% include header.html %}
 
-        <main role="main" class="container" itemtype="http://schema.org/CreativeWork">
+        <main role="main" itemtype="http://schema.org/CreativeWork">
             <article itemscope itemprop="about">
                 <h1 itemprop="person">{{ page.title }}</h1>
-                <div class="grid-row">
-
-                        {{ content }}
-
-                    <aside>
-                        {% ifhascontent aside %}
-                            {% contentblock aside %}
-                        {% endifhascontent %}
-                    </aside>
-                </div>
+                {% include two-column-grid.html %}
             </article>
         </main>
 

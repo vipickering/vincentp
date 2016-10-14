@@ -138,9 +138,9 @@ When it comes to debugging design issues further down the line, I utilize a comb
 
 Finally, a short note on App stores approval. This is often something that gets overlooked until then end of the process, but I encourage you to make this one of the first things to research and plan. The main reason behind this is that each platform has a slightly different App approval process, for example if you are creating an App for Symbian or Windows Phone you must submit all your design documentation for sign-off by Microsoft/Nokia before submitting your final App code, where they will request changes should you not be following the design interaction guidelines, it catches a lot of designers out. Make sure you know at the start of the process what you must deliver at what time and things will run a lot more smoothly for all involved.
 
-If you enjoyed this post and found it helpful, you should follow me on <a href="http://www.twitter.com/{{site.author.twitter}}" rel="me" title="Twitter" rel="external">Twitter</a> where I am happy to chat further.
+If you enjoyed this post and found it helpful, you should follow me on <a href="{{site.author.twitter}}" rel="me" title="Twitter" rel="external">Twitter</a> where I am happy to chat further.
 
-[1]: http://www.twitter.com/{{site.author.twitter}}
+[1]: {{site.author.twitter}}
 [2]: http://vincentp.me/blog/my-front-end-development-process-start-to-finish
 [3]: https://github.com/vipickering/Blueprint
 [5]: http://www.uistencils.com/products/iphone-stencil-kit
@@ -166,7 +166,7 @@ If you enjoyed this post and found it helpful, you should follow me on <a href="
 -  [Keynote](http://www.apple.com/uk/iwork/keynote/){:rel="external"} with [Blueprint][3]{:rel="external"}
 -  [Flinto](https://www.flinto.com){:rel="external"}
 
-[1]: http://www.twitter.com/{{site.author.twitter}}
+[1]: {{site.author.twitter}}
 [2]: http://vincentp.me/blog/my-front-end-development-process-start-to-finish/
 [3]: https://github.com/vipickering/Blueprint
 [5]: http://www.uistencils.com/products/iphone-stencil-kit

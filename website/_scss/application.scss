@@ -1,47 +1,31 @@
 // Import Maps and virtual data
 @import "colour/_brand.scss";
-@import "colour/_code.scss";
-@import "typography/_scale.scss";
-@import "typography/_mallory.scss";
+// @import "colour/_code.scss";
+// @import "typography/_scale.scss";
+@import "font/_mallory.scss";
 
 // Import utility classes
 @import "utility/_normalize.scss";
 @import "utility/_clearfix.scss";
 
 //Grid
-@import "grid/_grid.scss";
+// @import "grid/_grid.scss";
 
 // Layout CSS
-@import "layout/_logo.scss";
-@import "layout/_images.scss";
-@import "layout/_container.scss";
-@import "layout/_next-prev.scss";
-@import "layout/_float.scss";
-@import "layout/_margin.scss";
-@import "layout/_padding.scss";
-@import "layout/_border.scss";
-@import "layout/_nav.scss";
+// @import "layout/_logo.scss";
+// @import "layout/_images.scss";
+// @import "layout/_container.scss";
+// @import "layout/_next-prev.scss";
+// @import "layout/_float.scss";
+// @import "layout/_margin.scss";
+// @import "layout/_padding.scss";
+// @import "layout/_border.scss";
+// @import "layout/_nav.scss";
 @import "layout/_footer.scss";
 
-@import "layout/_toc.scss";
+// @import "layout/_toc.scss";
 
 // Typography Styles
-@import "typography/_text.scss";
-@import "typography/_links.scss";
-@import "typography/_line-height.scss";
-
-
-
-/*TODO
-
-footer
-Responsive design
-Molten Type + font sizing
-Typeset?
-optmize code in Tachyons style
-Compression.
-Change all links to // - ? for https ?
-
-Testing
-
-*/
+// @import "typography/_text.scss";
+// @import "typography/_links.scss";
+// @import "typography/_line-height.scss";

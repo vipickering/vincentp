@@ -1,13 +1,16 @@
 <footer class="vcard" itemscope itemtype="http://schema.org/Person" >
-    <div class="container">
-        <address >
-            <ul class="margin-vertical-10 padding-0">
-                <li><a href="http://www.twitter.com/{{site.author.twitter}}" itemprop="url"  title="Twitter" rel="me external">Twitter</a></li>
-                <li><a href="http://www.github.com/{{site.author.github}}"   itemprop="url" title="Github" rel="me external">Github</a></li>
-                <li><a href="https://plus.google.com/u/0/{{site.author.googleplus}}/?rel=author" itemprop="url" title="Google +" rel="me external">Google Plus</a></li>
+    <div class="grid">
+        <small role="contentinfo">&copy; 2016 <span itemprop="copyrightHolder" itemscope itemtype="http://schema.org/CreativeWork"><span itemprop="name">Vincent Pickering</span></span> ({{site.version}})</small>
+
+        {% include next-prev.html %}
+
+        <address>
+            <ul>
+                <li><a href="{{site.author.twitter}}" itemprop="url"  title="Twitter" rel="me external">Twitter</a></li>
+                <li><a href="{{site.author.github}}"   itemprop="url" title="Github" rel="me external">Github</a></li>
+                <li><a href="{{site.author.googleplus}}" itemprop="url" title="Google +" rel="me external">Google Plus</a></li>
+                <li><a href="{{site.author.feed}}"  itemprop="url"  title="Feed" rel="me external">Feed</a></li>
             </ul>
         </address>
-        <small role="contentinfo">&copy; 2016 <span itemprop="copyrightHolder" itemscope itemtype="http://schema.org/CreativeWork"><span itemprop="name">Vincent Pickering</span></span> ({{site.version}})</small>
-        <p><a href="http://feeds.feedburner.com/vincentp" rel="external"><small>Grab the Feed</small></a></p>
     </div>
 </footer>

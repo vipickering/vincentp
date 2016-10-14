@@ -17,15 +17,15 @@ $brands: (
 }
 
 //Make each value in the map available as a handy color class
-@each $value, $brand in $brands {
-    .#{$value}{
-        color: $brand;
-    }
-}
+// @each $value, $brand in $brands {
+//     .#{$value}{
+//         color: $brand;
+//     }
+// }
 
 //Make each value in the map available as a handy bg-color class
-@each $value, $brand in $brands {
-    .bg-#{$value}{
-        background-color: $brand;
-    }
-}
+// @each $value, $brand in $brands {
+//     .bg-#{$value}{
+//         background-color: $brand;
+//     }
+// }

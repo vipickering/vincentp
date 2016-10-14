@@ -1,10 +1,9 @@
-<div class="grid-row body-border-bottom" itemscope itemtype="http://schema.org/WebPage">
-
+<div itemscope itemtype="http://schema.org/WebPage">
     {% if page.previous.url %}
-        <a href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}" itemprop="significantLink" class="float-left">&laquo; Previous Post</a>
+        <a href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}" itemprop="significantLink">Previous</a>
     {% endif %}
 
     {% if page.next.url %}
-        <a href="{{page.next.url}}" title="next Post: {{page.next.title}}" itemprop="significantLink" class="float-right">Next Post &raquo; </a>
+        <a href="{{page.next.url}}" title="next Post: {{page.next.title}}" itemprop="significantLink">Next</a>
     {% endif %}
 </div>
