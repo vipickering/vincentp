@@ -11,13 +11,13 @@ meta: A blog about front-end development techniques, HTML, CSS and Javascript.
 <body itemscope itemtype="http://schema.org/Blog">
     {% include header.html %}
 
-    <main>
-        {% assign post = site.posts.first %}
-        {% assign page = post %}
-        {% assign content = post.content %}
-        {% include article.html %}
-    </main>
-    {% include footer.html %}
-    {% include tracking.html %}
+        <main itemtype="http://schema.org/Blog">
+            <article itemscope itemtype="http://schema.org/Blog">
+                {% assign post = site.posts.first %}
+                {% assign page = post %}
+                {% assign content = post.content %}
+                {% include content.html %}
+        </main>
+        {% include footer.html %}
 </body>
 </html>

@@ -4,15 +4,16 @@
         {% include meta.html %}
     </head>
 
-    <body itemscope itemtype="http://schema.org/WebPage" class="">
+    <body itemscope itemtype="http://schema.org/WebPage">
+        {% include header.html %}
+        <main>
+            <article itemscope itemtype="http://schema.org/Blog">
+                {% include dateAndTime.html %}
+                <h1 itemprop="headline">{{ page.title }}</h1>
+                {% include content.html %}
+            </article>
+        </main>
 
-            {% include header.html %}
-
-            <main>
-                {% include article.html %}
-            </main>
-
-            {% include footer.html %}
-        {% include tracking.html %}
+        {% include footer.html %}
     </body>
 </html>

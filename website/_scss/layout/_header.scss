@@ -9,7 +9,10 @@ header {
 }
 
 header * {
+    font-family: 'mp-mallory-book', Verdana, sans-serif;
+    text-transform: uppercase;
     color: brand(white);
+    font-size: 10px;
 }
 
 // Need image or default red colour option
