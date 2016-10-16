@@ -1,26 +1,31 @@
-footer  *{
+footer {
+    border-top: 1px solid brand(lightGrey);
+    padding: 40px 0 40px 0;
+}
+
+footer  * {
     font-family: 'mp-mallory-book', Verdana, sans-serif;
     text-transform: uppercase;
     font-size: 10px;
     color: brand(grey);
 }
 
-// footer p {
-//     max-width: 100%;
-// }
-
-
+address ul {
+    float:right;
+    margin:0;
+    padding: 0;
+}
 
 address li {
     float: left;
     list-style: none;
 }
 
-address li::after {
-    content: "/";
-    margin: 0 2px 0 2px;
-    // padding : 0 2px 0 2px;
+address li::after,
+.previous-post::after {
     display: inline-block;
+    content: "/";
+    margin: 0 2px 0 4px;
 }
 
 address li:last-child::after {
