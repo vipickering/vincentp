@@ -1,17 +1,27 @@
-nav {
-    float:  right;
-}
-
-nav li{
-    margin: 0 0 size(px9) 0;
-    padding: 0;
-    list-style: none;
-    font-size: 12px;
+nav * {
+    font-family: 'mp-mallory-book', Verdana, sans-serif;
     text-transform: uppercase;
-    font-family: 'mp-mallory-bold';
+    font-size: 10px;
+    color: brand(grey);
 }
 
-nav a{
-    color: brand(black);
-    text-decoration: none;
+nav ul{
+    float:  right;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    float: left;
+    list-style: none;
+}
+
+nav li::after{
+    display: inline-block;
+    content: "/";
+    margin: 0 2px 0 4px;
+}
+
+nav li:last-child::after {
+    content: none;
 }

@@ -12,7 +12,10 @@
 @import "grid/_grid.scss";
 
 // Layout CSS
-@import "layout/_article.scss";
+@import "layout/_header.scss";
+@import "layout/_footer.scss";
+@import "layout/_nav.scss";
+// @import "layout/_article.scss";
 // @import "layout/_images.scss";
 // @import "layout/_container.scss";
 // @import "layout/_next-prev.scss";
@@ -21,7 +24,7 @@
 // @import "layout/_padding.scss";
 // @import "layout/_border.scss";
 // @import "layout/_nav.scss";
-@import "layout/_footer.scss";
+
 
 // @import "layout/_toc.scss";
 

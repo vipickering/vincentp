@@ -6,9 +6,10 @@ body,
 
 body >* {
      flex: 1 calc(100% - 40px);
-     min-width:300px;
-     max-width: 100%;
-     margin: 0 20px 0 20px;
+     min-width: 300px;
+     max-width: 740px;
+     margin: auto;
+     padding: 0 20px 0 20px;
 }
 
 .grid-footer > * {
@@ -25,5 +26,6 @@ body >* {
 }
 
 @media all and (max-width: 600px) {
-    .grid-footer > * { flex: 1 100%; }
+    .grid-header > *,
+     .grid-footer > * { flex: 1 100%; }
 }
