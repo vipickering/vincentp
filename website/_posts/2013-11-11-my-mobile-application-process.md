@@ -163,7 +163,7 @@ If you enjoyed this post and found it helpful, you should follow me on <a href="
 -  [Instashare](http://instashareapp.com){:rel="external"}
 -  [Sketch](http://www.bohemiancoding.com/sketch/){:rel="external"}
 -  [Adobe Creative Cloud](http://www.adobe.com/uk/products/creativecloud.html){:rel="external"}
--  [Keynote](http://www.apple.com/uk/iwork/keynote/){:rel="external"} with [Blueprint][3]{:rel="external"}
+-  [Keynote](http://www.apple.com/uk/keynote/){:rel="external"} with [Blueprint][3]{:rel="external"}
 -  [Flinto](https://www.flinto.com){:rel="external"}
 
 [1]: {{site.author.twitter}}

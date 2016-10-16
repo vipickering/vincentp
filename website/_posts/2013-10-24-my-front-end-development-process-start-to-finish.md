@@ -45,7 +45,7 @@ When it comes to designing websites I have been refining my process over quite a
 
 I create a mood-board in [Ember](http://realmacsoftware.com/ember){:rel="external"} and collect my thoughts. I then usually write some basic Use Cases to help satisfy the brief. Once the Use Cases are done I move on to wire frame sketching. I find a pencil and paper the most helpful here. It allows me to iterate very quickly over and over until it feels like an idea is coming together.
 
-Once the wire frames and site-map are complete. I use [Keynote](http://www.apple.com/uk/iwork/keynote/){:rel="external"} to quickly create them. Keynote is such an unbelievably intelligent piece of software to create mock-ups and prototypes in. It also affords a large amount of control over fidelity. Certain clients will not be happy with a Balsamiq hand drawn approach. Others will want to see a stripped back minimal pass for fear of spending money on going to far the wrong way. Keynote allows you to add a layer styling rapidly using the copy &amp; paste styling meaning you can go from boxes on a page to full fidelity wire frame minutes.
+Once the wire frames and site-map are complete. I use [Keynote](http://www.apple.com/uk/keynote/){:rel="external"} to quickly create them. Keynote is such an unbelievably intelligent piece of software to create mock-ups and prototypes in. It also affords a large amount of control over fidelity. Certain clients will not be happy with a Balsamiq hand drawn approach. Others will want to see a stripped back minimal pass for fear of spending money on going to far the wrong way. Keynote allows you to add a layer styling rapidly using the copy &amp; paste styling meaning you can go from boxes on a page to full fidelity wire frame minutes.
 
 ## Designing  Websites
 
@@ -191,7 +191,7 @@ If you enjoyed this post and found it helpful, you should follow me on <a href="
 ## Design &amp; Wireframing Tools
 
 -  [Adobe Creative Cloud](http://www.adobe.com/uk/products/creativecloud.html){:rel="external"}
--  [Keynote](http://www.apple.com/uk/iwork/keynote/){:rel="external"}
+-  [Keynote](http://www.apple.com/uk/keynote/){:rel="external"}
 -  [Slicy](http://macrabbit.com/slicy/){:rel="external"}
 -  [Style Tiles](http://styletil.es){:rel="external"}
 {% endcontentfor %}
