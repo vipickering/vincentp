@@ -1,18 +1,19 @@
 a {
-    color: brand(red);
+    // color: brand(red);
+    color: inherit;
     padding : 0.2rem;
 }
 
 a:link {
-
+  text-decoration:underline;
 }
 
 a:active {
-
+  text-decoration:underline;
 }
 
 a:visited {
-
+  text-decoration:underline;
 }
 
 a:hover {

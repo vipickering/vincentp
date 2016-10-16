@@ -12,9 +12,12 @@ body >* {
      padding: 0 20px 0 20px;
 }
 
+.grid-header > * {
+    flex: 2 50%;
+}
+
 .grid-footer > * {
     flex: 3 33%;
-     // flex-direction: column;
 }
 
 .grid-footer > :nth-child(0n+1) {

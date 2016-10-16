@@ -1,4 +1,17 @@
 header {
-    background-color: brand(red);
+    padding-top: 40px;
+    // background: linear-gradient(45deg, #c6191f 0%,#fa3843 100%);
+    // background-color: brand(red);
+    color: brand(white);
+    height: 640px;
+}
+
+header * {
     color: brand(white);
 }
+
+// Need image or default red colour option
+header.image{
+
+}
+

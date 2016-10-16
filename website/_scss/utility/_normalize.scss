@@ -14,20 +14,19 @@ body {
     padding: 0;
 }
 
-
 // From http://kennethormandy.com/journal/normalize-opentype-css
 html, body, table {
     font-feature-settings: "kern" 1, "liga" 1, "calt" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0, "dlig" 0;
-  }
+}
 
-  h1, h2, h3 {
+h1, h2, h3 {
     font-feature-settings: "kern" 1, "liga" 1, "calt" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0, "dlig" 1;
-  }
+}
 
-  abbr {
+abbr {
     text-transform: uppercase;
     font-feature-settings: "kern" 1, "liga" 1, "calt" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0, "smcp" 1, "c2sc" 1;
-  }
+}
 
 time {
     font-feature-settings: "kern" 1, "liga" 1, "calt" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0;
@@ -39,28 +38,11 @@ pre, kbd, samp, code {
 
 sup {
     font-feature-settings: "kern" 1, "liga" 1, "calt" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0, "dlig" 0, "sups" 1;
-  }
+}
 
 sub {
     font-feature-settings: "kern" 1, "liga" 1, "calt" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0, "dlig" 0, "subs" 1;
-   }
-
-//For IE only. meh.
-// article,
-// aside,
-// details,
-// figcaption,
-// figure,
-// footer,
-// header,
-// main,
-// menu,
-// nav,
-// section,
-// summary,
-// time {
-//     display: block;
-// }
+}
 
 cite, em, var, address, dfn{
     font-style: normal;
@@ -79,7 +61,6 @@ figure{
 
 //  root elements
 :root {
-    // line-height: 1.75;
     font-family: 'mp-mallory-light', sans-serif;
     background-color: brand(white);
     color: brand(black);
