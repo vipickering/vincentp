@@ -2,13 +2,12 @@ nav * {
     font-family: 'mp-mallory-book', Verdana, sans-serif;
     text-transform: uppercase;
     font-size: 10px;
-    // color: brand(grey);
 }
 
 nav ul{
-    float:  right;
     margin: 0;
     padding: 0;
+    float:  right;
 }
 
 nav li {
@@ -18,8 +17,8 @@ nav li {
 
 nav li::after{
     display: inline-block;
-    content: "/";
     margin: 0 2px 0 4px;
+    content: "/";
 }
 
 nav li:last-child::after {

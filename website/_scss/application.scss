@@ -1,7 +1,5 @@
 // Import Maps and virtual data
 @import "colour/_brand.scss";
-// @import "colour/_code.scss";
-// @import "typography/_scale.scss";
 @import "font/_mallory.scss";
 
 // Import utility classes
@@ -16,19 +14,26 @@
 @import "layout/_footer.scss";
 @import "layout/_nav.scss";
 @import "layout/_article.scss";
-// @import "layout/_images.scss";
-// @import "layout/_container.scss";
-// @import "layout/_next-prev.scss";
-// @import "layout/_float.scss";
-// @import "layout/_margin.scss";
-// @import "layout/_padding.scss";
-// @import "layout/_border.scss";
-// @import "layout/_nav.scss";
-
-
-// @import "layout/_toc.scss";
 
 // Typography Styles
-@import "typography/_text.scss";
+@import "typography/_typography.scss";
 @import "typography/_links.scss";
-// @import "typography/_line-height.scss";
+
+html{
+    position: relative;
+}
+
+body::before{
+    content: '';
+    background-color: #c6191f;
+    // background: linear-gradient(180deg, #c6191f 0%,#fa3843 100%);
+    height: 400px;
+    width:100%;
+    position: absolute;
+    z-index: 1;
+}
+
+body{
+    position: absolute;
+    z-index: 2;
+}

@@ -11,9 +11,9 @@ footer  * {
 }
 
 address ul {
-    float: right;
     margin:0;
     padding: 0;
+    float: right;
 }
 
 address li {
@@ -24,8 +24,8 @@ address li {
 address li::after,
 .previous-post::after {
     display: inline-block;
-    content: "/";
     margin: 0 2px 0 4px;
+    content: "/";
 }
 
 address li:last-child::after {

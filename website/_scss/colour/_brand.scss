@@ -1,10 +1,10 @@
 //colour map here
 $brands: (
-  black :  rgba(17, 17, 17, 1),
-  grey :  rgba(102, 102, 102, 1),
-  lightGrey :  rgba(138, 138, 138, 0.5),
-  white :  rgba(255, 255, 255, 1),
-  red : rgba(200, 53, 57, 1)
+    black :  rgba(17, 17, 17, 1),
+    grey :  rgba(102, 102, 102, 1),
+    lightGrey :  rgba(138, 138, 138, 0.5),
+    white :  rgba(255, 255, 255, 1),
+    red : rgba(200, 53, 57, 1)
 );
 
 //Create a quick reference to the contents of the map
@@ -12,8 +12,8 @@ $brands: (
     @if map-has-key($brands, $key) {
         @return map-get($brands, $key);
     }
-  @warn "Unknown `#{$key}` in $brands.";
-  @return null;
+    @warn "Unknown `#{$key}` in $brands.";
+    @return null;
 }
 
 //Make each value in the map available as a handy color class

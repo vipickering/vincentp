@@ -5,11 +5,11 @@ body,
 }
 
 body >* {
-     flex: 1 calc(100% - 40px);
-     min-width: 300px;
-     max-width: 740px;
-     margin: auto;
-     padding: 0 20px 0 20px;
+    margin: auto;
+    padding: 0 20px 0 20px;
+    flex: 1 calc(100% - 40px);
+    min-width: 300px;
+    max-width: 740px;
 }
 
 .grid-header > * {
@@ -30,5 +30,5 @@ body >* {
 
 @media all and (max-width: 600px) {
     .grid-header > *,
-     .grid-footer > * { flex: 1 100%; }
+    .grid-footer > * { flex: 1 100%; }
 }

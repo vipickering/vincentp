@@ -40,7 +40,7 @@ i, em{
 }
 
 figcaption{
-       font-family: $mallory-light-italic;
+    font-family: $mallory-light-italic;
 }
 
 pre {
@@ -52,8 +52,8 @@ pre {
 //  * Prevent `sub` and `sup` elements from affecting the line height in
 //  * all browsers.
 
- sub,
- sup {
+sub,
+sup {
     line-height: 0;
     position: relative;
     vertical-align: baseline;
@@ -74,10 +74,9 @@ h1,h2,h3,h4,h5,h6{
 
 p{
     color: brand(grey);
-     // max-width: $line-length;
-        line-height: $paragraph-line-height;
-        hyphens : none;
-        font-kerning : auto;
+    line-height: $paragraph-line-height;
+    hyphens : none;
+    font-kerning : auto;
 }
 
 // End Normalise.
