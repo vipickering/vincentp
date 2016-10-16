@@ -10,5 +10,5 @@ var watch = require('gulp-watch');
 
 
 gulp.task('watch',function() {
-    gulp.watch('website/_scss/**/*.scss',['build-css', 'compress-css']);
+    gulp.watch('website/_scss/**/*.scss',['build-css', 'sass-lint', 'compress-css']);
 });

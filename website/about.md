@@ -13,4 +13,4 @@ For the last 16 years I have been crafting websites and applications, where my c
 
 I am also a contributor to various open source projects including [Mozlla Nunjucks](https://github.com/mozilla/nunjucks) and [GOV UK](https://github.com/alphagov/govuk_frontend_toolkit/).
 
-Around the web you can find me at: <a href="{{site.author.twitter}}" itemprop="url" rel="me" title="Twitter">Twitter</a>, <a href="{{site.author.github}}"  itemprop="url" rel="me" title="Github">Github</a> and <a href="https://plus.google.com/u/0/{{site.author.googleplus}}/?rel=author" itemprop="url" rel="me" title="Google +">Google+</a>.
+Around the web you can find me at: <a href="{{site.author.twitter}}" itemprop="url" rel="me" title="Twitter">Twitter</a>, <a href="{{site.author.github}}"  itemprop="url" rel="me" title="Github">Github</a> and <a href="{{site.author.googleplus}}" itemprop="url" rel="me" title="Google +">Google+</a>.

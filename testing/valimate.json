@@ -1,0 +1,7 @@
+{
+    "urls": [
+        "http://localhost:4000/index",
+        "http://localhost:4000/about",
+        "http://localhost:4000/hire"
+    ]
+}

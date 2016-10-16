@@ -21,6 +21,7 @@
     "gulp-clean": "^0.3.2",
     "gulp-csso": "^2.0.0",
     "gulp-debug": "^2.1.2",
+    "gulp-sass-lint": "^1.2.0",
     "gulp-postcss": "^6.1.1",
     "gulp-sass": "^2.3.2",
     "gulp-shell": "^0.5.2",
