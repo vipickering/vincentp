@@ -72,12 +72,16 @@ h2,h3,h4,h5,h6{
     color: brand(black);
 }
 
+article li,
 p{
     color: brand(grey);
     line-height: $paragraph-line-height;
     hyphens : none;
     font-kerning : auto;
+    width: $line-length;
 }
+
+
 
 // End Normalise.
 

@@ -136,7 +136,7 @@ figure {
   font-family: 'mp-mallory-light', sans-serif;
   background-color: white;
   color: #111111;
-  font-size: 15px; }
+  font-size: 16px; }
 
 ::-moz-selection {
   background-color: #c83539;
@@ -270,15 +270,16 @@ article {
 h1,
 time {
   display: block;
+  font-family: 'mp-mallory-book', Verdana, sans-serif;
   text-align: center;
   color: white; }
 
 time {
-  font-size: 10px;
-  margin-bottom: 10px; }
+  font-size: 12px; }
 
 h1 {
   margin: 0 0 200px 0;
+  text-transform: uppercase;
   font-size: 40px; }
 
 /*
@@ -315,6 +316,7 @@ sup {
 h2, h3, h4, h5, h6 {
   color: #111111; }
 
+article li,
 p {
   color: #666666;
   line-height: 1.6;
@@ -324,7 +326,8 @@ p {
           hyphens: none;
   -webkit-font-kerning: auto;
      -moz-font-kerning: auto;
-          font-kerning: auto; }
+          font-kerning: auto;
+  width: 35em; }
 
 a {
   color: inherit;
