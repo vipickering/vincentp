@@ -2,3 +2,20 @@ article{
     position: relative;
     z-index: 2;
 }
+
+h1,
+time {
+    display: block;
+    text-align: center;
+    color: brand(white);
+}
+
+time {
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    margin : 0 0 200px 0;
+    font-size: 40px;
+}

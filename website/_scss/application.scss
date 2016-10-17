@@ -1,5 +1,6 @@
 // Import Maps and virtual data
 @import "colour/_brand.scss";
+@import "colour/_code.scss";
 @import "font/_mallory.scss";
 
 // Import utility classes
@@ -27,8 +28,8 @@ body::before{
     content: '';
     background-color: #c6191f;
     // background: linear-gradient(180deg, #c6191f 0%,#fa3843 100%);
-    height: 400px;
-    width:100%;
+    height: 350px;
+    width: 100%;
     position: absolute;
     z-index: 1;
 }

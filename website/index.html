@@ -16,8 +16,8 @@ meta: A blog about front-end development techniques, HTML, CSS and Javascript.
             {% assign post = site.posts.first %}
             {% assign page = post %}
             {% assign content = post.content %}
-             {% include dateAndTime.html %}
-                <h1 itemprop="headline">{{ page.title }}</h1>
+            {% include dateAndTime.html %}
+            <h1 itemprop="headline">{{ page.title }}</h1>
             {% include content.html %}
     </main>
     {% include footer.html %}
