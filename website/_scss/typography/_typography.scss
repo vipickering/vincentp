@@ -78,7 +78,7 @@ p{
     line-height: $paragraph-line-height;
     hyphens : none;
     font-kerning : auto;
-    width: $line-length;
+    max-width: $line-length;
 }
 
 
