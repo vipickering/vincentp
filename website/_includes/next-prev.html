@@ -1,9 +1,14 @@
 <div itemscope itemtype="http://schema.org/WebPage">
     {% if page.previous.url %}
-        <a href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}" class="previous-post" itemprop="significantLink">Previous</a>
+        <ul>
+            <li><a href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}" class="previous-post" itemprop="significantLink">Previous</a></li>
     {% endif %}
 
     {% if page.next.url %}
-        <a href="{{page.next.url}}" title="next Post: {{page.next.title}}" class="next-post" itemprop="significantLink">Next</a>
+        <li><a href="{{page.next.url}}" title="next Post: {{page.next.title}}" class="next-post" itemprop="significantLink">Next</a></li>
+    {% endif %}
+
+    {% if page.previous.url %}
+        </ul>
     {% endif %}
 </div>

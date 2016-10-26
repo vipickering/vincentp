@@ -5,7 +5,7 @@ date: 2013-08-30
 meta: My personal set-up for Sublime Text 2
 ---
 
-My personal set-up for [Sublime Text 2](http://www.sublimetext.com "Sublime Text 2"){:rel="external"}.
+My personal set-up for [Sublime Text 2](https://www.sublimetext.com "Sublime Text 2"){:rel="external"}.
 
 ## Preferences
 

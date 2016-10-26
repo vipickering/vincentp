@@ -149,7 +149,6 @@ If you enjoyed this post and found it helpful, you should follow me on <a href="
 ## Misc Productivity &amp; Planning Tools
 
 - [Pinboard](http://pinboard.in){:rel="external"}
-- [Ember](http://realmacsoftware.com/ember){:rel="external"}
 - [Moleskin](http://www.moleskine.com/gb/collections/model/product/squared-soft-notebook-extra-large){:rel="external"}
 - [UI Stencils][5]{:rel="external"}
 

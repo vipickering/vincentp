@@ -1,6 +1,6 @@
 footer {
     border-top: 1px solid brand(lightGrey);
-    padding: 40px 0 40px 0;
+    padding: 40px 20px 40px 20px;
 }
 
 footer  * {
@@ -10,26 +10,34 @@ footer  * {
     color: brand(grey);
 }
 
-address ul {
+footer ul{
     margin:0;
     padding: 0;
-    float: right;
 }
 
-address li {
+footer li {
     float: left;
     list-style: none;
 }
 
-address li::after,
-.previous-post::after {
+address ul {
+    float: right;
+}
+
+footer li::after{
     display: inline-block;
     margin: 0 2px 0 4px;
     content: "/";
 }
 
-address li:last-child::after {
+footer li:last-child::after {
     content: none;
 }
 
+/*
+mobile transform.
 
+Next/Prev above, copyright and social links below.
+
+delete google plus link + profile.
+*/
