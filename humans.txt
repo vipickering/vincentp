@@ -1,0 +1,8 @@
+Author : Vincent Pickering
+Contact : hello@vincentp.me
+Twitter: @vipickering
+Location: UK
+Github: https://github.com/vipickering/vincentp
+Last update: 2016/11/06
+Standards: HTML5, CSS3
+Software: Jekyll

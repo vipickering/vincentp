@@ -1,12 +1,12 @@
-<div itemscope itemtype="http://schema.org/WebPage">
+<div itemscope itemtype="http://schema.org/WebPage" class="next-prev">
     {% if page.previous.url %}
         <ul>
             <li><a href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}" class="previous-post" itemprop="significantLink">Previous</a></li>
     {% endif %}
 
-    {% if page.next.url %}
-        <li><a href="{{page.next.url}}" title="next Post: {{page.next.title}}" class="next-post" itemprop="significantLink">Next</a></li>
-    {% endif %}
+        {% if page.next.url %}
+            <li><a href="{{page.next.url}}" title="next Post: {{page.next.title}}" class="next-post" itemprop="significantLink">Next</a></li>
+        {% endif %}
 
     {% if page.previous.url %}
         </ul>

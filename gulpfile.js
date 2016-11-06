@@ -11,6 +11,7 @@ gulp.task('default', function(){
         'clean',
         'build-css',
         'compress-css',
+        'sass-lint',
         ['watch', 'jekyll']
     );
 });

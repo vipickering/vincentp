@@ -1,13 +1,17 @@
 <meta charset="utf-8" />
-<title>{{ page.title }}</title>
-
-<!-- Meta Data -->
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'"> -->
 <meta name="description" itemprop="description" content="{{page.meta}}" />
-<meta name="robots" content="index, follow" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-<meta name="apple-mobile-web-app-title" content="vincentp">
+<meta name="robots" content="index,follow,noodp,noydir">
+<meta name="google" content="nositelinkssearchbox">
+<meta name="subject" content="Webdesign including: UI, UX, HTML, CSS and JavaScript">
+
 <link rel="canonical" href="{{site.url}}">
+<link rel="author" type="text/plain"  href="http://vincenp.me/humans.txt" />
+
+<!-- <link rel="webmention" href="https://example.com/webmention"> -->
+
 
 <!-- Prefetch DNS for external assets -->
 <link rel="dns-prefetch" href="//platform.twitter.com">
@@ -15,13 +19,14 @@
 <link rel="dns-prefetch" href="https://twitter.com">
 
 <!-- The Horror. The Sheer Horror. -->
-<link rel="icon" rel="Shortcut Icon" type="image/x-icon" href="/images/favicon.ico">
-<link rel="apple-touch-icon-precomposed" href="/images/apple-touch-icon-57x57-precomposed.png">
+<!--
+Do These:
+-->
+<!-- <link rel="apple-touch-icon-precomposed" href="/images/apple-touch-icon-57x57-precomposed.png">
 <link rel="apple-touch-icon-precomposed" href="/images/apple-touch-icon-76x76-precomposed.png">
 <link rel="apple-touch-icon-precomposed" href="/images/apple-touch-icon-120x120-precomposed.png">
 <link rel="apple-touch-icon-precomposed" href="/images/apple-touch-icon-152x152-precomposed.png">
-<link rel="apple-touch-icon-precomposed" href="/images/apple-touch-icon-precomposed.png">
-<link rel="apple-touch-icon-precomposed" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon-precomposed" href="/images/apple-touch-icon-precomposed.png"> -->
 
 <!-- Feeds -->
 <link rel="alternate" type="application/rss+xml" title="RSS" href="http://vincentp.me/feed.xml" />
@@ -29,3 +34,6 @@
 
 <!-- CSS -->
 <link rel="stylesheet" href="/css/application.css">
+<title>{{ page.title }}</title>
+
+{% include twitter-cards.html %}

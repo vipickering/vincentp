@@ -61,13 +61,20 @@ figure{
 
 //  root elements
 :root {
-    font-family: 'mp-mallory-light', sans-serif;
+    // font-family: 'mp-mallory-light', sans-serif;
+    font-family: menlo;
     background-color: brand(white);
     color: brand(black);
-    font-size: 16px;
+    font-size: 14px;
 }
 
 ::selection {
     background-color: brand(red);
     color: brand(white);
+}
+
+@media all and (max-width: 360px) {
+    :root {
+        font-size: 13px;
+    }
 }

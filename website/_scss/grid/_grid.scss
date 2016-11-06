@@ -8,8 +8,9 @@ body >* {
     margin: auto;
     padding: 0 20px 0 20px;
     flex: 1 calc(100% - 40px);
-    width: 300px;
+    min-width: 300px;
     max-width: 740px;
+    width: 300px;
 }
 
 .grid-header > * {
@@ -26,6 +27,10 @@ body >* {
 
 .grid-footer > :nth-child(0n+2) {
     text-align: center;
+}
+
+@media all and (min-width: 500px) {
+   body >* { width: auto;}
 }
 
 @media all and (max-width: 600px) {
