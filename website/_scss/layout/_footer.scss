@@ -1,6 +1,17 @@
 footer {
+    padding: 0 0 40px 0
+}
+
+footer::before{
+    display: block;
+    padding: 10px 0 0 0;
+    width: calc(100% -40px);
     border-top: 1px solid brand(lightGrey);
-    padding: 40px 20px 40px 20px;
+    content : '';
+}
+
+footer .grid > *{
+    margin-bottom: 20px;
 }
 
 footer  * {
@@ -16,12 +27,8 @@ footer ul{
 }
 
 footer li {
-    float: left;
+    display: inline-block;
     list-style: none;
-}
-
-address ul {
-    float: right;
 }
 
 footer li::after{
@@ -34,10 +41,14 @@ footer li:last-child::after {
     content: none;
 }
 
-/*
-mobile transform.
 
-Next/Prev above, copyright and social links below.
+@media all and (min-width: 360px) {
 
-delete google plus link + profile.
-*/
+address ul {
+    float: right;
+}
+
+.next-prev ul{
+    text-align: center;
+}
+}

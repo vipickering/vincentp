@@ -1,10 +1,16 @@
 pre.highlight {
-    background-color: brand(black);
-    padding:10px;
-    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+pre code {
+    padding: 10px;
 }
 
 code {
+    display: inline-block;
+    background-color: brand(black);
     color: brand(white);
-    line-height: 1.6;
+    padding: 0 5px 0 5px;
+    line-height: 1.8;
+    border-radius: 3px;
 }

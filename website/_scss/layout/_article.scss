@@ -7,17 +7,14 @@ h1,
 time {
     display: block;
     font-family: 'mp-mallory-book', Verdana, sans-serif;
-    // text-align: center;
-    // color: brand(white);
 }
 
 time {
     font-size: 12px;
-    margin-left: 4px;
 }
 
 h1 {
-    margin : 0 0 100px 0;
+    margin : 0 0 20px 0;
     text-transform: uppercase;
     font-size: 40px;
 }
@@ -31,10 +28,19 @@ article ul, ol{
     padding: 0;
 }
 
-article li {
-    margin-bottom: 10px;
+article ul ul,
+article ol, ol{
+    margin-left: 20px;
 }
 
-.next-prev ul{
-    margin-left: 25px;
+article li {
+    margin-bottom: 7px;
+}
+
+article ul ul li {
+    margin-top: 7px;
+}
+
+article p{
+    margin: 0 0 20px 0;
 }

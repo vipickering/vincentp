@@ -1,33 +1,29 @@
 header {
-    padding-top: 40px;
-    // color: brand(white);
-    height: 150px;
     position: relative;
-    z-index: 2;
+    padding-top: 20px;
+    margin-bottom: 50px;
 }
 
 header {
     font-family: 'mp-mallory-book', Verdana, sans-serif;
     text-transform: uppercase;
-    // color: brand(white);
     font-size: 10px;
 }
 
 header a:focus {
-    // color: brand(red);
-    // background-color: brand(white);
     text-decoration: none;
     transition:0.2s;
     outline: none;
 }
 
-// Need image or default red colour option
-// header.image{
+header .grid > *{
+    margin-bottom: 20px;
+}
 
-// }
 
-@media all and (max-width: 360px) {
+@media all and (min-width: 360px) {
     header {
-        padding-top: 20px;
+        padding-top: 40px;
+            height: 150px;
     }
 }

@@ -4,44 +4,44 @@ Will also need nodemon, to fun jeyklly build.
 */
 
 //local vars
-$mallory-light-italic : 'mp-mallory-light-italic', Verdana, sans-serif;
-// $mallory-book : 'mp-mallory-book', Verdana, sans-serif;
+// $mallory-light-italic : 'mp-mallory-light-italic', Verdana, sans-serif;
+$mallory-book : 'mp-mallory-book', Verdana, sans-serif;
 // $mallory-book-italic : 'mp-mallory-book-italic', Verdana, sans-serif;
-$mallory-bold : 'mp-mallory-bold', Verdana, sans-serif;
+// $mallory-bold : 'mp-mallory-bold', Verdana, sans-serif;
 
-$body-text-size : size(px15);
+// $body-text-size : size(px15);
 $line-length : 35em;
 $paragraph-line-height : 1.6;
-$paragraph-spacing : size(px24);
+// $paragraph-spacing : size(px24);
 
-$heading-1-text-size : size(px24);
-$heading-2-text-size : size(px15);
+// $heading-1-text-size : size(px24);
+// $heading-2-text-size : size(px15);
 
-$list-text-size : size(px15);
-$list-margin :  size(px9);
+// $list-text-size : size(px15);
+// $list-margin :  size(px9);
 
-$blockquote-text-size:  $list-text-size;
+// $blockquote-text-size:  $list-text-size;
 
-$aside-text-size : size(px9);
+// $aside-text-size : size(px9);
 
-$code-text-size : size(px15);
+// $code-text-size : size(px15);
 
 
 // Typography Normalise
-b,
-strong {
-    font-family: $mallory-bold;
-    font-weight: normal;
-}
+// b,
+// strong {
+//     font-family: $mallory-bold;
+//     font-weight: normal;
+// }
 
-i, em{
-    font-family: $mallory-light-italic;
-    font-weight: normal;
-}
+// i, em{
+//     font-family: $mallory-light-italic;
+//     font-weight: normal;
+// }
 
-figcaption{
-    font-family: $mallory-light-italic;
-}
+// figcaption{
+//     font-family: $mallory-light-italic;
+// }
 
 pre {
     overflow-x : auto;
@@ -80,8 +80,8 @@ p{
     max-width: $line-length;
 }
 
-@media all and (max-width: 360px) {
-    h1 {
-        margin : 0 0 90px 0;
-    }
-}
+// @media all and (max-width: 360px) {
+//     h1 {
+//         margin : 0 0 90px 0;
+//     }
+// }

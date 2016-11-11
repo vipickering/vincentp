@@ -1,20 +1,25 @@
-nav ul{
+.siteNav ul{
     margin: 0;
     padding: 0;
-    float:  right;
 }
 
-nav li {
-    float: left;
+.siteNav li {
+    display: inline-block;
     list-style: none;
 }
 
-nav li::after{
+.siteNav li::after{
     display: inline-block;
     margin: 0 2px 0 4px;
     content: "/";
 }
 
-nav li:last-child::after {
+.siteNav li:last-child::after {
     content: none;
+}
+
+@media all and (min-width: 360px) {
+    .siteNav ul{
+        float:  right;
+    }
 }

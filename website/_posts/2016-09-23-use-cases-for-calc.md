@@ -7,7 +7,7 @@ meta: Some fun use cases for CSS Calc operator
 
 ## Vertical centre
 
-If you know the height of the element, [CSS Calc ](https://developer.mozilla.org/en-US/docs/Web/CSS/calc){:rel="external"}  can make it super simple to position an element vertical centre *and* respect a responsive layout.
+If you know the height of the element, [CSS Calc](https://developer.mozilla.org/en-US/docs/Web/CSS/calc){:rel="external"} can make it super simple to position an element vertical centre *and* respect a responsive layout.
 
 By using this simple equation:
 
@@ -45,7 +45,7 @@ So in the example below, we use calc to position the image all the way to the ri
 
 ## 100% container, equally distribute multiple containers within the box and account for “tweaks”
 
-A quite common design decision is to have multiple containers within a wrapping container. The inner containers will be a percentage width of the outer container, so are equally spaced. Given this scenario, you would usually just assign width:33%; to each container and move along. But sometimes, you want extra flexibility for those containers. For example, if you want each box to have a border, you then have to take this in to account as well.
+A quite common design decision is to have multiple containers within a wrapping container. The inner containers will be a percentage width of the outer container, so are equally spaced. Given this scenario, you would usually just assign ```width:33%;``` to each container and move along. But sometimes, you want extra flexibility for those containers. For example, if you want each box to have a border, you then have to take this in to account as well.
 
 Calc to the rescue again!
 
@@ -80,7 +80,3 @@ so we can simply do:
 .col-2 { width:calc(100% /5*2); }
 .col-3 { width:calc(100% /5*3); }
 ```
-
-Got any other techniques, I’ve missed?
-
-[Talk to me Goose](http://www.twitter.com/vipickering){:rel="external"}.
