@@ -36,6 +36,10 @@ pre, kbd, samp, code {
     font-feature-settings: "kern" 0, "liga" 0, "calt" 1, "dlig" 0, "pnum" 0, "tnum" 1, "onum" 0, "lnum" 1, "zero" 1;
 }
 
+pre {
+    overflow-x : auto;
+}
+
 sup {
     font-feature-settings: "kern" 1, "liga" 1, "calt" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0, "dlig" 0, "sups" 1;
 }
@@ -44,11 +48,25 @@ sub {
     font-feature-settings: "kern" 1, "liga" 1, "calt" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0, "dlig" 0, "subs" 1;
 }
 
+sub,
+sup {
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+sup {
+    top: -0.5em;
+}
+
 cite, em, var, address, dfn{
     font-style: normal;
 }
 
-//Things to reset
 pre,
 blockquote{
     margin: 0;
@@ -59,18 +77,30 @@ figure{
     margin: 0;
 }
 
-//  root elements
 :root {
-    // font-family: 'mp-mallory-light', sans-serif;
-    font-family: menlo;
+    font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
     background-color: brand(white);
     color: brand(black);
     font-size: 13px;
+    text-rendering: geometricPrecision;
 }
 
 ::selection {
     background-color: brand(red);
     color: brand(white);
+}
+
+h2,h3,h4,h5,h6{
+    color: brand(black);
+}
+
+article li,
+p{
+    color: brand(grey);
+    line-height: 1.6;
+    hyphens : none;
+    font-kerning : auto;
+    max-width: 35em;
 }
 
 @media all and (min-width: 360px) {

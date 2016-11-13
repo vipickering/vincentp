@@ -80,7 +80,7 @@ Taking the idea further and my ultimate aim for the idea would be to build the w
 
 We work smarter, when we work together. That's why I am not arrogant to believe what I have proposed being the perfect solution, or indeed think I can make this work better all on my own. I am in the process of writing the website specification and event format. Once I have the general format, I will put it out on my Github for general feedback and suggestion ideas.
 
-Summit, its website code and format is intended to always be open source and open for all to hack and use as they see fit. If you are interested in learning more you can ask me yourself on Twitter [@vipickering](http://www.twitter.com/vipickering){:rel="external"} or follow [@summit_event](http://www.twitter.com/summit_event){:rel="external"} for updates on our progress, there should also be a website soon!
+Summit, its website code and format is intended to always be open source and open for all to hack and use as they see fit. ~~If you are interested in learning more you can ask me yourself on Twitter @vipickering or follow @summit_event for updates on our progress, there should also be a website soon!~~
 
 Let's make the future great together.
 
