@@ -1,0 +1,54 @@
+footer {
+    padding: 0 0 40px 0
+}
+
+footer::before{
+    display: block;
+    padding: 10px 0 0 0;
+    width: calc(100% -40px);
+    border-top: 1px solid var(--lightGrey);
+    content : '';
+}
+
+footer .grid > *{
+    margin-bottom: 20px;
+}
+
+footer  * {
+    font-family: var(--mallory-book);
+    text-transform: uppercase;
+    font-size: 10px;
+    color: var(--grey);
+}
+
+footer ul{
+    margin:0;
+    padding: 0;
+}
+
+footer li {
+    display: inline-block;
+    list-style: none;
+}
+
+footer li::after{
+    display: inline-block;
+    margin: 0 2px 0 4px;
+    content: "/";
+}
+
+footer li:last-child::after {
+    content: none;
+}
+
+
+@media all and (min-width: 360px) {
+
+address ul {
+    float: right;
+}
+
+.next-prev ul{
+    text-align: center;
+}
+}

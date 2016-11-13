@@ -8,12 +8,8 @@ brew install phantomjs
 # - Pa11y
 # - Node Security Platform
 # - Broken Link Checker
-# - Pageres CLI
-# - Valimate
-# - Jasmine
-# - Sass-lint
-# - Istanbul
-sudo npm install -g gulp-cli pa11y nsp broken-link-checker valimate jasmine eslint sass-lint pageres-cli istanbul
+# - pleeease-cli
+sudo npm install -g gulp-cli pa11y nsp broken-link-checker valimate pleeease-cli
 
 # Install local packages
 npm update

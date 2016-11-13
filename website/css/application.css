@@ -152,16 +152,17 @@ body,
       -ms-flex-flow: row wrap;
           flex-flow: row wrap; }
 
+body {
+  padding: 20px; }
+
 body > * {
   display: block;
-  margin-left: 20px;
-  margin-right: 20px;
   padding: 0;
   -webkit-box-flex: 1;
-  -webkit-flex: 1 -webkit-calc(100% - 40px);
+  -webkit-flex: 1 100%;
      -moz-box-flex: 1;
-      -ms-flex: 1 calc(100% - 40px);
-          flex: 1 calc(100% - 40px);
+      -ms-flex: 1 100%;
+          flex: 1 100%;
   min-width: 300px;
   max-width: 620px; }
 
@@ -189,7 +190,6 @@ footer {
 @media all and (min-width: 640px) {
   body > * {
     margin: auto;
-    padding: 0 20px 0 20px;
     max-width: 740px;
     min-width: 620px; }
   header {
@@ -221,7 +221,6 @@ footer {
 
 header {
   position: relative;
-  padding-top: 20px;
   margin-bottom: 50px; }
 
 header {
@@ -242,7 +241,6 @@ header .grid > * {
 
 @media all and (min-width: 640px) {
   header {
-    padding-top: 40px;
     height: 150px; } }
 
 footer {
