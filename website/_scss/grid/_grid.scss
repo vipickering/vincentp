@@ -1,47 +1,62 @@
+body,
+    .grid {
+        display: flex;
+        flex-flow: row wrap;
+    }
 
  body >* {
     display: block;
-    // width: 100%;
     margin-left: 20px;
     margin-right: 20px;
+    padding: 0;
+    flex: 1 calc(100% - 40px);
+    min-width: 300px;
+    max-width: 620px;
+}
+
+header {
+    order : 2;
+}
+
+main {
+    order: 1;
+}
+
+footer {
+    order: 3;
 }
 
 @media all and (min-width: 640px) {
-  body,
-.grid {
-    display: flex;
-    flex-flow: row wrap;
+    body >* {
+        margin: auto;
+        padding: 0 20px 0 20px;
+        // flex: 1 calc(100% - 40px);
+     max-width: 740px;
+     min-width: 620px;
+
+    }
+
+    header {
+        order : 1;
+    }
+
+    main {
+        order: 2;
+    }
+
+    // footer {
+    //     order: 3;
+    // }
+
+    .grid-header > * {
+        flex: 2 50%;
+    }
+
+    .grid-footer > * {
+        flex: 3 33%;
+    }
+
+    .grid-footer > :nth-child(0n+1) {
+        text-align: left;
+    }
 }
-
-body >* {
-    margin: auto;
-    padding: 0 20px 0 20px;
-    flex: 1 calc(100% - 40px);
-    min-width: 300px;
-    max-width: 740px;
-    width: 300px;
-}
-
-.grid-header > * {
-    flex: 2 50%;
-}
-
-.grid-footer > * {
-    flex: 3 33%;
-}
-
-.grid-footer > :nth-child(0n+1) {
-    text-align: left;
-}
-}
-
-
-
-// @media all and (min-width: 500px) {
-//    body >* { width: auto;}
-// }
-
-// @media all and (max-width: 600px) {
-//     .grid-header > *,
-//     .grid-footer > * { flex: 1 100%; }
-// }

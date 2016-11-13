@@ -1,6 +1,6 @@
 header {
     position: relative;
-    padding-top: 20px;
+    padding-top:20px;
     margin-bottom: 50px;
 }
 
@@ -17,13 +17,13 @@ header a:focus {
 }
 
 header .grid > *{
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 
-@media all and (min-width: 360px) {
+@media all and (min-width: 640px) {
     header {
         padding-top: 40px;
-            height: 150px;
+        height: 150px;
     }
 }

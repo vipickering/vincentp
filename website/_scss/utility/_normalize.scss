@@ -65,7 +65,7 @@ figure{
     font-family: menlo;
     background-color: brand(white);
     color: brand(black);
-    font-size: 14px;
+    font-size: 13px;
 }
 
 ::selection {
@@ -73,8 +73,8 @@ figure{
     color: brand(white);
 }
 
-@media all and (max-width: 360px) {
+@media all and (min-width: 360px) {
     :root {
-        font-size: 13px;
+        font-size: 14px;
     }
 }

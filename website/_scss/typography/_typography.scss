@@ -10,8 +10,8 @@ $mallory-book : 'mp-mallory-book', Verdana, sans-serif;
 // $mallory-bold : 'mp-mallory-bold', Verdana, sans-serif;
 
 // $body-text-size : size(px15);
-$line-length : 35em;
-$paragraph-line-height : 1.6;
+// $line-length : 35em;
+// $paragraph-line-height : 1.6;
 // $paragraph-spacing : size(px24);
 
 // $heading-1-text-size : size(px24);
@@ -74,10 +74,10 @@ h2,h3,h4,h5,h6{
 article li,
 p{
     color: brand(grey);
-    line-height: $paragraph-line-height;
+    line-height: 1.6;
     hyphens : none;
     font-kerning : auto;
-    max-width: $line-length;
+    max-width: 35em;
 }
 
 // @media all and (max-width: 360px) {
