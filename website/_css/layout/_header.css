@@ -1,6 +1,5 @@
 header {
     position: relative;
-    margin-bottom: 50px;
 }
 
 header {
@@ -22,6 +21,6 @@ header .grid > *{
 
 @media all and (min-width: 640px) {
     header {
-        height: 150px;
+        margin-bottom: 50px;
     }
 }

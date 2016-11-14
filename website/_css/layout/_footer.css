@@ -11,6 +11,8 @@ footer::before{
 }
 
 footer .grid > *{
+    display: block;
+    width:100%;
     margin-bottom: 20px;
 }
 
@@ -41,14 +43,12 @@ footer li:last-child::after {
     content: none;
 }
 
-
 @media all and (min-width: 360px) {
+    address ul {
+       /* float: right;*/
+    }
 
-address ul {
-    float: right;
-}
-
-.next-prev ul{
-    text-align: center;
-}
+    .next-prev ul{
+        text-align: center;
+    }
 }

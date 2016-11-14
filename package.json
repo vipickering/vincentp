@@ -4,7 +4,7 @@
   "description": "personal website",
   "main": "website/index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start" : "cd website && jekyll serve --drafts --watch"
   },
   "repository": {
     "type": "git",
