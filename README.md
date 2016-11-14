@@ -2,24 +2,24 @@
 
 ## Setup
 
-Install Grunt CLI:
+To install all global packages. There are no local packages.
 
 ```
-npm install -g grunt-cli
-```
-
-Then get all the node modules :
-
-```
-npm update
+./install.sh
 ```
 
 ## Running
 
-Launch the default Gulp task from the site root. This will build and watch for local changes, along with loading the jekyll site to watch.
+Launch the pleeease watch in one window from the root.
 
 ```
-gulp
+pleeease watch
+```
+
+And in a separate window run jekyll
+
+```
+jekyll serve --incremental --drafts
 ```
 
 ## Deploy
@@ -32,20 +32,8 @@ jekyll build
 
 ## Testing Tools
 
-### [Broken link Checker](https://github.com/stevenvachon/broken-link-checker)
-
-Install BLC
+Run tests
 
 ```
-npm install broken-link-checker -g
+./run-tests.sh
 ```
-
-Running Link Checker. Recursively go through all pages in the website and report broken links
-
-```
-blc http://localhost:4000/ -r
-```
-
-### P4llly
-
-### SASS Lint
