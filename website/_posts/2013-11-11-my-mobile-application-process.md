@@ -5,7 +5,7 @@ date: 2013-11-11
 meta: An overview of my mobile App tools and processes used on a daily basis from start to finish.
 ---
 
-Intended as a companion piece to my previous post on my front-end process, this post discusses my App design processes, there is some overlap so I recommend if you enjoy reading this post you should also [check out][2] the other one.
+Intended as a companion piece to my previous post on my front-end process, this post discusses my App design processes, there is some overlap so I recommend if you enjoy reading this post you should also [check out](http://vincentp.me/blog/my-front-end-development-process-start-to-finish/) the other one.
 
 Unlike many App designers, I do not focus exclusively on iOS and have created Apps in the past for multiple platforms and designed some Apps to work across many platforms. This type of App design presents many different challenges you may not be familiar with, which can become especially complex when focusing on mobile Apps and their different interaction methods, App store submission processes, resolution sizes or when you have to design an App that must support multiple platforms.
 
@@ -55,7 +55,7 @@ So to this end, I start with an blank notebook and quickly begin sketching label
 <img src="/images/blog/2013-11-11/ui-stencil.jpg" width="612" alt="An image of a UI Stencil next to some wireframes"/>
 </figure>
 
-Once I have something I am roughly OK with, I begin to add more fidelity using a [UI Stencil][5] they are a great way to focus on a higher fidelity mock-up and not get too distracted by the look and feel but at the same time keeping it neat and fast to draw.
+Once I have something I am roughly OK with, I begin to add more fidelity using a [UI Stencil](http://www.uistencils.com/products/iphone-stencil-kit) they are a great way to focus on a higher fidelity mock-up and not get too distracted by the look and feel but at the same time keeping it neat and fast to draw.
 
 I map out the screens one at a time until I think I have them all, then at this point I create an information map. An information map is like a site-map mashed up with a functional diagram, it's a great way to map out key functions in Apps. Depending upon the complexity of the App you can map out individual Use Case routes or display all the key routes on one diagram.
 
@@ -80,15 +80,15 @@ I have tried many ways in the past to manage this document and this largely depe
 <img src="/images/blog/2013-11-11/blueprint.jpg"  width="612" alt="a screen shot of my rapid prototyping software Blueprint"/>
 </figure>
 
-Now comes the fun part, I take the Information Map with the sketched wire-frames and re-create them in [Keynote] using [my Blueprint rapid prototyping framework][3]. This allows me to very quickly make high fidelity wire-frames. I then export the screens to [Flinto] and link them up to test. This is a very powerful and prominent part of the process, not only can you iterate very quickly and discover mistakes, dead-end ideas and things you got wrong. It's a great touchstone point with your client. Once you have teased out the large bugs and clangers, get the prototype in the client's hand early on, get them playing with it, excited about the App and their feedback on your direction, choices etc.
+Now comes the fun part, I take the Information Map with the sketched wire-frames and re-create them in [Keynote] using [my Blueprint rapid prototyping framework](https://github.com/vipickering/Blueprint). This allows me to very quickly make high fidelity wire-frames. I then export the screens to [Flinto] and link them up to test. This is a very powerful and prominent part of the process, not only can you iterate very quickly and discover mistakes, dead-end ideas and things you got wrong. It's a great touchstone point with your client. Once you have teased out the large bugs and clangers, get the prototype in the client's hand early on, get them playing with it, excited about the App and their feedback on your direction, choices etc.
 
 Now all the initial UX work is done we can start designing!
 
-I follow the same process for collecting visual inspiration and deciding artistic direction as [I do with websites][2].
+I follow the same process for collecting visual inspiration and deciding artistic direction as [I do with websites](http://vincentp.me/blog/my-front-end-development-process-start-to-finish/).
 
 While in my work designing on the web I have been unable to ditch Photoshop yet, I have recently transitioned to [Sketch] for my App designing. It's a fantastic tool to work with and has a ton of great tools to speed up App design. While designing I also use [Skala Preview] with [this plugin](https://github.com/marcisme/sketch-preview){:rel="external"} to allow me to see the design taking shape in real-time on the phone. Adding this context really helps you get sizing and proportions right. Things that seem a great idea on killer large iMac screen don't always seem the best idea on a small iPhone 4 screen later.
 
-In my opinion, there still is a gap in the market for a great designer version of [Github](http://www.github.com){:rel="external"}. It always makes me nervous when designing that I may loose something I really want to revert or keep later. I have tried [Adobe Creative Cloud](http://www.adobe.com/uk/creativecloud.html){:rel="external"}, which is basically [Dropbox](http://www.dropbox.com){:rel="external"}, with more storage as standard, but goes down constantly and is pretty unreliable. [Layervault](http://www.layervault.com){:rel="external"} was a better alternative, but I also ran in to issues with content not being saved properly and a lot of slowdown every time my computer loaded. If you have any better suggestions I would love to [hear them on Twitter][1] .
+In my opinion, there still is a gap in the market for a great designer version of [Github](http://www.github.com){:rel="external"}. It always makes me nervous when designing that I may loose something I really want to revert or keep later. I have tried [Adobe Creative Cloud](http://www.adobe.com/uk/creativecloud.html){:rel="external"}, which is basically [Dropbox](http://www.dropbox.com){:rel="external"}, with more storage as standard, but goes down constantly and is pretty unreliable. [Layervault](http://www.layervault.com){:rel="external"} was a better alternative, but I also ran in to issues with content not being saved properly and a lot of slowdown every time my computer loaded.
 
 So to recap, now we have:
 
@@ -138,19 +138,12 @@ When it comes to debugging design issues further down the line, I utilize a comb
 
 Finally, a short note on App stores approval. This is often something that gets overlooked until then end of the process, but I encourage you to make this one of the first things to research and plan. The main reason behind this is that each platform has a slightly different App approval process, for example if you are creating an App for Symbian or Windows Phone you must submit all your design documentation for sign-off by Microsoft/Nokia before submitting your final App code, where they will request changes should you not be following the design interaction guidelines, it catches a lot of designers out. Make sure you know at the start of the process what you must deliver at what time and things will run a lot more smoothly for all involved.
 
-If you enjoyed this post and found it helpful, you should follow me on <a href="{{site.author.twitter}}" rel="me" title="Twitter" rel="external">Twitter</a> where I am happy to chat further.
-
-[1]: {{site.author.twitter}}
-[2]: http://vincentp.me/blog/my-front-end-development-process-start-to-finish
-[3]: https://github.com/vipickering/Blueprint
-[5]: http://www.uistencils.com/products/iphone-stencil-kit
-
 {% contentfor aside %}
 ## Misc Productivity &amp; Planning Tools
 
 - [Pinboard](http://pinboard.in){:rel="external"}
 - [Moleskin](http://www.moleskine.com/gb/collections/model/product/squared-soft-notebook-extra-large){:rel="external"}
-- [UI Stencils][5]{:rel="external"}
+- [UI Stencils](http://www.uistencils.com/products/iphone-stencil-kit){:rel="external"}
 
 ## Coding Tools
 
@@ -162,12 +155,7 @@ If you enjoyed this post and found it helpful, you should follow me on <a href="
 -  [Instashare](http://instashareapp.com){:rel="external"}
 -  [Sketch](http://www.bohemiancoding.com/sketch/){:rel="external"}
 -  [Adobe Creative Cloud](http://www.adobe.com/uk/products/creativecloud.html){:rel="external"}
--  [Keynote](http://www.apple.com/uk/keynote/){:rel="external"} with [Blueprint][3]{:rel="external"}
+-  [Keynote](http://www.apple.com/uk/keynote/){:rel="external"} with [Blueprint](https://github.com/vipickering/Blueprint){:rel="external"}
 -  [Flinto](https://www.flinto.com){:rel="external"}
-
-[1]: {{site.author.twitter}}
-[2]: http://vincentp.me/blog/my-front-end-development-process-start-to-finish/
-[3]: https://github.com/vipickering/Blueprint
-[5]: http://www.uistencils.com/products/iphone-stencil-kit
 
 {% endcontentfor %}

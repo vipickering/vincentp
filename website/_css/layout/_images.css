@@ -2,3 +2,11 @@ img {
     border-style: none;
     width: 100%;
 }
+
+figure{
+    margin-bottom: 20px;
+}
+
+figcaption{
+    /*font-size:13px;*/
+}

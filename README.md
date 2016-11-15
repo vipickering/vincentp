@@ -19,7 +19,7 @@ pleeease watch
 And in a separate window run jekyll
 
 ```
-jekyll serve --incremental --drafts
+jekyll serve --watch --drafts
 ```
 
 ## Deploy
