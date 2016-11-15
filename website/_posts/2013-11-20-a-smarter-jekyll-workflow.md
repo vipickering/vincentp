@@ -48,14 +48,14 @@ You also get the added bonus that your live site is self-contained so should you
 If you haven't used Automater before on a Mac, it allows you to automate (duh) repetitive system tasks and one of these is to watch files and then perform an action. Its really easy to set-up. So if you want to watch a folder and automatically copy to another location, just follow these steps:
 
 -  Open the Automater in Applications
--  Go To {% highlight c %}File -> New{% endhighlight %}
+-  Go To ```File -> New```
 -  Select "Folder Action" and press choose.
 -  In the bar across the middle it should say "Folder Action receives files and folders".
--  click the Choose Folder dropdown and select your {% highlight c %}_site{% endhighlight %} folder location in your Jekyll development repo.
+-  click the Choose Folder dropdown and select your ```_site``` folder location in your Jekyll development repo.
 -  In the top left there is a search field type "copy" in the field and add the "Copy Finder Items" to your workflow.
 -  It should appear on the right, workflows start at the top and flow down the screen, so if you choose to customise this later adding a workflow above this would happen before our action, below would be after the action occurred.
 -  In  "Copy Finder Items" select your live repo, and tick "Replace existing files".
--  Go To {% highlight c %}File -> Save{% endhighlight %}
--  Your done. Try copying any file in to your {% highlight c %}_site{% endhighlight %} folder and watch it magically copy across on its own.
+-  Go To ```File -> Save```
+-  Your done. Try copying any file in to your ```_site``` folder and watch it magically copy across on its own.
 
 This will continue to run on the folder until you disable it. You can disable it by browsing to the folder the action is applied to and right clicking and selecting "Folder Actions Setup..." Then un-ticking, the box next to the chosen folder.

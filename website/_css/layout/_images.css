@@ -1,6 +1,7 @@
 img {
     border-style: none;
     width: 100%;
+    max-width: 35em;
 }
 
 figure{
