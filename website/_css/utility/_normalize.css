@@ -4,8 +4,22 @@
     box-sizing: border-box;
 }
 
+:root {
+    font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    background-color: var(--white);
+    color: var(--black);
+    font-size: 16px;
+    text-rendering: geometricPrecision;
+}
+
+::selection {
+    background-color: var(--red);
+    color: var(--white);
+}
+
 html {
     text-size-adjust: 100%;
+
     text-rendering : optimizeLegibility;
 }
 
@@ -14,13 +28,8 @@ body {
     padding: 0;
 }
 
-/*From http://kennethormandy.com/journal/normalize-opentype-css*/
 html, body, table {
     font-feature-settings: "kern" 1, "liga" 1, "calt" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0, "dlig" 0;
-}
-
-h1, h2, h3 {
-    font-feature-settings: "kern" 1, "liga" 1, "calt" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0, "dlig" 1;
 }
 
 abbr {
@@ -32,12 +41,12 @@ time {
     font-feature-settings: "kern" 1, "liga" 1, "calt" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0;
 }
 
-pre, kbd, samp, code {
-    font-feature-settings: "kern" 0, "liga" 0, "calt" 1, "dlig" 0, "pnum" 0, "tnum" 1, "onum" 0, "lnum" 1, "zero" 1;
-}
-
 pre {
     overflow-x : auto;
+}
+
+pre, kbd, samp, code {
+    font-feature-settings: "kern" 0, "liga" 0, "calt" 1, "dlig" 0, "pnum" 0, "tnum" 1, "onum" 0, "lnum" 1, "zero" 1;
 }
 
 sup {
@@ -77,34 +86,29 @@ figure{
     margin: 0;
 }
 
-:root {
-    font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
-    background-color: brand(white);
-    color: brand(black);
-    font-size: 13px;
-    text-rendering: geometricPrecision;
-}
-
-::selection {
-    background-color: brand(red);
-    color: brand(white);
-}
-
 h2,h3,h4,h5,h6{
-    color: brand(black);
+    color: var(--black);
+    font-feature-settings: "kern" 1, "liga" 1, "calt" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0, "dlig" 1;
 }
 
 article li,
 p{
-    color: brand(grey);
+    color: var(--grey);
     line-height: 1.6;
     hyphens : none;
     font-kerning : auto;
-    max-width: 35em;
 }
 
-@media all and (min-width: 360px) {
+@media all and (max-width: 640px) {
     :root {
         font-size: 14px;
     }
 }
+
+@media all and (max-width: 360px) {
+    :root {
+        font-size: 13px;
+    }
+}
+
+

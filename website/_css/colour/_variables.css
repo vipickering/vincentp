@@ -4,4 +4,6 @@
     --lightGrey :  rgba(138, 138, 138, 0.5);
     --white :  rgba(255, 255, 255, 1);
     --red : rgba(200, 53, 57, 1);
+    --paleGrey : rgba(128,128,128, 0.08);
+    --column-width: 35em;
 }

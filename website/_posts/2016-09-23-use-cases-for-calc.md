@@ -12,7 +12,7 @@ If you know the height of the element, [CSS Calc](https://developer.mozilla.org/
 By using this simple equation:
 
 ```
-calc( 50vh – 1/2 the height of element )
+calc(50vh – 1/2 the height of element);
 ```
 
 50vh is always half the height of the viewport, so we position the element half way down the screen. But this isn’t the absolute centre because we haven’t taken in to account the height of the object. So we need to remove half the height of the object from the distance to get the final result.
@@ -24,7 +24,7 @@ This is my most common use of calc, often used on layouts with main area and a s
 Element 1, our fluid container, is simply calculated using the following formula:
 
 ```
-calc( 100% - width of element2 )
+calc(100% - width of element2);
 ```
 
 So long as you are also using border-box, then adding padding, margins etc will also be taken in to account by the 100% width and automatically adjusted accordingly.
@@ -38,7 +38,7 @@ Sometimes you want a background image to sit near but not absolutely in the bott
 Calc can save this simply by doing the following:
 
 ```
-calc(100% - padding desired)
+calc(100% - padding desired);
 ```
 
 So in the example below, we use calc to position the image all the way to the right then remove 50px and all the way to the  bottom then remove 20px to emulate the padding.

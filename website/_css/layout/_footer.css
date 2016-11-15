@@ -2,12 +2,12 @@ footer {
     padding: 0 0 40px 0
 }
 
-footer::before{
+footer::before {
+    content : '';
     display: block;
     padding: 10px 0 0 0;
     width: calc(100% -40px);
     border-top: 1px solid var(--lightGrey);
-    content : '';
 }
 
 footer .grid > *{
@@ -23,7 +23,7 @@ footer  * {
     color: var(--grey);
 }
 
-footer ul{
+footer ul {
     margin:0;
     padding: 0;
 }
@@ -33,7 +33,7 @@ footer li {
     list-style: none;
 }
 
-footer li::after{
+footer li::after {
     display: inline-block;
     margin: 0 2px 0 4px;
     content: "/";

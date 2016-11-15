@@ -8,16 +8,9 @@ header {
     font-size: 10px;
 }
 
-header a:focus {
-    text-decoration: none;
-    transition:0.2s;
-    outline: none;
-}
-
 header .grid > *{
     margin-bottom: 30px;
 }
-
 
 @media all and (min-width: 640px) {
     header {

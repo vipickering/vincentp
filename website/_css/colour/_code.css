@@ -2,14 +2,29 @@ pre.highlight {
     margin-bottom: 20px;
 }
 
-pre code {
+pre > code {
     padding: 10px;
+    border-radius: 0;
+    border-left: 4px solid var(--red);
+    background-color: var(--paleGrey);
+    color: var(--grey);
+    font-weight: 600;
 }
 
+/*
 code {
     display: inline-block;
     background-color: var(--black);
     color: var(--white);
+    padding: 0 5px 0 5px;
+    line-height: 1.8;
+    border-radius: 3px;
+}*/
+
+code {
+    display: inline-block;
+    background-color: var(--paleGrey);
+    color: var(--grey);
     padding: 0 5px 0 5px;
     line-height: 1.8;
     border-radius: 3px;
