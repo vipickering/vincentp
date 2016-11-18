@@ -1,8 +1,12 @@
 # Vincent Pickering [blog]
 
+## Requirements
+
+You will need to install Node and Brew to get rolling.
+
 ## Setup
 
-To install all global packages. There are no local packages.
+To install all global packages. and git hooks, there are no local packages.
 
 ```
 ./install.sh
