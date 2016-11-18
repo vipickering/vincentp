@@ -11,16 +11,6 @@ pre > code {
     font-weight: 900;
 }
 
-/*
-code {
-    display: inline-block;
-    background-color: var(--black);
-    color: var(--white);
-    padding: 0 5px 0 5px;
-    line-height: 1.8;
-    border-radius: 3px;
-}*/
-
 code {
     display: inline-block;
     background-color: var(--paleGrey);
