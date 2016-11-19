@@ -3,7 +3,7 @@
 urls=(index about hire)
 
 # Start the test server in background
-cd website && jekyll serve &
+jekyll serve &
 
 # Wait for the Node Server to start up
 echo "Waiting for Jekyll to start..."

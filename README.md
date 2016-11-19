@@ -6,10 +6,10 @@ You will need to install Node and Brew to get rolling.
 
 ## Setup
 
-To install all global packages. and git hooks, there are no local packages.
+Install global packages
 
 ```
-./install.sh
+sudo npm install -g pa11y broken-link-checker valimate pleeease-cli stylelint
 ```
 
 ## Running

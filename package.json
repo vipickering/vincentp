@@ -4,18 +4,18 @@
   "description": "personal website",
   "main": "website/index.html",
   "scripts": {
-    "start" : "cd website &&  jekyll serve --drafts --watch"
+    "start" : "jekyll serve --drafts --watch"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vipickering/vincentp-dev.git"
+    "url": "git+https://github.com/vipickering/vincentp.git"
   },
   "author": "Vincent Pickering",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/vipickering/vincentp-dev/issues"
+    "url": "https://github.com/vipickering/vincentp/issues"
   },
-  "homepage": "https://github.com/vipickering/vincentp-dev#readme",
+  "homepage": "https://github.com/vipickering/vincentp#readme",
   "devDependencies": {
   },
   "dependencies": {
