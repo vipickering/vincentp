@@ -12,5 +12,3 @@ I provide consultation, support and coding for all parts of a website to interfa
 For the last 16 years I have been crafting websites and applications, where my client roster has included clients such as: GOV.UK, Capita, BBC, EE, NHS, The Vatican, Microsoft, General Motors, Channel 5 and giffgaff.
 
 I am also a contributor to various open source projects including [Mozlla Nunjucks](https://github.com/mozilla/nunjucks) and [GOV UK](https://github.com/alphagov/govuk_frontend_toolkit/).
-
-Around the web you can find me at: <a href="{{site.author.twitter}}" itemprop="url" rel="me" title="Twitter">Twitter</a>, <a href="{{site.author.github}}"  itemprop="url" rel="me" title="Github">Github</a> and <a href="{{site.author.googleplus}}" itemprop="url" rel="me" title="Google +">Google+</a>.

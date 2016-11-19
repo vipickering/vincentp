@@ -11,7 +11,7 @@ meta: A blog about front-end development techniques, HTML, CSS and Javascript.
 <body itemscope itemtype="http://schema.org/Blog">
     {% include header.html %}
 
-    <main itemtype="http://schema.org/Blog">
+    <main>
         <article itemscope itemtype="http://schema.org/Blog">
             {% assign post = site.posts.first %}
             {% assign page = post %}
@@ -19,6 +19,7 @@ meta: A blog about front-end development techniques, HTML, CSS and Javascript.
             {% include dateAndTime.html %}
             <h1 itemprop="headline">{{ page.title }}</h1>
             {% include content.html %}
+            </article>
     </main>
     {% include footer.html %}
 </body>
