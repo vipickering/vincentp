@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'mp-mallory-book';
-    src: url(../../font/MalloryMP-Book.woff) format('woff');
+    src: url(/font/MalloryMP-Book.woff) format('woff');
     font-weight: normal;
     font-style: normal;
 }
