@@ -1,19 +1,18 @@
 @import url("colour/_variables.css");
 @import url("font/_mallory.css");
 
-/*Import utility classes*/
+/* Import utility classes */
 @import url("utility/_normalize.css");
 @import url("utility/_clearfix.css");
 
-/* Grid*/
+/* Grid */
 @import url("grid/_grid.css");
 
-/* Layout CSS*/
+/* Layout CSS */
 @import url("layout/_images.css");
 @import url("layout/_header.css");
 @import url("layout/_footer.css");
 @import url("layout/_nav.css");
 @import url("layout/_article.css");
-
 @import url("colour/_code.css");
 @import url("typography/_links.css");

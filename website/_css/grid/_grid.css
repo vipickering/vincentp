@@ -17,10 +17,6 @@ body{
 }
 
 @media all and (min-width: 640px) {
-/*    body{
-        padding: 20px;
-    }*/
-
     body >* {
         margin: auto;
         max-width: 740px;

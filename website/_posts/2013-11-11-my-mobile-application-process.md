@@ -5,7 +5,7 @@ date: 2013-11-11
 meta: An overview of my mobile App tools and processes used on a daily basis from start to finish.
 ---
 
-Intended as a companion piece to my previous post on my front-end process, this post discusses my App design processes, there is some overlap so I recommend if you enjoy reading this post you should also [check out](http://vincentp.me/blog/my-front-end-development-process-start-to-finish/) the other one.
+Intended as a companion piece to my previous post on my front-end process, this post discusses my App design processes, there is some overlap so I recommend if you enjoy reading this post you should also [check out](http://vincentp.me/blog/my-front-end-development-process-start-to-finish) the other one.
 
 Unlike many App designers, I do not focus exclusively on iOS and have created Apps in the past for multiple platforms and designed some Apps to work across many platforms. This type of App design presents many different challenges you may not be familiar with, which can become especially complex when focusing on mobile Apps and their different interaction methods, App store submission processes, resolution sizes or when you have to design an App that must support multiple platforms.
 
@@ -84,7 +84,7 @@ Now comes the fun part, I take the Information Map with the sketched wire-frames
 
 Now all the initial UX work is done we can start designing!
 
-I follow the same process for collecting visual inspiration and deciding artistic direction as [I do with websites](http://vincentp.me/blog/my-front-end-development-process-start-to-finish/).
+I follow the same process for collecting visual inspiration and deciding artistic direction as [I do with websites](http://vincentp.me/blog/my-front-end-development-process-start-to-finish).
 
 While in my work designing on the web I have been unable to ditch Photoshop yet, I have recently transitioned to [Sketch] for my App designing. It's a fantastic tool to work with and has a ton of great tools to speed up App design. While designing I also use [Skala Preview] with [this plugin](https://github.com/marcisme/sketch-preview){:rel="external"} to allow me to see the design taking shape in real-time on the phone. Adding this context really helps you get sizing and proportions right. Things that seem a great idea on killer large iMac screen don't always seem the best idea on a small iPhone 4 screen later.
 

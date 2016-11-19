@@ -9,14 +9,8 @@ cd website && jekyll serve &
 echo "Waiting for Jekyll to start..."
 sleep 5
 
-# Javascript Lint checks
-# echo "Starting esLint..."
-# eslint */*.js
-
-# Sass Lint checks
-echo "Starting Sass Lint..."
-sass-lint -c .sass-lint.yml 'assets/scss/*.scss' -v -q
-open testing/linting/sass-lint.html
+# Style Lint
+stylelint "website/_css/*.css"
 
 # Run Valimate HTML validation tests
 cd testing

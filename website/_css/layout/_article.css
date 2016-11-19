@@ -33,11 +33,6 @@ article ul, ol{
     padding: 0;
 }
 
-article ul ul,
-article ol, ol{
-    /*margin-left: 20px;*/
-}
-
 article li {
     margin-bottom: 7px;
     max-width: var(--column-width);

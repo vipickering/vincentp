@@ -8,7 +8,8 @@ brew install phantomjs
 # - Broken Link Checker
 # - Valimate
 # - pleeease-cli
-sudo npm install pa11y broken-link-checker valimate pleeease-cli
+# - Stylelint
+sudo npm install pa11y broken-link-checker valimate pleeease-cli stylelint
 
 # Install local packages
 # npm update
