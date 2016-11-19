@@ -138,7 +138,7 @@ When it comes to debugging design issues further down the line, I utilize a comb
 
 Finally, a short note on App stores approval. This is often something that gets overlooked until then end of the process, but I encourage you to make this one of the first things to research and plan. The main reason behind this is that each platform has a slightly different App approval process, for example if you are creating an App for Symbian or Windows Phone you must submit all your design documentation for sign-off by Microsoft/Nokia before submitting your final App code, where they will request changes should you not be following the design interaction guidelines, it catches a lot of designers out. Make sure you know at the start of the process what you must deliver at what time and things will run a lot more smoothly for all involved.
 
-{% contentfor aside %}
+<aside>
 ## Misc Productivity &amp; Planning Tools
 
 - [Pinboard](http://pinboard.in){:rel="external"}
@@ -158,4 +158,4 @@ Finally, a short note on App stores approval. This is often something that gets 
 -  [Keynote](http://www.apple.com/uk/keynote/){:rel="external"} with [Blueprint](https://github.com/vipickering/Blueprint){:rel="external"}
 -  [Flinto](https://www.flinto.com){:rel="external"}
 
-{% endcontentfor %}
+</aside>

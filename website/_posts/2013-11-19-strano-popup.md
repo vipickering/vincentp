@@ -87,10 +87,10 @@ My partner, originally from Scotland liked the idea of the twist on a deep fried
 
 The final course of the night was a desert made from all the things that killed Elvis, served to the track "Easy Come Easy Go" it was ice cream flavoured with peanut butter and topped with a rasher of crispy bacon, strawberry and toffee jellies, peanut butter cubes and croutons. It was a fantastic end to the night.
 
-{% contentfor aside %}
+<aside>
 ## Strano Links
 
 - [Twitter](https://twitter.com/stranoleeds){:rel="external"}
 - [Facebook](https://www.facebook.com/StranoLeeds){:rel="external"}
 - [Last Month's Event](http://ataleoftwosittings.wordpress.com/2013/09/21/pop-up-evening-strano-leeds/){:rel="external"}
-{% endcontentfor %}
+</aside>

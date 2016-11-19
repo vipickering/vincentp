@@ -84,8 +84,8 @@ Summit, its website code and format is intended to always be open source and ope
 
 Let's make the future great together.
 
-{% contentfor aside %}
+<aside>
 ## References
 
 1. <span id="groups"></span>I have a reliable method to combine making friends and creating groups that will be revealed when the documentation is complete.
-{% endcontentfor %}
+</aside>

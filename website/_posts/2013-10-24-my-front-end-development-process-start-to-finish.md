@@ -158,9 +158,9 @@ If you enjoyed this post and found it helpful, you should follow me on <a href="
 
 <p class="updateHighlight"><b>Update:</b> I should point out that all my development is done on a Mac</p>
 
-{% contentfor aside %}
 ## Misc Productivity &amp; Planning Tools
 
+<aside>
 - [Alfred](http://www.alfredapp.com){:rel="external"}
 - [IA Writer](https://ia.net/writer){:rel="external"}
 - [Pinboard](http://pinboard.in){:rel="external"} with [Shiori](http://aki-null.net/shiori/){:rel="external"}
@@ -193,4 +193,4 @@ If you enjoyed this post and found it helpful, you should follow me on <a href="
 -  [Keynote](http://www.apple.com/uk/keynote/){:rel="external"}
 -  [Slicy](http://macrabbit.com/slicy/){:rel="external"}
 -  [Style Tiles](http://styletil.es){:rel="external"}
-{% endcontentfor %}
+</aside>

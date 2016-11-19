@@ -6,7 +6,3 @@ meta : "Hire Vincent Pickering UI/UX Consultant"
 ---
 
 curret availability XXXX
-
-{% contentfor aside %}
-
-{% endcontentfor %}

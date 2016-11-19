@@ -8,7 +8,7 @@ kramdown:
 
 # Outputting
 permalink: /blog/:title
-paginate: 20
+# paginate: 20
 
 # Site Variables
 name: Vincent Pickering UI/UX Consultant
@@ -25,4 +25,4 @@ author:
   name: Vincent Pickering
 
 # Gems
-gems: [jekyll-paginate, jekyll-contentblocks, jekyll-gist]
+# gems: [jekyll-paginate]
