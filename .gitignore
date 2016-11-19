@@ -3,6 +3,7 @@ _site/
 .jekyll-metadata
 .DS_Store
 font/
+_site
 node_modules
 .sublime-project
 .sublime-workspace
