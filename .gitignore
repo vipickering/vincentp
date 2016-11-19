@@ -1,7 +1,6 @@
 .sass-cache/
 .jekyll-metadata
 .DS_Store
-font/
 _site
 node_modules
 .sublime-project
