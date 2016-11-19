@@ -1,6 +1,6 @@
 {
-  "in": "website/_css/application.css",
-  "out": "website/css/application.css",
+  "in": "_css/application.css",
+  "out": "css/application.css",
   "browsers": ["last 2 versions"],
   "import": {"path": "css"},
   "removeAllComments": "true"

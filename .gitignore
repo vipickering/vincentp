@@ -1,8 +1,6 @@
-.sass-cache/
 .jekyll-metadata
 .DS_Store
 _site
-node_modules
 .sublime-project
 .sublime-workspace
 npm-debug.log
