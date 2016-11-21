@@ -10,7 +10,7 @@ echo "Waiting for Jekyll to start..."
 sleep 5
 
 # Style Lint
-stylelint "website/_css/*.css"
+stylelint "_css/*.css"
 
 # Run Valimate HTML validation tests
 cd testing
