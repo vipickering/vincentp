@@ -6,7 +6,7 @@ article {
 h1,
 time {
     display: block;
-    font-family: 'mp-mallory-book', Verdana, sans-serif;
+    font-family: var(--heading-font);
 }
 
 time {
@@ -21,7 +21,7 @@ h1 {
 }
 
 h2 {
-    font-family: 'mp-mallory-book', Verdana, sans-serif;
+    font-family: var(--heading-font);
     font-size: 18px;
     margin: 40px 0 10px 0;
     line-height: 1.4;

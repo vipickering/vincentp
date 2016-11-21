@@ -1,5 +1,4 @@
 @import url("colour/_variables.css");
-@import url("font/_mallory.css");
 
 /* Import utility classes */
 @import url("utility/_normalize.css");

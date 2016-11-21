@@ -3,7 +3,7 @@ header {
 }
 
 header {
-    font-family: var(--mallory-book);
+    font-family: var(--heading-font);
     text-transform: uppercase;
     font-size: 10px;
 }

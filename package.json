@@ -4,7 +4,7 @@
   "description": "personal website",
   "main": "website/index.html",
   "scripts": {
-    "start" : "jekyll serve --drafts --watch"
+    "start" : "jekyll serve --drafts --watch "
   },
   "repository": {
     "type": "git",
