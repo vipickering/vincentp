@@ -12,13 +12,13 @@ permalink: /blog/:title
 
 # Site Variables
 name: Vincent Pickering UI/UX Consultant
-url: http://vincentp.me
+url: https://vincentp.me
 version: v6.0
 
 # Personal Variables
 author:
   pinboard : https://www.pinboard.in/u:monkeymajiks/public
-  github: http://www.github.com/vipickering
+  github: https://www.github.com/vipickering
   feed: http://feeds.feedburner.com/vincentp
   email: hello@vincentp.me
   job: UI/UX Consultant

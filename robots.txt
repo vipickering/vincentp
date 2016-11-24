@@ -1,3 +1,3 @@
 User-agent: *
-Sitemap: http://vincentp.me/sitemap.xml
+Sitemap: https://vincentp.me/sitemap.xml
 Disallow:
