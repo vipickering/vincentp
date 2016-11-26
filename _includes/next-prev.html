@@ -1,11 +1,11 @@
 <nav itemscope itemtype="http://schema.org/WebPage" class="next-prev">
     <ul>
         {% if page.previous.url %}
-            <li><a href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}" class="previous-post" itemprop="significantLink">Previous</a></li>
+            <li><a href="{{site.url}}{{page.previous.url}}" title="Previous Post: {{page.previous.title}}" class="previous-post" itemprop="significantLink">Previous</a></li>
         {% endif %}
 
         {% if page.next.url %}
-            <li><a href="{{page.next.url}}" title="next Post: {{page.next.title}}" class="next-post" itemprop="significantLink">Next</a></li>
+            <li><a href="{{site.url}}{{page.next.url}}" title="next Post: {{page.next.title}}" class="next-post" itemprop="significantLink">Next</a></li>
         {% endif %}
     </ul>
 </nav>
