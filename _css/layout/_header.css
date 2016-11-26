@@ -12,6 +12,10 @@ header .grid > *{
     margin-bottom: 30px;
 }
 
+.siteNav {
+    float: right;
+}
+
 @media all and (min-width: 640px) {
     header {
         margin-bottom: 50px;

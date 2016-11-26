@@ -8,7 +8,7 @@
     font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
     background-color: var(--white);
     color: var(--black);
-    font-size: 14px;
+    font-size: 12px;
     text-rendering: geometricPrecision;
 }
 
@@ -19,7 +19,6 @@
 
 html {
     text-size-adjust: 100%;
-
     text-rendering : optimizeLegibility;
 }
 
@@ -72,41 +71,58 @@ sup {
     top: -0.5em;
 }
 
-cite, em, var, address, dfn{
+cite, em, var, address, dfn {
     font-style: normal;
 }
 
-pre,
-blockquote{
+pre {
     margin: 0;
     padding: 0;
 }
 
-figure{
+blockquote {
+    border-left: 4px solid var(--red);
+    padding: 0 0 0 10px;
     margin: 0;
 }
 
-h2,h3,h4,h5,h6{
+figure {
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, time {
+    font-family: var(--heading-font);
     color: var(--black);
+    max-width: var(--column-width);
     font-feature-settings: "kern" 1, "liga" 1, "calt" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0, "dlig" 1;
 }
 
-article li,
-p{
+h1 {
+    margin : 0 0 20px 0;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+h2 {
+    margin: 40px 0 10px 0;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+li,
+p {
     color: var(--grey);
     line-height: 1.6;
     hyphens : none;
-    font-kerning : auto;
+    font-kerning : normal;
 }
 
-@media all and (max-width: 640px) {
+@media all and (min-width: 640px) {
     :root {
-        font-size: 13px;
+        font-size: 15px;
     }
-}
 
-@media all and (max-width: 360px) {
-    :root {
-        font-size: 12px;
+    h1 {
+        font-size: 30px;
     }
 }

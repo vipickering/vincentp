@@ -16,14 +16,15 @@ body{
     max-width: 620px;
 }
 
+.grid-header > * {
+    flex: 2 50%;
+}
+
 @media all and (min-width: 640px) {
     body >* {
         margin: auto;
         max-width: 740px;
         min-width: 620px;
-    }
-    .grid-header > * {
-        flex: 2 50%;
     }
 
     .grid-footer > * {
