@@ -2,19 +2,19 @@
 
 ## Requirements
 
-You will need to install Node and Brew to get rolling.
+You will need to install Jekyll, Node and Brew to get rolling.
 
 ## Setup
 
 Install global packages
 
 ```
-sudo npm install -g pa11y broken-link-checker valimate pleeease-cli stylelint
+./install.sh
 ```
 
 ## Running
 
-Launch the pleeease watch in one window from the root.
+Launch the [pleeease](http://pleeease.io/) watch in one window from the root.
 
 ```
 pleeease watch
@@ -23,12 +23,12 @@ pleeease watch
 And in a separate window run jekyll
 
 ```
-jekyll serve --watch --drafts
+jekyll serve --watch
 ```
 
 ## Deploy
 
-Package Jekyll
+This should happen automatically when the master branch is pushed to Github. If you want to manually see the live HTTPS URLs to error check, run:
 
 ```
 jekyll build
@@ -36,7 +36,7 @@ jekyll build
 
 ## Testing Tools
 
-Run tests
+Make sure the website or pleeease isn't running then:
 
 ```
 ./run-tests.sh

@@ -1,6 +1,6 @@
 #!/bin/bash
 # Define list of urls for tests
-urls=(index about hire)
+urls=(index about)
 
 # Start the test server in background
 jekyll serve &
@@ -13,7 +13,7 @@ sleep 5
 stylelint "_css/*.css"
 
 # Run Valimate HTML validation tests
-cd testing
+cd _testing
 valimate
 
 # Run Broken Link Checker

@@ -1,7 +1,7 @@
 {
   "in": "_css/application.css",
   "out": "css/application.css",
-  "autoprefixer" : { browsers": ["last 2 versions"]},
+  "browsers": ["ie 9"],
   "import": {"path": "css"},
   "removeAllComments": "true",
   "mqpacker" : true,
