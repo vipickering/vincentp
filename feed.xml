@@ -2,13 +2,13 @@
 layout: null
 ---
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="https://www.w3.org/2005/Atom">
+<feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Thoughts on front end development</title>
  <link href="{{site.url}}/feed.xml" rel="self"/>
- <link href="{{site.url}}"/>
+ <link href="{{site.url}}/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>{{site.url}}</id>
+ <id>{{site.url}}/</id>
  <author>
    <name>Vincent Pickering</name>
    <email>hello@vincentp.me</email>
@@ -20,9 +20,8 @@ layout: null
    <link href="{{site.url}}/{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
    <id>{{site.url}}{{ post.id }}</id>
-    {% if post.meta %}
-      <content type="html">{{ post.meta }}</content>
-    {% endif %}
- </entry>
+   {% if post.meta %}<content type="html">{{ post.meta }}</content>
+   {% endif %}
+</entry>
  {% endfor %}
 </feed>
