@@ -11,7 +11,8 @@ permalink: /blog/:title
 # paginate: 20
 
 # Site Variables
-name: Vincent Pickering UI/UX Consultant
+title : Thoughts on front end development
+description: Web design including UI, UX, HTML, CSS, JavaScript and Node
 url: https://vincentp.me
 version: v6.0
 

@@ -2,23 +2,20 @@
 layout: null
 ---
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-
- <title>Thoughts on front end development</title>
- <link href="{{site.url}}/feed.xml" rel="self"/>
- <link href="{{site.url}}/"/>
- <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>{{site.url}}/</id>
- <author>
-   <name>Vincent Pickering</name>
-   <email>hello@vincentp.me</email>
- </author>
- {% for post in site.posts %}
- <entry>
-   <title>{{ post.title }}</title>
-   <link href="{{site.url}}{{ post.url }}"/>
-   <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>{{site.url}}{{ post.id }}</id>
-   {% if post.meta %}<content type="html">{{ post.meta }}</content>
-   {% endif %}</entry>
- {% endfor %}</feed>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+    <title>{{ site.title | xml_escape }}</title>
+    <description>{{ site.description | xml_escape }}</description>
+    <link href="{{site.url}}/"/>
+    <atom:link href="{{site.url}}/feed.xml" rel="self" type="application/rss+xml" />
+    {% for post in site.posts limit:20 %}
+        <item>
+            <title>{{ post.title }}</title>
+            <description>{{ post.content | xml_escape}}</description>
+            <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
+            <link>{{site.url}}{{ post.url }}</link>
+            <guid isPermaLink="true">{{site.url}}{{ post.id }}</guid>
+        </item>
+    {% endfor %}
+    </channel>
+</rss>
