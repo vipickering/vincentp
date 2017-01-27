@@ -13,15 +13,12 @@ layout: null
    <name>Vincent Pickering</name>
    <email>hello@vincentp.me</email>
  </author>
-
  {% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="{{site.url}}/{{ post.url }}"/>
+   <link href="{{site.url}}{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
    <id>{{site.url}}{{ post.id }}</id>
    {% if post.meta %}<content type="html">{{ post.meta }}</content>
-   {% endif %}
-</entry>
- {% endfor %}
-</feed>
+   {% endif %}</entry>
+ {% endfor %}</feed>

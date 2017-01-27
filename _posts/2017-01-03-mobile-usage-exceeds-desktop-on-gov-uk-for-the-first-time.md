@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Mobile usage exceeds desktop on GOVUK for first time"
+date: 2017-01-03
+meta: GOVUK is a pretty good measure of the UK's overall mobile usage versus desktop
+---
+
 I find the [gov.uk](https://gov.uk) website an endless resource of great knowledge on a cross-section of 'real' users in the UK, so while browsing the GOV UK [performance stats](https://www.gov.uk/performance/site-activity/device-type#from=2013-04-01T00:00:00Z&to=2017-01-01T00:00:00Z) today I spotted this:
 
 <img src="/images/blog/2017-01-03/govuk-stats-dec-2016-jan-2017.png" width="612" alt="GOV UK Browser usage - DEC 2016 - JAN 2017"/>
