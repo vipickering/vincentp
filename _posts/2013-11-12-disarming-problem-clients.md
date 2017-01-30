@@ -36,7 +36,7 @@ Let's look at how to solve these issues:
 
 When an issue happens, and at some point it will, I give it a priority, I stick with low or high (keep it simple). If it's a low priority issue unless it's going to hold anything up I schedule it for the next call/meeting with the client. It's important not to worry the client unnecessarily it will shake their confidence that you can deliver.
 
-If it's a high priority issue, you next need to assess the urgency, can you sit on it for 10 mins? It's amazing how many issues that are urgent get escalated to a client, and then disappear moments later because a mistake was made or something mis-understood. Check through the issue again before contacting the client, and make sure before speaking to them to boil it down to a concise problem with options for answers and a recommended approach, don't call them if you are panicked or agitated, calm yourself down and show your are in control but the client has the power to make the final decision.
+If it's a high priority issue, you next need to assess the urgency, can you sit on it for 10 minutes? It's amazing how many issues that are urgent get escalated to a client, and then disappear moments later because a mistake was made or something mis-understood. Check through the issue again before contacting the client, and make sure before speaking to them to boil it down to a concise problem with options for answers and a recommended approach, don't call them if you are panicked or agitated, calm yourself down and show your are in control but the client has the power to make the final decision.
 
 **For example:**
 

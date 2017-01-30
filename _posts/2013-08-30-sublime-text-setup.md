@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Sublime Text Setup"
+title: "Sublime Text Set-up"
 date: 2013-08-30
 meta: My personal set-up for Sublime Text 2
 ---

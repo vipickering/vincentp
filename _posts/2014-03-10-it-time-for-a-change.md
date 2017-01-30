@@ -62,7 +62,7 @@ Groups are then assigned a fixed tight time schedule to deal with this, say 30 m
 
 There are many nuanced ways as to why I have devised this format, let me break them down:
 
-- We should be practicing what we preach, and learning by rapid prototyping. So we should be utilising a clever try and throw-away approach to reach a suitable solution as quickly as possible.
+- We should be practising what we preach, and learning by rapid prototyping. So we should be utilising a clever try and throw-away approach to reach a suitable solution as quickly as possible.
 - Enforcing the strict timings ensures no group can spend too long going in the wrong direction before getting feedback or seeing what others have done.
 - We are building a feedback mechanism in to a rapid design approach
 - We are staging many meaningful conversations at one time. It is easy to have a meaningful conversation when there are fewer people involved at one time (hence the groups). This means we try out many different approaches all at once. Rather than one after the other, thereby shortening the time it takes to reach a viable solution.

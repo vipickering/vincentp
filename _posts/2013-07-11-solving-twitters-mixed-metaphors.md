@@ -102,5 +102,5 @@ It's an obvious solution in some respects, but sometimes all that's needed is a 
 
 <ol>
   <li id="point1" class="reference">The bookmark link would save a tweet to a private list of tweets for reference later.</li>
-  <li id="point2" class="reference">Let's not forget the IE term for bookmarks is favourite.</li>
+  <li id="point2" class="reference">Let's not forget the I.E. term for bookmarks is favourite.</li>
 </ol>

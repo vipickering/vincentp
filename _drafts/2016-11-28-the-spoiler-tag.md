@@ -5,17 +5,17 @@ date: 2016-11-28
 meta: Stop spoiling yourself
 ---
 
-It's a familar feeling. You open your browser and navigate to a website, as you scan down the page for articles to read, you see it.
+It's a familiar feeling. You open your browser and navigate to a website, as you scan down the page for articles to read, you see it.
 
 The sports result you were trying to avoid, an important plot point to a TV show you haven't got round to viewing or the ending to a movie that isn't even released in your country yet.
 
 A stream of information that never stops, that contains information from future timezones, people with different priorities to your own, that really want to talk about the thing you don't have time for just yet.
 
-Any attempt to complain about the situation leads to arguements such as:
+Any attempt to complain about the situation leads to arguments such as:
 
 > It already happened, it's fair game to talk about it.
 
-This type of situation is particualrly problematic around:
+This type of situation is particularly problematic around:
 
 - Movies - the vast majority of blockbuster movies can be released up to 6 months ahead of Europe.
 - TV Shows - even though it can only be 1-2 weeks ahead, that is often for premium channel subscribers, others can be up to 1 year behind.
@@ -23,9 +23,9 @@ This type of situation is particualrly problematic around:
 
 These are probably the biggest problems that come to mind, but I am sure there are plenty of others.
 
-It should be up to the individual, not a headline grabbing journalist or loudmouth blogger, to decide to read the content. And until the user visits the website, how could they know that they could get spoiled at all. I've lost track of the times I've visited a seemingly unconnected blog to view one piece of content and instead been confronted by a spolier for something unrelated, because the blogger decided they wanted to talk about it.
+It should be up to the individual, not a headline grabbing journalist or loudmouth blogger, to decide to read the content. And until the user visits the website, how could they know that they could get spoiled at all. I've lost track of the times I've visited a seemingly unconnected blog to view one piece of content and instead been confronted by a spoiler for something unrelated, because the blogger decided they wanted to talk about it.
 
-We need a microformat to allow users to enjoy content in the way users wish and not have it spoiled by others. But allow those who don't to engage in the content their way.
+We need a micro-format to allow users to enjoy content in the way users wish and not have it spoiled by others. But allow those who don't to engage in the content their way.
 
 
 
@@ -36,7 +36,7 @@ We need a microformat to allow users to enjoy content in the way users wish and 
 
 
 
-Meta data that provides browsers and applications information to understand the context of a particular piece of content may by considered sensitive to a user and not wish to be known, or that they may choose to view it at their discresion.
+Meta data that provides browsers and applications information to understand the context of a particular piece of content may by considered sensitive to a user and not wish to be known, or that they may choose to view it at their discretion.
 
 Browsers could implement easy way to set rules to auto parts omit content.
 

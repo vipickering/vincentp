@@ -2,7 +2,7 @@
 layout: post
 title: "Analysing Data To Enact Real World Change"
 date: 2013-05-18
-meta: How the objects in our lives truly work with the Internet Of Things.
+meta: How the object's in our lives truly work with the Internet Of Things.
 ---
 
 The "Internet of things" is starting to become a reality. Interconnected devices like [FitBit](http://fitbit.com "Fitbit"){:rel="external"}, [Withings Scale](http://www.withings.com/en/bodyanalyzer){:rel="external"}, [Nike Fuel Band](http://www.nike.com/Fuelband){:rel="external"}, [Google Glass](http://www.google.com/glass/start/){:rel="external"} and even your mobile phone can give us real-time access to hard data about ourselves. Never has humanity had such an opportunity to be able to really try to understand our own behaviour and to use that data to help ourselves grow and improve.
