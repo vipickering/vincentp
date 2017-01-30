@@ -6,7 +6,7 @@ You will need to install Jekyll, Node and Brew to get rolling.
 
 ## Setup
 
-Install global packages
+Run the bash script to install global packages.
 
 ```
 ./install.sh
@@ -14,21 +14,23 @@ Install global packages
 
 ## Running
 
-Launch the [pleeease](http://pleeease.io/) watch in one window from the root.
+Launch the [pleeease](http://pleeease.io/) watch in one terminal window from the root of the project.
 
 ```
 pleeease watch
 ```
 
-And in a separate window run jekyll
+In another terminal window run jekyll in the dev setup. Drafts are enabled and watching for changes is activated.
 
 ```
-jekyll serve --watch
+npm run dev
 ```
 
 ## Deploy
 
-This should happen automatically when the master branch is pushed to Github. If you want to manually see the live HTTPS URLs to error check, run:
+This website uses Netlify to host, and should happen automatically when the master branch is pushed to Github.
+
+If you want to manually see the live compiled site with HTTPS URLs to error check, run:
 
 ```
 jekyll build
@@ -36,8 +38,10 @@ jekyll build
 
 ## Testing Tools
 
-Make sure the website or pleeease isn't running then:
+Make sure Jekyll and pleeease are not running then:
 
 ```
+cd testing
+
 ./run-tests.sh
 ```

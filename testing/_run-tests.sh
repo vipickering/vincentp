@@ -2,6 +2,8 @@
 # Define list of urls for tests
 urls=(index about)
 
+cd../
+
 # Start the test server in background
 jekyll serve &
 

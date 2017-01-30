@@ -2,6 +2,6 @@ Author : Vincent Pickering
 Contact : hello@vincentp.me
 Location: UK
 Github: https://github.com/vipickering/vincentp
-Last update: 11/11/2016 GMT
+Last update: 30/01/2017 GMT
 Standards: HTML5, CSS3
 Software: Jekyll

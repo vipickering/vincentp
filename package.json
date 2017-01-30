@@ -1,10 +1,11 @@
 {
   "name": "vincentp.me",
-  "version": "1.0.0",
+  "version": "6.1.0",
   "description": "personal website",
   "main": "website/index.html",
   "scripts": {
-    "start" : "jekyll serve --drafts --watch "
+    "start" : "jekyll serve",
+    "dev" : "jekyll serve --drafts --watch"
   },
   "repository": {
     "type": "git",
