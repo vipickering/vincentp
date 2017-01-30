@@ -100,12 +100,12 @@ h1, h2, h3, h4, h5, h6, time {
 h1 {
     margin : 0 0 20px 0;
     text-transform: uppercase;
-    font-size: 22px;
+    font-size: 1.84rem;
 }
 
 h2 {
     margin: 40px 0 10px 0;
-    font-size: 18px;
+    font-size: 1.2rem;
     line-height: 1.4;
 }
 
@@ -123,6 +123,6 @@ p {
     }
 
     h1 {
-        font-size: 30px;
+        font-size: 2rem;
     }
 }

@@ -1,0 +1,58 @@
+@media print {
+   body {
+        color: #000;
+        background: #fff;
+   }
+
+   body, article {
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+   }
+
+   article p{
+        max-width: 100%;
+   }
+
+    header,
+    footer{
+        display:none;
+    }
+
+    h2, h3 {
+        page-break-after: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    ul, img {
+        page-break-inside: avoid;
+    }
+
+    article a {
+        font-weight: bolder;
+        text-decoration: none;
+    }
+
+    article a[href^=http]:after {
+        content:" <" attr(href) "> ";
+    }
+
+    article a[href^="#"]:after {
+        content: "";
+    }
+
+    @page {
+      margin: 2cm;
+   }
+}
+
+@media print and (color) {
+   * {
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+   }
+}
