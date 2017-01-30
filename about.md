@@ -7,9 +7,22 @@ meta : "About Vincent Pickering UI/UX Consultant"
 
 Hello, I'm a UI/UX and Node specialist focusing on large scale complex systems for well know big brands.
 
-I provide consultation, support and coding for all parts of a website to interface via an API. User Interface design, human interaction design, HTML, CSS and JavaScript.
+**Available for hire: June 2017**
 
-For the last 16 years I have been crafting websites and applications, where my client roster has included clients such as:
+If you are interested in working with me on your next project, please **[get in touch](mailto:hello@vincentp.me)** and we can discuss your needs.
+
+For the last 17 years I have been crafting websites, applications and software. Along with providing consultation and support in all services related to:
+
+- HTML
+- SASS/CSS
+- JavaScript
+- Node
+- User Interface design
+- Human interaction design
+
+During my career I have been incredibly fortunate to work on a diverse range of products and services, from cutting edge e-learning products and solutions, to enterprise healthcare applications, worldwide marketing campaigns, virtual reality, a global social media platform, computer games, software , countless websites and much more.
+
+A small sample of clients I've worked with:
 
 - GOV.UK
 - Capita
@@ -20,12 +33,19 @@ For the last 16 years I have been crafting websites and applications, where my c
 - Microsoft
 - General Motors
 - Channel 5
-- giffgaff.
+- Sony
+- giffgaff
 
-I am also a contributor to various open source projects including [Mozlla Nunjucks](https://github.com/mozilla/nunjucks) and [GOV UK](https://github.com/alphagov/govuk_frontend_toolkit/).
+In my spare time I contribute to various open source projects including [Mozlla Nunjucks](https://github.com/mozilla/nunjucks) and [GOV UK](https://github.com/alphagov/govuk_frontend_toolkit/).
 
 All the code for this website is open source and available on [Github](https://github.com/vipickering/vincentp), and hosted on [Netlify](https://www.netlify.com/).
 
-My next availability is: **August 2017**
+<div class="companyDetails">
 
-If you are interested in working with me on your next project, please [get in touch](mailto:hello@vincentp.me).
+<p><b>Vincent Pickering LTD</b> is a company registered in England and Wales.</p>
+
+<p>VAT Number: <b>219592876</b></p>
+
+<p>Company Registration Number: <b>09726909</b></p>
+
+</div>

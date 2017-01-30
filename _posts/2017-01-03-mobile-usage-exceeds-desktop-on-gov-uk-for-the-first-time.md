@@ -11,7 +11,7 @@ I find the [gov.uk](https://gov.uk) website an endless resource of great knowled
 
 WOW. I think this is quite an important moment. **For the first time the paradigm shift from desktop to mobile is significant enough that GOV.UK and its services needs to think mobile first**. More significantly we appear to be almost at the tipping point in the UK where we access the internet more on smartphones than desktops.
 
-While techies have waxed lyrical for years that mobile outstrips desktop, that data is realted to tasks often associated with micro-transactions, or limited attention tasks, such as social media, consuming news, e-commerece etc. I've found the GOV UK website a good counter-point to this data. Most UK residents will have to use the website at some point, to do meaningful things, that can affect their life in a significant way.
+While techies have waxed lyrical for years that mobile outstrips desktop, that data is related to tasks often associated with micro-transactions, or limited attention tasks, such as social media, consuming news, e-commerece etc. I've found the GOV UK website a good counter-point to this data. Most UK residents will have to use the website at some point to do meaningful things that can affect their life in a significant way.
 
 It struck me this data might be a minor blip, so I zoomed out and looked at the data in a wider context. I rolled the stats back to Apr 2013 (the earliest permitted) and saw 2 interesting things:
 
