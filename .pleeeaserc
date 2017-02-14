@@ -5,5 +5,5 @@
   "import": {"path": "css"},
   "removeAllComments": "true",
   "mqpacker" : true,
-  "minifier" : true
+  "minifier" : false
 }

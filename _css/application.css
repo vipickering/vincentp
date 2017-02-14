@@ -1,4 +1,4 @@
-@import url("colour/_variables.css");
+@import url("utility/_variables.css");
 
 /* Import utility classes */
 @import url("utility/_normalize.css");
@@ -13,6 +13,6 @@
 @import url("layout/_footer.css");
 @import url("layout/_nav.css");
 @import url("layout/_article.css");
-@import url("colour/_code.css");
+@import url("layout/_code.css");
 @import url("typography/_links.css");
 @import url("_print.css");

@@ -4,8 +4,8 @@
   "description": "personal website",
   "main": "website/index.html",
   "scripts": {
-    "start" : "jekyll serve",
-    "dev" : "jekyll serve --drafts --watch"
+    "start": "jekyll serve",
+    "dev": "jekyll serve --drafts --watch"
   },
   "repository": {
     "type": "git",
@@ -18,8 +18,7 @@
   },
   "homepage": "https://github.com/vipickering/vincentp#readme",
   "devDependencies": {
+    "stylelint": "^7.8.0"
   },
-  "dependencies": {
-
-  }
+  "dependencies": {}
 }

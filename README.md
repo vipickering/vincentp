@@ -20,7 +20,7 @@ Launch the [pleeease](http://pleeease.io/) watch in one terminal window from the
 pleeease watch
 ```
 
-In another terminal window run jekyll in the dev setup. Drafts are enabled and watching for changes is activated.
+In another terminal window run Jekyll in the dev set-up. Drafts are enabled and watching for changes is activated.
 
 ```
 npm run dev

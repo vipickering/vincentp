@@ -5,7 +5,7 @@
 }
 
 :root {
-    font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    font-family:  var(--body-font);
     background-color: var(--white);
     color: var(--black);
     font-size: 12px;
