@@ -4,11 +4,11 @@ body,
     flex-flow: row wrap;
 }
 
-body{
+body {
     padding: 40px;
 }
 
- body >* {
+body > * {
     display: block;
     padding: 0;
     flex: 1 100%;
@@ -21,7 +21,7 @@ body{
 }
 
 @media all and (min-width: 640px) {
-    body >* {
+    body > * {
         margin: auto;
         max-width: 740px;
         min-width: 620px;
@@ -32,17 +32,16 @@ body{
     }
 
     .grid-footer > nav {
-        order : 2;
+        order: 2;
     }
 
     .grid-footer > address {
-        order : 3;
+        order: 3;
         text-align: right;
     }
 
     .grid-footer > small {
-        order : 1;
-
+        order: 1;
     }
 
     .grid-footer > :nth-child(0n+1) {

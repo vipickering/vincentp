@@ -1,11 +1,13 @@
-/*Normalise - Vincent P - Bespoke.*/
+/*
+Normalise - Vincent P - Bespoke
+*/
 
 * {
     box-sizing: border-box;
 }
 
 :root {
-    font-family:  var(--body-font);
+    font-family: var(--body-font);
     background-color: var(--white);
     color: var(--black);
     font-size: 12px;
@@ -19,17 +21,13 @@
 
 html {
     text-size-adjust: 100%;
-    text-rendering : optimizeLegibility;
+    text-rendering: optimizeLegibility;
 }
 
 body {
     margin: 0;
     padding: 0;
 }
-
-/*html, body, table {
-    font-feature-settings: "kern" 1, "liga" 1, "calt" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0, "dlig" 0;
-}*/
 
 abbr {
     text-transform: uppercase;
@@ -41,10 +39,13 @@ time {
 }
 
 pre {
-    overflow-x : auto;
+    overflow-x: auto;
 }
 
-pre, kbd, samp, code {
+pre,
+kbd,
+samp,
+code {
     font-feature-settings: "kern" 0, "liga" 0, "calt" 1, "dlig" 0, "pnum" 0, "tnum" 1, "onum" 0, "lnum" 1, "zero" 1;
 }
 
@@ -71,7 +72,11 @@ sup {
     top: -0.5em;
 }
 
-cite, em, var, address, dfn {
+cite,
+em,
+var,
+address,
+dfn {
     font-style: normal;
 }
 
@@ -90,7 +95,13 @@ figure {
     margin: 0;
 }
 
-h1, h2, h3, h4, h5, h6, time {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+time {
     font-family: var(--heading-font);
     color: var(--black);
     max-width: var(--column-width);
@@ -98,7 +109,7 @@ h1, h2, h3, h4, h5, h6, time {
 }
 
 h1 {
-    margin : 0 0 20px 0;
+    margin: 0 0 20px 0;
     text-transform: uppercase;
     font-size: 1.84rem;
 }
@@ -113,8 +124,8 @@ li,
 p {
     color: var(--grey);
     line-height: 1.6;
-    hyphens : none;
-    font-kerning : normal;
+    hyphens: none;
+    font-kerning: normal;
 }
 
 @media all and (min-width: 640px) {

@@ -25,14 +25,13 @@ article p {
 }
 
 .companyDetails {
-    background-color:  var(--blue);
+    background-color: var(--blue);
     padding: 10px;
     margin-bottom: 10px;
     font-size: 0.9rem;
 }
 
-.companyDetails > p{
-        margin-bottom: 5px;
-        max-width: initial;
-    }
-
+.companyDetails > p {
+    margin-bottom: 5px;
+    max-width: initial;
+}

@@ -1,12 +1,12 @@
 :root {
-    --black :  rgba(17, 17, 17, 1);
-    --grey :  rgba(35, 35, 35, 1);
-    --blue : rgba(213, 232,243);
-    --lightGrey :  rgba(138, 138, 138, 0.5);
-    --white :  rgba(255, 255, 255, 1);
-    --red : rgba(200, 53, 57, 1);
-    --paleGrey : rgba(128,128,128, 0.08);
+    --black: rgba(17, 17, 17, 1);
+    --grey: rgba(35, 35, 35, 1);
+    --blue: rgba(213, 232, 243);
+    --lightGrey: rgba(138, 138, 138, 0.5);
+    --white: rgba(255, 255, 255, 1);
+    --red: rgba(200, 53, 57, 1);
+    --paleGrey: rgba(128, 128, 128, 0.08);
     --column-width: 35em;
-     --heading-font: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans",Helvetica Neue,sans-serif;
-     --body-font: "Menlo", "Monaco", "Lucida Console", "Liberation Mono", "DejaVu Sans", "Mono", "Bitstream Vera Sans Mono", "Courier New", "monospace", serif;
+    --heading-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    --body-font: "Menlo", "Monaco", "Lucida Console", "Liberation Mono", "DejaVu Sans", "Mono", "Bitstream Vera Sans Mono", "Courier New", "monospace", serif;
 }

@@ -1,28 +1,28 @@
 a {
     color: inherit;
-    padding : 0.2rem;
+    padding: 0.2rem;
 }
 
 a:link {
-    text-decoration:underline;
+    text-decoration: underline;
 }
 
 a:active {
-    text-decoration:underline;
+    text-decoration: underline;
 }
 
 a:visited {
-    text-decoration:underline;
+    text-decoration: underline;
 }
 
 a:hover {
-    text-decoration:none;
+    text-decoration: none;
 }
 
 a:focus {
     color: var(--white);
     background-color: var(--red);
     text-decoration: none;
-    transition:0.2s;
+    transition: 0.2s;
     outline: none;
 }

@@ -4,7 +4,7 @@ img {
     max-width: 35em;
 }
 
-figure{
+figure {
     max-width: var(--column-width);
     line-height: 1.6;
     margin-bottom: 20px;
