@@ -6,3 +6,4 @@ _site
 npm-debug.log
 vincentp.sublime-project
 vincentp.sublime-workspace
+node_modules
