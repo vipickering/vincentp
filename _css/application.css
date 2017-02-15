@@ -1,7 +1,7 @@
 @import url("utility/_variables.css");
 
 /* Import utility classes */
-@import url("utility/_normalize.css");
+@import url("utility/_normalise.css");
 @import url("utility/_clearfix.css");
 
 /* Grid */
