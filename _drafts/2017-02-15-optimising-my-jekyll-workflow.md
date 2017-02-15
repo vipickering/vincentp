@@ -7,7 +7,7 @@ meta: Jekyll Workflow
 
 ## Jekyll, Netlify and HTTPS
 
-In the last few years I have experienced the greatest degree of happiness and change in my life. I got married, blessed with a beautiful son and started my own business. It's been an intense few years and It's fair to say the blog has been a little unloved over the last few years as a result.
+In the last few years I have experienced the greatest degree of happiness and change in my life. I got married, blessed with a beautiful son and started my own business. It's been an intense few years and It's fair to say the blog has been a little unloved as a result.
 
 I decided to begin by refocusing the site around user need. What can I provide to the user and how should I do it?
 
@@ -32,7 +32,7 @@ You can see examples of this on my code-base here:
 
 ## Further Speed Optimisations
 
-HTTPS is a great start, coupled with a better deployment process to boot and  keeping our site on GitHub, you should already see a speed increase. But we can do much more.
+HTTPS is a great start, coupled with a better deployment process to boot and keeping the site on GitHub so the code can remain open source. But we can do much more.
 
 I looked at all the other content I was loading in to the page. Anything that wasn't basic site structure or content was up for scrutiny.
 
@@ -50,7 +50,7 @@ Upon re-thinking my whole approach to my CSS I came to a simple revelation. Why 
 
 SASS was created to polyfill things that CSS couldn't (at the time) do. Variables, calculations etc. It's a fair assumption to make that anyone reading my blog is in my industry, and therefore not a huge leap to assume they are using a modern browser. It seems silly to not embrace modern webstandards and just write CSS. SASS is a needless abstraction these days and distances you from writing good code.
 
-I settled on using [pleeease](http://pleeease.io/) a Post CSS plugin. Pleeease allows me to write CSS, but provides an Autoprefixer, file concatenation, minification and comments stripping. This gives me the modern tools I usually get without the tooling hassle, but allows me to keep close to my code. Since settling on this approach I haven't needed to write SASS in a client project. SASS was only ever supposed to be a stopgap, I would question every projects real need to use it moving forward. It certainly still has a place in some projects, but is no longer the only way to solve the issues is solves.
+I settled on using [pleeease](http://pleeease.io/) a Post CSS plugin. Pleeease allows me to write CSS, but provides an Autoprefixer, file concatenation, minification and comments stripping. This gives me the modern tools I usually get without the tooling hassle, but allows me to keep close to my code. Since settling on this approach I haven't needed to write SASS in a client project. SASS was only ever supposed to be a stopgap for the modern web developer, remember it isn't a web standard, so I would question every projects real need to use it and scrutinise that decision pretty hard. It certainly still has a place in some projects, but it is no longer the only way to solve the issues it sets out to remedy.
 
 I started by writing my own normalise.css file. As I mentioned previously, the aim is to write as little code as possible, then not need to add any code at a later date. The first step to doing this is to write your own file that resets and normalises elements to suit your own needs.
 
@@ -64,8 +64,6 @@ First let's apply border-box to all elements, we get a lot of mileage out of dec
 }
 
 ```
-
-Next, lets define out ```:root``` level elements.
 
 First lets set-up our CSS variables. If we assign all our variables at a root level, they can be applied easily to all cascading elements
 

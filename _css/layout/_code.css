@@ -1,19 +1,22 @@
 pre {
     margin-bottom: 20px;
+    background-color: var(--paleGrey);
 }
 
 pre > code {
+    display: block;
     padding: 10px;
     border-radius: 0;
     border-left: 4px solid var(--red);
+}
+
+p > code {
+    display: inline-block;
     background-color: var(--paleGrey);
-    color: var(--grey);
-    font-weight: 900;
 }
 
 code {
-    display: inline-block;
-    background-color: var(--paleGrey);
+
     color: var(--grey);
     padding: 0 5px 0 5px;
     line-height: 1.8;
