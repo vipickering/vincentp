@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Optimising My Jekyll Workflow"
-date: 2017-02-15
+date: 2017-02-16
 meta: Jekyll Workflow
 ---
 
@@ -15,13 +15,13 @@ This question, caused me to look at every aspect of the site down to the smalles
 
 ## HTTPS
 
-I started with serving the site over HTTPS. Granted this blog is a static site built on Jekyll, there isn't a whole lot to secure. But there are great speed benefits in serving over HTTPS and anything to assure the user their in safe hands is a good thing.
+I started with serving the site over HTTPS. Granted this blog is a static site built on Jekyll, there isn't a whole lot to secure. But there are great speed benefits in serving over HTTPS and anything to assure the user they are in safe hands is a good thing.
 
 I previously served this site, as many do, using GitHub pages. It's no secret I found the process a little messy, but it was always better than dealing with FTP clients and the alternatives. This thought process lead me to the wonderful [Netlify](https://www.netlify.com/).
 
 I found Netlify really easy to set-up and transition towards using. The process is quite simple, you give access to your code-base to Netlify and it watches your chosen branch. Every-time you push to the branch (it acts like Jenkins) and builds the repository and deploys it. Netlify allow you to configure HTTPS and some basic controls over your domain and your off!
 
-This process is super simple to adapt in to your workflow and feels much more like a professional set-up, I simply work on my develop branch then merge to master and push when I want to deploy, Netlify handles the rest. Even better, they currently have an offer on for all open source projects hosted on [Github], **this tier is free**.
+This process is super simple to adapt in to your workflow and feels much more like a professional set-up, I simply work on my develop branch then merge to master and push when I want to deploy, Netlify handles the rest. [Their Pro tier is currently free](https://www.netlify.com/pricing) for all open source projects.
 
 A small gotcha I found with Netlify. Make sure your Jekyll repo is in the root, and not contained within a folder, this ensures the watcher knows where to look and build from.
 
@@ -65,7 +65,7 @@ First let's apply border-box to all elements, we get a lot of mileage out of dec
 
 ```
 
-First lets set-up our CSS variables. If we assign all our variables at a root level, they can be applied easily to all cascading elements
+Then set-up our CSS variables. If we assign all our variables at a root level, they can be applied easily to all cascading elements
 
 ```
 :root {
@@ -82,7 +82,7 @@ First lets set-up our CSS variables. If we assign all our variables at a root le
 }
 ```
 
-Here I am assigning a baseline font, sizing and colours to all elements. Style the branches of the tree not each individual leaf. You will write a lot less code and be better for it.
+Style the branches of the tree not each individual leaf. You will write a lot less code and be better for it.  If you style at the topmost level and let CSS naturally cascade down, you shouldn't need to  assign things more than once.
 
 ```
 :root {
@@ -92,10 +92,9 @@ Here I am assigning a baseline font, sizing and colours to all elements. Style t
     font-size: 12px;
     text-rendering: geometricPrecision;
 }
-
 ```
 
-Now because this site is written mobile-first, we need to ensure that the baseline font is increased at the appropriate screen widths for our body font.
+Now because this site is written mobile-first, we need to ensure that the baseline font is increased at the appropriate screen width for our body font.
 ```
 @media all and (min-width: 640px) {
     :root {
@@ -127,7 +126,8 @@ body > * {
 }
 
 .grid-header > * {
-    flex: 2 50%;
+    display: block;
+    width:100%;
 }
 ```
 
@@ -139,6 +139,10 @@ Flexbox makes writing simple grid systems pretty lightweight, for desktop I twea
         margin: auto;
         max-width: 740px;
         min-width: 620px;
+    }
+
+    .grid-header > * {
+        flex: 2 50%;
     }
 
     .grid-footer > * {
@@ -176,7 +180,10 @@ On previous versions of this site I also used GA, my reasoning being it would be
 
 I've only ever viewed the GA a few times, it hasn't informed me on anything I didn't already know, and ultimately I thought, what am I getting at the expense of tracking my users and slowing down their experience consuming my content?
 
-The answer is hardly ever. So I removed it.
+The answer was nothing. So I removed it.
 
 If there is a time in the future where I feel I *need* GA then I will revisit this decision, but tracking users and slowing down their experience when there isn't a real need isn't a good, honest approach to designing sites.
 
+### Summary
+
+Just by taking the time to question even seemingly innocuous decisions on a small blog, such as this, has yielded a much better, tighter code-base and resulted in a much faster experience for the end-user. I would encourage you to also look again at previous decisions and see what else you can improve.

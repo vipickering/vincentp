@@ -171,7 +171,8 @@ body > * {
 }
 
 .grid-header > * {
-    flex: 2 50%;
+    display: block;
+    width:100%;
 }
 
 /* Layout CSS */
@@ -200,8 +201,12 @@ header .grid > * {
     margin-bottom: 30px;
 }
 
-.siteNav {
-    float: right;
+header [itemprop="name"]::before{
+    content: '\1F53B';
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    margin-right: 5px;
 }
 footer {
     margin-top: 20px;
@@ -212,7 +217,6 @@ footer::before {
     content: '';
     display: block;
     padding: 10px 0 0 0;
-    width: calc(100% - 40px);
     border-top: 1px solid var(--lightGrey);
 }
 
@@ -371,6 +375,10 @@ a:focus {
         margin: auto;
         max-width: 740px;
         min-width: 620px;
+    }
+
+    .grid-header > * {
+        flex: 2 50%;
     }
 
     .grid-footer > * {
