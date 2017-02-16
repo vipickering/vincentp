@@ -27,9 +27,6 @@ A small gotcha I found with Netlify. Make sure your Jekyll repo is in the root, 
 
 The easiest way to manage serving over HTTP locally and HTTPS in live is to create a site variable and assign this to your https domain. When you build locally this will be swapped out for ``` http://localhost:4000 ```.
 
-You can see examples of this on my code-base here:
-
-
 ## Further Speed Optimisations
 
 HTTPS is a great start, coupled with a better deployment process to boot and keeping the site on GitHub so the code can remain open source. But we can do much more.
