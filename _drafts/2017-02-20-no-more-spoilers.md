@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "No More Spoilers"
-date: 2017-02-16
+date: 2017-02-20
 meta: Stop spoiling yourself
 ---
 
@@ -9,7 +9,7 @@ It's a familiar feeling. You open your browser and navigate to a website, as you
 
 The sports result you were trying to avoid, an important plot point to a TV show you haven't got round to viewing or the ending to a movie that isn't even released in your country yet.
 
-A stream of information that never stops, that contains information from future time-zones, people with different priorities to your own, that really want to talk about the thing you don't have time for just yet.
+A stream of information that never stops, that contains information from future time-zones, people with different priorities to your own, that really want to talk about the thing your life hasn't yet had time to accommodate.
 
 Any attempt to complain about the situation leads to arguments such as:
 
@@ -62,7 +62,7 @@ We're on a roll now, lets do some more:
 ```
 <div class="spoiler">
     <div class="news">
-        <p class=""><span class="name">Lewis Hamilton</span> <span class="outcome">wins</span> the <time class="event" datetime="2017-01-14">UK Silverstone Grand Prix</time>.</p>
+        <p class="politics"><span class="name">Lewis Hamilton</span> <span class="outcome">wins</span> the <time class="event" datetime="2017-01-14">UK Silverstone Grand Prix</time>.</p>
     </div>
 </div>
 ```
@@ -72,8 +72,8 @@ We're on a roll now, lets do some more:
 Browsers could implement easy way to set rules to auto parts omit content.
 
 ### Attributes
-
-Category: Movie, TV, Sport, Event
+Type: Spoiler
+Category: Media, Sport, Event
 Content-type: Result, Individual, Information, News
 Context: Name, Grouping (e.g Sci-Fi),
 Date: YYYY-DD-MM

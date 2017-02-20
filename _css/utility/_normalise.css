@@ -80,6 +80,10 @@ dfn {
     font-style: italic;
 }
 
+em{
+    font-weight: bold;
+}
+
 pre {
     margin: 0;
     padding: 0;
@@ -89,6 +93,11 @@ blockquote {
     border-left: 4px solid var(--red);
     padding: 0 0 0 10px;
     margin: 0;
+
+}
+
+blockquote > p{
+    font-style: italic;
 }
 
 figure {
