@@ -46,7 +46,7 @@ The user would be able to add to their browser a watch-list of 'media names' to 
 
 Let take a look at another example:
 
-```
+```html
 <div class="spoiler">
     <div class="sport">
         <p class="F1"><span class="name">Lewis Hamilton</span> <span class="outcome">wins</span> the <time class="event" datetime="2017-01-14">UK Silverstone Grand Prix</time>.</p>
@@ -59,7 +59,7 @@ In this example we are specifying that it is a sport and the type of sport is F1
 
 We're on a roll now, lets do some more:
 
-```
+```html
 <div class="spoiler">
     <div class="news">
         <p class="politics"><span class="name">Lewis Hamilton</span> <span class="outcome">wins</span> the <time class="event" datetime="2017-01-14">UK Silverstone Grand Prix</time>.</p>
