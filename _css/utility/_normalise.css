@@ -39,8 +39,6 @@ time {
 }
 
 pre {
-     word-break: break-all;
-    word-wrap: break-word;
     overflow: auto;
 }
 
@@ -77,9 +75,12 @@ sup {
 cite,
 em,
 var,
-address,
 dfn {
     font-style: italic;
+}
+
+address {
+    font-style: normal;
 }
 
 em {
