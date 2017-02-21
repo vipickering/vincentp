@@ -12,7 +12,7 @@ header .grid > * {
     margin-bottom: 30px;
 }
 
-header [itemprop="name"]::before{
+header [itemprop="name"]::before {
     content: '\1F53B';
     width: 10px;
     height: 10px;

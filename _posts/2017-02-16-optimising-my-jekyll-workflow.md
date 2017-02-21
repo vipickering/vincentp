@@ -54,17 +54,15 @@ I started by writing my own normalise.css file. As I mentioned previously, the a
 
 First let's apply border-box to all elements, we get a lot of mileage out of declaring this and save writing it out over and over.
 
-```
-
+``` css
 * {
     box-sizing: border-box;
 }
-
 ```
 
 Then set-up our CSS variables. If we assign all our variables at a root level, they can be applied easily to all cascading elements
 
-```
+``` css
 :root {
     --black: rgba(17, 17, 17, 1);
     --grey: rgba(35, 35, 35, 1);
@@ -81,7 +79,7 @@ Then set-up our CSS variables. If we assign all our variables at a root level, t
 
 Style the branches of the tree not each individual leaf. You will write a lot less code and be better for it.  If you style at the topmost level and let CSS naturally cascade down, you shouldn't need to  assign things more than once.
 
-```
+``` css
 :root {
     font-family: var(--body-font);
     background-color: var(--white);
@@ -92,7 +90,8 @@ Style the branches of the tree not each individual leaf. You will write a lot le
 ```
 
 Now because this site is written mobile-first, we need to ensure that the baseline font is increased at the appropriate screen width for our body font.
-```
+
+``` css
 @media all and (min-width: 640px) {
     :root {
         font-size: 15px;
@@ -103,7 +102,7 @@ Now because this site is written mobile-first, we need to ensure that the baseli
 
 Finally the other notable point is my grid
 
-```
+``` css
 body,
 .grid {
     display: flex;
@@ -130,7 +129,7 @@ body > * {
 
 Flexbox makes writing simple grid systems pretty lightweight, for desktop I tweaked the running order of the footer containers and re-assigned different min and max widths, simply like so.
 
-```
+``` css
 @media all and (min-width: 640px) {
     body > * {
         margin: auto;

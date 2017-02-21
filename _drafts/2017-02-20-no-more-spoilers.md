@@ -33,7 +33,7 @@ Until the user visits the website, how could they know that they could get spoil
 
 This is how I would envision a spoiler mechanism working:
 
-```
+``` html
 <div class="spoiler">
     <div class="media">
         <p class="bojack-horseman">Princess Caroline, <span class="character">Vincent Adultman</span> <span class="outcome">is definitely 3 kids stacked on top of each other in a trench coat</span>.</p>
@@ -46,7 +46,7 @@ The user would be able to add to their browser a watch-list of 'media names' to 
 
 Let take a look at another example:
 
-```html
+``` html
 <div class="spoiler">
     <div class="sport">
         <p class="F1"><span class="name">Lewis Hamilton</span> <span class="outcome">wins</span> the <time class="event" datetime="2017-01-14">UK Silverstone Grand Prix</time>.</p>
@@ -59,15 +59,13 @@ In this example we are specifying that it is a sport and the type of sport is F1
 
 We're on a roll now, lets do some more:
 
-```html
+``` html
 <div class="spoiler">
     <div class="news">
         <p class="politics"><span class="name">Lewis Hamilton</span> <span class="outcome">wins</span> the <time class="event" datetime="2017-01-14">UK Silverstone Grand Prix</time>.</p>
     </div>
 </div>
 ```
-
-
 
 Browsers could implement easy way to set rules to auto parts omit content.
 

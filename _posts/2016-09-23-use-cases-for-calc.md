@@ -11,7 +11,7 @@ If you know the height of the element, [CSS Calc](https://developer.mozilla.org/
 
 By using this simple equation:
 
-```
+``` css
 calc(50vh – 1/2 the height of element);
 ```
 
@@ -23,7 +23,7 @@ This is my most common use of calc, often used on layouts with main area and a s
 
 Element 1, our fluid container, is simply calculated using the following formula:
 
-```
+``` css
 calc(100% - width of element2);
 ```
 
@@ -37,7 +37,7 @@ Sometimes you want a background image to sit near but not absolutely in the bott
 
 Calc can save this simply by doing the following:
 
-```
+``` css
 calc(100% - padding desired);
 ```
 
@@ -49,7 +49,7 @@ A quite common design decision is to have multiple containers within a wrapping 
 
 Calc to the rescue again!
 
-```
+``` css
 calc(100% / number of boxes – total margin size);
 ```
 
@@ -59,7 +59,7 @@ This means that the 3 containers will all be equally spaced within their parent 
 
 There are times when you want a child element to be 100% width of its parent container which has a negative margin. This is a pain, because the 100% width will not account for the negative margin and remove it from the calculation, thankfully calc can help:
 
-```
+``` css
 calc(100% + margin width);
 ```
 
@@ -69,13 +69,13 @@ This simply makes the width a bit bigger than 100% to account for the negative v
 
 This is a development only technique and certainly isn't advisable for a live system, but if you need to put together a quick demo or technical proof of concept for your colleagues, calc can very quickly apply a rudimentary grid system in a few lines:
 
-```
+``` css
 calc(100% / total columns on a row * columns it should span)
 ```
 
 so we can simply do:
 
-```
+``` css
 .col-1 { width:calc(100% /5*1); }
 .col-2 { width:calc(100% /5*2); }
 .col-3 { width:calc(100% /5*3); }

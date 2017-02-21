@@ -39,7 +39,9 @@ time {
 }
 
 pre {
-    overflow-x: auto;
+     word-break: break-all;
+    word-wrap: break-word;
+    overflow: auto;
 }
 
 pre,
@@ -80,7 +82,7 @@ dfn {
     font-style: italic;
 }
 
-em{
+em {
     font-weight: bold;
 }
 
@@ -93,10 +95,9 @@ blockquote {
     border-left: 4px solid var(--red);
     padding: 0 0 0 10px;
     margin: 0;
-
 }
 
-blockquote > p{
+blockquote > p {
     font-style: italic;
 }
 

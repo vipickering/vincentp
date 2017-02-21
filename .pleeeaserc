@@ -3,7 +3,7 @@
   "out": "css/application.css",
   "browsers": ["ie 9"],
   "import": {"path": "css"},
-  "removeAllComments": "true",
+  "removeAllComments": true,
   "mqpacker" : true,
-  "minifier" : false
+  "minifier" : true
 }

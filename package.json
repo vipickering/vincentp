@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/vipickering/vincentp#readme",
   "devDependencies": {
+    "postcss": "^5.2.14",
     "stylelint": "^7.8.0"
   },
   "dependencies": {}
