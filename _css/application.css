@@ -2,6 +2,7 @@
 
 /* Import utility classes */
 @import url("utility/_normalise.css");
+@import url("utility/_display.css");
 @import url("utility/_clearfix.css");
 
 /* Grid */
