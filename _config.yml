@@ -13,7 +13,7 @@ permalink: /blog/:title
 title : Thoughts on front end development
 description: Web design including UI, UX, HTML, CSS, JavaScript and Node
 url: https://vincentp.me
-version: v6.1
+version: v6.2
 
 # Personal Variables
 author:
