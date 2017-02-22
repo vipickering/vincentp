@@ -3,8 +3,8 @@ Normalise - Vincent P - Bespoke
 */
 
 *,
-*:before,
-*:after {
+*::before,
+*::after {
     box-sizing: border-box;
 }
 
@@ -151,7 +151,7 @@ p {
         font-size: 2rem;
     }
 
-    pre > code{
+    pre > code {
         font-size: 0.8rem;
     }
 }

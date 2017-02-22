@@ -177,7 +177,6 @@ If you enjoyed this post and found it helpful, you should follow me on <a href="
 -  [CodeKit](http://incident57.com/codekit/){:rel="external"}
 -  [HTML Inspector](https://github.com/philipwalton/html-inspector){:rel="external"}
 -  [ProCSSor](http://procssorapp.com){:rel="external"}
--  [Adobe Edge Inspect](http://html.adobe.com/edge/inspect/){:rel="external"}
 -  [W3C Validators](http://validator.w3.org){:rel="external"}
 -  [Soulver](http://www.acqualia.com/soulver/){:rel="external"}
 

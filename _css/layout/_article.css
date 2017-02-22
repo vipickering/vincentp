@@ -3,23 +3,23 @@ article {
     z-index: 2;
 }
 
-article > ul,
-article > ol {
+.e-content > ul,
+.e-content > ol {
     margin: 0 0 20px 0;
     padding: 0;
 }
 
-article li {
+.e-content li {
     margin-bottom: 3px;
     max-width: var(--column-width);
 }
 
-article > ul ul li,
-article > ol ol li {
+.e-content > ul ul li,
+.e-content > ol ol li {
     margin-top: 7px;
 }
 
-article > p {
+.e-content > p {
     margin: 0 0 20px 0;
     max-width: var(--column-width);
 }

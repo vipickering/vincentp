@@ -8,7 +8,6 @@ pre {
 pre > code {
     font-family: var(--code-font);
     display: block;
-    padding: 10px;
     border-radius: 0;
     color: var(--white);
     padding: 0.5em;
@@ -41,7 +40,7 @@ code {
 .cs,
 .gu,
 .c {
-    color:  var(--code-comment);
+    color: var(--code-comment);
 }
 
 .k,
@@ -51,7 +50,7 @@ code {
 .kr,
 .kt,
 .no {
-    color:  var(--code-keyword);
+    color: var(--code-keyword);
 }
 
 .hll {
@@ -63,12 +62,12 @@ code {
     background-color: var(--code-errorBg);
 }
 
- .o,
+.o,
 .kn,
 .gd,
 .nt,
 .ow {
-    color:  var(--code-operator);
+    color: var(--code-operator);
 }
 
 .l,
@@ -80,7 +79,7 @@ code {
 .mo,
 .se,
 .il {
-    color:  var(--code-literal);
+    color: var(--code-literal);
 }
 
 .na,
@@ -90,7 +89,7 @@ code {
 .nf,
 .nx,
 .gi {
-    color:  var(--code-name);
+    color: var(--code-name);
 }
 
 .ld,
@@ -105,7 +104,7 @@ code {
 .sr,
 .s1,
 .ss {
-    color:  var(--code-string);
+    color: var(--code-string);
 }
 
 .ni,
@@ -119,6 +118,6 @@ code {
 .py,
 .nv,
 .w,
-.p  {
-    color:  var(--code-variable);
+.p {
+    color: var(--code-variable);
 }
