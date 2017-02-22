@@ -1,13 +1,12 @@
 pre {
     margin-bottom: 20px;
     background-color: var(--code-bg);
-    border-radius: 4px;
     border: 1px solid var(--code-bg);
+    border-radius: 4px;
 }
 
 pre > code {
     font-family: var(--code-font);
-    font-size: 13px;
     display: block;
     padding: 10px;
     border-radius: 0;
@@ -28,73 +27,98 @@ code {
 }
 
 /* Monokai */
-.highlight .ge { font-style: italic }
-.highlight .gs { font-weight: bold }
+.ge {
+    font-style: italic;
+}
 
-.highlight .cm,
-.highlight .cp,
-.highlight .c1,
-.highlight .cs,
-.highlight .gu,
-.highlight .c { color:  var(--code-comment); }
+.gs {
+    font-weight: bold;
+}
 
-.highlight .k,
-.highlight .kc,
-.highlight .kd,
-.highlight .kp,
-.highlight .kr,
-.highlight .kt,
-.highlight .no { color:  var(--code-keyword); }
+.cm,
+.cp,
+.c1,
+.cs,
+.gu,
+.c {
+    color:  var(--code-comment);
+}
 
-.highlight .hll { background-color: #49483e }
-.highlight .err { color: #960050; background-color: #1e0010 } /* Error */
+.k,
+.kc,
+.kd,
+.kp,
+.kr,
+.kt,
+.no {
+    color:  var(--code-keyword);
+}
 
- .highlight .o,
-.highlight .kn,
-.highlight .gd,
-.highlight .nt,
-.highlight .ow { color:  var(--code-operator); }
+.hll {
+    background-color: var(--code-highlight);
+}
 
-.highlight .l,
-.highlight .n,
-.highlight .m,
-.highlight .mf,
-.highlight .mh,
-.highlight .mi,
-.highlight .mo,
-.highlight .se,
-.highlight .il { color:  var(--code-literal); }
+.err {
+    color: var(--code-error);
+    background-color: var(--code-errorBg);
+}
 
-.highlight .na,
-.highlight .nc,
-.highlight .nd,
-.highlight .ne,
-.highlight .nf,
-.highlight .nx,
-.highlight .gi { color:  var(--code-name); }
+ .o,
+.kn,
+.gd,
+.nt,
+.ow {
+    color:  var(--code-operator);
+}
 
-.highlight .ld,
-.highlight .sb,
-.highlight .sc,
-.highlight .sd,
-.highlight .s2,
-.highlight .s,
-.highlight .sh,
-.highlight .si,
-.highlight .sx,
-.highlight .sr,
-.highlight .s1,
-.highlight .ss { color:  var(--code-string); }
+.l,
+.n,
+.m,
+.mf,
+.mh,
+.mi,
+.mo,
+.se,
+.il {
+    color:  var(--code-literal);
+}
 
-.highlight .ni,
-.highlight .nl,
-.highlight .nn,
-.highlight .nb,
-.highlight .bp,
-.highlight .vc,
-.highlight .vg,
-.highlight .vi,
-.highlight .py,
-.highlight .nv,
-.highlight .w,
-.highlight .p  { color:  var(--code-variable); }
+.na,
+.nc,
+.nd,
+.ne,
+.nf,
+.nx,
+.gi {
+    color:  var(--code-name);
+}
+
+.ld,
+.sb,
+.sc,
+.sd,
+.s2,
+.s,
+.sh,
+.si,
+.sx,
+.sr,
+.s1,
+.ss {
+    color:  var(--code-string);
+}
+
+.ni,
+.nl,
+.nn,
+.nb,
+.bp,
+.vc,
+.vg,
+.vi,
+.py,
+.nv,
+.w,
+.p  {
+    color:  var(--code-variable);
+}

@@ -36,11 +36,11 @@ This is how I would envision a spoiler mechanism working:
 ``` html
 <div class="spoiler">
     <div class="media">
-        <p class="bojack-horseman">Princess Caroline, <span class="character">Vincent Adultman</span> <span class="outcome">is definitely 3 kids stacked on top of each other in a trench coat</span>.</p>
+        <p class="bojack-horseman">Princess Caroline, <span class="individual">Your boyfriend</span> <span class="outcome">is very obviously three kids stacked on top of each other under a trench coat.</span></p>
     </div>
 </div>
 ```
-Here we can see that we are specifying  the context of the spoiler is media. That the media name is "Bojack Horseman" and we are referencing a character and an outcome. This should imply that some event occurs related to that character.
+Here we can see that we are specifying  the context of the spoiler is media. That the media name is "bojack horseman" and we are referencing an individual and an outcome. This should imply that some event occurs related to that individual.
 
 The user would be able to add to their browser a watch-list of 'media names' to fuzzy filter on. Any the browser picks up you have flagged, would be hidden and require the user to click/tap to show the containing content.
 
@@ -49,7 +49,7 @@ Let take a look at another example:
 ``` html
 <div class="spoiler">
     <div class="sport">
-        <p class="F1"><span class="name">Lewis Hamilton</span> <span class="outcome">wins</span> the <time class="event" datetime="2017-01-14">UK Silverstone Grand Prix</time>.</p>
+        <p class="F1"><span class="individual">Lewis Hamilton</span> <span class="outcome">wins</span> the <time class="event" datetime="2017-01-14">UK Silverstone Grand Prix.</time></p>
     </div>
 </div>
 ```
@@ -61,20 +61,40 @@ We're on a roll now, lets do some more:
 
 ``` html
 <div class="spoiler">
-    <div class="news">
-        <p class="politics"><span class="name">Lewis Hamilton</span> <span class="outcome">wins</span> the <time class="event" datetime="2017-01-14">UK Silverstone Grand Prix</time>.</p>
+    <div class="video-game">
+        <p class="super-mario-bros"><span class="outcome">Princess Peach is in another castle.</span></p>
     </div>
 </div>
 ```
 
+Sometimes all we care about is the outcome and the context of that event. We can shield the user's eyes from accidentally discovering important information simply as above.
+
 Browsers could implement easy way to set rules to auto parts omit content.
 
+The proposed data structures could work as follows:
+
 ### Attributes
+
+``` yml
+Type: spoiler
+Category: media
+Tags: title, individual, outcome
+
+Type: spoiler
+Category: sport
+Tags: type, individual, outcome
+Event Date: YYYY-DD-MM
+
 Type: Spoiler
-Category: Media, Sport, Event
-Content-type: Result, Individual, Information, News
-Context: Name, Grouping (e.g Sci-Fi),
-Date: YYYY-DD-MM
+Category: video game
+Tags: title, individual, outcome
+
+Type: Spoiler
+Category: event
+Tags: title, individual, outcome
+Event Date: YYYY-DD-MM
+```
+
 
 ## User specified
 A user can specify how long to hide the information for. This would use the current date as a starting point.

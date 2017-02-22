@@ -3,8 +3,8 @@ article {
     z-index: 2;
 }
 
-article ul,
-article ol {
+article > ul,
+article > ol {
     margin: 0 0 20px 0;
     padding: 0;
 }
@@ -14,12 +14,12 @@ article li {
     max-width: var(--column-width);
 }
 
-article ul ul li,
-article ol ol li {
+article > ul ul li,
+article > ol ol li {
     margin-top: 7px;
 }
 
-article p {
+article > p {
     margin: 0 0 20px 0;
     max-width: var(--column-width);
 }
