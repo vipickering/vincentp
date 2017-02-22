@@ -3,6 +3,7 @@ layout: post
 title: "Disarming Problem Clients"
 date: 2013-11-12
 meta: Some techniques and skills to help the designer &amp; client relationship .
+summary: Where I discuss various techniques to disarm problem clients.
 ---
 
 As designers, we go through quite a hazing when setting out on client work. At first, it seems exciting, all the ideas exploding in your brain, all the possible things you could do, all those opportunities. And then reality strikes, you present your ideas to the clients and they don't like them, furthermore as the process goes on the clients opinion and yours move further apart, sometimes the relationship even breaks down entirely, by the end you wonder why you should even bother at all. Some time passes and once the dust has settled, you convince yourself the customer was in the wrong all along and move on to the next project.

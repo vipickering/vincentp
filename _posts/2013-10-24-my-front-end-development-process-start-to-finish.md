@@ -3,6 +3,7 @@ layout: post
 title: "My Entire Front End Development Process From Start To Finish"
 date: 2013-10-24
 meta: An overview of my web development tools and processes I use on a daily basis from start to finish
+summary: A complete breakdown of my web application process in 2013
 ---
 
 I'm a productivity fiend, and constantly hone my process to suit my needs. To that end, increasingly, I have become more of a keyboard jockey and tools that allow me to continue using the keyboard rather than reaching for the mouse allow me to stay in the flow and keep my thought pattern uninterrupted.

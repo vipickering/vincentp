@@ -3,6 +3,7 @@ layout: post
 title: "A Smarter Jekyll Workflow"
 date: 2013-11-20
 meta: A process to work quickly and easily with Jekyll.
+summary:  Trying to work better with Jekyll
 ---
 
 I selected [Jekyll](http://jekyllrb.com){:rel="external"} as the platform for my blog after trying out many other options. It's a great blogging platform, and its balancing between code flexibility and simple blogging software really hits my sweet spot.

@@ -3,6 +3,7 @@ layout: post
 title: "It's Time For A Change"
 date: 2014-03-10
 meta: There is a disconnect between how ideas are shared and taking that discussion further.
+summary: Where I discuss the disconnect between how ideas are shared and taking that discussion further.
 ---
 
 Yesterday, a tweet by [@leaverou](https://twitter.com/LeaVerou/status/442809870476386304){:rel="external"} popped up in my stream.

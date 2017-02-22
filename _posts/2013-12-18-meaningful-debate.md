@@ -3,6 +3,7 @@ layout: post
 title: "Meaningful Debate"
 date: 2013-12-18
 meta: Thoughts on how to make conferences better and how to begin to have meaningful debate.
+summary: Thinking about how we could make conferences .
 ---
 
 Recently I read the article [Reinventing The Tech Conference Experience](http://coding.smashingmagazine.com/2013/11/20/reinventing-the-tech-conference-experience/){:rel="external"} on Smashing Magazine, and it felt like a classic case of mis-diagnosing a problem.

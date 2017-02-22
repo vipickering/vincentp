@@ -29,7 +29,7 @@ It should be up to the individual, not a headline grabbing journalist or loudmou
 Until the user visits the website, how could they know that they could get spoiled at all. I've lost track of the number of times I've visited a seemingly unconnected blog to view one piece of content and instead been confronted by a spoiler for something unrelated, because the blogger decided they wanted to talk about it.
 
 *We need a [micro-format](http://microformat.org) to allow users to consume content in the way they wish and not have it spoiled by others*. At the same time we need to permit others who wish to engage with the content to be unimpeded.
-h-entry
+
 ### Implementation
 
 This is how I would envision a spoiler mechanism working:

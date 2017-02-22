@@ -3,6 +3,7 @@ layout: post
 title: "Sublime Text Set-up"
 date: 2013-08-30
 meta: My personal set-up for Sublime Text 2
+summary: My set-up for Sublime Text 2
 ---
 
 My personal set-up for [Sublime Text 2](https://www.sublimetext.com "Sublime Text 2"){:rel="external"}.
