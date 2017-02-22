@@ -32,6 +32,6 @@ article > p {
 }
 
 .companyDetails > p {
-    margin-bottom: 5px;
+    margin: 0 0 5px 0;
     max-width: initial;
 }
