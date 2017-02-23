@@ -25,19 +25,23 @@ article {
 }
 
 .companyDetails {
+    font-family: var(--heading-font);
+    text-transform: uppercase;
+    line-height: 16px;
     background-color: var(--blue);
     padding: 0.5em 1em;
     margin-bottom: 10px;
-    font-size: 0.6rem;
+        font-size: 10px;
 }
 
 .companyDetails p {
-    display:inline;
+    /*display:inline;*/
     margin:0;
     max-width: initial;
 }
 
-.companyDetails > p:nth-of-type(2){
+/*.companyDetails > div p:nth-of-type(2){
     margin-left: 10px;
     margin-right: 10px;
 }
+*/
