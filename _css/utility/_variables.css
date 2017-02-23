@@ -1,12 +1,11 @@
 :root {
     --black: rgba(17, 17, 17, 1);
-    --grey: rgba(35, 35, 35, 1);
+    --grey: rgba(35, 36, 31, 1);
     --blue: rgba(213, 232, 243);
     --lightGrey: rgba(138, 138, 138, 0.5);
     --white: rgba(255, 255, 255, 1);
     --red: rgba(200, 53, 57, 1);
     --paleGrey: rgba(128, 128, 128, 0.08);
-    --code-bg: rgba(35, 36, 31, 1);
     --code-comment: rgba(117, 113, 94, 1);
     --code-keyword: rgba(102, 217, 239, 1);
     --code-operator: rgba(249, 38, 114, 1);

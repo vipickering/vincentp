@@ -1,7 +1,6 @@
 {
   "in": "_css/application.css",
   "out": "css/application.css",
-  "browsers": ["ie 9"],
   "import": {"path": "css"},
   "removeAllComments": true,
   "mqpacker" : true,

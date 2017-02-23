@@ -45,3 +45,18 @@ cd testing
 
 ./run-tests.sh
 ```
+
+
+## Browser Support
+
+I aim to support the latest versions of the following browsers:
+
+- Edge
+- Chrome
+- Firefox
+- Opera
+- Safari
+- Chrome Android
+- iOS Safari
+
+Please note although Internet Explorer is *not* supported via CSS. The content should be available anytime and easily consumable.

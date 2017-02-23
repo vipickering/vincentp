@@ -1,7 +1,7 @@
 pre {
     margin-bottom: 20px;
-    background-color: var(--code-bg);
-    border: 1px solid var(--code-bg);
+    background-color: var(--grey);
+    border: 1px solid var(--grey);
     border-radius: 4px;
 }
 

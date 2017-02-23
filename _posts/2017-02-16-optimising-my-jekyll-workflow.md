@@ -61,7 +61,9 @@ First let's apply border-box to all elements, we get a lot of mileage out of dec
 }
 ```
 
-Then set-up our CSS variables. If we assign all our variables at a root level, they can be applied easily to all cascading elements
+Then set-up our CSS variables. If we assign all our variables at a root level, they can be applied easily to all cascading elements.
+
+**Update 17-02-2017** :  Since posting this, I spotted a small error. Edge 14 doesn't currently support CSS variables, the Edge team are [working on it](https://developer.microsoft.com/en-us/microsoft-edge/platform/status/csscustompropertiesakacssvariables/) and support will be added very soon.
 
 ``` css
 :root {
