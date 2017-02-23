@@ -18,9 +18,6 @@ stylelint _css/*/*.css
 cd _testing
 valimate
 
-# Run Broken Link Checker
-blc http://localhost:4000/$i -ro
-
 # Pa11y accesibility checks
 echo "Starting Pa11y..."
 for i in "${urls[@]}"
@@ -30,8 +27,10 @@ do
     echo $i processed
 done
 echo "Finished Pa11y"
-
 echo "Tests Complete"
+
+# Run Broken Link Checker
+blc http://localhost:4000/$i -ro
 
 # Kill the running processes afterwards
 jekyll_port=4000
