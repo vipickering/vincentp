@@ -1,28 +1,29 @@
 # Markdown
-markdown: kramdown
+markdown : kramdown
 
-kramdown:
-  hard_wrap: false
-  syntax_highlighter: rouge
+kramdown :
+  hard_wrap : false
+  syntax_highlighter : rouge
 
 # Outputting
-permalink: /blog/:title
+permalink : /blog/:title
 # paginate: 20
 
 # Site Variables
 title : Thoughts on front end development
-description: Web design including UI, UX, HTML, CSS, JavaScript and Node
-url: https://vincentp.me
-version: v6.2
+description : Web design including UI, UX, HTML, CSS, JavaScript and Node
+url : https://vincentp.me
+version : v7
 
 # Personal Variables
 author:
   pinboard : https://www.pinboard.in/u:monkeymajiks/public
-  github: https://www.github.com/vipickering
-  feed: http://feeds.feedburner.com/vincentp
-  twitter: https://twitter.com/vipickering
-  email: hello@vincentp.me
-  job: UI/UX Consultant
-  name: Vincent Pickering
+  github : https://www.github.com/vipickering
+  feed : http://feeds.feedburner.com/vincentp
+  twitter : https://twitter.com/vipickering
+  twitterHandle : vipickering
+  email : hello@vincentp.me
+  job : UI/UX Consultant
+  name : Vincent Pickering
 
 # Gems

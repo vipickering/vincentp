@@ -17,13 +17,16 @@ meta: A blog about front-end development techniques, HTML, CSS and Javascript.
             {% assign page = post %}
             {% assign content = post.content %}
             {% assign summary = post.summary %}
+
             {% include dateAndTime.html %}
             {% include blogTitle.html %}
             <div class="e-content">
                 {{content}}
             </div>
-            </article>
+        </article>
     </main>
+
+    {% include companyInfo.html %}
     {% include footer.html %}
 </body>
 </html>

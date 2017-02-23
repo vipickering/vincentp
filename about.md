@@ -39,13 +39,3 @@ A small sample of clients I've worked with:
 In my spare time I contribute to various open source projects including [Mozlla Nunjucks](https://github.com/mozilla/nunjucks) and [GOV UK](https://github.com/alphagov/govuk_frontend_toolkit/).
 
 All the code for this website is open source and available on [Github](https://github.com/vipickering/vincentp), and hosted on [Netlify](https://www.netlify.com/).
-
-<div class="companyDetails">
-
-<p><b>Vincent Pickering LTD</b> is a company registered in England and Wales.</p>
-
-<p>VAT Number: <b>219592876</b></p>
-
-<p>Company Registration Number: <b>09726909</b></p>
-
-</div>

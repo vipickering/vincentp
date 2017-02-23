@@ -26,12 +26,18 @@ article {
 
 .companyDetails {
     background-color: var(--blue);
-    padding: 10px;
+    padding: 0.5em 1em;
     margin-bottom: 10px;
-    font-size: 0.9rem;
+    font-size: 0.6rem;
 }
 
-.companyDetails > p {
-    margin: 0 0 5px 0;
+.companyDetails p {
+    display:inline;
+    margin:0;
     max-width: initial;
+}
+
+.companyDetails > p:nth-of-type(2){
+    margin-left: 10px;
+    margin-right: 10px;
 }
