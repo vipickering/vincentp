@@ -25,9 +25,8 @@ article {
 }
 
 .companyDetails {
-    font-family: var(--heading-font);
     text-transform: uppercase;
-    line-height: 16px;
+    line-height: 1.2rem;
     background-color: var(--blue);
     padding: 0.5em 1em;
     margin-bottom: 10px;

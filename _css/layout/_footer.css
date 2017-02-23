@@ -16,7 +16,7 @@ footer .grid > * {
 }
 
 footer * {
-    font-family: var(--heading-font);
+    font-family: var(--body-font);
     text-transform: uppercase;
     font-size: 10px;
     color: var(--grey);

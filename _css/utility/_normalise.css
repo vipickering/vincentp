@@ -96,9 +96,10 @@ pre {
 }
 
 blockquote {
-    border-left: 4px solid var(--red);
-    padding: 0 0 0 10px;
-    margin: 30px 0 30px 0;
+    border-left: 5px solid var(--lightGrey);
+    background-color: var(--paleGrey);
+    padding: 10px;
+    margin: 0 0 20px 0;
 }
 
 blockquote > p {
@@ -116,7 +117,7 @@ h4,
 h5,
 h6,
 time {
-    font-family: var(--heading-font);
+    font-family: var(--body-font);
     color: var(--black);
     max-width: var(--column-width);
     font-feature-settings: "kern" 1, "liga" 1, "calt" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0, "dlig" 1;
@@ -137,7 +138,7 @@ h2 {
 li,
 p {
     color: var(--grey);
-    line-height: 1.6;
+    line-height: 1.5;
     hyphens: none;
     font-kerning: normal;
 }
