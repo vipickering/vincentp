@@ -167,7 +167,7 @@ Flexbox makes writing simple grid systems pretty lightweight, for desktop I twea
 
 A few simple rules such as this can go a long way and reduce your page weight significantly while keeping you close to your real CSS output.
 
-You can see all my CSS code used on the blog [here](https://github.com/vipickering/vincentp/tree/master/_css). **I managed to reduce the entire CSS code-base down to 5KB** down from 20kb in the previous version.
+You can see all my CSS code used on the blog [here](https://github.com/vipickering/vincentp/tree/master/_css). **I managed to reduce the entire CSS code-base down to 6KB** down from 20kb in the previous version.
 
 ### Google Analytics
 
