@@ -3,14 +3,8 @@ a {
     padding: 0.2rem;
 }
 
-a:link {
-    text-decoration: underline;
-}
-
-a:active {
-    text-decoration: underline;
-}
-
+a:link,
+a:active,
 a:visited {
     text-decoration: underline;
 }

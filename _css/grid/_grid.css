@@ -4,10 +4,6 @@ body,
     flex-flow: row wrap;
 }
 
-body {
-    padding: 40px;
-}
-
 body > * {
     display: block;
     padding: 0;

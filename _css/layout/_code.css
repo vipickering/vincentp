@@ -1,8 +1,7 @@
 pre {
     margin-bottom: 20px;
     background-color: var(--grey);
-    border: 1px solid var(--grey);
-    border-radius: 4px;
+    overflow-x: auto;
 }
 
 pre > code {

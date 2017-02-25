@@ -7,6 +7,6 @@
     height: 1px;
     width: 1px;
     overflow: hidden;
-    color: black;
-    background-color: white;
+    color: #000;
+    background: #fff;
 }
