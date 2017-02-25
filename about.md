@@ -3,6 +3,7 @@ layout : "about"
 title : "About Vincent Pickering"
 permalink : "/about"
 meta : "About Vincent Pickering UI/UX Consultant"
+summary : "About Vincent Pickering UI/UX Consultant"
 ---
 
 Hello, I'm a UI/UX and Node specialist focusing on large scale complex systems for well know big brands.
