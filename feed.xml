@@ -2,20 +2,27 @@
 layout: null
 ---
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-<channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link href="{{site.url}}/"/>
-    <atom:link href="{{site.url}}/feed.xml" rel="self" type="application/rss+xml" />
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title type="text" xml:lang="en">{{ site.title | xml_escape }}</title>
+        <subtitle type="html">Web design including: UI, UX, HTML, CSS, JavaScript and Node</subtitle>
+    <link type="application/atom+xml" href="{{site.url}}/feed.xml" rel="self" />
+    <link href="{{site.url}}" rel="alternate" />
+    <link href="https://vincentp.superfeedr.com/" rel="hub" />
+    <updated>{{site.time  | date_to_xmlschema}}</updated>
+    <id>{{site.url}}/</id>
+    <author>
+        <name>{{site.author.name}}</name>
+         <uri>{{site.url}}</uri>
+        <email>{{site.author.email}}</email>
+    </author>
+    <rights>Copyright (c) 2013-2017, {{site.author.name}}; all rights reserved.</rights>
     {% for post in site.posts limit:20 %}
-        <item>
-            <title>{{ post.title }}</title>
-            <description>{{ post.content | xml_escape}}</description>
-            <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
-            <link>{{site.url}}{{ post.url }}</link>
-            <guid isPermaLink="true">{{site.url}}{{ post.id }}</guid>
-        </item>
+        <entry>
+            <title>{{ post.title | xml_escape }}</title>
+            <link href="{{site.url}}{{ post.url }}"/>
+            <id>{{site.url}}{{post.id}}</id>
+            <content type="html">{{ post.content | xml_escape}}</content>
+            <updated>{{post.modified  | date_to_xmlschema}}</updated>
+        </entry>
     {% endfor %}
-    </channel>
-</rss>
+</feed>

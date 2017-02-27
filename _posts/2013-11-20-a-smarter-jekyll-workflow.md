@@ -2,6 +2,7 @@
 layout: post
 title: "A Smarter Jekyll Workflow"
 date: 2013-11-20
+modified: 2013-11-20
 meta: A process to work quickly and easily with Jekyll.
 summary:  Trying to work better with Jekyll
 ---

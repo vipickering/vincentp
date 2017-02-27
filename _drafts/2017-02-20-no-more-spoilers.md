@@ -2,6 +2,7 @@
 layout: post
 title: "No More Spoilers"
 date: 2017-02-20
+modified: 2017-02-20
 meta: Stop spoiling yourself
 summary: Where I discuss various ways we could mark up spoilers
 ---

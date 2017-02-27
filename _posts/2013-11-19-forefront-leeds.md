@@ -2,6 +2,7 @@
 layout: post
 title: "Forefront Leeds"
 date: 2013-11-19
+modified: 2013-11-19
 meta: A short note about forefront Leeds a new regular event for front end developers
 summary: Forefront Leeds meet-ups
 ---

@@ -2,6 +2,7 @@
 layout: post
 title: "Meaningful Debate"
 date: 2013-12-18
+modified: 2013-12-18
 meta: Thoughts on how to make conferences better and how to begin to have meaningful debate.
 summary: Thinking about how we could make conferences .
 ---

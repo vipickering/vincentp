@@ -2,6 +2,7 @@
 layout: post
 title: "My Entire Front End Development Process From Start To Finish"
 date: 2013-10-24
+modified: 2013-10-24
 meta: An overview of my web development tools and processes I use on a daily basis from start to finish
 summary: A complete breakdown of my web application process in 2013
 ---

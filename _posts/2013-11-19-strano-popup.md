@@ -2,6 +2,7 @@
 layout: post
 title: "Strano Popup Restaurant"
 date: 2013-11-19
+modified: 2013-11-19
 meta: Strano Pop-up Restaurant
 summary: A fun night out at Strano
 ---

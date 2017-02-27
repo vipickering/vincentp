@@ -2,6 +2,7 @@
 layout: post
 title: "Lists In Photoshop Done the Right Way"
 date: 2013-10-21
+modified: 2013-10-21
 meta: How to create lists correctly in Photoshop
 summary: lists the correct way in Photoshop
 ---

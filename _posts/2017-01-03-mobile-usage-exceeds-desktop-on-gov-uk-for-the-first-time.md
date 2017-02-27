@@ -2,6 +2,7 @@
 layout: post
 title: "Mobile usage exceeds desktop on GOVUK for first time"
 date: 2017-01-03
+modified: 2017-01-03
 meta: GOVUK is a pretty good measure of the UK's overall mobile usage versus desktop
 summary: The GOVUK website user data is finally showing the mobile future, we were all promised.
 ---
