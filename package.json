@@ -1,8 +1,12 @@
 {
   "name": "vincentp.me",
-  "version": "6.5",
+  "version": "6.5.0",
   "description": "personal website",
   "main": "website/index.html",
+  "author": "Vincent Pickering",
+  "homepage": "https://github.com/vipickering/vincentp#readme",
+  "license": "ISC",
+  "private": true,
   "scripts": {
     "start": "jekyll serve",
     "dev": "jekyll serve --drafts --watch"
@@ -11,12 +15,9 @@
     "type": "git",
     "url": "git+https://github.com/vipickering/vincentp.git"
   },
-  "author": "Vincent Pickering",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/vipickering/vincentp/issues"
   },
-  "homepage": "https://github.com/vipickering/vincentp#readme",
   "devDependencies": {
     "postcss": "^5.2.14",
     "stylelint": "^7.8.0"
