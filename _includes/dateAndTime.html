@@ -1,4 +1,4 @@
-<time itemprop="dateCreated" class="dt-published" datetime="{{ post.date | date: "%Y-%m-%d" }}">
+<time itemprop="dateCreated" class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">
     {% assign d = page.date | date: "%d" | plus:'0' %}
     {{ page.date | date: "%B" }}
     {% case d %}
