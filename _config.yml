@@ -19,7 +19,7 @@ version : v6.5
 # Personal Variables
 author:
   pinboard :
-    url: https://www.pinboard.in/u:monkeymajiks/public
+    url: https://pinboard.in/u:monkeymajiks/profile/public/
     username: monkeymajiks
   github :
     url : https://www.github.com/vipickering
