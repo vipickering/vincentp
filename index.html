@@ -9,11 +9,17 @@ summary :  A blog about front-end development techniques, HTML, CSS and Javascri
     {% include meta.html %}
 </head>
 
-<body itemscope itemtype="http://schema.org/Blog">
+<body itemscope itemtype="http://schema.org/WebPage">
     {% include header.html %}
 
     <main>
-         <article itemscope itemtype="http://schema.org/Blog" class="h-entry">
+<!-- dont forget to add h-card in -->
+    Vincent Pickering. A Front-end developer, ...
+
+
+
+ <!--
+    <article itemscope itemtype="http://schema.org/Blog" class="h-entry">
             {% assign post = site.posts.first %}
             {% assign page = post %}
             {% assign content = post.content %}
@@ -25,6 +31,7 @@ summary :  A blog about front-end development techniques, HTML, CSS and Javascri
                 {{content}}
             </div>
         </article>
+        -->
     </main>
 
     {% include companyInfo.html %}
