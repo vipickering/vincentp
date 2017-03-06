@@ -3,6 +3,15 @@ article {
     z-index: 2;
 }
 
+.recent-post {
+    margin-bottom: 20px;
+}
+
+.recent-post *:not(h3) {
+    padding:0.2rem;
+    margin: 0;
+}
+
 .e-content > ul,
 .e-content > ol {
     margin: 0 0 20px 0;

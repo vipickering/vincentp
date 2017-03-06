@@ -13,25 +13,35 @@ summary :  A blog about front-end development techniques, HTML, CSS and Javascri
     {% include header.html %}
 
     <main>
-<!-- dont forget to add h-card in -->
-    Vincent Pickering. A Front-end developer, ...
+<!--add h-card in -->
+<h1>Vincent Pickering</h1>
+<img>New headshot
+<p>Creating websites, writing <a href="https://github.com/vipickering" rel="me external">open source code</a></p>
 
+Some stats would be nice.
+<!-- -->
 
+    <h2>Recent Activity</h2>
+        {% for post in site.posts limit:5 %}
+            <article itemscope itemtype="http://schema.org/Blog" class="h-entry recent-post">
+                 <time itemprop="dateCreated" class="dt-published" datetime="{{ post.date | date_to_xmlschema }}">
+                    {% assign d = post.date | date: "%d" | plus:'0' %}
+                    {{ post.date | date: "%B" }}
+                    {% case d %}
+                        {% when 1 or 21 or 31 %}{{ d }}<sup>st</sup>
+                        {% when 2 or 22 %}{{ d }}<sup>nd</sup>
+                        {% when 3 or 23 %}{{ d }}<sup>rd</sup>
+                    {% else %}
+                        {{ d }}<sup>th</sup>
+                    {% endcase %}
+                    {{ post.date | date: "%Y" }}
+                </time>
+                <h3 itemprop="headline" class="p-name"><a href="{{site.url}}{{ post.url }}">{{ post.title }}</a></h3>
+                <p>{{ post.summary }}</p>
+            </article>
+    {% endfor %}
 
- <!--
-    <article itemscope itemtype="http://schema.org/Blog" class="h-entry">
-            {% assign post = site.posts.first %}
-            {% assign page = post %}
-            {% assign content = post.content %}
-            {% assign summary = post.page.summary %}
-
-            {% include dateAndTime.html %}
-            {% include blogTitle.html %}
-            <div class="e-content">
-                {{content}}
-            </div>
-        </article>
-        -->
+    <p><a href="#">Read older articles</a></p>
     </main>
 
     {% include companyInfo.html %}
