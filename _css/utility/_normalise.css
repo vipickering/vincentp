@@ -114,7 +114,7 @@ h1 {
 }
 
 h2 {
-    margin: 40px 0 10px 0;
+    margin: 20px 0 10px 0;
     font-size: 1.2rem;
     line-height: 1.4;
 }
@@ -133,6 +133,8 @@ p {
     font-kerning: normal;
 }
 
+p { margin-top:0; }
+
 @media all and (min-width: 640px) {
     :root {
         font-size: 15px;
@@ -140,6 +142,10 @@ p {
 
     h1 {
         font-size: 2rem;
+    }
+
+    h2 {
+        margin: 40px 0 10px 0;
     }
 
     pre > code {

@@ -4,14 +4,9 @@ article {
 }
 
 .recent-post {
-    margin-bottom: 20px;
+    margin: 0 0 10px 0;
 }
 
-/*.recent-post *:not(h3) {
-    padding:0.2rem;
-    margin: 0;
-}
-*/
 .e-content > ul,
 .e-content > ol {
     margin: 0 0 20px 0;

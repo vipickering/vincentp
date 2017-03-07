@@ -17,7 +17,6 @@ summary :  A blog about front-end development techniques, HTML, CSS and Javascri
         <h1>Vincent Pickering</h1>
         <img>New headshot
         <p>Creating websites, writing <a href="https://github.com/vipickering" rel="me external">open source code</a></p>
-        <!-- -->
 
         <h2>Recent Activity</h2>
         {% for post in site.posts limit:5 %}
@@ -35,11 +34,10 @@ summary :  A blog about front-end development techniques, HTML, CSS and Javascri
                     {{ post.date | date: "%Y" }}
                 </time>
                 <h3 itemprop="headline" class="p-name"><a href="{{site.url}}{{ post.url }}">{{ post.title }}</a></h3>
-                <p class="p-summary">{{ post.summary }}</p>
+                <p class="p-summary link-padding">{{ post.summary }}</p>
             </article>
     {% endfor %}
 
-    <p>Add issue to  forward all blog/ to archive?</p>
     <p><a href="{{site.url}}/blog/archive">Read older articles</a></p>
     </main>
 
