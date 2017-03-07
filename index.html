@@ -13,15 +13,13 @@ summary :  A blog about front-end development techniques, HTML, CSS and Javascri
     {% include header.html %}
 
     <main>
-<!--add h-card in -->
-<h1>Vincent Pickering</h1>
-<img>New headshot
-<p>Creating websites, writing <a href="https://github.com/vipickering" rel="me external">open source code</a></p>
+        <!--add h-card in -->
+        <h1>Vincent Pickering</h1>
+        <img>New headshot
+        <p>Creating websites, writing <a href="https://github.com/vipickering" rel="me external">open source code</a></p>
+        <!-- -->
 
-Some stats would be nice.
-<!-- -->
-
-    <h2>Recent Activity</h2>
+        <h2>Recent Activity</h2>
         {% for post in site.posts limit:5 %}
             <article itemscope itemtype="http://schema.org/Blog" class="h-entry recent-post">
                  <time itemprop="dateCreated" class="dt-published" datetime="{{ post.date | date_to_xmlschema }}">
@@ -37,12 +35,12 @@ Some stats would be nice.
                     {{ post.date | date: "%Y" }}
                 </time>
                 <h3 itemprop="headline" class="p-name"><a href="{{site.url}}{{ post.url }}">{{ post.title }}</a></h3>
-                <p>{{ post.summary }}</p>
+                <p class="p-summary">{{ post.summary }}</p>
             </article>
     {% endfor %}
 
-<p>Add issue to  forward all blog/ to archive?</p>
-    <p><a href="#">Read older articles</a></p>
+    <p>Add issue to  forward all blog/ to archive?</p>
+    <p><a href="{{site.url}}/blog/archive">Read older articles</a></p>
     </main>
 
     {% include companyInfo.html %}
