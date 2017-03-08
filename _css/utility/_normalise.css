@@ -38,6 +38,8 @@ abbr {
 }
 
 time {
+    font-size: 0.8rem;
+    color: var(--red);
     font-feature-settings: "kern" 1, "liga" 1, "calt" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0;
 }
 
@@ -90,6 +92,10 @@ blockquote {
     background-color: var(--paleGrey);
     padding: 10px;
     margin: 0 0 20px 0;
+}
+
+blockquote > p {
+    margin:0;
 }
 
 figure {
