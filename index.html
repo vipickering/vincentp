@@ -36,11 +36,11 @@ summary :  A blog about front-end development techniques, HTML, CSS and Javascri
                 <h3 itemprop="headline" class="p-name"><a href="{{site.url}}{{ post.url }}">{{ post.title }}</a></h3>
                 <p class="p-summary link-padding">{{ post.summary }}</p>
             </article>
-    {% endfor %}
+        {% endfor %}
 
-    <div class="">
-        <p><a href="{{site.url}}/blog/archive">Read older articles</a></p>
-    </div>
+        <div class="margin-top-40">
+            <p><a href="{{site.url}}/blog/archive">Read older articles</a></p>
+        </div>
     </main>
 
     {% include companyInfo.html %}
