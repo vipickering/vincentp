@@ -1,6 +1,6 @@
 {
   "in": "_css/application.css",
-  "out": "css/application.css",
+  "out": "_includes/application.css",
   "browsers": ["last 1 version"],
   "import": {"path": "css"},
   "removeAllComments": true,

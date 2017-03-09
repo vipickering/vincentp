@@ -8,14 +8,14 @@ article {
 }
 
 .e-content > ul,
-.e-content > ol {
+.e-content > ol,
+.e-content > p {
     margin: 0 0 20px 0;
     padding: 0;
 }
 
 .e-content li {
     margin-bottom: 3px;
-    max-width: var(--column-width);
 }
 
 .e-content > ul ul li,
@@ -23,8 +23,8 @@ article {
     margin-top: 7px;
 }
 
-.e-content > p {
-    margin: 0 0 20px 0;
+.e-content > p,
+.e-content li {
     max-width: var(--column-width);
 }
 
@@ -34,7 +34,7 @@ article {
     background-color: var(--blue);
     padding: 0.5em 1em;
     margin-bottom: 10px;
-    font-size: 10px;
+    font-size: 0.667rem;
 }
 
 .companyDetails p {

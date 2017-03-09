@@ -3,7 +3,7 @@ markdown : kramdown
 
 kramdown :
   hard_wrap : false
-  syntax_highlighter : rouge
+  # syntax_highlighter : rouge
 
 # Outputting
 permalink : /blog/:title

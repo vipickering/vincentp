@@ -44,13 +44,10 @@ time {
 }
 
 pre,
-kbd,
-samp,
 code {
     font-feature-settings: "kern" 0, "liga" 0, "calt" 1, "dlig" 0, "pnum" 0, "tnum" 1, "onum" 0, "lnum" 1, "zero" 1;
 }
 
-sub,
 sup {
     line-height: 0;
     position: relative;
@@ -58,18 +55,11 @@ sup {
     font-feature-settings: "kern" 1, "liga" 1, "calt" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0, "dlig" 0, "sups" 1;
 }
 
-sub {
-    bottom: -0.25em;
-}
-
 sup {
     top: -0.5em;
 }
 
-cite,
 em,
-var,
-dfn,
 blockquote > p {
     font-style: italic;
 }

@@ -2,13 +2,12 @@
 
 /* Import utility classes */
 @import url("utility/_normalise.css");
-@import url("utility/_display.css");
-@import url("utility/_clearfix.css");
 
 /* Grid */
 @import url("grid/_grid.css");
 
-/* Layout CSS */
+/* Layout */
+@import url("layout/_display.css");
 @import url("layout/_margin.css");
 @import url("layout/_images.css");
 @import url("layout/_header.css");
@@ -16,5 +15,9 @@
 @import url("layout/_nav.css");
 @import url("layout/_article.css");
 @import url("layout/_code.css");
+
+/* Typography */
 @import url("typography/_links.css");
+
+/* Print */
 @import url("_print.css");
