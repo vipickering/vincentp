@@ -1,0 +1,18 @@
+ {% if post %}
+    {% assign pubDate = post.date %}
+{% else %}
+    {% assign pubDate = page.date %}
+{% endif %}
+
+<time itemprop="dateCreated" class="dt-published" datetime="{{ pubDate | date_to_xmlschema }}">
+    {% assign d = pubDate | date: "%d" | plus:'0' %}
+    {{ pubDate | date: "%B" }}
+    {% case d %}
+        {% when 1 or 21 or 31 %}{{ d }}<sup>st</sup>
+        {% when 2 or 22 %}{{ d }}<sup>nd</sup>
+        {% when 3 or 23 %}{{ d }}<sup>rd</sup>
+    {% else %}
+        {{ d }}<sup>th</sup>
+    {% endcase %}
+    {{ pubDate | date: "%Y" }}
+</time>

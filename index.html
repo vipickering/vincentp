@@ -14,9 +14,11 @@ summary :  A blog about front-end development techniques, HTML, CSS and Javascri
 
     <main>
         <!--add h-card in -->
-        <h1>Vincent Pickering</h1>
-        <img>New headshot
-        <p>Creating websites, writing <a href="https://github.com/vipickering" rel="me external">open source code</a></p>
+        <address class="h-card">
+            <a href="{{site.url}}" class="u-url"><img class="u-photo" src=" " alt="Vincent Pickering"></a>
+            <h1 class="p-name">Vincent Pickering</h1>
+            <p>I offer Front-end architecture and development <a href="#">services</a>, <a href="#">consultancy</a>,  make <a href="#">websites</a>, write <a href="https://github.com/vipickering" rel="me external" class="u-url">open source code</a>, <a href="{{site.author.twitter.url}}" itemprop="url" title="Twitter" rel="me">tweet</a> and reply to <a href="mailto:{{site.author.email}}"  itemprop="url"  title="Email Me">email</a>.</p>
+        </address>
 
         <h2>Recent Activity</h2>
         {% for post in site.posts limit:5 %}

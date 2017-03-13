@@ -1,1 +1,12 @@
 <!-- <a class="p-category" href="…">…</a> -->
+ <p class="post-categories">Tagged with:
+    {% if post %}
+        {% assign categories = post.categories %}
+    {% else %}
+        {% assign categories = page.categories %}
+    {% endif %}
+    {% for category in categories %}
+        <a href="{{site.baseurl}}/categories/#{{category|slugize}}" class="p-category">{{category}}</a>
+      {% unless forloop.last %}&nbsp;{% endunless %}
+    {% endfor %}
+</p>
