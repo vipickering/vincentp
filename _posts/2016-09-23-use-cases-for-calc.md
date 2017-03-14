@@ -5,6 +5,7 @@ date: 2015-09-23
 modified: 2015-09-23
 meta: Some fun use cases for CSS Calc operator
 summary: Where I play around with CSS calc operations.
+category: Articles
 ---
 
 ## Vertical centre

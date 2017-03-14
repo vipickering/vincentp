@@ -5,6 +5,7 @@ date: 2013-10-18
 modified: 2013-10-18
 meta: Use your name to design a website's look and feel
 summary: I created a fun thing that generates a website based on your name
+category: Articles
 ---
 
 For most of my life, I have had a small personal obsession over influencing the virtual world with the real world, where the physical and virtual spaces overlap and begin to mingle, coalescing with each other based on factors from each.

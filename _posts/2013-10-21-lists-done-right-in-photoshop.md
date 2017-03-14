@@ -5,6 +5,7 @@ date: 2013-10-21
 modified: 2013-10-21
 meta: How to create lists correctly in Photoshop
 summary: lists the correct way in Photoshop
+category: Articles
 ---
 
 I have lost count the number of times I have seen over a [designers shoulder](http://hoveringartdirectors.tumblr.com){:rel="external"} and noticed them struggling with formatting lists in Photoshop.

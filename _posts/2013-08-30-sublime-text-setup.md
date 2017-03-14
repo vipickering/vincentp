@@ -5,6 +5,7 @@ date: 2013-08-30
 modified: 2013-08-30
 meta: My personal set-up for Sublime Text 2
 summary: My set-up for Sublime Text 2
+category: Articles
 ---
 
 My personal set-up for [Sublime Text 2](https://www.sublimetext.com "Sublime Text 2"){:rel="external"}.

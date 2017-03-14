@@ -11,14 +11,11 @@
             <article itemscope itemtype="http://schema.org/Blog" class="h-entry">
                 {% include dateTime.html %}
                 {% include articleTitle.html %}
+                {% include syndication.html %}
+
                 <div class="e-content">
                     {{ content }}
                 </div>
-
-                <footer class="e-content-footer">
-                   {% include categories.html %}
-                   {% include syndication.html %}
-                </footer>
             </article>
         </main>
 

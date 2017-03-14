@@ -5,6 +5,7 @@ date: 2013-11-19
 modified: 2013-11-19
 meta: A short note about forefront Leeds a new regular event for front end developers
 summary: Forefront Leeds meet-ups
+category: Articles
 ---
 
 Yesterday I spoke at [Forefront Leeds](http://forefront.cc/forefront-no1-18th-november-2013/){:rel="external"} a recent speaking event for front-end developers in the Leeds area, run by Russell Poulter of [Flodesign](http://flodesign.co.uk){:rel="external"}.

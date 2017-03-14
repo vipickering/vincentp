@@ -131,6 +131,8 @@ p {
 
 p { margin-top:0; }
 
+.smallText { font-size: 0.8rem;}
+
 @media all and (min-width: 640px) {
     :root {
         font-size: 15px;
