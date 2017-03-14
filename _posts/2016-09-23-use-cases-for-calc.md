@@ -18,7 +18,7 @@ By using this simple equation:
 calc(50vh – 1/2 the height of element);
 ```
 
-50vh is always half the height of the viewport, so we position the element half way down the screen. But this isn't the absolute centre because we haven't taken in to account the height of the object. So we need to remove half the height of the object from the distance to get the final result.
+50vh is always half the height of the viewport, so we position the element half way down the screen. But this isn’t the absolute centre because we haven’t taken in to account the height of the object. So we need to remove half the height of the object from the distance to get the final result.
 
 ## 100% fluid width next to a fixed element
 
@@ -34,7 +34,7 @@ So long as you are also using border-box, then adding padding, margins etc will 
 
 ## Background positioning from the right side
 
-[Chris Coyer](https://css-tricks.com/a-couple-of-use-cases-for-calc/){:rel="external"} has already covered this, but it's worth mentioning if you haven't seen it, since it can be useful occasionally.
+[Chris Coyer](https://css-tricks.com/a-couple-of-use-cases-for-calc/){:rel="external"} has already covered this, but it’s worth mentioning if you haven’t seen it, since it can be useful occasionally.
 
 Sometimes you want a background image to sit near but not absolutely in the bottom right corner of a container. Since background positioning is calculated from the top left corners, other work around or additional containers were needed to add the padding.
 
@@ -70,7 +70,7 @@ This simply makes the width a bit bigger than 100% to account for the negative v
 
 ## Quick and dirty grid system
 
-This is a development only technique and certainly isn't advisable for a live system, but if you need to put together a quick demo or technical proof of concept for your colleagues, calc can very quickly apply a rudimentary grid system in a few lines:
+This is a development only technique and certainly isn’t advisable for a live system, but if you need to put together a quick demo or technical proof of concept for your colleagues, calc can very quickly apply a rudimentary grid system in a few lines:
 
 ``` css
 calc(100% / total columns on a row * columns it should span)
