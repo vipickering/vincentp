@@ -9,22 +9,26 @@ article {
 
 .e-content > ul,
 .e-content > ol,
-.e-content > p {
+.e-content > p,
+.article-list > ul {
     margin: 0 0 20px 0;
     padding: 0;
 }
 
-.e-content li {
+.e-content li,
+.article-list li {
     margin-bottom: 3px;
 }
 
 .e-content > ul ul li,
-.e-content > ol ol li {
+.e-content > ol ol li,
+.article-list > ul ul li{
     margin-top: 7px;
 }
 
 .e-content > p,
-.e-content li {
+.e-content li,
+.article-list li {
     max-width: var(--column-width);
 }
 

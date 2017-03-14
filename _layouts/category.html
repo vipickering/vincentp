@@ -10,12 +10,13 @@
         <main>
             <h1>{{ page.title}}</h1>
             {% assign category = page.url | remove:'/categories/'  | capitalize %}
-
-            <ul>
-                {% for post in site.categories.Articles %}
-                    <li><a href="{{ post.url }}" class="smallText">{{ post.title }}</a> {% include dateTime.html %} </li>
-                {% endfor %}
-            </ul>
+            <div class="article-list">
+                <ul>
+                    {% for post in site.categories.Articles %}
+                        <li><a href="{{ post.url }}" class="smallText">{{ post.title }}</a> {% include dateTime.html %} </li>
+                    {% endfor %}
+                </ul>
+            </div>
         </main>
 
         {% include companyInfo.html %}
