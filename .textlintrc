@@ -38,7 +38,7 @@
             // GREEEEEEN is ignore
             "max_acronym_len" : 5,
             // OSS is ignore
-            "ignore_acronyms" : ["OSS", "HTML", "SASS", "CSS", "HTTP", "HTTPS", "LESS", "FTP", "URL"]
+            "ignore_acronyms" : ["OSS", "HTML", "SASS", "CSS", "HTTP", "HTTPS", "LESS", "FTP", "URL", "GOV"]
         },
         // "terminology": {
         //   // Load default terms (see terms.json in the repository)
