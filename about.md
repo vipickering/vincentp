@@ -8,7 +8,7 @@ summary : "About Vincent Pickering Consultant Front-end Architect and Developer"
 
 Hello, I'm Vincent Pickering a Consultant Front-end Architect and Developer with over 17 years experience working across an incredible breadth of industries and complex technologies.
 
-I'm currently [available for hire]({{site.url}}/services)
+**I'm currently [available for hire]({{site.url}}/services)**
 
 ## About
 
@@ -16,7 +16,7 @@ During my career I have been incredibly fortunate to work on a diverse range of 
 
 I love a challenge or complex problems to solve, and tailor solutions specifically to your business needs and skill levels. An expert at breaking down complex problems and explaining them in simple language I can help you get to the root of a problem and communicate with all parts of your business what is happening.
 
-Check out my [services]({{site.url}}/services) offered or [contact me directly](mailto:hello@vincentp.me) if you have something specific to discuss further.
+Check out my [services]({{site.url}}/services), look me up on [LinkedIn](https://www.linkedin.com/in/vipickering) or [contact me directly](mailto:hello@vincentp.me) if you have something specific to discuss further.
 
 A small sample of clients I've worked with:
 
@@ -36,6 +36,7 @@ A small sample of clients I've worked with:
 In my spare time I contribute to various open source projects including [Mozlla Nunjucks](https://github.com/mozilla/nunjucks) and [GOV UK](https://github.com/alphagov/govuk_frontend_toolkit/).
 
 ## Colophon
+
 This website is built on [Jekyll](https://jekyllrb.com/) and hosted on [Github](https://github.com/vipickering/vincentp), where the code for this website is open source and available.
 
 The site is hosted by [Netlify](https://www.netlify.com/).
