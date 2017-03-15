@@ -37,6 +37,8 @@ In my spare time I contribute to various open source projects including [Mozlla 
 
 ## Colophon
 
-This website is built on [Jekyll](https://jekyllrb.com/) and hosted on [Github](https://github.com/vipickering/vincentp), where the code for this website is open source and available.
+This website is built on [Jekyll](https://jekyllrb.com/) and hosted on [Github](https://github.com/vipickering/vincentp), where the code for this website is [open source and available](https://github.com/vipickering/vincentp).
 
 The site is hosted by [Netlify](https://www.netlify.com/).
+
+Wherever possible I try to follow the spirit of the [Indie Web](https://indieweb.org/).
