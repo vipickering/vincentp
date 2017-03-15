@@ -1,0 +1,74 @@
+{
+    "rules": {
+        "no-todo": true,
+        "no-exclamation-question-mark": true,
+        "no-empty-section": true,
+          // "textlint-rule-ginger" : true,
+        // "textlint-rule-spellchecker" : true
+         // "write-good": true
+        "date-weekday-mismatch": {
+            "lang": "en"
+        },
+        "en-max-word-count": {
+            "max" : 50
+        },
+         "alex": {
+            "allow": []
+        },
+        "common-misspellings": {
+            // Misspellings to be ignored (case-insensitive)
+            "ignore": []
+        },
+         "rousseau": {
+            "showLevels": ["suggestion", "warning", "error"],
+            "ignoreTypes": ["sentence:uppercase"]
+        },
+        "no-start-duplicated-conjunction": {
+            "interval" : 2 // interval of sentences
+        },
+        "max-number-of-lines": {
+            "max" : 300
+        },
+        "max-comma": {
+            "max" : 3
+        },
+        "unexpanded-acronym" : {
+            // AB is ignore, ABC is recognized.
+            "min_acronym_len" : 3,
+            // GREEEEEEN is ignore
+            "max_acronym_len" : 5,
+            // OSS is ignore
+            "ignore_acronyms" : ["OSS", "HTML", "SASS", "CSS", "HTTP", "HTTPS", "LESS", "FTP", "URL"]
+        },
+        // "terminology": {
+        //   // Load default terms (see terms.json in the repository)
+        //   "defaultTerms": true,
+        //   // Syntax elements to skip. Overrides the default
+        //   "skip": ["Blockquote"],
+        //   // List of terms
+        //   "terms": [
+        //     // Exact spelling including the case
+        //     "JavaScript",
+        //     "ESLint",
+        //     "Sass",
+        //     "Less",
+        //     "npm",
+        //     // RegExp (case-insensitive) → replacement
+        //     ["front[- ]end(\\w*)", "frontend$1"],
+        //     ["back[- ]end(\\w*)", "backend$1"],
+        //     ["web[- ]?site(s?)", "site$1"],
+        //     ["hot[- ]key", "hotkey"],
+        //     ["repo\\b", "repository"],
+        //     ["CLI tool(s?)", "command line tool$1"],
+        //     ["build system(s?)", "build tool$1"],
+        //     ["id['’]?s", "IDs"],
+        //     ["(\\w+[^.?!]\\)? )webpack", "$1webpack"],
+        //     ["(\\w+[^.?!]\\)? )internet", "$internet"]
+        //   ],
+        //   // OR load terms from a file
+        //   // "terms": "~/terms.json",
+        //   // OR load terms from npm
+        //   // "terms": "@johnsmith/terms"
+        // }
+    }
+}
