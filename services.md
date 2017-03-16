@@ -6,7 +6,7 @@ meta : "Vincent Pickering Consultant Front-end Architect and Developer Services"
 summary : "Vincent Pickering Consultant Front-end Architect and Developer Services"
 ---
 
-## Front end Consultancy and Code Reviews
+## Frontend Consultancy and Code Reviews
 
 I believe good consultancy happens face to face on site.  I will speak with project stakeholders building a clear picture of the problem(s) or issues that your team face.
 
@@ -18,7 +18,7 @@ Consultancy work is specific to the client and project. Consider a retainer for 
 
 ## Development
 
-I also provide longer term development work. This coves all aspects of standards based, accessible, front end development and [Node](https://nodejs.org/en/) services.
+I also provide longer term development work. This coves all aspects of standards based, accessible, frontend development and [Node](https://nodejs.org/en/) services.
 
 There are a variety of ways you can engage with me :
 

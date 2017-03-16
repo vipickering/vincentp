@@ -39,13 +39,13 @@ I looked at all the other content I was loading in to the page. Anything that wa
 
 ## Custom Fonts
 
-Previous iterations of this website used custom fonts loaded via CSS. I decided to serve a native font stack without the need for the extra loading and page weight.
+Previous iterations of this site used custom fonts loaded via CSS. I decided to serve a native font stack without the need for the extra loading and page weight.
 
 Font blocking is a primary source of page slowdown and is noticeable on mobile. Anything we can do to mitigate against this (and maintain good legibility in our type) is a good thing.
 
-## SASS and CSS
+## Sass and CSS
 
-I took a look at the current SASS I was using. it wasn’t written well, coded to get the site up and running. It did the job well enough (for what it was) but it wasn’t reflective of my abilities or had any care put in to it. I started again.
+I took a look at the current Sass I was using. it wasn’t written well, coded to get the site up and running. It did the job well enough (for what it was) but it wasn’t reflective of my abilities or had any care put in to it. I started again.
 
 The goal of good CSS is to write as little as possible. Make code maintainable, easy to read and avoid continually adding to the code base. That last point is important. We don’t wish to continually add to the code base.
 
@@ -53,7 +53,7 @@ Create CSS flexible enough to work with future code additions. Not overly prescr
 
 It’s a fair assumption that anyone reading my blog is in the web industry, and thus, not a leap to assume they are using a modern browser. I decided for this blog to embrace cutting edge web standards and just write CSS.
 
-SASS can be a needless abstraction these days and distance you from writing good code. I settled on using [pleeease](http://pleeease.io/) a Post CSS plugin.
+Sass can be a needless abstraction these days and distance you from writing good code. I settled on using [pleeease](http://pleeease.io/) a Post CSS plugin.
 
 Pleeease allows me to write vanilla CSS. But it also provides modern Post CSS tooling such as:
 
@@ -64,7 +64,7 @@ Pleeease allows me to write vanilla CSS. But it also provides modern Post CSS to
 
 This affords me the modern tools I need without abstraction and keeps me closer to my code.
 
-SASS certainly still has a place in some projects, but it is no longer my way to solve the issues it sets out to remedy.
+Sass certainly still has a place in some projects, but it is no longer my way to solve the issues it sets out to remedy.
 
 I started by writing my own ```normalise.css``` file. As I mentioned before, the aim is to write as little code as possible, then not need to add any code at a later date. The first step to doing this is to write your own file that resets and normalises elements to suit your own needs.
 
@@ -198,7 +198,7 @@ During the time the blog has been running I have viewed the Google Analytics a h
 
 Slowing down the users experience at the expense of tracking when I didn't have a user need for their data was wrong. This lead me to delete the code.
 
-In the future, if I feel the *need* for Google Analytics then I will revisit my decision. Degrading the user experience doesn‘t seem an honest approach to designing websites.
+In the future, if I feel the *need* for Google Analytics then I will revisit my decision. Degrading the user experience doesn‘t seem an honest approach to designing sites.
 
 ## Summary
 

@@ -56,7 +56,7 @@ To follow the first course, we were served Pane Di Risotto Milanese on a long tr
 
 This was the most "traditional" course of the evening, but still had some fantastic flavour combinations. It consisted of freshly baked bread. Colaturo butter and bone marrow topped with risotto milanese bread. I had never had colaturo butter before and the waiter informed me it was a traditional Roman recipe, which contained anchovy drainings.
 
-## Quatroruote (Tuna/Banana 4x4)
+## Quatroruote (Tuna/Banana 4×4)
 
 Next up was the course I think everyone in the room raised an eyebrow at, it was certainly one that divided the room.
 We were served seared tuna with banana 4 ways.

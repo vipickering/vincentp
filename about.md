@@ -6,7 +6,7 @@ meta : "About Vincent Pickering Consultant Front-end Architect and Developer"
 summary : "About Vincent Pickering Consultant Front-end Architect and Developer"
 ---
 
-Hello, I'm Vincent Pickering a Consultant Front end Architect and Developer. With over 17 years experience, I work across a large breadth of industries and technologies.
+Hello, I'm Vincent Pickering a Consultant frontend Architect and Developer. With over 17 years experience, I work across a large breadth of industries and technologies.
 
 **I'm [available for hire]({{site.url}}/services)**
 
@@ -18,7 +18,7 @@ During my career I have been incredibly fortunate to work on a diverse range of 
 - Enterprise healthcare applications
 - Worldwide marketing campaigns
 - Virtual reality
-- Websites for major brands and start-ups.
+- Sites for major brands and start-ups.
 - [A global social media platform](http://www.xt3.com)
 - [Computer games](http://uk.playstation.com/tag)
 
@@ -48,7 +48,7 @@ In my spare time I contribute to open source projects including [Mozlla Nunjucks
 
 ## Colophon
 
-This website uses [Jekyll](https://jekyllrb.com/) and [Github](https://github.com/vipickering/vincentp), where the code for this website is [open source and available](https://github.com/vipickering/vincentp).
+This site uses [Jekyll](https://jekyllrb.com/) and [Github](https://github.com/vipickering/vincentp), where the code for this site is [open source and available](https://github.com/vipickering/vincentp).
 
 The site is hosted by [Netlify](https://www.netlify.com/).
 

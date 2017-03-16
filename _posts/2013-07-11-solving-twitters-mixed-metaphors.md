@@ -35,7 +35,7 @@ Clicking "favourite" isn't something that makes sense when you simply want to sa
 -  A user is upset with a service and tweets at the company's Twitter account of the product to register their dis-satisfaction while pointing out a problem with the service received.
 -  The Public relations person, responds to the tweet to placate the customer but would also like to bookmark this conversation for future reference, so they "favourite" the tweets.
 
-In this scenario not only is the company "favouriting" a complaint against their own company, this favourite is publicly available on their twitter stream for all their customers to see! It's hardly an ideal scenario for a company (or individual for that matter) to be saying:
+In this scenario not only is the company "favouriting" a complaint against their own company, this favourite is publicly available on their Twitter stream for all their customers to see! It's hardly an ideal scenario for a company (or individual for that matter) to be saying:
 
 "I like this complaint against me, so much I favourited it!"
 

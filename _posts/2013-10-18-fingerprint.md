@@ -30,9 +30,9 @@ These hashes are then used in various ways to generate:
 - An identicon
 - A typographic scale
 - A fixed grid (following the same scale)
-- A colour scheme.
+- A colour Scheme.
 
-I find it quite addictive trying out various combinations and seeing how they look at a website. As a proof of concept, it encapsulates the reactive interface idea quite well, obviously for a customer facing site you could take it further: make the grid responsive, make the colour schemes more diverse, make the algorithm more complex and add more features.
+I find it quite addictive trying out various combinations and seeing how they look at a site. As a proof of concept, it encapsulates the reactive interface idea quite well, obviously for a customer facing site you could take it further: make the grid responsive, make the colour schemes more diverse, make the algorithm more complex and add more features.
 
 ## Reactive Interfaces
 
@@ -50,4 +50,4 @@ Or how about social services:
 
 > If a user is tweeting far higher than the average number per hour, their followers could get a button that appears, allowing them to "vote for you to stop" enough of those votes received and you could start reducing the amount of characters they could type for each tweet. If the user persisted, it could enforce a delay in the tweets to space them out.
 
-It feels like most websites and apps are generally built around input -> output with very little intelligence in between. We should be making interfaces that react and tailors themselves to users needs, that delight and surprise them at every turn. Offering unique experiences and delighters that make them want to share their experience with others. It's my belief it is time our interfaces became more intelligent, the technology is available and software is easy to write, hopefully I may have inspired you to think this way too.
+It feels like most sites and apps are generally built around input -> output with very little intelligence in between. We should be making interfaces that react and tailors themselves to users needs, that delight and surprise them at every turn. Offering unique experiences and delighters that make them want to share their experience with others. It's my belief it is time our interfaces became more intelligent, the technology is available and software is easy to write, hopefully I may have inspired you to think this way too.

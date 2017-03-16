@@ -52,7 +52,7 @@ The next morning, using this query the system could automatically run the report
 
 This data now gives me actions on how to better prepare next time I go on a night out.
 
--  I could disable my twitter access when on a night out to stop me annoying my followers with drunken tweets.
+-  I could disable my Twitter access when on a night out to stop me annoying my followers with drunken tweets.
 -  I could plan my diet by eating fewer calories during the day so the additional alcohol and food doesn't impact on my weight so greatly.
 -  I should log in to Instagram the next day and check I didn't post anything offensive!
 

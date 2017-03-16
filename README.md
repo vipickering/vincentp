@@ -20,7 +20,7 @@ npm run dev
 
 ## Deploy
 
-The website is served by Netlify. Deployment should happen automatically when the master branch is pushed to Github.
+The site is served by Netlify. Deployment should happen automatically when the master branch is pushed to Github.
 
 If you want to manually see the live compiled site with HTTPS URLs to error check, run:
 
@@ -48,7 +48,8 @@ I aim to support the latest versions of the following browsers:
 - Firefox
 - Opera
 - Safari
-- Chrome Android
+- Chrome
+- Android
 - iOS Safari
 
 Please note : Internet Explorer is *not* supported via CSS. The content should be available anytime and consumable.

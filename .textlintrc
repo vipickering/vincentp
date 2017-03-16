@@ -3,9 +3,6 @@
         "no-todo": true,
         "no-exclamation-question-mark": true,
         "no-empty-section": true,
-          // "textlint-rule-ginger" : true,
-        // "textlint-rule-spellchecker" : true
-         // "write-good": true
         "date-weekday-mismatch": {
             "lang": "en"
         },
@@ -40,35 +37,13 @@
             // OSS is ignore
             "ignore_acronyms" : ["OSS", "HTML", "SASS", "CSS", "HTTP", "HTTPS", "LESS", "FTP", "URL", "GOV"]
         },
-        // "terminology": {
-        //   // Load default terms (see terms.json in the repository)
-        //   "defaultTerms": true,
-        //   // Syntax elements to skip. Overrides the default
-        //   "skip": ["Blockquote"],
-        //   // List of terms
-        //   "terms": [
-        //     // Exact spelling including the case
-        //     "JavaScript",
-        //     "ESLint",
-        //     "Sass",
-        //     "Less",
-        //     "npm",
-        //     // RegExp (case-insensitive) → replacement
-        //     ["front[- ]end(\\w*)", "frontend$1"],
-        //     ["back[- ]end(\\w*)", "backend$1"],
-        //     ["web[- ]?site(s?)", "site$1"],
-        //     ["hot[- ]key", "hotkey"],
-        //     ["repo\\b", "repository"],
-        //     ["CLI tool(s?)", "command line tool$1"],
-        //     ["build system(s?)", "build tool$1"],
-        //     ["id['’]?s", "IDs"],
-        //     ["(\\w+[^.?!]\\)? )webpack", "$1webpack"],
-        //     ["(\\w+[^.?!]\\)? )internet", "$internet"]
-        //   ],
-        //   // OR load terms from a file
-        //   // "terms": "~/terms.json",
-        //   // OR load terms from npm
-        //   // "terms": "@johnsmith/terms"
-        // }
+        "terminology": {
+              "defaultTerms": false,
+              // Syntax elements to skip. Overrides the default
+              "skip": ["Blockquote"],
+              "terms": "/Users/vincentpickering/Sites/personal/vincentp/_terms.json"
+            }
     }
 }
+
+

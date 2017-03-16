@@ -45,11 +45,11 @@ In February, at Hey! Stac [I presented my vision](https://speakerdeck.com/vincen
 
 ## The Pitch
 
-What I am proposing in the slides is a 2 part idea, comprised of a website and day event. It works as follows:
+What I am proposing in the slides is a 2 part idea, comprised of a site and day event. It works as follows:
 
-## The Website
+## The site
 
-The website would be a mechanism for people to raise questions and ideas that warrant further discussion. These are categorised and up voted to show demand.
+The site would be a mechanism for people to raise questions and ideas that warrant further discussion. These are categorised and up voted to show demand.
 
 Think of it as a mash-up between [Stack Overflow](http://stackoverflow.com){:rel="external"} and [Sony Share](http://share.blog.us.playstation.com/ideas/status/ideas-in-action/){:rel="external"}. What we are doing here is peer reviewing the suggestions and making sure the most needed, desired and valid ideas float to the top.
 
@@ -57,7 +57,7 @@ Think of it as a mash-up between [Stack Overflow](http://stackoverflow.com){:rel
 
 Summit events are run following a standard format, whereby they select a skill type to base the event on. For instance, they would only tackle CSS based questions. This both allows the attendees to understand if they would be able to contribute (a die hard Ruby developer may have little interest in attending a CSS based event) and ensure we are focusing our skill in one area at a time.
 
-The organiser can pick a list of questions from the Summit website to tackle for the day.
+The organiser can pick a list of questions from the Summit site to tackle for the day.
 
 When attendees arrive they are arranged in to small groups at random <sup><a href="#groups">1</a></sup> The organiser will then set the groups the (same) first question to solve.
 
@@ -73,17 +73,17 @@ There are many nuanced ways as to why I have devised this format, let me break t
 - When a group begins to hone in on a good solution others are peer testing this approach as they go.
 - Everyone is involved all the time.
 
-At the end of the day, all the problems solved or part-solutions devised are uploaded to the website, with all attendees names attached. This way we are allowing unsolved questions and progress to be fed back to the website and help others who may be working individually on the solution as well.
+At the end of the day, all the problems solved or part-solutions devised are uploaded to the site, with all attendees names attached. This way we are allowing unsolved questions and progress to be fed back to the site and help others who may be working individually on the solution as well.
 
-In essence, what we are doing is creating a smart, productive, feedback loop, with peer review built-in, we raise questions on the website, filter them and disseminate them to the events taking place (worldwide). The events then feedback to the website with answers and development for all to see. Anyone can get involved and dedicate as much or as little time as they have but nothing should be lost, or contribution should be undervalued, because it’s inherently a positive productive format focused on problem solving.
+In essence, what we are doing is creating a smart, productive, feedback loop, with peer review built-in, we raise questions on the site, filter them and disseminate them to the events taking place (worldwide). The events then feedback to the site with answers and development for all to see. Anyone can get involved and dedicate as much or as little time as they have but nothing should be lost, or contribution should be undervalued, because it’s inherently a positive productive format focused on problem solving.
 
 ## Taking Summit To It’s Conclusion
 
-Taking the idea further and my ultimate aim for the idea would be to build the website as an open source project. Anyone could download the code and modify it for their problem type, and upload it to their server. It could be any industry,  not just web standards, imagine if this was how we decided political policies, or made decisions in any industry. The site then allows events to take place and filter results back to it. If you ran a large worldwide company, you could even run your own Summit events and website internally to raise problems with the company or fix existing issues in a positive format.
+Taking the idea further and my ultimate aim for the idea would be to build the site as an open source project. Anyone could download the code and modify it for their problem type, and upload it to their server. It could be any industry,  not just web standards, imagine if this was how we decided political policies, or made decisions in any industry. The site then allows events to take place and filter results back to it. If you ran a large worldwide company, you could even run your own Summit events and site internally to raise problems with the company or fix existing issues in a positive format.
 
-We work smarter, when we work together. That’s why I am not arrogant to believe what I have proposed being the perfect solution, or indeed think I can make this work better all on my own. I am in the process of writing the website specification and event format. Once I have the general format, I will put it out on my Github for general feedback and suggestion ideas.
+We work smarter, when we work together. That’s why I am not arrogant to believe what I have proposed being the perfect solution, or indeed think I can make this work better all on my own. I am in the process of writing the site specification and event format. Once I have the general format, I will put it out on my Github for general feedback and suggestion ideas.
 
-Summit, its website code and format is intended to always be open source and open for all to hack and use as they see fit. ~~If you are interested in learning more you can ask me yourself on Twitter @vipickering or follow @summit_event for updates on our progress, there should also be a website soon!~~
+Summit, its site code and format is intended to always be open source and open for all to hack and use as they see fit. ~~If you are interested in learning more you can ask me yourself on Twitter @vipickering or follow @summit_event for updates on our progress, there should also be a site soon!~~
 
 Let’s make the future great together.
 

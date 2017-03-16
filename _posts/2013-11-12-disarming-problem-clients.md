@@ -12,7 +12,7 @@ As designers, we go through quite a hazing when setting out on client work. At f
 
 Sound familiar? This is a pattern some designers never seem to break out of. Others repeat this process every so often, but not many manage to avoid it all together. The reality of the situation is some clients are problematic, but most aren’t. They’re great people who want the best for their product or service.
 
-Some of these problems stem from the creative process, it’s hard to grasp by those who are not creative, they struggle to understand it. This is compounded further by the fact the thing you are designing is also a virtual object (websites are the worst for this).
+Some of these problems stem from the creative process, it’s hard to grasp by those who are not creative, they struggle to understand it. This is compounded further by the fact the thing you are designing is also a virtual object (sites are the worst for this).
 
 Human beings have evolved over centuries to understand a thing by how it feels, how much it weighs and how often they have seen it. These factors help an individual subconsciously weigh up a thing and determine its worth to them. If you built them a physical object made of carbon fibre that was really tall, they could understand where the money was spent in achieving the task because they could see the physical size of the object and all the rare materials used in its construction. Defining something virtual is much harder, much of the work is hidden away, that’s part of the reason why designers show wire-frames and mock-ups and anything else during the creative process to try to help anchor the ideas and creative thought in "worth".
 
@@ -43,20 +43,20 @@ If it’s a high priority issue, you next need to assess the urgency, can you si
 
 **For example:**
 
-We have noticed that on mobile the contact form for the clients website doesn’t fit.
+We have noticed that on mobile the contact form for the clients site doesn’t fit.
 
 Break the problem down in to the options available and do your best to remove as much tech speak as is necessary unless the client is really comfortable with it, like so.
 
 We can either:
 
 -  Re-design the form to fit. This will impact the delivery by 1 day, and incur a small fee.
--  Remove the form completely on mobile, and replace it with a clickable email link. This will remove the problem entirely and not influence the delivery date, but will mean you receive free form emails that don’t fit the required fields on the website.
+-  Remove the form completely on mobile, and replace it with a clickable email link. This will remove the problem entirely and not influence the delivery date, but will mean you receive free form emails that don’t fit the required fields on the site.
 
 Next consider each option and make a recommendation for the approach, be brief and justify your reasoning, Keep it logical, you have arrived at this recommendation because in your professional opinion you have weighed up the options and made a decision, which is partly what the client is paying you for:
 
 We would recommend re-designing the form and give the users the same experience off-line and on-line, reducing confusion for your workforce over mixed email types. If costs are a problem at this time, we could remove the form at launch and use one of your support days to implement it after release.
 
-Notice at the end of the response I also gave the client a way to have their cake and eat it. This is the approach I actually expect them to take, but it is also sub-consciously doing something else. It’s getting the client use to change, encouraging them to think it’s OK to make a change to a live website. It sends the message that change can and will happen on the new site and that’s OK.
+Notice at the end of the response I also gave the client a way to have their cake and eat it. This is the approach I actually expect them to take, but it is also sub-consciously doing something else. It’s getting the client use to change, encouraging them to think it’s OK to make a change to a live site. It sends the message that change can and will happen on the new site and that’s OK.
 
 Not only does this now show you are in control of the project but it keeps the client feeling that they are are also in control  and that they are affecting change and contributing, they are less likely later to try and interject something to assert control because you are presenting facts and options and doing your best to extract the tech speak.
 
@@ -71,11 +71,11 @@ You have to remember at all times that you being paid by the client to achieve a
 
 My observations over the years on dispute is that first issues take the form of differences of opinion, this is OK, people view things differently and often there is more than one way to tackle a problem. The difference of opinion sometimes then escalate and can causes conflict because unless one party quickly cedes to the other on the approach that will be taken, both parties argue their way is superior and an impasse is reached.
 
-Eventually one side shouts louder than the other and a direction is taken, with one party loosing out. Hardly ideal, the nature of human interaction then dictates that the party hard done by are now going to try and "win" in other areas so they don’t feel taken advantage of, this imbalance that occurs is what erodes a perfectly healthy relationship until the trust is gone. The trick is to remove the personal opinions from the whole dispute and everybody feels they won.
+Eventually one side shouts louder than the other and a direction is taken, with one party losing out. Hardly ideal, the nature of human interaction then dictates that the party hard done by are now going to try and "win" in other areas so they don’t feel taken advantage of, this imbalance that occurs is what erodes a perfectly healthy relationship until the trust is gone. The trick is to remove the personal opinions from the whole dispute and everybody feels they won.
 
-Let’s say a client disagrees with the button layout you have chosen for a form on the website. They come to you with their concern and want the button moved to another placement. You disagree with their reasoning.
+Let’s say a client disagrees with the button layout you have chosen for a form on the site. They come to you with their concern and want the button moved to another placement. You disagree with their reasoning.
 
-At this point, if you have a good logical or creative process with reasoning for your decision write down the process and read through it a couple of times, so long as you are happy you made the right decision and still disagree with the proposed direction. Pick up the phone and politely talk the client through why you made this decision. Sometimes they will be happy once its been explained and drop the issue, but sometimes they will insist on still changing it. At this point you have 2 choices, or you risk conflict and loosing the clients trust.
+At this point, if you have a good logical or creative process with reasoning for your decision write down the process and read through it a couple of times, so long as you are happy you made the right decision and still disagree with the proposed direction. Pick up the phone and politely talk the client through why you made this decision. Sometimes they will be happy once its been explained and drop the issue, but sometimes they will insist on still changing it. At this point you have 2 choices, or you risk conflict and losing the clients trust.
 
 1. Do what the client asks - You can’t win every difference of opinion, and unless you feel it may fundamentally de-rail or undermine something major, agree with the client on their approach and make a note as something to review later as you may need to implement your original solution later down the line.
 2. Set up a test. Tell the client it’s interesting you both have a different way to solve the problem and why don’t we set up an A/B test to trial both solutions over a fixed time period. After that period you will implement the one that gets the largest amount of users using it.

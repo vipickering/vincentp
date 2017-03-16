@@ -125,7 +125,7 @@ The point of doing this is to:
 2. Decrease the number of people having a discussion at one time so it becomes quicker to establish quality conversation and reach a conclusion.
 3. Rapidly exploring multiple avenues in a brief space of time.
 
-By having many small debates at once, we are generating many outcomes to a problem to test while reducing the problems around the audience loosing context or understanding the shared language.
+By having many small debates at once, we are generating many outcomes to a problem to test while reducing the problems around the audience losing context or understanding the shared language.
 
 After the groups opinions are formed, a speaker is elected from each to put forward their group’s opinion. Once all the groups opinions have been heard, they will inevitably spark further debate where the attendees can return to their groups and discuss it further and try things out.
 

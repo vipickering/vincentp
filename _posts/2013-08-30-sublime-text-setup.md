@@ -110,7 +110,7 @@ and paste the code from the gist. Remember, your user preferences don't override
 -  [Markdown Preview](https://github.com/revolunet/sublimetext-markdown-preview){:rel="external"}
 -  [Monokai Extended theme](https://github.com/jonschlinkert/sublime-monokai-extended){:rel="external"}
 -  [Nettuts+ (Fetch)](http://net.tutsplus.com/articles/news/introducing-nettuts-fetch/){:rel="external"}
--  [SASS](https://github.com/mischah/Sublime-Text-2-Settings/tree/master/Sass){:rel="external"}
+-  [Sass](https://github.com/mischah/Sublime-Text-2-Settings/tree/master/Sass){:rel="external"}
 -  [Sidebar Enhancements](https://github.com/titoBouzout/SideBarEnhancements/tree/st3){:rel="external"}
 -  [Sublime Linter](https://github.com/SublimeLinter/SublimeLinter){:rel="external"}
 -  [Syntax Highlighting For Sass](https://github.com/P233/Syntax-highlighting-for-Sass){:rel="external"}
@@ -154,7 +154,7 @@ For Markdown and Multi Markdown files I use the following Gists:
 My configuration file for CSS Comb is [here](https://gist.github.com/vipickering/6582514){:rel="external"}. I tend to order my files by most frequently edited properties grouped together near the start and less used near the end. My reasoning for this is that errors are usually spotted very quickly.
 
 ## Projects Set-up
-Because I can be working on multiple machines with different machine names I don't like to include the project or workspace files in a git commit, so I exclude them to avoid polluting someone else's set-up.
+Because I can be working on multiple machines with different machine names I don't like to include the project or workspace files in a Git commit, so I exclude them to avoid polluting someone else's set-up.
 
 Projects are super simple to set up there are multiple methods, but my preferred method is to drag the project folder on to the Sublime Text icon in the dock, this should open up the project in the side bar.
 
