@@ -1,8 +1,12 @@
 #!/bin/bash
 # Define list of urls for tests
-urls=(index about)
+urls=(index about services articles)
 
 cd ../
+
+textlint *.md
+
+textlint _posts/*.md
 
 # Start the test server in background
 jekyll serve &

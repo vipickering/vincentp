@@ -20,7 +20,7 @@ npm run dev
 
 ## Deploy
 
-The site is served by Netlify. Deployment should happen automatically when the master branch is pushed to Github.
+The site is served by Netlify. Deployment should happen automatically when the master branch is pushed to GitHub.
 
 If you want to manually see the live compiled site with HTTPS URLs to error check, run:
 
@@ -37,7 +37,6 @@ cd testing
 
 ./run-tests.sh
 ```
-
 
 ## Browser Support
 

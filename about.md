@@ -48,7 +48,7 @@ In my spare time I contribute to open source projects including [Mozlla Nunjucks
 
 ## Colophon
 
-This site uses [Jekyll](https://jekyllrb.com/) and [Github](https://github.com/vipickering/vincentp), where the code for this site is [open source and available](https://github.com/vipickering/vincentp).
+This site uses [Jekyll](https://jekyllrb.com/) and [GitHub](https://github.com/vipickering/vincentp), where the code for this site is [open source and available](https://github.com/vipickering/vincentp).
 
 The site is hosted by [Netlify](https://www.netlify.com/).
 
