@@ -14,21 +14,13 @@ Run the bash script to install global packages.
 
 ## Running
 
-Launch the [pleeease](http://pleeease.io/) watch in one terminal window from the root of the project.
-
-```
-pleeease watch
-```
-
-In another terminal window run Jekyll in the dev set-up. Drafts are enabled and watching for changes is activated.
-
 ```
 npm run dev
 ```
 
 ## Deploy
 
-This website uses Netlify to host, and should happen automatically when the master branch is pushed to Github.
+The website is served by Netlify. Deployment should happen automatically when the master branch is pushed to Github.
 
 If you want to manually see the live compiled site with HTTPS URLs to error check, run:
 
@@ -59,4 +51,4 @@ I aim to support the latest versions of the following browsers:
 - Chrome Android
 - iOS Safari
 
-Please note although Internet Explorer is *not* supported via CSS. The content should be available anytime and easily consumable.
+Please note : Internet Explorer is *not* supported via CSS. The content should be available anytime and consumable.

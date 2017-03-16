@@ -9,7 +9,7 @@
   "private": true,
   "scripts": {
     "start": "jekyll serve",
-    "dev": "jekyll serve --drafts --watch"
+    "dev": "pleeease watch & jekyll serve --drafts --watch"
   },
   "repository": {
     "type": "git",
