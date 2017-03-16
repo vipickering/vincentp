@@ -80,7 +80,7 @@ blockquote {
 }
 
 blockquote > p {
-    margin:0;
+    margin: 0;
 }
 
 figure {
@@ -124,9 +124,9 @@ p {
     font-kerning: normal;
 }
 
-p { margin-top:0; }
+p { margin-top: 0; }
 
-.smallText { font-size: 0.8rem;}
+.smallText { font-size: 0.8rem; }
 
 @media all and (min-width: 640px) {
     :root {
