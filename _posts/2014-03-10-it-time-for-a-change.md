@@ -81,7 +81,7 @@ In essence, what we are doing is creating a smart, productive, feedback loop, wi
 
 Taking the idea further and my ultimate aim for the idea would be to build the site as an open source project. Anyone could download the code and modify it for their problem type, and upload it to their server. It could be any industry,  not just web standards, imagine if this was how we decided political policies, or made decisions in any industry. The site then allows events to take place and filter results back to it. If you ran a large worldwide company, you could even run your own Summit events and site internally to raise problems with the company or fix existing issues in a positive format.
 
-We work smarter, when we work together. That’s why I am not arrogant to believe what I have proposed being the perfect solution, or indeed think I can make this work better all on my own. I am in the process of writing the site specification and event format. Once I have the general format, I will put it out on my Github for general feedback and suggestion ideas.
+We work smarter, when we work together. That’s why I am not arrogant to believe what I have proposed being the perfect solution, or indeed think I can make this work better all on my own. I am in the process of writing the site specification and event format. Once I have the general format, I will put it out on my GitHub for general feedback and suggestion ideas.
 
 Summit, its site code and format is intended to always be open source and open for all to hack and use as they see fit. ~~If you are interested in learning more you can ask me yourself on Twitter @vipickering or follow @summit_event for updates on our progress, there should also be a site soon!~~
 

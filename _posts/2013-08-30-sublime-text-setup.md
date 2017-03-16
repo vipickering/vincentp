@@ -134,7 +134,7 @@ Cntrl+g is a short cut for typing Cntrl+p -> type ":"
 {% endhighlight %}
 
 ## Code Specific Settings
-To set-up a code specific file in sublime open the type of file you want to edit (e.g. for a Stylesheet open a .css file) then go to Sublime Text 2 menu:
+To set-up a code specific file in sublime open the type of file you want to edit (e.g. for a Stylesheet open a .CSS file) then go to Sublime Text 2 menu:
 
 {% highlight c %}
 Preferences -> Settings - More -> Syntax Specific - User

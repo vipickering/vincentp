@@ -84,7 +84,7 @@ At this point, I usually make 3 selections that I prefer and show them to the cl
 
 Finally, creating the <abbr title="Hyper Text Markup Language">HTML</abbr>, <abbr title="Cascading Style Sheets">CSS</abbr> and JavaScript. Hand coding is essential, for production ready professional code and the best tool to create that is [Sublime Text](https://www.sublimetext.com){:rel="external"}. It's hands down the fastest and most feature rich tool to code in and has a huge variety of configurable options. [I wrote about my Sublime Text set-up here](http://vincentp.me/blog/sublime-text-setup){:rel="external"}.
 
-As with most web professionals, I use [Github](http://github.com){:rel="external"} to store and manage my code with the [Github client for OSX](http://mac.github.com){:rel="external"}. I don't mind using the terminal, but I'm not a masochist, I'd rather click the sync button than spend a few minutes remembering and typing in terminal commands if I don't have to.
+As with most web professionals, I use [GitHub](http://github.com){:rel="external"} to store and manage my code with the [GitHub client for OSX](http://mac.github.com){:rel="external"}. I don't mind using the terminal, but I'm not a masochist, I'd rather click the sync button than spend a few minutes remembering and typing in terminal commands if I don't have to.
 
 Absolutely the fastest and most consistent way to build a site is to take apart all the constituent components and create a "ウィジェット" page. This page usually consists of all the elements your site will be made up of, removing the grid, which can be added at the end.
 
@@ -125,11 +125,11 @@ A question I am asked quite frequently is:
 
 My answer is something most developers aren't ready to hear:
 
-> Why would you use a framework for a one-off website?
+> Why would you use a framework for a one-off site?
 
 The reply from the developer then follows the format of:
 
-> I don't just use it for one website, I use it for all my websites!
+> I don't just use it for one site, I use it for all my sites!
 
 To which I would always respond:
 
@@ -173,8 +173,8 @@ If you enjoyed this post and found it helpful, you should follow me on <a href="
 
 ## Coding Tools
 
--  [Github](http://github.com){:rel="external"}
--  [Github client for OSX](http://mac.github.com){:rel="external"}
+-  [GitHub](http://github.com){:rel="external"}
+-  [GitHub client for OSX](http://mac.github.com){:rel="external"}
 -  [Sublime Text](https://www.sublimetext.com){:rel="external"}. Also see [my Sublime set-up](http://vincentp.me/blog/sublime-text-setup){:rel="external"}
 -  [CodeKit](http://incident57.com/codekit/){:rel="external"}
 -  [HTML Inspector](https://github.com/philipwalton/html-inspector){:rel="external"}

@@ -27,7 +27,7 @@ Prior, I served this site using GitHub pages. It’s no secret I found the proce
 
 I found Netlify easy to set-up and get underway.
 
-Netlify works by granting access to your code-base on Github. It then watches your chosen branch and every-time you push to the branch (it acts like [Jenkins](https://jenkins.io)) and builds then deploys it.
+Netlify works by granting access to your code-base on GitHub. It then watches your chosen branch and every-time you push to the branch (it acts like [Jenkins](https://jenkins.io)) and builds then deploys it.
 
 Netlify allow you to configure HTTPS and some basic controls over your domain, which are all most people need.
 

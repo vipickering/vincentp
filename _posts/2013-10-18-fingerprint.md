@@ -20,7 +20,7 @@ Fingerprint was born from a passing thought I had one day while designing a logi
 
 As the thought expanded in my mind, I realised this is something that could go further, *much, much further*.
 
-> When a user enters data in to your website or app they are feeding you information unique to their account, it's creating a digital legacy unique to them, so why not begin to shape the interface around that input?
+> When a user enters data in to your site or app they are feeding you information unique to their account, it's creating a digital legacy unique to them, so why not begin to shape the interface around that input?
 
 ## Leaving Your Mark
 

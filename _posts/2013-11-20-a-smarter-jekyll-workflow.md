@@ -10,7 +10,7 @@ category: Articles
 
 I selected [Jekyll](http://jekyllrb.com){:rel="external"} as the platform for my blog after trying out many other options. It’s a great blogging platform, and its balancing between code flexibility and simple blogging software really hits my sweet spot.
 
-One of the major selling points with Jekyll, is the tight integration with [Github Pages](http://pages.github.com){:rel="external"}. The easy deployment and removal of dealing with terrible hosting companies, FTP servers and all the usual deployment issues are a huge boon, especially when most people blog in their spare time. The last thing you want to deal with at 1AM is a server that has exceeded its bandwidth and gone down.
+One of the major selling points with Jekyll, is the tight integration with [GitHub Pages](http://pages.github.com){:rel="external"}. The easy deployment and removal of dealing with terrible hosting companies, FTP servers and all the usual deployment issues are a huge boon, especially when most people blog in their spare time. The last thing you want to deal with at 1AM is a server that has exceeded its bandwidth and gone down.
 
 ## Life Is Always Messy
 
@@ -18,11 +18,11 @@ The problem where this falls down is around the separation of development and li
 
 ## All Your Plans Unravel
 
-The recommended approach for using Jekyll with Github is to do all your development on a separate branch because your site is hosted on the master branch.
+The recommended approach for using Jekyll with GitHub is to do all your development on a separate branch because your site is hosted on the master branch.
 
 The theory goes that you develop a separate branch, but only commit the compiled code in to the master branch to be served. But when you start to apply that to a personal time-sensitive environment unless you remain incredibly disciplined, having eleventy-billion branches on the go becomes the norm as you try things out, some things work, some gestate and others are failed experiments, but it does become a headache and will inevitably lead to hours of manually merging code later.
 
-It starts to feel like the recommended approach is a bit of a bastardization of the Github branching methods to satisfy two environments on one repository.
+It starts to feel like the recommended approach is a bit of a bastardization of the GitHub branching methods to satisfy two environments on one repository.
 
 ## Time To Fix This
 
@@ -30,11 +30,11 @@ I hate bad workflows, and I do not want to give up my ability to play with code 
 
 So I came up with a simple stripped down way to have my cake and eat it.
 
-I tried quite a few approaches to making this work (even looking at Git sub-modules) but ultimately settled on two repos. Now I know that make some developers frown to have your code in two places but bear with me the logic is reasonably sound and it makes things much easier to manage.
+I tried quite a few approaches to making this work (even looking at git sub-modules) but ultimately settled on two repos. Now I know that make some developers frown to have your code in two places but bear with me the logic is reasonably sound and it makes things much easier to manage.
 
 I have a development environment, this is my standard Jekyll environment and repository. I created a sub folder called site and run Jekyll here so that I can add elements to the repository (such as a README that will not get compiled by accident). In here I develop locally, play with code and try things out, I commit often but I don’t have to worry if I swap and change between an unfinished blog post, code fix, update or anything else, I just write and commit, nothing gets lost, I can pick it up on another machine and carry on without getting myself tangled in knots.
 
-My second repository is my live site. This is my Github pages site and only contains the compiled live code, plus things like a CNAME file and various live only files.
+My second repository is my live site. This is my GitHub pages site and only contains the compiled live code, plus things like a CNAME file and various live only files.
 
 The final piece to the puzzle is that I have a very simple <a href="#automater">Automater</a> script that watches the _site compiled folder and copies the data in this to the live site repository. Automater is one of those tools that is quite powerful and often gets overlooked. It worth learning it can save you quite a lot of time in the long run, think [Grunt](http://gruntjs.com){:rel="external"} but for system tasks.
 
@@ -42,9 +42,9 @@ When it comes to deploying code from dev to live, I use Jekyll’s inbuilt metho
 
 Once I have done this I simply delete all the Jekyll files from the live repository, regenerate the site and commit.
 
-The entire process becomes very quick, it keeps your commits clean and targeted so you are always aware what is and isn’t in your committed code and not a branch swap in sight, everything is in the master. The beauty of this approach also means if you really want to use a branch on the development repository you still can, it’s not getting in the way of your usual use of Github it’s just abstracting the live deploy from the branching mess you had to begin with and giving you the freedom to use Github to it’s full power.
+The entire process becomes very quick, it keeps your commits clean and targeted so you are always aware what is and isn’t in your committed code and not a branch swap in sight, everything is in the master. The beauty of this approach also means if you really want to use a branch on the development repository you still can, it’s not getting in the way of your usual use of GitHub it’s just abstracting the live deploy from the branching mess you had to begin with and giving you the freedom to use GitHub to it’s full power.
 
-You also get the added bonus that your live site is self-contained so should you ever decide to not host it on Github you can just upload it where ever you like and keep using your dev environment set up as is.
+You also get the added bonus that your live site is self-contained so should you ever decide to not host it on GitHub you can just upload it where ever you like and keep using your dev environment set up as is.
 
 <h2 id="automater">Building The Automater Workflow.</h2>
 
