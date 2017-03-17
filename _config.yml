@@ -32,4 +32,6 @@ author:
   job : UI/UX Consultant
   name : Vincent Pickering
 
-# Gems
+# Exclude Files
+exclude:
+  - "postcss.config.js"
