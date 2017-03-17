@@ -1,24 +1,24 @@
-@import url("utility/_variables.css");
+@import url("utility/_variables.css")
 
 /* Import utility classes */
-@import url("utility/_normalise.css");
+@import url("utility/_normalise.css")
 
 /* Grid */
-@import url("grid/_grid.css");
+@import url("grid/_grid.css")
 
 /* Layout */
-@import url("layout/_display.css");
-@import url("layout/_margin.css");
-@import url("layout/_images.css");
-@import url("layout/_header.css");
-@import url("layout/_footer.css");
-@import url("layout/_nav.css");
-@import url("layout/_article.css");
-@import url("layout/_code.css");
-@import url("layout/_address.css");
+@import url("layout/_display.css")
+@import url("layout/_margin.css")
+@import url("layout/_images.css")
+@import url("layout/_header.css")
+@import url("layout/_footer.css")
+@import url("layout/_nav.css")
+@import url("layout/_article.css")
+@import url("layout/_code.css")
+@import url("layout/_address.css")
 
 /* Typography */
-@import url("typography/_links.css");
+@import url("typography/_links.css")
 
 /* Print */
-@import url("_print.css");
+@import url("_print.css")
