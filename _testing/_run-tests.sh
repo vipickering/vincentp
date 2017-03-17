@@ -1,6 +1,6 @@
 #!/bin/bash
 # Define list of urls for tests
-urls=(index about services articles)
+urls=(index about services)
 
 cd ../
 

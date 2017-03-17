@@ -1,0 +1,14 @@
+---
+layout: post
+title: "Replacing Pleeease with PostCSS"
+date: 2017-03-17
+modified: 2017-03-17
+meta: Replacing Pleeease with PostCSS
+summary: Where I discuss replacing Pleeease with PostCSS
+---
+
+In my [previous post](https://vincentp.me/blog/optimising-my-jekyll-workflow) I discussed streamlining some of my proceses and optimising my code.
+
+A month after publishing that post I needed to update my version of Node from an old version 4.5.0 that was needed for a client, to the latest 7.7.3 version. This unfortunately caused Pleeease to stop functioning.
+
+I [raised a bug ](https://github.com/iamvdo/pleeease/issues/82#issuecomment-287345139) with the author
