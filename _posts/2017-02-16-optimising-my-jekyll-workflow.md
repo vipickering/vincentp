@@ -23,7 +23,7 @@ This question, caused me to look at every aspect of the site down to the smalles
 
 I started with serving the site over HTTPS. Granted this blog is a static site built on Jekyll, there isn’t a whole lot to secure. But there are great speed benefits in serving over HTTPS and anything to assure the user they are in safe hands is a good thing.
 
-Prior, I served this site using GitHub pages. It’s no secret I found the process a little messy, but it was always better than dealing with FTP clients and the alternatives. This thought process lead me to the wonderful [Netlify](https://www.netlify.com/).
+Prior, I served this site using GitHub pages. It is no secret I found the process a little messy, but it was always better than dealing with FTP clients and the alternatives. This thought process lead me to the wonderful [Netlify](https://www.netlify.com/).
 
 I found Netlify easy to set-up and get underway.
 
@@ -53,7 +53,7 @@ Create CSS flexible enough to work with future code additions. Not overly prescr
 
 It’s a fair assumption that anyone reading my blog is in the web industry, and thus, not a leap to assume they are using a modern browser. I decided for this blog to embrace cutting edge web standards and just write CSS.
 
-Sass can be a needless abstraction these days and distance you from writing good code. I settled on using [pleeease](http://pleeease.io/) a Post CSS plugin.
+Sass can be a needless abstraction these days and distance you from writing good code. I settled on using [pleeease](http://pleeease.io/){:rel="external"} a Post CSS plugin.
 
 Pleeease allows me to write vanilla CSS. But it also provides modern Post CSS tooling such as:
 
@@ -78,7 +78,7 @@ Apply border-box to all elements, we get a lot of mileage out of declaring this 
 
 Set-up our CSS variables. Assigning all our variables at the root level applies to all cascading elements.
 
-**Update 17-02-2017** :  Since posting this, I spotted a small error. Edge 14 doesn’t support CSS variables, the Edge team are [working on it](https://developer.microsoft.com/en-us/microsoft-edge/platform/status/csscustompropertiesakacssvariables/).
+**Update 17-02-2017** :  Since posting this, I spotted a small error. Edge 14 doesn’t support CSS variables, the Edge team are [working on it](https://developer.microsoft.com/en-us/microsoft-edge/platform/status/csscustompropertiesakacssvariables/){:rel="external"}.
 
 ``` css
 :root {
@@ -186,7 +186,7 @@ Screen sizes below 640px have the running order on the footer containers re-arra
 
 Simple rules such as this can go a long way and reduce your page weight, while keeping you close to your real CSS output.
 
-You can see all my CSS code used on the blog [here](https://github.com/vipickering/vincentp/tree/master/_css). **I managed to reduce the entire CSS code-base down to 5KB** down from 20KB in the previous version.
+You can see all my CSS code used on the blog [here](https://github.com/vipickering/vincentp/tree/master/_css){:rel="external"}. **I managed to reduce the entire CSS code-base down to 5KB** down from 20KB in the previous version.
 
 ## Google Analytics
 

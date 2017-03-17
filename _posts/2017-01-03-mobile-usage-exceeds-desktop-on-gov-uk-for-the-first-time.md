@@ -8,7 +8,7 @@ summary: The GOVUK website user data is finally showing the mobile future, we we
 category: Articles
 ---
 
-I find the [gov.uk](https://gov.uk) site an endless resource of great knowledge on a cross-section of ‘real’ users in the UK, so while browsing the GOV UK [performance stats](https://www.gov.uk/performance/site-activity/device-type#from=2013-04-01T00:00:00Z&to=2017-01-01T00:00:00Z) today I spotted this:
+I find the [gov.uk](https://gov.uk){:rel="external"} site an endless resource of great knowledge on a cross-section of ‘real’ users in the UK, so while browsing the GOV UK [performance stats](https://www.gov.uk/performance/site-activity/device-type#from=2013-04-01T00:00:00Z&to=2017-01-01T00:00:00Z){:rel="external"} today I spotted this:
 
 <img src="/images/blog/2017-01-03/govuk-stats-dec-2016-jan-2017.png" width="612" alt="GOV UK Browser usage - DEC 2016 - JAN 2017"/>
 
