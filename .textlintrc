@@ -22,12 +22,12 @@
             "max" : 300
         },
         "max-comma": {
-            "max" : 3
+            "max" : 1
         },
         "unexpanded-acronym" : {
             "min_acronym_len" : 3,
             "max_acronym_len" : 5,
-            "ignore_acronyms" : ["OSS", "HTML", "SASS", "CSS", "HTTP", "HTTPS", "LESS", "FTP", "URL", "GOV"]
+            "ignore_acronyms" : ["OSS", "HTML", "SASS", "CSS", "HTTP", "HTTPS", "LESS", "FTP", "URL", "GOV", "GOV.UK"]
         },
         "terminology": {
             "defaultTerms": true,
