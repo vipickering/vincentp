@@ -11,7 +11,7 @@ I'm a stickler for good automated testing and being consistent in writing good c
 
 Part of this rhetoric is to define project specific automated tests that are easily repeatable and configurable. There are many tests you *may* want to do in a project, my tests stub usually starts with the following.
 
-* Mocha (or whatever your preferred test coding framwork is)
+* Mocha (or whatever your preferred test coding framwork)
 * Istanbull (code coverage tests)
 * Javascript lint checks (eslint is my preferred option)
 * SASS lint
