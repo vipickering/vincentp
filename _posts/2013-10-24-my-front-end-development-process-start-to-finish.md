@@ -157,7 +157,7 @@ To correct this I adopted a different direction, I took the components that re-o
 
 Once the code is complete, I run it through the [W3C Validators](http://validator.w3.org){:rel="external"} as a final sanity check and amend anything that may not be correct.
 
-If you enjoyed this post and found it helpful, you should follow me on <a href="{{site.author.twitter.url}}" rel="me" title="Twitter" rel="external">Twitter</a> where I am happy to chat further, also check the blog again soon where I will be sharing my cross platform mobile application design process.
+If you enjoyed this post and found it helpful, you should follow me on <a href="{{site.data.author.twitter.url}}" rel="me" title="Twitter" rel="external">Twitter</a> where I am happy to chat further, also check the blog again soon where I will be sharing my cross platform mobile application design process.
 
 <p class="updateHighlight"><b>Update:</b> I should point out that all my development is done on a Mac</p>
 

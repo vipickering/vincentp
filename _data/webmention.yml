@@ -1,0 +1,6 @@
+service:
+  webmention :
+    post: https://brid.gy/publish/webmention
+  twitter :
+    post: https://brid.gy/publish/twitter
+
