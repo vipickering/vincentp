@@ -10,7 +10,7 @@
   "scripts": {
     "start": "jekyll serve",
     "postcss": "postcss _css/application.css --config postcss.config.js --output _includes/application.css",
-    "dev": "postcss _css/application.css --config postcss.config.js --output _includes/application.css --watch & jekyll serve --drafts --watch --future"
+    "dev": "postcss _css/application.css --config postcss.config.js --output _includes/application.css --watch & jekyll serve --drafts --watch --future --incremental"
   },
   "repository": {
     "type": "git",
