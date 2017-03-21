@@ -1,0 +1,10 @@
+{% if page.layout == 'post' %}
+<!-- Webmentions -->
+<link rel="webmention" href="{{site.data.service.bridgy.webmention}}" />
+<link rel="webmention" href="{{site.data.service.bridgy.twitter}}" />
+{% endif %}
+
+{% if page.service == 'Twitter' %}
+    <!-- Webmentions -->
+    <link rel="webmention" href="{{site.data.service.bridgy.twitter}}" />
+{% endif %}
