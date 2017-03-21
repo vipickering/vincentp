@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "Optimising My Jekyll Workflow"
-date: 2017-02-16
-modified: 2017-02-16
+date: 2017-02-16 00:00:01
 meta: Jekyll Workflow
 summary: Where I discuss how I have optimised my Jekyll website, code-base and processes
 category: Articles

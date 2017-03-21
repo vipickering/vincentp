@@ -13,13 +13,13 @@
                 <ul>
                 {% if page.type == 'Articles' %}
                     {% for post in site.categories.Articles %}
-                        <li><a href="{{ post.url }}" class="smallText">{{ post.title }}</a> {% include dateTime.html %} </li>
+                        <li><a href="{{ post.url }}" class="smallText">{{ post.title }}</a> {% include date.html %} </li>
                     {% endfor %}
                 {% endif %}
 
                  {% if page.type == 'Notes' %}
                     {% for post in site.categories.Notes %}
-                        <li><a href="{{ post.url }}" class="smallText">{{ post.title }}</a> {% include dateTime.html %} </li>
+                        <li><a href="{{ post.url }}" class="smallText">{{ post.title }}</a> {% include date.html %} </li>
                     {% endfor %}
                 {% endif %}
                 </ul>

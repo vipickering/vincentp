@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Solving Twitters Mixed Metaphors
-date: 2013-07-11
-modified: 2013-07-11
+date: 2013-07-11 00:00:01
 meta: How to solve the problem of intent in a textual medium
 summary: Where I discuss Twitters mixed UI metaphors.
 category: Articles

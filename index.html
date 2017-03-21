@@ -18,18 +18,7 @@ summary :  A blog about front-end development techniques, HTML, CSS and Javascri
         <h2>Recent Activity</h2>
         {% for post in site.posts limit:5 %}
             <article itemscope itemtype="http://schema.org/Blog" class="h-entry recent-post">
-                 <time itemprop="dateCreated" class="dt-published" datetime="{{ post.date | date_to_xmlschema }}">
-                    {% assign d = post.date | date: "%d" | plus:'0' %}
-                    {{ post.date | date: "%B" }}
-                    {% case d %}
-                        {% when 1 or 21 or 31 %}{{ d }}<sup>st</sup>
-                        {% when 2 or 22 %}{{ d }}<sup>nd</sup>
-                        {% when 3 or 23 %}{{ d }}<sup>rd</sup>
-                    {% else %}
-                        {{ d }}<sup>th</sup>
-                    {% endcase %}
-                    {{ post.date | date: "%Y" }}
-                </time>
+                 {% include date.html %}
                 <h3 itemprop="headline" class="p-name"><a href="{{site.url}}{{ post.url }}">{{ post.title }}</a></h3>
                 <p class="p-summary link-padding">{{ post.summary }}</p>
             </article>

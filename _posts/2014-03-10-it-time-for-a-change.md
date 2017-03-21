@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "It’s Time For A Change"
-date: 2014-03-10
-modified: 2014-03-10
+date: 2014-03-10 00:00:01
 meta: There is a disconnect between how ideas are shared and taking that discussion further.
 summary: Where I discuss the disconnect between how ideas are shared and taking that discussion further.
 category: Articles
