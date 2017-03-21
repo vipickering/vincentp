@@ -10,12 +10,11 @@
         <main>
             <article itemscope itemtype="http://schema.org/Blog" class="h-entry">
                 {% include dateTime.html %}
-                {% include articleTitle.html %}
-                {% include syndication.html %}
-
                 <div class="e-content">
                     {{ content }}
                 </div>
+                  {% if post.reply %}<a class="u-in-reply-to" href="{{ post.reply}}"></a>{% endif %}
+                                  {% include time.html %}
             </article>
         </main>
 
@@ -23,10 +22,3 @@
         {% include footer.html %}
     </body>
 </html>
-
-
-<div class="h-entry">
-  <p class="e-content">{{ content }}</p>
-  <a class="u-in-reply-to" href="{{ post.reply}}"></a>
-  <a href="{{ post.service }}"></a>
-</div>

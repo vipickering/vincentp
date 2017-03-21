@@ -7,7 +7,7 @@ kramdown :
 
 # Outputting
 permalink : /blog/:title
-timezone: Europe/Berlin
+timezone: Europe/London
 # paginate: 20
 
 # Site Variables
