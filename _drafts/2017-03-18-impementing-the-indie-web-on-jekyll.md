@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "Impementing the Indie Web on Jekyll"
-date: 2017-03-18
-modified: 2017-03-18
+date: 2017-03-18 16:50:00
 meta: Take back ownership of your content with the Indie Web
 summary: Where I discuss implementing the Indie Web to take back control of your content
 category: Articles
