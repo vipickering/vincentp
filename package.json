@@ -1,6 +1,6 @@
 {
   "name": "vincentp.me",
-  "version": "7.0.0",
+  "version": "7.1.0",
   "description": "personal website",
   "main": "website/index.html",
   "author": "Vincent Pickering",
@@ -10,7 +10,7 @@
   "scripts": {
     "start": "jekyll serve",
     "postcss": "postcss _css/application.css --config postcss.config.js --output _includes/application.css",
-    "dev": "postcss _css/application.css --config postcss.config.js --output _includes/application.css --watch & jekyll serve --drafts --watch --future --incremental"
+    "dev": "postcss _css/application.css --config postcss.config.js --output _includes/application.css --watch & jekyll serve --drafts --watch --future"
   },
   "repository": {
     "type": "git",

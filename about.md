@@ -6,7 +6,7 @@ meta : "About Vincent Pickering Consultant Front-end Architect and Developer"
 summary : "About Vincent Pickering Consultant Front-end Architect and Developer"
 ---
 
-Hello, I'm Vincent Pickering a Consultant frontend Architect and Developer. With over 17 years experience, I work across a large breadth of industries and technologies.
+Hello, I'm {{site.data.author.name}} a {{site.data.author.job}} With over 17 years experience. I work across a large breadth of industries and technologies.
 
 **I'm [available for hire]({{site.url}}/services)**
 
@@ -24,9 +24,9 @@ During my career I have been incredibly fortunate to work on a diverse range of 
 
 I love a challenge or complex problems to solve. Tailoring solutions specifically to your business needs and skill levels. An expert at breaking down complex problems, explaining them in simple language. I can help you get to the root of a problem and communicate with all parts of your business what is happening.
 
-Check out my [services]({{site.url}}/services) or look me up on [LinkedIn](https://www.linkedin.com/in/vipickering).
+Check out my [services]({{site.url}}/services) or look me up on [LinkedIn]({{site.data.author.linkedin.url}}).
 
-If you have something specific to discuss please [contact me directly](mailto:hello@vincentp.me).
+If you have something specific to discuss please [contact me directly]({{site.data.author.email}}).
 
 A small sample of clients I've worked with:
 
@@ -48,7 +48,7 @@ In my spare time I contribute to open source projects including [Mozlla Nunjucks
 
 ## Colophon
 
-This site uses [Jekyll](https://jekyllrb.com/) and [GitHub](https://github.com/vipickering/vincentp), where the code for this site is [open source and available](https://github.com/vipickering/vincentp).
+This site uses [Jekyll](https://jekyllrb.com/) and [GitHub](https://github.com), where the code for this site is [open source and available]({{site.data.author.github.repo}}).
 
 The site is hosted by [Netlify](https://www.netlify.com/).
 

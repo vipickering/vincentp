@@ -14,7 +14,7 @@ Working with the team to aid in training and code support. I can help skill up y
 
 Consultancy work is specific to the client and project. Consider a retainer for periodic code reviews or extra training after the main engagement. Apply the renewed momentum and application of skills you have achieved.
 
-[Let's talk further](mailto:hello@vincentp.me?subject=Consultancy)
+[Let's talk further](mailto:{{site.data.author.email}}?subject=Consultancy)
 
 ## Development
 
@@ -30,4 +30,4 @@ I'm always happy to talk and discuss what needs I may be able to help you meet.
 
 Previous clients include [The UK Government](https://gov.uk) and [Capita](http://capita.com).
 
-[Let's talk further](mailto:hello@vincentp.me?subject=Development)
+[Let's talk further](mailto:{{site.data.author.email}}?subject=Development)
