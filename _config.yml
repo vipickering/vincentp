@@ -1,9 +1,19 @@
 # Markdown
 markdown : kramdown
 
+#Syntax Highlighting
 kramdown :
   hard_wrap : false
   # syntax_highlighter : rouge
+
+#Collections
+# collections:
+#   posts:
+#     output: true
+#     permalink: /blog/amp/:title/
+#     values:
+#       layout: amp
+
 
 # Outputting
 permalink : /blog/:title
@@ -19,3 +29,8 @@ version : v7.1
 # Exclude Files
 exclude:
   - "postcss.config.js"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "package.json"
+  - "node_modules"
+  - "LICENSE"
