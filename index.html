@@ -10,22 +10,21 @@ summary :  A blog about front-end development techniques, HTML, CSS and Javascri
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage">
-    {% include header.html %}
+        {% include header.html %}
 
-    <main>
-         {% include hcard.html %}
+        <main>
+             {% include hcard.html %}
 
-        <h2>Recent Activity</h2>
-        {% for post in site.posts limit:5 %}
-            <article itemscope itemtype="http://schema.org/Blog" class="h-entry recent-post">
-                 {% include date.html %}
-                <h3 itemprop="headline" class="p-name"><a href="{{site.url}}{{ post.url }}">{{ post.title }}</a></h3>
-                <p class="p-summary link-padding">{{ post.summary }}</p>
-            </article>
-        {% endfor %}
-    </main>
+            <h2>Recent Activity</h2>
+            {% for post in site.posts limit:5 %}
+                <article itemscope itemtype="http://schema.org/Blog" class="h-entry recent-post">
+                     {% include date.html %}
+                    <h3 itemprop="headline" class="p-name"><a href="{{site.url}}{{ post.url }}">{{ post.title }}</a></h3>
+                    <p class="p-summary link-padding">{{ post.summary }}</p>
+                </article>
+            {% endfor %}
+        </main>
 
-    {% include companyInfo.html %}
-    {% include footer.html %}
+        {% include footer.html %}
 </body>
 </html>

@@ -29,119 +29,11 @@ html {
 
 body {
     margin: 0;
-    padding: 20px;
-}
-
-time {
-    font-size: 0.8rem;
-    color: var(--red);
-    font-feature-settings: "kern" 1, "liga" 1, "calt" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0;
-}
-
-pre,
-code {
-    font-feature-settings: "kern" 0, "liga" 0, "calt" 1, "dlig" 0, "pnum" 0, "tnum" 1, "onum" 0, "lnum" 1, "zero" 1;
-}
-
-sup {
-    line-height: 0;
-    position: relative;
-    vertical-align: baseline;
-    font-feature-settings: "kern" 1, "liga" 1, "calt" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0, "dlig" 0, "sups" 1;
-}
-
-sup {
-    top: -0.5em;
-}
-
-em,
-blockquote > p {
-    font-style: italic;
-}
-
-address {
-    font-style: normal;
-}
-
-em {
-    font-weight: bold;
-}
-
-pre {
-    margin: 0;
     padding: 0;
 }
-
-blockquote {
-    border-left: 5px solid var(--lightGrey);
-    background-color: var(--paleGrey);
-    padding: 10px;
-    margin: 0 0 20px 0;
-}
-
-blockquote > p {
-    margin: 0;
-}
-
-figure {
-    margin: 0;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-time {
-    max-width: var(--column-width);
-    font-feature-settings: "kern" 1, "liga" 1, "calt" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0, "dlig" 1;
-}
-
-h1 {
-    margin: 0 0 20px 0;
-    text-transform: uppercase;
-    font-size: 1.84rem;
-}
-
-h2 {
-    margin: 20px 0 10px 0;
-    font-size: 1.2rem;
-    line-height: 1.4;
-}
-
-h3 {
-    margin: 0;
-    font-size: 1rem;
-    line-height: 1.4;
-}
-
-li,
-p {
-    color: var(--grey);
-    line-height: 1.5;
-    hyphens: none;
-    font-kerning: normal;
-}
-
-p { margin-top: 0; }
-
-.smallText { font-size: 0.8rem; }
 
 @media all and (min-width: 640px) {
     :root {
         font-size: 15px;
-    }
-
-    h1 {
-        font-size: 2rem;
-    }
-
-    h2 {
-        margin: 40px 0 10px 0;
-    }
-
-    pre > code {
-        font-size: 0.8rem;
     }
 }

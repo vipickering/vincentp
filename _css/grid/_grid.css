@@ -1,24 +1,26 @@
-body,
 .grid {
     display: flex;
     flex-flow: row wrap;
 }
 
-body > * {
+.grid-footer,
+main {
     display: block;
-    padding: 0;
     flex: 1 100%;
     min-width: 240px;
     max-width: 620px;
 }
 
-.grid-header > * {
+.grid-header {
     display: block;
     width: 100%;
+    text-align: center;
+    line-height: 30px;
 }
 
 @media all and (min-width: 640px) {
-    body > * {
+    .grid-header,
+    main {
         margin: auto;
         max-width: 740px;
         min-width: 620px;

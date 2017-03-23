@@ -1,7 +1,7 @@
 ---
 layout : "category"
 permalink : "/categories/notes/"
-title : "Content tagged: Notes"
+title : "Notes"
 meta : "All content tagged Notes by Vincent Pickering"
 summary : "All content tagged Notes by Vincent Pickering"
 type : Notes

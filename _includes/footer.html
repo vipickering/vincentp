@@ -1,7 +1,5 @@
-<footer class="vcard" itemscope itemtype="http://schema.org/Person" >
+<footer class="vcard grid" itemscope itemtype="http://schema.org/Person" >
     <div class="grid grid-footer">
-        {% include next-prev.html %}
-
         <address>
             <ul>
                 <li><a href="{{site.data.author.twitter.url}}"   itemprop="url" title="Twitter" rel="me">Twitter</a></li>
@@ -11,6 +9,6 @@
             </ul>
         </address>
 
-        <small role="contentinfo">&copy; 2017 <span itemprop="copyrightHolder" itemscope itemtype="http://schema.org/CreativeWork"><span itemprop="name">Vincent Pickering</span></span> ({{ site.version}})</small>
+        {% include companyInfo.html %}
     </div>
 </footer>

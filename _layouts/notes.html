@@ -10,6 +10,7 @@
         <main>
             <article itemscope itemtype="http://schema.org/Blog" class="h-entry">
                 {% include date.html %}
+                {% include articleTitle.html %}
                 <div class="e-content">
                     {{ content }}
                 </div>
@@ -18,7 +19,6 @@
             </article>
         </main>
 
-        {% include companyInfo.html %}
         {% include footer.html %}
     </body>
 </html>

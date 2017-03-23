@@ -1,0 +1,9 @@
+/*.companyDetails {
+    font-size: 0.5rem;
+    line-height: 1.2rem;
+}
+*/
+.companyDetails p {
+    margin: 0;
+    max-width: initial;
+}

@@ -6,6 +6,10 @@
 /* Grid */
 @import url("grid/_grid.css")
 
+/* Typography */
+@import url("typography/_links.css")
+@import url("typography/_type.css")
+
 /* Layout */
 @import url("layout/_display.css")
 @import url("layout/_margin.css")
@@ -13,12 +17,10 @@
 @import url("layout/_header.css")
 @import url("layout/_footer.css")
 @import url("layout/_nav.css")
+@import url("layout/_company.css")
 @import url("layout/_article.css")
 @import url("layout/_code.css")
-@import url("layout/_address.css")
-
-/* Typography */
-@import url("typography/_links.css")
+@import url("layout/_hcard.css")
 
 /* Print */
 @import url("_print.css")

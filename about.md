@@ -1,6 +1,6 @@
 ---
 layout : "about"
-title : "About Vincent Pickering"
+title : "About"
 meta : "About Vincent Pickering Consultant Front-end Architect and Developer"
 summary : "About Vincent Pickering Consultant Front-end Architect and Developer"
 ---

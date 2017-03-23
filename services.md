@@ -19,7 +19,7 @@ Consultancy work is specific to the client and project. Consider a retainer for 
 
 I also provide longer term development work. This coves all aspects of standards based, accessible, frontend development and [Node](https://nodejs.org/en/) services.
 
-There are a variety of ways you can engage with me :
+Types of work accepted:
 
 - Hiring me to create the initial code-base setting your team and project off in the right direction
 - Full-site development
