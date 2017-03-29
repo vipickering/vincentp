@@ -5,7 +5,7 @@ article {
 }
 
 article > *:not(.e-content):not(ul):not(ol),
-.e-content  > *:not(.highlighter-rouge):not(ul):not(ol){
+.e-content > *:not(.highlighter-rouge):not(ul):not(ol) {
     padding: 0 1rem 0 1rem;
 }
 

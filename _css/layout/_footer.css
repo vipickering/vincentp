@@ -7,13 +7,6 @@ footer {
     text-align: center;
 }
 
-/*footer::before {
-    content: '';
-    display: block;
-    padding: 10px 0 0 0;
-    border-top: 1px solid var(--lightGrey);
-}*/
-
 footer address {
     margin-bottom: 1rem;
 }
