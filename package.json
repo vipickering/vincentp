@@ -2,7 +2,7 @@
   "name": "vincentp.me",
   "version": "7.1.0",
   "description": "personal website",
-  "main": "website/index.html",
+  "main": "https://vincentp.me",
   "author": "Vincent Pickering",
   "homepage": "https://github.com/vipickering/vincentp#readme",
   "license": "ISC",
