@@ -3,14 +3,13 @@
     flex-flow: row wrap;
 }
 
-.grid-footer {
+.grid-footer,
+main {
     display: block;
     flex: 1 100%;
 }
 
 main {
-    display: block;
-    flex: 1 100%;
     min-width: 240px;
     max-width: 620px;
 }
