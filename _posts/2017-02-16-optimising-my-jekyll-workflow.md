@@ -3,14 +3,11 @@ layout: post
 title: "Optimising My Jekyll Workflow"
 date: 2017-02-16 00:00:01
 modified : 2017-03-15 22:00:00
+modifiedReason: to correct style, readability and punctuation
 meta: Jekyll Workflow
 summary: Where I discuss how I have optimised my Jekyll website, code-base and processes
 category: Articles
 ---
-<p><span class="dt-updated">
-    <strong>Updated <abbr class="value" title="2017-03-15 22:00">15-03-2017</abbr></strong> : to correct style, readability and punctuation.
-</span></p>
-
 ## Jekyll, Netlify and HTTPS
 
 Over the last 2 years I have experienced the greatest degree of happiness and change in my life. I got married, blessed with a beautiful child and started my own business. It’s been an intense couple of years and It’s fair to say the blog has been a little unloved as a result.

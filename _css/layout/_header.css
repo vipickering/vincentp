@@ -16,16 +16,16 @@ header .grid > * {
     margin-bottom: 30px;
 }
 
-/*
+
 header [itemprop="name"]::before {
     content: '\1F53B';
     width: 10px;
     height: 10px;
     display: inline-block;
     margin-right: 5px;
-    color:  var(--white);
+    color: var(--white);
 }
-*/
+
 
 @media all and (min-width: 640px) {
     header {

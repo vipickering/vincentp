@@ -90,9 +90,17 @@ p {
     font-kerning: normal;
 }
 
-p { margin-top: 0; }
+p {
+    margin-top: 0;
+}
 
-.smallText { font-size: 0.8rem; }
+.smallText {
+    font-size: 0.8rem;
+}
+
+.dt-updated{
+    color: var(--red);
+}
 
 @media all and (min-width: 640px) {
     h1 {
