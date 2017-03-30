@@ -1,16 +1,19 @@
 ---
 layout: post
 title: "Analysing Data To Enact Real World Change"
-date: 2013-05-18
-modified: 2013-05-18
+date: 2013-05-18 00:00:01
 meta: How the object's in our lives truly work with the Internet Of Things.
 summary: The internet of things isn't really working, context is lost.
+modified : 2017-03-20 16:17:00
 category: Articles
 ---
+<p><span class="dt-updated">
+    <strong>Updated <abbr class="value" title="2017-03-20 16:17:00">2017-03-20 at 16:17:00</abbr></strong> : to correct style
+</span></p>
 
 The “Internet of things” is starting to become a reality. Interconnected devices like [FitBit](http://fitbit.com "Fitbit"){:rel="external"}, [Withings Scale](http://www.withings.com/en/bodyanalyzer){:rel="external"}, [Nike Fuel Band](http://www.nike.com/Fuelband){:rel="external"}, [Google Glass](http://www.google.com/glass/start/){:rel="external"} and even your mobile phone can give us real-time access to hard data about ourselves. Never has humanity had such an opportunity to be able to really try to understand our own behaviour and to use that data to help ourselves grow and improve.
 
-## Calling a spade a spade
+## Being Realistic
 The tools we have to analyse the data often start out with well-meaning developers trying to simplify peoples lives. They do this by breaking down the information and giving users bite-sized chunks of data. It's unfortunately a slightly naïve way to solve the problem and quickly breaks down over time leading to a dashboard of "stats for the day":
 
 <figure>

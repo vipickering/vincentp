@@ -1,18 +1,16 @@
 article {
+    margin-top: 2rem;
     position: relative;
     z-index: 2;
 }
 
-.recent-post {
-    margin: 0 0 10px 0;
+article > *:not(.e-content):not(ul):not(ol),
+.e-content > *:not(.highlighter-rouge):not(ul):not(ol) {
+    padding: 0 1rem 0 1rem;
 }
 
-.e-content > ul,
-.e-content > ol,
-.e-content > p,
-.article-list > ul {
-    margin: 0 0 20px 0;
-    padding: 0;
+.recent-post {
+    margin: 0 0 1rem 0;
 }
 
 .e-content li,
@@ -24,24 +22,4 @@ article {
 .e-content > ol ol li,
 .article-list > ul ul li {
     margin-top: 7px;
-}
-
-.e-content > p,
-.e-content li,
-.article-list li {
-    max-width: var(--column-width);
-}
-
-.companyDetails {
-    text-transform: uppercase;
-    line-height: 1.2rem;
-    background-color: var(--blue);
-    padding: 0.5em 1em;
-    margin-bottom: 10px;
-    font-size: 0.667rem;
-}
-
-.companyDetails p {
-    margin: 0;
-    max-width: initial;
 }

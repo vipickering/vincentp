@@ -1,0 +1,15 @@
+.h-card {
+    text-align: center;
+    margin: 1rem;
+}
+
+.h-card + h2 {
+    margin: 2rem 1rem 0.5rem 1rem;
+    padding: 0;
+}
+
+@media all and (min-width: 640px) {
+    .h-card {
+        text-align: left;
+    }
+}

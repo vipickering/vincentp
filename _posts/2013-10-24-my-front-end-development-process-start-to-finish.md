@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "My Entire Front End Development Process From Start To Finish"
-date: 2013-10-24
-modified: 2013-10-24
+date: 2013-10-24 00:00:01
 meta: An overview of my web development tools and processes I use on a daily basis from start to finish
 summary: A complete breakdown of my web application process in 2013
 category: Articles
@@ -157,7 +156,7 @@ To correct this I adopted a different direction, I took the components that re-o
 
 Once the code is complete, I run it through the [W3C Validators](http://validator.w3.org){:rel="external"} as a final sanity check and amend anything that may not be correct.
 
-If you enjoyed this post and found it helpful, you should follow me on <a href="{{site.author.twitter.url}}" rel="me" title="Twitter" rel="external">Twitter</a> where I am happy to chat further, also check the blog again soon where I will be sharing my cross platform mobile application design process.
+If you enjoyed this post and found it helpful, you should follow me on <a href="{{site.data.author.twitter.url}}" rel="me" title="Twitter" rel="external">Twitter</a> where I am happy to chat further, also check the blog again soon where I will be sharing my cross platform mobile application design process.
 
 <p class="updateHighlight"><b>Update:</b> I should point out that all my development is done on a Mac</p>
 

@@ -1,0 +1,12 @@
+.hire-card {
+    padding: 1rem 0 1rem 0;
+    margin-top: 2rem;
+    text-align: center;
+    line-height: 1.4;
+    background-color: var(--green);
+}
+
+.hire-card > p {
+    color: var(--white);
+    margin: 0;
+}

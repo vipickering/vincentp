@@ -9,17 +9,13 @@
 
         <main>
             <article itemscope itemtype="http://schema.org/Blog" class="h-entry">
-                {% include dateTime.html %}
+                {% include date.html %}
                 {% include articleTitle.html %}
-                {% include syndication.html %}
-
                 <div class="e-content">
                     {{ content }}
-
-                    {% if page.modified %}
-                        <p><span class="dt-updated"><strong>Updated <abbr class="value" title=" {{ page.modified }}">15-03-2017</abbr></strong>:  {{ page.modifiedReason }}.</span></p>
-                    {% endif %}
                 </div>
+                    {% if post.reply %}<a class="u-in-reply-to" href="{{ post.reply}}"></a>{% endif %}
+                    {% include time.html %}
             </article>
         </main>
         {% include hire.html %}

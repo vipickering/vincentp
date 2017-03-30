@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "Better Automated Testing"
-date: 2017-02-27
-modified: 2017-02-27
+date: 2017-02-27 16:50:00
 meta: Using bash scripts for better automated testing
 summary: Where I discuss FED automated tests and a consistent method to implement them
+category: Articles
 ---
 
 I'm a stickler for good automated testing and being consistent in writing good code. When I work in other companies environments I always like to try and imbue in the collegues around me good testing practices and habits.

@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "No More Spoilers"
-date: 2017-02-20
-modified: 2017-02-20
+date: 2017-02-20 16:50:00
 meta: Stop spoiling yourself
 summary: Where I discuss various ways we could mark up spoilers
+category: Articles
 ---
 
 It's a familiar feeling. You open your browser and navigate to a website, as you scan down the page for articles to read, you see it.

@@ -1,0 +1,17 @@
+pinboard :
+  url: https://pinboard.in/u:monkeymajiks/profile/public/
+  username: monkeymajiks
+github :
+  url : https://www.github.com/vipickering
+  repo : https://github.com/vipickering/vincentp
+  username: vipickering
+twitter :
+  url : https://twitter.com/vipickering
+  username : vipickering
+linkedin :
+  url : https://www.linkedin.com/in/vipickering
+  username : vipickering
+feed : http://vincentp.me/feed.xml
+email : hello@vincentp.me
+job : Consultant Frontend Architect
+name : Vincent Pickering

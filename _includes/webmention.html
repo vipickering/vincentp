@@ -1,0 +1,14 @@
+{% if page.layout == 'post' %}
+<!-- Webmentions
+This will post a webmention to the bridgy service and notify bridgy to push to twitter
+-->
+<link rel="webmention" href="{{site.data.service.bridgy.webmention}}" />
+<link rel="webmention" href="{{site.data.service.bridgy.twitter}}" />
+{% endif %}
+
+{% if page.service == 'Twitter' %}
+<!-- Webmentions
+This will post notify bridgy to push to twitter
+-->
+ <link rel="webmention" href="{{site.data.service.bridgy.twitter}}" />
+{% endif %}

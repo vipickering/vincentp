@@ -1,24 +1,34 @@
-body,
 .grid {
     display: flex;
     flex-flow: row wrap;
 }
 
-body > * {
+.grid-footer,
+main {
     display: block;
-    padding: 0;
     flex: 1 100%;
+}
+
+main {
     min-width: 240px;
     max-width: 620px;
 }
 
-.grid-header > * {
+.grid-header {
     display: block;
     width: 100%;
+    text-align: center;
+    line-height: 30px;
 }
 
 @media all and (min-width: 640px) {
-    body > * {
+    .grid-header {
+        display: flex;
+        text-align: left;
+    }
+
+    .grid-header,
+    main {
         margin: auto;
         max-width: 740px;
         min-width: 620px;
@@ -26,26 +36,5 @@ body > * {
 
     .grid-header > * {
         flex: 2 50%;
-    }
-
-    .grid-footer > * {
-        flex: 3 33%;
-    }
-
-    .grid-footer > nav {
-        order: 2;
-    }
-
-    .grid-footer > address {
-        order: 3;
-        text-align: right;
-    }
-
-    .grid-footer > small {
-        order: 1;
-    }
-
-    .grid-footer > :nth-child(0n+1) {
-        text-align: left;
     }
 }

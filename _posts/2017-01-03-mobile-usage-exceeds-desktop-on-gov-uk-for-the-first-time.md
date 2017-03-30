@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "Mobile Usage Exceeds Desktop On GOV.UK For First Time"
-date: 2017-01-03
-modified: 2017-01-03
+date: 2017-01-03 00:00:01
 meta: GOV.UK is a pretty good measure of the UK’s overall mobile usage versus desktop
 summary: The GOV.UK website user data is finally showing the mobile future, we were all promised.
 category: Articles

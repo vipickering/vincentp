@@ -1,8 +1,8 @@
 {
   "name": "vincentp.me",
-  "version": "7.0.0",
+  "version": "7.1.0",
   "description": "personal website",
-  "main": "website/index.html",
+  "main": "https://vincentp.me",
   "author": "Vincent Pickering",
   "homepage": "https://github.com/vipickering/vincentp#readme",
   "license": "ISC",
@@ -10,7 +10,9 @@
   "scripts": {
     "start": "jekyll serve",
     "postcss": "postcss _css/application.css --config postcss.config.js --output _includes/application.css",
-    "dev": "postcss _css/application.css --config postcss.config.js --output _includes/application.css --watch & jekyll serve --drafts --watch --future"
+    "lint" : "stylelint '_css/*/*.css'",
+    "dev": "postcss _css/application.css --config postcss.config.js --output _includes/application.css --watch & jekyll serve --drafts --watch --future",
+    "production": "jekyll serve JEKYLL_ENV=production"
   },
   "repository": {
     "type": "git",
@@ -21,6 +23,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^6.7.7",
+    "crass": "^0.10.2",
     "css-mqpacker": "^5.0.1",
     "cssnano": "^3.10.0",
     "postcss-cli": "^3.0.0",
