@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Optimising My Jekyll Workflow"
-date: 2017-02-16 00:00:01
-modified : 2017-03-15 22:00:00
+date: 2017-02-16 00:00:01 +/-GMT
+modified : 2017-03-15 22:00:00 +/-GMT
 modifiedReason: to correct style, readability and punctuation
 meta: Jekyll Workflow
 summary: Where I discuss how I have optimised my Jekyll website, code-base and processes

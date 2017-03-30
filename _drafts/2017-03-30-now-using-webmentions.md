@@ -1,7 +1,7 @@
 ---
 layout: notes
 title: "The blog now supports Webmentions"
-date: 2017-03-30 11:20:00
+date: 2017-03-30 11:20:00 +/-GMT
 meta: First webmention tweet from my blog
 summary : Announcing Webmention support on my blog
 service : Twitter

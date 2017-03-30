@@ -5,6 +5,6 @@
 {% endif %}
 
 <time itemprop="dateCreated" class="dt-published" datetime="{{ pubDate | date_to_xmlschema }}">
-{{ pubDate | date: "%I" }}:{{ pubDate | date: "%M%P" }}
+    {{ pubDate | date: "%Y"}}:{{ pubDate | date: "%M%P" }}
 </time>
 
