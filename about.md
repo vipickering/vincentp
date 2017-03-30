@@ -25,7 +25,7 @@ I love a challenge or complex problems to solve. Tailoring solutions specificall
 
 Check out my [services]({{site.url}}/services) or look me up on [LinkedIn]({{site.data.author.linkedin.url}}).
 
-If you have something specific to discuss please [contact me directly]({{site.data.author.email}}).
+If you have something specific to discuss please [contact me directly](mailto:{{site.data.author.email}}).
 
 A small sample of clients I've worked with:
 
