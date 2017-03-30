@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Analysing Data To Enact Real World Change"
-date: 2013-05-18 00:00:01
+date: 2013-05-18 00:00:01 +/-GMT
 meta: How the object's in our lives truly work with the Internet Of Things.
 summary: The internet of things isn't really working, context is lost.
 modified : 2017-03-20 16:17:00

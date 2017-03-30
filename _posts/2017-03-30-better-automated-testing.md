@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Better Automated Testing"
-date: 2017-03-30 16:50:00
+date: 2017-03-30 18:00:00 +/-GMT
 meta: Using bash scripts for better automated testing
 summary: Where I discuss FED automated tests and a consistent method to implement them
 category: Articles
@@ -9,7 +9,7 @@ category: Articles
 
 I'm a stickler for automated testing and being consistent in writing good code. When I work in a company environment I always imbue good testing practices and habits in the colleagues around me.
 
-Part of this rhetoric is to define project specific automated tests that are repeatable and configurable.
+Part of my rhetoric is to define project specific automated tests that are configurable.
 
 There are a plethora of tests you *may* want to do in a project, my tests stub starts with the following:
 
@@ -25,11 +25,11 @@ There are a plethora of tests you *may* want to do in a project, my tests stub s
 
 I create two bash scripts. One that runs through the tests and one to create screenshots of the site at different sizes.
 
-Screenshots create a snapshot of a page in time. This is helpful to print all the iterations out on a wall and discuss with designers, developers and usability people. Screenshots are helpful for circulating to non-technical stakeholders in the business or product owners. This allows stakeholders to see the outcome of new features and prompts them for feedback.
+Screenshots form a focal discussion point with designers, developers and usability people.
 
-Running the test script through Jenkins (or your preferred alternative), with linting and validation tests also hooked up to your task runner of choice via a watch task.
+Screenshots are helpful for circulating to non-technical stakeholders in the business. This allows stakeholders to see the outcome of new features and prompts them for feedback.
 
-This process ensures simple coding style check results get to the coder at the right time. In case a rebel developer doesn't play by the rules, Jenkins would catch them later.
+Run the test script through Jenkins (or your preferred alternative). I also run linting and validation tests hooked up to a task runner, sharing the same configuration rules. This process ensures simple coding style check results get to the coder at the right time. In case a rebel developer doesn't play by the rules, Jenkins would catch them later.
 
 In environments where companies don't use a build server. Add the script to a git hook.
 
@@ -93,7 +93,7 @@ Node_port=3000
 lsof -i tcp:${Node_port} | awk 'NR!=1 {print $2}' | xargs kill
 ```
 
-This is how to define an array in a bash script. It is useful technique to use as this creates a single point of truth for like objects you want to test and it keeps your scripts much shorter.
+This is how to define an array in a bash script. A useful technique to create a single point of truth for common objects to test.
 
 I define key pages to test at the start of the script, for accessibility testing and broken link checks.
 
@@ -110,7 +110,7 @@ echo "Starting Mocha tests"
 npm run test
 ```
 
-Here is a snippet from the package.json file where you can see running ```npm run test``` will call the Istanbul script and run mocha.
+This is a snippet from a package.json file. Running ```npm run test``` will call the Istanbul script and run mocha.
 
 ```
  "scripts": {
@@ -122,7 +122,7 @@ Here is a snippet from the package.json file where you can see running ```npm ru
   },
 ```
 
-Further down the script you can see the broken link checker inside a loop. Assign each item in turn to a variable and pass it in to the URL prepending with the ```blc``` command to run the check.
+Further down the script the broken link checker is inside a loop. I assign each item to a variable and pass it in to the <acronym title="Uniform Resource Locator">URL</acronym> prepending with the ```blc``` command to run the check.
 
 ```
 # Run Broken Link Checker
@@ -132,7 +132,7 @@ do
 done
 ```
 
-When running the accessibility checks, I loop through the URLS and then pipe the result in to a folder named “accessibility” and a file named the URL.
+Loop through the <acronym title="Uniform Resource Locator">URL</acronym>s and then pipe the accessibility reports in to a folder named “accessibility” and a file named the <acronym title="Uniform Resource Locator">URL</acronym>.
 
 ```
 # Pa11y accesibility checks
@@ -157,3 +157,5 @@ lsof -i tcp:${Node_port} | awk 'NR!=1 {print $2}' | xargs kill
 I run text linting in a separate script. Writing is subjective so it shouldn't fail the build.
 
 My [text-lint config](https://github.com/vipickering/vincentp/blob/master/.textlintrc) is on GitHub and a list of tech terms validated against on the blog in [this Gist](https://gist.github.com/vipickering/73c14510fd40b0ec4ba6b5c5d323bee4).
+
+Running bash scripts such as this  will catch fixable problems. Leaving you free to ponder over the trickier issues that need attention.
