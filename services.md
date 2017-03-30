@@ -17,7 +17,7 @@ Consultancy work is specific to the client and project. Consider a retainer for 
 
 ## Development
 
-I also provide longer term development work. This coves all aspects of standards based, accessible, frontend development and [Node](https://nodejs.org/en/) services.
+I also provide longer term development work. This coves all aspects of standards based, accessible frontend development and [Node](https://nodejs.org/en/) services.
 
 Types of work accepted:
 
