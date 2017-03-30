@@ -94,11 +94,11 @@ p {
     margin-top: 0;
 }
 
-.smallText {
-    font-size: 0.8rem;
+small {
+    font-size: 0.5rem;
 }
 
-.dt-updated{
+.dt-updated {
     color: var(--red);
 }
 

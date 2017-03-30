@@ -10,7 +10,6 @@
   "scripts": {
     "start": "jekyll serve",
     "postcss": "postcss _css/application.css --config postcss.config.js --output _includes/application.css",
-    "crass" : "crass _includes/application.css --optimize --O1  --css4 > _includes/application.min.css",
     "lint" : "stylelint '_css/*/*.css'",
     "dev": "postcss _css/application.css --config postcss.config.js --output _includes/application.css --watch & jekyll serve --drafts --watch --future"
   },

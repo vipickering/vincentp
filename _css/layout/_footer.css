@@ -20,7 +20,6 @@ footer * {
     font-family: var(--body-font);
     text-transform: uppercase;
     color: inherit;
-    font-size: inherit;
 }
 
 footer ul {

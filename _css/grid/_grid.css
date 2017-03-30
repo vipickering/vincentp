@@ -3,7 +3,11 @@
     flex-flow: row wrap;
 }
 
-.grid-footer,
+.grid-footer {
+    display: block;
+    flex: 1 100%;
+}
+
 main {
     display: block;
     flex: 1 100%;
@@ -19,6 +23,11 @@ main {
 }
 
 @media all and (min-width: 640px) {
+    .grid-header {
+        display: flex;
+        text-align: left;
+    }
+
     .grid-header,
     main {
         margin: auto;
@@ -28,26 +37,5 @@ main {
 
     .grid-header > * {
         flex: 2 50%;
-    }
-
-    .grid-footer > * {
-        flex: 3 33%;
-    }
-
-    .grid-footer > nav {
-        order: 2;
-    }
-
-    .grid-footer > address {
-        order: 3;
-        text-align: right;
-    }
-
-    .grid-footer > small {
-        order: 1;
-    }
-
-    .grid-footer > :nth-child(0n+1) {
-        text-align: left;
     }
 }

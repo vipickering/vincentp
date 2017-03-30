@@ -32,6 +32,6 @@ body {
 
 @media all and (min-width: 640px) {
     :root {
-        font-size: 15px;
+        font-size: 19px;
     }
 }
