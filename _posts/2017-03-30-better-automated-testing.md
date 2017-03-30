@@ -1,0 +1,159 @@
+---
+layout: post
+title: "Better Automated Testing"
+date: 2017-03-30 16:50:00
+meta: Using bash scripts for better automated testing
+summary: Where I discuss FED automated tests and a consistent method to implement them
+category: Articles
+---
+
+I'm a stickler for automated testing and being consistent in writing good code. When I work in a company environment I always imbue good testing practices and habits in the colleagues around me.
+
+Part of this rhetoric is to define project specific automated tests that are repeatable and configurable.
+
+There are a plethora of tests you *may* want to do in a project, my tests stub starts with the following:
+
+* [Mocha](https://mochajs.org) or whatever your preferred test coding framework is.
+* [Istanbul](https://github.com/gotwarlost/istanbul)  for code coverage tests.
+* JavaScript coding style checks, [ESLint](http://eslint.org) is my preferred option.
+* Sass coding style checks, [stylelint](https://stylelint.io) is my go to tool.
+* HTML validation tests with [Valimate](https://github.com/jamesseanwright/valimate)
+* [Broken Link Checker](https://github.com/stevenvachon/broken-link-checker).
+* Accessibility Checks with [Pa11y](http://pa11y.org)
+* Screenshot software, I like [Pageres](https://github.com/sindresorhus/pageres-cli).
+* [Textlint](https://textlint.github.io) to check for typos and writing style.
+
+I create two bash scripts. One that runs through the tests and one to create screenshots of the site at different sizes.
+
+Screenshots create a snapshot of a page in time. This is helpful to print all the iterations out on a wall and discuss with designers, developers and usability people. Screenshots are helpful for circulating to non-technical stakeholders in the business or product owners. This allows stakeholders to see the outcome of new features and prompts them for feedback.
+
+Running the test script through Jenkins (or your preferred alternative), with linting and validation tests also hooked up to your task runner of choice via a watch task.
+
+This process ensures simple coding style check results get to the coder at the right time. In case a rebel developer doesn't play by the rules, Jenkins would catch them later.
+
+In environments where companies don't use a build server. Add the script to a git hook.
+
+Here is a sample script. I will step through some of the important points.
+
+```
+#!/bin/bash
+# Runs ALL TESTS
+
+# Define list of urls for tests
+urls=(page1 page2 page3 page4 page5)
+
+echo "Please Note: An internet connection is REQUIRED for all tests to run successfully"
+
+# Mocha unit tests
+echo "Starting Mocha tests"
+npm run test
+
+# Start Node in test mode in background
+npm run testing --scripts-prepend-node-path &
+
+# Wait for the Node Server to start up
+echo "Waiting for Node to start..."
+sleep 5
+
+# Javascript Lint checks
+echo "Starting esLint..."
+eslint -c testing/configs/.eslintrc.json */*.js
+
+# Sass Lint checks
+echo "Starting Sass Lint..."
+sass-lint -c testing/configs/.sass-lint.yml 'assets/scss/*.scss' -v -q
+# open -g testing/linting/sass-lint.html
+
+# Run Valimate HTML validation tests
+cd testing/configs
+valimate
+
+cd ../
+
+# Run Broken Link Checker
+for i in "${urls[@]}"
+do
+    blc http://localhost:3000/$i
+done
+
+# Pa11y accesibility checks
+echo "Starting Pa11y..."
+for i in "${urls[@]}"
+do
+    pa11y http://localhost:3000/$i --reporter html > accessibility/$i.html
+    # open -g accessibility/$i.html
+    echo $i processed
+done
+echo "Finished Pa11y"
+
+echo "Tests Complete"
+
+# Kill the running processes afterwards
+Node_port=3000
+lsof -i tcp:${Node_port} | awk 'NR!=1 {print $2}' | xargs kill
+```
+
+This is how to define an array in a bash script. It is useful technique to use as this creates a single point of truth for like objects you want to test and it keeps your scripts much shorter.
+
+I define key pages to test at the start of the script, for accessibility testing and broken link checks.
+
+```
+# Define list of urls for tests
+urls=(page1 page2 page3 page4 page5)
+```
+
+When I start Mocha I use an [npm run script](https://docs.npmjs.com/cli/run-script). The test command code is in my package.json file. The more site specific code we can move to one place, such as the package.json file, the better. The test script will be more portable which is always a good thing.
+
+```
+# Mocha unit tests
+echo "Starting Mocha tests"
+npm run test
+```
+
+Here is a snippet from the package.json file where you can see running ```npm run test``` will call the Istanbul script and run mocha.
+
+```
+ "scripts": {
+    "start": "NODE_ENV=dev node ./bin/server.js",
+    "dev": "NODE_ENV=dev node ./bin/server.js",
+    "prod": "NODE_ENV=prod node ./bin/server.js",
+    "test": "istanbul cover node_modules/.bin/_mocha -- testing/mocha/**/*",
+    "testing": "NODE_ENV=test node ./bin/server.js"
+  },
+```
+
+Further down the script you can see the broken link checker inside a loop. Assign each item in turn to a variable and pass it in to the URL prepending with the ```blc``` command to run the check.
+
+```
+# Run Broken Link Checker
+for i in "${urls[@]}"
+do
+    blc http://localhost:3000/$i
+done
+```
+
+When running the accessibility checks, I loop through the URLS and then pipe the result in to a folder named “accessibility” and a file named the URL.
+
+```
+# Pa11y accesibility checks
+echo "Starting Pa11y..."
+for i in "${urls[@]}"
+do
+    pa11y http://localhost:3000/$i --reporter html > accessibility/$i.html
+    echo $i processed
+done
+echo "Finished Pa11y"
+```
+
+Prevent the process running after the tests have completed.
+
+```
+# Kill the running processes afterwards
+Node_port=3000
+lsof -i tcp:${Node_port} | awk 'NR!=1 {print $2}' | xargs kill
+
+```
+
+I run text linting in a separate script. Writing is subjective so it shouldn't fail the build.
+
+My [text-lint config](https://github.com/vipickering/vincentp/blob/master/.textlintrc) is on GitHub and a list of tech terms validated against on the blog in [this Gist](https://gist.github.com/vipickering/73c14510fd40b0ec4ba6b5c5d323bee4).

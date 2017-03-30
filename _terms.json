@@ -19,6 +19,8 @@
   "Java",
   "Jenkins",
   "Flash Player",
+  ["url", "URL"],
+  ["urls", "URLS"],
   ["IPhone", "iPhone"],
   ["microsoft", "Microsoft"],
   ["firefox", "Firefox"],
