@@ -11,3 +11,8 @@ category: Notes
 Tweets can now push from my website, using [Webmenton](https://brid.gy/publish/webmention), [Bridgy](https://brid.gy/) and [Netlify](https://www.netlify.com/).
 Now I just need to pull back in the replies!
 #OwnYourContent #IndieWeb
+
+<!--
+curl -d 'source=https://vincentp.me/blog/better-automated-testing&target=http://brid.gy/publish/twitter' \
+  https://brid.gy/publish/webmention
+   -->
