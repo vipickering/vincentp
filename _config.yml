@@ -35,3 +35,6 @@ exclude:
   - "package.json"
   - "node_modules"
   - "LICENSE"
+
+include:
+  - "_headers"
