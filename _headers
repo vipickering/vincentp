@@ -1,0 +1,5 @@
+/*
+  Link: </images/vincentp-300.jpg>; rel=preload; as=image
+  Link: </images/vincentp.jpg>; rel=preload; as=image
+/assets/*
+Cache-Control: public, max-age=2628000
