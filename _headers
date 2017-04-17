@@ -7,3 +7,5 @@
     X-Content-Type-Options: nosniff
 /assets/*
     Cache-Control: public, max-age=262800
+    ExpiresByType: image/jpg "access plus 1 year"
+    ExpiresByType: image/png "access plus 1 year"
