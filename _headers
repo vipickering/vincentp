@@ -1,11 +1,5 @@
-# All paths
 /*
-    # Block site from being framed with X-Frame-Options and CSP
-    Content-Security-Policy: frame-ancestors 'none'
-    X-Frame-Options: DENY
-# Prevent browsers from incorrectly detecting non-scripts as scripts
-    X-Content-Type-Options: nosniff
-/assets/*
-    Cache-Control: public, max-age=262800
-    ExpiresByType: image/jpg "access plus 1 year"
-    ExpiresByType: image/png "access plus 1 year"
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: public, max-age=262800
