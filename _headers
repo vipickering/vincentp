@@ -5,10 +5,5 @@
     X-Frame-Options: DENY
 # Prevent browsers from incorrectly detecting non-scripts as scripts
     X-Content-Type-Options: nosniff
-/*
-    Link: <https://vincentp.me/images/vincentp-300.jpg>; rel=preload; as=image
-    Link: <https://vincentp.me/images/vincentp.jpg>; rel=preload; as=image
-    Link: <https://vincentp.me/favicon-16x16.png>; rel=preload; as=image
-    Link: <https://vincentp.me/favicon-32x32.png>; rel=preload; as=image
 /assets/*
     Cache-Control: public, max-age=262800
