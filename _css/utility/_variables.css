@@ -1,5 +1,6 @@
 :root {
     --black: rgba(17, 17, 17, 1);
+    --code-colour: rgba(232, 232, 232, 1);
     --grey: rgba(35, 36, 31, 1);
     --lightGrey: rgba(138, 138, 138, 0.5);
     --white: rgba(255, 255, 255, 1);

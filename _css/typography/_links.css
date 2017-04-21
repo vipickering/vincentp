@@ -19,3 +19,19 @@ a:focus {
     transition: 0.2s;
     outline: none;
 }
+
+a.primary {
+    background-color: var(--black);
+    color: var(--white);
+    text-decoration: none;
+    padding: 0.5rem;
+    border-radius: 2px;
+}
+
+a:hover.primary,
+a:focus.primary {
+    color: var(--white);
+    background-color: var(--red);
+    text-decoration: none;
+    transition: 0.2s;
+}

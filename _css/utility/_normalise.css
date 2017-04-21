@@ -29,9 +29,3 @@ body {
     margin: 0;
     padding: 0;
 }
-
-@media all and (min-width: 640px) {
-    :root {
-        font-size: 19px;
-    }
-}

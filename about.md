@@ -7,7 +7,7 @@ summary : "About Vincent Pickering Consultant Front-end Architect and Developer"
 
 Hello, I'm {{site.data.author.name}} a {{site.data.author.job}} With over 17 years experience. I work across a large breadth of industries and technologies.
 
-**I'm [available for hire]({{site.url}}/services)**
+<a href="{{site.url}}/services" class="primary">Currently available for hire</a>
 
 ## About
 
