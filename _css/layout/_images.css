@@ -6,7 +6,7 @@ img {
 
 figure {
     margin: 20 0 20px 0;
-    max-width: var(--column-width);
+    max-width: 35em;
     line-height: 1.6;
 }
 
@@ -19,5 +19,5 @@ figcaption {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    border: 1px solid var(--black);
+    border: 1px solid rgba(17, 17, 17, 1);
 }

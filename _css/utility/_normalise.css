@@ -7,16 +7,17 @@
 }
 
 :root {
-    font-family: var(--body-font);
-    background-color: var(--white);
-    color: var(--black);
+    font-family: -apple-system-body, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(17, 17, 17, 1);
     font-size: 16px;
+    font-weight: 100;
     text-rendering: geometricPrecision;
 }
 
 ::selection {
-    background-color: var(--red);
-    color: var(--white);
+    background-color: rgba(200, 53, 57, 1);
+    color: rgba(255, 255, 255, 1);
 }
 
 html {

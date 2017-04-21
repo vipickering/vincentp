@@ -1,11 +1,12 @@
 .siteNav ul {
-    margin: 0;
+    margin: 1rem 0 0 0;
     padding: 0;
 }
 
 .siteNav li {
     display: inline-block;
     list-style: none;
+    margin-bottom: 0;
 }
 
 .siteNav li::after {
@@ -20,6 +21,7 @@
 
 @media all and (min-width: 640px) {
     .siteNav ul {
+        margin: 0;
         float: right;
     }
 }
