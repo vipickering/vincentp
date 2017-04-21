@@ -13,16 +13,16 @@ a:hover {
 }
 
 a:focus {
-    color: var(--white);
-    background-color: var(--red);
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(200, 53, 57, 1);
     text-decoration: none;
     transition: 0.2s;
     outline: none;
 }
 
 a.primary {
-    background-color: var(--black);
-    color: var(--white);
+    background-color: rgba(17, 17, 17, 1);
+    color: rgba(255, 255, 255, 1);
     text-decoration: none;
     padding: 0.5rem;
     border-radius: 2px;
@@ -30,8 +30,8 @@ a.primary {
 
 a:hover.primary,
 a:focus.primary {
-    color: var(--white);
-    background-color: var(--red);
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(200, 53, 57, 1);
     text-decoration: none;
     transition: 0.2s;
 }

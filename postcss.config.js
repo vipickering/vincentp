@@ -4,7 +4,7 @@ module.exports = {
     require('postcss-import')({}),
     require('stylelint')({}),
     require('css-mqpacker')({}),
-    require('autoprefixer')({'browsers': '> 5%'}),
+    require('autoprefixer')({'browsers': 'last 2 versions'}),
     require('cssnano')({})
   ]
 }

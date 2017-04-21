@@ -1,10 +1,8 @@
 time {
     font-size: 0.85rem;
     text-transform: uppercase;
-    font-weight: 700;
-    color: var(--red);
-    letter-spacing: 0.05rem;
-    font-feature-settings: "kern" 1, "liga" 1, "calt" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0;
+    color: rgba(200, 53, 57, 1);
+    letter-spacing: 0.005rem;
 }
 
 code {
@@ -15,11 +13,9 @@ sup {
     position: relative;
     line-height: 0;
     top: -0.5em;
-    font-weight: 700;
     font-size: 0.625rem;
     text-transform: lowercase;
     vertical-align: baseline;
-    font-feature-settings: "kern" 1, "liga" 1, "calt" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0, "dlig" 0, "sups" 1;
 }
 
 em,
@@ -41,8 +37,8 @@ pre {
 }
 
 blockquote {
-    border-left: 5px solid var(--lightGrey);
-    background-color: var(--paleGrey);
+    border-left: 5px solid rgba(138, 138, 138, 0.5);
+    background-color: rgba(35, 36, 31, 1);
     padding: 10px;
     margin: 0 0 20px 0;
 }
@@ -62,12 +58,13 @@ h4,
 h5,
 h6,
 time {
-    max-width: var(--column-width);
-    font-feature-settings: "kern" 1, "liga" 1, "calt" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0, "dlig" 1;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    max-width: 35em;
 }
 
 h1 {
     margin: 0 0 1rem 0;
+    font-weight: 300;
     text-transform: capitalize;
     font-size: 1.84rem;
 }
@@ -75,8 +72,9 @@ h1 {
 h2 {
     margin: 0;
     padding: 0;
-    font-size: 1rem;
-    letter-spacing: 0.01rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+    letter-spacing: 0.005rem;
     text-transform: uppercase;
     line-height: 1.4;
 }
@@ -87,16 +85,17 @@ h3 {
     line-height: 1.4;
 }
 
-li,
-p {
-    color: var(--grey);
-    line-height: 1.5;
-    hyphens: none;
-    font-kerning: normal;
+ul,
+ol {
+    margin: 0 0 1.4rem 0;
 }
 
+li,
 p {
-    margin-top: 0;
+    color: rgba(35, 36, 31, 1);
+    margin: 0 0 1.4rem 0;
+    line-height: 1.5;
+    font-weight: 100;
 }
 
 small {
@@ -104,7 +103,7 @@ small {
 }
 
 .dt-updated {
-    color: var(--red);
+    color: rgba(200, 53, 57, 1);
 }
 
 .textReset {
@@ -113,12 +112,6 @@ small {
     letter-spacing: initial;
 }
 
-@media all and (min-width: 640px) {
-    h1 {
-        font-size: 2rem;
-    }
-
-    h2 {
-        margin: 40px 0 10px 0;
-    }
+p + h2 {
+    margin-top: 3rem;
 }

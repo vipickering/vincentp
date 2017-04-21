@@ -3,10 +3,10 @@
     margin-top: 2rem;
     text-align: center;
     line-height: 1.4;
-    background-color: var(--green);
+    background-color: rgba(14, 142, 14, 1);
 }
 
 .hire-card > p {
-    color: var(--white);
+    color: rgba(255, 255, 255, 1);
     margin: 0;
 }

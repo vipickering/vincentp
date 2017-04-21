@@ -5,7 +5,7 @@ meta : "Vincent Pickering Consultant Front-end Architect and Developer Services"
 summary : "Vincent Pickering Consultant Front-end Architect and Developer Services"
 ---
 
-## Frontend Consultancy and Code Reviews
+## Consultancy and Code Reviews
 
 I believe good consultancy happens face to face on site.  I will speak with project stakeholders building a clear picture of the problem(s) or issues that your team face.
 
