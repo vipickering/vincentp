@@ -2,7 +2,7 @@ header {
     position: relative;
     font-family: var(--body-font);
     text-transform: uppercase;
-    font-size: 0.667rem;
+    font-size: 0.625rem;
     padding: 0.5rem 0 0.5rem 0;
     color: var(--white);
     background-color: var(--black);

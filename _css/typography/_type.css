@@ -1,22 +1,25 @@
 time {
-    font-size: 0.8rem;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    font-weight: 700;
     color: var(--red);
+    letter-spacing: 0.05rem;
     font-feature-settings: "kern" 1, "liga" 1, "calt" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0;
 }
 
 code {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
 
 sup {
-    line-height: 0;
     position: relative;
+    line-height: 0;
+    top: -0.5em;
+    font-weight: 700;
+    font-size: 0.625rem;
+    text-transform: lowercase;
     vertical-align: baseline;
     font-feature-settings: "kern" 1, "liga" 1, "calt" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0, "dlig" 0, "sups" 1;
-}
-
-sup {
-    top: -0.5em;
 }
 
 em,
@@ -64,15 +67,17 @@ time {
 }
 
 h1 {
-    margin: 0 0 2rem 0;
-    text-transform: uppercase;
+    margin: 0 0 1rem 0;
+    text-transform: capitalize;
     font-size: 1.84rem;
 }
 
 h2 {
-    margin: 2rem 0 0.5rem 0;
+    margin: 0;
     padding: 0;
-    font-size: 1.2rem;
+    font-size: 1rem;
+    letter-spacing: 0.01rem;
+    text-transform: uppercase;
     line-height: 1.4;
 }
 
@@ -95,11 +100,17 @@ p {
 }
 
 small {
-    font-size: 0.5rem;
+    font-size: 0.625rem;
 }
 
 .dt-updated {
     color: var(--red);
+}
+
+.textReset {
+    text-transform: lowercase;
+    font-weight: 400;
+    letter-spacing: initial;
 }
 
 @media all and (min-width: 640px) {

@@ -1,7 +1,7 @@
 div.highlighter-rouge {
     overflow-x: auto;
     margin-bottom: 1rem;
-    background-color: var(--paleBlue);
+    background-color: var(--grey);
 }
 
 pre > code {
@@ -12,12 +12,12 @@ pre > code {
 p > code {
     font-size: 85%;
     display: inline-block;
-    background-color: var(--paleBlue);
+    background-color: var(--grey);
 }
 
 code {
     font-family: var(--code-font);
-    color: var(--black);
+    color: var(--code-colour);
     padding: 0 5px 0 5px;
     line-height: 1.8;
 }
