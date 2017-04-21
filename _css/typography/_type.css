@@ -58,7 +58,7 @@ h4,
 h5,
 h6,
 time {
-    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-family: -apple-system-headline, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     max-width: 35em;
 }
 

@@ -1,0 +1,5 @@
+@supports (font: -apple-system-body) {
+    :root {
+        font: -apple-system-body;
+    }
+}
