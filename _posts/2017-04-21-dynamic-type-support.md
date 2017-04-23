@@ -36,7 +36,7 @@ font: -apple-system-short-footnote;
 font: -apple-system-tall-body;
 ```
 
-You will notice this is the short-hand method. It is actually setting a multiple properties under the hood dynamically:
+You will notice this is the short-hand method. It is actually setting multiple properties under the hood dynamically:
 
 - font-family
 - font-weight
