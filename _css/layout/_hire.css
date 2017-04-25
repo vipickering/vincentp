@@ -3,7 +3,12 @@
     margin-top: 2rem;
     text-align: center;
     line-height: 1.4;
+    color: rgba(255, 255, 255, 1);
     background-color: rgba(8, 87, 8, 1);
+}
+
+.hire-card p {
+    color: rgba(255, 255, 255, 1);
 }
 
 .hire-card a {
