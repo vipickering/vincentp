@@ -6,7 +6,6 @@
     background-color: rgba(14, 142, 14, 1);
 }
 
-.hire-card > p {
+.hire-card a {
     color: rgba(255, 255, 255, 1);
-    margin: 0;
 }
