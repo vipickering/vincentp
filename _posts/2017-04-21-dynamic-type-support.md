@@ -19,7 +19,7 @@ If your unfamiliar with Dynamic Text on iOS this is Apple's accessibility soluti
 
 A lesser known fact is that this [works in Safari](https://webkit.org/blog/3709/using-the-system-font-in-web-content/). In the past it was problematic to add support in this way due to the way Dynamic Text is implemented. Let me explain.
 
-We can support Dynamic Text by writing ***any of the following*** in our CSS:
+We can support Dynamic Text by writing any of the following in our CSS:
 
 ```
 font: -apple-system-body;
@@ -57,7 +57,7 @@ To provide a high level of accessibility and legibility I already use a font sta
 
 All I needed to do was update my stack to override my pre-set values if Dynamic Text has been turned on.
 
-These days this is *much easier* using ```@supports```
+These days it is much easier using ```@supports```
 
 All I had to do was add the following code at the end of my file.
 
@@ -69,7 +69,7 @@ All I had to do was add the following code at the end of my file.
 }
 ```
 
-This ensures *if* the user has turned on Dynamic Text then pre-set values will be overridden and the Dynamic values used.
+This ensures if the user has turned on Dynamic Text then pre-set values will be overridden and the Dynamic values used.
 
 If you have access to iOS give it a try and [let me know what you think]({{site.data.author.twitter.url}}).
 

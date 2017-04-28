@@ -6,6 +6,7 @@
 }
 
 main {
+    display: block; /* IE 11 support */
     margin: auto;
     min-width: 240px;
     max-width: 620px;
