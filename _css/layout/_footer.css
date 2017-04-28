@@ -29,8 +29,11 @@ footer li {
 
 footer li::after {
     display: inline-block;
-    margin: 0 2px 0 4px;
-    content: "/";
+    margin: 0 2px 0 2px;
+    content: "•";
+    width: 20px;
+    height: 10px;
+    color: rgba(255, 255, 255, 1);
 }
 
 footer li:last-child::after {
