@@ -5,21 +5,15 @@ footer {
     color: rgba(255, 255, 255, 1);
     background-color: rgba(17, 17, 17, 1);
     text-align: center;
+    text-transform: uppercase;
+}
+
+footer a {
+    color: rgba(255, 255, 255, 1);
 }
 
 footer address {
     margin-bottom: 1rem;
-}
-
-footer .grid > * {
-    display: block;
-    width: 100%;
-}
-
-footer * {
-    font-family: -apple-system-body, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
-    color: inherit;
 }
 
 footer ul {
@@ -28,18 +22,26 @@ footer ul {
 }
 
 footer li {
+    margin-bottom: 0;
     display: inline-block;
     list-style: none;
 }
 
 footer li::after {
     display: inline-block;
-    margin: 0 2px 0 4px;
-    content: "/";
+    margin: 0 2px 0 2px;
+    content: "•";
+    width: 20px;
+    height: 10px;
+    color: rgba(255, 255, 255, 1);
 }
 
 footer li:last-child::after {
     content: none;
+}
+
+footer small {
+    display: block;
 }
 
 @media all and (min-width: 640px) {

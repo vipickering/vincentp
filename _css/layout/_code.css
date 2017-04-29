@@ -6,7 +6,7 @@ div.highlighter-rouge {
 
 pre > code {
     display: block;
-    padding: 1em;
+    padding: 1rem;
 }
 
 p > code {
@@ -18,6 +18,6 @@ p > code {
 code {
     font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
     color: rgba(232, 232, 232, 1);
-    padding: 0 5px 0 5px;
+    padding: 0 0.3rem 0 0.3rem;
     line-height: 1.8;
 }

@@ -1,29 +1,28 @@
-.grid {
-    display: flex;
-    flex-flow: row wrap;
-}
-
-.grid-footer,
-main {
-    display: block;
-    flex: 1 100%;
-}
-
-main {
-    min-width: 240px;
-    max-width: 620px;
-}
-
 .grid-header {
+    padding: 0;
     display: block;
     width: 100%;
     text-align: center;
 }
 
+main {
+    display: block; /* IE 11 support */
+    margin: auto;
+    min-width: 240px;
+    max-width: 620px;
+}
+
 @media all and (min-width: 640px) {
     .grid-header {
-        display: flex;
+        padding: 0 1rem 0 1rem;
         text-align: left;
+    }
+
+    @supports (display: grid) {
+        .grid-header {
+            display: grid;
+            grid-template-columns: 50% 50%;
+        }
     }
 
     .grid-header,
@@ -31,9 +30,5 @@ main {
         margin: auto;
         max-width: 740px;
         min-width: 620px;
-    }
-
-    .grid-header > * {
-        flex: 2 50%;
     }
 }
