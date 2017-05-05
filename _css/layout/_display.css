@@ -1,3 +1,7 @@
 [aria-hidden="true"] {
     display: none;
 }
+
+.inline-block {
+    display: inline-block;
+}

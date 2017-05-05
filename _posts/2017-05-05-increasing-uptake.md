@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Increasing Uptake"
-date: 2017-05-05 10:00:00 +/-GMT
+date: 2017-05-05 08:50:00 +/-GMT
 meta: Increasing uptake in Government services.
 summary: How we can incentivise users to engage with a digital service.
 category: Articles
