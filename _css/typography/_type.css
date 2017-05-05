@@ -31,6 +31,11 @@ em {
     font-weight: bold;
 }
 
+abbr[title] {
+    text-decoration: none;
+    border-bottom: 1px dotted black;
+}
+
 pre {
     margin: 0;
     padding: 0;
