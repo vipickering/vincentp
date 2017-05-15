@@ -26,6 +26,7 @@
     "crass": "^0.10.2",
     "css-mqpacker": "^5.0.1",
     "cssnano": "^3.10.0",
+    "postcss-cachebuster": "^0.1.4",
     "postcss-cli": "^3.0.0",
     "postcss-copy": "^6.2.1",
     "postcss-import": "^9.1.0",
