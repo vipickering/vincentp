@@ -1,6 +1,6 @@
 /
   Link: </css/application.css>; rel=preload; as=style
-  Link: </images/vincentp.jpg>; rel=preload; as=image
+  Link: </images/vincentp.jpg?v=800>; rel=preload; as=image
   Cache-Control: private,max-age=0
 /*
 X-Frame-Options: DENY
