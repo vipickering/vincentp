@@ -11,11 +11,11 @@
 @import url("layout/_display.css");
 @import url("layout/_images.css");
 @import url("layout/_header.css");
-@import url("layout/_footer.css");
 @import url("layout/_nav.css");
 @import url("layout/_article.css");
 @import url("layout/_code.css");
 @import url("layout/_hcard.css");
+@import url("layout/_footer.css");
 @import url("layout/_hire.css");
 
 /* Dynamic Type, overwrite other values if on iOS */

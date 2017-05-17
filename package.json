@@ -11,6 +11,7 @@
     "start": "jekyll serve",
     "postcss": "postcss _css/application.css --config postcss.config.js --output _includes/application.css",
     "lint": "stylelint '_css/*/*.css'",
+    "uglify" : "uglifyjs _js/service-worker.js -o service-worker.min.js -c",
     "dev": "postcss _css/application.css --config postcss.config.js --output _includes/application.css --watch & jekyll serve --drafts --watch --future",
     "production": "jekyll serve JEKYLL_ENV=production"
   },
@@ -23,13 +24,15 @@
   },
   "devDependencies": {
     "autoprefixer": "^6.7.7",
-    "crass": "^0.10.2",
     "css-mqpacker": "^5.0.1",
     "cssnano": "^3.10.0",
     "postcss-cli": "^3.0.0",
     "postcss-copy": "^6.2.1",
     "postcss-import": "^9.1.0",
-    "stylelint": "^7.9.0"
+    "stylelint": "^7.9.0",
+    "uglify-js": "^3.0.5"
   },
   "dependencies": {}
 }
+
+
