@@ -1,9 +1,9 @@
-let cacheName = 'vincentp:0001';
-let cacheFiles = ['/', '/offline', 'vincentp.jpg', '/categories/articles/', '/services/', '/about', '/blog/use-cases-for-calc'];
+var cacheName = 'vincentp:0001';
+var cachePages = ['/', '/offline', '/services', '/about', 'images/vincentp.jpg?v=800', 'manifest.json'];
 
 self.addEventListener('install', function (event) {
   event.waitUntil(caches.open(cacheName).then(function (cache) {
-    return cache.addAll(cacheFiles);
+    return cache.addAll(cachePages);
   }));
 });
 
@@ -23,9 +23,7 @@ self.addEventListener('fetch', function (event) {
 
 // Empty out any caches that don’t match the ones listed.
 self.addEventListener('activate', function (event) {
-  // let bla = document.getElementsByTagName("body");
-  // bla.className = "test";
-  let cacheWhitelist = ['vincentp:0001'];
+  var cacheWhitelist = ['vincentp:0001'];
 
   event.waitUntil(caches.keys().then(function (cacheNames) {
     return Promise.all(cacheNames.map(function (cacheName) {

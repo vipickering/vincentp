@@ -1,13 +1,11 @@
 <script>
-  if ('serviceWorker' in navigator) {
-    window.addEventListener('load', function() {
-      navigator.serviceWorker.register('service-worker.min.js').then(function(registration) {
-        // Successfully registered the Service Worker
-        console.log('Service Worker registration successful with scope: ', registration.scope);
-      }).catch(function(err) {
-        // Failed to register the Service Worker
-        console.log('Service Worker registration failed: ', err);
-      });
+if (navigator.serviceWorker) {
+    navigator.serviceWorker.register('/service-worker.min.js', {
+        scope: '/'
     });
-  }
-</script>
+    window.addEventListener('load', function() {
+        if (navigator.serviceWorker.controller) {
+            navigator.serviceWorker.controller.postMessage({'command': 'trimCaches'});
+        }
+    });
+}</script>

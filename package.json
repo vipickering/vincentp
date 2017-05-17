@@ -11,7 +11,7 @@
     "start": "jekyll serve",
     "postcss": "postcss _css/application.css --config postcss.config.js --output _includes/application.css",
     "lint": "stylelint '_css/*/*.css'",
-    "uglify" : "uglifyjs javascripts/service-worker.js -o service-worker.min.js -c",
+    "uglify" : "uglifyjs _js/service-worker.js -o service-worker.min.js -c",
     "dev": "postcss _css/application.css --config postcss.config.js --output _includes/application.css --watch & jekyll serve --drafts --watch --future",
     "production": "jekyll serve JEKYLL_ENV=production"
   },
