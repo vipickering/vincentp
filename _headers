@@ -3,3 +3,4 @@ X-Frame-Options: DENY
 X-Content-Type-Options: nosniff
 X-XSS-Protection: 1; mode=block
 Cache-Control: public, max-age=31536000
+Link: <application.css>; rel="preload"; as="style"
