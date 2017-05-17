@@ -1,7 +1,6 @@
 /
   Link: </css/style.css>; rel=preload; as=stylesheet
-  Link: </service-worker.min.js>; rel=preload; as=script
-  Link: </vincentp.jpg>; rel=preload; as=image
+  Link: </images/vincentp.jpg>; rel=preload; as=image
   Cache-Control: private,max-age=0
 /*
 X-Frame-Options: DENY
