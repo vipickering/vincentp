@@ -16,7 +16,6 @@ self.addEventListener('fetch', function (event) {
     return fetch(event.request);
   }).catch(function () {
     // Can't access the network return an offline page from the cache
-    console.log("trying to redirect");
     return caches.match('/offline');
   }));
 });
