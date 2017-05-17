@@ -1,5 +1,5 @@
 /
-  Link: </css/style.css>; rel=preload; as=stylesheet
+  Link: </css/style.css>; rel=preload; as=style
   Link: </images/vincentp.jpg>; rel=preload; as=image
   Cache-Control: private,max-age=0
 /*
