@@ -1,3 +1,7 @@
+/
+  Link: </service-worker.js>; rel=preload; as=script
+  Link: </images/vincentp.jpg?v=800.jpg>; rel=preload; as=image
+  Cache-Control: private,max-age=0
 /*
 X-Frame-Options: DENY
 X-Content-Type-Options: nosniff
