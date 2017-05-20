@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Jekyll Blog Speed"
-date: 2017-05-19 12:00:00 +/-GMT
+date: 2017-05-20 10:15:00 +/-GMT
 meta: Jekyll .
 summary: Reducing the time to meaningful first paint Jekyll blog
 category: Articles
@@ -178,34 +178,39 @@ Stepping through this line by line.
 
 It is important that we only send the absolute vital content this way. The aim is to render the page above the fold as quick as possible. Don't flood this file with anything that isn't absolutely vital. Keep the requests few and the files as small as possible.
 
-A good technique to increase rendering this way is to move only the essential CSS content needed above the fold to an inline file and put the rest of the content in an external CSS file. You then use Server Push to send the external file at the point the page is requested. Critical styles inline mean the page is rendered almost instantly and anything out of the viewport is rendered quickly without the round trip delay.
+A good technique to increase rendering speed is to move only the essential CSS content needed above the fold to an inline file. The rest of the CSS content is put in an external file. You then use Server Push to send the external file at the point the page is requested. Critical styles inline mean the page is rendered almost instantly and anything out of the viewport is rendered quickly without the round trip delay.
 
-I implemented Server Push, and inlining only my critical resources and tested my site using [Webpagetest.org](https://www.webpagetest.org/).
+I implemented Server Push, inline only my critical resources and tested my site using [Webpagetest.org](https://www.webpagetest.org/).
 
-To my surprise I found that I had actually increased my Time To First Paint by 200ms!!
+To my surprise I found that I had actually increased my Time To First Paint by 300ms!!
 
-```
-/
-  Link: </service-worker.min.js>; rel=preload; as=script
-  Link: </images/vincentp.jpg?v=800.jpg>; rel=preload; as=image
-  Cache-Control: private,max-age=0
-/*
-X-Frame-Options: DENY
-X-Content-Type-Options: nosniff
-X-XSS-Protection: 1; mode=block
-Cache-Control: public, max-age=31536000
-```
+I've concluded that this is down to my total payload of the HTML + all my CSS inline being under 15kb (15kb is the maximum that can be sent back in the initial request).
 
+I am deferring my service worker until after the page is loaded. Any request for a resource happens, after the initial 15kb is received and processed, but before the server has finished sending any additional assets. Due to the files being so small I could see in multiple tests on [Webpagetest.org](https://www.webpagetest.org) that resource were being sent twice. Once from the header and once requested from the page.
 
-
-I've concluded that this is simply down to my CSS being so small, splitting across inline and a linked file takes the browser a fraction of extra time to put it all together. I've used this technique with larger sites before to great success. I can only assume our return is diminished as the file size of the CSS decreases.
-
-**It would be interesting to know what this threshold is**,  if this is the case.
+I've used this technique with larger sites before to great success. So I believe this is definitely down to the overall payload being under 15kb, unless someone can point out a flaw in my logic?
 
 ## Recap
 
-What I have done
+So to recap what I have done.
 
-## Here be dragons
+- I implemented a service worker.
+- I adding caching to my assets by using a query parameter.
+- I added cache control to my headers file.
+- I inlined all my CSS due to its small file size.
+- I tried to use Server Push, but didn't see any benefit. Again possibly due to my smaller file sizes.
 
-Because of my implementation here is the crazy extra thing.
+<figure>
+  <figcaption>And here is the benchmark result on Speed Test</figcaption>
+  <img src="/images/blog/2017-05-20/result.png " width="740" alt="A Screenshot Of The Speed Result Benchmark"/>
+</figure>
+
+All my code is [available on my repo]({{site.data.author.github.url}}/vincentp). So feel free to dig through it and [ask me any questions on Twitter]({{site.data.author.twitter.url}})
+
+## Here Be Dragons
+
+Given this exercise and my conclusion to inline all my CSS there is now one small, tiny problem. Each page now contains a reasonable chunk of CSS that isn't required per page.
+
+A future (and potentially mad) exercise is to only import the styles I need in to each template. I've been mulling over various implementations with Jekyll for this and potentially ditching PostCSS and moving back to Gulp to facilitate a more complex set-up.
+
+The complexity of implementing different CSS files per template, versus any speed difference noticed by the end user for such small margins could be a rather fun blog post for the future.
