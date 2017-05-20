@@ -2,7 +2,7 @@
 layout: post
 title: "Jekyll Blog Speed"
 date: 2017-05-20 10:15:00 +/-GMT
-meta: Jekyll .
+meta: time to first paint blog speed .
 summary: Reducing the time to meaningful first paint Jekyll blog
 category: Articles
 ---
@@ -25,17 +25,19 @@ After implementing the service worker I achieved the 100 score on the Lighthouse
 
 Firstly I wanted to ensure that assets got cached if they hadn't changed and users only downloaded newly updated content.
 
-There is a really simple way to do this using Jekyll global variables. Open up your _config.yml file and add the following line:
+There is a really simple way to do this using Jekyll global variables. Open up your ```_config.yml``` file and add the following line:
 
 ```
 version : 100
 ```
 
-Next any asset you want cached add a question mark followed by an equals sign then call the Jekyll site variable like so:
+Next any asset you want cached add a question mark followed by an equals sign then call the Jekyll site variable like so
 
+{%raw%}
 ```
 <img src="images/vincentp.jpg?v={{site.version}}" class="u-photo" width="100" height="100" alt="Vincent Pickering">
 ```
+{%endraw%}
 
 In essence (this is telling the browser that by using the query parameter in the URL)  if URL has changed the content has changed so fetch it again.
 
