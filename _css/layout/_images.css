@@ -1,12 +1,10 @@
 img {
     border-style: none;
     width: 100%;
-    max-width: 35em;
 }
 
 figure {
     margin: 0 0 2rem 0;
-    max-width: 35rem;
     line-height: 1.6;
 }
 
