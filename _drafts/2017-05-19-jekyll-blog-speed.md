@@ -180,9 +180,23 @@ It is important that we only send the absolute vital content this way. The aim i
 
 A good technique to increase rendering this way is to move only the essential CSS content needed above the fold to an inline file and put the rest of the content in an external CSS file. You then use Server Push to send the external file at the point the page is requested. Critical styles inline mean the page is rendered almost instantly and anything out of the viewport is rendered quickly without the round trip delay.
 
-I implemented Server Push, and inlined only my critical resources and tested my site using [Webpagetest.org](https://www.webpagetest.org/).
+I implemented Server Push, and inlining only my critical resources and tested my site using [Webpagetest.org](https://www.webpagetest.org/).
 
 To my surprise I found that I had actually increased my Time To First Paint by 200ms!!
+
+```
+/
+  Link: </service-worker.min.js>; rel=preload; as=script
+  Link: </images/vincentp.jpg?v=800.jpg>; rel=preload; as=image
+  Cache-Control: private,max-age=0
+/*
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: public, max-age=31536000
+```
+
+
 
 I've concluded that this is simply down to my CSS being so small, splitting across inline and a linked file takes the browser a fraction of extra time to put it all together. I've used this technique with larger sites before to great success. I can only assume our return is diminished as the file size of the CSS decreases.
 
