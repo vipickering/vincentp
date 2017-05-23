@@ -35,7 +35,7 @@ Next any asset you want cached add a question mark followed by an equals sign th
 
 {%raw%}
 ```
-<img src="images/vincentp.jpg?v={{site.version}}" class="u-photo" width="100" height="100" alt="Vincent Pickering">
+<img src="{{site.url}}/images/vincentp.jpg?v={{site.version}}" class="u-photo" width="100" height="100" alt="Vincent Pickering">
 ```
 {%endraw%}
 
@@ -204,7 +204,7 @@ So to recap what I have done.
 
 <figure>
   <figcaption>And here is the benchmark result on Speed Test</figcaption>
-  <img src="/images/blog/2017-05-20/result.png " width="740" alt="A Screenshot Of The Speed Result Benchmark"/>
+  <img src="{{site.url}}/images/blog/2017-05-20/result.png " width="740" alt="A Screenshot Of The Speed Result Benchmark"/>
 </figure>
 
 All my code is [available on my repo]({{site.data.author.github.url}}/vincentp). So feel free to dig through it and [ask me any questions on Twitter]({{site.data.author.twitter.url}})
