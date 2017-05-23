@@ -9,7 +9,7 @@ category: Articles
 
 I find the [GOV.UK](https://gov.uk){:rel="external"} site an endless resource of great knowledge on a cross-section of ‘real’ users in the United Kingdom, so while browsing the GOV.UK [performance stats](https://www.gov.uk/performance/site-activity/device-type#from=2013-04-01T00:00:00Z&to=2017-01-01T00:00:00Z){:rel="external"} today I spotted this:
 
-<img src="/images/blog/2017-01-03/govuk-stats-dec-2016-jan-2017.png" width="612" alt="GOV.UK Browser usage - DEC 2016 - JAN 2017"/>
+<img src="{{site.url}}/images/blog/2017-01-03/govuk-stats-dec-2016-jan-2017.png" width="612" alt="GOV.UK Browser usage - DEC 2016 - JAN 2017"/>
 
 I think this is an important moment. **For the first time the paradigm shift from desktop to mobile is significant enough that GOV.UK and its services needs to think mobile first**. It would appear to be almost at the tipping point in the UK where we access the internet more on smartphones than desktops.
 
@@ -17,7 +17,7 @@ Techies have waxed lyrical for years that mobile outstrips desktop. This data is
 
 It struck me this data might be a minor blip, so I zoomed out and looked at the data in a wider context. I rolled the stats back to Apr 2013 (the earliest permitted) and saw 2 interesting things:
 
-<img src="/images/blog/2017-01-03/govuk-stats-apr-2013-jan-2017.png" width="612" alt="GOV.UK Browser usage - DEC 2016 - JAN 2017"/>
+<img src="{{site.url}}/images/blog/2017-01-03/govuk-stats-apr-2013-jan-2017.png" width="612" alt="GOV.UK Browser usage - DEC 2016 - JAN 2017"/>
 
 1) The rise of mobile and decline of desktop is evident here over the near 3 year time frame.
 

@@ -52,5 +52,5 @@ That's great, but I want custom bullet points. Got you covered. To do this, you 
 
 <figure>
   <figcaption>To indent or exdent your margins, change the value the arrow is pointing at</figcaption>
-  <img src="/images/blog/2013-10-21/paragraph-panel.png" alt="The paragraph panel in Photoshop" />
+  <img src="{{site.url}}/images/blog/2013-10-21/paragraph-panel.png" alt="The paragraph panel in Photoshop" />
 </figure>

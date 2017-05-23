@@ -15,14 +15,14 @@ The night took place at Jam in Headingly, we were greeted at the door and escort
 
 <figure>
   <figcaption>The whole event had a fantastic decor and set the tone</figcaption>
-  <img src="/images/blog/2013-11-19/bar.jpg " width="612" alt="Decor"/>
+  <img src="{{site.url}}/images/blog/2013-11-19/bar.jpg " width="612" alt="Decor"/>
 </figure>
 
 At the bar, we had a choice of some interesting wines, fantastic beers and sparkling wines. I opted for some Madonna Pils, an Italian take on Czech Pilsner which was a total triumph, much softer than traditional Czech lager but still had the punch. My partner opted for a glass of sparkling wine which also went down very quickly!
 
 <figure>
   <figcaption>beer served in wine bottles. I could get used to this.</figcaption>
-  <img src="/images/blog/2013-11-19/pils.jpg " width="612" alt="Madonna Pils"/>
+  <img src="{{site.url}}/images/blog/2013-11-19/pils.jpg " width="612" alt="Madonna Pils"/>
 </figure>
 
 After drinks, [we were shown a short video](http://www.youtube.com/embed/uqvTK-PE3jA){:rel="external"} to illustrate the theme of the evening, which was clearly the inspiration for our first course.
@@ -31,7 +31,7 @@ We were then shown to our seats ready for the theatre to begin.
 
 <figure>
   <figcaption>I liked the mobile phone rests, a fun addition.</figcaption>
-  <img src="/images/blog/2013-11-19/phone-rest.jpg " width="612" alt="Quirky Phone Rests"/>
+  <img src="{{site.url}}/images/blog/2013-11-19/phone-rest.jpg " width="612" alt="Quirky Phone Rests"/>
 </figure>
 
 Each course was served along with accompanying music, which was a fun addition.
@@ -50,7 +50,7 @@ To follow the first course, we were served Pane Di Risotto Milanese on a long tr
 
 <figure>
   <figcaption>Colaturo butter, fresh bread and a bone marrow topped with risotto milanese bread.</figcaption>
-  <img src="/images/blog/2013-11-19/bread.jpg " width="612" alt="Colaturo butter, fresh bread and a bone marrow topped with risotto milanese bread."/>
+  <img src="{{site.url}}/images/blog/2013-11-19/bread.jpg " width="612" alt="Colaturo butter, fresh bread and a bone marrow topped with risotto milanese bread."/>
 </figure>
 
 This was the most "traditional" course of the evening, but still had some fantastic flavour combinations. It consisted of freshly baked bread. Colaturo butter and bone marrow topped with risotto milanese bread. I had never had colaturo butter before and the waiter informed me it was a traditional Roman recipe, which contained anchovy drainings.
@@ -62,7 +62,7 @@ We were served seared tuna with banana 4 ways.
 
 <figure>
   <figcaption>Tuna and Banana. Together at last?</figcaption>
-  <img src="/images/blog/2013-11-19/tuna.jpg " width="612" alt="Tuna and Banana. Together at last?"/>
+  <img src="{{site.url}}/images/blog/2013-11-19/tuna.jpg " width="612" alt="Tuna and Banana. Together at last?"/>
 </figure>
 
 Plain banana, banana chocolate, banana fritter, and banana sorbet.
@@ -74,7 +74,7 @@ Course number 4 was probably my favourite of the night, it was a ham hock raviol
 
 <figure>
   <figcaption>Ham hock ravioli</figcaption>
-  <img src="/images/blog/2013-11-19/ham-hock.jpg" width="612" alt="ham hock ravioli chicken liver pate, asparagus and asparagus veloute served with popcorn and a toffee sauce"/>
+  <img src="{{site.url}}/images/blog/2013-11-19/ham-hock.jpg" width="612" alt="ham hock ravioli chicken liver pate, asparagus and asparagus veloute served with popcorn and a toffee sauce"/>
 </figure>
 
 The combination at first seemed a bit out there to me until my rather clever partner pointed out that honey glazed ham is a regular staple, so it’s not too big a jump to pair ham, pasta and toffee together. The porcorn added a bit of texture to the dish that was welcome.

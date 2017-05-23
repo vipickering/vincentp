@@ -54,7 +54,7 @@ So to this end, I start with an blank notebook and quickly begin sketching label
 
 <figure>
 <figcaption>Using UI Stencils to add some fidelity to a wireframe</figcaption>
-<img src="/images/blog/2013-11-11/ui-stencil.jpg" width="612" alt="An image of a UI Stencil next to some wireframes"/>
+<img src="{{site.url}}/images/blog/2013-11-11/ui-stencil.jpg" width="612" alt="An image of a UI Stencil next to some wireframes"/>
 </figure>
 
 Once I have something I am roughly OK with, I begin to add more fidelity using a [UI Stencil](http://www.uistencils.com/products/iphone-stencil-kit) they are a great way to focus on a higher fidelity mock-up and not get too distracted by the look and feel but at the same time keeping it neat and fast to draw.
@@ -79,7 +79,7 @@ I have tried many ways in the past to manage this document and this largely depe
 
 <figure>
 <figcaption>Blueprint, my rapid prototyping objects for keynote</figcaption>
-<img src="/images/blog/2013-11-11/blueprint.jpg"  width="612" alt="a screen shot of my rapid prototyping software Blueprint"/>
+<img src="{{site.url}}/images/blog/2013-11-11/blueprint.jpg"  width="612" alt="a screen shot of my rapid prototyping software Blueprint"/>
 </figure>
 
 Now comes the fun part, I take the Information Map with the sketched wire-frames and re-create them in [Keynote] using [my Blueprint rapid prototyping framework](https://github.com/vipickering/Blueprint). This allows me to very quickly make high fidelity wire-frames. I then export the screens to [Flinto] and link them up to test. This is a very powerful and prominent part of the process, not only can you iterate very quickly and discover mistakes, dead-end ideas and things you got wrong. It’s a great touchstone point with your client. Once you have teased out the large bugs and clangers, get the prototype in the client’s hand early on, get them playing with it, excited about the App and their feedback on your direction, choices etc.

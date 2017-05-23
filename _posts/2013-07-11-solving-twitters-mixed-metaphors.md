@@ -82,7 +82,7 @@ What we want to do is show intent when a user clicks, we can do this by separati
 
 <figure>
   <figcaption>The bookmark link has been added, and in return the favourite button has been removed</figcaption>
-  <img src="/images/blog/2013-07-11/tweet-bookmark.jpg" alt="A tweet with the bookmark link added and favourite button removed" />
+  <img src="{{site.url}}/images/blog/2013-07-11/tweet-bookmark.jpg" alt="A tweet with the bookmark link added and favourite button removed" />
 </figure>
 
 OK, so now we have our bookmark link <sup><a href="#point1" class="reference--number">1</a></sup>, but by removing the "favourite" link we have lost the liking functionality.
@@ -95,7 +95,7 @@ I mulled over the terms for these buttons for quite some time before arriving at
 
 <figure>
   <figcaption>A quick and dirty mock-up to show how sentiment could work in a tweet.</figcaption>
-  <img src="/images/blog/2013-07-11/tweet-sentiment.jpg" alt="A tweet to show how sentiments could work" />
+  <img src="{{site.url}}/images/blog/2013-07-11/tweet-sentiment.jpg" alt="A tweet to show how sentiments could work" />
 </figure>
 
 In the end, my thought process arrived at "Loved" and "Unloved". These terms are used in normal conversation all the time and imply a term stronger than "like" or "dislike" but also allow room for perspective to change that viewpoint. The essence of how the buttons work is baked in to the terminology and should help to clarify each buttons purpose.
