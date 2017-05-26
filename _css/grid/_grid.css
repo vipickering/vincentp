@@ -9,10 +9,10 @@ main {
     display: block; /* IE 11 support */
     margin: auto;
     min-width: 240px;
-    max-width: 620px;
+    max-width: 540px;
 }
 
-@media all and (min-width: 640px) {
+@media all and (min-width: 541px) {
     .grid-header {
         padding: 0 1rem 0 1rem;
         text-align: left;
@@ -28,7 +28,7 @@ main {
     .grid-header,
     main {
         margin: auto;
-        max-width: 740px;
-        min-width: 620px;
+        min-width: 540px;
+        max-width: 720px;
     }
 }

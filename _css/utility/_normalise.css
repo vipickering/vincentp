@@ -10,7 +10,7 @@
     font-family: -apple-system-body, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     background-color: rgba(255, 255, 255, 1);
     color: rgba(17, 17, 17, 1);
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 100;
     text-rendering: geometricPrecision;
 }
@@ -29,4 +29,10 @@ html {
 body {
     margin: 0;
     padding: 0;
+}
+
+@media all and (min-width: 541px) {
+    :root {
+        font-size: 19px;
+    }
 }
