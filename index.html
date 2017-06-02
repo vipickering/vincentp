@@ -12,10 +12,10 @@ summary :  A blog about front-end development techniques, HTML, CSS and Javascri
 <body itemscope itemtype="http://schema.org/WebPage" class="ma0 pa0">
     {% include header.html %}
 
-    <main>
+    <main class="ma">
          {% include hcard.html %}
 
-        <h2>Recent Activity</h2>
+        <h2 class="mt3 mb1 ml1 mr1">Recent Activity</h2>
         {% for post in site.posts limit:5 %}
             <article itemscope itemtype="http://schema.org/Blog" class="h-entry recent-post">
                  {% include date.html %}

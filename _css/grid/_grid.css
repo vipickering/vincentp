@@ -1,20 +1,13 @@
 .grid-header {
     width: 100%;
-    text-align: center;
 }
 
 main {
-    display: block; /* IE 11 support */
-    margin: auto;
     min-width: 240px;
     max-width: 540px;
 }
 
 @media all and (min-width: 541px) {
-    .grid-header {
-        text-align: left;
-    }
-
     @supports (display: grid) {
         .grid-header {
             grid-template-columns: 50% 50%;
@@ -23,7 +16,6 @@ main {
 
     .grid-header,
     main {
-        margin: auto;
         min-width: 541px;
         max-width: 720px;
     }

@@ -1,8 +1,5 @@
 /*  Normalise - Vincent P - Bespoke */
 
-/* Next add all scales and move to the css root.
-then apply tachyons */
-
 *,
 *::before,
 *::after {
@@ -17,15 +14,14 @@ then apply tachyons */
     --red: #c83539;
     --lightGrey: #e8e8e8;
     --grey: rgba(138, 138, 138, 0.5);
-    --fSizeXSmall: 0.6rem;
-    --fSizeSmall: 0.8rem;
-    --fSizeMedium: 1.4rem;
-    --fSizeLarge: 1.84rem;
+    --small: 0.75rem;
+    --medium: 1rem;
+    --large: 1.6rem;
 
     font-family: -apple-system-body, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     background-color: var(--white);
     color: var(--black);
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 100;
     text-rendering: geometricPrecision;
 }
@@ -43,6 +39,10 @@ html {
 
 @media all and (min-width: 541px) {
     :root {
-        font-size: 19px;
+        --small: 0.6rem;
+        --medium: 1.4rem;
+        --large: 1.84rem;
+
+        font-size: 18px;
     }
 }

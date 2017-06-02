@@ -10,7 +10,7 @@ figure {
 
 figcaption {
     font-style: italic;
-    font-size: 0.8rem;
+    font-size: var(--small);
 }
 
 .u-photo {

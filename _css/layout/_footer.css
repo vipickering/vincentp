@@ -1,7 +1,6 @@
 footer {
-    font-size: 0.6rem;
+    font-size: var(--small);
     line-height: 1.2rem;
-
 }
 
 footer li::after {

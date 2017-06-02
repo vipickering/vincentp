@@ -1,6 +1,6 @@
 header {
     position: relative;
-    font-size: 0.6rem;
+    font-size: var(--small);
     padding: 0.5rem 0 0.5rem 0;
 }
 

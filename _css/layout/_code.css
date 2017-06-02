@@ -6,7 +6,7 @@ div.highlighter-rouge {
 
 pre > code {
     display: block;
-    padding: 0.8rem;
+    padding: var(--small);
 }
 
 p > code {
