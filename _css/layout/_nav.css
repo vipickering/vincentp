@@ -3,12 +3,6 @@
     padding: 0;
 }
 
-.siteNav li {
-    display: inline-block;
-    list-style: none;
-    margin-bottom: 0;
-}
-
 .siteNav li::after {
     display: inline-block;
     margin: 0 2px 0 4px;
@@ -19,7 +13,7 @@
     content: none;
 }
 
-@media all and (min-width: 640px) {
+@media all and (min-width: 541px) {
     .siteNav ul {
         margin: 0;
         float: right;

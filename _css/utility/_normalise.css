@@ -1,4 +1,8 @@
-/* Normalise - Vincent P - Bespoke */
+/*  Normalise - Vincent P - Bespoke */
+
+/* Next add all scales and move to the css root.
+then apply tachyons */
+
 
 *,
 *::before,
@@ -7,28 +11,36 @@
 }
 
 :root {
+    --black: #111;
+    --charcoal: #23241f;
+    --white: #fff;
+    --green: #085708;
+    --red: #c83539;
+    --lightGrey: #e8e8e8;
+    --grey: rgba(138, 138, 138, 0.5);
+
+    --fSizeXSmall: 0.6rem;
+    --fSizeSmall: 0.8rem;
+    --fSizeMedium: 1.4rem;
+    --fSizeLarge: 1.84rem;
+
     font-family: -apple-system-body, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    background-color: rgba(255, 255, 255, 1);
-    color: rgba(17, 17, 17, 1);
+    background-color: var(--white);
+    color: var(--black);
     font-size: 14px;
     font-weight: 100;
     text-rendering: geometricPrecision;
 }
 
 ::selection {
-    background-color: rgba(200, 53, 57, 1);
-    color: rgba(255, 255, 255, 1);
+    background-color: var(--red);
+    color: var(--white);
 }
 
 html {
     box-sizing: border-box;
     text-size-adjust: 100%;
     text-rendering: optimizeLegibility;
-}
-
-body {
-    margin: 0;
-    padding: 0;
 }
 
 @media all and (min-width: 541px) {

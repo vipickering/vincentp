@@ -2,7 +2,7 @@
     text-align: center;
 }
 
-@media all and (min-width: 640px) {
+@media all and (min-width: 541px) {
     .h-card {
         text-align: left;
     }

@@ -1,7 +1,11 @@
+.tal { text-align: left; }
+.tar { text-align: right; }
+.tac { text-align: center; }
+
 time {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     text-transform: uppercase;
-    color: rgba(200, 53, 57, 1);
+    color: var(--red);
     letter-spacing: 0.005rem;
 }
 
@@ -13,7 +17,7 @@ sup {
     position: relative;
     line-height: 0;
     top: -0.5em;
-    font-size: 0.625rem;
+    font-size: 0.6rem;
     text-transform: lowercase;
     vertical-align: baseline;
 }
@@ -42,7 +46,7 @@ pre {
 }
 
 blockquote {
-    border-left: 5px solid rgba(138, 138, 138, 0.5);
+    border-left: 5px solid var(--grey);
     padding: 1rem;
     margin: 0 0 20px 0;
 }
@@ -85,7 +89,7 @@ h2 {
 
 h3 {
     margin: 0;
-    font-size: 1rem;
+    font-size: initial;
     line-height: 1.4;
 }
 
@@ -96,7 +100,7 @@ ol {
 
 li,
 p {
-    color: rgba(35, 36, 31, 1);
+    color: var(--charcoal);
     line-height: 1.5;
     font-weight: 100;
 }
@@ -114,11 +118,11 @@ li {
 }
 
 small {
-    font-size: 0.625rem;
+    font-size: 0.6rem;
 }
 
 .dt-updated {
-    color: rgba(200, 53, 57, 1);
+    color: var(--red);
 }
 
 .textReset {

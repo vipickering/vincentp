@@ -1,6 +1,4 @@
 .grid-header {
-    padding: 0;
-    display: block;
     width: 100%;
     text-align: center;
 }
@@ -14,13 +12,11 @@ main {
 
 @media all and (min-width: 541px) {
     .grid-header {
-        padding: 0 1rem 0 1rem;
         text-align: left;
     }
 
     @supports (display: grid) {
         .grid-header {
-            display: grid;
             grid-template-columns: 50% 50%;
         }
     }
@@ -28,7 +24,7 @@ main {
     .grid-header,
     main {
         margin: auto;
-        min-width: 540px;
+        min-width: 541px;
         max-width: 720px;
     }
 }

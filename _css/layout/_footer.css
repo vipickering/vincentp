@@ -1,30 +1,7 @@
 footer {
-    font-size: 0.625rem;
+    font-size: 0.6rem;
     line-height: 1.2rem;
-    padding: 1rem 0 1rem 0;
-    color: rgba(255, 255, 255, 1);
-    background-color: rgba(17, 17, 17, 1);
-    text-align: center;
-    text-transform: uppercase;
-}
 
-footer a {
-    color: rgba(255, 255, 255, 1);
-}
-
-footer address {
-    margin-bottom: 1rem;
-}
-
-footer ul {
-    margin: 0;
-    padding: 0;
-}
-
-footer li {
-    margin-bottom: 0;
-    display: inline-block;
-    list-style: none;
 }
 
 footer li::after {
@@ -33,19 +10,9 @@ footer li::after {
     content: "•";
     width: 20px;
     height: 10px;
-    color: rgba(255, 255, 255, 1);
+    color: var(--white);
 }
 
 footer li:last-child::after {
     content: none;
-}
-
-footer small {
-    display: block;
-}
-
-@media all and (min-width: 640px) {
-    .next-prev ul {
-        text-align: center;
-    }
 }

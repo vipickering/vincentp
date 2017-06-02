@@ -1,14 +1,7 @@
 header {
     position: relative;
-    text-transform: uppercase;
-    font-size: 0.625rem;
+    font-size: 0.6rem;
     padding: 0.5rem 0 0.5rem 0;
-    color: rgba(255, 255, 255, 1);
-    background-color: rgba(17, 17, 17, 1);
-}
-
-header * {
-    color: inherit;
 }
 
 header [itemprop="name"]::before {
@@ -17,10 +10,10 @@ header [itemprop="name"]::before {
     height: 10px;
     display: inline-block;
     margin-right: 0.5rem;
-    color: rgba(200, 53, 57, 1);
+    color: var(--red);
 }
 
-@media all and (min-width: 640px) {
+@media all and (min-width: 541px) {
     header {
         margin-bottom: 2rem;
         padding: 1rem 0 1rem 0;

@@ -1,7 +1,9 @@
-[aria-hidden="true"] {
-    display: none;
-}
+[aria-hidden="true"] { display: none; }
+.db { display: block; }
+.dib { display: inline-block; }
 
-.inline-block {
-    display: inline-block;
+@media all and (min-width: 541px) {
+    @supports (display: grid) {
+        .dg-d { display: grid; }
+    }
 }
