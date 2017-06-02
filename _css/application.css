@@ -19,8 +19,6 @@
 @import url("layout/_footer.css");
 @import url("layout/_hire.css");
 
-
-
 /* Dynamic Type, overwrite other values if on iOS */
 @import url("typography/_dynamic-type.css");
 
@@ -30,9 +28,7 @@
 .cinherit { color: inherit; }
 .white { color: var(--white); }
 .bc-black { background-color: var(--black); }
-
 .ls-none { list-style: none; }
-
 .ttu { text-transform: uppercase; }
 
 /*

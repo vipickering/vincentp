@@ -3,7 +3,6 @@
 /* Next add all scales and move to the css root.
 then apply tachyons */
 
-
 *,
 *::before,
 *::after {
@@ -18,7 +17,6 @@ then apply tachyons */
     --red: #c83539;
     --lightGrey: #e8e8e8;
     --grey: rgba(138, 138, 138, 0.5);
-
     --fSizeXSmall: 0.6rem;
     --fSizeSmall: 0.8rem;
     --fSizeMedium: 1.4rem;
