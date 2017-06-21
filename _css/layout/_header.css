@@ -1,4 +1,4 @@
-header {
+/*header {
     position: relative;
     font-size: var(--small);
     padding: 0.5rem 0 0.5rem 0;
@@ -15,7 +15,6 @@ header [itemprop="name"]::before {
 
 @media all and (min-width: 541px) {
     header {
-        margin-bottom: 2rem;
         padding: 1rem 0 1rem 0;
     }
-}
+}*/

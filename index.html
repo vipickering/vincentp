@@ -9,22 +9,19 @@ summary :  A blog about front-end development techniques, HTML, CSS and Javascri
     {% include meta.html %}
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" class="ma0 pa0">
-    {% include header.html %}
+<body itemscope itemtype="http://schema.org/WebPage" class="pa0 ma0">
+    <main class="grid">
+        {% include hcard.html %}
 
-    <main class="ma">
-         {% include hcard.html %}
-
-        <h2 class="mt3 mb1 ml1 mr1">Recent Activity</h2>
+        <h2 >Recent Activity</h2>
         {% for post in site.posts limit:5 %}
-            <article itemscope itemtype="http://schema.org/Blog" class="h-entry recent-post">
-                 {% include date.html %}
-                <h3 itemprop="headline" class="p-name"><a href="{{site.url}}{{ post.url }}">{{ post.title }}</a></h3>
-                <p class="p-summary link-padding">{{ post.summary }}</p>
+            <article itemscope itemtype="http://schema.org/Blog" class="h-entry">
+                 <h3 itemprop="headline" class="p-name"><a href="{{site.url}}{{ post.url }}">{{ post.title }}</a></h3>
+                {% include date.html %}
+                <p class="p-summary">{{ post.summary }}</p>
             </article>
         {% endfor %}
     </main>
-    {% include hire.html %}
     {% include footer.html %}
     {% include sw.html %}
 </body>

@@ -4,21 +4,19 @@
         {% include meta.html %}
     </head>
 
-    <body itemscope itemtype="http://schema.org/WebPage" class="ma0 pa0">
+    <body itemscope itemtype="http://schema.org/WebPage">
         {% include header.html %}
-
-          <main class="ma">
+        <main>
             <article itemscope itemtype="http://schema.org/Blog" class="h-entry">
                 {% include date.html %}
                 {% include articleTitle.html %}
-                <div class="e-content">
-                    {{ content }}
-                </div>
-                    {% if post.reply %}<a class="u-in-reply-to" href="{{ post.reply}}"></a>{% endif %}
-                    {% include time.html %}
+            <div class="e-content">
+                {{ content }}
+            </div>
+                {% if post.reply %}<a class="u-in-reply-to" href="{{ post.reply}}"></a>{% endif %}
+                {% include time.html %}
             </article>
         </main>
-        {% include hire.html %}
         {% include footer.html %}
         {% include sw.html %}
     </body>

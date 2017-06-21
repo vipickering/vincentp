@@ -4,30 +4,27 @@
         {% include meta.html %}
     </head>
 
-    <body itemscope itemtype="http://schema.org/WebPage" class="ma0 pa0">
+    <body itemscope itemtype="http://schema.org/WebPage">
         {% include header.html %}
 
-          <main class="ma">
-            <article>
-            <h1>{{ page.title}}</h1>
-            <div class="article-list">
+          <main>
+            <article itemscope itemtype="http://schema.org/Blog" class="h-entry">
+                <h1>{{ page.title}}</h1>
                 <ul>
                 {% if page.type == 'Articles' %}
                     {% for post in site.categories.Articles %}
-                        <li><a href="{{ post.url }}" class="smallText">{{ post.title }}</a></li>
+                        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
                     {% endfor %}
                 {% endif %}
 
-                 {% if page.type == 'Notes' %}
-                    {% for post in site.categories.Notes %}
-                        <li><a href="{{ post.url }}" class="smallText">{{ post.title }}</a></li>
+                 {% if page.type == 'Tips' %}
+                    {% for post in site.categories.Tips %}
+                        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
                     {% endfor %}
                 {% endif %}
                 </ul>
-            </div>
             </article>
         </main>
-        {% include hire.html %}
         {% include footer.html %}
         {% include sw.html %}
     </body>

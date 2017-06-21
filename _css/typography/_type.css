@@ -1,9 +1,14 @@
-.tal { text-align: left; }
+/*.tal { text-align: left; }
 .tar { text-align: right; }
 .tac { text-align: center; }
+
+.small { font-size: var(--small); }
+.medium { font-size: var(--medium); }
+.large { font-size: var(--large); }
 
 @media all and (min-width: 541px) {
     .tal-d {
         text-align: left;
     }
 }
+*/

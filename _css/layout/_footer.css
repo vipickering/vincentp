@@ -1,6 +1,6 @@
-footer {
+/*footer {
     font-size: var(--small);
-    line-height: 1.2rem;
+    line-height: 1.4;
 }
 
 footer li::after {
@@ -14,4 +14,4 @@ footer li::after {
 
 footer li:last-child::after {
     content: none;
-}
+}*/

@@ -1,25 +1,9 @@
-article {
-    margin-top: 2rem;
-    position: relative;
-    z-index: 2;
-}
-
-article > *:not(.e-content):not(ul):not(ol),
-.e-content > *:not(.highlighter-rouge):not(ul):not(ol) {
-    padding: 0 1rem 0 1rem;
-}
-
-.recent-post {
-    margin: 0 0 1rem 0;
-}
+/*.h-entry > p:last-child,
+.e-content > p:last-child { margin:0; }
 
 .e-content li,
-.article-list li {
-    margin-bottom: 3px;
-}
+.article-list li { margin-bottom: 3px; }
 
 .e-content > ul ul li,
 .e-content > ol ol li,
-.article-list > ul ul li {
-    margin-top: 7px;
-}
+.article-list > ul ul li { margin-top: 7px; }*/

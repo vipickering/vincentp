@@ -4,25 +4,24 @@
         {% include meta.html %}
     </head>
 
-    <body itemscope itemtype="http://schema.org/WebPage" class="ma0 pa0">
-        {% include header.html %}
+    <body itemscope itemtype="http://schema.org/WebPage" class="grid pa0">
+        <header>
+            {% include hcard.html %}
+            {% include articleTitle.html %}
+        </header>
 
-          <main class="ma">
+        <main>
             <article itemscope itemtype="http://schema.org/Blog" class="h-entry">
                 {% include dateTime.html %}
-                {% include articleTitle.html %}
                 {% include syndication.html %}
-
                 <div class="e-content">
                     {{ content }}
-
                     {% if page.modified %}
                         <p><span class="dt-updated"><strong>Updated <abbr class="value" title=" {{ page.modified }}">15-03-2017</abbr></strong>:  {{ page.modifiedReason }}.</span></p>
                     {% endif %}
                 </div>
             </article>
         </main>
-        {% include hire.html %}
         {% include footer.html %}
         {% include sw.html %}
     </body>

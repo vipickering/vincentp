@@ -4,7 +4,7 @@
     {% assign pubDate = page.date %}
 {% endif %}
 
-<time itemprop="dateCreated" class="dt-published" datetime="{{ pubDate | date_to_xmlschema }}">
+<time itemprop="dateCreated" class="dt-published f-mono italic" datetime="{{ pubDate | date_to_xmlschema }}">
     {% assign d = pubDate | date: "%d" | plus:'0' %}
     {{ pubDate | date: "%B" }}
     {% case d %}
@@ -14,5 +14,5 @@
     {% else %}
         {{ d }}<sup>th</sup>
     {% endcase %}
-    {{ pubDate | date: "%Y" }} <span class="textReset">at</span> {{ pubDate | date: "%H" }}:{{ pubDate | date: "%M%P" }}
+    {{ pubDate | date: "%Y" }} <span>at</span> {{ pubDate | date: "%H" }}:{{ pubDate | date: "%M%P" }}
 </time>

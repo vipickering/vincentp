@@ -1,46 +1,65 @@
-
-time {
-    font-size: var(--small);
-    text-transform: uppercase;
-    color: var(--red);
-    letter-spacing: 0.005rem;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: -apple-system-headline, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    max-width: 31.475rem;
 }
 
-code {
-    font-size: var(--small);
+p {
+    margin: 0;
+    padding: 0;
 }
 
-sup {
-    position: relative;
-    line-height: 0;
-    top: -0.5em;
-    font-size: var(--small);
-    text-transform: lowercase;
-    vertical-align: baseline;
+blockquote {
+    padding: var(--extra-extra-large) 0 var(--extra-extra-large) 0 ;
+    margin: 0 0 var(--extra-extra-large) 0;
+    max-width: 23.612rem;
+    text-align: center;
+    margin: auto;
+}
+
+blockquote:after,
+blockquote:before {
+    content: '';
+    display: block;
+    background-color: var(--black);
+    margin: auto;
+    height: var(--extra-extra-small);
+    width: var(--extra-extra-large);
+}
+
+blockquote > p {
+    line-height: 1.5;
+    margin: var(--extra-large) 0 var(--extra-large) 0;
 }
 
 em,
 blockquote > p {
     font-style: italic;
+    font-weight: 100;
 }
 
-address {
-    font-style: normal;
+.e-content > p {
+   font-size: var(--medium);
+    line-height: 1.4;
+    margin-bottom:  var(--large);
 }
 
-em {
-    font-weight: bold;
+.e-content > p:first-child{
+    font-weight: 700;
 }
 
-abbr[title] {
-    text-decoration: none;
-    border-bottom: 1px dotted black;
+/*code { font-size: var(--small); }
+
+sup {
+    font-size: var(--small);
+    text-transform: lowercase;
+    vertical-align: baseline;
 }
 
-pre {
-    margin: 0;
-    padding: 0;
-}
 
 blockquote {
     border-left: 5px solid var(--grey);
@@ -53,16 +72,7 @@ figure {
     margin: 0;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-time {
-    font-family: -apple-system-headline, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    max-width: 35em;
-}
+
 
 h1 {
     margin: 0 0 1rem 0;
@@ -76,7 +86,6 @@ h2 {
     padding: 0;
     font-size: var(--medium);
     font-weight: 400;
-    letter-spacing: 0.005rem;
     text-transform: uppercase;
     line-height: 1.4;
 }
@@ -96,28 +105,16 @@ p {
 li,
 p {
     color: var(--charcoal);
-    line-height: 1.5;
+    line-height: 1.4;
     font-weight: 100;
 }
 
-li {
-    margin: 0;
-}
-
-small {
-    font-size: var(--small);
-}
-
-.dt-updated {
-    color: var(--red);
-}
+li { margin: 0; }
+small { font-size: var(--small); }
 
 .textReset {
     text-transform: lowercase;
     font-weight: 400;
     letter-spacing: initial;
 }
-
-p + h2 {
-    margin-top: 3rem;
-}
+*/

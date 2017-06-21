@@ -4,7 +4,7 @@ layout: null
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title type="text" xml:lang="en">{{ site.title | xml_escape }}</title>
-        <subtitle type="html">Web design including: UI, UX, HTML, CSS, JavaScript and Node</subtitle>
+    <subtitle type="html">Web design including: UI, UX, HTML, CSS, JavaScript and Node</subtitle>
     <link type="application/atom+xml" href="{{site.url}}/feed.xml" rel="self" />
     <link href="{{site.url}}" rel="alternate" />
     <link href="https://vincentp.superfeedr.com/" rel="hub" />

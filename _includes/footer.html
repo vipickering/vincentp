@@ -1,14 +1,9 @@
-<footer class="vcard ma0 tac pv1 white bc-black ttu" itemscope itemtype="http://schema.org/Person" >
-        <address class="mb1">
-            <ul class="ma0 pa0">
-                <li class="mb0 dib cinherit ls-none"><a href="{{site.data.author.twitter.url}}"   itemprop="url" title="Twitter" rel="me">Twitter</a></li>
-                <li class="mb0 dib cinherit ls-none"><a href="{{site.data.author.github.url}}"   itemprop="url" title="Github" rel="me">Github</a></li>
-                <li class="mb0 dib cinherit ls-none"><a href="{{site.data.author.pinboard.url}}"  itemprop="url"  title="Feed">Pinboard</a></li>
-                <li class="mb0 dib cinherit ls-none"><a href="{{site.url}}/feed.xml"  title="XML Blog Feed">XML</a></li>
-                <li class="mb0 dib cinherit ls-none"><a href="{{site.url}}/feed.json"  title="JSON Blog Feed">JSON</a></li>
-            </ul>
-        </address>
+<footer class="f-mono black pv1">
+    <ul class="ma0 pa0">
+        <li class="dib"><a href="{{site.url}}/feed.xml"  title="XML Blog Feed">XML</a></li>
+        <li class="dib"><a href="{{site.url}}/feed.json"  title="JSON Blog Feed">JSON</a></li>
+    </ul>
 
-        {% include companyInfo.html %}
+    {% include hire.html %}
+    {% include companyInfo.html %}
 </footer>
-

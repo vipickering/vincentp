@@ -1,0 +1,16 @@
+.f-large {
+    font-size: var(--medium);
+}
+
+.f-medium {
+    font-size: var(--medium);
+}
+
+.f-small,
+small {
+    font-size: var(--small);
+}
+
+.f-extra-small {
+    font-size: var(--medium);
+}

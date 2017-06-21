@@ -1,0 +1,42 @@
+:root {
+    --black: #111;
+    --white: #fff;
+    --red: #c83539;
+    --grey: #c83539;
+    --light-grey: #CCCCCC;
+    /*
+
+        0.317rem
+        0.422rem
+    */
+    --extra-extra-small: 0.238em;
+    --extra-small: 0.563em;
+    --small: 0.75rem;
+    --medium: 1rem;
+    --large: 1.333rem;
+    --extra-large: 1.777rem;
+    --extra-extra-large: 2.369rem;
+
+    --main-column: 31.475rem;
+
+
+/*    --l
+
+    3.157rem
+    4.209rem
+    5.61rem
+    7.478rem
+    9.969rem
+    13.288rem
+    17.713rem
+    23.612rem
+    31.475rem
+    41.956rem
+    55.927rem
+    74.551rem
+    99.376em*/
+
+    --font-header: -apple-system-headline, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    --font-body: -apple-system-body, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    --font-mono: Menlo, Monaco, Consolas, "Courier New", monospace;
+};
