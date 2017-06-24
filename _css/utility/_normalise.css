@@ -10,7 +10,7 @@
     font-family: var(--font-body);
     background-color: var(--white);
     color: var(--black);
-    font-size: 16px;
+    font-size: var(--baseline-font-size);
     font-weight: 400;
     text-rendering: geometricPrecision;
     line-height: 1.5;
@@ -45,6 +45,62 @@ pre {
     padding: 0;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: -apple-system-headline, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
 a {
+    font-family:inherit;
     color: currentColor;
+}
+
+a:hover {
+    color: var(--red);
+}
+
+a:focus {
+    color: var(--white);
+    background-color: var(--red);
+    text-decoration: none;
+    transition: 0.2s;
+    outline: 1px solid var(--red);
+}
+
+
+blockquote {
+    padding: var(--extra-extra-large) 0 var(--extra-extra-large) 0 ;
+    margin: 0 auto var(--extra-extra-large) auto;
+    max-width: 23.612rem;
+    text-align: center;
+}
+
+blockquote::after,
+blockquote::before {
+    content: '';
+    display: block;
+    background-color: var(--black);
+    margin: auto;
+    height: var(--extra-extra-small);
+    width: var(--extra-extra-large);
+}
+
+blockquote > p {
+    line-height: 1.5;
+    margin: var(--extra-large) 0 var(--extra-large) 0;
+}
+
+em,
+blockquote > p {
+    font-style: italic;
+    font-weight: 100;
 }

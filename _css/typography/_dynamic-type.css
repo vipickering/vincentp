@@ -1,11 +1,11 @@
 @supports (font: -apple-system-body) {
-    *{
+    * {
         font: -apple-system-body;
     }
 
     small,
     footer *,
     header * {
-      font:  -apple-system-footnote;
+      font: -apple-system-footnote;
     }
 }

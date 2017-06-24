@@ -6,10 +6,15 @@
 .pv1 { padding-top: var(--small); padding-bottom: var(--small); }
 
 .ma { margin: auto; }
+.center { margin-left: auto; margin-right: auto; }
 
 .ma0 { margin: 0; }
-.mv1 { margin-top: var(--small); margin-bottom: var(--small); }
+.mv3 { margin-top: var(--small); margin-bottom: var(--small); }
 
+.mb1 { margin-bottom: var(--large); }
+.mb2 { margin-bottom: var(--medium); }
+.mb3 { margin-bottom: var(--small); }
+.mb4 { margin-bottom: var(--extra-small); }
 
 /*
 .ma1{ margin: 1rem; }

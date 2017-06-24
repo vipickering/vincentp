@@ -1,4 +1,5 @@
-/*.h-entry > p:last-child,
+/*
+.h-entry > p:last-child,
 .e-content > p:last-child { margin:0; }
 
 .e-content li,
@@ -6,4 +7,5 @@
 
 .e-content > ul ul li,
 .e-content > ol ol li,
-.article-list > ul ul li { margin-top: 7px; }*/
+.article-list > ul ul li { margin-top: 7px; }
+*/
