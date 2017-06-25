@@ -2,7 +2,7 @@
 layout : "about"
 title : "Offline"
 meta : "[Offline] - About Vincent Pickering Consultant Front-end Architect and Developer"
-summary : "Offline] - About Vincent Pickering Consultant Front-end Architect and Developer"
+summary : "[Offline] - About Vincent Pickering Consultant Front-end Architect and Developer"
 ---
 
 Sorry. It looks like the network connection isn’t working right now.

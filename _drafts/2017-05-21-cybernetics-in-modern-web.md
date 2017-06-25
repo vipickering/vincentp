@@ -1,10 +1,10 @@
 ---
-layout: post
+layout: "post"
 title: "Cybernetics In Modern Web Design"
-date: 2017-02-20 16:50:00 +/-GMT
-meta: Applying the learning of Cybernetics to Web and Software design
-summary: Applying the learning of Cybernetics to Web and Software design
-category: Cybernetics
+date: "2017-02-20 16:50:00 +/-GMT"
+meta: "Applying the learning of Cybernetics to Web and Software design"
+summary: "Applying the learning of Cybernetics to Web and Software design"
+category: "Cybernetics"
 ---
 Popularised by the American Mathematician and Philosopher [Norbert Wiener](https://en.wikipedia.org/wiki/Norbert_Wiener) in 1948, the interdisciplinary field of Cybernetics[^1] defines itself as:
 

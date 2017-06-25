@@ -1,6 +1,7 @@
 ---
 layout : "about"
 title : "About"
+subtitle: "A Quick Summary Of Myself "
 meta : "About Vincent Pickering Consultant Front-end Architect and Developer"
 summary : "About Vincent Pickering Consultant Front-end Architect and Developer"
 ---
@@ -13,8 +14,8 @@ Hello, I'm {{site.data.author.name}} a {{site.data.author.job}} With over 17 yea
 
 During my career I have been incredibly fortunate to work on a diverse range of products and services :
 
-- E-learning products and solutions
 - Enterprise healthcare applications
+- Government Services
 - Worldwide marketing campaigns
 - Virtual reality
 - Sites for major brands and start-ups.
