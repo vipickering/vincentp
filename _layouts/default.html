@@ -4,16 +4,15 @@
         {% include meta.html %}
     </head>
 
-    <body itemscope itemtype="http://schema.org/WebPage">
-        {% include header.html %}
+    <body itemscope itemtype="http://schema.org/WebPage" class="ma0 pa0">
+        <header class="bg-black white">
+            {% include hcard.html %}
+            {% include articleTitle.html %}
+        </header>
 
-          <main>
+          <main class="center">
             <article itemscope itemtype="http://schema.org/Blog" class="h-entry">
-               <div class="grid">
-                    {% include dateTime.html %}
-                    {% include articleTitle.html %}
-                </div>
-                <div class="e-content grid">
+                <div class="e-content  dg center mw-site grid-1-col-short pa2">
                     {{ content }}
                 </div>
             </article>

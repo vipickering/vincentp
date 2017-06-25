@@ -1,44 +1,7 @@
 .rm-underline { text-decoration: none; }
 
-
-
-
-/*
-a {
-    color: inherit;
-}
-
-a:link,
-a:active,
-a:visited {
-    text-decoration: underline;
-}
-
-a:hover {
-    text-decoration: none;
-}
-
-a:focus {
-    color: var(--white);
+a.hover-bg-red:hover {
     background-color: var(--red);
-    text-decoration: none;
-    transition: 0.2s;
-    outline: none;
-}
-
-a.primary {
-    background-color: var(--black);
     color: var(--white);
-    text-decoration: none;
-    padding: 0.5rem;
-    border-radius: 2px;
-}
-
-a:hover.primary,
-a:focus.primary {
-    color: var(--white);
-    background-color: var(--red);
-    text-decoration: none;
     transition: 0.2s;
 }
-*/
