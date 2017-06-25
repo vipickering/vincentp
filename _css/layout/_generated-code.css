@@ -26,84 +26,20 @@ Control styles output by Markdown
 
 .e-content li {
      font-size: calc(var(--baseline-font-size) + 0.1vw);
+     line-height: var(--lh-list);
 }
 
-/*Need to break out the grid here*/
+.highlight,
 .highlighter-rouge {
     overflow-x: auto;
     font-size: var(--medium);
     margin: 0 0 var(--medium) 0;
-    color: #ccc;
-    background-color:  #001B44;
+    color: var(--pale-grey);
+    background-color:  var(--dark-blue);
     padding: 0.3rem;
-    line-height: 1.9;
+    line-height: var(--lh-list);
 }
 
 code {
   padding: 0 0.3rem 0 0.3rem;
 }
-
-/*
-
-
-sup {
-    font-size: var(--small);
-    text-transform: lowercase;
-    vertical-align: baseline;
-}
-
-blockquote {
-    border-left: 5px solid var(--grey);
-    padding: 1rem;
-    margin: 0 0 20px 0;
-}
-
-blockquote > p,
-figure {
-    margin: 0;
-}
-
-h1 {
-    margin: 0 0 1rem 0;
-    font-weight: 300;
-    text-transform: capitalize;
-    font-size: var(--large);
-}
-
-h2 {
-    margin: 0;
-    padding: 0;
-    font-size: var(--medium);
-    font-weight: 400;
-    text-transform: uppercase;
-    line-height: 1.4;
-}
-
-h3 {
-    margin: 0;
-    font-size: initial;
-    line-height: 1.4;
-}
-
-ul,
-ol,
-p {
-    margin: 0 0 var(--medium) 0;
-}
-
-li,
-p {
-    color: var(--charcoal);
-    line-height: 1.4;
-    font-weight: 100;
-}
-
-li { margin: 0; }
-small { font-size: var(--small); }
-
-.textReset {
-    text-transform: lowercase;
-    font-weight: 400;
-    letter-spacing: initial;
-}
-*/

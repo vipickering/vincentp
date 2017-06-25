@@ -85,7 +85,7 @@ Finally, creating the <abbr title="Hyper Text Markup Language">HTML</abbr>, <abb
 
 As with most web professionals, I use [GitHub](http://github.com){:rel="external"} to store and manage my code with the [GitHub client for OSX](http://mac.github.com){:rel="external"}. I don't mind using the terminal, but I'm not a masochist, I'd rather click the sync button than spend a few minutes remembering and typing in terminal commands if I don't have to.
 
-Absolutely the fastest and most consistent way to build a site is to take apart all the constituent components and create a "ウィジェット" page. This page usually consists of all the elements your site will be made up of, removing the grid, which can be added at the end.
+Absolutely the fastest and most consistent way to build a site is to take apart all the constituent components and create a "component" page. This page usually consists of all the elements your site will be made up of, removing the grid, which can be added at the end.
 
 Building all the components on a single page yields a huge number of positive results:
 

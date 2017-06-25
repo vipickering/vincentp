@@ -8,7 +8,7 @@
     }
 
     .grid-1-col-short {
-        grid-template-columns: minmax(300px, 31.475rem);
+        grid-template-columns: minmax(300px, 41.956rem);
         grid-template-rows: repeat(2, auto);
     }
 }

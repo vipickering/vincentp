@@ -1,23 +1,24 @@
-/*
 img {
     border-style: none;
     width: 100%;
 }
 
 figure {
-    margin: 0 0 2rem 0;
-    line-height: 1.6;
+    margin: 0 0 var(--extra-large) 0;
+    line-height: var(--lh-list);
 }
 
 figcaption {
-    font-style: italic;
+    font-family: var(--font-mono);
     font-size: var(--small);
+    float: right;
+    width: 37%;
+    padding: var(--medium) 0;
+    border-top: 1px solid var(--grey);
+    margin-left: 10px;
 }
 
-.u-photo {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    border: 1px solid var(--black);
+figure > img {
+    float: left;
+    width: 60%;
 }
-*/

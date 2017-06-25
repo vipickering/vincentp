@@ -3,9 +3,20 @@
         font: -apple-system-body;
     }
 
-    small,
-    footer *,
-    header * {
-      font: -apple-system-footnote;
+    small{
+        font: -apple-system-footnote;
     }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font: -apple-system-headline;
+    }
+
+        footer *{
+            font: -apple-system-short-footnote;
+        }
 }
