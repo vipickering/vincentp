@@ -1,7 +1,13 @@
-.rm-underline { text-decoration: none; }
+.rm-underline {
+    text-decoration: none;
+}
 
-a.hover-bg-red:hover {
+.hover-bg-red:hover {
     background-color: var(--red);
+}
+
+.hover-white:hover,
+.hover-bg-red:hover {
     color: var(--white);
     transition: 0.2s;
 }

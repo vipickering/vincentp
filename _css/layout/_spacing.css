@@ -10,7 +10,8 @@
 
 .ma0 { margin: 0; }
 .mv3 { margin-top: var(--small); margin-bottom: var(--small); }
-
+.mt2 { margin-top: var(--medium); }
+.ml2 { margin-left: var(--small); }
 .mb1 { margin-bottom: var(--large); }
 .mb2 { margin-bottom: var(--medium); }
 .mb3 { margin-bottom: var(--small); }
