@@ -7,7 +7,12 @@ summary: "Make Your Type Scale With Your Screen Size In Proportion"
 category: "Tips"
 ---
 
+Make your type scale in proportion to the viewport size.
+
+The fixed width is the minimum font size, the ```vw``` unit is your scale.
 
 ```
-font-size: calc(16px  + 3.5vw);
+h1 {
+    font-size: calc(16px  + 3.5vw);
+}
 ```
