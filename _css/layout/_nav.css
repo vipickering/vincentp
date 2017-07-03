@@ -1,9 +1,0 @@
-.siteNav li::after {
-    display: inline-block;
-    margin: 0 10px 0 10px;
-    content: "•";
-}
-
-.siteNav li:last-child::after {
-    content: none;
-}
