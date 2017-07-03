@@ -2,9 +2,15 @@
     <a href="{{ site.url }}" title="vincentp.me" itemprop="url" class="u-url dn"><h1 class="f6 p-name f-mono" itemprop="name">Vincent Pickering</h1></a>
     <address class="f6 f-mono dg center mw-site grid-3-col pa2">
         <ul class="ma0 pa0">
-            <li class="list lh-list"><a href="{{site.url}}/categories/articles" rel="me" class="rm-underline grey">Writing</a></li>
-            <li class="list lh-list"><a href="{{site.url}}/categories/tips" class="rm-underline grey">Tips</a></li>
-            <li class="list lh-list"><a href="{{site.url}}/categories/cybernetics" class="rm-underline grey">Cybernetics</a></li>
+             {% if  site.categories.Articles %}
+                <li class="list lh-list"><a href="{{site.url}}/categories/articles" rel="me" class="rm-underline grey">Writing</a></li>
+             {% endif %}
+             {% if  site.categories.Tips %}
+                <li class="list lh-list"><a href="{{site.url}}/categories/tips" class="rm-underline grey">Tips</a></li>
+            {% endif %}
+            {% if  site.categories.Cybernetics %}
+                <li class="list lh-list"><a href="{{site.url}}/categories/cybernetics" class="rm-underline grey">Cybernetics</a></li>
+            {% endif %}
         </ul>
 
         <ul class="ma0 pa0">
