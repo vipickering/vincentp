@@ -4,6 +4,8 @@ title: "Jekyll Blog Speed"
 date: 2017-05-20 10:15:00 +/-GMT
 meta: time to first paint blog speed .
 summary: Reducing the time to meaningful first paint Jekyll blog
+modified : 2017-07-03 22:00:00 +/-GMT
+modifiedReason: to correct style, readability and punctuation
 category: Articles
 ---
 
@@ -102,10 +104,10 @@ Cache-Control: public, max-age=31536000
 
 This does the following:
 
-- Line 1 prevents other people loading our website inside their content. This protects against malicious actions.
+- Line 1 prevents other people loading our site inside their content. This protects against malicious actions.
 - Line 2 prevents a browser from changing the content from text/html as it is declared.
 - Line 3 prevents cross site scripting attacks.
-- Line 4 is the length of time we should cache any assets the browser downloads from our website.
+- Line 4 is the length of time we should cache any assets the browser downloads from our site.
 
 Line 4 is all you need for the caching performance, but as a general rule the first three lines of code are a sensible precaution to include on any site.
 
@@ -117,7 +119,7 @@ A key concern in 'Time To Meaningful First Paint' is the CSS.
 
 I've done a large amount of work optimising my CSS and so far gotten it to 5kb in size. Linking from a CSS file will mean 1 additional round trip for the browser. It would need to fetch the HTML page and then go and request the CSS file and finally it would be delivered. The round trip costs time, the time to then read the code and render it out also takes time.
 
-My current implementation was to inline all the CSS, this is quite a simple thing to do in Jekyll. Instead of exporting your compiled CSS/SASS/LESS in to a ```css``` folder export the file in to the ```_includes``` folder.
+My current implementation was to inline all the CSS, this is quite a simple thing to do in Jekyll. Instead of exporting your compiled CSS/Sass/Less in to a ```css``` folder export the file in to the ```_includes``` folder.
 
 Then to include the CSS inline do this in your HTML file, the same as your would include any other file in the ```_includes``` directory:
 
@@ -207,7 +209,7 @@ So to recap what I have done.
   <img src="{{site.url}}/images/blog/2017-05-20/result.png " width="740" alt="A Screenshot Of The Speed Result Benchmark"/>
 </figure>
 
-All my code is [available on my repo]({{site.data.author.github.url}}/vincentp). So feel free to dig through it and [ask me any questions on Twitter]({{site.data.author.twitter.url}})
+All my code is [available on my repository]({{site.data.author.github.url}}/vincentp). So feel free to dig through it and [ask me any questions on Twitter]({{site.data.author.twitter.url}})
 
 ## Here Be Dragons
 
