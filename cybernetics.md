@@ -1,5 +1,5 @@
 ---
-layout : "cybernetics"
+layout : "category"
 permalink : "/categories/cybernetics/"
 title : "Cybernetics"
 subtitle: "Cybernetics Applied In Modern Web Design"
