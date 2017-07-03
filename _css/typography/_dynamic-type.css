@@ -3,7 +3,7 @@
         font: -apple-system-body;
     }
 
-    small{
+    small {
         font: -apple-system-footnote;
     }
 
@@ -16,7 +16,7 @@
         font: -apple-system-headline;
     }
 
-        footer *{
-            font: -apple-system-short-footnote;
-        }
+    footer * {
+        font: -apple-system-short-footnote;
+    }
 }
