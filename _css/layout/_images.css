@@ -11,6 +11,7 @@ figure {
 figcaption {
     font-family: var(--font-mono);
     font-size: var(--small);
+    display: inline-block;
     float: right;
     width: 37%;
     padding: var(--medium) 0;
@@ -20,5 +21,11 @@ figcaption {
 
 figure > img {
     float: left;
+    display: inline-block;
     width: 60%;
 }
+
+figure:before,
+figure:after   { content: " "; display: table; }
+figure:after   { clear: both; }
+figure         { *zoom: 1; }
