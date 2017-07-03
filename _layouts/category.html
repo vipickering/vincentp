@@ -11,23 +11,24 @@
         </header>
 
            <main class="center">
-            <article itemscope itemtype="http://schema.org/Blog" class="h-entry">
-               <div class="e-content  dg center mw-site grid-1-col-short pa2">
-                    <ul>
+            <div class="e-content  dg center mw-site grid-1-col-short pa2">
                     {% if page.type == 'Articles' %}
                         {% for post in site.categories.Articles %}
-                            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                            <article itemscope itemtype="http://schema.org/Blog" class="h-entry mb2">
+                                <h3 itemprop="headline" class="p-name ma0"><a href="{{site.url}}{{ post.url }}" class="rm-underline" title="{{ post.title }}">{{ post.title }}</a></h3>
+                                <p class="p-summary">{{ post.summary }}</p>
+                            </article>
                         {% endfor %}
                     {% endif %}
-
-                     {% if page.type == 'Tips' %}
+                    {% if page.type == 'Tips' %}
                         {% for post in site.categories.Tips %}
-                            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                            <article itemscope itemtype="http://schema.org/Blog" class="h-entry mb2">
+                                <h3 itemprop="headline" class="p-name ma0"><a href="{{site.url}}{{ post.url }}" class="rm-underline" title="{{ post.title }}">{{ post.title }}</a></h3>
+                                <p class="p-summary">{{ post.summary }}</p>
+                            </article>
                         {% endfor %}
                     {% endif %}
-                    </ul>
-                </div>
-            </article>
+            </div>
         </main>
         {% include footer.html %}
         {% include sw.html %}

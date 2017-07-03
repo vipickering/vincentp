@@ -5,6 +5,7 @@ date: "2017-02-20 16:50:00 +/-GMT"
 meta: "Make Your Type Scale With Your Screen Size In Proportion"
 summary: "Make Your Type Scale With Your Screen Size In Proportion"
 category: "Tips"
+syndicated: http://www.google.com
 ---
 
 Make your type scale in proportion to the viewport size.

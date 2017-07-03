@@ -27,6 +27,7 @@ Control styles output by Markdown
 .e-content li {
      font-size: calc(var(--baseline-font-size) + 0.1vw);
      line-height: var(--lh-list);
+     list-style-type: circle;
 }
 
 .highlight,

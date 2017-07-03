@@ -4,7 +4,7 @@
     {% assign pubDate = page.date %}
 {% endif %}
 
-<time itemprop="dateCreated" class="dt-published  f-small italic" datetime="{{ pubDate | date_to_xmlschema }}">
+<time itemprop="dateCreated" class="dt-published  f6 f-mono" datetime="{{ pubDate | date_to_xmlschema }}">
     {% assign d = pubDate | date: "%d" | plus:'0' %}
     {{ pubDate | date: "%B" }}
     {% case d %}

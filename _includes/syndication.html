@@ -1,3 +1,3 @@
-{% comment %}
-    <p class="syndicated">Also on: <a rel="syndication" class="u-syndication" href="…">Twitter</a></p>
-{% endcomment %}
+{% if page.category == 'Tips' %}
+    <p class="syndicated">Also on: <a rel="syndication" class="u-syndication" href="{{page.syndicated}}">Twitter</a>. <a href="{{site.data.author.twitter.url}}" itemprop="url" title="Twitter" rel="me external">Follow me for more Tips like this</a>.</p>
+{% endif %}

@@ -12,13 +12,12 @@
 
         <main class="center">
             <article itemscope itemtype="http://schema.org/Blog" class="h-entry">
-
-                {% include syndication.html %}
                 <div class="e-content dg center mw-site grid-1-col-short pa2">
                     {{ content }}
                     {% if page.modified %}
                         <p><span class="dt-updated"><strong>Updated <abbr class="value" title=" {{ page.modified }}">15-03-2017</abbr></strong>:  {{ page.modifiedReason }}.</span></p>
                     {% endif %}
+                    {% include syndication.html %}
                 </div>
             </article>
         </main>

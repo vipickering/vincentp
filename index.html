@@ -19,10 +19,9 @@ summary :  "A blog about front-end development techniques, HTML, CSS and Javascr
     <main class="center">
      <div class="e-content  dg center mw-site grid-1-col-short pa2">
         <h2>Recent Thoughts and Writings</h2>
-        {% for post in site.posts limit:5 %}
-            <article itemscope itemtype="http://schema.org/Blog" class="h-entry">
-                 <h3 itemprop="headline" class="p-name"><a href="{{site.url}}{{ post.url }}">{{ post.title }}</a></h3>
-                {% include date.html %}
+        {% for post in site.posts limit:10 %}
+            <article itemscope itemtype="http://schema.org/Blog" class="h-entry mb2">
+                <h3 itemprop="headline" class="p-name ma0"><a href="{{site.url}}{{ post.url }}" class="rm-underline" title="{{ post.title }}">{{ post.title }}</a></h3>
                 <p class="p-summary">{{ post.summary }}</p>
             </article>
         {% endfor %}
