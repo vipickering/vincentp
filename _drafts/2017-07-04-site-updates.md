@@ -12,7 +12,8 @@ Implemented CSS grid, technology is good but needs the ability to ignore divs. T
 
 Average HTML file size squashed by using less markup with CSS grid down to 4kb (Gzipped).
 
-
 Brand now closer reflects my style and quality
 
 playing around behind the scenes with new technology like POSSE, still deciding how I want to use it.
+
+Added Tips and section on Cybernetics (forthcoming)

@@ -4,28 +4,24 @@ img {
 }
 
 figure {
+    display: table;
     margin: 0 0 var(--extra-large) 0;
     line-height: var(--lh-list);
+    width: 95%;
 }
 
 figcaption {
     font-family: var(--font-mono);
     font-size: var(--small);
-    display: inline-block;
-    float: right;
+    display: table-cell;
     width: 37%;
     padding: var(--medium) 0;
     border-top: 1px solid var(--grey);
-    margin-left: 10px;
+    vertical-align: top;
 }
 
 figure > img {
-    float: left;
-    display: inline-block;
-    width: 60%;
+    display: table-cell;
+    width:90%;
+    margin-left: var(--medium);
 }
-
-figure:before,
-figure:after   { content: " "; display: table; }
-figure:after   { clear: both; }
-figure         { *zoom: 1; }
