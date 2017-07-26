@@ -20,7 +20,8 @@ Control styles output by Markdown
     padding: 0;
 }
 
-.e-content > ul {
+.e-content > ul,
+.e-content > ol {
     margin: 0 0 var(--medium) 0;
 }
 
@@ -43,4 +44,16 @@ Control styles output by Markdown
 
 code {
   padding: 0 0.3rem 0 0.3rem;
+}
+
+.e-content .footnotes li {
+  font-size: var(--small);
+  font-family: var(--font-mono);
+  font-weight: 100;
+  margin-bottom: 5px;
+}
+
+.footnotes ol {
+  margin:0;
+  padding: 0;
 }

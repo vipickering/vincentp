@@ -78,27 +78,24 @@ a:focus {
     outline: 1px solid var(--red);
 }
 
-
 blockquote {
-    padding: var(--extra-extra-large) 0 var(--extra-extra-large) 0 ;
-    margin: 0 auto var(--extra-extra-large) auto;
-    max-width: 23.612rem;
-    text-align: center;
+    padding: var(--extra-extra-large) var(--small);
+    margin: 0 0 var(--extra-extra-large) 0;
+    width: 90%;
+    text-align: left;
+    border-left: 5px solid var(--pale-grey);
+    background-color: var(--light-grey);
 }
 
-blockquote::after,
-blockquote::before {
-    content: '';
-    display: block;
-    background-color: var(--black);
-    margin: auto;
-    height: var(--extra-extra-small);
-    width: var(--extra-extra-large);
-}
+cite { font-size: var(--small); }
+cite:before {
+    content: '—';
+    display: inline-block;
+    margin-right: 10px;
+ }
 
 blockquote > p {
     line-height: 1.5;
-    margin: var(--extra-large) 0 var(--extra-large) 0;
 }
 
 em,
