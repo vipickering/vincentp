@@ -67,10 +67,20 @@ Cyberneticians consider variety as an alternative way to think about informatio
     </footer>
 </blockquote>
 
-Know as “The Law Of Requisite Variety” or “Ashby’s Law”. It is considered “The First Law Of Cybernetics”.
+This is known as “The Law Of Requisite Variety” or “Ashby’s Law”. It is considered “The First Law Of Cybernetics”.
 
 Ashby’s Law implies that the degree of control over a system is proportional to the amount of information available. You cannot control what you do not understand and the control you exert over a system must compensate for all output the system can attain.
 
+Consider projects you have worked upon "go live" only later to discover:
 
-[^1]: [Cybernetics](https://en.wikipedia.org/wiki/Cybernetics) pre dates the internet, Terminators, Cyborgs or anything like that. It is from the Greek word kybernētēs which means "steersman".
+- Dead end user flows.
+- States with un-styled components.
+- Logic with undetermined outcomes.
+- Duplication in user patterns with differing outcomes (e.g. resetting passwords, or creating accounts by multiple different methods).
+
+The people managing these projects were not in control of their system nor did they understand the outcomes it could produce.
+
+Component libraries, user flows and team communication provide information we need to assert a measure of control over the systems we create, but they are not the whole picture. In a later post I will explore this in greater depth.
+
+[^1]: [Cybernetics](https://en.wikipedia.org/wiki/Cybernetics) pre dates the internet, terminators, cyborgs or anything like that. It is from the Greek word kybernētēs which means "steersman".
 [^2]: [Control Theory](https://en.wikipedia.org/wiki/Control_theory)

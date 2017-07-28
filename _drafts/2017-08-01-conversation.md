@@ -42,7 +42,7 @@ Every conversation should end by participants deciding between them on an agreed
 ## Context
 
 <blockquote>
-    <p>If we don’t understand why, where and how. What hope do we have in solving the problem at all?</p>
+    <p>If we don't understand why, where and how. What hope do we have in solving the problem at all?</p>
     <footer>
        <cite><a href="http://vincentp.me">Vincent Pickering</a></cite>
     </footer>
@@ -182,7 +182,7 @@ An agreement state can be achieved when one of the following criteria are met:
 
 1. The outcome response of the action should be clear when concluded.
 2. If further conversations are required, it should be easily linked together and scheduled.
-3. It should be clear how to end the conversation in negative  agreement, such as cancel or delete.
+3. It should be clear how to end the conversation in negative agreement, such as cancel or delete.
 
 ## Action or Transaction
 
