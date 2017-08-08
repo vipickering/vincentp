@@ -35,6 +35,9 @@ em {
     font-weight: bold;
 }
 
+abbr:hover{
+cursor: help; }
+
 abbr[title] {
     text-decoration: none;
     border-bottom: 1px dotted black;
@@ -104,8 +107,13 @@ blockquote > p {
     font-weight: 100;
 }
 
+blockquote > p + p {
+    margin-top: var(--large);
+}
+
 sup {
     font-size: var(--extra-small);
     font-family: var(--font-mono);
     font-weight: 100;
+    margin: 0 0 0 2px;
 }

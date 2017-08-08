@@ -22,7 +22,7 @@ Control styles output by Markdown
 
 .e-content > ul,
 .e-content > ol {
-    margin: 0 0 var(--medium) 0;
+    margin: 0 0 var(--large) 0;
 }
 
 .e-content li {
@@ -44,6 +44,10 @@ Control styles output by Markdown
 
 code {
   padding: 0 0.3rem 0 0.3rem;
+}
+
+.footnotes {
+  overflow: auto;
 }
 
 .e-content .footnotes li {

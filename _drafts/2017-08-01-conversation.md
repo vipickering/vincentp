@@ -14,7 +14,7 @@ category: "Cybernetics"
     </footer>
 </blockquote>
 
-Design systems exist to facilitate communication between man and machine. Fulfilling this thought to conclusion dictates that good system design must encompass clear concise conversation with 1 or multiple participants.
+Design systems exist to facilitate communication between man and machine. Fulfilling this thought to conclusion dictates that good system design must encompass clear concise conversation with one or multiple participants.
 
 Through code, facilitating machines communicating with machines is easily achievable. A designed system will fail when neglecting the human element. Crafting systems that converse with humans clearly and understand feedback received is the primary goal. To achieve this goal we must first analyse how humans speak to each other.
 
@@ -22,6 +22,7 @@ In “[Designing for Conversation](http://pangaro.com/designing-for-conversation
 
 <img src="{{site.url}}/images/blog/2017-08-01/conversation-diagram-pangaro.png" width="612" alt="Designing for conversation model"/>
 
+They model conversation in to five key areas:
 
 #### 1. [Context](#context)
 Upon commencing a conversation with another, first the receiver's context must be understood. Calling a friend on the phone during an important meeting would most likely result in the call being ignored. At that current moment in time the conversation isn't relevant to the receiver. Both participants must share the same context for meaningful conversation to take place.
@@ -48,7 +49,9 @@ Every conversation should end by participants deciding between them on an agreed
     </footer>
 </blockquote>
 
-A system that wholly embraces the context for which it is intended does not stray in to areas that are not its primary use case. When tasked to create a system, there are many factors to take in to account and consider impact.
+A system that wholly embraces the context for which it is intended does not stray (<abbr title="The Point Of A System Is What It Does">POSIWID</abbr>) in to areas that are not its primary use case.
+
+When tasked to create a system, there are many factors to take in to account and consider impact.
 
 ### Engagement duration
 Research the average length an interaction with the system is expected to take. If the interaction will be prolonged, permit the user to save the engagement and return later. Alternatively consider breaking the engagement down in to smaller transactions.
@@ -62,13 +65,13 @@ The system initiating an information exchange is more problematic. Craft the sys
 
 Try to save instant notifications for important or time critical information, such as:
 
-- A package has been dispatched
+- A package has been dispatched.
 - System request for information before a deadline.
-- Emergency
+- An emergency.
 
 ### Familiarity
 
-Upon making new friends or meeting new people initial conversations will be light. Personal information may be shared if the participants feel at ease with each other such as their name, partners name, or number of children. Most initial conversations with a new person are about understanding if the person is someone you wish to get to know better and establishing common ground to base that relationship.
+Upon making friends or meeting new people initial conversations will be light. Personal information may be shared if the participants feel at ease with each other such as their name, partners name, or number of children. Most initial conversations with a new person are about understanding if the person is someone you wish to get to know better and establishing common ground to base that relationship.
 
 Keep initial engagements light with the user. Avoid bombarding them with information and allow them to engage with the system at their own pace.
 
@@ -125,7 +128,7 @@ Design systems to reduce future conversation time. Learn preferences for repeat 
 
 In terms of the shared language of the system itself we must consider the visual language and ensure interactions are consistent throughout. For instance, if a user clicks on a blue underlined word on a website they would expect to link to another page. Any other action which occurs is unexpected and will begin the breakdown in conversation between the user and system. Attempt to construct a system that embraces consistent user responses to input, and in which, responses are easy to digest and unambiguous. How we indicate responses in our system and communicate them to the user effectively should allow the user to understand what has happened and why.
 
-Where systems are concerned it is relatively easy to make them speak the correct native language, but often context within is lost. When supporting foreign markets research extensively use of colours, patterns and specific design tropes avoiding unfamiliar patterns (even if they seem natural to your usual market) and ensure colours and symbols used are familiar to the regions and not offensive.
+Where systems are concerned it is relatively easy to make them speak the correct native language, but often context within is lost. If supporting a market foreign to your own, extensively research use of colours, patterns , language use, and specific design tropes. Avoid unfamiliar patterns (even if they seem natural to your usual market) and ensure colours and symbols used are familiar to the regions and not offensive.
 
 When a user attains a determined level of maturity in using a system. Offer keyboard short-cuts, common gesture types and other input mechanisms to reduce conversation time. Allow the user to determine when they wish to use short-cuts as they feel more comfortable engaging with the system.
 
@@ -152,11 +155,11 @@ Designed system's should accommodate patterns in dealing with situations when th
 ### Behaviour
 Humans do not react favourably to unexpected behaviour. Complicating the issue further, acceptable behaviour is predicted based on a changing set of contextual circumstances such as:
 
-- where the conversation takes place.
-- when the conversation takes place.
-- whom the conversation is between.
-- the amount of shared history between participants.
-- the nature of the conversation.
+- Where the conversation takes place.
+- When the conversation takes place.
+- Whom the conversation is between.
+- The amount of shared history between participants.
+- The nature of the conversation.
 
 Design systems to be sensitive to factors before producing a response. A system can know who it is addressing and the time and date the conversation is taking place. If the system is a fixed kiosk, or delivered in another restricted medium this will provide further context as to where the transaction is occurring. Finally the system should have access to all the shared history the user has accrued. Use the data available to inform you on how the system should respond appropriately. For example, if a kiosk was in a museum or library, you would not want loud commanding responses booming out from the device, or personal information read aloud. It would cause embarrassment towards the user, resulting in them terminating the transaction. Better to rely upon on-screen prompts to direct their attention.
 
@@ -190,5 +193,14 @@ A good interaction with the system should result in the system and user obtainin
 
 Productive conversation is a cornerstone in creating a successful system. Once a high level is achieved, interactions become effortless and second nature on behalf of the user. Facilitating conditions to allow the flow state to occur.
 
+### In Summary
+
+- Context is key. Never loose sight of <abbr title="The Point Of A System Is What It Does">POSIWID</abbr>.
+- Respect is a two way street.
+- Customer data is an earned privilege not a right.
+- The system should embrace the user's needs and circumstances to enrich the conversation.
+- Follow the key points of the Conversation Model in all transactions that engage with the user.
+- The nature of information submitted by a user is related to their external circumstances at that time.
+- If you want your system to be loved. It needs to be follow basic human etiquette and earn respect over time.
 
 [^1]: Reference: [http://pangaro.com/presents/Pangaro_IXDA_2017_v5_distro.pdf](http://pangaro.com/presents/Pangaro_IXDA_2017_v5_distro.pdf)

@@ -7,12 +7,7 @@ summary: "To build great user experiences we must understand how to communicate 
 category: "Cybernetics"
 ---
 
-<blockquote>
-    <p>Design in all forms is transaction facilitation</p>
-    <footer>
-       <cite><a href="http://vincentp.me">Vincent Pickering</a></cite>
-    </footer>
-</blockquote>
+## Design in all forms is transaction facilitation
 
 Crafting usable, transparent interfaces for websites and software is forged in the facilitation of a shared dialogue between the user and the system.
 
@@ -30,7 +25,7 @@ Cyberneticians view the world through the flow of information, communication cha
 
 Generally it is applied when the system incorporates a closed signalling loop. In essence, where action by the system generates some change in its environment, resulting in a change to the system in some manner, triggering a system change. This is sometimes referred to as a "circular causal" relationship.
 
-Cybernetics is only concerned with modelling the systems. It does not care about “how” or “why” (that is left to the field of User Experience Design where we are concerned).
+Cybernetics is only concerned with modelling systems. It does not care about “how” or “why” (that is left to the field of User Experience Design where we are concerned).
 
 Norbert Wiener focused on the relationship between message and response as a key element of Cybernetics, whether in humans or machines:
 
@@ -53,9 +48,9 @@ The most basic example of a circular causal relationship is a thermostat. The th
 
 The result after output from the controlling system is fed back into the controller, informing its next action. This behaviour endlessly loops checking if the thermostat value is not correct and applying its logic in an inversely proportional manner to readdress the balance.
 
-**INSERT FORM DIAGRAM HERE **
-
 A close analogy from a web point of view is a web form. The form will endlessly default to false, looping back to update the UI states, until the criteria is met. Once met, the system signal success and returns to its original state.
+
+{% include diagrams/cybernetics-simple-form-model.html %}
 
 This basic behaviour is called a “closed signalling loop” and is the foundation for [Control Theory](https://en.wikipedia.org/wiki/Control_theory).
 
@@ -81,7 +76,7 @@ Uncertainty occurs when all possible states are not known. The term “Requisite
 
 This is known as “The Law Of Requisite Variety” or “Ashby’s Law”. It is considered “The First Law Of Cybernetics”.
 
-Ashby’s Law implies that the degree of control over a system is proportional to the amount of information available. You cannot control what you do not understand and the control you exert over a system must compensate for all output the system can attain.
+Ashby’s Law implies that the degree of control over a system is proportional to the amount of information available. You cannot control what you do not understand and the control you exert over a system must compensate for all outputs the system can attain.
 
 Consider projects you have worked upon "go live" only later to discover:
 
@@ -94,24 +89,30 @@ The team building these projects were not in control of their system nor did the
 
 When complete control of the system is not secured; exerting control and modifying behaviour (such as modified states of components or outputs) will produce unknown-able outcomes.
 
-Component libraries, user flows and team communication provide information we need to assert a measure of control over the systems we create, but they are not the whole picture. In a later post I will explore this in greater depth.
+Component libraries, user flows and team communication provide information we need to assert a measure of control over the systems we create, but they are not the whole picture. In a later article I will explore how to model the flow of information through your system and the benefits it provides.
 
 ### Viable System Model
 
 **INSERT VSM DIAGRAM HERE **
 
-Stafford Beer.
+<blockquote>
+    <p>(POSIWID) - The point of the system, is what it does.</p>
+    <footer>
+        <cite><a href="#">Stafford Beer</a></cite>
+    </footer>
+</blockquote>
 
-A typical flow may be achronistic to a typical monolith architecture, where by the Viable System Model is closer to microservices architecture.
+
+A typical flow may be anachronistic to a monolith architecture, where by the Viable System Model is closer to microservices architecture.
 
 A viable system is any system organised in such a way as to meet the demands of surviving in the changing environment. One of the prime features of systems that survive is that they are adaptable
 
 ### In Summary
 
 - Consider the flow of information through your site or application.
-- The user/machine dialogue is a shared experience and should be no different to communicating with another human.
+- The user/machine dialogue is a shared experience. It is no different to communicating with another human.
 - Our system should adapt to prevent failure.
-- You cannot control what you do not understand.
+- You cannot control what you do not understand and the control you exert over a system must compensate for all outputs the system can attain.
 - Understand Variety in your application.
 
 Cybernetics is a vast topic. I have tried to touch on a few key points to demonstrate cross-pollination and shared goals. In further articles, we will investigate the topic in greater depth.
