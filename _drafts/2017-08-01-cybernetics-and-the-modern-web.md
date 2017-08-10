@@ -25,7 +25,9 @@ Cyberneticians view the world through the flow of information, communication cha
 
 Generally it is applied when the system incorporates a closed signalling loop. In essence, where action by the system generates some change in its environment, resulting in a change to the system in some manner, triggering a system change. This is sometimes referred to as a "circular causal" relationship.
 
-Cybernetics is only concerned with modelling systems. It does not care about “how” or “why” (that is left to the field of User Experience Design where we are concerned).
+{% include diagrams/feedback-loop-basic.html %}
+
+Cybernetics is only concerned with modelling systems. It does not care about “how” or “why”.
 
 Norbert Wiener focused on the relationship between message and response as a key element of Cybernetics, whether in humans or machines:
 
@@ -42,13 +44,13 @@ Norbert Wiener focused on the relationship between message and response as a key
 
 Such an overarching field as Cybernetics encompasses many areas. Primarily, in our field of designing usable systems, we are most concerned with the modelling of messaging, understanding the flow of information and control theory.
 
-**INSERT THERMOSTAT DIAGRAM HERE **
-
 The most basic example of a circular causal relationship is a thermostat. The thermostat has one purpose; to maintain its temperature at a pre-determined setting. When an external influence alters the temperature of the room the thermostat will either turn on and increase the temperature or turn off to reduce the temperature until it's predetermined setting is achieved.
+
+{% include diagrams/cybernetics-thermostat.html %}
 
 The result after output from the controlling system is fed back into the controller, informing its next action. This behaviour endlessly loops checking if the thermostat value is not correct and applying its logic in an inversely proportional manner to readdress the balance.
 
-A close analogy from a web point of view is a web form. The form will endlessly default to false, looping back to update the UI states, until the criteria is met. Once met, the system signal success and returns to its original state.
+A close analogy from a web point of view is a form. The form will endlessly default to false, looping back to update the UI states, until the criteria is met. Once met, the system signal success and returns to its original state.
 
 {% include diagrams/cybernetics-simple-form-model.html %}
 
@@ -63,9 +65,9 @@ This basic behaviour is called a “closed signalling loop” and is the foundat
     </footer>
 </blockquote>
 
-Cyberneticians consider variety as an alternative way to think about information. Variety describes the number of potential states a system can take. If all possible states in a system are known, complete knowledge of its behaviour is secured.
+Cyberneticians consider variety as an alternative way to think about information. Variety describes the number of potential states a system can take. If all possible states in a system are known, complete knowledge of its behaviour is secured. Uncertainty occurs when all possible states are not known. Resulting in the system producing unanticipated output states.
 
-Uncertainty occurs when all possible states are not known. The term “Requisite Variety” is used in Cybernetics which means “Required Information”. When this term is used it implies there is a required amount of quantifiable information necessary for a task.
+The term “Requisite Variety” is used in Cybernetics which means “Required Information”. When this term is used it implies there is a required amount of quantifiable information necessary for a task.
 
 <blockquote>
     <p>If a system is to be stable, the number of states of its control mechanism must be greater than or equal to the number of states in the system being controlled.</p>
@@ -103,7 +105,7 @@ Component libraries, user flows and team communication provide information we ne
 </blockquote>
 
 
-A typical flow may be anachronistic to a monolith architecture, where by the Viable System Model is closer to microservices architecture.
+A typical flow may be anachronistic to a monolith architecture, where by the Viable System Model is closer in nature to a microservices architecture.
 
 A viable system is any system organised in such a way as to meet the demands of surviving in the changing environment. One of the prime features of systems that survive is that they are adaptable
 
