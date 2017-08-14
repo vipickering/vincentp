@@ -105,9 +105,13 @@ Component libraries, user flows and team communication provide information we ne
 </blockquote>
 
 
-A typical flow may be anachronistic to a monolith architecture, where by the Viable System Model is closer in nature to a microservices architecture.
+A typical flow may be anachronistic to a monolith architecture, where by, the Viable System Model is closer in nature to a [microservices]() architecture.
 
-A viable system is any system organised in such a way as to meet the demands of surviving in the changing environment. One of the prime features of systems that survive is that they are adaptable
+A viable system is any system organised in such a way as to meet the demands of surviving in the changing environment.
+
+Beer developed his branch of  Cybernetics focused on business and governments. He was obsessed with how information flows through these institutions. How to better manage those processes and in turn make them more resilient, efficient and adaptable.
+
+This culminated in his crowing achievement [Project Cybersyn](). A visionary project that shares many similarities today in data and distributed systems.
 
 ### In Summary
 
@@ -116,6 +120,7 @@ A viable system is any system organised in such a way as to meet the demands of 
 - Our system should adapt to prevent failure.
 - You cannot control what you do not understand and the control you exert over a system must compensate for all outputs the system can attain.
 - Understand Variety in your application.
+- Model your system to adapt to external changing conditions such as environment and users.
 
 Cybernetics is a vast topic. I have tried to touch on a few key points to demonstrate cross-pollination and shared goals. In further articles, we will investigate the topic in greater depth.
 
