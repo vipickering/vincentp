@@ -20,7 +20,7 @@ Through code, facilitating machines communicating with machines is easily achiev
 
 In “[Designing for Conversation](http://pangaro.com/designing-for-conversation.html)” [Dr. Paul Pangaro](http://www.pangaro.com/) and [Hugh Dubberly](http://www.dubberly.com/about) model[^1] human conversation in to the following components:
 
-<img src="{{site.url}}/images/blog/2017-08-01/conversation-diagram-pangaro.png" width="612" alt="Designing for conversation model"/>
+{% include diagrams/cybernetics-conversation-model.html %}
 
 They model conversation in to five key areas:
 
