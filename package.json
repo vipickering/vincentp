@@ -23,13 +23,13 @@
     "url": "https://github.com/vipickering/vincentp/issues"
   },
   "devDependencies": {
-    "autoprefixer": "^7.1.2",
     "css-mqpacker": "^6.0.1",
     "cssnano": "^3.10.0",
     "postcss": "^6.0.9",
     "postcss-cli": "^4.1.0",
     "postcss-copy": "^7.1.0",
     "postcss-css-variables": "^0.8.0",
+    "postcss-cssnext": "^3.0.2",
     "postcss-import": "^10.0.0",
     "stylelint": "^8.0.0",
     "uglify-js": "^3.0.27"
