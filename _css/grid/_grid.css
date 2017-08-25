@@ -11,10 +11,4 @@
         grid-template-columns: minmax(300px, 41.956rem);
         grid-template-rows: repeat(2, auto);
     }
-
-    .grid-2-col {
-        grid-template-columns: 170px auto;
-    }
-
-    .middle { align-items: center; justify-items: center; }
 }

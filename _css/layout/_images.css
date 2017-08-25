@@ -4,24 +4,20 @@ img {
 }
 
 figure {
-    display: table;
-    margin: 0 0 var(--extra-large) 0;
+    position: relative;
+    margin: 0 auto 0 auto;
     line-height: var(--lh-list);
-    width: 95%;
 }
 
 figcaption {
+    position: absolute;
+    bottom: 8px;
+    right: 0;
     font-family: var(--font-mono);
     font-size: var(--small);
-    display: table-cell;
-    width: 37%;
-    padding: var(--medium) 0;
-    border-top: 1px solid var(--grey);
+    max-width: 50%;
+    padding: var(--small);
+    color: var(--white);
     vertical-align: top;
-}
-
-figure > img {
-    display: table-cell;
-    width:90%;
-    margin-left: var(--medium);
+    background-color: var(--black);
 }
