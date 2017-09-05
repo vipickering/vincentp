@@ -33,17 +33,22 @@ Control styles output by Markdown
 
 .highlight,
 .highlighter-rouge {
-    overflow-x: auto;
+
+
+}
+
+.highlight {
+  padding: 0.5rem ;
+  background-color:  var(--dark-blue);
+  line-height: var(--lh-list);
+     overflow-x: auto;
     font-size: var(--medium);
     margin: 0 0 var(--medium) 0;
     color: var(--pale-grey);
-    background-color:  var(--dark-blue);
-    padding: 0.3rem;
-    line-height: var(--lh-list);
 }
 
 code {
-  padding: 0 0.3rem 0 0.3rem;
+  font-weight: bold;
 }
 
 .footnotes {
