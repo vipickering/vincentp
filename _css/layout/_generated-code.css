@@ -47,10 +47,6 @@ Control styles output by Markdown
     color: var(--pale-grey);
 }
 
-code {
-  font-weight: bold;
-}
-
 .footnotes {
   overflow: auto;
 }
