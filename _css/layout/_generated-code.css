@@ -33,7 +33,7 @@ Control styles output by Markdown
 
 .highlight,
 .highlighter-rouge {
-
+overflow-x: auto;
 
 }
 
@@ -41,10 +41,9 @@ Control styles output by Markdown
   padding: 0.5rem ;
   background-color:  var(--dark-blue);
   line-height: var(--lh-list);
-     overflow-x: auto;
-    font-size: var(--medium);
-    margin: 0 0 var(--medium) 0;
-    color: var(--pale-grey);
+  font-size: var(--medium);
+  margin: 0 0 var(--medium) 0;
+  color: var(--pale-grey);
 }
 
 .footnotes {
