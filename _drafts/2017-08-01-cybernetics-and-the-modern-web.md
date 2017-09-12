@@ -106,4 +106,9 @@ In a later articles I will explore how to model the flow of information through 
 
 Cybernetics is a vast topic. I have tried to touch on a few key points to demonstrate cross-pollination and shared goals. In further articles, we will investigate the topic in greater depth.
 
+
+#TODO
+
+
+
 [^1]: [Cybernetics](https://en.wikipedia.org/wiki/Cybernetics) pre dates the internet, terminators, cyborgs or anything like that. It is from the Greek word kybernētēs which means "steersman".
