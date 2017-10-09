@@ -1,7 +1,7 @@
 ---
 layout: "post"
 title: "Cybernetics And The Modern Web"
-date: "2017-10-09 10:00:00 +/-GMT"
+date: "2017-10-10 10:00:00 +/-GMT"
 meta: "An overview of modern Cybernetics and the web"
 summary: "To build great user experiences we must understand how to communicate effectively"
 category: "Cybernetics"
@@ -104,6 +104,6 @@ In a later articles I will explore how to model the flow of information through 
 - Understand Variety in your application.
 - Model your system to adapt to external changing conditions such as environment and users.
 
-Cybernetics is a vast topic. I have tried to touch on a few key points to demonstrate cross-pollination and shared goals. In further articles, we will investigate the topic in greater depth.
+Cybernetics is a vast topic. I have tried to touch on a few key points to demonstrate cross-pollination and shared goals. Future articles  will investigate the topic in greater depth.
 
 [^1]: [Cybernetics](https://en.wikipedia.org/wiki/Cybernetics) pre dates the internet, terminators, cyborgs or anything like that. It is from the Greek word kybernētēs which means "steersman".
