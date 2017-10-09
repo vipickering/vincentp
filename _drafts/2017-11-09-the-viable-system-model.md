@@ -1,7 +1,7 @@
 ---
 layout: "post"
 title: "The Viable System Model"
-date: "2017-08-01 10:00:00 +/-GMT"
+date: "2017-11-09 10:00:00 +/-GMT"
 meta: "Applying Stafford Beer's Viable System Model to the modern web"
 summary: "What we can learn from the teachings of Stafford Beer"
 category: "Cybernetics"

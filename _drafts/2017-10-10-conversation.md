@@ -1,7 +1,7 @@
 ---
 layout: "post"
 title: "Conversation"
-date: "2017-08-01 10:00:00 +/-GMT"
+date: "2017-10-10 10:00:00 +/-GMT"
 meta: "Design is Conversation"
 summary: "Thoughts on the Conversation Model by Dr.Paul Pangaro and Hugh Dubberly"
 category: "Cybernetics"
