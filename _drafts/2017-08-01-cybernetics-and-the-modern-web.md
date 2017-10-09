@@ -85,7 +85,7 @@ Consider projects you have worked upon "go live" only later to discover:
 - Dead end user flows.
 - States with unstyled components.
 - Logic with undetermined outcomes.
-- Duplication in user patterns with differing outcomes (e.g. resetting passwords, or creating accounts by multiple different methods).
+- Duplication in user patterns with differing outcomes (e.g. Resetting passwords or creating accounts by multiple different methods).
 
 The team building these projects were not in control of their system nor did they understand the outcomes it could produce.
 

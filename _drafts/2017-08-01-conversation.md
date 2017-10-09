@@ -54,20 +54,24 @@ A system that wholly embraces the context for which it is intended does not stra
 When tasked to create a system, there are many factors to take in to account and consider impact.
 
 ### Engagement duration
-Research the average length an interaction with the system is expected to take. If the interaction will be prolonged, permit the user to save the engagement and return later. Alternatively consider breaking the engagement down in to smaller transactions.
 
-Engagement duration is related with system complexity. The longer an engagement with the system lasts, typically the number of exchanges between the user and system will increase. Therefore as we increase engagement duration hidden system complexity also rises. Remember complexity is not only in the interface of the system or language used, it is also a key part of how the user will use your system.
+Research the average length an interaction with the system is expected to take. If the interaction will be prolonged, permit the user to save the engagement and return later. Alternatively, break the engagement down in to smaller transactions.
+
+Engagement duration is related to system complexity. The longer an engagement with the system is prolonged, the greater the number of exchanges between the user and system. Therefore as we increase engagement duration hidden system complexity also rises.
+
+Complexity is not only in the interface of the system or language used. Complexity is also a key part in how the user engages your system.
 
 ### Imposed Factors
-When a user initiates the exchange with our system it should be always ready. Under rare circumstance when the system is under-going maintenance or has suffered a fatal error, politely direct the user to a time or date they can return.
+
+When a user initiates a system exchange it should be always ready. Under rare circumstance when the system is under-going maintenance or has suffered a fatal error, politely direct the user to a time or date they can return.
 
 The system initiating an information exchange is more problematic. Craft the system to be sensitive to the users context. Attempting to request information for an exchange between 00:00 and 07:00 has a high chance that the user is in bed and will not respond. Similarly, push notifications or emails throughout the users day can be overly antagonistic. Better to allow the user to configure their times when they are available and most likely to respond to a transaction.
 
 Try to save instant notifications for important or time critical information, such as:
 
 - A package has been dispatched.
-- System request for information before a deadline.
-- An emergency.
+- A system requesting information before a deadline.
+- An emergency situation.
 
 ### Familiarity
 
@@ -75,7 +79,7 @@ Upon making friends or meeting new people initial conversations will be light. P
 
 Keep initial engagements light with the user. Avoid bombarding them with information and allow them to engage with the system at their own pace.
 
-Just as you may become friends with another person through a series of conversations and shared experiences spanning a period of time, endeavour to create a system that builds a relationship with the user that gets stronger the longer they choose to interact with the system. Relationships are earned through trust and respect so your system should also follow these principles.
+Just as you may become friends with another person through a series of conversations and shared experiences spanning a period of time, endeavour to create a system that builds a relationship with the user that gets stronger the longer they choose to interact with the system. Relationships are earned through trust and respect so your system should follow these principles.
 
 Context is critical in polite conversation. It is considered rude to ask a person how much they weigh or for sensitive information like their bank account details. If the conversation began in a bank speaking to a teller on the other hand, requesting your bank account details is perfectly acceptable. When designing systems only request information that is acceptable given the circumstances the system is operating within.
 
@@ -91,7 +95,7 @@ Physical interaction can be a contextual differentiator if that physical type is
 6. Machine readable written document.
 7. QR and bar codes.
 8. Physical environment (temperature, humidity).
-9. Physical input (fingerprint, retinal scanner, blood type, facial scanner, breathalyser).
+9. Biometric input (fingerprint, retinal scanner, blood type, facial scanner, breathalyser).
 10. None Interaction.
 11. Spacial movement (motion control, acceleration etc).
 12. Spacial placement (location, elevation, coordinates, orientation).
