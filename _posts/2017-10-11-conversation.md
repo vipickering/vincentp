@@ -1,7 +1,7 @@
 ---
 layout: "post"
 title: "Conversation"
-date: "2017-10-10 10:00:00 +/-GMT"
+date: "2017-10-11 08:00:00 +/-GMT"
 meta: "Design is Conversation"
 summary: "Thoughts on the Conversation Model by Dr.Paul Pangaro and Hugh Dubberly"
 category: "Cybernetics"
@@ -195,7 +195,7 @@ An agreement state can be achieved when one of the following criteria are met:
 
 A good interaction with the system should result in the system and user obtaining the information they require to complete the transaction. Ensure outcomes are clearly labelled in the system and provide a way for the user to retrieve successful transactions at a later date.
 
-Productive conversation is a cornerstone in creating a successful system. Once a high level is achieved, interactions become effortless and second nature on behalf of the user. Facilitating conditions to allow the flow state to occur.
+Productive conversation is a cornerstone in creating a successful system. Once a high level is achieved, interactions become effortless and second nature on behalf of the user. Facilitating conditions to allow the [flow state](https://www.ted.com/talks/mihaly_csikszentmihalyi_on_flow?utm_campaign=tedspread--b&utm_medium=referral&utm_source=tedcomshare) to occur.
 
 ### In Summary
 
