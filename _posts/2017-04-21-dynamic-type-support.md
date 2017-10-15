@@ -70,6 +70,3 @@ All I had to do was add the following code at the end of my file.
 ```
 
 This ensures if the user has turned on Dynamic Text then pre-set values will be overridden and the Dynamic values used.
-
-If you have access to iOS give it a try and [let me know what you think]({{site.data.author.twitter.url}}).
-

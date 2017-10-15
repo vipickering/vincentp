@@ -12,7 +12,7 @@ layout: null
     "author" : [
         {
             "name" : "{{site.data.author.name}}",
-            "url" : "{{site.data.author.twitter.url}}",
+            "url" : "{{site.url}}",
             "avatar" : "{{site.url}}/images/vincentp-300.jpg"
         }
     ],

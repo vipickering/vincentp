@@ -31,6 +31,6 @@ It seems at the moment the solution is to roll several smaller grids, which seem
 
 Behind the scenes I am still playing with aspects of [The Indie Web](https://indieweb.org/) and a number of other technologies deciding what I want to implement. It is important to live with a new tech for a while before rolling it out when confident or implementation can become a mess.
 
-I've added a new sections [Tips]({{site.url}}/categories/tips). Where byte sized information will live whenever I have something that I think is helpful but doesn't warrant a full post. I will also push the Tip out to my [Twitter account]({{site.data.author.twitter.url}}).
+I've added a new sections [Tips]({{site.url}}/categories/tips). Where byte sized information will live whenever I have something that I think is helpful but doesn't warrant a full post. ~~I will also push the Tip out to my Twitter account~~.
 
-[Let me know what you think]({{site.data.author.twitter.url}}).
+Twitter account is now deactivated.
