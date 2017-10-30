@@ -1,6 +1,23 @@
-<div class="h-card" itemscope itemtype="http://schema.org/Person">
-    <a href="{{ site.url }}" title="vincentp.me" itemprop="url" class="u-url dn"><h1 class="f6 p-name f-mono" itemprop="name">Vincent Pickering</h1></a>
-    <address class="f6 f-mono dg center mw-site grid-3-col pa2">
+<div class="h-card center mw-site pa2" itemscope itemtype="http://schema.org/Person">
+    <div class="dg grid-2-col">
+        <div>
+            <h1 class="p-name f2" itemprop="name"><a href="{{ site.url }}" title="vincentp.me" itemprop="url" class="u-url rm-underline">Vincent Pickering</a></h1>
+        </div>
+        <div class="tr">
+            <button id="nav-lines">
+                <!-- Button Inspired by:https://codepen.io/apptension/pen/emXWpP?q=svg+hamburger&limit=all&type=type-pens -->
+                <svg viewbox="0 0 64 64">
+                    <line id="nav-line-1" x1="8" x2="56" y1="16" y2="16" class="nav-line" />
+                    <line id="nav-line-2" x1="8" x2="56" y1="32" y2="32" class="nav-line" />
+                    <line id="nav-line-3" x1="8" x2="56" y1="48" y2="48" class="nav-line" />
+                    <line x1="16" x2="48" y1="16" y2="48" class="cross-line" />
+                    <line x1="16" x2="48" y1="48" y2="16" class="cross-line" />
+                    <rect class="rect" width="42" height="42" x="11" y="11" />
+                </svg>
+            </button>
+        </div>
+    </div>
+    <address class="f6 f-mono dg  grid-3-col" id="menu">
         <ul class="ma0 pa0">
              {% if  site.categories.Articles %}
                 <li class="list lh-list"><a href="{{site.url}}/categories/articles" rel="me" class="rm-underline grey">Writing</a></li>
@@ -25,4 +42,3 @@
         </ul>
     </address>
 </div>
-

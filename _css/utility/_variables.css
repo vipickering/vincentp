@@ -34,8 +34,11 @@
     --site-width: 58.051rem;
     --lh-heading: 1;
     --lh-list: 1.7;
-    --font-header: -apple-system-headline, Georgia, Cambria, "Times New Roman", Times, serif;
-    --font-body: -apple-system-body, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",  "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    --font-header: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",  "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",  "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     --font-mono: Menlo, Monaco, Consolas, "Courier New", monospace;
 };
 
+/*
+Grid needs re-doing, multiple columns.
+*/

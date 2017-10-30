@@ -3,12 +3,16 @@
         grid-template-columns: repeat(3, auto);
     }
 
+    .grid-2-col {
+        grid-template-columns: repeat(2, auto);
+    }
+
     .grid-1-col {
         grid-template-rows: repeat(3, 1fr);
     }
 
     .grid-1-col-short {
-        grid-template-columns: minmax(300px, 41.956rem);
+        grid-template-columns: minmax(290px, 41.956rem);
         grid-template-rows: repeat(2, auto);
     }
 }

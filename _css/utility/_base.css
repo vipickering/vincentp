@@ -21,6 +21,10 @@
     color: var(--white);
 }
 
+button:focus {
+    outline: 0;
+}
+
 html {
     box-sizing: border-box;
     text-size-adjust: 100%;
@@ -55,7 +59,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: -apple-system-headline, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-family: var(--font-header);
 }
 
 p {
@@ -83,7 +87,6 @@ a:focus {
 blockquote {
     padding: var(--extra-extra-large) var(--small);
     margin: 0 0 var(--extra-extra-large) 0;
-    width: 90%;
     text-align: left;
     border-left: 5px solid var(--pale-grey);
     background-color: var(--light-grey);
@@ -115,4 +118,10 @@ sup {
     font-family: var(--font-mono);
     font-weight: 100;
     margin: 0 0 0 2px;
+}
+
+button{
+    cursor: pointer;
+    background: transparent;
+    border: 0;
 }

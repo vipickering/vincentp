@@ -1,5 +1,5 @@
 ---
-layout: "post"
+layout: "post_new"
 title: "Conversation"
 date: "2017-10-11 08:00:00 +/-GMT"
 meta: "Design is Conversation"

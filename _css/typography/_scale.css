@@ -4,4 +4,5 @@ small {
 }
 
 .f1 { font-size: calc(var(--baseline-font-size) + 3.5vw); }
+.f2 { font-size: calc(var(--baseline-font-size)); }
 .f6 { font-size: var(--small); }
