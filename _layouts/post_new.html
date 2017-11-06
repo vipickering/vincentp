@@ -6,21 +6,15 @@
 
     <body itemscope itemtype="http://schema.org/WebPage" class="ma0 pa0">
         <div class="h-entry">
-            <header class="bg-black white" style="height: 100vh;">
-                {% include hcard.html %}
-
-                   <!--{% include articleTitle.html %} -->
-                <div class="mw-site center pa2" style="margin-top: 50vh;">
-                    <h1 itemprop="headline" class="p-name ma0 mb2 pa0 f1 lh-heading" style="border-top: 1px solid #F8F8F8; padding-top: 20px;">{{ page.title }}</h1>
-                    <p class="f4 p-summary grey" style="margin-bottom: 4px; font-style: italic; font-weight: 100;">{{ page.summary }}</p>
-                    <p class="f6 grey">Published by <a class="p-author u-url" href="{{site.url}}" rel="author">{{ site.data.author.name }}</a> on {% include dateTime.html %}</p>
-                </div>
-                <a href="#articleStart" style="color:white; position: absolute; bottom:30px; text-align: center;width:100%;">Shall We?</a>
+            <header>
+                {% include hcard_new.html %}
+                <a href="#articleStart">Arrow?</a>
             </header>
         </div>
-        <main class="center">
+        <main>
             <article itemscope itemtype="http://schema.org/Blog" id="articleStart">
-                <div class="e-content dg center mw-site grid-1-col-short pa2">
+                {% include articleTitle_new.html %}
+                <div class="e-content">
                     {{ content }}
                     {% if page.modified %}
                         <p><span class="dt-updated"><strong>Updated <abbr class="value" title=" {{ page.modified }}">15-03-2017</abbr></strong>:  {{ page.modifiedReason }}.</span></p>

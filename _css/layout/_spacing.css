@@ -7,4 +7,7 @@
 .mt2 { margin-top: var(--medium); }
 .ml2 { margin-left: var(--small); }
 .mb2 { margin-bottom: var(--medium); }
-.mv30 { margin-top:30px; margin-bottom: 30px; }
+.mv30 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

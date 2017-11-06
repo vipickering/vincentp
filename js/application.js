@@ -3,7 +3,7 @@ window.onload = function application() {
     var menuButton = document.getElementById('nav-lines');
     var menuButtonOn = 'active';
     var menuButtonOff = '';
-    var menuItemShow = 'f6 f-mono dg  grid-3-col';
+    var menuItemShow = 'f6 f-mono dg  grid-3-col bg-red';
     var menuItemHide = 'dn';
     var menuVisibilityFlag = false;
 

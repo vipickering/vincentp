@@ -1,6 +1,6 @@
 {
   "name": "vincentp.me",
-  "version": "7.3.0",
+  "version": "8.0.0",
   "description": "personal website",
   "main": "https://vincentp.me",
   "author": "Vincent Pickering",
@@ -31,8 +31,9 @@
     "postcss-css-variables": "^0.8.0",
     "postcss-cssnext": "^3.0.2",
     "postcss-import": "^11.0.0",
+    "postcss-reporter": "^5.0.0",
     "stylelint": "^8.2.0",
-    "uglify-js": "^3.1.5"
+    "uglify-js": "^3.1.7"
   },
   "dependencies": {}
 }
