@@ -8,7 +8,7 @@
             <h1 class="p-name f2 ma0 pa0" itemprop="name"><a href="{{ site.url }}" title="vincentp.me" itemprop="url" class="u-url rm-underline">Vincent Pickering</a></h1>
         </div>
         <div class="tr" style="position: relative;">
-            <button id="nav-lines" style="z-index: 6;
+            <button id="nav-lines"  aria-label="Toggle Navigation On And Off" style="z-index: 6;
 position: absolute;
 top: 0;
 right: 0;
@@ -40,7 +40,7 @@ width: 100%;
 height: 100%;
 top: 0;
 left: 0;">
-        <div>
+        <nav role="navigation" aria-label="Site Navigation">
             <ul class="ma0 pa0">
                  {% if  site.categories.Articles %}
                     <li class="list lh-list"><a href="{{site.url}}/categories/articles" rel="me" class="rm-underline grey">Writing</a></li>
@@ -63,7 +63,7 @@ left: 0;">
                 <li class="list lh-list"><a href="{{site.data.author.github.url}}" rel="me external" class="u-url rm-underline grey">Github</a></li>
                 <li class="list lh-list"><a href="mailto:{{site.data.author.email}}"  itemprop="url"  rel="me" title="Email Me" class="rm-underline grey">Email</a></li>
             </ul>
-        </div>
+        </nav>
     </address>
 
 </div>

@@ -1,0 +1,6 @@
+{
+  "defaults": {
+    "ignore": [ "notice", "warning" ],
+    "timeout": 20000
+  }
+}
