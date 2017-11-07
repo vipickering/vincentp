@@ -9,8 +9,8 @@
   "private": true,
   "scripts": {
     "start": "jekyll serve",
-    "blc":"blc http://localhost:4000/ -ro",
-    "valimate" : "valimate _valimate.json",
+    "blc": "blc http://localhost:4000/ -ro",
+    "valimate": "valimate _valimate.json",
     "postcss": "postcss _css/application.css --config postcss.config.js --output _includes/application.min.css",
     "accessibility": "pa11y-ci --sitemap https://vincentp.me/sitemap.xml --sitemap-find https://vincentp.me --sitemap-replace http://localhost:4000 --sitemap-exclude https://vincentp.me/feed.json",
     "uglify": "uglifyjs _js/service-worker.js -o service-worker.min.js -c",
@@ -38,7 +38,7 @@
     "postcss-import": "^11.0.0",
     "postcss-reporter": "^5.0.0",
     "stylelint": "^8.2.0",
-    "uglify-js": "^3.1.7"
+    "uglify-js": "^3.1.8"
   },
   "dependencies": {}
 }
