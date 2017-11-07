@@ -30,8 +30,8 @@ available: true
 # Exclude Files
 exclude:
   - "postcss.config.js"
-  -".pa11yci"
-  ".stylelintrc"
+  - ".pa11yci"
+  - ".stylelintrc"
   - "Gemfile"
   - "Gemfile.lock"
   - "package.json"
