@@ -1,69 +1,30 @@
-<div class="h-card center mw-site" itemscope itemtype="http://schema.org/Person">
-    <div class="dg grid-2-col pa2">
-        <div style="display: grid;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    height: 30px;">
-            <h1 class="p-name f2 ma0 pa0" itemprop="name"><a href="{{ site.url }}" title="vincentp.me" itemprop="url" class="u-url rm-underline">Vincent Pickering</a></h1>
-        </div>
-        <div class="tr" style="position: relative;">
-            <button id="nav-lines"  aria-label="Toggle Navigation On And Off" style="z-index: 6;
-position: absolute;
-top: 0;
-right: 0;
-color: black;">
-                <svg viewbox="0 0 64 64">
-                    <line id="nav-line-1" x1="8" x2="56" y1="16" y2="16" class="nav-line" />
-                    <line id="nav-line-2" x1="8" x2="56" y1="32" y2="32" class="nav-line" />
-                    <line id="nav-line-3" x1="8" x2="56" y1="48" y2="48" class="nav-line" />
-                    <line x1="16" x2="48" y1="16" y2="48" class="cross-line" />
-                    <line x1="16" x2="48" y1="48" y2="16" class="cross-line" />
-                    <rect class="rect" width="42" height="42" x="11" y="11" />
-                </svg>
-            </button>
-        </div>
-    </div>
+<div class="h-card" itemscope itemtype="http://schema.org/Person">
+    <h1 class="p-name" itemprop="name"><a href="{{ site.url }}" title="vincentp.me" itemprop="url" class="u-url">Vincent Pickering</a></h1>
 
-    <address class="f6 dg  grid-3-col" id="menu" style="-webkit-backface-visibility: hidden;
-backface-visibility: hidden;
--webkit-box-align: center;
--ms-flex-align: center;
-align-items: center;
--webkit-box-pack: center;
--ms-flex-pack: center;
-justify-content: center;
-z-index: 3;
-position: fixed;
-overflow: hidden;
-width: 100%;
-height: 100%;
-top: 0;
-left: 0;">
+    <address>
         <nav role="navigation" aria-label="Site Navigation">
-            <ul class="ma0 pa0">
+            <ul>
                  {% if  site.categories.Articles %}
-                    <li class="list lh-list"><a href="{{site.url}}/categories/articles" rel="me" class="rm-underline grey">Writing</a></li>
+                    <li><a href="{{site.url}}/categories/articles" rel="me">Writing</a></li>
                  {% endif %}
                  {% if  site.categories.Tips %}
-                    <li class="list lh-list"><a href="{{site.url}}/categories/tips" class="rm-underline grey">Tips</a></li>
+                    <li><a href="{{site.url}}/categories/tips">Tips</a></li>
                 {% endif %}
                 {% if  site.categories.Cybernetics %}
-                    <li class="list lh-list"><a href="{{site.url}}/categories/cybernetics" class="rm-underline grey">Cybernetics</a></li>
+                    <li><a href="{{site.url}}/categories/cybernetics">Cybernetics</a></li>
                 {% endif %}
             </ul>
 
-            <ul class="ma0 pa0">
-                <li class="list lh-list"><a href="{{site.url}}/services" rel="me" class="rm-underline grey">Services</a></li>
-                <li class="list lh-list"><a href="{{site.url}}/services#consultancy" class="rm-underline grey">Consultancy</a></li>
-                <li class="list lh-list"><a href="{{site.url}}/about" rel="me" class="rm-underline grey">About</a></li>
+            <ul>
+                <li><a href="{{site.url}}/services" rel="me">Services</a></li>
+                <li><a href="{{site.url}}/services#consultancy">Consultancy</a></li>
+                <li><a href="{{site.url}}/about" rel="me">About</a></li>
             </ul>
 
-            <ul class="ma0 pa0">
-                <li class="list lh-list"><a href="{{site.data.author.github.url}}" rel="me external" class="u-url rm-underline grey">Github</a></li>
-                <li class="list lh-list"><a href="mailto:{{site.data.author.email}}"  itemprop="url"  rel="me" title="Email Me" class="rm-underline grey">Email</a></li>
+            <ul>
+                <li><a href="{{site.data.author.github.url}}" itemprop="url" rel="me external" class="u-url">Github</a></li>
+                <li><a href="mailto:{{site.data.author.email}}" rel="me" title="Email Me">Email</a></li>
             </ul>
         </nav>
     </address>
-
 </div>

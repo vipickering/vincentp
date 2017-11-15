@@ -4,41 +4,22 @@
         {% include meta.html %}
     </head>
 
-    <body itemscope itemtype="http://schema.org/WebPage" class="ma0 pa0">
+    <body itemscope itemtype="http://schema.org/WebPage">
         <div class="h-entry">
-                <header class="bg-black white">
+            <header>
                 {% include hcard.html %}
                 {% include pageTitle.html %}
             </header>
 
-               <main class="center">
-                <div class="e-content  dg center mw-site grid-1-col-short pa2">
-                        {% if page.type == 'Articles' %}
-                            {% for post in site.categories.Articles %}
-                                <article itemscope itemtype="http://schema.org/Blog" class="h-entry mb2">
-                                    <h3 itemprop="headline" class="p-name ma0"><a href="{{site.url}}{{ post.url }}" class="rm-underline" title="{{ post.title }}">{{ post.title }}</a></h3>
-                                    <p class="p-summary">{{ post.summary }}</p>
-                                </article>
-                            {% endfor %}
-                        {% endif %}
+               <main>
+                <div class="e-content">
+                    {% if page.type == 'Articles' %} {% assign categoryType=site.categories.Articles %} {% endif %}
+                    {% if page.type == 'Tips' %} {% assign categoryType=site.categories.Tips %}  {% endif %}
+                    {% if page.type == 'Cybernetics' %}   {% assign categoryType=site.categories.Cybernetics %} {% endif %}
 
-                        {% if page.type == 'Tips' %}
-                            {% for post in site.categories.Tips %}
-                                <article itemscope itemtype="http://schema.org/Blog" class="h-entry mb2">
-                                    <h3 itemprop="headline" class="p-name ma0"><a href="{{site.url}}{{ post.url }}" class="rm-underline" title="{{ post.title }}">{{ post.title }}</a></h3>
-                                    <p class="p-summary">{{ post.summary }}</p>
-                                </article>
-                            {% endfor %}
-                        {% endif %}
-
-                        {% if page.type == 'Cybernetics' %}
-                            {% for post in site.categories.Cybernetics %}
-                                <article itemscope itemtype="http://schema.org/Blog" class="h-entry mb2">
-                                    <h3 itemprop="headline" class="p-name ma0"><a href="{{site.url}}{{ post.url }}" class="rm-underline" title="{{ post.title }}">{{ post.title }}</a></h3>
-                                    <p class="p-summary">{{ post.summary }}</p>
-                                </article>
-                            {% endfor %}
-                        {% endif %}
+                    {% for post in categoryType %}
+                       {% include articlePromo.html postType='post' %}
+                    {% endfor %}
                 </div>
             </main>
         </div>

@@ -4,16 +4,16 @@
         {% include meta.html %}
     </head>
 
-    <body itemscope itemtype="http://schema.org/WebPage" class="ma0 pa0">
+    <body itemscope itemtype="http://schema.org/WebPage">
         <div class="h-entry">
-            <header class="bg-black white">
+            <header>
                 {% include hcard.html %}
                 {% include pageTitle.html %}
             </header>
 
-            <main class="center">
+            <main>
                 <article itemscope itemprop="about">
-                    <div class="e-content  dg center mw-site grid-1-col-short pa2">
+                    <div class="e-content">
                         {{content}}
                     </div>
                 </article>

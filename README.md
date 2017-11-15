@@ -28,16 +28,6 @@ If you want to manually see the live compiled site with HTTPS URLs to error chec
 jekyll build
 ```
 
-## Testing Tools
-
-Make sure Jekyll and pleeease are not running then:
-
-```
-cd testing
-
-./run-tests.sh
-```
-
 ## Browser Support
 
 I aim to support the latest versions of the following browsers:
