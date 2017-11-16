@@ -15,7 +15,7 @@
                 <div class="e-content">
                     {% if page.type == 'Articles' %} {% assign categoryType=site.categories.Articles %} {% endif %}
                     {% if page.type == 'Tips' %} {% assign categoryType=site.categories.Tips %}  {% endif %}
-                    {% if page.type == 'Cybernetics' %}   {% assign categoryType=site.categories.Cybernetics %} {% endif %}
+                    {% if page.type == 'Cybernetics' %} {% assign categoryType=site.categories.Cybernetics %} {% endif %}
 
                     {% for post in categoryType %}
                        {% include articlePromo.html postType='post' %}

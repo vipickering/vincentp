@@ -1,4 +1,4 @@
-/*  Normalise - Vincent P - Bespoke */
+/*  Normalise Elements. With a CMS, it's helpful to ensure all output is consistent. */
 
 *,
 *::before,
@@ -13,16 +13,12 @@
     font-size: var(--baseline-font-size);
     font-weight: 400;
     text-rendering: geometricPrecision;
-    line-height: 1.5;
+    line-height: 1.4;
 }
 
 ::selection {
     background-color: var(--red);
     color: var(--white);
-}
-
-button:focus {
-    outline: 0;
 }
 
 html {
@@ -31,9 +27,11 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+/*
 address {
     font-style: normal;
 }
+*/
 
 em {
     font-weight: bold;
@@ -86,6 +84,7 @@ a:focus {
     outline: 1px solid var(--red);
 }
 
+/*
 blockquote {
     padding: var(--extra-extra-large) var(--small);
     margin: 0 0 var(--extra-extra-large) 0;
@@ -127,3 +126,4 @@ button {
     background: transparent;
     border: 0;
 }
+*/
