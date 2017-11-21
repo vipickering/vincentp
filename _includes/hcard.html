@@ -1,7 +1,9 @@
 <div class="h-card" itemscope itemtype="http://schema.org/Person">
-    <h1 class="p-name" itemprop="name"><a href="{{ site.url }}" title="vincentp.me" itemprop="url" class="u-url">Vincent Pickering</a></h1>
-
-    <address>
+    <div class="dg grid-2-col bg-black">
+        <h1 class="p-name ma0 pa1" itemprop="name"><a href="{{ site.url }}" title="vincentp.me" itemprop="url" class="u-url hover-white rm-underline white">Vincent Pickering</a></h1>
+        <button type="button" id="js-menu-button" class="">Menu</button>
+    </div>
+    <address id="menu">
         <nav role="navigation" aria-label="Site Navigation">
             <ul>
                  {% if  site.categories.Articles %}
@@ -28,3 +30,4 @@
         </nav>
     </address>
 </div>
+

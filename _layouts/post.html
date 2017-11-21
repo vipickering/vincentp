@@ -4,15 +4,12 @@
         {% include meta.html %}
     </head>
 
-    <body itemscope itemtype="http://schema.org/WebPage">
-        <div class="h-entry">
-            <header>
-                {% include hcard.html %}
-                <a href="#articleStart">Arrow?</a>
-            </header>
-        </div>
+    <body itemscope itemtype="http://schema.org/WebPage" class="ma0 pa0">
+        <header>
+            {% include hcard.html %}
+        </header>
         <main>
-            <article itemscope itemtype="http://schema.org/Blog" id="articleStart">
+            <article itemscope itemtype="http://schema.org/Blog" id="articleStart" class="h-entry">
                 {% include articleTitle.html %}
                 <div class="e-content">
                     {{ content }}

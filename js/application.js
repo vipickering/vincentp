@@ -1,9 +1,9 @@
 window.onload = function application() {
     var menuItem = document.getElementById('menu');
-    var menuButton = document.getElementById('nav-lines');
+    var menuButton = document.getElementById('js-menu-button');
     var menuButtonOn = 'active';
     var menuButtonOff = '';
-    var menuItemShow = 'f6 f-mono dg  grid-3-col bg-red';
+    var menuItemShow = 'db';
     var menuItemHide = 'dn';
     var menuVisibilityFlag = false;
 

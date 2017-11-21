@@ -2,15 +2,25 @@
 Control styles output by Markdown
 */
 
-.e-content > p {
-    font-size: calc(var(--baseline-font-size) + 0.2vw);
-    margin-bottom: var(--large);
+.h-entry .e-content {
+    display: block;
+    margin: auto;
+    max-width: 50vmax;
+    min-width: 280px;
 }
 
+.e-content > p {
+    font-size: calc(var(--baseline-font-size) + 0.2vw);
+    margin-bottom: 2rem;
+}
+
+/*
 .e-content > p:first-child {
     font-weight: 700;
 }
+*/
 
+/*
 .e-content > h2,
 .e-content > h3,
 .e-content > h4,
@@ -19,23 +29,29 @@ Control styles output by Markdown
     margin: 0 0 var(--medium) 0;
     padding: 0;
 }
+*/
 
 .e-content > ul,
 .e-content > ol {
-    margin: 0 0 var(--large) 0;
+    margin: 0 0 2rem 0;
 }
 
+/*
 .e-content li {
     font-size: calc(var(--baseline-font-size) + 0.1vw);
     line-height: var(--lh-list);
     list-style-type: circle;
 }
+*/
 
+/*
 .highlight,
 .highlighter-rouge {
     overflow-x: auto;
 }
+*/
 
+/*
 .highlight {
     padding: 0.5rem;
     background-color: var(--dark-blue);
@@ -44,7 +60,9 @@ Control styles output by Markdown
     margin: 0 0 var(--medium) 0;
     color: var(--pale-grey);
 }
+*/
 
+/*
 .footnotes {
     overflow: auto;
 }
@@ -60,3 +78,4 @@ Control styles output by Markdown
     margin: 0;
     padding: 0;
 }
+*/
