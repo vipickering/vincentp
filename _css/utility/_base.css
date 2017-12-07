@@ -1,4 +1,4 @@
-/*  Normalise Elements. With a CMS, it's helpful to ensure all output is consistent. */
+/*  Base layout*/
 
 *,
 *::before,
@@ -13,7 +13,7 @@
     font-size: var(--baseline-font-size);
     font-weight: 400;
     text-rendering: geometricPrecision;
-    line-height: 1.4;
+    line-height: var(--lh-copy);
 }
 
 ::selection {
@@ -73,6 +73,7 @@ a:focus {
     outline: 1px solid var(--red);
 }
 
+
 /*
 blockquote {
     padding: var(--extra-extra-large) var(--small);
@@ -102,12 +103,12 @@ blockquote > p {
 blockquote > p + p {
     margin-top: var(--large);
 }
-
+*/
 sup {
-    font-size: var(--extra-small);
-    font-family: var(--font-mono);
+    font-size: calc(8px + 0.5vw);
+    min-width: 2vw;
     font-weight: 100;
-    margin: 0 0 0 2px;
+    padding: 2px;
 }
 
 button {
@@ -115,4 +116,4 @@ button {
     background: transparent;
     border: 0;
 }
-*/
+

@@ -1,6 +1,6 @@
 .f1 { font-size: 5vmax; }
 .f2 { font-size: calc(var(--baseline-font-size) + 0.2vw); }
-
+.f3 { font-size: 2vmax; }
 /*
 .dt-updated,
 small {

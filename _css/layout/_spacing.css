@@ -1,5 +1,6 @@
 .pa0 { padding: 0; }
-
+.pa1 { padding: 1rem; }
+.pa2 {padding: 2rem; }
 /*
 .pa1 { padding: var(--small); }
 .pa2 { padding: var(--medium); }
@@ -10,7 +11,7 @@
 .ma0 { margin: 0; }
 .mb0 { margin-bottom: 0; }
 .mb1 { margin-bottom: 3vmax; }
-
+.mb2 { margin-bottom: 4vmax; }
 /*
 .mt2 { margin-top: var(--medium); }
 .ml2 { margin-left: var(--small); }
