@@ -1,6 +1,4 @@
 .lh-heading { line-height: var(--lh-header); }
 .lh-sub-heading { line-height: var(--lh-sub-header); }
-
-/*
+.lh-hcard { line-height: 1.8; }
 .lh-list { line-height: var(--lh-list); }
-*/

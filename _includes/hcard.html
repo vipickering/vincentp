@@ -1,7 +1,15 @@
-<div class="h-card mb2" itemscope itemtype="http://schema.org/Person">
+<div class="h-card" itemscope itemtype="http://schema.org/Person">
     <div class="dg grid-2-col bg-black">
-        <h1 class="p-name ma0 pa1 f3" itemprop="name"><a href="{{ site.url }}" title="vincentp.me" itemprop="url" class="u-url hover-white rm-underline white">Vincent Pickering</a></h1>
-        <button type="button" id="js-menu-button" class="">Menu</button>
+        <h1 class="p-name ma0 pa1 f3 lh-hcard" itemprop="name"><a href="{{ site.url }}" title="vincentp.me" itemprop="url" class="u-url hover-white rm-underline white">{{site.data.author.name}}</a></h1>
+        <button class="menu-toggle white dib br-0 bn" id="menu-toggle" aria-expanded="false"><span class="clip absolute o-hidden h1-fixed w1-fixed">Menu</span>
+            <svg class="fr icon icon-menu-toggle" aria-hidden="true" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100">
+                <g class="svg-menu-toggle">
+                    <path class="line line-1" d="M5 13h90v14H5z"/>
+                    <path class="line line-2" d="M5 43h90v14H5z"/>
+                    <path class="line line-3" d="M5 73h90v14H5z"/>
+                </g>
+            </svg>
+        </button>
     </div>
     <address id="menu">
         <nav role="navigation" aria-label="Site Navigation">
@@ -31,3 +39,11 @@
     </address>
 </div>
 
+<style>
+button,
+input[type="button"] {
+    cursor: pointer;
+    padding: 1em 1.5em;
+    transition: all 0.25s ease-in-out;
+}
+</style>

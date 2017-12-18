@@ -1,4 +1,4 @@
-/*  Base layout*/
+/*  Base layout */
 
 *,
 *::before,
@@ -73,11 +73,9 @@ a:focus {
     outline: 1px solid var(--red);
 }
 
-
-/*
 blockquote {
-    padding: var(--extra-extra-large) var(--small);
-    margin: 0 0 var(--extra-extra-large) 0;
+    padding: 1rem;
+    margin: 0 0 2rem 0;
     text-align: left;
     border-left: 5px solid var(--pale-grey);
     background-color: var(--light-grey);
@@ -101,9 +99,9 @@ blockquote > p {
 }
 
 blockquote > p + p {
-    margin-top: var(--large);
+    margin-top: 2rem;
 }
-*/
+
 sup {
     font-size: calc(8px + 0.5vw);
     min-width: 2vw;
