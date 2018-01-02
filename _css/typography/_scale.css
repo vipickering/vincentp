@@ -1,40 +1,7 @@
-.f1 { font-size: 55px; }
-.f2 { font-size: calc(var(--baseline-font-size) + 0.2vw); }
-.f3 { font-size: 2vmax; }
-
-/*
-6
-7
-8
-9
-10
-12
-14
-16
-18
-21
-24
-28
-32
-36
-42
-48
-55
-63
-73
-84
-96
-
-All fonts need to be defined here, including dynamic.
-
-Line length needs to be 50-75 chars per line.
-line height start at 140%. Tweak from there. Make the line-height tighter on small screens.
-Font size shoud be (scale + viewing distance). Viewing distance is decided upon by the average length  a mobile, tablet or desktop is from you.
-*/
-
-/*
 .dt-updated,
 small {
     font-size: var(--small);
 }
-*/
+
+.f1 { font-size: calc(var(--baseline-font-size) + 3.5vw); }
+.f6 { font-size: var(--small); }

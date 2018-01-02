@@ -1,4 +1,5 @@
-<h1 itemprop="headline" class="p-name f1 tc ma0 lh-heading" style="margin:auto;    max-width: 90vmax;
-    min-width: 280px;">{{ page.title }}</h1>
-<p class="p-summary tc f2">{{ page.summary }}</p>
-<p class="tc f2  mb1">Published by <a class="p-author h-card u-url" href="{{site.url}}" rel="author">{{ site.data.author.name }}</a> on {% include dateTime.html %}</p>
+<div class="grid-1-col grid mw-site center pa2">
+    <h1 itemprop="headline" class="p-name ma0 mb2 pa0 f1 lh-heading">{{ page.title }}</h1>
+    <p class="f6 p-summary grey">{{ page.summary }}</p>
+    <p class="f6 grey">Published by <a class="p-author u-url" href="{{site.url}}" rel="author">{{ site.data.author.name }}</a> on {% include dateTime.html %}</p>
+</div>

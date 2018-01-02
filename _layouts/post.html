@@ -5,13 +5,15 @@
     </head>
 
     <body itemscope itemtype="http://schema.org/WebPage" class="ma0 pa0">
-        <header>
+        <div class="h-entry">
+            <header class="bg-black white">
             {% include hcard.html %}
+            {% include articleTitle.html %}
         </header>
-        <main class="pa1">
-            <article itemscope itemtype="http://schema.org/Blog" id="articleStart" class="h-entry">
-                {% include articleTitle.html %}
-                <div class="e-content">
+
+        <main class="center">
+            <article itemscope itemtype="http://schema.org/Blog">
+                <div class="e-content dg center mw-site grid-1-col-short pa2">
                     {{ content }}
                     {% if page.modified %}
                         <p><span class="dt-updated"><strong>Updated <abbr class="value" title=" {{ page.modified }}">15-03-2017</abbr></strong>:  {{ page.modifiedReason }}.</span></p>
@@ -22,6 +24,5 @@
         </div>
         {% include footer.html %}
         {% include sw.html %}
-        {% include scripts.html %}
     </body>
 </html>

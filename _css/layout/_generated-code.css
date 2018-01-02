@@ -2,40 +2,27 @@
 Control styles output by Markdown
 */
 
-/* This is NOT in the centre! FIX*/
-.h-entry .e-content {
-    display: block;
-    margin: auto;
-    max-width: var(--site-width);
-    min-width: var(--min-site-width);
-}
-
 .e-content > p {
-    font-size: calc(var(--baseline-font-size) + 0.5vw);
-    margin-bottom: 2rem;
+    font-size: calc(var(--baseline-font-size) + 0.2vw);
+    margin-bottom: var(--large);
 }
 
-.e-content > h2 {
-    margin: 4rem 0 2rem 0;
-    text-align: center;
-    font-size: 3vmax;
-    line-height: var(--lh-sub-header);
+.e-content > p:first-child {
+    font-weight: 700;
 }
 
-/* Revisit this, scale needs tweaking! */
+.e-content > h2,
 .e-content > h3,
 .e-content > h4,
 .e-content > h5,
 .e-content > h6 {
-    margin: 2rem 0 1rem 0;
-    text-align: center;
-    font-size: 2vmax;
-    line-height: var(--lh-sub-header);
+    margin: 0 0 var(--medium) 0;
+    padding: 0;
 }
 
 .e-content > ul,
 .e-content > ol {
-    margin: 0 0 2rem 0;
+    margin: 0 0 var(--large) 0;
 }
 
 .e-content li {

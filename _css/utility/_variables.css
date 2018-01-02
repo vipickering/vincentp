@@ -1,3 +1,19 @@
+/*
+    3.157rem
+    4.209rem
+    5.61rem
+    7.478rem
+    9.969rem
+    13.288rem
+    17.713rem
+    23.612rem
+    31.475rem
+    41.956rem
+    55.927rem
+    74.551rem
+    99.376em
+*/
+
 :root {
     --black: #111;
     --white: #fff;
@@ -6,14 +22,19 @@
     --pale-grey: #ccc;
     --light-grey: #eaeaea;
     --dark-blue: #001b44;
-    --lh-copy: 1.5;
-    --lh-list: 1.4;
-    --lh-header: 1.2;
-    --lh-sub-header: 1;
-    --baseline-font-size: 16px;
-    --site-width: 50vmax;
-    --title-width: 90vmax;
-    --min-site-width: 280px;
-    --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    --baseline-font-size: 14px;
+    --extra-extra-small: 0.238em;
+    --extra-small: 0.563em;
+    --small: 0.75rem;
+    --medium: 1rem;
+    --large: 1.333rem;
+    --extra-large: 1.777rem;
+    --extra-extra-large: 2.369rem;
+    --main-column: 31.475rem;
+    --site-width: 58.051rem;
+    --lh-heading: 1;
+    --lh-list: 1.7;
+    --font-header: -apple-system-headline, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    --font-body: -apple-system-body, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     --font-mono: Menlo, Monaco, Consolas, "Courier New", monospace;
 }

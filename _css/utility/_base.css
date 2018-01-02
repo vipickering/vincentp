@@ -1,4 +1,4 @@
-/*  Base layout */
+/*  Normalise - Vincent P - Bespoke */
 
 *,
 *::before,
@@ -13,7 +13,7 @@
     font-size: var(--baseline-font-size);
     font-weight: 400;
     text-rendering: geometricPrecision;
-    line-height: var(--lh-copy);
+    line-height: 1.5;
 }
 
 ::selection {
@@ -50,6 +50,15 @@ pre {
     padding: 0;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: -apple-system-headline, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
 p {
     margin: 0;
     padding: 0;
@@ -57,7 +66,6 @@ p {
 
 a {
     font-family: inherit;
-    text-decoration-skip: ink;
     color: currentColor;
 }
 
@@ -74,8 +82,9 @@ a:focus {
 }
 
 blockquote {
-    padding: 1rem;
-    margin: 0 0 2rem 0;
+    padding: var(--extra-extra-large) var(--small);
+    margin: 0 0 var(--extra-extra-large) 0;
+    width: 90%;
     text-align: left;
     border-left: 5px solid var(--pale-grey);
     background-color: var(--light-grey);
@@ -99,19 +108,12 @@ blockquote > p {
 }
 
 blockquote > p + p {
-    margin-top: 2rem;
+    margin-top: var(--large);
 }
 
 sup {
-    font-size: calc(8px + 0.5vw);
-    min-width: 2vw;
+    font-size: var(--extra-small);
+    font-family: var(--font-mono);
     font-weight: 100;
-    padding: 2px;
+    margin: 0 0 0 2px;
 }
-
-button {
-    cursor: pointer;
-    background: transparent;
-    border: 0;
-}
-

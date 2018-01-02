@@ -22,7 +22,7 @@ If there was a Cybernetician that played by his own rules, Stafford Beer was tha
 
 <figure>
   <figcaption>The Viable System Model by Stafford Beer</figcaption>
-  <img src="{{site.url}}/images/blog/2017-08-25/viable-system-model1.jpg" width="612" alt="Viable system Model"/>
+  <img src="{{site.url}}/images/blog/2017-08-25/viable-system-model.jpg" width="612" alt="Viable system Model"/>
 </figure>
 
 

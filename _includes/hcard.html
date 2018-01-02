@@ -1,49 +1,28 @@
 <div class="h-card" itemscope itemtype="http://schema.org/Person">
-    <div class="dg grid-2-col bg-black">
-        <h1 class="p-name ma0 pa1 f3 lh-hcard" itemprop="name"><a href="{{ site.url }}" title="vincentp.me" itemprop="url" class="u-url hover-white rm-underline white">{{site.data.author.name}}</a></h1>
-        <button class="menu-toggle white dib br-0 bn" id="menu-toggle" aria-expanded="false"><span class="clip absolute o-hidden h1-fixed w1-fixed">Menu</span>
-            <svg class="fr icon icon-menu-toggle" aria-hidden="true" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100">
-                <g class="svg-menu-toggle">
-                    <path class="line line-1" d="M5 13h90v14H5z"/>
-                    <path class="line line-2" d="M5 43h90v14H5z"/>
-                    <path class="line line-3" d="M5 73h90v14H5z"/>
-                </g>
-            </svg>
-        </button>
-    </div>
-    <address id="menu">
-        <nav role="navigation" aria-label="Site Navigation">
-            <ul>
-                 {% if  site.categories.Articles %}
-                    <li><a href="{{site.url}}/categories/articles" rel="me">Writing</a></li>
-                 {% endif %}
-                 {% if  site.categories.Tips %}
-                    <li><a href="{{site.url}}/categories/tips">Tips</a></li>
-                {% endif %}
-                {% if  site.categories.Cybernetics %}
-                    <li><a href="{{site.url}}/categories/cybernetics">Cybernetics</a></li>
-                {% endif %}
-            </ul>
+    <a href="{{ site.url }}" title="vincentp.me" itemprop="url" class="u-url dn"><h1 class="f6 p-name f-mono" itemprop="name">Vincent Pickering</h1></a>
+    <address class="f6 f-mono dg center mw-site grid-3-col pa2">
+        <ul class="ma0 pa0">
+             {% if  site.categories.Articles %}
+                <li class="list lh-list"><a href="{{site.url}}/categories/articles" rel="me" class="rm-underline grey">Writing</a></li>
+             {% endif %}
+             {% if  site.categories.Tips %}
+                <li class="list lh-list"><a href="{{site.url}}/categories/tips" class="rm-underline grey">Tips</a></li>
+            {% endif %}
+            {% if  site.categories.Cybernetics %}
+                <li class="list lh-list"><a href="{{site.url}}/categories/cybernetics" class="rm-underline grey">Cybernetics</a></li>
+            {% endif %}
+        </ul>
 
-            <ul>
-                <li><a href="{{site.url}}/services" rel="me">Services</a></li>
-                <li><a href="{{site.url}}/services#consultancy">Consultancy</a></li>
-                <li><a href="{{site.url}}/about" rel="me">About</a></li>
-            </ul>
+        <ul class="ma0 pa0">
+            <li class="list lh-list"><a href="{{site.url}}/services" rel="me" class="rm-underline grey">Services</a></li>
+            <li class="list lh-list"><a href="{{site.url}}/services#consultancy" class="rm-underline grey">Consultancy</a></li>
+            <li class="list lh-list"><a href="{{site.url}}/about" rel="me" class="rm-underline grey">About</a></li>
+        </ul>
 
-            <ul>
-                <li><a href="{{site.data.author.github.url}}" itemprop="url" rel="me external" class="u-url">Github</a></li>
-                <li><a href="mailto:{{site.data.author.email}}" rel="me" title="Email Me">Email</a></li>
-            </ul>
-        </nav>
+        <ul class="ma0 pa0">
+            <li class="list lh-list"><a href="{{site.data.author.github.url}}" rel="me external" class="u-url rm-underline grey">Github</a></li>
+            <li class="list lh-list"><a href="mailto:{{site.data.author.email}}"  itemprop="url"  rel="me" title="Email Me" class="rm-underline grey">Email</a></li>
+        </ul>
     </address>
 </div>
 
-<style>
-button,
-input[type="button"] {
-    cursor: pointer;
-    padding: 1em 1.5em;
-    transition: all 0.25s ease-in-out;
-}
-</style>
