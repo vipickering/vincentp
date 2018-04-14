@@ -10,9 +10,8 @@
   "scripts": {
     "start": "jekyll serve",
     "postcss": "postcss _css/application.css --config postcss.config.js --output _includes/application.min.css",
-    "lint": "stylelint 'css/*.css'",
     "uglify": "uglifyjs _js/service-worker.js -o service-worker.min.js -c",
-    "dev": "postcss _css/application.css --config postcss.config.js --output _includes/application.min.css --watch & jekyll serve --drafts --watch --future",
+    "dev": "npm run postcss & jekyll serve --drafts --future",
     "production": "jekyll serve JEKYLL_ENV=production"
   },
   "repository": {
@@ -23,20 +22,15 @@
     "url": "https://github.com/vipickering/vincentp/issues"
   },
   "devDependencies": {
-    "css-mqpacker": "^6.0.1",
+    "css-mqpacker": "^6.0.2",
     "cssnano": "^3.10.0",
-    "postcss": "^6.0.13",
-    "postcss-cli": "^4.1.1",
+    "postcss": "^6.0.21",
+    "postcss-cli": "^5.0.0",
     "postcss-copy": "^7.1.0",
-    "postcss-css-variables": "^0.8.0",
-    "postcss-cssnext": "^3.0.2",
-    "postcss-import": "^11.0.0",
-    "stylelint": "^8.4.0",
-    "uglify-js": "^3.3.4",
-    "pa11y": "^4.13.2",
-    "pa11y-ci": "^1.3.1",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-import": "^11.1.0",
     "postcss-reporter": "^5.0.0",
-    "valimate": "^2.3.0"
+    "stylelint": "^9.2.0"
   },
   "dependencies": {}
 }
