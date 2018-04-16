@@ -15,7 +15,7 @@ layout: null
          <uri>{{site.url}}</uri>
         <email>{{site.data.author.email}}</email>
     </author>
-    <rights>Copyright (c) 2013-2017, {{site.data.author.name}}; all rights reserved.</rights>
+    <rights>Copyright (c) 2013-2018, {{site.data.author.name}}; all rights reserved.</rights>
     {% for post in site.posts limit:20 %}
         <entry>
             <title>{{ post.title | xml_escape }}</title>

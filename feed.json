@@ -8,7 +8,7 @@ layout: null
     "feed_url": "{{site.url}}/feed.json",
     "description" : "Web design including: UI, UX, HTML, CSS, JavaScript and Node",
     "icon" : "{{site.url}}/images/vincentp-300.jpg",
-    "favicon" : "{{site.url}}/apple-touch-icon-76x76.png",
+    "favicon" : "{{site.url}}/images/apple-touch-icon-76x76-precomposed.png",
     "author" : [
         {
             "name" : "{{site.data.author.name}}",
