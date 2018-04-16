@@ -6,11 +6,6 @@ module.exports = {
                 require('stylelint')('./.stylelintrc')
             ]
         }),
-      require('postcss-cssnext')({
-            'features': {
-                customProperties: true
-            }
-      }),
     require('css-mqpacker'),
     require('cssnano')({ autoprefixer: false }),
     require("postcss-reporter")({ clearReportedMessages: true })
