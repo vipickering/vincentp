@@ -35,8 +35,9 @@ em {
     font-weight: bold;
 }
 
-abbr:hover{
-cursor: help; }
+abbr:hover {
+    cursor: help;
+}
 
 abbr[title] {
     text-decoration: none;
@@ -64,7 +65,7 @@ p {
 }
 
 a {
-    font-family:inherit;
+    font-family: inherit;
     color: currentColor;
 }
 
@@ -90,11 +91,11 @@ blockquote {
 }
 
 cite { font-size: var(--small); }
-cite:before {
+cite::before {
     content: '—';
     display: inline-block;
     margin-right: 10px;
- }
+}
 
 blockquote > p {
     line-height: 1.5;

@@ -1,5 +1,11 @@
-.dn {display: none; }
-.dib { display: inline-block; }
+.dn {
+    display: none;
+}
+
+.dib {
+    display: inline-block;
+}
+
 @supports (display: grid) {
     .dg { display: grid; }
 }
