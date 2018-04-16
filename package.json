@@ -10,7 +10,6 @@
   "scripts": {
     "start": "jekyll serve",
     "postcss": "postcss _css/application.css --config postcss.config.js --output _includes/application.min.css",
-    "uglify": "uglifyjs _js/service-worker.js -o service-worker.min.js -c",
     "dev": "npm run postcss & jekyll serve --drafts --future",
     "production": "jekyll serve JEKYLL_ENV=production"
   },
