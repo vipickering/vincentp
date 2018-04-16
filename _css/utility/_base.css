@@ -10,7 +10,7 @@
     font-family: var(--font-body);
     background-color: var(--white);
     color: var(--black);
-    font-size: var(--baseline-font-size);
+    font-size: 14px;
     font-weight: 400;
     text-rendering: geometricPrecision;
     line-height: 1.5;
