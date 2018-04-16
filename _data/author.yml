@@ -1,20 +1,14 @@
-pinboard :
-  url: https://pinboard.in/u:monkeymajiks/profile/public/
-  username: monkeymajiks
 github :
   url : https://www.github.com/vipickering
   repo : https://github.com/vipickering/vincentp
   username: vipickering
-twitter :
-  url : https://twitter.com/vincentlistens
-  username : vincentlistens
-mastodon :
-  url : https://mastodon.social/@vincentp
-  username : vincentp
+pinboard :
+  url: https://pinboard.in/u:monkeymajiks/profile/public/
+  username: monkeymajiks
 linkedin :
   url : https://www.linkedin.com/in/vipickering
   username : vipickering
 feed : http://vincentp.me/feed.xml
 email : hello@vincentp.me
-job : Consultant Frontend Architect
+job : Frontend UI/UX Developer and Service Designer
 name : Vincent Pickering
