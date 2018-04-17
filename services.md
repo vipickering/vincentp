@@ -8,20 +8,24 @@ summary : "Vincent Pickering Consultant Front-end Architect and Developer Servic
 
 ## Development
 
-I also provide longer term development work. This coves all aspects of standards based, accessible frontend development and [Node](https://nodejs.org/en/) services.
+I  provide longer term development work. This coves all aspects of standards based, accessible frontend development and [Node](https://nodejs.org/en/) services.
 
 Types of work accepted:
 
-- Hiring me to create the initial code-base setting your team and project off in the right direction
-- Full-site development
-- Fixed time retainers
+- Hiring me to create the initial code-base setting your team and project off in the right direction.
+- Full-site development.
+- Fixed time retainers.
+- Full Service Design.
+- UX, interaction and UI Design.
+- Team coaching and skills development.
 
 I'm always happy to talk and discuss what needs I may be able to help you meet.
 
 Previous clients include:
 
+- [InfinityWorks](https://infinityworks.com)
 - [The UK Government](https://gov.uk)
-- [Capita](http://capita.com)
+- [Capita](https://capita.com)
 - [Emis](https://www.emishealth.com/home)
 
 <a href="mailto:{{site.data.author.email}}?subject=Development" class="dib bg-black white hover-bg-red rm-underline pa1 br-fixed-2">Development Contract</a>
@@ -33,7 +37,7 @@ I believe good consultancy happens face to face on site.  I talk directly with p
 
 Working with the team to aid in training and code support. I can help skill up your team and work with them to tailor code solutions and approaches that suit the unique needs to your business.
 
-Consultancy work is specific to the client and project. Consider a retainer for periodic code reviews or extra training after the main engagement. Apply the renewed momentum and application of skills you have achieved.
+Consultancy work is specific to the client and project. Consider a retainer for periodic code reviews or extra training after the main engagement to apply the renewed momentum and application of skills you have achieved.
 
 <a href="mailto:{{site.data.author.email}}?subject=Consultancy" class="dib bg-black white hover-bg-red rm-underline pa1 br-fixed-2">Code Review</a>
 
