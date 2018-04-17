@@ -38,3 +38,4 @@ exclude:
 
 include:
   - "_headers"
+  - "_redirects"
