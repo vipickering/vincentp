@@ -22,8 +22,8 @@
                             {% endfor %}
                         {% endif %}
 
-                        {% if page.type == 'Tips' %}
-                            {% for post in site.categories.Tips %}
+                        {% if page.type == 'Lifestream' %}
+                            {% for post in site.categories.Lifestream %}
                                 <article itemscope itemtype="http://schema.org/Blog" class="h-entry mb2">
                                     <h3 itemprop="headline" class="p-name ma0"><a href="{{site.url}}{{ post.url }}" class="rm-underline" title="{{ post.title }}">{{ post.title }}</a></h3>
                                     <p class="p-summary">{{ post.summary }}</p>

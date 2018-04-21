@@ -6,7 +6,7 @@ meta : "About Vincent Pickering Consultant Front-end Architect and Developer"
 summary : "About Vincent Pickering Consultant Front-end Architect and Developer"
 ---
 
-Hello, I'm {{site.data.author.name}} a {{site.data.author.job}} With over 17 years experience. I work across a large breadth of industries and technologies.
+Hello, I'm {{site.data.author.name}} a {{site.data.author.job}} With over 18 years experience. I work across a large breadth of industries and technologies.
 
 <a href="{{site.url}}/services" class="dib bg-black white hover-bg-red rm-underline pa1 br-fixed-2">Currently available for hire</a>
 
@@ -15,10 +15,11 @@ Hello, I'm {{site.data.author.name}} a {{site.data.author.job}} With over 17 yea
 During my career I have been incredibly fortunate to work on a diverse range of products and services :
 
 - Enterprise healthcare applications
-- Government Services
+- [Government Services](https://gov.uk)
 - Worldwide marketing campaigns
 - Virtual reality
 - Sites for major brands and start-ups.
+- Medical systems, doctors systems and UK wide medical systems applications.
 - [A global social media platform](http://www.xt3.com)
 - [Computer games](http://uk.playstation.com/tag)
 

@@ -4,7 +4,7 @@ title: "Modal No JS"
 date: "2018-04-16 16:00:00 +/-GMT"
 meta: "Create a modal without the need for JavaScript"
 summary: "Create a modal without the need for JavaScript"
-category: "Tips"
+category: "Lifestream"
 ---
 
 In general a modal as a UX mechanisim is bad, but there are a few edge cases where they serve a viable purpose on your website.

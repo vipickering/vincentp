@@ -8,6 +8,9 @@ pinboard :
 linkedin :
   url : https://www.linkedin.com/in/vipickering
   username : vipickering
+codepen :
+  url : https://codepen.io/vipickering/
+  username:  vipickering
 feed : http://vincentp.me/feed.xml
 email : hello@vincentp.me
 job : Frontend UI/UX Developer and Service Designer
