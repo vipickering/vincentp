@@ -5,11 +5,11 @@
     </head>
 
     <body itemscope itemtype="http://schema.org/WebPage" class="ma0 pa0">
-       <div class="h-entry">
-            <header>
-                {% include hcard.html %}
-                {% include articleTitle.html %}
-            </header>
+        {% include menuTrigger.html %}
+        {% include hcard.html %}
+
+         <div class="h-entry mt10vh">
+            {% include pageTitle.html %}
 
               <main class="center">
                 <article itemscope itemtype="http://schema.org/Blog" class="h-entry">
