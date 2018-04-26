@@ -1,0 +1,28 @@
+
+#show-menu ~ .h-card > [data-menu="contents"] {
+    opacity: 0;
+    display: none;
+    z-index: var(--front);
+    top: 50px;
+    height: 0;
+    bottom: initial;
+    transition: all 0.1s linear;
+}
+
+#show-menu:checked ~ .h-card > [data-menu="contents"] {
+    opacity: 1;
+    height: calc(100vh - 50px);
+    bottom: 0;
+    display: block;
+}
+
+#show-menu:checked ~ .h-card {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+#show-menu:checked ~ .h-entry,
+#show-menu:checked ~ footer {
+    display: none;
+    height: 0;
+}

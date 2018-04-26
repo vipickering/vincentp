@@ -1,4 +1,7 @@
-/*  Normalise - Vincent P - Bespoke */
+/*
+ Default Styles
+Vincent P - Bespoke
+*/
 
 *,
 *::before,
@@ -10,7 +13,7 @@
     font-family: var(--font-body);
     background-color: var(--white);
     color: var(--black);
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     text-rendering: geometricPrecision;
     line-height: 1.5;

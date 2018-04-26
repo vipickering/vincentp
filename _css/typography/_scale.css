@@ -3,5 +3,10 @@ small {
     font-size: var(--small);
 }
 
+/*
+Type will be updated in next release
+*/
+
 .f1 { font-size: calc(var(--baseline-font-size) + 3.5vw); }
+.f3 { font-size: var(--large); }
 .f6 { font-size: var(--small); }

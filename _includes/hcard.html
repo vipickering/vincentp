@@ -1,6 +1,14 @@
-<div class="h-card" itemscope itemtype="http://schema.org/Person">
-    <a href="{{ site.url }}" title="vincentp.me" itemprop="url" class="u-url dn"><h1 class="f6 p-name f-mono" itemprop="name">Vincent Pickering</h1></a>
-    <address class="f6 f-mono dg center mw-site grid-3-col pa2">
+<div class="h-card fixed top-0 left-0 right-0 bg-white pa1" itemscope itemtype="http://schema.org/Person">
+    <div class="dg grid-2-col mw-site center">
+        <a href="{{ site.url }}" title="vincentp.me" itemprop="url" class="u-url rm-underline tl"><h1 class="p-name ma0 pa0 f3" itemprop="name">Vincent Pickering</h1></a>
+        <label class="tr" for="show-menu"><span class="pointer">Menu</span></label>
+    </div>
+    <address class="dn center mw-site pa2 bg-black white tc top-50 left-0 right-0 fixed w-100v" data-menu="contents">
+
+        <div class="w-100 tc bt b-white mt80-fixed">
+            <h3 class="ma0 pa1 ba b-white dib relative bg-black">Writings</h3>
+        </div>
+
         <ul class="ma0 pa0">
             {% if  site.categories.Lifestream %}
                 <li class="list lh-list"><a href="{{site.url}}/" class="rm-underline grey">Lifestream</a></li>
@@ -12,12 +20,16 @@
                 <li class="list lh-list"><a href="{{site.url}}/categories/cybernetics" class="rm-underline grey">Cybernetics</a></li>
             {% endif %}
         </ul>
-
+        <div class="w-100 tc bt b-white mt80-fixed">
+            <h3 class="ma0 pa1 ba b-white dib relative bg-black">Consultancy</h3>
+        </div>
         <ul class="ma0 pa0">
             <li class="list lh-list"><a href="{{site.url}}/services" rel="me" class="rm-underline grey">Services</a></li>
             <li class="list lh-list"><a href="{{site.url}}/about" rel="me" class="rm-underline grey">About</a></li>
         </ul>
-
+        <div class="w-100 tc bt b-white mt80-fixed">
+            <h3 class="ma0 pa1 ba b-white dib relative bg-black">Elsewhere</h3>
+        </div>
         <ul class="ma0 pa0">
             <li class="list lh-list"><a href="{{site.data.author.github.url}}" rel="me external" class="u-url rm-underline grey">Github</a></li>
             <li class="list lh-list"><a href="{{site.data.author.codepen.url}}" rel="me external" class="u-url rm-underline grey">Codepen</a></li>
@@ -25,4 +37,3 @@
         </ul>
     </address>
 </div>
-

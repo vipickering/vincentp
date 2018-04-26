@@ -1,6 +1,6 @@
 @supports (display: grid) {
-    .grid-3-col {
-        grid-template-columns: repeat(3, auto);
+    .grid-2-col {
+        grid-template-columns: repeat(2, auto);
     }
 
     .grid-1-col {

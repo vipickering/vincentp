@@ -1,0 +1,15 @@
+.pa0 {
+    padding: 0;
+}
+
+.pa1 {
+    padding: var(--small);
+}
+
+.pa2 {
+    padding: var(--medium);
+}
+
+.pa3 {
+    padding: var(--large);
+}
