@@ -1,12 +1,35 @@
-.dt-updated,
-small {
-    font-size: var(--small);
-}
-
 /*
-Type will be updated in next release
+Typographic Scale
+--
+704.562px     46.971em  site-width
+590px            39.333em
+480px                               column-width
+435.453px     29.03em
+364.648px     24.31em
+269.13px        17.942em
+225.369px     15.025em
+166.335px      11.089em
+139.289px      9.286em
+102.803px      6.854em
+86.087px        5.739em
+63.537px        4.236em
+53.206px        3.547em
+39.269px        2.618em     large
+32.884px        2.192em
+24.27px          1.618em
+20.324px        1.355em
+15px               1em           medium
+12.561px        0.837em    small
+9.271px          0.618em    extra-small
+7.763px          0.518em
+5.73px            0.382em
+4.798px         0.32em
+3.541px         0.236em
+--
 */
 
-.f1 { font-size: calc(var(--baseline-font-size) + 3.5vw); }
-.f3 { font-size: var(--large); }
-.f6 { font-size: var(--small); }
+.f1 { font-size: var(--large); }
+.f2,
+.dt-updated,
+small { font-size: var(--small); }
+.f3 { font-size: var(--extra-small); }

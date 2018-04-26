@@ -11,6 +11,8 @@
 
 /* Typography */
 @import "typography/_font.css";
+@import "typography/_font-weight.css";
+@import "typography/_font-style.css";
 @import "typography/_scale.css";
 @import "typography/_links.css";
 @import "typography/_list.css";
