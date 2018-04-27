@@ -1,14 +1,19 @@
 @supports (display: grid) {
-    .grid-2-col {
-        grid-template-columns: repeat(2, auto);
+    .layoutGrid {
+        display: grid;
+        grid-template-columns:
+            [full-start] minmax(1em, 1fr)
+            [main-start] minmax(0, var(--column-width))
+            [main-end] minmax(1em, 1fr)
+            [full-end];
     }
 
-    .grid-1-col {
-        grid-template-rows: repeat(3, 1fr);
+    .layoutGrid > * {
+        grid-column: main;
     }
 
-    .grid-1-col-short {
-        grid-template-columns: minmax(300px, 41.956rem);
-        grid-template-rows: repeat(2, auto);
+    .layoutGrid > .highlighter-rouge,
+    .layoutGrid > img {
+        grid-column: full;
     }
 }

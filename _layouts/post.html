@@ -11,9 +11,9 @@
         <div class="h-entry mt10vh">
             {% include articleTitle.html %}
 
-            <main class="center">
-                <article itemscope itemtype="http://schema.org/Blog">
-                    <div class="e-content dg center mw-site grid-1-col-short pa2">
+            <main>
+                <article itemscope itemtype="http://schema.org/Blog" class="pa2">
+                    <div class="e-content layoutGrid center">
                         {{ content }}
                         {% if page.modified %}
                             <p><span class="dt-updated"><strong>Updated <abbr class="value" title=" {{ page.modified }}">15-03-2017</abbr></strong>:  {{ page.modifiedReason }}.</span></p>

@@ -1,5 +1,6 @@
-<header class="grid-1-col grid mw-site center pa2 tc">
+<header class="layoutGrid center pa2 tc">
+    <p class="ma0 pa0 f3">{% include dateTime.html %}</p>
     <h1 itemprop="headline" class="p-name ma0 pa0 f1 lh-heading">{{ page.title }}</h1>
     <p class="black fw3 f2 italic">{{ page.summary }}</p>
-    <p class="black">Published by <a class="p-author u-url" href="{{site.url}}" rel="author">{{ site.data.author.name }}</a> on {% include dateTime.html %}</p>
+    <p class="dn black">Published by <a class="p-author u-url" href="{{site.url}}" rel="author">{{ site.data.author.name }}</a><p>
 </header>

@@ -85,19 +85,16 @@ a:focus {
 }
 
 blockquote {
-    padding: var(--extra-extra-large) var(--small);
-    margin: 0 0 var(--extra-extra-large) 0;
-    width: 90%;
-    text-align: left;
-    border-left: 5px solid var(--pale-grey);
-    background-color: var(--light-grey);
+    font-size: var(--small);
+    margin-bottom: var(--large);
+    padding: 0;
+    text-align: center;
 }
 
-cite { font-size: var(--small); }
-cite::before {
-    content: '—';
-    display: inline-block;
-    margin-right: 10px;
+cite {
+    color: var(--grey);
+    font-size: var(--small);
+    font-weight: 100;
 }
 
 blockquote > p {
@@ -112,11 +109,4 @@ blockquote > p {
 
 blockquote > p + p {
     margin-top: var(--large);
-}
-
-sup {
-    font-size: var(--extra-small);
-    font-family: var(--font-mono);
-    font-weight: 100;
-    margin: 0 0 0 2px;
 }
