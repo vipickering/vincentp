@@ -13,3 +13,8 @@
 .pa3 {
     padding: var(--large);
 }
+
+.pv2 {
+    padding-top: var(--medium);
+    padding-bottom: var(--medium);
+}
