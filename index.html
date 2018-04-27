@@ -18,8 +18,8 @@ summary : z"A blog about front-end development techniques, HTML, CSS and Javascr
          <div class="h-entry mt10vh">
             {% include pageTitle.html %}
 
-            <main class="center">
-                <div class="e-content  dg center mw-site grid-1-col-short pa2">
+            <main>
+                <div class="e-content layoutGrid center">
                     {% for post in site.posts limit:20 %}
                         <article itemscope itemtype="http://schema.org/Blog" class="h-entry mb2">
                             <h3 itemprop="headline" class="p-name ma0"><a href="{{site.url}}{{ post.url }}" class="rm-underline" title="{{ post.title }}">{{ post.title }}</a></h3>

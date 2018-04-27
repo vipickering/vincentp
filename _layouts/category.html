@@ -11,8 +11,8 @@
          <div class="h-entry mt10vh">
             {% include pageTitle.html %}
 
-               <main class="center">
-                <div class="e-content  dg center mw-site grid-1-col-short pa2">
+               <main>
+                <div class="e-content layoutGrid center">
                         {% if page.type == 'Articles' %}
                             {% for post in site.categories.Articles %}
                                 <article itemscope itemtype="http://schema.org/Blog" class="h-entry mb2">
