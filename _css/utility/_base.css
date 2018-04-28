@@ -81,7 +81,7 @@ a:focus {
 blockquote {
     color: var(--grey);
     font-size: var(--small);
-    margin-bottom: var(--large);
+    margin: var(--large) 0 var(--large) 0;
     padding: 0;
     text-align: center;
 }
