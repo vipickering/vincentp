@@ -28,8 +28,16 @@ Typographic Scale
 --
 */
 
-.f1 { font-size: var(--large); }
+.f1 {
+    font-size: var(--large);
+}
+
 .f2,
-.dt-updated,
-small { font-size: var(--small); }
-.f3 { font-size: var(--extra-small); }
+.dt-updated {
+    font-size: var(--small);
+}
+
+.f3,
+small {
+    font-size: var(--extra-small);
+}
