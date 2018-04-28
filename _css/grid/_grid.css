@@ -10,6 +10,8 @@
 
     .layoutGrid > * {
         grid-column: main;
+        padding-left: var(--small);
+        padding-right: var(--small);
     }
 
     .layoutGrid > .highlight,
