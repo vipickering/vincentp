@@ -79,14 +79,16 @@ a:focus {
 }
 
 blockquote {
+    max-width: 300px;
     color: var(--grey);
     font-size: var(--small);
-    margin: var(--large) 0 var(--large) 0;
+    margin: var(--small) auto var(--large) auto;
     padding: 0;
     text-align: center;
 }
 
 cite {
+    max-width: 300px;
     font-style: normal;
     font-size: var(--small);
     font-weight: 100;

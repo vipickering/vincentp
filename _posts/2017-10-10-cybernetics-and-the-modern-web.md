@@ -7,6 +7,8 @@ summary: "To build great user experiences we must understand how to communicate 
 category: "Cybernetics"
 ---
 
+{% include shapes/circle.html %}
+
 ## Design in all forms is transaction facilitation
 
 Crafting usable, transparent interfaces for websites and software is forged in the facilitation of a shared dialogue between the user and the system.

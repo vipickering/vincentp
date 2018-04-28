@@ -7,6 +7,8 @@ summary: "Thoughts on the Conversation Model by Dr.Paul Pangaro and Hugh Dubberl
 category: "Cybernetics"
 ---
 
+{% include shapes/polygon.html %}
+
 <blockquote>
     <p>Man or machine should matter not. Conversational mechanisms are universal.</p>
     <footer>
