@@ -1,14 +1,20 @@
 img {
     border-style: none;
-    width: 100%;
 }
 
+figure {
+    text-align: center;
+}
+
+/*
 figure {
     position: relative;
     margin: 0 auto 0 auto;
     line-height: var(--lh-list);
 }
+*/
 
+/*
 figcaption {
     position: absolute;
     bottom: 8px;
@@ -21,3 +27,4 @@ figcaption {
     vertical-align: top;
     background-color: var(--black);
 }
+*/

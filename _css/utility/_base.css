@@ -16,7 +16,7 @@ Vincent P - Bespoke
     font-size: 15px;
     font-weight: 400;
     text-rendering: geometricPrecision;
-    line-height: 1.5;
+    line-height: 1.55;
 }
 
 ::selection {
@@ -45,12 +45,6 @@ abbr:hover {
 abbr[title] {
     text-decoration: none;
     border-bottom: 1px dotted black;
-}
-
-pre > code,
-pre {
-    margin: 0;
-    padding: 0;
 }
 
 h1,
@@ -85,6 +79,7 @@ a:focus {
 }
 
 blockquote {
+    color: var(--grey);
     font-size: var(--small);
     margin-bottom: var(--large);
     padding: 0;
@@ -92,21 +87,18 @@ blockquote {
 }
 
 cite {
-    color: var(--grey);
+    font-style: normal;
     font-size: var(--small);
     font-weight: 100;
 }
 
-blockquote > p {
-    line-height: 1.5;
-}
-
 em,
-blockquote > p {
+blockquote > p,
+figcaption {
     font-style: italic;
     font-weight: 100;
 }
 
 blockquote > p + p {
-    margin-top: var(--large);
+    margin-top: var(--medium);
 }

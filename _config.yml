@@ -1,10 +1,11 @@
 # Markdown
 markdown : kramdown
-
+highlighter: rouge
 #Syntax Highlighting
-kramdown :
-  hard_wrap : false
-  # syntax_highlighter : rouge
+# kramdown :
+#   input: GFM
+#   hard_wrap : false
+#   syntax_highlighter : rouge
 
 #Collections
 # collections:

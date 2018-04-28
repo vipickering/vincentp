@@ -17,7 +17,7 @@
 }
 
 #show-menu:checked ~ .h-card {
-    background-color: var(--black);
+    background-color: var(--red);
     color: var(--white);
 }
 

@@ -15,6 +15,8 @@ Control styles output by Markdown
 .e-content > h4,
 .e-content > h5,
 .e-content > h6 {
+    color: var(--red);
+    font-size: var(--medium);
     margin: var(--small) 0 0 0;
     padding: 0;
 }
@@ -22,26 +24,11 @@ Control styles output by Markdown
 .e-content > ul,
 .e-content > ol {
     padding: 0;
-    margin: 0 0 var(--extra-small) 0;
-}
-
-.e-content li {
-    line-height: var(--lh-list);
-    list-style-type: circle;
-}
-
-.highlight,
-.highlighter-rouge {
-    overflow-x: auto;
+    margin: 0 0 var(--medium) 0;
 }
 
 .highlight {
-    padding: var(--medium);
-    background-color: var(--dark-blue);
-    line-height: var(--lh-list);
-    font-size: var(--medium);
-    margin: 0 0 var(--medium) 0;
-    color: var(--pale-grey);
+    overflow-x: auto;
 }
 
 .footnotes {

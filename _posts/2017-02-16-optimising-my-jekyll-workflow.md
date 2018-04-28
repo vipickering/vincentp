@@ -67,17 +67,17 @@ I started by writing my own ```normalise.css``` file. As I mentioned before, the
 
 Apply border-box to all elements, we get a lot of mileage out of declaring this and save writing it out over and over.
 
-``` css
+{% highlight css %}
 * {
     box-sizing: border-box;
 }
-```
+{% endhighlight %}
 
 Set-up our CSS variables. Assigning all our variables at the root level applies to all cascading elements.
 
 **Update 17-02-2017** :  Since posting this, I spotted a small error. Edge 14 doesn’t support CSS variables, the Edge team are [working on it](https://developer.microsoft.com/en-us/microsoft-edge/platform/status/csscustompropertiesakacssvariables/){:rel="external"}.
 
-``` css
+{% highlight css %}
 :root {
     --black: rgba(17, 17, 17, 1);
     --grey: rgba(35, 35, 35, 1);
@@ -90,11 +90,11 @@ Set-up our CSS variables. Assigning all our variables at the root level applies 
     --heading-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     --body-font: "Menlo", "Monaco", "Lucida Console", "Liberation Mono", "DejaVu Sans", "Mono", "Bitstream Vera Sans Mono", "Courier New", "monospace", serif;
 }
-```
+{% endhighlight %}
 
 Style the branches of the tree not each individual leaf. You will write a lot less code and be better for it.  If you style at the topmost level and let CSS naturally cascade down, you shouldn’t need to  assign things more than once.
 
-``` css
+{% highlight css %}
 :root {
     font-family: var(--body-font);
     background-color: var(--white);
@@ -102,22 +102,22 @@ Style the branches of the tree not each individual leaf. You will write a lot le
     font-size: 12px;
     text-rendering: geometricPrecision;
 }
-```
+{% endhighlight %}
 
 If the screen size is over 640px, increase the baseline font size, which will cascade to other elements.
 
-``` css
+{% highlight css %}
 @media all and (min-width: 640px) {
     :root {
         font-size: 15px;
     }
     ...
 }
-```
+{% endhighlight %}
 
 The other notable point is the grid.
 
-``` css
+{% highlight css %}
 body,
 .grid {
     display: flex;
@@ -140,13 +140,13 @@ body > * {
     display: block;
     width:100%;
 }
-```
+{% endhighlight %}
 
 Flexbox makes writing grid systems lightweight.
 
 Screen sizes below 640px have the running order on the footer containers re-arranged.
 
-``` css
+{% highlight css %}
 @media all and (min-width: 640px) {
     body > * {
         margin: auto;
@@ -179,7 +179,7 @@ Screen sizes below 640px have the running order on the footer containers re-arra
         text-align: left;
     }
 }
-```
+{% endhighlight %}
 
 Simple rules such as this can go a long way and reduce your page weight, while keeping you close to your real CSS output.
 

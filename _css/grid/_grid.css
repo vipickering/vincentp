@@ -12,8 +12,19 @@
         grid-column: main;
     }
 
-    .layoutGrid > .highlighter-rouge,
-    .layoutGrid > img {
+    .layoutGrid > .highlight,
+    .layoutGrid > figure,
+    .layoutGrid > .cp_embed_wrapper {
         grid-column: full;
+    }
+
+    /*
+    When embedding CodePens or snippets. Allow them to break out the grid, but not go full screen
+    */
+    .layoutGrid > .cp_embed_wrapper {
+        width: 100%;
+        margin: auto;
+        max-width: 800px;
+        text-align: center;
     }
 }

@@ -29,17 +29,17 @@ Firstly I wanted to ensure that assets got cached if they hadn't changed and use
 
 There is a really simple way to do this using Jekyll global variables. Open up your ```_config.yml``` file and add the following line:
 
-```
+{% highlight bash %}
+{% raw %}
 version : 100
-```
+{% endraw %}
+{% endhighlight %}
 
 Next any asset you want cached add a question mark followed by an equals sign then call the Jekyll site variable like so
 
-{%raw%}
-```
+{% highlight bash %}
 <img src="{{site.url}}/images/vincentp.jpg?v={{site.version}}" class="u-photo" width="100" height="100" alt="Vincent Pickering">
-```
-{%endraw%}
+{% endhighlight %}
 
 In essence (this is telling the browser that by using the query parameter in the URL)  if URL has changed the content has changed so fetch it again.
 
@@ -51,14 +51,17 @@ If you wanted to control your cache headers you would usually need to include a 
 
 While we are creating the file. Don't forget to modify your Jekyll ```_config.yml``` file to include a file with an underscore, or it won't be built correctly on the Netlify servers. We can do this simply like so:
 
-```
+{% highlight bash %}
+{% raw %}
 include:
   - "_headers"
-```
+{% endraw %}
+{% endhighlight %}
 
 So my ```_config.yml``` file in complete looks like this:
 
-```
+{% highlight bash %}
+{% raw %}
 # Markdown
 markdown : kramdown
 
@@ -90,17 +93,20 @@ exclude:
 
 include:
   - "_headers"
-```
+{% endraw %}
+{% endhighlight %}
 
 Now we have the blank ```_headers``` file added and building correctly lets add some cache control and basic header protection:
 
-```
+{% highlight bash %}
+{% raw %}
 /*
 X-Frame-Options: DENY
 X-Content-Type-Options: nosniff
 X-XSS-Protection: 1; mode=block
 Cache-Control: public, max-age=31536000
-```
+{% endraw %}
+{% endhighlight %}
 
 This does the following:
 
@@ -123,11 +129,13 @@ My current implementation was to inline all the CSS, this is quite a simple thin
 
 Then to include the CSS inline do this in your HTML file, the same as your would include any other file in the ```_includes``` directory:
 
-{%raw%}
-```
+
+{% highlight html %}
+{% raw %}
 <style>{% include filename.css %}</style>
-```
-{%endraw%}
+{% endraw %}
+{% endhighlight %}
+
 
 The file size is small so I assumed this would be the fastest way to deliver the content. But I wanted to explore another method I had used before on a large scale site and see if this could speed things up further.
 
@@ -139,17 +147,13 @@ Traditionally what happens is that the HTML file is requested then parsed. Once 
 
 If you use:
 
-```
+{% highlight html %}
+{% raw %}
 <script src="someURL.js"></script>
-```
-
-```
 <link rel="stylesheet" href="someCSS.css">
-```
-
-```
 <img src="image.jpg">
-```
+{% endraw %}
+{% endhighlight %}
 
 or anything else that requests a separate resource, this requires the browser to request the asset(s), the server to respond and deliver the assets. Finally the browser has to render the page.
 
@@ -159,7 +163,8 @@ By using Server Push, we can tell the browser. **Your definitely going to need t
 
 Implementing Server Push on Netlify is pretty easy. The following code is from [KeksiLabs](https://github.com/KeksiLabs/http2-server-push-demo/blob/master/_headers).
 
-```
+{% highlight bash %}
+{% raw %}
 /
   Link: </style.css>; rel=preload; as=stylesheet
   Link: </main.js>; rel=preload; as=script
@@ -171,7 +176,8 @@ Implementing Server Push on Netlify is pretty easy. The following code is from [
   Link: </image.jpg>; rel=preload; as=image
   Cache-Control: private,max-age=0
 ...
-```
+{% endraw %}
+{% endhighlight %}
 
 Stepping through this line by line.
 
