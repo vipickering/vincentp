@@ -1,9 +1,11 @@
-img {
+figure > img {
     display: block;
-    width: 100%;
-    border-style: none;
+    height: 100%;
+    margin: auto;
+    max-width: 100%;
 }
 
 figure {
+    overflow: hidden;
     text-align: center;
 }

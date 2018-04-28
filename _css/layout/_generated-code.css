@@ -6,10 +6,6 @@ Control styles output by Markdown
     margin: 0 0 var(--extra-small) 0;
 }
 
-.e-content > p:first-child {
-    font-weight: 700;
-}
-
 .e-content > h2,
 .e-content > h3,
 .e-content > h4,
