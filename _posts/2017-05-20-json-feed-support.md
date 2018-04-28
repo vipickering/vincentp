@@ -18,7 +18,6 @@ A well throughout specification for RSS that uses a format developers love. Furt
 It took me about an hour to add support to the Jekyll blog. But your time will be even quicker with [my file]({{site.data.author.github.url}}/vincentp/blob/master/feed.json) as a handy reference!
 
 {% highlight json %}
-```
 ---
 layout: null
 ---
@@ -48,7 +47,6 @@ layout: null
         }{% if forloop.last != true %},{% endif %}{% endfor %}
     ]
 }
-```
 {% endhighlight %}
 
 The biggest gotcha, is that by using the jsonify filter in your liquid tags, you don't need the quotes. They are added automatically.

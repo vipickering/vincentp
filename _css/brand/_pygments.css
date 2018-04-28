@@ -4,8 +4,10 @@
  */
 
 pre {
-    margin: 0;
-    text-align: center;
+    margin: auto;
+    text-align: left;
+    max-width: var(--column-width);
+    min-width: 300px;
 }
 
 .highlight {
