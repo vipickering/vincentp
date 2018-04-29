@@ -1,8 +1,8 @@
 ---
 title: "Lifestream"
-subtitle: "Micro blog posts on UI, UX, Design, HTML, CSS, JS and anything else"
+subtitle: "UI, UX, Design, HTML, CSS, JS and anything else"
 meta: "A blog about front-end development techniques, HTML, CSS and Javascript"
-summary : z"A blog about front-end development techniques, HTML, CSS and Javascript"
+summary : "A blog about front-end development techniques, HTML, CSS and Javascript"
 ---
 
 <!DOCTYPE html>
@@ -21,10 +21,15 @@ summary : z"A blog about front-end development techniques, HTML, CSS and Javascr
             <main>
                 <div class="e-content layoutGrid center">
                     {% for post in site.posts limit:20 %}
-                        <article itemscope itemtype="http://schema.org/Blog" class="h-entry mb2">
-                            <h3 itemprop="headline" class="p-name ma0"><a href="{{site.url}}{{ post.url }}" class="rm-underline" title="{{ post.title }}">{{ post.title }}</a></h3>
-                            <p class="p-summary">{{ post.summary }}</p>
-                            {% include dateTime.html %}
+                        <article itemscope itemtype="http://schema.org/Blog" class="h-entry lifestreamGrid">
+                            <div class="borderBefore relative">
+                                <div class="circle"></div>
+                            </div>
+                            <a href="{{site.url}}{{ post.url }}" class="rm-underline pb2" title="{{ post.title }}">
+                                {% include dateTimeSimple.html %}
+                                <h3 itemprop="headline" class="p-name dn">{{ post.title }}</h3>
+                                <p class="p-summary">{{ post.summary }}</p>
+                            </a>
                         </article>
                     {% endfor %}
                 </div>

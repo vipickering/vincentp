@@ -36,10 +36,16 @@
     margin: 2px 0 0 10px;
     width: 15px;
     height: 15px;
-    content: url(/images/menu.svg);
+    background-size: contain;
+    background-position: 0 0;
+    background-image: url('/images/menu.svg');
 }
 
 #showMenu:checked ~ .h-card > div > #menuIcon > .icon {
     color: white;
-    content: url(/images/cross.svg);
+    background-image: url('/images/cross.svg');
+}
+
+.buttonPadding {
+    padding: 4px 0 0 0;
 }

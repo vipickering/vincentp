@@ -18,3 +18,7 @@
     padding-top: var(--medium);
     padding-bottom: var(--medium);
 }
+
+.pb2 {
+    padding-bottom: var(--medium);
+}

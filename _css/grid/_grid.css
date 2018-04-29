@@ -29,4 +29,9 @@
         max-width: 800px;
         text-align: center;
     }
+
+    .lifestreamGrid {
+        display: grid;
+        grid-template-columns: 3em minmax(1em, 1fr);
+    }
 }
