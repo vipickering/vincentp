@@ -1,9 +1,5 @@
 #showMenu ~ .h-card > [data-menu="contents"] {
-    display: none;
-    z-index: var(--front);
     top: 50px;
-    height: calc(100vh - 50px);
-    bottom: 0;
 }
 
 #showMenu:checked ~ .h-card > [data-menu="contents"] {

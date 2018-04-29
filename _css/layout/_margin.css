@@ -23,8 +23,8 @@
     margin-bottom: var(--medium);
 }
 
-.mb3 {
-    margin-bottom: var(--large);
+.mbMenu {
+    margin-bottom: var(--menuGap);
 }
 
 .mv30 {
