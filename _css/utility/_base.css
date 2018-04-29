@@ -1,4 +1,7 @@
-/*  Normalise - Vincent P - Bespoke */
+/*
+ Default Styles
+Vincent P - Bespoke
+*/
 
 *,
 *::before,
@@ -10,10 +13,10 @@
     font-family: var(--font-body);
     background-color: var(--white);
     color: var(--black);
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 400;
     text-rendering: geometricPrecision;
-    line-height: 1.5;
+    line-height: 1.55;
 }
 
 ::selection {
@@ -42,12 +45,6 @@ abbr:hover {
 abbr[title] {
     text-decoration: none;
     border-bottom: 1px dotted black;
-}
-
-pre > code,
-pre {
-    margin: 0;
-    padding: 0;
 }
 
 h1,
@@ -82,38 +79,65 @@ a:focus {
 }
 
 blockquote {
-    padding: var(--extra-extra-large) var(--small);
-    margin: 0 0 var(--extra-extra-large) 0;
-    width: 90%;
-    text-align: left;
-    border-left: 5px solid var(--pale-grey);
-    background-color: var(--light-grey);
+    max-width: 300px;
+    color: var(--grey);
+    font-size: var(--small);
+    margin: var(--small) auto var(--large) auto;
+    padding: 0;
+    text-align: center;
 }
 
-cite { font-size: var(--small); }
-cite::before {
-    content: '—';
-    display: inline-block;
-    margin-right: 10px;
-}
-
-blockquote > p {
-    line-height: 1.5;
+cite {
+    color: var(--light-grey);
+    max-width: 300px;
+    font-style: normal;
+    font-size: var(--small);
+    font-weight: 100;
 }
 
 em,
-blockquote > p {
+blockquote > p,
+figcaption {
     font-style: italic;
     font-weight: 100;
 }
 
 blockquote > p + p {
-    margin-top: var(--large);
+    margin-top: var(--medium);
 }
 
-sup {
-    font-size: var(--extra-small);
-    font-family: var(--font-mono);
-    font-weight: 100;
-    margin: 0 0 0 2px;
+.circle {
+    display: block;
+    position: relative;
+    margin: 14px auto 0 auto;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    background-color: var(--black);
+    border: 3px solid var(--white);
+    z-index: var(--foreground);
+}
+
+.lifestreamGrid:first-of-type > div > .circle {
+    background-color: var(--red);
+    margin-top: 0;
+}
+
+.lifestreamGrid:first-of-type > .borderBefore {
+    padding-top: 20px;
+}
+
+.lifestreamGrid:last-of-type > .borderBefore {
+    margin-bottom: 28px;
+}
+
+.borderBefore::before {
+    content: "";
+    border-left: 1px solid var(--black);
+    z-index: 1;
+    position: absolute;
+    display: block;
+    left: 50%;
+    width: 1px;
+    height: 100%;
 }

@@ -1,0 +1,47 @@
+#showMenu ~ .h-card > [data-menu="contents"] {
+    top: 50px;
+}
+
+#showMenu:checked ~ .h-card > [data-menu="contents"] {
+    display: block;
+}
+
+#showMenu:checked ~ .h-card {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+#showMenu:checked ~ .h-entry,
+#showMenu:checked ~ footer {
+    display: none;
+    height: 0;
+}
+
+.afterTitle::after {
+    position: absolute;
+    display: block;
+    content: attr(title);
+    width: 100%;
+    font-size: var(--extra-small);
+    font-style: italic;
+    font-weight: 100;
+}
+
+.icon {
+    float: right;
+    margin: 2px 0 0 10px;
+    width: 15px;
+    height: 15px;
+    background-size: contain;
+    background-position: 0 0;
+    background-image: url('/images/menu.svg');
+}
+
+#showMenu:checked ~ .h-card > div > #menuIcon > .icon {
+    color: white;
+    background-image: url('/images/cross.svg');
+}
+
+.buttonPadding {
+    padding: 4px 0 0 0;
+}

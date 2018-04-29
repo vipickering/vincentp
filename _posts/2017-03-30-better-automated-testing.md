@@ -35,7 +35,7 @@ In environments where companies don't use a build server. Add the script to a gi
 
 Here is a sample script. I will step through some of the important points.
 
-```
+{% highlight bash %}
 #!/bin/bash
 # Runs ALL TESTS
 
@@ -91,50 +91,50 @@ echo "Tests Complete"
 # Kill the running processes afterwards
 Node_port=3000
 lsof -i tcp:${Node_port} | awk 'NR!=1 {print $2}' | xargs kill
-```
+{% endhighlight %}
 
 This is how to define an array in a bash script. A useful technique to create a single point of truth for common objects to test.
 
 I define key pages to test at the start of the script, for accessibility testing and broken link checks.
 
-```
+{% highlight bash %}
 # Define list of urls for tests
 urls=(page1 page2 page3 page4 page5)
-```
+{% endhighlight %}
 
 When I start Mocha I use an [npm run script](https://docs.npmjs.com/cli/run-script). The test command code is in my package.json file. The more site specific code we can move to one place, such as the package.json file, the better. The test script will be more portable which is always a good thing.
 
-```
+{% highlight bash %}
 # Mocha unit tests
 echo "Starting Mocha tests"
 npm run test
-```
+{% endhighlight %}
 
 This is a snippet from a package.json file. Running ```npm run test``` will call the Istanbul script and run mocha.
 
-```
+{% highlight bash %}
  "scripts": {
     "start": "NODE_ENV=dev node ./bin/server.js",
     "dev": "NODE_ENV=dev node ./bin/server.js",
     "prod": "NODE_ENV=prod node ./bin/server.js",
     "test": "istanbul cover node_modules/.bin/_mocha -- testing/mocha/**/*",
     "testing": "NODE_ENV=test node ./bin/server.js"
-  },
-```
+  }
+{% endhighlight %}
 
 The broken link checker is inside a loop. Assign each item to a variable and pass it in to the <acronym title="Uniform Resource Locator">URL</acronym>.
 
-```
+{% highlight bash %}
 # Run Broken Link Checker
 for i in "${urls[@]}"
 do
     blc http://localhost:3000/$i
 done
-```
+{% endhighlight %}
 
 Loop through the <acronym title="Uniform Resource Locator">URL</acronym>s. Save each report in to a folder named “accessibility”. Named the <acronym title="Uniform Resource Locator">URL</acronym>.
 
-```
+{% highlight bash %}
 # Pa11y accesibility checks
 echo "Starting Pa11y..."
 for i in "${urls[@]}"
@@ -143,16 +143,15 @@ do
     echo $i processed
 done
 echo "Finished Pa11y"
-```
+{% endhighlight %}
 
 Prevent the process running after the tests have completed.
 
-```
+{% highlight bash %}
 # Kill the running processes afterwards
 Node_port=3000
 lsof -i tcp:${Node_port} | awk 'NR!=1 {print $2}' | xargs kill
-
-```
+{% endhighlight %}
 
 I run text linting in a separate script. Writing is subjective so it shouldn't fail the build.
 

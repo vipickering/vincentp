@@ -5,18 +5,20 @@
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" class="ma0 pa0">
-    <div class="h-entry">
-            <header class="bg-black white">
-            {% include hcard.html %}
+    {% include menuTrigger.html %}
+    {% include hcard.html %}
+
+    <div class="h-entry mt10vh">
+        <header class="grid-1-col grid mw-site center pa2">
             <div class="grid-1-col grid mw-site center pa2">
                 <h1 itemprop="headline" class="p-name ma0 mb2 pa0 f1 lh-heading">Page Not Found</h1>
-                <p class="f6 grey">{{page.subtitle}}</p>
+                <p class="grey">{{page.subtitle}}</p>
             </div>
         </header>
 
-        <main class="center">
+        <main>
             <article itemscope itemtype="http://schema.org/Blog">
-                <div class="e-content dg center mw-site grid-1-col-short pa2">
+                <div class="e-content layoutGrid center">
                     {{content}}
                 </div>
             </article>

@@ -1,23 +1,11 @@
-img {
-    border-style: none;
-    width: 100%;
+figure > img {
+    display: block;
+    height: 100%;
+    margin: auto;
+    max-width: 100%;
 }
 
 figure {
-    position: relative;
-    margin: 0 auto 0 auto;
-    line-height: var(--lh-list);
-}
-
-figcaption {
-    position: absolute;
-    bottom: 8px;
-    right: 0;
-    font-family: var(--font-mono);
-    font-size: var(--small);
-    max-width: 50%;
-    padding: var(--small);
-    color: var(--white);
-    vertical-align: top;
-    background-color: var(--black);
+    overflow: hidden;
+    text-align: center;
 }

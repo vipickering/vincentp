@@ -14,6 +14,6 @@ px width is the min font size.
 
 vw unit is your scale.
 
-```
+{% highlight css %}
 h1{ font-size: calc(16px + 3.5vw); }
-```
+{% endhighlight %}

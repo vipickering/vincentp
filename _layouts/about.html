@@ -5,15 +5,15 @@
     </head>
 
     <body itemscope itemtype="http://schema.org/WebPage" class="ma0 pa0">
-        <div class="h-entry">
-            <header class="bg-black white">
-                {% include hcard.html %}
-                {% include pageTitle.html %}
-            </header>
+        {% include menuTrigger.html %}
+        {% include hcard.html %}
 
-            <main class="center">
+         <div class="h-entry mt10vh">
+            {% include pageTitle.html %}
+
+            <main>
                 <article itemscope itemprop="about">
-                    <div class="e-content  dg center mw-site grid-1-col-short pa2">
+                    <div class="e-content layoutGrid center">
                         {{content}}
                     </div>
                 </article>

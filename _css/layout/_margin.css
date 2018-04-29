@@ -1,0 +1,37 @@
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ma0 {
+    margin: 0;
+}
+
+.mt2 {
+    margin-top: var(--medium);
+}
+
+.mr2 {
+    margin-right: var(--medium);
+}
+
+.ml2 {
+    margin-left: var(--small);
+}
+
+.mb2 {
+    margin-bottom: var(--medium);
+}
+
+.mbMenu {
+    margin-bottom: var(--menuGap);
+}
+
+.mv30 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.mt10vh {
+    margin-top: 10vh;
+}

@@ -12,7 +12,7 @@
         {% when 2 or 22 %}{{ d }}<sup>nd</sup>
         {% when 3 or 23 %}{{ d }}<sup>rd</sup>
     {% else %}
-        {{ d }}<sup>th</sup>
+        {{ d }}th
     {% endcase %}
     {{ pubDate | date: "%Y" }} <span>at</span> {{ pubDate | date: "%H" }}:{{ pubDate | date: "%M%P" }}
 </time>

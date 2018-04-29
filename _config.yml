@@ -1,10 +1,11 @@
 # Markdown
 markdown : kramdown
-
+highlighter: rouge
 #Syntax Highlighting
-kramdown :
-  hard_wrap : false
-  # syntax_highlighter : rouge
+# kramdown :
+#   input: GFM
+#   hard_wrap : false
+#   syntax_highlighter : rouge
 
 #Collections
 # collections:
@@ -24,7 +25,7 @@ timezone: Europe/London
 title : Thoughts on frontend development
 description : Web design including UI, UX, HTML, CSS, JavaScript and Node
 url : https://vincentp.me
-version : 10
+version : 12
 available: true
 
 # Exclude Files

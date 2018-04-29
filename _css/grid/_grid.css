@@ -1,14 +1,37 @@
 @supports (display: grid) {
-    .grid-3-col {
-        grid-template-columns: repeat(3, auto);
+    .layoutGrid {
+        display: grid;
+        grid-template-columns:
+            [full-start] minmax(1em, 1fr)
+            [main-start] minmax(0, var(--column-width))
+            [main-end] minmax(1em, 1fr)
+            [full-end];
     }
 
-    .grid-1-col {
-        grid-template-rows: repeat(3, 1fr);
+    .layoutGrid > * {
+        grid-column: main;
+        padding-left: var(--small);
+        padding-right: var(--small);
     }
 
-    .grid-1-col-short {
-        grid-template-columns: minmax(300px, 41.956rem);
-        grid-template-rows: repeat(2, auto);
+    .layoutGrid > .highlight,
+    .layoutGrid > figure,
+    .layoutGrid > .cp_embed_wrapper {
+        grid-column: full;
+    }
+
+    /*
+    When embedding CodePens or snippets. Allow them to break out the grid, but not go full screen
+    */
+    .layoutGrid > .cp_embed_wrapper {
+        width: 100%;
+        margin: auto;
+        max-width: 800px;
+        text-align: center;
+    }
+
+    .lifestreamGrid {
+        display: grid;
+        grid-template-columns: 3em minmax(1em, 1fr);
     }
 }
