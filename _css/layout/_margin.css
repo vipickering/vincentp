@@ -11,6 +11,10 @@
     margin-top: var(--medium);
 }
 
+.mr2 {
+    margin-right: var(--medium);
+}
+
 .ml2 {
     margin-left: var(--small);
 }
@@ -19,13 +23,13 @@
     margin-bottom: var(--medium);
 }
 
+.mb3 {
+    margin-bottom: var(--large);
+}
+
 .mv30 {
     margin-top: 30px;
     margin-bottom: 30px;
-}
-
-.mt80-fixed {
-    margin-top: 80px;
 }
 
 .mt10vh {

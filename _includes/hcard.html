@@ -1,40 +1,35 @@
 <section class="h-card fixed top-0 left-0 right-0 bg-white layoutGrid pv2" itemscope itemtype="http://schema.org/Person">
     <div>
         <a href="{{ site.url }}" title="vincentp.me" itemprop="url" class="u-url rm-underline tl fl dib"><h1 class="p-name ma0 pa0 f2 fw7" itemprop="name">Vincent Pickering</h1></a>
-        <label for="show-menu" id="menu-icon" class="fr">Menu</label>
+        <label for="showMenu" id="menuIcon" class="fr">Menu
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
     </div>
 
-    <address class="dn center mw-site pa2 bg-black white tc top-50 left-0 right-0 fixed w-100v" data-menu="contents">
-
-        <div class="w-100 tc bt b-white mt80-fixed">
-            <h3 class="ma0 pa1 ba b-white dib relative bg-black">Writings</h3>
-        </div>
-
+    <address class="dn center mw-site pa0 bg-black tc top-50 left-0 right-0 fixed w-100v overflow-y-scroll" data-menu="contents">
         <ul class="ma0 pa0">
             {% if  site.categories.Lifestream %}
-                <li class="list lh-list"><a href="{{site.url}}/" class="rm-underline grey">Lifestream</a></li>
+                <li class="list mb3 mt2" data-menu="item"><a href="{{site.url}}/" class="rm-underline white f1 fw7 afterTitle lh-menu" title="Day to day notes and happenings">Lifestream</a></li>
             {% endif %}
             {% if  site.categories.Articles %}
-                <li class="list lh-list"><a href="{{site.url}}/categories/articles" rel="me" class="rm-underline grey">Writing</a></li>
+                <li class="list mb3" data-menu="item"><a href="{{site.url}}/categories/articles" rel="me" class="rm-underline white  f1 fw7 afterTitle lh-menu" title="Longer articles on topics">Writing</a></li>
              {% endif %}
             {% if  site.categories.Cybernetics %}
-                <li class="list lh-list"><a href="{{site.url}}/categories/cybernetics" class="rm-underline grey">Cybernetics</a></li>
+                <li class="list mb3" data-menu="item"><a href="{{site.url}}/categories/cybernetics" class="rm-underline white  f1 fw7 afterTitle lh-menu"  title="My musings on applying Cybernetics to the modern web" >Cybernetics</a></li>
             {% endif %}
         </ul>
-        <div class="w-100 tc bt b-white mt80-fixed">
-            <h3 class="ma0 pa1 ba b-white dib relative bg-black">Consultancy</h3>
-        </div>
+
         <ul class="ma0 pa0">
-            <li class="list lh-list"><a href="{{site.url}}/services" rel="me" class="rm-underline grey">Services</a></li>
-            <li class="list lh-list"><a href="{{site.url}}/about" rel="me" class="rm-underline grey">About</a></li>
+            <li class="list mb3" data-menu="item"><a href="{{site.url}}/services" rel="me" class="rm-underline white  f1 fw7 afterTitle lh-menu" title="Let's work together on your next project" >Services</a></li>
+            <li class="list mb3" data-menu="item"><a href="{{site.url}}/about" rel="me" class="rm-underline white  f1 fw7 afterTitle lh-menu" title="Background information and past experience" >About</a></li>
         </ul>
-        <div class="w-100 tc bt b-white mt80-fixed">
-            <h3 class="ma0 pa1 ba b-white dib relative bg-black">Elsewhere</h3>
-        </div>
-        <ul class="ma0 pa0">
-            <li class="list lh-list"><a href="{{site.data.author.github.url}}" rel="me external" class="u-url rm-underline grey">Github</a></li>
-            <li class="list lh-list"><a href="{{site.data.author.codepen.url}}" rel="me external" class="u-url rm-underline grey">Codepen</a></li>
-            <li class="list lh-list"><a href="mailto:{{site.data.author.email}}"  itemprop="url"  rel="me" title="Email Me" class="rm-underline grey">Email</a></li>
+
+        <ul class="mv30 pa0">
+            <li class="list dib mr2"><a href="{{site.data.author.github.url}}" rel="me external" class="u-url rm-underline white" title="View my work on Github"><svg height="60" viewBox="0 0 60 60" width="60"  xmlns="http://www.w3.org/2000/svg"><g style="stroke:#000;stroke-width:2;fill:none;fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:round"><path d="m30 0 30 19.5v21l-30 19.5-30-19.5v-21z"/><path d="m30.2255639 60v-19.3984962"/><path d="m60 19.3984962-30 21.2030076-30-21.2030076"/><path d="m0 40.6015038 30-21.2030076 30 21.2030076"/><path d="m30.2255639 0v19.3984962"/></g></svg></a></li>
+            <li class="list dib mr2"><a href="{{site.data.author.codepen.url}}" rel="me external" class="u-url rm-underline white" title="See some code samples and things I am playing with">Codepen</a></li>
+            <li class="list dib"><a href="mailto:{{site.data.author.email}}"  itemprop="url"  rel="me" title="Email Me" class="rm-underline white" title="Get in contact">Email</a></li>
         </ul>
     </address>
 </section>
