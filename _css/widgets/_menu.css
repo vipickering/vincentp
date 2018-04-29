@@ -1,16 +1,13 @@
 #showMenu ~ .h-card > [data-menu="contents"] {
-    opacity: 1;
-    display: block;
+    display: none;
     z-index: var(--front);
     top: 50px;
-    height: 0;
+    height: calc(100vh - 50px);
     bottom: 0;
-    transition: all 0.1s linear;
 }
 
 #showMenu:checked ~ .h-card > [data-menu="contents"] {
-    opacity: 1;
-    height: calc(100vh - 50px);
+    display: block;
 }
 
 #showMenu:checked ~ .h-card {
@@ -34,49 +31,15 @@
     font-weight: 100;
 }
 
-/*
-Animated Icon
-*/
-
-/*
-#menuIcon > span {
-    display: block;
-    width: 33px;
-    height: 4px;
-    margin-bottom: 5px;
-    position: relative;
-    background: var(--black);
-    border-radius: 3px;
-    z-index: 1;
-    transform-origin: 4px 0;
-    transition:
-        transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
-        background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
-        opacity 0.55s ease;
+.icon {
+    float: right;
+    margin: 2px 0 0 10px;
+    width: 15px;
+    height: 15px;
+    content: url(/images/menu.svg);
 }
 
- #menuIcon > span:first-child {
-    transform-origin: 0% 0%;
+#showMenu:checked ~ .h-card > div > #menuIcon > .icon {
+    color: white;
+    content: url(/images/cross.svg);
 }
-
-#menuIcon > span:nth-last-child(2) {
-    transform-origin: 0% 100%;
-}
-
-#showMenu:checked ~ .h-card > div > #menuIcon > span {
-    opacity: 1;
-    transform: rotate(45deg) translate(-2px, -1px);
-    background: var(--white);
-}
-
-#showMenu:checked ~ .h-card > div > #menuIcon > span:nth-last-child(3) {
-    opacity: 0;
-    transform: rotate(0deg) scale(0.2, 0.2);
-    background: var(--white);
-}
-
-#showMenu:checked ~ .h-card > div > #menuIcon > span:nth-last-child(2) {
-    transform: rotate(-45deg) translate(0, -1px);
-    background: var(--white);
-}
-*/
