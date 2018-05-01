@@ -1,47 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        {% include meta.html %}
-    </head>
+<head>
+    {% include meta.html %}
+</head>
 
-    <body itemscope itemtype="http://schema.org/WebPage" class="ma0 pa0">
-        {% include menuTrigger.html %}
-        {% include hcard.html %}
+<body itemscope itemtype="http://schema.org/WebPage" class="ma0 pa0">
+    {% include menuTrigger.html %}
+    {% include hcard.html %}
 
-         <div class="h-entry mt10vh">
-            {% include pageTitle.html %}
+    <div class="h-entry mt10vh">
+        {% include pageTitle.html %}
 
-               <main>
-                <div class="e-content layoutGrid center">
-                        {% if page.type == 'Articles' %}
-                            {% for post in site.categories.Articles %}
-                                <article itemscope itemtype="http://schema.org/Blog" class="h-entry mb2">
-                                    <h3 itemprop="headline" class="p-name ma0"><a href="{{site.url}}{{ post.url }}" class="rm-underline" title="{{ post.title }}">{{ post.title }}</a></h3>
-                                    <p class="p-summary">{{ post.summary }}</p>
-                                </article>
-                            {% endfor %}
-                        {% endif %}
+        <main>
+            <div class="e-content layoutGrid center">
+                {% if page.type == 'Articles' %}
+                    {% for post in site.categories.Articles %}
+                    <article itemscope itemtype="http://schema.org/Blog" class="h-entry mb2">
+                        <h3 itemprop="headline" class="p-name ma0"><a href="{{site.url}}{{ post.url }}" class="rm-underline" title="{{ post.title }}">{{ post.title }}</a></h3>
+                        <p class="p-summary">{{ post.summary }}</p>
+                    </article>
+                    {% endfor %}
+                {% endif %}
 
-                        {% if page.type == 'Lifestream' %}
-                            {% for post in site.categories.Lifestream %}
-                                <article itemscope itemtype="http://schema.org/Blog" class="h-entry mb2">
-                                    <h3 itemprop="headline" class="p-name ma0"><a href="{{site.url}}{{ post.url }}" class="rm-underline" title="{{ post.title }}">{{ post.title }}</a></h3>
-                                    <p class="p-summary">{{ post.summary }}</p>
-                                </article>
-                            {% endfor %}
-                        {% endif %}
+                {% if page.type == 'Lifestream' %}
+                    {% for post in site.categories.Lifestream %}
+                    <article itemscope itemtype="http://schema.org/Blog" class="h-entry mb2">
+                        <h3 itemprop="headline" class="p-name ma0"><a href="{{site.url}}{{ post.url }}" class="rm-underline" title="{{ post.title }}">{{ post.title }}</a></h3>
+                        <p class="p-summary">{{ post.summary }}</p>
+                    </article>
+                    {% endfor %}
+                {% endif %}
 
-                        {% if page.type == 'Cybernetics' %}
-                            {% for post in site.categories.Cybernetics %}
-                                <article itemscope itemtype="http://schema.org/Blog" class="h-entry mb2">
-                                    <h3 itemprop="headline" class="p-name ma0"><a href="{{site.url}}{{ post.url }}" class="rm-underline" title="{{ post.title }}">{{ post.title }}</a></h3>
-                                    <p class="p-summary">{{ post.summary }}</p>
-                                </article>
-                            {% endfor %}
-                        {% endif %}
-                </div>
-            </main>
-        </div>
-        {% include footer.html %}
-    </body>
+                {% if page.type == 'Cybernetics' %}
+                    {% for post in site.categories.Cybernetics %}
+                    <article itemscope itemtype="http://schema.org/Blog" class="h-entry mb2">
+                        <h3 itemprop="headline" class="p-name ma0"><a href="{{site.url}}{{ post.url }}" class="rm-underline" title="{{ post.title }}">{{ post.title }}</a></h3>
+                        <p class="p-summary">{{ post.summary }}</p>
+                    </article>
+                    {% endfor %}
+                {% endif %}
+            </div>
+        </main>
+    </div>
+    {% include footer.html %}
+</body>
 </html>
