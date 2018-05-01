@@ -1,0 +1,9 @@
+.pentagon {
+    -webkit-clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+}
+
+.ellipse {
+  -webkit-clip-path: ellipse(50% 50%);
+  clip-path: ellipse(50% 50%);
+}
