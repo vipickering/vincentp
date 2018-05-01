@@ -9,9 +9,9 @@
 
     {{ pubDate | date: "%H" }}:{{ pubDate | date: "%M%P" }} on  {{ pubDate | date: "%B" }}
     {% case d %}
-        {% when 1 or 21 or 31 %}{{ d }}<sup>st</sup>
-        {% when 2 or 22 %}{{ d }}<sup>nd</sup>
-        {% when 3 or 23 %}{{ d }}<sup>rd</sup>
+        {% when 1 or 21 or 31 %}{{ d }}<sup class="f3">st</sup>
+        {% when 2 or 22 %}{{ d }}<sup class="f3">nd</sup>
+        {% when 3 or 23 %}{{ d }}<sup class="f3">rd</sup>
     {% else %}
         {{ d }}th
     {% endcase %}
