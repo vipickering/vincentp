@@ -34,12 +34,12 @@
     height: 15px;
     background-size: contain;
     background-position: 0 0;
-    background-image: url('/images/menu.svg');
+    background-image: url('/images/icons/menu.svg');
 }
 
 #showMenu:checked ~ .h-card > div > #menuIcon > .icon {
     color: white;
-    background-image: url('/images/cross.svg');
+    background-image: url('/images/icons/cross.svg');
 }
 
 .buttonPadding {
