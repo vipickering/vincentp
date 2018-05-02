@@ -1,0 +1,11 @@
+{% if post %}
+    {% assign pubDate = post.date %}
+{% else %}
+    {% assign pubDate = page.date %}
+{% endif %}
+
+
+    {% assign d = pubDate | date: "%d" | plus:'0' %}
+    {{ pubDate | date: "%B" }}
+    {{ pubDate | date: "%Y" }} {{ pubDate | date: "%H" }}:{{ pubDate | date: "%M%P" }}
+
