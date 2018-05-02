@@ -11,4 +11,4 @@
     X-Content-Type-Options = "nosniff"
     Cache-Control = "public, max-age=31536000"
     Link = '''
-    </css/application.min.css>; rel=preload; as=style'''
+    </css/application.min.css>; rel=preload; as=stylesheet'''
