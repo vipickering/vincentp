@@ -10,3 +10,5 @@
     X-XSS-Protection = "1; mode=block"
     X-Content-Type-Options = "nosniff"
     Cache-Control = "public, max-age=31536000"
+    Link = '''
+    </css/application.min.css>; rel=preload; as=style'''
