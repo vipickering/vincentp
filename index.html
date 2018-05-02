@@ -23,7 +23,7 @@ summary : "A blog about front-end development techniques, HTML, CSS and Javascri
                     {% for post in site.posts limit:20 %}
                         <article itemscope itemtype="http://schema.org/Blog" class="h-entry lifestreamGrid">
                             <div class="borderBefore relative">
-                                <div class="circle"></div>
+                                <div class="circle db relative br-circle bg-black foreground w-20-fixed h-20-fixed center"></div>
                             </div>
                             <a href="{{site.url}}{{ post.url }}" class="rm-underline pb2" title="{{ post.title }}">
                                 {% include dateTimeSimple.html %}

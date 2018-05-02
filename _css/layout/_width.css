@@ -1,8 +1,13 @@
-.w-100v { width: 100vw; }
-.w-100 { width: 100%; }
+.w-100v {
+    width: 100vw;
+}
 
-.w-16-fixed {
-    width: 16px;
+.w-100 {
+    width: 100%;
+}
+
+.w-20-fixed {
+    width: 20px;
 }
 
 .w-30-fixed {

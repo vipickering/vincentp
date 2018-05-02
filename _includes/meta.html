@@ -18,12 +18,13 @@
 <link rel="mask-icon" href="{{site.url}}/safari-pinned-tab.svg?v={{site.version}}" color="#c83539">
 <meta name="theme-color" content="#ffffff">
 
+<!-- Twitter Card -->
+{% include twitterCard.html %}
+
 <!-- Feeds -->
 <link rel="alternate" type="application/atom+xml" title="{{ page.title}}" href="{{site.url}}/feed.xml">
 <link rel="alternate" type="application/json" title="{{ page.title}}" href="{{site.url}}/feed.json">
-<style>
-{% include application.min.css %}
-</style>
+<link rel="stylesheet" href="{{site.url}}/css/application.min.css">
 
 <title>{{ page.title }}</title>
 

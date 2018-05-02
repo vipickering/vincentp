@@ -19,6 +19,10 @@
     margin-left: var(--small);
 }
 
+.mb0 {
+    margin-bottom: 0;
+}
+
 .mb2 {
     margin-bottom: var(--medium);
 }

@@ -13,7 +13,7 @@ Vincent P - Bespoke
     font-family: var(--font-body);
     background-color: var(--white);
     color: var(--black);
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 400;
     text-rendering: geometricPrecision;
     line-height: 1.55;
@@ -107,15 +107,8 @@ blockquote > p + p {
 }
 
 .circle {
-    display: block;
-    position: relative;
     margin: 14px auto 0 auto;
-    border-radius: 100%;
-    width: 20px;
-    height: 20px;
-    background-color: var(--black);
     border: 3px solid var(--white);
-    z-index: var(--foreground);
 }
 
 .lifestreamGrid:first-of-type > div > .circle {
