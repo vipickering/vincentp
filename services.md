@@ -8,7 +8,7 @@ summary : "Vincent Pickering Consultant Front-end Architect and Developer Servic
 
 ## Development
 
-I  provide longer term development work. This coves all aspects of standards based, accessible frontend development and [Node](https://nodejs.org/en/) services.
+My experience covers a wide range of skill sets and disciplines. I specialise in offering UX Design, Frontend Development and Service Design in particular.
 
 Types of work accepted:
 
@@ -28,8 +28,7 @@ Previous clients include:
 - [Capita](https://capita.com)
 - [Emis](https://www.emishealth.com/home)
 
-<a href="mailto:{{site.data.author.email}}?subject=Development" class="dib bg-black white hover-bg-red rm-underline pa1 br-fixed-2">Development Contract</a>
-
+<a href="mailto:{{site.data.author.email}}?subject=Development" class="dib bg-red hover-red white rm-underline pa1 br-fixed-2">Development Contract</a>
 
 ## Consultancy
 
@@ -39,5 +38,5 @@ Working with the team to aid in training and code support. I can help skill up y
 
 Consultancy work is specific to the client and project. Consider a retainer for periodic code reviews or extra training after the main engagement to apply the renewed momentum and application of skills you have achieved.
 
-<a href="mailto:{{site.data.author.email}}?subject=Consultancy" class="dib bg-black white hover-bg-red rm-underline pa1 br-fixed-2">Code Review</a>
+<a href="mailto:{{site.data.author.email}}?subject=Consultancy" class="dib bg-red hover-red white rm-underline pa1 br-fixed-2">Code Review</a>
 

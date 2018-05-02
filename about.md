@@ -8,7 +8,7 @@ summary : "About Vincent Pickering Consultant Front-end Architect and Developer"
 
 Hello, I'm {{site.data.author.name}} a {{site.data.author.job}} With over 18 years experience. I work across a large breadth of industries and technologies.
 
-<a href="{{site.url}}/services" class="dib bg-black white hover-bg-red rm-underline pa1 br-fixed-2">Currently available for hire</a>
+<a href="{{site.url}}/services" class="dib bg-red hover-red white rm-underline pa1 br-fixed-2">Currently available for hire</a>
 
 ## About
 
@@ -31,6 +31,7 @@ If you have something specific to discuss please [contact me directly](mailto:{{
 
 A small sample of clients I've worked with:
 
+- [Infinity Works](https://www.infinityworks.com)
 - [UK Government](https://www.gov.uk)
 - [Capita](http://www.capita.com)
 - [BBC](http://www.bbc.co.uk)

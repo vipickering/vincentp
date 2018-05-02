@@ -2,12 +2,16 @@
     text-decoration: none;
 }
 
-.hover-bg-red:hover {
-    background-color: var(--red);
+.hover-menu:hover {
+    color: var(--red);
 }
 
-.hover-white:hover,
-.hover-bg-red:hover {
+.hover-red:hover {
+    color: var(--red);
+    background-color: var(--black);
+}
+
+.hover-white:hover {
     color: var(--white);
     transition: 0.2s;
 }
