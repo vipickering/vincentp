@@ -18,7 +18,6 @@
 }
 
 .afterTitle::after {
-    position: absolute;
     display: block;
     content: attr(title);
     width: 100%;
