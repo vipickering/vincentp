@@ -40,3 +40,7 @@ Control styles output by Markdown
     margin: 0;
     padding: 0;
 }
+
+.e-content a:hover {
+    text-decoration: none;
+}

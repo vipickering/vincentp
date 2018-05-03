@@ -2,6 +2,10 @@
     text-decoration: none;
 }
 
+.underline-no-hover:hover {
+    text-decoration: none;
+}
+
 .hover-menu:hover {
     color: var(--red);
 }
