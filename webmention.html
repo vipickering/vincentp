@@ -1,0 +1,25 @@
+---
+title: "Webmention Endpoint"
+subtitle: "An endpoint for machines only"
+meta: "An endpoint for machines only"
+summary : "An endpoint for machines only"
+---
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {% include meta.html %}
+    </head>
+
+    <body class="pa0 ma0">
+        <main>
+            <form name="webmention" method="POST" netlify>
+                <h3>Have you responded to this?</h3>
+                <label for="webmention-source">Let me know the <abbr title="Uniform Resource Locator">URL</abbr></label>:
+                <input type="url" name="source" id="webmention-source">
+                <input type="hidden" name="target" value="https://vincentp.me/blog/site-update/">
+                <input type="submit" value="Ping!">
+            </form>
+        </main>
+    </body>
+</html>
