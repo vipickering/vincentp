@@ -11,7 +11,7 @@
     --menuGap: 1rem;
     --large: 2.618rem;
     --lh-heading: 1.2;
-    --font-body: -apple-system-body, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     --font-mono: Menlo, Monaco, Consolas, "Courier New", monospace;
     --front: 100;
     --foreground: 10;

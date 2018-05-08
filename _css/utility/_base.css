@@ -83,17 +83,23 @@ blockquote {
     max-width: 300px;
     color: var(--grey);
     font-size: var(--small);
-    margin: var(--small) auto var(--large) auto;
+    margin: var(--small) auto var(--medium) auto;
     padding: 0;
     text-align: center;
 }
 
 cite {
-    color: var(--light-grey);
+    color: var(--black);
     max-width: 300px;
     font-style: normal;
     font-size: var(--small);
     font-weight: 100;
+}
+
+cite::after {
+    content: "\2766";
+    display: block;
+    font-size: var(--large);
 }
 
 em,

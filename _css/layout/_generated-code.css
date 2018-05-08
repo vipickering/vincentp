@@ -30,7 +30,7 @@ Control styles output by Markdown
 }
 
 .e-content .footnotes li {
-    font-size: var(--small);
+    font-size: var(--extra-small);
     font-family: var(--font-mono);
     font-weight: 100;
     margin-bottom: 5px;
