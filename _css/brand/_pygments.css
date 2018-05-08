@@ -17,10 +17,8 @@ pre {
 }
 
 code {
-    border: 1px solid #ccc;
-    border-radius: 3px;
-    padding: 2px;
     background-color: #f8f8f8;
+    font-size: var(--small);
 }
 
 .highlight code {

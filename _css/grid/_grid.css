@@ -8,10 +8,9 @@
             [full-end];
     }
 
-    .layoutGrid > * {
+    .layoutGrid > *,
+    .highlight > pre {
         grid-column: main;
-        padding-left: var(--small);
-        padding-right: var(--small);
     }
 
     .layoutGrid > .highlight,
