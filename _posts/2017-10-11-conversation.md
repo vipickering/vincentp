@@ -209,4 +209,5 @@ Productive conversation is a cornerstone in creating a successful system. Once a
 - The nature of information submitted by a user is related to their external circumstances at that time.
 - If you want your system to be loved. It needs to be follow basic human etiquette and earn respect over time.
 
+<div class="f-mono black f3 ttu" data-type="notes"><span>Notes</span></div>
 [^1]: Reference: [http://pangaro.com/presents/Pangaro_IXDA_2017_v5_distro.pdf](http://pangaro.com/presents/Pangaro_IXDA_2017_v5_distro.pdf)

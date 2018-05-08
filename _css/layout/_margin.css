@@ -31,11 +31,6 @@
     margin-bottom: var(--menuGap);
 }
 
-.mv30 {
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-.mt10vh {
-    margin-top: 10vh;
+.mt-header {
+    margin-top: 65px;
 }
