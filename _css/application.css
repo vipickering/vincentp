@@ -1,11 +1,11 @@
 @import "utility/_variables.css";
 @import "utility/_base.css";
 @import "utility/_cursor.css";
+@import "utility/_media-queries.css";
 
 /* Brand */
 @import "brand/_colours.css";
 @import "brand/_background-colours.css";
-/*@import "brand/_shapes.css";*/
 @import "brand/_pygments.css";
 
 /* Grid */
@@ -26,6 +26,7 @@
 @import "border/_border-colours.css";
 @import "border/_border-radius.css";
 @import "border/_border-style.css";
+@import "border/_border-width.css";
 
 /* Layout */
 @import "layout/_max-width.css";

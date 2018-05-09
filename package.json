@@ -11,7 +11,7 @@
     "start": "jekyll serve",
     "build:css": "postcss _css/application.css --config postcss.config.js --output css/application.min.css",
     "watch:css": "postcss _css/application.css -w --config postcss.config.js --output css/application.min.css",
-     "dev": "jekyll serve --drafts --future",
+    "dev": "jekyll serve --drafts --future",
     "production": "jekyll serve JEKYLL_ENV=production"
   },
   "repository": {
@@ -28,6 +28,7 @@
     "postcss-cli": "^5.0.0",
     "postcss-copy": "^7.1.0",
     "postcss-cssnext": "^3.1.0",
+    "postcss-custom-media": "^6.0.0",
     "postcss-import": "^11.1.0",
     "postcss-reporter": "^5.0.0",
     "stylelint": "^9.2.0"

@@ -19,6 +19,15 @@
     padding-bottom: var(--medium);
 }
 
+.ph1 {
+    padding-left: var(--small);
+    padding-right: var(--small);
+}
+
 .pb2 {
     padding-bottom: var(--medium);
+}
+
+.pt-24 {
+    padding-top: 24%;
 }

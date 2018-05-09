@@ -6,6 +6,10 @@
     width: 100%;
 }
 
+.w-60 {
+    width: 60%;
+}
+
 .w-20-fixed {
     width: 20px;
 }
@@ -13,4 +17,3 @@
 .w-30-fixed {
     width: 30px;
 }
-

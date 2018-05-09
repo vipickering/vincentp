@@ -128,7 +128,7 @@ blockquote > p + p {
 }
 
 .lifestreamGrid:last-of-type > .borderBefore {
-    margin-bottom: 28px;
+    margin-bottom: 30px;
 }
 
 .borderBefore::before {

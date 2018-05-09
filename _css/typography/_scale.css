@@ -16,7 +16,7 @@ Typographic Scale
 53.206px        3.547em
 39.269px        2.618em     large
 32.884px        2.192em
-24.27px          1.618em
+24.27px          1.618em    subHeading
 20.324px        1.355em
 15px               1em           medium
 12.561px        0.837em    small
@@ -40,4 +40,10 @@ Typographic Scale
 .f3,
 small {
     font-size: var(--extra-small);
+}
+
+@media (--not-mobile) {
+    .subHeading-ns {
+        font-size: var(--subHeading);
+    }
 }

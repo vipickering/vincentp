@@ -2,9 +2,11 @@
     --black: rgba(0, 0, 0, 1);
     --white: rgba(255, 255, 255, 1);
     --red: rgba(200, 53, 57, 1);
+    --red-50: rgba(200, 53, 57, 0.5);
     --grey: rgba(96, 96, 96, 1);
     --light-grey: rgba(146, 146, 146, 1);
     --column-width: 36rem;
+    --subHeading: 1.618rem;
     --extra-small: 0.7rem;
     --small: 0.837rem;
     --medium: 1rem;
