@@ -13,13 +13,16 @@
 
             <main>
                 <article itemscope itemtype="http://schema.org/Blog">
-                    <div class="e-content layoutGrid center">
+                    <div class="e-content layoutGrid center mb2">
                         {{ content }}
                         {% if page.modified %}
                             <p><span class="dt-updated"><strong>Updated <abbr class="value" title=" {{ page.modified }}">15-03-2017</abbr></strong>:  {{ page.modifiedReason }}.</span></p>
                         {% endif %}
                     </div>
                 </article>
+                {% if page.recommendedTitle %}
+                    {% include recommended.html recommendedTitle=page.recommendedTitle recommendedURL=page.recommendedURL %}
+                {% endif %}
             </main>
         </div>
         {% include footer.html %}

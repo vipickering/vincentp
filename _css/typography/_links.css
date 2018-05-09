@@ -8,19 +8,23 @@
 
 .hover-menu:hover {
     color: var(--red);
+    cursor: pointer;
 }
 
 .hover-red:hover {
     color: var(--red);
     background-color: var(--black);
+    cursor: pointer;
 }
 
 .hover-white:hover {
     color: var(--white);
     transition: 0.2s;
+    cursor: pointer;
 }
 
 .hover-black:hover {
     color: var(--black);
     transition: 0.2s;
+    cursor: pointer;
 }
