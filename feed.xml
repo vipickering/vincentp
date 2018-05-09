@@ -5,9 +5,9 @@ layout: null
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title type="text" xml:lang="en">{{ site.title | xml_escape }}</title>
     <subtitle type="html">Web design including: UI, UX, HTML, CSS, JavaScript and Node</subtitle>
-    <link type="application/atom+xml" href="{{site.url}}/feed.xml" rel="self" />
-    <link href="{{site.url}}" rel="alternate" />
-    <link href="https://vincentp.superfeedr.com/" rel="hub" />
+    <link href="{{site.url}}/feed.xml" rel="self" type="application/atom+xml" />
+    <link href="{{site.url}}" rel="alternate" type="text/html" />
+     <link href="https://vincentp.superfeedr.com/" rel="hub"  />
     <updated>{{site.time  | date_to_xmlschema}}</updated>
     <id>{{site.url}}/</id>
     <author>
@@ -20,6 +20,7 @@ layout: null
         <entry>
             <title>{{ post.title | xml_escape }}</title>
             <link href="{{site.url}}{{ post.url }}"/>
+            <guid isPermaLink="true">{{site.url}}{{ post.url }}</guid>
             <id>{{site.url}}{{post.id}}</id>
             <updated>{% if post.modified %}{{post.modified  | date_to_xmlschema}}{% else %}{{post.date  | date_to_xmlschema}}{% endif%}</updated>
             <published>{{post.date  | date_to_xmlschema}}</published>
