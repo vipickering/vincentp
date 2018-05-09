@@ -8,8 +8,6 @@ summary : "About Vincent Pickering Consultant Front-end Architect and Developer"
 
 Hello, I'm {{site.data.author.name}} a {{site.data.author.job}} With over 18 years experience. I work across a large breadth of industries and technologies.
 
-<a href="{{site.url}}/services" class="dib bg-red hover-red white rm-underline pa1 br-fixed-2">Currently available for hire</a>
-
 ## About
 
 During my career I have been incredibly fortunate to work on a diverse range of products and services :
@@ -52,4 +50,4 @@ In my spare time I contribute to open source projects including [Mozlla Nunjucks
 
 This site uses [Jekyll](https://jekyllrb.com/) and [GitHub](https://github.com), where the code for this site is [open source and available]({{site.data.author.github.repo}}).
 
-The site is hosted by [Netlify](https://www.netlify.com/) and wherever possible I follow the spirit of the [Indie Web](https://indieweb.org/).
+The site is hosted on [Netlify](https://www.netlify.com/).

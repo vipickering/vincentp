@@ -28,6 +28,10 @@
     padding-bottom: var(--medium);
 }
 
+.pb3 {
+    padding-bottom: var(--large);
+}
+
 .pt-24 {
     padding-top: 24%;
 }
