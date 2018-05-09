@@ -1,36 +1,24 @@
 ---
 layout: null
 ---
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-    <title type="text" xml:lang="en">{{ site.title | xml_escape }}</title>
-    <subtitle type="html">Web design including: UI, UX, HTML, CSS, JavaScript and Node</subtitle>
-    <link href="{{site.url}}/feed.xml" rel="self" type="application/atom+xml" />
-    <link href="{{site.url}}" rel="alternate" type="text/html" />
-     <link href="https://vincentp.superfeedr.com/" rel="hub"  />
-    <updated>{{site.time  | date_to_xmlschema}}</updated>
-    <id>{{site.url}}/</id>
-    <author>
-        <name>{{site.data.author.name}}</name>
-         <uri>{{site.url}}</uri>
-        <email>{{site.data.author.email}}</email>
-    </author>
-    <rights>Copyright (c) 2013-2018, {{site.data.author.name}}; all rights reserved.</rights>
-    {% for post in site.posts limit:20 %}
-        <entry>
-            <title>{{ post.title | xml_escape }}</title>
-            <link href="{{site.url}}{{ post.url }}"/>
-            <guid isPermaLink="true">{{site.url}}{{ post.url }}</guid>
-            <id>{{site.url}}{{post.id}}</id>
-            <updated>{% if post.modified %}{{post.modified  | date_to_xmlschema}}{% else %}{{post.date  | date_to_xmlschema}}{% endif%}</updated>
-            <published>{{post.date  | date_to_xmlschema}}</published>
-            <summary>{{post.summary}}</summary>
-            <content type="html">{{post.content | xml_escape}}</content>
-            <author>
-                <name>{{site.data.author.name}}</name>
-                <uri>{{site.url}}</uri>
-                <email>{{site.data.author.email}}</email>
-            </author>
-        </entry>
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+    <title>{{ site.title | xml_escape }}</title>
+    <description>{{ site.description | xml_escape }}</description>
+    <link>{{ site.url }}</link>
+    {% for post in site.posts limit:10 %}
+      <item>
+        <title>{{ post.title | xml_escape }}</title>
+        <description>{{ post.content | xml_escape }}</description>
+        <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+        <link>{{ post.url | prepend: site.url }}</link>
+        <!-- PubSubHubbub Discovery -->
+        <link rel="hub"  href="https://vincentp.superfeedr.com/" xmlns="http://www.w3.org/2005/Atom" />
+        <link rel="self" href="https://vincentp.me/feed.xml" xmlns="http://www.w3.org/2005/Atom" />
+        <!-- End Of PubSubHubbub Discovery -->
+        <guid isPermaLink="true">{{ post.url | prepend: site.url }}</guid>
+      </item>
     {% endfor %}
-</feed>
+  </channel>
+</rss>
