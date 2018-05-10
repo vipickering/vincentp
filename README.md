@@ -56,7 +56,6 @@ npm run build:css
 - Netlify configuration is done via [netlify.toml](https://www.netlify.com/docs/netlify-toml-reference/) file.
 
 
-
 ## Deploy
 
 The site is served by Netlify. Deployment happens automatically when the master branch is pushed to GitHub.
@@ -67,6 +66,11 @@ If you want to manually see the live compiled site with HTTPS URLs to error chec
 jekyll build
 ```
 
+To Ping [Superfeedr](https://superfeedr.com/) and let it know a new blog post has been released:
+
+```
+./ping.sh
+```
 
 ## Browser Support
 
