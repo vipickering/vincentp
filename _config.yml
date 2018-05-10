@@ -22,8 +22,8 @@ timezone: Europe/London
 # paginate: 20
 
 # Site Variables
-title : Thoughts on frontend development
-description : Web design including UI, UX, HTML, CSS, JavaScript and Node
+title : Thoughts On Frontend Development
+description : Web design including UI, UX, HTML, CSS, JavaScript, Node and Cybernetics
 url : https://vincentp.me
 version : 12
 available: true
