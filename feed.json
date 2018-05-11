@@ -13,7 +13,7 @@ layout: null
         {
             "name" : "{{site.data.author.name}}",
             "url" : "{{site.url}}",
-            "avatar" : "{{site.url}}/images/vincentp-300.jpg"
+            "avatar" : "{{site.url}}/images/profile/vincentp@2x.jpg"
         }
     ],
      "items": [{% for post in site.posts %}
