@@ -24,6 +24,7 @@
   "devDependencies": {
     "css-mqpacker": "^6.0.2",
     "cssnano": "^3.10.0",
+    "immutable-css": "^1.1.2",
     "postcss": "^6.0.22",
     "postcss-cli": "^5.0.0",
     "postcss-copy": "^7.1.0",

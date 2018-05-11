@@ -21,10 +21,6 @@ Control styles output by Markdown
     margin: 0 0 var(--medium) 0;
 }
 
-.highlight {
-    overflow-x: auto;
-}
-
 [data-type="notes"] span,
 .footnotes {
     padding-left: var(--medium);

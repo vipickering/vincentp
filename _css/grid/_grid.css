@@ -9,11 +9,10 @@
     }
 
     .layoutGrid > *,
-    .highlight > pre {
+    pre {
         grid-column: main;
     }
 
-    .layoutGrid > .highlight,
     .layoutGrid > figure,
     .layoutGrid > .cp_embed_wrapper {
         grid-column: full;
