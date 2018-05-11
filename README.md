@@ -81,6 +81,5 @@ I aim to support the latest versions of the following browsers:
 - Firefox
 - Opera
 - Safari
-- Chrome
 
 Please note : Internet Explorer is *not* supported via CSS. The content should be available anytime and consumable.
