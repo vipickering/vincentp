@@ -12,18 +12,12 @@ layout: null
         <title>{{ site.url }}</title>
         <link>{{ site.url }}</link>
     </image>
-    {% for post in site.posts limit:10 %}
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-        <link>{{ post.url | prepend: site.url }}</link>
-        <!-- PubSubHubbub Discovery -->
-        <link rel="hub"  href="https://vincentp.superfeedr.com/" xmlns="http://www.w3.org/2005/Atom" />
-        <link rel="self" href="https://vincentp.me/feed.xml" xmlns="http://www.w3.org/2005/Atom" />
-        <!-- End Of PubSubHubbub Discovery -->
-        <guid isPermaLink="true">{{ post.url | prepend: site.url }}</guid>
+        <title>RSS Feeds moved</title>
+        <description>The RSS Feeds have been moved to allow you to only subscribe to the things that interest you. Apologies for the inconvenience. Please follow the link to re-subscribe</description>
+        <pubDate>Fri, 11 May 2018 14:30:00 +0100</pubDate>
+        <link>{{ "/feeds" | prepend: site.url }}</link>
+        <guid isPermaLink="true">{{  "/feeds" | prepend: site.url }}</guid>
       </item>
-    {% endfor %}
   </channel>
 </rss>

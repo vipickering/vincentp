@@ -22,8 +22,15 @@
 {% include twitterCard.html %}
 
 <!-- Feeds -->
-<link rel="alternate" type="application/atom+xml" title="{{ page.title}}" href="{{site.url}}/feed.xml">
-<link rel="alternate" type="application/json" title="{{ page.title}}" href="{{site.url}}/feed.json">
+<link rel="alternate" type="application/rss+xml" title="Subscribe to everything" href="{{site.url}}/feeds/everything.xml">
+<link rel="alternate" type="application/json" title="Subscribe to everything" href="{{site.url}}/feeds/everything.json">
+<link rel="alternate" type="application/rss+xml" title="I just want the articles" href="{{site.url}}/feeds/articles.xml">
+<link rel="alternate" type="application/json" title="I just want the articles" href="{{site.url}}/feeds/articles.json">
+<link rel="alternate" type="application/rss+xml" title="I'm just interested in Cybernetics" href="{{site.url}}/feeds/cybernetics.xml">
+<link rel="alternate" type="application/json" title="I'm just interested in Cybernetics" href="{{site.url}}/feeds/cybernetics.json">
+<link rel="alternate" type="application/rss+xml" title="Give me all the little things only, nothing heavy" href="{{site.url}}/feeds/lifestream.xml">
+<link rel="alternate" type="application/json" title="Give me all the little things only, nothing heavy" href="{{site.url}}/feeds/lifestream.json">
+
 
 <!-- CSS -->
 <link rel="stylesheet" rel="preload" href="{{site.url}}/css/application.min.css?v={{ "now" | date: "%Y-%m-%d-%H-%M" }}">

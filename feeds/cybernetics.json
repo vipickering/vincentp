@@ -1,0 +1,29 @@
+---
+layout: null
+---
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": {{ site.title | jsonify }},
+    "home_page_url": "{{site.url}}",
+    "feed_url": "{{site.url}}/feed.json",
+    "description" : "Web design including: UI, UX, HTML, CSS, JavaScript and Node",
+    "icon" : "{{site.url}}/images/vincentp-300.jpg",
+    "favicon" : "{{site.url}}/images/apple-touch-icon-76x76-precomposed.png",
+    "author" : [
+        {
+            "name" : "{{site.data.author.name}}",
+            "url" : "{{site.url}}",
+            "avatar" : "{{site.url}}/images/profile/vincentp@2x.jpg"
+        }
+    ],
+     "items": [{% for post in site.categories.Cybernetics limit:10 %}
+        {
+            "id": "{{site.url}}{{post.id}}",
+            "title" : {{ post.title | jsonify }},
+            "content_html": {{ post.content | jsonify}},
+            "url": "{{site.url}}{{ post.url }}",
+            "date_published" : "{{ post.date }}"{% if post.modified %},
+            "date_modified" : "{{post.modified  | date_to_xmlschema}}"{% endif%}
+        }{% if forloop.last != true %},{% endif %}{% endfor %}
+    ]
+}
