@@ -5,22 +5,24 @@
     </head>
 
     <body itemscope itemtype="http://schema.org/WebPage" class="ma0 pa0">
-        {% include menuTrigger.html %}
-        {% include hcard.html %}
+        <div>
+            {% include menuTrigger.html %}
+            {% include hcard.html %}
 
-        <div class="h-entry mt12vh">
-            <header class="layoutGrid center pa2 tc">
-                <h1 itemprop="headline" class="p-name ma0 pa0 f1 lh-heading">Page Not Found</h1>
-                <p class="black fw3 f2 italic">{{page.subtitle}}</p>
-            </header>
+            <div class="h-entry mt12vh">
+                <header class="layoutGrid center pa2 tc">
+                    <h1 itemprop="headline" class="p-name ma0 pa0 f1 lh-heading">Page Not Found</h1>
+                    <p class="black fw3 f2 italic">{{page.subtitle}}</p>
+                </header>
 
-            <main>
-                <article itemscope itemtype="http://schema.org/Blog">
-                    <div class="e-content layoutGrid center">
-                        {{content}}
-                    </div>
-                </article>
-            </main>
+                <main>
+                    <article itemscope itemtype="http://schema.org/Blog">
+                        <div class="e-content layoutGrid center">
+                            {{content}}
+                        </div>
+                    </article>
+                </main>
+            </div>
         </div>
         {% include footer.html %}
     </body>

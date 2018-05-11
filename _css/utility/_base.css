@@ -28,6 +28,17 @@ html {
     box-sizing: border-box;
     text-size-adjust: 100%;
     text-rendering: optimizeLegibility;
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+
+footer {
+    grid-row: 2 / 3;
 }
 
 address {

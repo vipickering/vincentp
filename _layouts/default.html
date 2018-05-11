@@ -5,19 +5,21 @@
     </head>
 
     <body itemscope itemtype="http://schema.org/WebPage" class="ma0 pa0">
-        {% include menuTrigger.html %}
-        {% include hcard.html %}
+        <div>
+            {% include menuTrigger.html %}
+            {% include hcard.html %}
 
-         <div class="h-entry mt-header">
-            {% include pageTitle.html %}
+             <div class="h-entry mt-header">
+                {% include pageTitle.html %}
 
-            <main>
-                <article itemscope itemtype="http://schema.org/Blog" class="h-entry">
-                    <div class="e-content layoutGrid center">
-                        {{ content }}
-                    </div>
-                </article>
-            </main>
+                <main>
+                    <article itemscope itemtype="http://schema.org/Blog" class="h-entry">
+                        <div class="e-content layoutGrid center">
+                            {{ content }}
+                        </div>
+                    </article>
+                </main>
+            </div>
         </div>
         {% include footer.html %}
     </body>
