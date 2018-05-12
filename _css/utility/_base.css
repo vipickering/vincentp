@@ -93,8 +93,8 @@ a:focus {
 blockquote {
     max-width: 300px;
     color: var(--grey);
-    font-size: var(--small);
-    margin: var(--small) auto var(--medium) auto;
+    font-size: var(--f6);
+    margin: var(--f6) auto var(--f5) auto;
     padding: 0;
     text-align: center;
 }
@@ -103,14 +103,14 @@ cite {
     color: var(--black);
     max-width: 300px;
     font-style: normal;
-    font-size: var(--small);
+    font-size: var(--f6);
     font-weight: 100;
 }
 
 cite::after {
     content: "\2766";
     display: block;
-    font-size: var(--large);
+    font-size: var(--f1);
 }
 
 em,
@@ -121,7 +121,7 @@ figcaption {
 }
 
 blockquote > p + p {
-    margin-top: var(--medium);
+    margin-top: var(--f5);
 }
 
 .circle {

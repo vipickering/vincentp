@@ -25,7 +25,7 @@
                     {% for post in pageType %}
                         <article itemscope itemtype="http://schema.org/Blog" class="h-entry mb2">
                                 <a href="{{site.url}}{{ post.url }}" class="rm-underline pb2" title="{{ post.title }}">
-                                    <time itemprop="dateCreated" class="dt-published f3 light-grey" datetime="{{ post.date | date_to_xmlschema }}">
+                                    <time itemprop="dateCreated" class="dt-published f7 light-grey" datetime="{{ post.date | date_to_xmlschema }}">
                                         {{ post.date | date_to_string: "ordinal" }} <span>at</span> {{ post.date | date: "%H" }}:{{ post.date | date: "%M%P" }}
                                     </time>
                                     <h3 itemprop="headline" class="p-name dn">{{ post.title }}</h3>

@@ -1,8 +1,3 @@
-.mw-site {
-    width: var(--site-width);
-    max-width: 100vw;
-}
-
 .mw-column {
     max-width: var(--column-width);
 }

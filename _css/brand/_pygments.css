@@ -11,15 +11,15 @@ pre {
 }
 
 .highlight {
-    margin: var(--small) 0   var(--small) 0;
-    padding: var(--medium);
+    margin: var(--f6) 0   var(--f6) 0;
+    padding: var(--f5);
     background-color: #f8f8f8;
     overflow-x: auto;
 }
 
 code {
     background-color: #f8f8f8;
-    font-size: var(--small);
+    font-size: var(--f6);
 }
 
 .highlight code {

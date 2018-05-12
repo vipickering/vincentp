@@ -22,8 +22,8 @@ summary : "A blog about front-end development techniques, HTML, CSS and Javascri
                         <div class="absolute pt-24 ph1 w-60 h-100 foreground bg-red-50">
                             <div class="bt b-white bw2">
                                 <h1 class="white ma0 pa0">Hello.</h1>
-                                <p class="subHeading-ns f2 white ma0 pa0">I'm {{site.data.author.name}} a {{site.data.author.job}} With over 18 years experience.</p>
-                                <p class="subHeading-ns f2 white ma0 pa0">I work across a large breadth of industries and technologies.<br><strong><a href="mailto:{{site.data.author.email}}"  itemprop="url"  rel="me" title="Email Me" title="Get in contact" class="hover-black">We should work together</a></strong></p>
+                                <p class="f3-ns f6 white ma0 pa0">I'm {{site.data.author.name}} a {{site.data.author.job}} With over 18 years experience.</p>
+                                <p class="f3-ns f6 white ma0 pa0">I work across a large breadth of industries and technologies.<br><strong><a href="mailto:{{site.data.author.email}}"  itemprop="url"  rel="me" title="Email Me" title="Get in contact" class="hover-black">We should work together</a></strong></p>
                             </div>
                         </div>
                         <img src="{{site.data.author.profilePic}}" srcset="{{site.data.author.profilePic}} 320w, {{site.data.author.profilePicRetina2}} 640w, {{site.data.author.profilePicRetina3}} 1000w" class="db greyscale w-100 mt3 pb3">
@@ -39,7 +39,7 @@ summary : "A blog about front-end development techniques, HTML, CSS and Javascri
                                     <div class="circle db relative br-circle  foreground w-20-fixed h-20-fixed center  {% if forloop.first == true %}bg-red mt0 {% else %} bg-black {% endif%}"></div>
                                 </div>
                                 <a href="{{site.url}}{{ post.url }}" class="rm-underline pb2" title="{{ post.title }}">
-                                    <time itemprop="dateCreated" class="dt-published f3 light-grey" datetime="{{ post.date | date_to_xmlschema }}">
+                                    <time itemprop="dateCreated" class="dt-published f7 light-grey" datetime="{{ post.date | date_to_xmlschema }}">
                                         {{ post.date | date_to_string: "ordinal" }} <span>at</span> {{ post.date | date: "%H" }}:{{ post.date | date: "%M%P" }}
                                     </time>
 

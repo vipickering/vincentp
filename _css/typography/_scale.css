@@ -1,9 +1,9 @@
 /*
 Typographic Scale
 --
-704.562px     46.971em  site-width
+704.562px     46.971em
 590px            39.333em
-480px            32em                 column-width
+480px            32em               column-width
 435.453px     29.03em
 364.648px     24.31em
 269.13px        17.942em
@@ -14,13 +14,13 @@ Typographic Scale
 86.087px        5.739em
 63.537px        4.236em
 53.206px        3.547em
-39.269px        2.618em     large
-32.884px        2.192em medium2
-24.27px          1.618em    subHeading
-20.324px        1.355em medium1
-15px               1em           medium
-12.561px        0.837em    small
-11.04px          0.7em        extra-small
+39.269px        2.618em     large f1
+32.884px        2.192em     medium2 f2
+24.27px          1.618em      subHeading f3
+20.324px        1.355em     f4
+15px               1em              f5
+12.561px        0.837em     f6
+11.04px          0.7em          f7
 7.763px          0.518em
 5.73px            0.382em
 4.798px         0.32em
@@ -29,21 +29,21 @@ Typographic Scale
 */
 
 .f1 {
-    font-size: var(--large);
+    font-size: var(--f1);
 }
 
-.f2,
+.f6,
 .dt-updated {
-    font-size: var(--small);
+    font-size: var(--f6);
 }
 
-.f3,
+.f7,
 small {
-    font-size: var(--extra-small);
+    font-size: var(--f7);
 }
 
 @media (--not-mobile) {
-    .subHeading-ns {
-        font-size: var(--subHeading);
+    .f3-ns {
+        font-size: var(--f3);
     }
 }

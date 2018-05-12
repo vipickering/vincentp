@@ -3,7 +3,7 @@ Control styles output by Markdown
 */
 
 .e-content > p {
-    margin: 0 0 var(--extra-small) 0;
+    margin: 0 0 var(--f7) 0;
 }
 
 .e-content > h2,
@@ -12,19 +12,19 @@ Control styles output by Markdown
 .e-content > h5,
 .e-content > h6 {
     color: var(--red);
-    font-size: var(--medium);
-    margin: var(--small) 0 0 0;
+    font-size: var(--f5);
+    margin: var(--f6) 0 0 0;
 }
 
 .e-content > ul,
 .e-content > ol {
-    margin: 0 0 var(--medium) 0;
+    margin: 0 0 var(--f5) 0;
 }
 
 [data-type="notes"] span,
 .footnotes {
-    padding-left: var(--medium);
-    padding-right: var(--medium);
+    padding-left: var(--f5);
+    padding-right: var(--f5);
 }
 
 [data-type="notes"] span {
@@ -33,15 +33,15 @@ Control styles output by Markdown
 }
 
 .e-content .footnotes li {
-    font-size: var(--extra-small);
+    font-size: var(--f7);
     font-family: var(--font-mono);
     font-weight: 100;
-    margin-bottom: var(--extra-small);
+    margin-bottom: var(--f7);
 }
 
 .footnotes ol {
     margin: 0;
-    padding: 0 var(--medium) 0 var(--medium);
+    padding: 0 var(--f5) 0 var(--f5);
 }
 
 .e-content a:hover {

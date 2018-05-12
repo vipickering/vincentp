@@ -12,19 +12,19 @@
 }
 
 .mt2 {
-    margin-top: var(--medium);
+    margin-top: var(--f5);
 }
 
 .mt3 {
-    margin-top: var(--large);
+    margin-top: var(--f1);
 }
 
 .mr2 {
-    margin-right: var(--medium);
+    margin-right: var(--f5);
 }
 
 .ml2 {
-    margin-left: var(--small);
+    margin-left: var(--f6);
 }
 
 .mb0 {
@@ -32,7 +32,7 @@
 }
 
 .mb2 {
-    margin-bottom: var(--medium);
+    margin-bottom: var(--f5);
 }
 
 .mt-header {
@@ -40,5 +40,5 @@
 }
 
 .mb5 {
-    margin-bottom: var(--medium2);
+    margin-bottom: var(--f2);
 }

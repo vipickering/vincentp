@@ -21,7 +21,7 @@
     display: block;
     content: attr(title);
     width: 100%;
-    font-size: var(--extra-small);
+    font-size: var(--f7);
     font-style: italic;
     font-weight: 100;
 }
