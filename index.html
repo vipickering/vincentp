@@ -39,7 +39,10 @@ summary : "A blog about front-end development techniques, HTML, CSS and Javascri
                                     <div class="circle db relative br-circle bg-black foreground w-20-fixed h-20-fixed center"></div>
                                 </div>
                                 <a href="{{site.url}}{{ post.url }}" class="rm-underline pb2" title="{{ post.title }}">
-                                    {% include dateTimeSimple.html %}
+                                    <time itemprop="dateCreated" class="dt-published f3 light-grey" datetime="{{ post.date | date_to_xmlschema }}">
+                                        {{ post.date | date_to_string: "ordinal" }} <span>at</span> {{ post.date | date: "%H" }}:{{ post.date | date: "%M%P" }}
+                                    </time>
+
                                     <h3 itemprop="headline" class="p-name dn">{{ post.title }}</h3>
                                     <p class="p-summary">{{ post.summary }}</p>
                                 </a>

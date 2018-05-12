@@ -30,9 +30,9 @@ include:
   - "_redirects"
 
 # Error Checking & Debugging
-# liquid:
-#     error_mode: warn
-#     strict_filters: true
-#     strict_variables: true
+liquid:
+    error_mode: warn
+    strict_filters: true
+    strict_variables: true
 
-# strict_front_matter: true
+strict_front_matter: true

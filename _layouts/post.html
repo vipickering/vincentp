@@ -13,16 +13,7 @@
                 <header class="layoutGrid center pv2 tc">
                     <p class="ma0 pa0 f3">
                         <time itemprop="dateCreated" class="dt-published red" datetime="{{ page.date | date_to_xmlschema }}">
-                            {% assign d = page.date | date: "%d" | plus:'0' %}
-                            {{ page.date | date: "%B" }}
-                            {% case d %}
-                                {% when 1 or 21 or 31 %}{{ d }}<sup>st</sup>
-                                {% when 2 or 22 %}{{ d }}<sup>nd</sup>
-                                {% when 3 or 23 %}{{ d }}<sup>rd</sup>
-                            {% else %}
-                                {{ d }}th
-                            {% endcase %}
-                            {{ page.date | date: "%Y" }} <span>at</span> {{ page.date | date: "%H" }}:{{ page.date | date: "%M%P" }}
+                            {{ page.date | date_to_string: "ordinal" }} <span>at</span> {{ page.date | date: "%H" }}:{{ page.date | date: "%M%P" }}
                         </time>
                     </p>
                     <h1 itemprop="headline" class="p-name ma0 pa0 f1 lh-heading">{{ page.title }}</h1>
