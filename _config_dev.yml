@@ -1,0 +1,9 @@
+# _config_dev.yml - Dev environment configs and overrides
+
+# Error Checking & Debugging
+liquid:
+    error_mode: warn
+    strict_filters: true
+    strict_variables: true
+
+strict_front_matter: true

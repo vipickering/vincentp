@@ -1,3 +1,5 @@
+# _config.yml - Base config used in production
+
 # Markdown
 markdown : kramdown
 
@@ -28,11 +30,3 @@ exclude:
 include:
   - "_headers"
   - "_redirects"
-
-# Error Checking & Debugging
-liquid:
-    error_mode: warn
-    strict_filters: true
-    strict_variables: true
-
-strict_front_matter: true
