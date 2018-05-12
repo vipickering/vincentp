@@ -129,19 +129,6 @@ blockquote > p + p {
     border: 3px solid var(--white);
 }
 
-.lifestreamGrid:first-of-type > div > .circle {
-    background-color: var(--red);
-    margin-top: 0;
-}
-
-.lifestreamGrid:first-of-type > .borderBefore {
-    padding-top: 20px;
-}
-
-.lifestreamGrid:last-of-type > .borderBefore {
-    margin-bottom: 30px;
-}
-
 .borderBefore::before {
     content: "";
     border-left: 1px solid var(--black);

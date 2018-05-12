@@ -7,6 +7,10 @@
     margin: 0;
 }
 
+.mt0 {
+    margin-top: 0;
+}
+
 .mt2 {
     margin-top: var(--medium);
 }
@@ -31,10 +35,10 @@
     margin-bottom: var(--medium);
 }
 
-.mbMenu {
-    margin-bottom: var(--menuGap);
-}
-
 .mt-header {
     margin-top: 73px;
+}
+
+.mb5 {
+    margin-bottom: var(--medium2);
 }
