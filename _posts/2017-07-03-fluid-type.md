@@ -5,7 +5,8 @@ date: "2017-07-03 22:02:00 +/-GMT"
 meta: "Make Your Type Scale With Your Screen Size In Proportion"
 summary: "Make Your Type Scale With Your Screen Size In Proportion"
 category: "Lifestream"
-syndicated: https://twitter.com/vincentlistens/status/881977427517374464
+modified :
+modifiedReason:
 ---
 
 Make type scale in proportion to the viewport size

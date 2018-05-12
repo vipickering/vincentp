@@ -12,6 +12,7 @@
     "build:css": "postcss _css/application.css --config postcss.config.js --output css/application.min.css",
     "watch:css": "postcss _css/application.css -w --config postcss.config.js --output css/application.min.css",
     "dev": "jekyll serve --drafts --future",
+    "debug": "jekyll serve --verbose --trace",
     "production": "jekyll serve JEKYLL_ENV=production"
   },
   "repository": {

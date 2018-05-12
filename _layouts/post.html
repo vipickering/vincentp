@@ -10,7 +10,25 @@
             {% include hcard.html %}
 
             <div class="h-entry mt-header">
-                {% include articleTitle.html %}
+                <header class="layoutGrid center pv2 tc">
+                    <p class="ma0 pa0 f3">
+                        <time itemprop="dateCreated" class="dt-published red" datetime="{{ page.date | date_to_xmlschema }}">
+                            {% assign d = page.date | date: "%d" | plus:'0' %}
+                            {{ page.date | date: "%B" }}
+                            {% case d %}
+                                {% when 1 or 21 or 31 %}{{ d }}<sup>st</sup>
+                                {% when 2 or 22 %}{{ d }}<sup>nd</sup>
+                                {% when 3 or 23 %}{{ d }}<sup>rd</sup>
+                            {% else %}
+                                {{ d }}th
+                            {% endcase %}
+                            {{ page.date | date: "%Y" }} <span>at</span> {{ page.date | date: "%H" }}:{{ page.date | date: "%M%P" }}
+                        </time>
+                    </p>
+                    <h1 itemprop="headline" class="p-name ma0 pa0 f1 lh-heading">{{ page.title }}</h1>
+                    <p class="grey fw3 f2 italic">{{ page.summary }}</p>
+                    <p class="grey fw3 f2 ">Published by <a class="p-author u-url black" href="{{site.url}}" rel="author">{{ site.data.author.name }}</a><p>
+                </header>
 
                 <main>
                     <article itemscope itemtype="http://schema.org/Blog">
@@ -21,9 +39,6 @@
                             {% endif %}
                         </div>
                     </article>
-                    {% if page.recommendedTitle %}
-                        {% include recommended.html recommendedTitle=page.recommendedTitle recommendedURL=page.recommendedURL %}
-                    {% endif %}
                 </main>
             </div>
         </div>

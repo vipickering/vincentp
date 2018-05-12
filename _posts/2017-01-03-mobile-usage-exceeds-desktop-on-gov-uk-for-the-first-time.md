@@ -5,6 +5,8 @@ date: 2017-01-03 00:00:01 +/-GMT
 meta: GOV.UK is a pretty good measure of the UK’s overall mobile usage versus desktop
 summary: The GOV.UK website user data is finally showing the mobile future, we were all promised.
 category: Articles
+modified :
+modifiedReason:
 ---
 
 I find the [GOV.UK](https://gov.uk){:rel="external"} site an endless resource of great knowledge on a cross-section of ‘real’ users in the United Kingdom, so while browsing the GOV.UK [performance stats](https://www.gov.uk/performance/site-activity/device-type#from=2013-04-01T00:00:00Z&to=2017-01-01T00:00:00Z){:rel="external"} today I spotted this:

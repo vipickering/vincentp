@@ -7,6 +7,8 @@ summary: Reducing the time to meaningful first paint Jekyll blog
 modified : 2017-07-03 22:01:00 +/-GMT
 modifiedReason: to correct style, readability and punctuation
 category: Articles
+modified :
+modifiedReason:
 ---
 
 I decided to set myself a challenge.

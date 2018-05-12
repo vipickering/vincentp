@@ -7,6 +7,8 @@ modifiedReason: to correct style, readability and punctuation
 meta: Jekyll Workflow
 summary: Where I discuss how I have optimised my Jekyll website, code-base and processes
 category: Articles
+modified :
+modifiedReason:
 ---
 ## Jekyll, Netlify and HTTPS
 

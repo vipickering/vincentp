@@ -5,6 +5,8 @@ date: 2013-07-11 00:00:01 +/-GMT
 meta: How to solve the problem of intent in a textual medium
 summary: Where I discuss Twitters mixed UI metaphors.
 category: Articles
+modified :
+modifiedReason:
 ---
 
 It's highly likely that you found this blog post through Twitter, or at the very least you use Twitter on a daily basis. As social networks go, it's the one that has hit the sweet spot, indispensable for disseminating information and finding like minded people. Every day millions of people use it, every day somebody somewhere says something that grabs other peoples attention and at that point they reach for the "favourite" and "re-tweet" buttons…And that's when UX people like myself start to get a bit 'twitchy'.

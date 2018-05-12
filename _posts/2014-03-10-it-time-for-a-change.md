@@ -5,6 +5,8 @@ date: 2014-03-10 00:00:01 +/-GMT
 meta: There is a disconnect between how ideas are shared and taking that discussion further.
 summary: Where I discuss the disconnect between how ideas are shared and taking that discussion further.
 category: Articles
+modified :
+modifiedReason:
 ---
 
 Yesterday, a tweet by [@leaverou](https://twitter.com/LeaVerou/status/442809870476386304){:rel="external"} popped up in my stream.

@@ -5,6 +5,8 @@ date: "2018-04-20 13:01:00 +/-GMT"
 meta: "Create a carousel without the need for JavaScript"
 summary: "Create a carousel without the need for JavaScript"
 category: "Lifestream"
+modified :
+modifiedReason:
 ---
 
 More "No JS Widgets", I also put together a carousel without JavaScript.

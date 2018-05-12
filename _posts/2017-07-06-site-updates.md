@@ -5,6 +5,8 @@ date: "2017-07-06 08:00:00 +/-GMT"
 meta: "Redesigning my site to be faster, better, smaller"
 summary: "Redesigning my site to be faster, better, smaller"
 category: "Articles"
+modified :
+modifiedReason:
 ---
 
 It takes time to understand how to represent yourself through design. It takes even more time if you consider that the code you produce must also be a true representation of your abilities. Harder still, if  you want to write as little code as possible.

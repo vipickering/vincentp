@@ -5,6 +5,8 @@ date: "2017-10-11 08:00:00 +/-GMT"
 meta: "Design is Conversation"
 summary: "Thoughts on the Conversation Model by Dr.Paul Pangaro and Hugh Dubberly"
 category: "Cybernetics"
+modified :
+modifiedReason:
 ---
 
 {% include shapes/polygon.html %}

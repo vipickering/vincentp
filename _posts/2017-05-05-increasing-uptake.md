@@ -5,6 +5,8 @@ date: 2017-05-05 08:50:00 +/-GMT
 meta: Increasing uptake in Government services.
 summary: How we can incentivise users to engage with a digital service.
 category: Articles
+modified :
+modifiedReason:
 ---
 I find physical exercise a good way to work through my thoughts. While ripping out weeds from my garden, my mind drifted back to my last contract working for the <abbr title="Department of Work and Pensions">DWP</abbr>.
 

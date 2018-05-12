@@ -5,6 +5,8 @@ date: 2017-03-30 18:00:00 +/-GMT
 meta: Using bash scripts for better automated testing
 summary: Where I discuss FED automated tests and a consistent method to implement them
 category: Articles
+modified :
+modifiedReason:
 ---
 
 I'm a stickler for automated testing and being consistent in writing good code. When I work in a company environment I always imbue good testing practices and habits in the colleagues around me.

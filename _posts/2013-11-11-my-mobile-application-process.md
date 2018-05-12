@@ -5,6 +5,8 @@ date: 2013-11-11 00:00:01 +/-GMT
 meta: An overview of my mobile App tools and processes used on a daily basis from start to finish.
 summary: A complete breakdown of my mobile application process in 2013
 category: Articles
+modified :
+modifiedReason:
 ---
 
 Intended as a companion piece to my previous post on my frontend process, this post discusses my App design processes, there is some overlap so I recommend if you enjoy reading this post you should also [check out](http://vincentp.me/blog/my-front-end-development-process-start-to-finish) the other one.

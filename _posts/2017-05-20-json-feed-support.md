@@ -5,6 +5,8 @@ date: 2017-05-20 11:15:00 +/-GMT
 meta: Adding JSON feed support
 summary: Adding JSON Feed support
 category: Articles
+modified :
+modifiedReason:
 ---
 
 Let's face it. RSS and ATOM Suck. That's not to say the format isn't useful. But XML is a trudge, it's not fun to work with at all.

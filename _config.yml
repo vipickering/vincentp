@@ -1,20 +1,8 @@
 # Markdown
 markdown : kramdown
-highlighter: rouge
+
 #Syntax Highlighting
-# kramdown :
-#   input: GFM
-#   hard_wrap : false
-#   syntax_highlighter : rouge
-
-#Collections
-# collections:
-#   posts:
-#     output: true
-#     permalink: /blog/amp/:title/
-#     values:
-#       layout: amp
-
+highlighter: rouge
 
 # Outputting
 permalink : /blog/:title
@@ -40,3 +28,11 @@ exclude:
 include:
   - "_headers"
   - "_redirects"
+
+# Error Checking & Debugging
+# liquid:
+#     error_mode: warn
+#     strict_filters: true
+#     strict_variables: true
+
+# strict_front_matter: true
