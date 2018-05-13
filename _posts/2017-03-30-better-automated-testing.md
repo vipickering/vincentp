@@ -124,7 +124,7 @@ This is a snippet from a package.json file. Running ```npm run test``` will call
   }
 {% endhighlight %}
 
-The broken link checker is inside a loop. Assign each item to a variable and pass it in to the <acronym title="Uniform Resource Locator">URL</acronym>.
+The broken link checker is inside a loop. Assign each item to a variable and pass it in to the <abbr title="Uniform Resource Locator">URL</abbr>.
 
 {% highlight bash %}
 # Run Broken Link Checker
@@ -134,7 +134,7 @@ do
 done
 {% endhighlight %}
 
-Loop through the <acronym title="Uniform Resource Locator">URL</acronym>s. Save each report in to a folder named “accessibility”. Named the <acronym title="Uniform Resource Locator">URL</acronym>.
+Loop through the <abbr title="Uniform Resource Locator">URL</abbr>s. Save each report in to a folder named “accessibility”. Named the <abbr title="Uniform Resource Locator">URL</abbr>.
 
 {% highlight bash %}
 # Pa11y accesibility checks

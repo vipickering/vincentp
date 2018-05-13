@@ -72,6 +72,23 @@ To Ping [Superfeedr](https://superfeedr.com/) and let it know a new blog post ha
 ./ping.sh
 ```
 
+## Testing
+
+Automated Accessibility testing is done via [Pa11y](http://pa11y.org/) and is run by typing:
+
+```
+npm run pa11y
+```
+
+HTML validation is handled using [Valimate](https://github.com/jamesseanwright/valimate). Run by typing:
+
+```
+npm run valimate
+```
+
+The valimate configuration file is manually taken from the outputted sitemap.xml and quickly formatted.
+
+
 ## Browser Support
 
 I aim to support the latest versions of the following browsers:
