@@ -10,8 +10,8 @@ layout: null
     <url>
         <loc>{{ post.url | prepend: site.url}}</loc>
         <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
-    </url>{% endfor %}{% for page in site.pages %}
+    </url>{% endfor %}{% for page in site.pages %}{% unless page.url contains "xml" or page.url contains "json"%}
     <url>
         <loc>{{ page.url | prepend: site.url}}</loc>
-    </url>{% endfor %}
+    </url>{% endunless %}{% endfor %}
 </urlset>
