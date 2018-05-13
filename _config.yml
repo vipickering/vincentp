@@ -26,6 +26,7 @@ exclude:
   - "package.json"
   - "node_modules"
   - "LICENSE"
+  - "ping.sh"
 
 include:
   - "_headers"
