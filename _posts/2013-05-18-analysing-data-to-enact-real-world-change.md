@@ -19,7 +19,7 @@ The tools we have to analyse the data often start out with well-meaning develope
 
 <figure>
 <figcaption>A fictitious dashboard of context-less data depicting tweets, Facebook likes, weight gained, distance walked and calories consumed</figcaption>
-<img src="{{site.url}}/images/blog/2013-05-18/dashboard.png">
+<img src="{{site.url}}/images/blog/2013-05-18/dashboard.png" alt="A picture of a fictitious dashboard">
 </figure>
 
 Dashboards are often presented using graphs that aren't appropriate for the data you are viewing to be useful and only serve as visual eye candy in a desperate attempt to keep interest focused, but even eye candy won't keep the user happy for ever.

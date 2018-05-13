@@ -13,12 +13,12 @@ pre {
 .highlight {
     margin: var(--f6) 0   var(--f6) 0;
     padding: var(--f5);
-    background-color: #f8f8f8;
+    background-color: #f9f9f9;
     overflow-x: auto;
 }
 
 code {
-    background-color: #f8f8f8;
+    background-color: #f9f9f9;
     font-size: var(--f6);
 }
 
@@ -58,7 +58,7 @@ code {
 .highlight .c,
 .highlight .cm,
 .highlight .c1 {
-    color: #998;
+    color: #747463;
 }
 
 /*
@@ -131,7 +131,7 @@ code {
 }
 
 .highlight .nb {
-    color: #0086b3;
+    color: #007ca5;
 }
 
 .highlight .ni {
@@ -162,7 +162,7 @@ code {
 .highlight .mi,
 .highlight .mo,
 .highlight .il {
-    color: #099;
+    color: #007f7f;
 }
 
 .highlight .s,
