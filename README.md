@@ -71,17 +71,3 @@ To Ping [Superfeedr](https://superfeedr.com/) and let it know a new blog post ha
 ```
 ./ping.sh
 ```
-
-HTML validation is handled using [Valimate](https://github.com/jamesseanwright/valimate). Run by typing:
-
-## Browser Support
-
-I aim to support the latest versions of the following browsers:
-
-- Edge
-- Chrome
-- Firefox
-- Opera
-- Safari
-
-Please note : Internet Explorer is *not* supported via CSS. The content should be available anytime and consumable.
