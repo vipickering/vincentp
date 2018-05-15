@@ -13,9 +13,7 @@
     "watch:css": "postcss _css/application.css -w --config postcss.config.js --output css/application.min.css",
     "dev": "jekyll serve --drafts --future --config '_config.yml,_config_dev.yml'",
     "debug": "jekyll serve --verbose --trace",
-    "production": "jekyll serve JEKYLL_ENV=production",
-    "valimate" : "./node_modules/.bin/valimate _config/valimate.json",
-    "pa11y" : "pa11y-ci --sitemap http://localhost:4000/sitemap.xml"
+    "production": "jekyll serve JEKYLL_ENV=production"
   },
   "repository": {
     "type": "git",
@@ -28,7 +26,6 @@
     "css-mqpacker": "^6.0.2",
     "cssnano": "^3.10.0",
     "immutable-css": "^1.1.2",
-    "pa11y-ci": "^2.1.1",
     "postcss": "^6.0.22",
     "postcss-cli": "^5.0.0",
     "postcss-copy": "^7.1.0",
@@ -36,8 +33,7 @@
     "postcss-custom-media": "^6.0.0",
     "postcss-import": "^11.1.0",
     "postcss-reporter": "^5.0.0",
-    "stylelint": "^9.2.0",
-    "valimate": "^2.3.0"
+    "stylelint": "^9.2.0"
   },
   "dependencies": {}
 }
