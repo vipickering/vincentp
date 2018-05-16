@@ -8,7 +8,7 @@ category: Articles
 modified :
 modifiedReason:
 twitterCard:
-tags: "Typography"
+tags: "Typography CSS"
 ---
 
 Today I got some spare time to spend fixing the small issues I have had with the typography on the site.
