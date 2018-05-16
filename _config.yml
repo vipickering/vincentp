@@ -15,7 +15,6 @@ timezone: Europe/London
 title : Thoughts On Frontend Development
 description : Web design including UI, UX, HTML, CSS, JavaScript, Node and Cybernetics
 url : https://vincentp.me
-version : 12
 available: true
 
 # Exclude Files

@@ -8,7 +8,7 @@ category: Articles
 modified :
 modifiedReason:
 twitterCard:
-tags:
+tags: "Process Technology"
 ---
 
 I'm a stickler for automated testing and being consistent in writing good code. When I work in a company environment I always imbue good testing practices and habits in the colleagues around me.

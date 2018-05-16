@@ -8,7 +8,7 @@ category: "Lifestream"
 modified :
 modifiedReason:
 twitterCard:
-tags:
+tags: "Typography"
 ---
 
 Make type scale in proportion to the viewport size

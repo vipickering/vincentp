@@ -8,7 +8,7 @@ category: Articles
 modified :
 modifiedReason:
 twitterCard:
-tags:
+tags: "Meetups"
 ---
 
 Yesterday I spoke at [Forefront Leeds](http://forefront.cc/forefront-no1-18th-november-2013/){:rel="external"} a recent speaking event for frontend developers in the Leeds area, run by Russell Poulter of [Flodesign](http://flodesign.co.uk){:rel="external"}.

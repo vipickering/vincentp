@@ -7,10 +7,10 @@ summary: Reducing the time to meaningful first paint Jekyll blog
 modified : 2017-07-03 22:01:00 +/-GMT
 modifiedReason: to correct style, readability and punctuation
 category: Articles
-modified :
-modifiedReason:
+modified : 2018-05-16 16:50:00 +/-GMT
+modifiedReason: "The current method was a bit hacky. This is a better solution"
 twitterCard:
-tags:
+tags: "Jekyll Thoughts"
 ---
 
 I decided to set myself a challenge.
@@ -27,27 +27,32 @@ After further digging I decided to use [Harry Roberts](https://csswizardry.com/s
 
 After implementing the service worker I achieved the 100 score on the Lighthouse plug-in. But I knew I could go further.
 
-## Simple Jekyll Cache Busting
+~~## Simple Jekyll Cache Busting~~
 
-Firstly I wanted to ensure that assets got cached if they hadn't changed and users only downloaded newly updated content.
+~~Firstly I wanted to ensure that assets got cached if they hadn't changed and users only downloaded newly updated content.~~
 
-There is a really simple way to do this using Jekyll global variables. Open up your ```_config.yml``` file and add the following line:
+~~There is a really simple way to do this using Jekyll global variables. Open up your ```_config.yml``` file and add the following line:~~
 
-{% highlight bash %}
+~~{% highlight bash %}
 {% raw %}
 version : 100
 {% endraw %}
+{% endhighlight %}~~
+
+~~Next any asset you want cached add a question mark followed by an equals sign then call the Jekyll site variable like so~~
+
+~~In essence (this is telling the browser that by using the query parameter in the URL)  if URL has changed the content has changed so fetch it again.~~
+
+~~Now every time you update any of your assets, remember to update this variable in the config file and when the site is republished the browser will know to fetch the latest assets.~~
+
+**I have replaced** this with a much simpler method to output the current date/time as a parameter.
+
+{% highlight html %}
+{% raw %}
+<link  rel="stylesheet" href="{{site.url}}/css/application.min.css?v={{ "now" | date: "%Y-%m-%d-%H-%M" }}">
+{% endraw %}
 {% endhighlight %}
 
-Next any asset you want cached add a question mark followed by an equals sign then call the Jekyll site variable like so
-
-{% highlight bash %}
-<img src="{{site.url}}/images/vincentp.jpg?v={{site.version}}" class="u-photo" width="100" height="100" alt="Vincent Pickering">
-{% endhighlight %}
-
-In essence (this is telling the browser that by using the query parameter in the URL)  if URL has changed the content has changed so fetch it again.
-
-Now every time you update any of your assets, remember to update this variable in the config file and when the site is republished the browser will know to fetch the latest assets.
 
 ## Adding Cache Control on Netlify
 

@@ -8,7 +8,7 @@ category: Articles
 modified :
 modifiedReason:
 twitterCard:
-tags:
+tags: "Thoughts"
 ---
 I find physical exercise a good way to work through my thoughts. While ripping out weeds from my garden, my mind drifted back to my last contract working for the <abbr title="Department of Work and Pensions">DWP</abbr>.
 
