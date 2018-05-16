@@ -7,6 +7,7 @@ summary: Where I discuss the disconnect between how ideas are shared and taking 
 category: Articles
 modified :
 modifiedReason:
+twitterCard:
 ---
 
 Yesterday, a tweet by [@leaverou](https://twitter.com/LeaVerou/status/442809870476386304){:rel="external"} popped up in my stream.

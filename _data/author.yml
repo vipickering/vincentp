@@ -8,6 +8,7 @@ pinboard :
 twitter:
   url: https://twitter.com/vincentlistens
   username: vincentlistens
+  twitterCard: social-card.jpg
 arena:
   url: https://www.are.na/vincent-pickering/channels
 linkedin :

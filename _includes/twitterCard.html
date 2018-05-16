@@ -4,5 +4,5 @@
 <meta name="twitter:creator" content="@{{ site.data.author.twitter.username }}" />
 <meta name="twitter:url" property="og:url" content="{{site.url}}{{ page.url }}" />
 <meta name="twitter:description" property="og:description" content="{{ page.summary}}" />
-<meta name="twitter:image" property="og:image" content="{{site.url}}/images/social-card.jpg" />
+<meta name="twitter:image" property="og:image" content="{{site.url}}/images/{{ page.twitterCard  | default: site.data.author.twitter.twitterCard }}" />
 <meta name="twitter:image:alt" content="A picture depicting thought process as a long path in the wilderness" />

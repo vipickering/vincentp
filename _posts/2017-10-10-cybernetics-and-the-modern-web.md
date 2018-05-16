@@ -7,6 +7,7 @@ summary: "To build great user experiences we must understand how to communicate 
 category: "Cybernetics"
 modified :
 modifiedReason:
+twitterCard:
 ---
 
 {% include shapes/circle.html %}

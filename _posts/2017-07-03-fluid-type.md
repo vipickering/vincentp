@@ -7,6 +7,7 @@ summary: "Make Your Type Scale With Your Screen Size In Proportion"
 category: "Lifestream"
 modified :
 modifiedReason:
+twitterCard:
 ---
 
 Make type scale in proportion to the viewport size

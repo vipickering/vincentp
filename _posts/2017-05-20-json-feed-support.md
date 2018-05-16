@@ -7,6 +7,7 @@ summary: Adding JSON Feed support
 category: Articles
 modified :
 modifiedReason:
+twitterCard:
 ---
 
 Let's face it. RSS and ATOM Suck. That's not to say the format isn't useful. But XML is a trudge, it's not fun to work with at all.

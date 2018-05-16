@@ -4,6 +4,7 @@ title : "Feeds"
 subtitle: "Feeds available in RSS 2.0 and JSON formats"
 meta : "Feeds available in RSS 2.0 and JSON formats"
 summary : "Feeds available in RSS 2.0 and JSON formats"
+twitterCard:
 ---
 <h2>Available Feeds</h2>
 - Everything: <span class="f7 grey"><a rel="alternate" type="application/rss+xml" title="Subscribe to everything" href="{{site.url}}/feeds/everything.xml">XML</a> / <a rel="alternate" type="application/json" title="Subscribe to everything" href="{{site.url}}/feeds/everything.json">JSON</a></span>

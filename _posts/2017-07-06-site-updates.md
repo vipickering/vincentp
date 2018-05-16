@@ -7,6 +7,7 @@ summary: "Redesigning my site to be faster, better, smaller"
 category: "Articles"
 modified :
 modifiedReason:
+twitterCard:
 ---
 
 It takes time to understand how to represent yourself through design. It takes even more time if you consider that the code you produce must also be a true representation of your abilities. Harder still, if  you want to write as little code as possible.

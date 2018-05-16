@@ -7,6 +7,7 @@ summary: lists the correct way in Photoshop
 category: Articles
 modified :
 modifiedReason:
+twitterCard:
 ---
 
 I have lost count the number of times I have seen over a [designers shoulder](http://hoveringartdirectors.tumblr.com){:rel="external"} and noticed them struggling with formatting lists in Photoshop.

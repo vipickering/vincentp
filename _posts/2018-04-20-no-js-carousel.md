@@ -7,6 +7,7 @@ summary: "Create a carousel without the need for JavaScript"
 category: "Lifestream"
 modified :
 modifiedReason:
+twitterCard:
 ---
 
 More "No JS Widgets", I also put together a carousel without JavaScript.

@@ -7,6 +7,7 @@ summary: "Thoughts on the Conversation Model by Dr.Paul Pangaro and Hugh Dubberl
 category: "Cybernetics"
 modified :
 modifiedReason:
+twitterCard:
 ---
 
 {% include shapes/polygon.html %}

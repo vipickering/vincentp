@@ -7,6 +7,7 @@ summary: "Create a modal without the need for JavaScript"
 category: "Lifestream"
 modified :
 modifiedReason:
+twitterCard:
 ---
 
 In general a modal as a UX mechanisim is bad, but there are a few edge cases where they serve a viable purpose on your website.

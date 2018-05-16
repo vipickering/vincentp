@@ -7,6 +7,7 @@ summary: Where I discuss FED automated tests and a consistent method to implemen
 category: Articles
 modified :
 modifiedReason:
+twitterCard:
 ---
 
 I'm a stickler for automated testing and being consistent in writing good code. When I work in a company environment I always imbue good testing practices and habits in the colleagues around me.

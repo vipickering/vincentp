@@ -7,6 +7,7 @@ summary: My set-up for Sublime Text 2
 category: Articles
 modified :
 modifiedReason:
+twitterCard:
 ---
 
 My personal set-up for [Sublime Text 2](https://www.sublimetext.com "Sublime Text 2"){:rel="external"}.

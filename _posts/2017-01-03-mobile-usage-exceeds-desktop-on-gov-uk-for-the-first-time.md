@@ -7,6 +7,7 @@ summary: The GOV.UK website user data is finally showing the mobile future, we w
 category: Articles
 modified :
 modifiedReason:
+twitterCard:
 ---
 
 I find the [GOV.UK](https://gov.uk){:rel="external"} site an endless resource of great knowledge on a cross-section of ‘real’ users in the United Kingdom, so while browsing the GOV.UK [performance stats](https://www.gov.uk/performance/site-activity/device-type#from=2013-04-01T00:00:00Z&to=2017-01-01T00:00:00Z){:rel="external"} today I spotted this:

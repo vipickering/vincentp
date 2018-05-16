@@ -9,6 +9,7 @@ modifiedReason: to correct style, readability and punctuation
 category: Articles
 modified :
 modifiedReason:
+twitterCard:
 ---
 
 I decided to set myself a challenge.

@@ -7,6 +7,7 @@ summary: "Recent tweaks to the website"
 category: "Lifestream"
 modified :
 modifiedReason:
+twitterCard:
 ---
 
 You might have noticed a few changes on the website recently. As part of my move towards supporting the [Indie Web](https://indieweb.org/){:rel="external"} I have made it easier to write long and short form blog posts, categorised separately.

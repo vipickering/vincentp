@@ -4,6 +4,7 @@ title : "About"
 subtitle: "A Quick Summary Of Myself "
 meta : "About Vincent Pickering Consultant Front-end Architect and Developer"
 summary : "About Vincent Pickering Consultant Front-end Architect and Developer"
+twitterCard:
 ---
 
 Hello, I'm {{site.data.author.name}} a {{site.data.author.job}} With over 18 years experience. I work across a large breadth of industries and technologies.
