@@ -8,6 +8,7 @@ category: "Cybernetics"
 modified :
 modifiedReason:
 twitterCard:
+tags:
 ---
 
 {% include shapes/circle.html %}

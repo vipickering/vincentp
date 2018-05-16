@@ -19,6 +19,11 @@
                     <h1 itemprop="headline" class="p-name ma0 pa0 f1 lh-heading">{{ page.title }}</h1>
                     <p class="grey fw3 f6 italic">{{ page.summary }}</p>
                     <p class="grey fw3 f6 ">Published by <a class="p-author u-url black" href="{{site.url}}" rel="author">{{ site.data.author.name }}</a><p>
+                    <small>
+                        {% for tag in page.tags %}
+                            <a href="{{site.url}}/tags/{{tag}}" title="read more articles tagged with {{tag}}">{{tag}}</a>
+                        {% endfor %}
+                    </small>
                 </header>
 
                 <main>

@@ -8,6 +8,7 @@ category: "Lifestream"
 modified :
 modifiedReason:
 twitterCard:
+tags:
 ---
 
 More "No JS Widgets", I also put together a carousel without JavaScript.

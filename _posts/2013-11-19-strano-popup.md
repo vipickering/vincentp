@@ -8,6 +8,7 @@ category: Articles
 modified :
 modifiedReason:
 twitterCard:
+tags:
 ---
 
 Strano (meaning strange in Italian) is a relatively new concept restaurant idea that takes place at a secret location every few months in Leeds. The theory is that eating out should be an event and bring all the theatre that comes with that. The set-up is really great, you pay a fixed price for your dining evening, but you have no clue what the food will be, only that you won’t have eaten it before. There is always a general theme that the evening will follow, but beyond that it’s a jump in to the unknown. FUN!

@@ -10,6 +10,7 @@ category: Articles
 modified :
 modifiedReason:
 twitterCard:
+tags:
 ---
 
 I decided to set myself a challenge.

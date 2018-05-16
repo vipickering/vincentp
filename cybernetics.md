@@ -7,4 +7,5 @@ meta : "All content tagged Cybernetics by Vincent Pickering"
 summary : "All content tagged Cybernetics by Vincent Pickering"
 type : "Cybernetics"
 twitterCard:
+tags:
 ---

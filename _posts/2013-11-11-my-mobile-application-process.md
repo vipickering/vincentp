@@ -8,6 +8,7 @@ category: Articles
 modified :
 modifiedReason:
 twitterCard:
+tags:
 ---
 
 Intended as a companion piece to my previous post on my frontend process, this post discusses my App design processes, there is some overlap so I recommend if you enjoy reading this post you should also [check out](http://vincentp.me/blog/my-front-end-development-process-start-to-finish) the other one.
