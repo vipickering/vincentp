@@ -7,7 +7,7 @@ summary: Where I play around with CSS calc operations.
 category: Articles
 modified :
 modifiedReason:
-twitterCard:
+twitterCard: false
 tags: "CSS"
 ---
 

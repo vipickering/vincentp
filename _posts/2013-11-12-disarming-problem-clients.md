@@ -7,7 +7,7 @@ summary: Where I discuss various techniques to disarm problem clients.
 category: Articles
 modified :
 modifiedReason:
-twitterCard:
+twitterCard: false
 tags: "Process"
 ---
 

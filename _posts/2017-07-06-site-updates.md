@@ -7,7 +7,7 @@ summary: "Redesigning my site to be faster, better, smaller"
 category: "Articles"
 modified :
 modifiedReason:
-twitterCard:
+twitterCard: false
 tags: "Jekyll"
 ---
 

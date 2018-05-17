@@ -9,7 +9,7 @@ summary: Where I discuss how I have optimised my Jekyll website, code-base and p
 category: Articles
 modified :
 modifiedReason:
-twitterCard:
+twitterCard: false
 tags: "Jekyll"
 ---
 ## Jekyll, Netlify and HTTPS

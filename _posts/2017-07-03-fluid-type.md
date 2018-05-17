@@ -7,7 +7,7 @@ summary: "Make Your Type Scale With Your Screen Size In Proportion"
 category: "Lifestream"
 modified :
 modifiedReason:
-twitterCard:
+twitterCard: false
 tags: "Typography"
 ---
 

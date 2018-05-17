@@ -7,7 +7,7 @@ summary: The internet of things isn't really working, context is lost.
 category: Articles
 modified : 2017-03-20 16:17:00
 modifiedReason: to correct style, readability and punctuation
-twitterCard:
+twitterCard: false
 tags: "UI UX Thoughts"
 ---
 <p><span class="dt-updated">

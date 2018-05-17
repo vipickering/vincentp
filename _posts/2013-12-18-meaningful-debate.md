@@ -7,7 +7,7 @@ summary: Thinking about how we could make conferences .
 category: Articles
 modified :
 modifiedReason:
-twitterCard:
+twitterCard: false
 tags: "Thoughts Technology"
 ---
 

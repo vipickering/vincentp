@@ -7,7 +7,7 @@ summary: "Google Duplex concerns"
 category: "Lifestream"
 modified :
 modifiedReason:
-twitterCard:
+twitterCard: false
 tags: "Technology Thoughts"
 ---
 

@@ -6,5 +6,5 @@ title : "Technology"
 subtitle: "All tagged posts"
 meta : "Posts written by Vincent Pickering and tagged with Technology"
 summary : "Posts written by Vincent Pickering and tagged with Technology"
-twitterCard:
+twitterCard: false
 ---

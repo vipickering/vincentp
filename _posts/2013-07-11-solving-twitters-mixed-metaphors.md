@@ -7,7 +7,7 @@ summary: Where I discuss Twitters mixed UI metaphors.
 category: Articles
 modified :
 modifiedReason:
-twitterCard:
+twitterCard: false
 tags: "UI UX Process Thoughts"
 ---
 

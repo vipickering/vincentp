@@ -4,7 +4,7 @@ title : "Feeds"
 subtitle: "Feeds available in RSS 2.0 and JSON formats"
 meta : "Feeds available in RSS 2.0 and JSON formats"
 summary : "Feeds available in RSS 2.0 and JSON formats"
-twitterCard:
+twitterCard: false
 tags:
 ---
 <h2>Available Feeds</h2>

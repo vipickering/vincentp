@@ -7,7 +7,7 @@ summary: Adding JSON Feed support
 category: Articles
 modified :
 modifiedReason:
-twitterCard:
+twitterCard: false
 tags: "JavaScript"
 ---
 

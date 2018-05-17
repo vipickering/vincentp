@@ -7,7 +7,7 @@ summary: "Recent tweaks to the website"
 category: "Lifestream"
 modified :
 modifiedReason:
-twitterCard:
+twitterCard: false
 tags: "Jekyll"
 ---
 

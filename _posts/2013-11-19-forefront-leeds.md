@@ -7,7 +7,7 @@ summary: Forefront Leeds meet-ups
 category: Articles
 modified :
 modifiedReason:
-twitterCard:
+twitterCard: false
 tags: "Meetups"
 ---
 

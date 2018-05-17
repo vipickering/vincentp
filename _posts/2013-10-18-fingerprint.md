@@ -7,7 +7,7 @@ summary: I created a fun thing that generates a website based on your name
 category: Articles
 modified :
 modifiedReason:
-twitterCard:
+twitterCard: false
 tags: "Process Technology Thoughts"
 ---
 

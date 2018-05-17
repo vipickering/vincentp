@@ -7,7 +7,7 @@ summary: The GOV.UK website user data is finally showing the mobile future, we w
 category: Articles
 modified :
 modifiedReason:
-twitterCard:
+twitterCard: false
 tags: "Technology"
 ---
 

@@ -6,5 +6,5 @@ title : "JavaScript"
 subtitle: "All tagged posts"
 meta : "Posts written by Vincent Pickering and tagged with JavaScript"
 summary : "Posts written by Vincent Pickering and tagged with JavaScript"
-twitterCard:
+twitterCard: false
 ---

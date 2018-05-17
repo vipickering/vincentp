@@ -7,7 +7,7 @@ summary: Where I discuss FED automated tests and a consistent method to implemen
 category: Articles
 modified :
 modifiedReason:
-twitterCard:
+twitterCard: false
 tags: "Process Technology"
 ---
 

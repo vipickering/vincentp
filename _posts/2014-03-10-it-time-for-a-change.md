@@ -7,7 +7,7 @@ summary: Where I discuss the disconnect between how ideas are shared and taking 
 category: Articles
 modified :
 modifiedReason:
-twitterCard:
+twitterCard: false
 tags: "Thoughts Process"
 ---
 

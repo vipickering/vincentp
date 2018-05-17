@@ -7,7 +7,7 @@ summary: A fun night out at Strano
 category: Articles
 modified :
 modifiedReason:
-twitterCard:
+twitterCard: false
 tags: "Social"
 ---
 

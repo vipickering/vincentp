@@ -7,7 +7,7 @@ summary: lists the correct way in Photoshop
 category: Articles
 modified :
 modifiedReason:
-twitterCard:
+twitterCard: false
 tags: "Process Technology Typography"
 ---
 

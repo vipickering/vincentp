@@ -4,7 +4,7 @@ title : "About"
 subtitle: "A Quick Summary Of Myself "
 meta : "About Vincent Pickering Consultant Front-end Architect and Developer"
 summary : "About Vincent Pickering Consultant Front-end Architect and Developer"
-twitterCard:
+twitterCard: false
 tags:
 ---
 

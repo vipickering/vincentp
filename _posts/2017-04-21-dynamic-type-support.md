@@ -7,7 +7,7 @@ summary: Improving the site accessibility support using Dynamic Text in iOS.
 category: Articles
 modified :
 modifiedReason:
-twitterCard:
+twitterCard: false
 tags: "Typography CSS"
 ---
 

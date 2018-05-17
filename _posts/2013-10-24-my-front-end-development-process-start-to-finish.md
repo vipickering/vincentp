@@ -7,7 +7,7 @@ summary: A complete breakdown of my web application process in 2013
 category: Articles
 modified :
 modifiedReason:
-twitterCard:
+twitterCard: false
 tags: "Process Technology"
 ---
 

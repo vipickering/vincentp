@@ -7,7 +7,7 @@ summary: "Create a carousel without the need for JavaScript"
 category: "Lifestream"
 modified :
 modifiedReason:
-twitterCard:
+twitterCard: false
 tags: "CSS"
 ---
 

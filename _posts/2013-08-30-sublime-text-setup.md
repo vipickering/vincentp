@@ -7,7 +7,7 @@ summary: My set-up for Sublime Text 2
 category: Articles
 modified :
 modifiedReason:
-twitterCard:
+twitterCard: false
 tags: "Process Technology"
 ---
 

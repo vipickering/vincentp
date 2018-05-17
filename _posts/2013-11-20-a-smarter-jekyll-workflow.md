@@ -7,7 +7,7 @@ summary:  Trying to work better with Jekyll
 category: Articles
 modified :
 modifiedReason:
-twitterCard:
+twitterCard: false
 tags: "Jekyll"
 ---
 
