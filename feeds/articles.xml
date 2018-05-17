@@ -22,7 +22,7 @@ layout: null
         <description><![CDATA[{{ post.content | xml_escape }}]]></description>
         <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
         <link rel="hub"  href="https://vincentp.superfeedr.com/" xmlns="http://www.w3.org/2005/Atom" />
-        <link rel="self" href="https://vincentp.me/feeds/lifestream.xml" xmlns="http://www.w3.org/2005/Atom" />
+        <link rel="self" href="https://vincentp.me/feeds/articles.xml" xmlns="http://www.w3.org/2005/Atom" />
         <guid isPermaLink="true">{{ post.url | prepend: site.url }}</guid>
         {% for tag in post.tags %}
         <category>{{tag}}</category>
