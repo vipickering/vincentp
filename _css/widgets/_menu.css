@@ -1,7 +1,3 @@
-#showMenu ~ .h-card > [data-menu="contents"] {
-    top: 50px;
-}
-
 #showMenu:checked ~ .h-card > [data-menu="contents"] {
     display: block;
 }

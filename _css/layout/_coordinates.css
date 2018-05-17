@@ -2,6 +2,10 @@
     top: 0;
 }
 
+.top-fixed-50 {
+    top: 50px;
+}
+
 .bottom-0 {
     bottom: 0;
 }
