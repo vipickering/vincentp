@@ -18,10 +18,8 @@ layout: null
         <description>{{ post.content | xml_escape }}</description>
         <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
         <link>{{ post.url | prepend: site.url }}</link>
-        <!-- PubSubHubbub Discovery -->
         <link rel="hub"  href="https://vincentp.superfeedr.com/" xmlns="http://www.w3.org/2005/Atom" />
         <link rel="self" href="https://vincentp.me/feeds/cybernetics.xml" xmlns="http://www.w3.org/2005/Atom" />
-        <!-- End Of PubSubHubbub Discovery -->
         <guid isPermaLink="true">{{ post.url | prepend: site.url }}</guid>
       </item>
     {% endfor %}
