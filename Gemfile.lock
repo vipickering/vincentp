@@ -57,7 +57,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  ffi
   jekyll
 
 BUNDLED WITH

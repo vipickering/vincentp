@@ -32,6 +32,22 @@ Typographic Scale
     font-size: var(--f1);
 }
 
+.f2 {
+    font-size: var(--f2);
+}
+
+.f3 {
+    font-size: var(--f3);
+}
+
+.f4 {
+    font-size: var(--f4);
+}
+
+.f5 {
+    font-size: var(--f5);
+}
+
 .f6,
 .dt-updated {
     font-size: var(--f6);

@@ -33,7 +33,8 @@
     "postcss-custom-media": "^6.0.0",
     "postcss-import": "^11.1.0",
     "postcss-reporter": "^5.0.0",
-    "stylelint": "^9.2.0"
+    "postcss-syntax": "^0.10.0",
+    "stylelint": "^9.2.1"
   },
   "dependencies": {}
 }
