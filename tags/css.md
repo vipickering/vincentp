@@ -1,6 +1,6 @@
 ---
 layout : "tags"
-tag: "CSS"
+tag: "css"
 permalink: /tags/css
 title : "CSS"
 subtitle: "All tagged posts"

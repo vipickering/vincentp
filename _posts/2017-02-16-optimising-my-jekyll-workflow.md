@@ -10,7 +10,7 @@ category: Articles
 modified :
 modifiedReason:
 twitterCard: false
-tags: "Jekyll"
+tags: "jekyll technology tools css html"
 ---
 ## Jekyll, Netlify and HTTPS
 

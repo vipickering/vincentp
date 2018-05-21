@@ -1,6 +1,6 @@
 ---
 layout : "tags"
-tag: "Process"
+tag: "process"
 permalink: /tags/process
 title : "Process"
 subtitle: "All tagged posts"

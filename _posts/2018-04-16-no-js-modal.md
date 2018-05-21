@@ -8,7 +8,7 @@ category: "Lifestream"
 modified :
 modifiedReason:
 twitterCard: false
-tags: "CSS"
+tags: "css html"
 ---
 
 In general a modal as a UX mechanisim is bad, but there are a few edge cases where they serve a viable purpose on your website.

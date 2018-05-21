@@ -1,6 +1,6 @@
 ---
 layout : "tags"
-tag: "Productivity"
+tag: "productivity"
 permalink: /tags/productivity
 title : "Productivity"
 subtitle: "All tagged posts"

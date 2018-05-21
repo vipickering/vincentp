@@ -8,12 +8,10 @@ category: "Lifestream"
 modified :
 modifiedReason:
 twitterCard: false
-tags: "Technology Thoughts"
+tags: "technology thoughts"
 ---
 
 On [the Google blog](https://ai.googleblog.com/2018/05/duplex-ai-system-for-natural-conversation.html) explaining how Google Duplex works, this line jumps out at me.
-
-
 
 <blockquote>
     <p>... To obtain its high precision, we trained Duplex’s RNN on a corpus of anonymized phone conversation data ...</p>

@@ -1,6 +1,6 @@
 ---
 layout : "tags"
-tag: "UX"
+tag: "ux"
 permalink: /tags/ux
 title : "UX"
 subtitle: "All tagged posts"

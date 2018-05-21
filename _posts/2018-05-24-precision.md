@@ -8,7 +8,7 @@ category: "Articles"
 modified :
 modifiedReason:
 twitterCard: true
-tags: "Process Productivity Thoughts"
+tags: "process productivity thoughts"
 ---
 
 {% include shapes/dot.html %}

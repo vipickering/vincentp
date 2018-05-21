@@ -1,6 +1,6 @@
 ---
 layout : "tags"
-tag: "Jekyll"
+tag: "jekyll"
 permalink: /tags/jekyll
 title : "Jekyll"
 subtitle: "All tagged posts"

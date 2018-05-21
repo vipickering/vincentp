@@ -1,6 +1,6 @@
 ---
 layout : "tags"
-tag: "Typography"
+tag: "typography"
 permalink: /tags/typography
 title : "Typography"
 subtitle: "All tagged posts"

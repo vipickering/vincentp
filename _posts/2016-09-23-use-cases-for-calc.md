@@ -8,7 +8,7 @@ category: Articles
 modified :
 modifiedReason:
 twitterCard: false
-tags: "CSS"
+tags: "html thoughts css"
 ---
 
 ## Vertical centre

@@ -8,7 +8,7 @@ category: Articles
 modified :
 modifiedReason:
 twitterCard: false
-tags: "Typography CSS"
+tags: "typography css jekyll html"
 ---
 
 Today I got some spare time to spend fixing the small issues I have had with the typography on the site.

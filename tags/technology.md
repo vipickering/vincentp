@@ -1,6 +1,6 @@
 ---
 layout : "tags"
-tag: "Technology"
+tag: "technology"
 permalink: /tags/technology
 title : "Technology"
 subtitle: "All tagged posts"

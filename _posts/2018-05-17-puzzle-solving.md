@@ -8,7 +8,7 @@ category: "Articles"
 modified :
 modifiedReason:
 twitterCard: true
-tags: "Process Thoughts"
+tags: "process thoughts ux"
 ---
 
 {% include shapes/square-circle.html %}

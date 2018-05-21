@@ -1,6 +1,6 @@
 ---
 layout : "tags"
-tag: "Thoughts"
+tag: "thoughts"
 permalink: /tags/thoughts
 title : "Thoughts"
 subtitle: "All tagged posts"

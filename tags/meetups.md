@@ -1,6 +1,6 @@
 ---
 layout : "tags"
-tag: "Meetups"
+tag: "meetups"
 permalink: /tags/meetups
 title : "Meetups"
 subtitle: "All tagged posts"

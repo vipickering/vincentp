@@ -8,7 +8,7 @@ category: "Cybernetics"
 modified :
 modifiedReason:
 twitterCard: true
-tags: "Thoughts Technology Process"
+tags: "thoughts technology process"
 ---
 
 {% include shapes/polygon.html %}

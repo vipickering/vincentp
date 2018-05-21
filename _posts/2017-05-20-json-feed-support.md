@@ -8,7 +8,7 @@ category: Articles
 modified :
 modifiedReason:
 twitterCard: false
-tags: "JavaScript"
+tags: "javascript technology jekyll"
 ---
 
 Let's face it. RSS and ATOM Suck. That's not to say the format isn't useful. But XML is a trudge, it's not fun to work with at all.

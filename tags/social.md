@@ -1,6 +1,6 @@
 ---
 layout : "tags"
-tag: "Social"
+tag: "social"
 permalink: /tags/social
 title : "Social"
 subtitle: "All tagged posts"

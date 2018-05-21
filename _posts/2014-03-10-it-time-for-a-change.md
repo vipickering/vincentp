@@ -8,7 +8,7 @@ category: Articles
 modified :
 modifiedReason:
 twitterCard: false
-tags: "Thoughts Process"
+tags: "thoughts process meetups social"
 ---
 
 Yesterday, a tweet by [@leaverou](https://twitter.com/LeaVerou/status/442809870476386304){:rel="external"} popped up in my stream.

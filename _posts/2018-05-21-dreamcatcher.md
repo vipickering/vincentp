@@ -8,7 +8,7 @@ category: "Articles"
 modified :
 modifiedReason:
 twitterCard: true
-tags: "Thoughts"
+tags: "thoughts process"
 ---
 
 {% include shapes/triangle.html %}

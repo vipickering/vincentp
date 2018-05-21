@@ -1,6 +1,6 @@
 ---
 layout : "tags"
-tag: "JavaScript"
+tag: "javascript"
 permalink: /tags/javascript
 title : "JavaScript"
 subtitle: "All tagged posts"
