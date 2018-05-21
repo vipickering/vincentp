@@ -1,7 +1,7 @@
 ---
 layout: "post"
 title: "Precision"
-date: "2018-05-31 09:30:00 +/-GMT"
+date: "2018-05-24 08:25:00 +/-GMT"
 meta: "All ideas should have an elevator pitch. If you can't boil it down; the idea needs more work"
 summary: "The framing of an idea is critical in achieving a favourable response"
 category: "Articles"

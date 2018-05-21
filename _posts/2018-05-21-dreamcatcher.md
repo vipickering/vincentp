@@ -1,7 +1,7 @@
 ---
 layout: "post"
 title: "Dreamcatcher"
-date: "2018-05-24 09:30:00 +/-GMT"
+date: "2018-05-21 09:30:00 +/-GMT"
 meta: "Thinking about how to share and present ideas"
 summary: "Thinking about how to share and present ideas"
 category: "Articles"
