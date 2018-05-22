@@ -17,6 +17,12 @@ description : Web design including UI, UX, HTML, CSS, JavaScript, Node and Cyber
 url : https://vincentp.me
 available: true
 
+#Get Webmentions using Jekyll-Get
+jekyll_get:
+  - data: likes
+    json: 'https://webmention.io/api/mentions?domain=vincentp.me&token=aSJ1xen947l7hz4e42KlYw'
+    cache: true
+
 # Exclude Files
 exclude:
   - "postcss.config.js"
@@ -27,6 +33,8 @@ exclude:
   - "LICENSE"
   - "ping.sh"
   - "pa11y.sh"
+  - ".cache"
+  - ".gitignore"
 
 include:
   - "_headers"

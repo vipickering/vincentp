@@ -1,0 +1,13 @@
+<!--Need to ONLY output when there are likes -->
+<div class="layoutGrid center">
+    <h2>Likes</h2>
+    <article class="h-cite p-comment reply-relation mb2">
+        <ul class="ma0 pa0">
+            {% for comment in comments %}
+                {% if thisUrl == comment.target and comment.activity.type == "like" %}
+                    <li class="dib list"><a href="{{comment.data.author.url}}" class="p-name u-url"><img src="{{comment.data.author.photo }}" alt="{{comment.data.author.name}}" class="u-photo photo br-circle" width="40" height="40"></a></li>
+                {% endif %}
+            {% endfor%}
+        </ul>
+    </article>
+</div>

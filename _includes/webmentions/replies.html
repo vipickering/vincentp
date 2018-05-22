@@ -1,0 +1,25 @@
+    <h2>Replies</h2>
+  <div class="layoutGrid center">
+    <form name="webmention" method="POST"  action="{{site.url}}/thanks" class="mb2" netlify>
+        <h3 class="f3 red">Have you responded to this?</h3>
+        <label for="webmention-source" class="f2">Let me know the <abbr title="Uniform Resource Locator">URL</abbr></label>:
+        <input type="url" name="source" placeholder="https://example.com" id="webmention-source">
+        <input type="hidden" name="target" value="{{site.url}}{{page.url}}">
+        <input type="submit" value="Ping!">
+    </form>
+
+{% for comment in comments %}
+    {% if thisUrl == comment.target  %}
+    <article class="h-cite p-comment reply-relation mb2">
+        <h3 class="f3 p-author h-card">
+            <img src="{{comment.data.author.photo }}" alt="{{comment.data.author.url}}" class="u-photo photo br-circle" width="30" height="30">
+            <a href="{{comment.data.author.url}}" class="p-name u-url">{{comment.data.author.name }}</a>
+        </h3>
+        <div class="e-content p-summary p-name reply-content">
+            <p class="f3 pa0">{{comment.activity.sentence_html}}</p>
+            <time class="published-datetime f3 grey" datetime="{{ comment.verified_date | date_to_xmlschema }}">posted on {{comment.verified_date | date_to_long_string: "ordinal" }} at {{comment.verified_date | date: "%H" }}:{{ comment.verified_date | date: "%M%P" }}</time>
+        </div>
+    </article>
+    {% endif %}
+ {% endfor%}
+</div>
