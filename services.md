@@ -30,4 +30,4 @@ Previous clients include:
 - [Capita](https://capita.com)
 - [Emis](https://www.emishealth.com/home)
 
-<a href="mailto:{{site.data.author.email}}" class="dib bg-red hover-red white rm-underline pa1 br-fixed-2">Get In Touch</a>
+<a href="mailto:{{site.data.author.email}}" class="dib bg-red hover-red white rm-underline pa7 br-fixed-2">Get In Touch</a>

@@ -11,38 +11,30 @@
     margin-top: 0;
 }
 
-.mt2 {
-    margin-top: var(--f5);
-}
-
-.mt3 {
+.mt1 {
     margin-top: var(--f1);
 }
 
-.mr2 {
-    margin-right: var(--f5);
+.mt5 {
+    margin-top: var(--f5);
 }
 
-.ml2 {
-    margin-left: var(--f6);
+.mr5 {
+    margin-right: var(--f5);
 }
 
 .mb0 {
     margin-bottom: 0;
 }
 
-.mb1 {
-    margin-bottom: var(--f7);
+.mb5 {
+    margin-bottom: var(--f5);
 }
 
-.mb2 {
-    margin-bottom: var(--f5);
+.mb7 {
+    margin-bottom: var(--f7);
 }
 
 .mt-header {
     margin-top: 73px;
-}
-
-.mb5 {
-    margin-bottom: var(--f2);
 }
