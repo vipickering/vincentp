@@ -4,17 +4,20 @@
 
 .underline-no-hover:hover {
     text-decoration: none;
+    transition: 0.2s;
 }
 
 .hover-menu:hover {
     color: var(--red);
     cursor: pointer;
+    transition: 0.2s;
 }
 
 .hover-red:hover {
     color: var(--red);
     background-color: var(--black);
     cursor: pointer;
+    transition: 0.2s;
 }
 
 .hover-white:hover {
@@ -25,6 +28,12 @@
 
 .hover-black:hover {
     color: var(--black);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.hover-button:hover {
+    background-color: var(--black);
     transition: 0.2s;
     cursor: pointer;
 }

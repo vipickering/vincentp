@@ -9,7 +9,7 @@
 {% endfor%}
 
 {% if repliesAvailable == true %}
-    <h2 class="lh-one f5 red mb7 pa0">Replies</h2>
+    <h2 class="lh-one f5 red mb7 pa0">Conversation</h2>
     {% for comment in comments %}
         {% if thisUrl == comment.target  %}
             {% if comment.activity.type == "reply" or comment.activity.type == "link" %}

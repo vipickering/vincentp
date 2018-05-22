@@ -154,3 +154,8 @@ blockquote > p + p {
 .cf {
     clear: both;
 }
+
+[type="submit"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
