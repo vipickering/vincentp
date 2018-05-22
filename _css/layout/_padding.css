@@ -14,6 +14,10 @@
     padding: var(--f1);
 }
 
+.pt2 {
+    padding-top: var(--f5);
+}
+
 .pt4 {
     padding-top: var(--f4);
 }
@@ -38,4 +42,8 @@
 
 .pt-24 {
     padding-top: 24%;
+}
+
+.pr2 {
+    padding-right: var(--f5);
 }

@@ -31,6 +31,10 @@
     margin-bottom: 0;
 }
 
+.mb1 {
+    margin-bottom: var(--f7);
+}
+
 .mb2 {
     margin-bottom: var(--f5);
 }

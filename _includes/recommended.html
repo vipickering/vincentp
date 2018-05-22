@@ -1,5 +1,8 @@
+<div class="layoutGrid center pv2 ">
+    <h3 class="f5 red b-dashed bt b-light-grey ma0 pt2 mb1">Related Articles</h3>
+    <div class="recommendedGrid ">
 
-    {% assign maxRelated = 3 %}
+    {% assign maxRelated = 2 %}
     {% assign minCommonTags =  2 %}
     {% assign maxRelatedCounter = 0 %}
 
@@ -15,10 +18,9 @@
         {% endfor %}
 
         {% if sameTagCount >= minCommonTags %}
-        <article class="black layoutGrid center pv2 tc hover-black">
-            <small class="italic">Recommended Next:</small>
-            <h1 class="ma0 pa0 lh-one"><a href="{{ site.url }}{{ post.url }}" title="Related content you may like" class="hover-black fw7">{{ post.title }}</a></h1>
-            <h2 class="ma0 pa0  f7">{{post.summary}}</h2>
+        <article class="black hover-black">
+            <h1 class="ma0 pa0 fw7 f5"><a href="{{ site.url }}{{ post.url }}" title="Related content you may like" class="rm-underline">{{ post.title }}</a></h1>
+            <p class="ma0 pa0  f7"><a href="{{ site.url }}{{ post.url }}" title="Related content you may like" class="rm-underline">{{post.summary}}</a></p>
             </article>
             {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
 
@@ -27,4 +29,5 @@
             {% endif %}
         {% endif %}
     {% endfor %}
-
+</div>
+</div>
