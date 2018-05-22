@@ -10,7 +10,7 @@
             {% include hcard.html %}
 
             <div class="h-entry mt-header">
-                <header class="layoutGrid center pv5 tc">
+                <div class="layoutGrid center pv5 tc">
                     <p class="ma0 pa0 f7">
                         <time itemprop="dateCreated" class="dt-published red" datetime="{{ page.date | date_to_xmlschema }}">
                             {{ page.date | date_to_string: "ordinal" }} <span>at</span> {{ page.date | date: "%H" }}:{{ page.date | date: "%M%P" }}
@@ -19,11 +19,10 @@
                     <h1 itemprop="headline" class="p-name ma0 pa0 f1 lh-heading">{{ page.title }}</h1>
                     <p class="grey fw3 f6 italic">{{ page.summary }}</p>
                     <p class="grey fw3 f6 ">Published by <a class="p-author u-url black" href="{{site.url}}" rel="author">{{ site.data.author.name }}</a></p>
-                </header>
+                </div>
 
                 <main>
-                    <article itemscope itemtype="http://schema.org/Blog">
-                        <h2 class="dn">{{page.summary}}</h2>
+                    <article itemscope itemtype="http://schema.org/Blog" data-type="blog">
                         <div class="e-content layoutGrid center">
                             {{ content }}
 
@@ -41,15 +40,17 @@
                     </article>
                     {% include recommended.html %}
 
-                     {% assign comments = site.data.webmention.links %}
+                    {% assign comments = site.data.webmention.links %}
                     {% if site.webmentionTestUrl == false %}
                         {% assign thisUrl =  page.url | absolute_url %}
                     {% else %}
                         {% assign thisUrl =  "https://vincentp.me" | append: page.url %}
                     {% endif %}
 
-                    {% include webmentions/likes.html %}
-                    {% include webmentions/replies.html %}
+                    <div class="layoutGrid center pb5">
+                        {% include webmentions/likes.html %}
+                        {% include webmentions/replies.html %}
+                    </div>
                 </main>
             </div>
         </div>

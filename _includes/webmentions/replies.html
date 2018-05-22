@@ -1,25 +1,29 @@
-    <h2>Replies</h2>
-  <div class="layoutGrid center">
-    <form name="webmention" method="POST"  action="{{site.url}}/thanks" class="mb2" netlify>
-        <h3 class="f3 red">Have you responded to this?</h3>
-        <label for="webmention-source" class="f2">Let me know the <abbr title="Uniform Resource Locator">URL</abbr></label>:
-        <input type="url" name="source" placeholder="https://example.com" id="webmention-source">
-        <input type="hidden" name="target" value="{{site.url}}{{page.url}}">
-        <input type="submit" value="Ping!">
-    </form>
+{% assign repliesAvailable = false %}
 
 {% for comment in comments %}
-    {% if thisUrl == comment.target  %}
-    <article class="h-cite p-comment reply-relation mb2">
-        <h3 class="f3 p-author h-card">
-            <img src="{{comment.data.author.photo }}" alt="{{comment.data.author.url}}" class="u-photo photo br-circle" width="30" height="30">
-            <a href="{{comment.data.author.url}}" class="p-name u-url">{{comment.data.author.name }}</a>
-        </h3>
-        <div class="e-content p-summary p-name reply-content">
-            <p class="f3 pa0">{{comment.activity.sentence_html}}</p>
-            <time class="published-datetime f3 grey" datetime="{{ comment.verified_date | date_to_xmlschema }}">posted on {{comment.verified_date | date_to_long_string: "ordinal" }} at {{comment.verified_date | date: "%H" }}:{{ comment.verified_date | date: "%M%P" }}</time>
-        </div>
-    </article>
+    {% if thisUrl == comment.target %}
+        {% unless comment.activity.type == "like" %}
+            {% assign repliesAvailable = true %}
+        {% endunless %}
     {% endif %}
- {% endfor%}
-</div>
+{% endfor%}
+
+{% if repliesAvailable == true %}
+    <h2 class="lh-one f5 red mb7 pa0">Replies</h2>
+    {% for comment in comments %}
+        {% if thisUrl == comment.target  %}
+        {% unless comment.activity.type == "like" %}
+        <article class="h-cite p-comment reply-relation mb5">
+            <h3 class="f6 p-author h-card ma0 pa0">
+                <img src="{{comment.data.author.photo }}" alt="{{comment.data.author.url}}" class="u-photo photo br-circle fl mr7" width="30" height="30">
+                <a href="{{comment.data.author.url}}" class="p-name u-url fl mt--fixed-4" rel="external">{{comment.data.author.name }}</a>
+            </h3>
+            <div class="e-content p-summary p-name reply-content cf mv5">
+                <p class="f6">{{comment.data.content}}</p>
+                <time class="published-datetime f7 grey" datetime="{{ comment.verified_date | date_to_xmlschema }}">posted on {{comment.verified_date | date_to_long_string: "ordinal" }} at {{comment.verified_date | date: "%H" }}:{{ comment.verified_date | date: "%M%P" }}</time>
+            </div>
+        </article>
+        {% endunless %}
+        {% endif %}
+     {% endfor%}
+{% endif %}

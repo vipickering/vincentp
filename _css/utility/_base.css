@@ -150,3 +150,7 @@ blockquote > p + p {
     white-space: nowrap;
     width: 1px;
 }
+
+.cf {
+    clear: both;
+}

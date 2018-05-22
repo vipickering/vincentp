@@ -1,5 +1,8 @@
 # _config_dev.yml - Dev environment configs and overrides
 
+# Site Variables
+webmentionTestUrl: true
+
 # Error Checking & Debugging
 liquid:
     error_mode: warn

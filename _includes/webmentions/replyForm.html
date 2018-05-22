@@ -1,0 +1,7 @@
+    <form name="webmention" method="POST"  action="{{site.url}}/thanks" class="mb2" netlify>
+        <h3 class="f5 red">Have you responded to this?</h3>
+        <label for="webmention-source" class="f4">Let me know the <abbr title="Uniform Resource Locator">URL</abbr></label>:
+        <input type="url" name="source" placeholder="https://example.com" id="webmention-source">
+        <input type="hidden" name="target" value="{{site.url}}{{page.url}}">
+        <input type="submit" value="Ping!">
+    </form>

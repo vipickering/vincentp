@@ -2,22 +2,22 @@
 Control styles output by Markdown
 */
 
-.e-content > p {
+[data-type="blog"] > p {
     margin: 0 0 var(--f7) 0;
 }
 
-.e-content > h2,
-.e-content > h3,
-.e-content > h4,
-.e-content > h5,
-.e-content > h6 {
+[data-type="blog"] > h2,
+[data-type="blog"] > h3,
+[data-type="blog"] > h4,
+[data-type="blog"] > h5,
+[data-type="blog"] > h6 {
     color: var(--red);
     font-size: var(--f5);
     margin: var(--f6) 0 0 0;
 }
 
-.e-content > ul,
-.e-content > ol {
+[data-type="blog"] > ul,
+[data-type="blog"] > ol {
     margin: 0 0 var(--f5) 0;
 }
 
@@ -25,6 +25,8 @@ Control styles output by Markdown
 .footnotes {
     padding-left: var(--f5);
     padding-right: var(--f5);
+    font-size: var(--f7);
+    margin-bottom: var(--f4);
 }
 
 [data-type="notes"] span {
@@ -32,7 +34,7 @@ Control styles output by Markdown
     letter-spacing: 0.1rem;
 }
 
-.e-content .footnotes li {
+[data-type="blog"].footnotes li {
     font-size: var(--f7);
     font-family: var(--font-mono);
     font-weight: 100;
@@ -44,7 +46,7 @@ Control styles output by Markdown
     padding: 0 var(--f5) 0 var(--f5);
 }
 
-.e-content a:hover {
+[data-type="blog"]a:hover {
     text-decoration: none;
 }
 

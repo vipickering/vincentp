@@ -19,8 +19,16 @@
     margin-top: var(--f5);
 }
 
+.mt--fixed-4 {
+    margin-top: 4px;
+}
+
 .mr5 {
     margin-right: var(--f5);
+}
+
+.mr7 {
+    margin-right: var(--f7);
 }
 
 .mb0 {
