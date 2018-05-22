@@ -2,9 +2,9 @@
 
 {% for comment in comments %}
     {% if thisUrl == comment.target %}
-        {% unless comment.activity.type == "like" %}
+        {% if comment.activity.type == "reply" or comment.activity.type == "link" %}
             {% assign repliesAvailable = true %}
-        {% endunless %}
+        {% endif %}
     {% endif %}
 {% endfor%}
 
@@ -12,18 +12,18 @@
     <h2 class="lh-one f5 red mb7 pa0">Replies</h2>
     {% for comment in comments %}
         {% if thisUrl == comment.target  %}
-        {% unless comment.activity.type == "like" %}
-        <article class="h-cite p-comment reply-relation mb5">
-            <h3 class="f6 p-author h-card ma0 pa0">
-                <img src="{{comment.data.author.photo }}" alt="{{comment.data.author.url}}" class="u-photo photo br-circle fl mr7" width="30" height="30">
-                <a href="{{comment.data.author.url}}" class="p-name u-url fl mt--fixed-4" rel="external">{{comment.data.author.name }}</a>
-            </h3>
-            <div class="e-content p-summary p-name reply-content cf mv5">
-                <p class="f6">{{comment.data.content}}</p>
-                <time class="published-datetime f7 grey" datetime="{{ comment.verified_date | date_to_xmlschema }}">posted on {{comment.verified_date | date_to_long_string: "ordinal" }} at {{comment.verified_date | date: "%H" }}:{{ comment.verified_date | date: "%M%P" }}</time>
-            </div>
-        </article>
-        {% endunless %}
+            {% if comment.activity.type == "reply" or comment.activity.type == "link" %}
+                <article class="h-cite p-comment reply-relation mb5">
+                    <h3 class="f6 p-author h-card ma0 pa0">
+                        <img src="{{comment.data.author.photo }}" alt="{{comment.data.author.url}}" class="u-photo photo br-circle fl mr7" width="30" height="30">
+                        <a href="{{comment.data.author.url}}" class="p-name u-url fl mt--fixed-4" rel="external">{{comment.data.author.name }}</a>
+                    </h3>
+                    <div class="e-content p-summary p-name reply-content cf mv5">
+                        <p class="f6">{{comment.data.content}}</p>
+                        <time class="published-datetime f7 grey" datetime="{{ comment.verified_date | date_to_xmlschema }}">posted on {{comment.verified_date | date_to_long_string: "ordinal" }} at {{comment.verified_date | date: "%H" }}:{{ comment.verified_date | date: "%M%P" }}</time>
+                    </div>
+                </article>
+            {% endif %}
         {% endif %}
      {% endfor%}
 {% endif %}
