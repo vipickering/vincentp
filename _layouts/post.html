@@ -41,6 +41,13 @@
                     </article>
                     {% include recommended.html %}
 
+                     {% assign comments = site.data.webmention.links %}
+                    {% if site.webmentionTestUrl == false %}
+                        {% assign thisUrl =  page.url | absolute_url %}
+                    {% else %}
+                        {% assign thisUrl =  "https://vincentp.me" | append: page.url %}
+                    {% endif %}
+
                     {% include webmentions/likes.html %}
                     {% include webmentions/replies.html %}
                 </main>

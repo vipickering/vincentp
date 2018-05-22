@@ -19,7 +19,7 @@ available: true
 
 #Get Webmentions using Jekyll-Get
 jekyll_get:
-  - data: likes
+  - data: webmention
     json: 'https://webmention.io/api/mentions?domain=vincentp.me&token=aSJ1xen947l7hz4e42KlYw'
     cache: true
 
