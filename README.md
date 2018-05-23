@@ -65,9 +65,3 @@ If you want to manually see the live compiled site with HTTPS URLs to error chec
 ```
 jekyll build
 ```
-
-To Ping [Superfeedr](https://superfeedr.com/) and let it know a new blog post has been released:
-
-```
-./ping.sh
-```
