@@ -1,4 +1,5 @@
 ---
+layout : "about"
 title : "Thanks"
 subtitle: "Thanks"
 meta : "Thanks"
