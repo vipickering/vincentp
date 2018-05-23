@@ -55,7 +55,6 @@ npm run build:css
 - [Stylelint](https://github.com/stylelint/stylelint) is configured in the ``.stylelintrc`` file and ``postcss.config.js`` file.
 - Netlify configuration is done via [netlify.toml](https://www.netlify.com/docs/netlify-toml-reference/) file.
 
-
 ## Deploy
 
 The site is served by Netlify. Deployment happens automatically when the master branch is pushed to GitHub.
