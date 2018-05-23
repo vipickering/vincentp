@@ -13,7 +13,8 @@ Control styles output by Markdown
 [data-type="blog"] > h6 {
     color: var(--red);
     font-size: var(--f5);
-    margin: var(--f6) 0 0 0;
+    line-height: 1.25;
+    margin: 0 0 0 0;
 }
 
 [data-type="blog"] > ul,

@@ -1,3 +1,15 @@
-.lh-heading { line-height: var(--lh-heading); }
-.lh-menu { line-height: 1.4; }
-.lh-one { line-height: 1; }
+.lh-heading {
+    line-height: var(--lh-heading);
+}
+
+.lh-menu {
+    line-height: 1.4;
+}
+
+.lh-one {
+    line-height: 1;
+}
+
+.lh-heading {
+    line-height: 1.25;
+}
