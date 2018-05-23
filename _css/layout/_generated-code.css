@@ -7,12 +7,17 @@ Control styles output by Markdown
 }
 
 [data-type="blog"] > h2,
-[data-type="blog"] > h3,
 [data-type="blog"] > h4,
 [data-type="blog"] > h5,
 [data-type="blog"] > h6 {
     color: var(--red);
     font-size: var(--f5);
+    margin: var(--f6) 0 0 0;
+}
+
+[data-type="blog"] > h3 {
+    font-size: var(--f6);
+    color: var(--black);
     margin: var(--f6) 0 0 0;
 }
 
