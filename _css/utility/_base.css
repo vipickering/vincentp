@@ -12,7 +12,7 @@ Vincent P - Bespoke
 :root {
     font-family: var(--font-body);
     background-color: var(--white);
-    color: var(--black);
+    color: var(--light-black);
     font-size: 16px;
     font-weight: 400;
     text-rendering: geometricPrecision;
@@ -65,6 +65,7 @@ h4,
 h5,
 h6 {
     font-family: -apple-system-headline, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: var(--black);
 }
 
 p {
