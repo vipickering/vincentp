@@ -25,8 +25,14 @@
 <link rel="webmention" href="https://webmention.io/vincentp.me/webmention" />
 
 <!-- Indie.Auth -->
+<!-- The authorization endpoint tells this app where to direct your browser to sign you in-->
 <link rel="authorization_endpoint" href="https://indieauth.com/auth" />
+
+<!-- The token endpoint is where this app will make a request to get an access token after obtaining authorization -->
 <link rel="token_endpoint" href="https://tokens.indieauth.com/token" />
+
+<!-- The Micropub endpoint is the URL this app will use to post new photos. -->
+<link rel="micropub" href="https://webmention.io/vincentp.me/webmention">
 
 <!-- Feeds -->
 <link rel="alternate feed" type="application/rss+xml" title="Subscribe to everything" href="{{site.url}}/feeds/everything.xml" />
