@@ -8,5 +8,4 @@ twitterCard: false
 tags:
 ---
 
-
 <p>Thanks!</p>

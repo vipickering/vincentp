@@ -64,3 +64,17 @@ If you want to manually see the live compiled site with HTTPS URLs to error chec
 ```
 jekyll build
 ```
+
+## Syndication
+
+Content is syndicated to Medium and pushed to a draft via Zapier and a [custom Javascript](https://gist.github.com/reganstarr/153968d6444b9281a9bc291277984be1).
+
+Content is syndicated to Twitter and LinkedIn via RSS updates triggering a Zapier script then pushed to Buffer to prevent spamming.
+
+RSS is syndicated to Feedburner, since everything else never works properly. Feel free to help me out with this if you know this stuff :-)
+
+## Webmentions
+
+Replies, reposts and likes are generated via [Jekyll-Get plugin](https://github.com/18F/jekyll-get), [Brid.gy](https://brid.gy/) and [Webmention.io](https://webmention.io/).
+
+This content is stored in Webmention.io and generated at build, it is not currently cached (working on it).
