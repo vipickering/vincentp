@@ -9,6 +9,7 @@ modified :
 modifiedReason:
 twitterCard: false
 tags: "process technology typography tools"
+permalink : /blog/:title
 ---
 
 I have lost count the number of times I have seen over a [designers shoulder](http://hoveringartdirectors.tumblr.com){:rel="external"} and noticed them struggling with formatting lists in Photoshop.

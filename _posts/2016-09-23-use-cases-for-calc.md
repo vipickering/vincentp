@@ -9,6 +9,7 @@ modified :
 modifiedReason:
 twitterCard: false
 tags: "html thoughts css"
+permalink : /blog/:title
 ---
 
 ## Vertical centre

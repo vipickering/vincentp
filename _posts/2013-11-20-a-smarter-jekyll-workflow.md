@@ -9,6 +9,7 @@ modified :
 modifiedReason:
 twitterCard: false
 tags: "jekyll"
+permalink : /blog/:title
 ---
 
 I selected [Jekyll](http://jekyllrb.com){:rel="external"} as the platform for my blog after trying out many other options. It’s a great blogging platform, and its balancing between code flexibility and simple blogging software really hits my sweet spot.

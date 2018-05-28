@@ -9,6 +9,7 @@ modified :
 modifiedReason:
 twitterCard: false
 tags: "typography css jekyll html"
+permalink : /blog/:title
 ---
 
 Today I got some spare time to spend fixing the small issues I have had with the typography on the site.

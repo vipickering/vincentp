@@ -9,6 +9,7 @@ modified :
 modifiedReason:
 twitterCard: true
 tags: "thoughts process"
+permalink : /blog/dreamcatcher
 ---
 
 {% include shapes/triangle.html %}

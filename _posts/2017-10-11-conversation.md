@@ -9,6 +9,7 @@ modified :
 modifiedReason:
 twitterCard: true
 tags: "thoughts technology process cybernetics"
+permalink : /blog/:title
 ---
 
 {% include shapes/polygon.html %}

@@ -9,6 +9,7 @@ modified :
 modifiedReason:
 twitterCard: false
 tags: "technology html css"
+permalink : /blog/:title
 ---
 
 I find the [GOV.UK](https://gov.uk){:rel="external"} site an endless resource of great knowledge on a cross-section of ‘real’ users in the United Kingdom, so while browsing the GOV.UK [performance stats](https://www.gov.uk/performance/site-activity/device-type#from=2013-04-01T00:00:00Z&to=2017-01-01T00:00:00Z){:rel="external"} today I spotted this:

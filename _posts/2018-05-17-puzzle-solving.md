@@ -9,6 +9,7 @@ modified :
 modifiedReason:
 twitterCard: true
 tags: "process thoughts ux"
+permalink : /blog/:title
 ---
 
 {% include shapes/square-circle.html %}

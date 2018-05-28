@@ -9,6 +9,7 @@ modified : 2017-03-20 16:17:00
 modifiedReason: to correct style, readability and punctuation
 twitterCard: false
 tags: "ui ux thoughts"
+permalink : /blog/:title
 ---
 <p><span class="dt-updated">
     <strong>Updated <abbr class="value" title="2017-03-20 16:17:00">2017-03-20 at 16:17:00</abbr></strong> : to correct style

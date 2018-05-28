@@ -9,6 +9,7 @@ modified :
 modifiedReason:
 twitterCard: false
 tags: "typography css html"
+permalink : /blog/:title
 ---
 
 Make type scale in proportion to the viewport size

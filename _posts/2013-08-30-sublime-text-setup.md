@@ -9,6 +9,7 @@ modified :
 modifiedReason:
 twitterCard: false
 tags: "process technology tools html"
+permalink : /blog/:title
 ---
 
 My personal set-up for [Sublime Text 2](https://www.sublimetext.com "Sublime Text 2"){:rel="external"}.

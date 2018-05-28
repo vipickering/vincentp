@@ -9,6 +9,7 @@ modified :
 modifiedReason:
 twitterCard: false
 tags: "thoughts technology meetups social speaking"
+permalink : /blog/:title
 ---
 
 Recently I read the article [Reinventing The Tech Conference Experience](http://coding.smashingmagazine.com/2013/11/20/reinventing-the-tech-conference-experience/){:rel="external"} on Smashing Magazine, and it felt like a classic case of mis-diagnosing a problem.

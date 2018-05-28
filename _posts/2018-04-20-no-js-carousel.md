@@ -9,6 +9,7 @@ modified :
 modifiedReason:
 twitterCard: false
 tags: "css html"
+permalink : /blog/:title
 ---
 
 More "No JS Widgets", I also put together a carousel without JavaScript.

@@ -9,6 +9,7 @@ modified :
 modifiedReason:
 twitterCard: true
 tags: "process productivity thoughts"
+permalink : /blog/:title
 ---
 
 {% include shapes/dot.html %}
