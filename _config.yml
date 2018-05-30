@@ -9,7 +9,6 @@ highlighter: rouge
 # Outputting
 permalink : pretty
 timezone: Europe/London
-# paginate: 20
 
 # Site Variables
 title : Thoughts On Frontend Development
