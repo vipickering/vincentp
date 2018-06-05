@@ -121,6 +121,12 @@ figcaption {
     font-weight: 100;
 }
 
+sup {
+    margin: 0 0 0 4px;
+    font-size: var(--f7);
+    color: var(--red);
+}
+
 blockquote > p + p {
     margin-top: var(--f5);
 }
