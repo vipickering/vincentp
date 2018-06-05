@@ -20,7 +20,9 @@ tags: "process thoughts ux"
     </footer>
 </blockquote>
 
-To solve problems through design, shed the notion that failure is negative and understand that there is no perfect solution. Design is a constant process to revise, rethink, hone or create the most viable solution we can comprehend; given the knowledge, tools and resources available at that moment in time.
+To solve problems through design, shed the notion that failure is negative and understand that there is no perfect solution.
+
+Design is a constant process to revise, rethink, hone or create the most viable solution we can comprehend; given the knowledge, tools and resources available at that moment in time.
 
 Failure is a process not a condition, when we fail in achieving a task we rule out one more answer in a vast array of possibility, narrowing our view to a workable solution. In this light, failure gives valuable insight or knowledge in to how a task is constructed.
 
@@ -37,7 +39,7 @@ To excel in your work, learn to embrace the cyclical pattern of ‘try and fail�
 
 Two projects, with the same objectives and even in the same field, could have entirely different circumstances acting upon them that require a different approach or thought process. Use knowledge you have accumulated over time to inform a place in space that anchors your work, gives direction, and moves forward. Be mindful throughout to re-evaluate and test as you go.
 
-Set time aside with your team to reflect on past efforts. While it is important to identify problem areas or processes, that may have lead to mis-adventures in a previous effort, don’t forget to think bigger, to illustrate:
+Set time aside with your team to reflect on past efforts. While it is important to identify problem areas or processes, that may have lead to misadventures in a previous effort, don't forget to think bigger, to illustrate:
 
 - Was the projects trajectory correct?
 - Did it utilise the right technologies?
