@@ -19,34 +19,32 @@ tags:
 
              <div class="h-entry mt-header">
                 <header class="layoutGrid center mb5">
-                    <div class="relative">
-                        <div class="absolute pt-24 ph6 w-60 h-100 foreground bg-red-50">
-                            <div class="bt b-white bw2">
-                                <h1 class="white ma0 pa0">Hello.</h1>
-                                <p class="f3-ns f6 white ma0 pa0">I'm {{site.data.author.name}} a {{site.data.author.job}} With over 18 years experience.</p>
-                                <p class="f3-ns f6 white ma0 pa0">I work across a large breadth of industries and technologies.<br><strong><a href="mailto:{{site.data.author.email}}"  itemprop="url"  rel="me" title="Get in contact" class="hover-black">We should work together</a></strong></p>
+                       <div class="two-col-grid mb5">
+                            <img src="{{site.data.author.profilePic}}" width="90" class="db br-circle" alt="A picture of the site author Vincent Pickering">
+                            <div class="mw-strap-length">
+                                <h1 class="ma0 pa0">Hello.</h1>
+                                <p class="f5-ns f6 ma0 pa0">I'm {{site.data.author.name}} a {{site.data.author.job}} With over 18 years experience.</p>
+                                <p class="f5-ns f6 ma0 pa0">I work across a large breadth of industries and technologies.<br><strong><a href="mailto:{{site.data.author.email}}"  itemprop="url"  rel="me" title="Get in contact" class="hover-black">We should work together</a></strong></p>
                             </div>
                         </div>
-                        <img src="{{site.data.author.profilePic}}" srcset="{{site.data.author.profilePic}} 320w, {{site.data.author.profilePicRetina2}} 640w, {{site.data.author.profilePicRetina3}} 1000w" sizes="(max-width: 320px) 288px,  (min-width: 640px) 576px" class="db greyscale w-100 mt1 pb1" alt="A picture of the site author Vincent Pickering">
                     </div>
                 </header>
 
                 <main>
                     <div class="e-content layoutGrid center">
-                        <h2 class="ma0 pa0 lh-heading f5 red">Lifestream</h2>
+                        <h2 class="ma0 mb5 pa0 lh-heading f4 red">Lifestream</h2>
                         {% for post in site.posts limit:20 %}
                             <article itemscope itemtype="http://schema.org/Blog" class="h-entry lifestreamGrid">
-                                <div class="borderBefore relative {% if forloop.first == true %}pt4{%endif%} {% if forloop.last == true %}mb5{%endif%}">
-                                    <div class="circle db relative br-circle  foreground w-20-fixed h-20-fixed center  {% if forloop.first == true %}bg-red mt0 {% else %} bg-black {% endif%}"></div>
+                                <div class="borderBefore relative {% if forloop.last == true %}mb5{%endif%}">
+                                    <div class="circle center db relative br-circle  foreground w-20-fixed h-20-fixed center  {% if forloop.first == true %}bg-red mt0 {% else %} bg-black {% endif%}"></div>
                                 </div>
-                                <a href="{{site.url}}{{ post.url }}" class="rm-underline pb5" title="{{ post.title }}">
-                                    <time itemprop="dateCreated" class="dt-published f7 light-grey" datetime="{{ post.date | date_to_xmlschema }}">
+                                <div class="pb5">
+                                    <h3 itemprop="headline" class="p-name ma0 pa0 lh-one"><a href="{{site.url}}{{ post.url }}" class="rm-underline" title="{{ post.title }}">{{ post.title }}</a></h3>
+                                    <time itemprop="dateCreated" class="dt-published f7 light-grey lh-one" datetime="{{ post.date | date_to_xmlschema }}">
                                         {{ post.date | date_to_string: "ordinal" }} <span>at</span> {{ post.date | date: "%H" }}:{{ post.date | date: "%M%P" }}
                                     </time>
-
-                                    <h3 itemprop="headline" class="p-name dn">{{ post.title }}</h3>
-                                    <p class="p-summary">{{ post.summary }}</p>
-                                </a>
+                                    <p class="p-summary f6"><a href="{{site.url}}{{ post.url }}" class="rm-underline" title="{{ post.title }}">{{ post.summary }}</a></p>
+                                </div>
                             </article>
                         {% endfor %}
                     </div>

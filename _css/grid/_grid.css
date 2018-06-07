@@ -33,6 +33,11 @@
         grid-template-columns: 3em minmax(1em, 1fr);
     }
 
+    .two-col-grid {
+        display: grid;
+        grid-template-columns: 110px 1fr;
+    }
+
     .recommendedGrid {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));

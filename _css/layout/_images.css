@@ -9,7 +9,3 @@ figure {
     overflow: hidden;
     text-align: center;
 }
-
-.greyscale {
-    filter: grayscale(1);
-}

@@ -24,6 +24,10 @@ Vincent P - Bespoke
     color: var(--white);
 }
 
+::selection > {
+    color: inherit;
+}
+
 html {
     box-sizing: border-box;
     text-size-adjust: 100%;
@@ -73,7 +77,9 @@ p {
     padding: 0;
 }
 
-a {
+a,
+a > h3,
+a > time {
     font-family: inherit;
     color: currentColor;
     text-decoration-skip-ink: auto;
@@ -132,7 +138,6 @@ blockquote > p + p {
 }
 
 .circle {
-    margin: 14px auto 0 auto;
     border: 3px solid var(--white);
 }
 
