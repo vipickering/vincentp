@@ -1,8 +1,3 @@
-[[redirects]]
-    from = "/categories/tips/"
-    to = "/"
-    status = 301
-
 [[headers]]
     for = "/*"
     [headers.values]
