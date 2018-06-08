@@ -23,7 +23,6 @@ jekyll_get:
     json: 'https://webmention.io/api/mentions?domain=vincentp.me&token=aSJ1xen947l7hz4e42KlYw'
     cache: false
 
-
 # Exclude Files
 exclude:
   - "postcss.config.js"
@@ -32,11 +31,6 @@ exclude:
   - "package.json"
   - "node_modules"
   - "LICENSE"
-  - "ping.sh"
-  - "pa11y.sh"
   - ".cache"
+  - ".github"
   - ".gitignore"
-
-include:
-  - "_headers"
-  - "_redirects"
