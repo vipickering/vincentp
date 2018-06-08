@@ -49,7 +49,7 @@
 @import "layout/_generated-code.css";
 
 /* Dynamic Type, overwrite other values if on iOS */
-@import "typography/_dynamic-type.css";
+/*@import "typography/_dynamic-type.css";*/
 
 /* Print */
 @import "_print.css";
