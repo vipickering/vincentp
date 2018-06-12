@@ -14,10 +14,13 @@
 
             <main>
                 <div class="e-content layoutGrid center">
-                    {% if page.type == 'Cybernetics' %}
-                        {% assign pageType = site.categories.Cybernetics %}
-                    {% elsif page.type == 'Lifestream' %}
-                        {% assign pageType = site.categories.Lifestream %}
+                    {% comment %}
+                     if page.type == 'Checkins'
+                        assign pageType = site.categories.Checkins
+                        elseif page.type == 'Notes'
+                    {% endcomment %}
+                    {% if page.type == 'Notes' %}
+                        {% assign pageType = site.categories.Notes %}
                     {% else %}
                         {% assign pageType = site.categories.Articles %}
                     {% endif %}

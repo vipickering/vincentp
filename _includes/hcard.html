@@ -8,14 +8,12 @@
 
     <address class="dn center pa0 bg-black tc top-50 left-0 right-0 bottom-0 fixed w-100v overflow-y-scroll front top-fixed-50" data-menu="contents">
         <ul class="ma0 pa0 mt5">
-            {% if  site.categories.Lifestream %}
-                <li class="list mb5" data-menu="item"><a href="{{site.url}}/" class="rm-underline white f1 fw7 afterTitle lh-menu" title="Day to day notes and happenings">Lifestream</a></li>
-            {% endif %}
+            <li class="list mb5" data-menu="item"><a href="{{site.url}}" class="rm-underline white f1 fw7 afterTitle lh-menu" title="A stream of my daily life">Lifestream</a></li>
             {% if  site.categories.Articles %}
                 <li class="list mb5" data-menu="item"><a href="{{site.url}}/categories/articles" rel="me" class="rm-underline white  f1 fw7 afterTitle lh-menu" title="Longer articles on topics">Writing</a></li>
              {% endif %}
-            {% if  site.categories.Cybernetics %}
-                <li class="list mb5" data-menu="item"><a href="{{site.url}}/categories/cybernetics" class="rm-underline white  f1 fw7 afterTitle lh-menu"  title="My musings on applying Cybernetics to the modern web" >Cybernetics</a></li>
+            {% if  site.categories.Notes %}
+                <li class="list mb5" data-menu="item"><a href="{{site.url}}/categories/notes" class="rm-underline white f1 fw7 afterTitle lh-menu" title="Day to day notes and happenings">Notes</a></li>
             {% endif %}
         </ul>
 

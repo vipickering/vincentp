@@ -16,7 +16,7 @@
       "activity": {
         "type": "link",
         "sentence": "https://medium.com/@vincentlistens/silent-assumptions-e52db91d9837?source=rss-13b67d1162f3------2 posted '' linking to https://vincentp.me/articles/2018/05/28/silent-assumption/",
-        "sentence_html": "&lt;a href=\"https://medium.com/@vincentlistens/silent-assumptions-e52db91d9837?source=rss-13b67d1162f3------2\"&gt;someone&lt;/a&gt; posted '' linking to &lt;a href=\"https://vincentp.me/articles/2018/05/28/silent-assumption/\"&gt;https://vincentp.me/articles/2018/05/28/silent-assumption/&lt;/a&gt;"
+        "sentence_html": "<a href=\"https://medium.com/@vincentlistens/silent-assumptions-e52db91d9837?source=rss-13b67d1162f3------2\">someone</a> posted '' linking to <a href=\"https://vincentp.me/articles/2018/05/28/silent-assumption/\">https://vincentp.me/articles/2018/05/28/silent-assumption/</a>"
       },
       "target": "https://vincentp.me/articles/2018/05/28/silent-assumption/"
     },
@@ -41,7 +41,7 @@
       "activity": {
         "type": "reply",
         "sentence": "Ethan Marcotte replied 'Oh, good catch—I’d missed that. Now I’m curious, too. (Maybe it’s old Google Voi...' to a tweet https://vincentp.me/blog/google-duplex",
-        "sentence_html": "&lt;a href=\"http://ethanmarcotte.com/\"&gt;Ethan Marcotte&lt;/a&gt; replied 'Oh, good catch—I’d missed that. Now I’m curious, too. (Maybe it’s old Google Voi...' to a tweet &lt;a href=\"https://vincentp.me/blog/google-duplex\"&gt;https://vincentp.me/blog/google-duplex&lt;/a&gt;"
+        "sentence_html": "<a href=\"http://ethanmarcotte.com/\">Ethan Marcotte</a> replied 'Oh, good catch—I’d missed that. Now I’m curious, too. (Maybe it’s old Google Voi...' to a tweet <a href=\"https://vincentp.me/blog/google-duplex\">https://vincentp.me/blog/google-duplex</a>"
       },
       "target": "https://vincentp.me/blog/google-duplex"
     },
@@ -66,7 +66,7 @@
       "activity": {
         "type": "reply",
         "sentence": "Vincent Pickering replied 'hmm me neither ?!' to a tweet https://vincentp.me/blog/google-duplex",
-        "sentence_html": "&lt;a href=\"https://vincentp.me\"&gt;Vincent Pickering&lt;/a&gt; replied 'hmm me neither ?!' to a tweet &lt;a href=\"https://vincentp.me/blog/google-duplex\"&gt;https://vincentp.me/blog/google-duplex&lt;/a&gt;"
+        "sentence_html": "<a href=\"https://vincentp.me\">Vincent Pickering</a> replied 'hmm me neither ?!' to a tweet <a href=\"https://vincentp.me/blog/google-duplex\">https://vincentp.me/blog/google-duplex</a>"
       },
       "target": "https://vincentp.me/blog/google-duplex"
     },
@@ -84,14 +84,14 @@
         },
         "url": "https://twitter.com/nat0n/status/994458097618997249",
         "name": null,
-        "content": "What..?! Answers, please. We want them. &lt;a href=\"https://twitter.com/search?q=%23ai\"&gt;#ai&lt;/a&gt; &lt;a href=\"https://twitter.com/search?q=%23bigdata\"&gt;#bigdata&lt;/a&gt;\n&lt;a class=\"u-mention\" href=\"https://vincentp.me/blog/google-duplex\"&gt;&lt;/a&gt;",
+        "content": "What..?! Answers, please. We want them. <a href=\"https://twitter.com/search?q=%23ai\">#ai</a> <a href=\"https://twitter.com/search?q=%23bigdata\">#bigdata</a>\n<a class=\"u-mention\" href=\"https://vincentp.me/blog/google-duplex\"></a>",
         "published": "2018-05-10T06:04:21+00:00",
         "published_ts": 1525932261
       },
       "activity": {
         "type": "link",
         "sentence": "Anton Andreasson posted 'What..?! Answers, please. We want them. #ai #bigdata' linking to https://vincentp.me/blog/google-duplex",
-        "sentence_html": "&lt;a href=\"http://andreasson.org/\"&gt;Anton Andreasson&lt;/a&gt; posted 'What..?! Answers, please. We want them. #ai #bigdata' linking to &lt;a href=\"https://vincentp.me/blog/google-duplex\"&gt;https://vincentp.me/blog/google-duplex&lt;/a&gt;"
+        "sentence_html": "<a href=\"http://andreasson.org/\">Anton Andreasson</a> posted 'What..?! Answers, please. We want them. #ai #bigdata' linking to <a href=\"https://vincentp.me/blog/google-duplex\">https://vincentp.me/blog/google-duplex</a>"
       },
       "target": "https://vincentp.me/blog/google-duplex"
     },
@@ -116,7 +116,7 @@
       "activity": {
         "type": "reply",
         "sentence": "Faisal Qureshi replied 'Good point. Not sure why twiiter flagged your tweet as possibly offense' to a tweet https://vincentp.me/blog/google-duplex",
-        "sentence_html": "&lt;a href=\"http://fqure.github.io\"&gt;Faisal Qureshi&lt;/a&gt; replied 'Good point. Not sure why twiiter flagged your tweet as possibly offense' to a tweet &lt;a href=\"https://vincentp.me/blog/google-duplex\"&gt;https://vincentp.me/blog/google-duplex&lt;/a&gt;"
+        "sentence_html": "<a href=\"http://fqure.github.io\">Faisal Qureshi</a> replied 'Good point. Not sure why twiiter flagged your tweet as possibly offense' to a tweet <a href=\"https://vincentp.me/blog/google-duplex\">https://vincentp.me/blog/google-duplex</a>"
       },
       "target": "https://vincentp.me/blog/google-duplex"
     },
@@ -141,7 +141,7 @@
       "activity": {
         "type": "like",
         "sentence": "Ethan Marcotte favorited a tweet https://vincentp.me/blog/google-duplex",
-        "sentence_html": "&lt;a href=\"https://twitter.com/beep\"&gt;Ethan Marcotte&lt;/a&gt; favorited a tweet &lt;a href=\"https://vincentp.me/blog/google-duplex\"&gt;https://vincentp.me/blog/google-duplex&lt;/a&gt;"
+        "sentence_html": "<a href=\"https://twitter.com/beep\">Ethan Marcotte</a> favorited a tweet <a href=\"https://vincentp.me/blog/google-duplex\">https://vincentp.me/blog/google-duplex</a>"
       },
       "target": "https://vincentp.me/blog/google-duplex"
     },
@@ -166,7 +166,7 @@
       "activity": {
         "type": "like",
         "sentence": "jalbertbowdenii favorited a tweet https://vincentp.me/blog/google-duplex",
-        "sentence_html": "&lt;a href=\"https://twitter.com/jalbertbowdenii\"&gt;jalbertbowdenii&lt;/a&gt; favorited a tweet &lt;a href=\"https://vincentp.me/blog/google-duplex\"&gt;https://vincentp.me/blog/google-duplex&lt;/a&gt;"
+        "sentence_html": "<a href=\"https://twitter.com/jalbertbowdenii\">jalbertbowdenii</a> favorited a tweet <a href=\"https://vincentp.me/blog/google-duplex\">https://vincentp.me/blog/google-duplex</a>"
       },
       "target": "https://vincentp.me/blog/google-duplex"
     },
@@ -191,7 +191,7 @@
       "activity": {
         "type": "reply",
         "sentence": "Aaron Parecki commented 'All it does is allow read access to your mentions, so if you don't mind that bei...' on a post that linked to https://vincentp.me",
-        "sentence_html": "&lt;a href=\"https://aaronparecki.com/\"&gt;Aaron Parecki&lt;/a&gt; commented 'All it does is allow read access to your mentions, so if you don't mind that bei...' on a post that linked to &lt;a href=\"https://vincentp.me\"&gt;https://vincentp.me&lt;/a&gt;"
+        "sentence_html": "<a href=\"https://aaronparecki.com/\">Aaron Parecki</a> commented 'All it does is allow read access to your mentions, so if you don't mind that bei...' on a post that linked to <a href=\"https://vincentp.me\">https://vincentp.me</a>"
       },
       "target": "https://vincentp.me"
     },
@@ -216,7 +216,7 @@
       "activity": {
         "type": "like",
         "sentence": "Dave Raven favorited a tweet https://vincentp.me/blog/no-js-carousel",
-        "sentence_html": "&lt;a href=\"https://twitter.com/DaveRaven72\"&gt;Dave Raven&lt;/a&gt; favorited a tweet &lt;a href=\"https://vincentp.me/blog/no-js-carousel\"&gt;https://vincentp.me/blog/no-js-carousel&lt;/a&gt;"
+        "sentence_html": "<a href=\"https://twitter.com/DaveRaven72\">Dave Raven</a> favorited a tweet <a href=\"https://vincentp.me/blog/no-js-carousel\">https://vincentp.me/blog/no-js-carousel</a>"
       },
       "target": "https://vincentp.me/blog/no-js-carousel"
     },
@@ -241,7 +241,7 @@
       "activity": {
         "type": "like",
         "sentence": "FEVR favorited a tweet https://vincentp.me/blog/no-js-tabs",
-        "sentence_html": "&lt;a href=\"https://twitter.com/__fevr\"&gt;FEVR&lt;/a&gt; favorited a tweet &lt;a href=\"https://vincentp.me/blog/no-js-tabs\"&gt;https://vincentp.me/blog/no-js-tabs&lt;/a&gt;"
+        "sentence_html": "<a href=\"https://twitter.com/__fevr\">FEVR</a> favorited a tweet <a href=\"https://vincentp.me/blog/no-js-tabs\">https://vincentp.me/blog/no-js-tabs</a>"
       },
       "target": "https://vincentp.me/blog/no-js-tabs"
     },
@@ -266,7 +266,7 @@
       "activity": {
         "type": "like",
         "sentence": "Michele @ 🇩🇪 favorited a tweet https://vincentp.me/blog/no-js-carousel",
-        "sentence_html": "&lt;a href=\"https://twitter.com/vacooom\"&gt;Michele @ 🇩🇪&lt;/a&gt; favorited a tweet &lt;a href=\"https://vincentp.me/blog/no-js-carousel\"&gt;https://vincentp.me/blog/no-js-carousel&lt;/a&gt;"
+        "sentence_html": "<a href=\"https://twitter.com/vacooom\">Michele @ 🇩🇪</a> favorited a tweet <a href=\"https://vincentp.me/blog/no-js-carousel\">https://vincentp.me/blog/no-js-carousel</a>"
       },
       "target": "https://vincentp.me/blog/no-js-carousel"
     },
@@ -291,7 +291,7 @@
       "activity": {
         "type": "like",
         "sentence": "Priyanka Sharma - not at kubecon 🙁 favorited a tweet https://vincentp.me/blog/no-js-carousel",
-        "sentence_html": "&lt;a href=\"https://twitter.com/pritianka\"&gt;Priyanka Sharma - not at kubecon 🙁&lt;/a&gt; favorited a tweet &lt;a href=\"https://vincentp.me/blog/no-js-carousel\"&gt;https://vincentp.me/blog/no-js-carousel&lt;/a&gt;"
+        "sentence_html": "<a href=\"https://twitter.com/pritianka\">Priyanka Sharma - not at kubecon 🙁</a> favorited a tweet <a href=\"https://vincentp.me/blog/no-js-carousel\">https://vincentp.me/blog/no-js-carousel</a>"
       },
       "target": "https://vincentp.me/blog/no-js-carousel"
     },
@@ -316,7 +316,7 @@
       "activity": {
         "type": "like",
         "sentence": "Rick 'Tricky' Harrison favorited a tweet https://vincentp.me/blog/no-js-carousel",
-        "sentence_html": "&lt;a href=\"https://twitter.com/sovietuk\"&gt;Rick 'Tricky' Harrison&lt;/a&gt; favorited a tweet &lt;a href=\"https://vincentp.me/blog/no-js-carousel\"&gt;https://vincentp.me/blog/no-js-carousel&lt;/a&gt;"
+        "sentence_html": "<a href=\"https://twitter.com/sovietuk\">Rick 'Tricky' Harrison</a> favorited a tweet <a href=\"https://vincentp.me/blog/no-js-carousel\">https://vincentp.me/blog/no-js-carousel</a>"
       },
       "target": "https://vincentp.me/blog/no-js-carousel"
     }
