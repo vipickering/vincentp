@@ -4,7 +4,7 @@ title: "Site Updates"
 date: "2018-05-01 14:20:00 +/-GMT"
 meta: "Recent tweaks to the website"
 summary: "Recent tweaks to the website"
-category: "Lifestream"
+category: "Notes"
 modified :
 modifiedReason:
 twitterCard: false
