@@ -8,7 +8,7 @@ category: "Articles"
 modified :
 modifiedReason:
 twitterCard: true
-tags: "process thoughts ux ui"
+tags: "process thoughts ux ui problem-solving"
 ---
 
 {% include shapes/complexity.html %}
@@ -17,7 +17,7 @@ The perfect house guest, stays for exactly the right amount of time and only ask
 
 While visiting a sandwich store I witnessed the following incident:
 
-The shop assistant spoke Smiling and welcoming
+The shop assistant spoke smiling and welcoming
 
 > ‘What bread would you like sir?’
 
