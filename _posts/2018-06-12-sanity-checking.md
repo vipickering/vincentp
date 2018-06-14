@@ -8,7 +8,7 @@ category: "Articles"
 modified :
 modifiedReason:
 twitterCard: true
-tags: "process thoughts ux ui thoughts problem-solving"
+tags: "process thoughts ux ui problem-solving"
 ---
 
 {% include shapes/sanity.html %}
