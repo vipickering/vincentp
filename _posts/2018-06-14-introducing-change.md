@@ -35,7 +35,6 @@ It is not advisable to redesign an entire system or website in one release. Iter
 For high volume websites and systems, create a planned roll-out of new improvements to the system, stage smaller releases in between farther reaching changes. Where large change is going to occur, produce blog posts and news articles prior to the event informing users that the change is coming. Users may get upset at this point, be prepared to field questions as to why the change is occurring. Reasons for change help the rational part of the brain latch on to something, increasing familiarity. Be sympathetic, users needs should not be undone for aesthetic reasons or at the expense of removing functionality.
 
 When considering change, pave the cow paths. Users shouldn't have to learn 2 ways to do the same thing and they are more likely to embrace a change if it is already a mechanism they are familiar with.
-In the chapter on dialogue you will learn about the Cybernetic Model. Refer to this model when introducing change and tweak as necessary. Test all the states introduced by the change to the model to ensure this is a change beneficial to the end user.
 
 Once a change has been implemented, it should be tested against the existing solution and the data measured (with agreed business criteria) to ensure it is performing as intended.
 
