@@ -53,7 +53,12 @@
                     {% else %}
                         {% assign thisUrl =  "https://vincentp.me" | append: page.url %}
                     {% endif %}
-                        {% include webmentions/replies.html %}
+
+                    {{thisUrl}}
+                     <div class="layoutGrid center pb5">
+                       {% include webmentions/swarmReplies.html %}
+                    </div>
+
                         <p>Imported using <a href="ownyourswarm.p3k.io" rel="external">ownyourswarm.p3k.io</a></p>
                 </article>
             </main>
