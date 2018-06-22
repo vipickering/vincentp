@@ -26,40 +26,39 @@
                     </div>
 
                     <div class="e-content p-nam">
-                       {{ content }}
-                    </div>
-                    {% if page.photo %}
-                    <div>
-                       <img src="{{page.photo}}" />
-                    </div>
-                    {% endif %}
+                        {% if page.photo  != ''%}
+                            <figure>
+                                <figcaption>{{ content }}</figcaption>
+                                <img src="{{page.photo}} " width="612" alt="{{page.name}}"/>
+                            </figure>
+                        {% else %}
+                            {{ content }}
+                        {% endif %}
 
-                    <div class="p-location h-adr">
-                        <span class="p-locality">{{page.locality}}</span>,
-                        <span class="p-region">{{page.region}}</span>,
-                        <span class="p-country">{{page.country}}</span>
-                         <data class="p-latitude" value="{{page.latitude}}"></data>
-                        <data class="p-longitude" value="{{page.longitude}}"></data>
-                    </div>
+                        <div class="p-location h-adr">
+                            {% if page.locality != '' %}<span class="p-locality">{{page.locality}}</span>,{% endif %}
+                            {% if page.region  != '' %}<span class="p-region">{{page.region}}</span>,{% endif %}
+                            {% if page.country  != '' %}<span class="p-country">{{page.country}}</span>{% endif %}
+                            {% if page.photo  != '' %}<data class="p-latitude" value="{{page.latitude}}"></data>{% endif %}
+                            {% if page.photo  != '' %}<data class="p-longitude" value="{{page.longitude}}"></data>{% endif %}
+                            {{comment.data.swarm_coins}}
+                        </div>
 
-                    <div>
-                        <p><a href="{{page.syndication}}" rel="external">swarm icon here</a></p>
-                        <span class="coins"></span>
-                    </div>
+                        <div>
+                            <p><a href="{{page.syndication}}" rel="external">swarm icon here</a></p>
+                            <span class="coins"></span>
+                        </div>
 
-                    {% assign comments = site.data.webmention.links %}
-                    {% if site.webmentionTestUrl == false %}
-                        {% assign thisUrl =  page.url | absolute_url %}
-                    {% else %}
-                        {% assign thisUrl =  "https://vincentp.me" | append: page.url %}
-                    {% endif %}
+                        {% assign comments = site.data.webmention.links %}
+                        {% if site.webmentionTestUrl == false %}
+                            {% assign thisUrl =  page.url | absolute_url %}
+                        {% else %}
+                            {% assign thisUrl =  "https://vincentp.me" | append: page.url %}
+                        {% endif %}
 
-                    {{thisUrl}}
-                     <div class="layoutGrid center pb5">
-                       {% include webmentions/swarmReplies.html %}
-                    </div>
-
-                        <p>Imported using <a href="ownyourswarm.p3k.io" rel="external">ownyourswarm.p3k.io</a></p>
+                         <div class="center pb5">
+                           {% include webmentions/swarmReplies.html %}
+                        </div>
                 </article>
             </main>
         </div>
