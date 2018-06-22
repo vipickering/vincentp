@@ -14,12 +14,9 @@
 
             <main>
                 <div class="e-content layoutGrid center">
-                    {% comment %}
-                     if page.type == 'Checkins'
-                        assign pageType = site.categories.Checkins
-                        elseif page.type == 'Notes'
-                    {% endcomment %}
-                    {% if page.type == 'Notes' %}
+                    {% if page.type == 'Checkins' %}
+                        {% assign pageType = site.categories.Checkins %}
+                    {% else if page.type == 'Notes' %}
                         {% assign pageType = site.categories.Notes %}
                     {% else %}
                         {% assign pageType = site.categories.Articles %}

@@ -18,6 +18,10 @@
     padding-top: var(--f4);
 }
 
+.pt-fixed-5 {
+    padding-top: 5px;
+}
+
 .pv5 {
     padding-top: var(--f5);
     padding-bottom: var(--f5);
