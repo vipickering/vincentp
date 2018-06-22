@@ -39,6 +39,10 @@
     margin-right: var(--f7);
 }
 
+.mr8 {
+    margin-right: var(--f8);
+}
+
 .mb0 {
     margin-bottom: 0;
 }

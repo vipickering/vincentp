@@ -39,9 +39,8 @@ tags:
                                     <div class="circle center db relative br-circle  foreground w-20-fixed h-20-fixed center  {% if forloop.first == true %}bg-red mt0 {% else %} bg-black {% endif%}"></div>
                                 </div>
                                 <div class="pb5">
-                                    <h3 itemprop="headline" class="p-name ma0 pa0 lh-one">
-                                        {% if post.layout == "checkin" %}Checked in at{% endif %}
-                                        <a href="{{site.url}}{{ post.url }}" class="rm-underline" title="{{ post.title }}">{{ post.title }}</a>
+                                    <h3 itemprop="headline" class="f5 p-name ma0 pa0 lh-one">
+                                        <a href="{{site.url}}{{ post.url }}" class="rm-underline" title="{{ post.title }}">{% if post.layout == "checkin" %}Checked in at {% endif %}{{ post.title }}</a>
                                 </h3>
                                     <time itemprop="dateCreated" class="dt-published f7 light-grey lh-one" datetime="{{ post.date | date_to_xmlschema }}">
                                         {{ post.date | date_to_string: "ordinal" }} <span>at</span> {{ post.date | date: "%H" }}:{{ post.date | date: "%M%P" }}
