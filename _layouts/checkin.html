@@ -26,6 +26,9 @@
                     </div>
 
                     <div class="e-content p-nam">
+                        <img src="https://api.mapbox.com/styles/v1/mapbox/streets-v9/static/pin-l-star+c83539({{page.longitude}},{{page.latitude}})/{{page.longitude}},{{page.latitude}},13,0/600x300@2x?access_token=pk.eyJ1IjoidnBpY2tlcmluZyIsImEiOiJjamo1ZWNpbmwwYW1wM3FxaHZ5cHR6N3g3In0.hhrPnSY0r_9fu5QKlhqRHw&logo=false" alt="Mapbox Map of {{page.longitude}},{{page.latitude}}" class="w-100">
+                        &copy; <a href='https://www.mapbox.com/map-feedback/'>Mapbox</a> &copy; <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap contributors</a>
+
                         {% if page.photo  != ''%}
                             <figure>
                                 <figcaption>{{ content }}</figcaption>
@@ -39,8 +42,8 @@
                             {% if page.locality != '' %}<span class="p-locality">{{page.locality}}</span>,{% endif %}
                             {% if page.region  != '' %}<span class="p-region">{{page.region}}</span>,{% endif %}
                             {% if page.country  != '' %}<span class="p-country">{{page.country}}</span>{% endif %}
-                            {% if page.photo  != '' %}<data class="p-latitude" value="{{page.latitude}}"></data>{% endif %}
-                            {% if page.photo  != '' %}<data class="p-longitude" value="{{page.longitude}}"></data>{% endif %}
+                            <data class="p-latitude" value="{{page.latitude}}"></data>
+                            <data class="p-longitude" value="{{page.longitude}}"></data>
                             {{comment.data.swarm_coins}}
                         </div>
 
