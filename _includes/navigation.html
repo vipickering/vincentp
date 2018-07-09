@@ -1,0 +1,21 @@
+<a href="#content" title="Get to the article">Skip to content</a>
+
+<header class="layoutGrid pv5 bb b-light-grey" id="#top">
+    <div class="">
+        <h2 class="p-name ma0 pa0 f6 fw7" itemprop="name"><a href="{{ site.url }}" title="vincentp.me" itemprop="url" class="u-url rm-underline tl fl dib">Vincent Pickering</a></h2>
+    </div>
+
+    <div class=" ">
+        <ul class="ma0 pa0 mt5">
+            <li class="list dib mr5"><a href="{{site.url}}" class="rm-underline" title="A stream of my daily life">Lifestream</a></li>
+            {% if  site.categories.Articles %}
+                <li class="list dib mr5"><a href="{{site.url}}/categories/articles" rel="me" class="rm-underline" title="Longer articles on topics">Writing</a></li>
+             {% endif %}
+            {% if  site.categories.Notes %}
+                <li class="list dib mr5"><a href="{{site.url}}/categories/notes" class="rm-underline" title="Day to day notes and happenings">Notes</a></li>
+            {% endif %}
+            <li class="list dib mr5"><a href="{{site.url}}/services" rel="me" class="rm-underline" title="Let's work together on your next project" >Services</a></li>
+            <li class="list dib"><a href="{{site.url}}/about" rel="me" class="rm-underline" title="Background information and past experience" >About</a></li>
+        </ul>
+    </div>
+</header>

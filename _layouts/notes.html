@@ -6,7 +6,7 @@
 
     <body itemscope itemtype="http://schema.org/WebPage" class="ma0 pa0">
         <div>
-            {% include menuTrigger.html %}
+            {% include navigation.html %}
             {% include hcard.html %}
 
             <div class="h-entry mt-header">
@@ -21,7 +21,7 @@
                     <p class="grey fw3 f6">Published by <a class="p-author u-url black" href="{{site.url}}" rel="author">{{ site.data.author.name }}</a></p>
                 </div>
 
-                <main>
+                <main id="content">
                     <article itemscope itemtype="http://schema.org/Blog">
                         <div class="e-content layoutGrid center"  data-type="blog">
                             {{ content }}

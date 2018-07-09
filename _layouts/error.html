@@ -6,13 +6,13 @@
 
     <body itemscope itemtype="http://schema.org/WebPage" class="ma0 pa0">
         <div>
-            {% include menuTrigger.html %}
+            {% include navigation.html %}
             {% include hcard.html %}
 
              <div class="h-entry mt-header">
                 {% include pageTitle.html %}
 
-                <main>
+                <main id="content">
                     <article itemscope itemtype="http://schema.org/Blog" class="h-entry">
                         <div class="e-content layoutGrid center">
                             {{ content }}
