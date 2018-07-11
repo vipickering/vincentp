@@ -1,45 +1,62 @@
-@supports (display: grid) {
-    .layoutGrid {
+.layoutGrid {
+    display: grid;
+    grid-template-columns:
+        [full-start] minmax(1em, 1fr)
+        [main-start] minmax(0, var(--column-width))
+        [main-end] minmax(1em, 1fr)
+        [full-end];
+}
+
+.layoutGrid > *,
+pre {
+    grid-column: main;
+}
+
+.layoutGrid > figure {
+    grid-column: full;
+}
+
+/*
+When embedding CodePens or snippets. Allow them to break out the grid, but not go full screen
+*/
+.layoutGrid > .cp_embed_wrapper {
+    grid-column: full;
+    width: 100%;
+    margin: auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+.lifestreamGrid {
+    display: grid;
+    grid-template-columns: 3em minmax(1em, 1fr);
+}
+
+.two-col-grid {
+    display: grid;
+    grid-template-columns: 110px 1fr;
+}
+
+.nav-grid [data-type="logo"] {
+    order: initial;
+    text-align: left;
+}
+
+.recommendedGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 1rem;
+}
+
+@media (min-width: 600px) {
+    .nav-grid [data-type="logo"] {
+        order: 2;
+        text-align: right;
+    }
+
+    .nav-grid {
         display: grid;
-        grid-template-columns:
-            [full-start] minmax(1em, 1fr)
-            [main-start] minmax(0, var(--column-width))
-            [main-end] minmax(1em, 1fr)
-            [full-end];
-    }
-
-    .layoutGrid > *,
-    pre {
-        grid-column: main;
-    }
-
-    .layoutGrid > figure,
-    .layoutGrid > .cp_embed_wrapper {
-        grid-column: full;
-    }
-
-    /*
-    When embedding CodePens or snippets. Allow them to break out the grid, but not go full screen
-    */
-    .layoutGrid > .cp_embed_wrapper {
-        width: 100%;
-        margin: auto;
-        max-width: 800px;
-        text-align: center;
-    }
-
-    .lifestreamGrid {
-        display: grid;
-        grid-template-columns: 3em minmax(1em, 1fr);
-    }
-
-    .two-col-grid {
-        display: grid;
-        grid-template-columns: 110px 1fr;
-    }
-
-    .recommendedGrid {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        grid-gap: 1rem;
+        grid-template-columns: minmax(300px, 1fr) 150px;
     }
 }
