@@ -17,10 +17,10 @@ tags:
             {% include navigation.html %}
             {% include hcard.html %}
 
-             <div class="h-entry mt-header">
+             <div class="h-entry">
                 <main id="content">
                     <div class="e-content layoutGrid center">
-                        <h2 class="ma0 mb5 pa0 lh-heading f4 red">Lifestream</h2>
+                        <h1 class="ma0 mb5 pa0 lh-heading f4 red">Lifestream</h1>
                         {% for post in site.posts limit:40 %}
                             <article itemscope itemtype="http://schema.org/Blog" class="h-entry lifestreamGrid">
                                 <div class="borderBefore relative {% if forloop.last == true %}mb5{%endif%}">

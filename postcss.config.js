@@ -10,6 +10,6 @@ module.exports = {
     require('postcss-custom-media'),
     require('cssnano')({ autoprefixer: false }),
     require('immutable-css') (),
-    require("postcss-reporter")({ clearReportedMessages: true })
+    require("postcss-reporter")()
   ]
 }
