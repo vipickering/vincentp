@@ -4,7 +4,7 @@ title: "Better Automated Testing"
 date: 2017-03-30 18:00:00 +/-GMT
 meta: Using bash scripts for better automated testing
 summary: Where I discuss FED automated tests and a consistent method to implement them
-category: Articles
+category: "Articles"
 modified :
 modifiedReason:
 twitterCard: false

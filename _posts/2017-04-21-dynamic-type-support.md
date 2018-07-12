@@ -4,7 +4,7 @@ title: "Improving Accessibility With Dynamic Text Support"
 date: 2017-04-21 16:15:00 +/-GMT
 meta: Adding support for dynamic text.
 summary: Improving the site accessibility support using Dynamic Text in iOS.
-category: Articles
+category: "Articles"
 modified :
 modifiedReason:
 twitterCard: false

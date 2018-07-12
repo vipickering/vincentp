@@ -10,14 +10,15 @@
 
         <div class="h-entry">
             {% include pageTitle.html %}
-
             <main id="content">
                 <div class="e-content layoutGrid center">
                     {% if page.type == 'Checkins' %}
                         {% assign pageType = site.categories.Checkins %}
-                    {% else if page.type == 'Notes' %}
+                        {% endif %}
+                    {%  if page.type == 'Notes' %}
                         {% assign pageType = site.categories.Notes %}
-                    {% else %}
+                        {% endif %}
+                      {%  if page.type == 'Articles' %}
                         {% assign pageType = site.categories.Articles %}
                     {% endif %}
 
