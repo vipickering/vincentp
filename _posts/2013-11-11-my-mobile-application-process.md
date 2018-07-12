@@ -4,7 +4,7 @@ title: "My Entire Mobile Application Process"
 date: 2013-11-11 00:00:01 +/-GMT
 meta: An overview of my mobile App tools and processes used on a daily basis from start to finish.
 summary: A complete breakdown of my mobile application process in 2013
-category: Articles
+category: "Articles"
 modified :
 modifiedReason:
 twitterCard: false

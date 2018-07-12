@@ -6,7 +6,7 @@ meta: time to first paint blog speed .
 summary: Reducing the time to meaningful first paint Jekyll blog
 modified : 2017-07-03 22:01:00 +/-GMT
 modifiedReason: to correct style, readability and punctuation
-category: Articles
+category: "Articles"
 modified : 2018-05-16 16:50:00 +/-GMT
 modifiedReason: "The current method was a bit hacky. This is a better solution"
 twitterCard: false

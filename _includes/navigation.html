@@ -1,8 +1,5 @@
 <a href="#content" title="Get to the article" class="visuallyhidden">Skip to content</a>
 
-<!--
-Do Grid next
--->
 <header class="layoutGrid pv5 tl" id="#top">
     <div class="nav-grid">
        <a href="{{ site.url }}" title="vincentp.me" itemprop="url" class="u-url rm-underline" data-type="logo"><span class="p-name ma0 pa0 f6 fw7" itemprop="name">Vincent Pickering</span></a>
@@ -21,3 +18,14 @@ Do Grid next
         </nav>
     </div>
 </header>
+
+{% if page.layout == "checkin" %}checkin    {% endif %}
+                                    {%  if page.layout == "instagram"%}insta    {% endif %}
+                                    {%  if page.category.note == "note"%}
+                                    notes    {% endif %}
+                                    {%  if page.category.articles == "category"%}cat    {% endif %}
+                                            {%  if page.layout == "tags"%}
+                                    tags    {% endif %}
+                                    {%  if page.layout == "post"%}
+                                    articles
+                                    {% endif %}

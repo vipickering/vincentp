@@ -4,7 +4,7 @@ title: "Bridging The Gap Between the Physical and Virtual"
 date: 2013-10-18 00:00:01 +/-GMT
 meta: Use your name to design a website's look and feel
 summary: I created a fun thing that generates a website based on your name
-category: Articles
+category: "Articles"
 modified :
 modifiedReason:
 twitterCard: false
