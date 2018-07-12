@@ -18,14 +18,7 @@
         </nav>
     </div>
 </header>
-
-{% if page.layout == "checkin" %}checkin    {% endif %}
-                                    {%  if page.layout == "instagram"%}insta    {% endif %}
-                                    {%  if page.category.note == "note"%}
-                                    notes    {% endif %}
-                                    {%  if page.category.articles == "category"%}cat    {% endif %}
-                                            {%  if page.layout == "tags"%}
-                                    tags    {% endif %}
-                                    {%  if page.layout == "post"%}
-                                    articles
-                                    {% endif %}
+{{page.layout}}
+ {% if page.type == 'Checkins' %}Checkins{% endif %}
+{%  if page.type == 'Notes' %} Notes{% endif %}
+{%  if page.type == 'Articles' %}Article{% endif %}
