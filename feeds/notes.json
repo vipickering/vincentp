@@ -3,9 +3,9 @@ layout: null
 ---
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": {{ site.title | jsonify }},
+    "title": "Vincentp Notes",
     "home_page_url": "{{site.url}}",
-    "feed_url": "{{site.url}}/feeds/everything.json",
+    "feed_url": "{{site.url}}/feeds/notes.json",
     "description" : "Web design including: UI, UX, HTML, CSS, JavaScript and Node",
     "icon" : "{{site.url}}/images/vincentp-300.jpg",
     "favicon" : "{{site.url}}/images/apple-touch-icon-76x76-precomposed.png",
@@ -16,7 +16,7 @@ layout: null
             "avatar" : "{{site.url}}/images/profile/vincentp@2x.jpg"
         }
     ],
-     "items": [{% for post in site.posts limit:10 %}
+     "items": [{% for post in site.categories.Notes limit:10 %}
         {
             "id": "{{site.url}}{{post.id}}",
             "title" : {{ post.title | jsonify }},
