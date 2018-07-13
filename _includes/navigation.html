@@ -5,20 +5,16 @@
        <a href="{{ site.url }}" title="vincentp.me" itemprop="url" class="u-url rm-underline" data-type="logo"><span class="p-name ma0 pa0 f6 fw7" itemprop="name">Vincent Pickering</span></a>
         <nav>
             <ul class="ma0 pa0">
-                <li class="list dib mr5"><a href="{{site.url}}" class="rm-underline f6" title="A stream of my daily life">Lifestream</a></li>
+                <li class="list dib mr5"><a href="{{site.url}}" class="rm-underline f6 {% if page.url == '/' %}red{% endif %}" title="A stream of my daily life">Lifestream</a></li>
                 {% if  site.categories.Articles %}
-                    <li class="list dib mr5"><a href="{{site.url}}/categories/articles" rel="me" class="rm-underline f6" title="Longer articles on topics">Writing</a></li>
+                    <li class="list dib mr5"><a href="{{site.url}}/categories/articles" rel="me" class="rm-underline f6 {% if page.url contains 'articles' %}red{% endif %}" title="Longer articles on topics">Writing</a></li>
                  {% endif %}
                 {% if  site.categories.Notes %}
-                    <li class="list dib mr5"><a href="{{site.url}}/categories/notes" class="rm-underline f6" title="Day to day notes and happenings">Notes</a></li>
+                    <li class="list dib mr5"><a href="{{site.url}}/categories/notes" class="rm-underline f6 {% if page.url contains 'notes' or  page.category == 'Notes' or page.category == 'Checkins'  or page.category == 'Instagram' %}red{% endif%}" title="Day to day notes and happenings">Notes</a></li>
                 {% endif %}
-                <li class="list dib mr5"><a href="{{site.url}}/services" rel="me" class="rm-underline f6" title="Let's work together on your next project" >Services</a></li>
-                <li class="list dib"><a href="{{site.url}}/about" rel="me" class="rm-underline f6" title="Background information and past experience" >About</a></li>
+                <li class="list dib mr5"><a href="{{site.url}}/services" rel="me" class="rm-underline f6 {% if page.url contains 'services' %}red{% endif %}" title="Let's work together on your next project" >Services</a></li>
+                <li class="list dib"><a href="{{site.url}}/about" rel="me" class="rm-underline f6 {% if page.url contains 'about' %}red{% endif %}" title="Background information and past experience" >About</a></li>
             </ul>
         </nav>
     </div>
 </header>
-{{page.layout}}
- {% if page.type == 'Checkins' %}Checkins{% endif %}
-{%  if page.type == 'Notes' %} Notes{% endif %}
-{%  if page.type == 'Articles' %}Article{% endif %}
