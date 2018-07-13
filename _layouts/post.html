@@ -38,7 +38,9 @@
                         </ul>
                     </div>
 
-                    {% include recommended.html %}
+                    {% if  page.category !="Notes"%}
+                        {% include recommended.html %}
+                    {% endif %}
 
                     {% assign comments = site.data.webmention.links %}
                     {% if site.webmentionTestUrl == false %}
