@@ -39,6 +39,10 @@
     margin-right: var(--f7);
 }
 
+.mr--fixed-4 {
+    margin-right: 4px;
+}
+
 .mr8 {
     margin-right: var(--f8);
 }
