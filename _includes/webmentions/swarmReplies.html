@@ -18,7 +18,7 @@
                     </div>
                     <div class="e-content p-summary p-name reply-content cf">
                         <p class="f6">{{comment.data.content}}</p>
-                        <p class="f7"><img src="{{site.url}}/images/swarm/coin-icon.png" width="16" height="16" alt="coin icon" class="fl mr8">{{comment.data.swarm_coins}} coins <a href="{{comment.data.url  | replace: 'http://', 'https://'}}"><time class="published-datetime grey" datetime="{{ comment.verified_date | date_to_xmlschema }}">posted on {{comment.verified_date | date_to_long_string: "ordinal" }} at {{comment.verified_date | date: "%H" }}:{{ comment.verified_date | date: "%M%P" }}</time></a></p>
+                        <p class="f7"><img src="{{site.url}}/images/swarm/coin-icon.png" width="16" height="16" alt="coin icon" class="fl mr8">{{comment.data.swarm_coins}} coins <time class="published-datetime grey" datetime="{{ comment.verified_date | date_to_xmlschema }}"><a href="{{comment.data.url  | replace: 'http://', 'https://'}}">posted on {{comment.verified_date | date_to_long_string: "ordinal" }} at {{comment.verified_date | date: "%H" }}:{{ comment.verified_date | date: "%M%P" }}</a></time></p>
                     </div>
                 </article>
         {% endif %}
