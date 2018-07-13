@@ -6,55 +6,62 @@
 
     <body itemscope itemtype="http://schema.org/WebPage" class="ma0 pa0">
         <div>
-            {% include menuTrigger.html %}
-            {% include hcard.html %}
+            {% include navigation.html %}
 
-            <main class="h-entry mt-header">
+            <main class="h-entry" id="content">
                 <article class="u-checkin h-card layoutGrid center pv5">
-                    <div class=" tc">
-                        <p class="ma0 pa0 f7 lh-heading">
-                            <time itemprop="dateCreated" class="dt-published red" datetime="{{ page.date | date_to_xmlschema }}">
-                                {{ page.date | date_to_string: "ordinal" }} <span>at</span> {{ page.date | date: "%H" }}:{{ page.date | date: "%M%P" }}
-                            </time>
-                        </p>
-                        <h1 itemprop="headline" class="p-name ma0 pa0 f4 lh-heading">Checked in at <a href="{{page.foursquare}}" class="u-url p-name" rel="external">{{ page.title }}</a></h1>
-
-                        <!--
-                        <p class="grey fw3 f6 italic lh-heading">{{ page.summary }}</p>
-                        <p class="grey fw3 f6">Published by <a class="p-author u-url black" href="{{site.url}}" rel="author">{{ site.data.author.name }}</a></p>
-                    -->
-                    </div>
-
                     <div class="e-content p-nam">
-                       {{ content }}
-                    </div>
-                    {% if page.photo %}
-                    <div>
-                       <img src="{{page.photo}}" />
-                    </div>
-                    {% endif %}
+                        <div class="mini-two-col-grid mt5 mb5">
+                            <img src="{{site.data.author.profilePic}}" width="40" class="db br-circle" alt="A picture of the site author Vincent Pickering">
+                            <div class="mw-strap-length">
+                                <p class="ma0 pa0 f7 lh-heading">
+                                    <time itemprop="dateCreated" class="dt-published red" datetime="{{ page.date | date_to_xmlschema }}">
+                                        {{ page.date | date_to_string: "ordinal" }} <span>at</span> {{ page.date | date: "%H" }}:{{ page.date | date: "%M%P" }}
+                                    </time>
+                                </p>
+                                <h1 itemprop="headline" class="p-name ma0 pa0 f5 f4-ns lh-heading">Checked in at <a href="{{page.foursquare}}" class="u-url p-name" rel="external">{{ page.title }}</a> </h1>
+                            </div>
+                        </div>
 
-                    <div class="p-location h-adr">
-                        <span class="p-locality">{{page.locality}}</span>,
-                        <span class="p-region">{{page.region}}</span>,
-                        <span class="p-country">{{page.country}}</span>
-                         <data class="p-latitude" value="{{page.latitude}}"></data>
-                        <data class="p-longitude" value="{{page.longitude}}"></data>
-                    </div>
+                        {% if page.photo  != ''%}
+                            <figure class="ma0 pa0">
+                                <img src="{{page.photo}} " class="w-100" alt="{{page.name}}"/>
+                                <figcaption class="mt5 mb5 tl">{{ content }}</figcaption>
+                            </figure>
+                        {% else %}
+                           <img src="https://api.mapbox.com/styles/v1/mapbox/streets-v9/static/pin-l-star+c83539({{page.longitude}},{{page.latitude}})/{{page.longitude}},{{page.latitude}},13,0/600x300@2x?access_token=pk.eyJ1IjoidnBpY2tlcmluZyIsImEiOiJjamo1ZWNpbmwwYW1wM3FxaHZ5cHR6N3g3In0.hhrPnSY0r_9fu5QKlhqRHw&logo=false" alt="Mapbox Map of {{page.longitude}},{{page.latitude}}" class="w-100">
+                            <div class="f7 tr">&copy; <a href='https://www.mapbox.com/map-feedback/'>Mapbox</a> &copy; <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap contributors</a></div>
+                            <div class="mt5 mb5 tl">
+                               {{ content }}
+                            </div>
+                        {% endif %}
 
-                    <div>
-                        <p><a href="{{page.syndication}}" rel="external">swarm icon here</a></p>
-                        <span class="coins"></span>
-                    </div>
+                        <div class="p-location h-adr">
+                            <small>
+                                {% if page.locality != '' %}<span class="p-locality">{{page.locality}}</span>,{% endif %}
+                                {% if page.region  != '' %}<span class="p-region">{{page.region}}</span>,{% endif %}
+                                {% if page.country  != '' %}<span class="p-country">{{page.country}}</span>{% endif %}
+                                <data class="p-latitude" value="{{page.latitude}}"></data>
+                                <data class="p-longitude" value="{{page.longitude}}"></data>
+                            </small>
+                            {{comment.data.swarm_coins}}
+                        </div>
 
-                    {% assign comments = site.data.webmention.links %}
-                    {% if site.webmentionTestUrl == false %}
-                        {% assign thisUrl =  page.url | absolute_url %}
-                    {% else %}
-                        {% assign thisUrl =  "https://vincentp.me" | append: page.url %}
-                    {% endif %}
-                        {% include webmentions/replies.html %}
-                        <p>Imported using <a href="ownyourswarm.p3k.io" rel="external">ownyourswarm.p3k.io</a></p>
+                        <div>
+                            <small>Checkin via <a href="https://ownyourswarm.p3k.io/">https://ownyourswarm.p3k.io</a></small>
+                            <span class="coins"></span>
+                        </div>
+
+                        {% assign comments = site.data.webmentions.links %}
+                        {% if site.webmentionTestUrl == false %}
+                            {% assign thisUrl =  page.url | absolute_url %}
+                        {% else %}
+                            {% assign thisUrl =  "https://vincentp.me" | append: page.url %}
+                        {% endif %}
+
+                         <div class="center pb5">
+                           {% include webmentions/swarmReplies.html %}
+                        </div>
                 </article>
             </main>
         </div>

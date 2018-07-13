@@ -62,4 +62,8 @@ small {
     .f3-ns {
         font-size: var(--f3);
     }
+
+    .f4-ns {
+        font-size: var(--f4);
+    }
 }

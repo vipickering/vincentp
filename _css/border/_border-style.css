@@ -1,3 +1,25 @@
 .b--solid { border-style: solid; }
 .b-dashed-top { border-top-style: dashed; }
 .b-dashed-bottom { border-bottom-style: dashed; }
+
+.b-star-before::before {
+    content: '***';
+    display: block;
+    width: 100%;
+    letter-spacing: var(--f5);
+    color: var(--black);
+    text-align: center;
+    margin-bottom: var(--f5);
+    font-weight: 400;
+}
+
+.b-star-after::after {
+    content: '***';
+    display: block;
+    width: 100%;
+    letter-spacing: var(--f5);
+    color: var(--black);
+    text-align: center;
+    margin-top: var(--f5);
+    font-weight: 400;
+}

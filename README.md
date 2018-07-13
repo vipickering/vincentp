@@ -10,6 +10,8 @@ It uses [Bundler](http://bundler.io/) to package the Gems.
 
 Deployment and hosting is via [Netlify](https://www.netlify.com/).
 
+The [Micropub API](https://github.com/vipickering/micropub-API) supplies webmentions and other [indieweb](https://indieweb.org/) content
+
 **Ruby version 2.4.3 is a minimum requirement.**
 
 ## Setup
@@ -75,6 +77,14 @@ RSS is syndicated to Feedburner, since everything else never works properly. Fee
 
 ## Webmentions
 
-Replies, reposts and likes are generated via [Jekyll-Get plugin](https://github.com/18F/jekyll-get), [Brid.gy](https://brid.gy/) and [Webmention.io](https://webmention.io/).
+- [Jekyll-Get plugin](https://github.com/18F/jekyll-get) - Replies, reposts and likes are (temporarily) via (to be replaced by the Micropub API at a later date).
+- [Brid.gy](https://brid.gy/)
+- [Webmention.io](https://webmention.io/) - This content is stored in Webmention.io and generated at build, it is not currently cached (working on it).
 
-This content is stored in Webmention.io and generated at build, it is not currently cached (working on it).
+## Publish Elsewhere, Syndicate (to your) Own Site(PESOS) Content
+
+PESOS content is provided by [ownyourswarm](https://ownyourswarm.p3k.io/) and [ownyourgram](https://ownyourgram.com/) and synced via the Micropub API
+
+## Publish (on your) Own Site, Syndicate Elsewhere (POSSE) Content
+
+ToDo.

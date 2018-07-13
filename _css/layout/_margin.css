@@ -27,6 +27,10 @@
     margin-top: 4px;
 }
 
+.mt--fixed-6 {
+    margin-top: 6px;
+}
+
 .mb7 {
     margin-bottom: var(--f7);
 }
@@ -39,6 +43,14 @@
     margin-right: var(--f7);
 }
 
+.mr--fixed-4 {
+    margin-right: 4px;
+}
+
+.mr8 {
+    margin-right: var(--f8);
+}
+
 .mb0 {
     margin-bottom: 0;
 }
@@ -47,10 +59,14 @@
     margin-bottom: var(--f5);
 }
 
+.mb3 {
+    margin-bottom: var(--f3);
+}
+
 .mb7 {
     margin-bottom: var(--f7);
 }
 
 .mt-header {
-    margin-top: 73px;
+    margin-top: 2.618rem;
 }
