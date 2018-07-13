@@ -33,4 +33,6 @@
     overflow: visible;
     position: static;
     width: auto;
+    display: block;
+    text-align: center;
 }
