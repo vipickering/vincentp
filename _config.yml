@@ -18,10 +18,10 @@ available: true
 webmentionTestUrl: false
 
 #Get Webmentions using Jekyll-Get
-jekyll_get:
-  - data: webmention
-    json: 'https://webmention.io/api/mentions?domain=vincentp.me&token=aSJ1xen947l7hz4e42KlYw'
-    cache: false
+# jekyll_get:
+#   - data: webmention
+#     json: 'https://webmention.io/api/mentions?domain=vincentp.me&token=aSJ1xen947l7hz4e42KlYw'
+#     cache: false
 
 # Exclude Files
 exclude:

@@ -52,7 +52,7 @@
                             <span class="coins"></span>
                         </div>
 
-                        {% assign comments = site.data.webmention.links %}
+                        {% assign comments = site.data.webmentions.links %}
                         {% if site.webmentionTestUrl == false %}
                             {% assign thisUrl =  page.url | absolute_url %}
                         {% else %}
