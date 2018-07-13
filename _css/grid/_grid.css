@@ -37,6 +37,11 @@ When embedding CodePens or snippets. Allow them to break out the grid, but not g
     grid-template-columns: 110px 1fr;
 }
 
+.mini-two-col-grid {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+
 .nav-grid [data-type="logo"] {
     order: initial;
     text-align: left;
