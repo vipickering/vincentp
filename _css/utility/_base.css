@@ -150,6 +150,7 @@ blockquote > p + p {
     left: 50%;
     width: 1px;
     height: 100%;
+    top: 10px;
 }
 
 .offscreen {
