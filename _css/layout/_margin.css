@@ -58,9 +58,3 @@
 .mt-header {
     margin-top: 73px;
 }
-
-@media (max-width: 531px) {
-    .mb5-m {
-        margin-bottom: var(--f5);
-    }
-}

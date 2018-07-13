@@ -11,7 +11,7 @@
             <div class="h-entry e-content layoutGrid center">
                 <main id="content">
                     <article itemscope itemtype="http://schema.org/Blog">
-                         <div class="pv5">
+                         <div class="mb5" style="margin-top: 2.618rem;">
                             <p class="ma0 pa0 f7 lh-heading">
                                 <time itemprop="dateCreated" class="dt-published red" datetime="{{ page.date | date_to_xmlschema }}">
                                     {{ page.date | date_to_string: "ordinal" }} <span>at</span> {{ page.date | date: "%H" }}:{{ page.date | date: "%M%P" }}
@@ -29,15 +29,20 @@
                                 <time class="dt-published red f7"  datetime="{{ page.date | date_to_xmlschema }}" title="Page Modified" >{{ page.modified | date_to_string: "ordinal" }} at <span class="dt-updated f7">{{ page.modified | date: "%H" }}:{{ page.modified | date: "%M%P" }}</span></time>
                                 <p class="f7"> {{ page.modifiedReason }}.</p>
                             {% endif %}
-
-                            <div class="db grey fw3 f6 pv5 ma0">
-                                {% for tag in page.tags %}
-                                    <a href="{{site.url}}/tags/{{tag}}" title="read more articles tagged with {{tag}}" class="p-category bg-red white pa7 br-fixed-2 rm-underline hover-red f7">{{tag | replace: '-', ' '}}</a>
-                                {% endfor %}
                             </div>
-                        </div>
                     </article>
-                    {% include hcard.html %}
+
+                    <div class="pb5 b-star-before">
+                        <h3 class="f5 red ma0">Tags</h3>
+                        <ul class="fw3 f6 pa0 ma0">
+                            {% for tag in page.tags %}
+                                <li style="    padding-bottom: var(--f3);
+display: inline-block;
+padding-top: var(--f3); list-style: none"><a href="{{site.url}}/tags/{{tag}}" title="read more articles tagged with {{tag}}" class="p-category bg-red white pa7 br-fixed-2 rm-underline hover-red f7  no-wrap">{{tag | replace: '-', ' '}}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+
                     {% include recommended.html %}
 
                     {% assign comments = site.data.webmention.links %}
@@ -47,7 +52,7 @@
                         {% assign thisUrl =  "https://vincentp.me" | append: page.url %}
                     {% endif %}
 
-                    <div class="layoutGrid center pb5">
+                    <div class="pb5">
                         {% include webmentions/likes.html %}
                         {% include webmentions/reposts.html %}
                         {% include webmentions/replies.html %}

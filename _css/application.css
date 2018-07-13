@@ -20,6 +20,7 @@
 @import "typography/_list.css";
 @import "typography/_line-height.css";
 @import "typography/_text-align.css";
+@import "typography/_whitespace.css";
 
 /* Borders */
 @import "border/_borders.css";

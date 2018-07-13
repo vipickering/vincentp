@@ -27,6 +27,11 @@
     padding-bottom: var(--f5);
 }
 
+.pv7 {
+    padding-top: var(--f7);
+    padding-bottom: var(--f7);
+}
+
 .ph6 {
     padding-left: var(--f6);
     padding-right: var(--f6);
