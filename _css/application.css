@@ -42,6 +42,7 @@
 @import "layout/_width.css";
 @import "layout/_height.css";
 @import "layout/_z-index.css";
+@import "layout/_flex.css";
 
 /* No JS Widgets */
 /*@import "widgets/_menu.css";*/

@@ -51,10 +51,14 @@
     margin-bottom: var(--f5);
 }
 
+.mb3 {
+    margin-bottom: var(--f3);
+}
+
 .mb7 {
     margin-bottom: var(--f7);
 }
 
 .mt-header {
-    margin-top: 73px;
+    margin-top: 2.618rem;
 }
