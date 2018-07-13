@@ -98,7 +98,7 @@ a:focus {
 }
 
 blockquote {
-    max-width: 300px;
+    max-width: 400px;
     color: var(--grey);
     font-size: var(--f6);
     margin: var(--f6) auto var(--f5) auto;

@@ -38,4 +38,5 @@ When considering change, pave the cow paths. Users shouldn't have to learn 2 way
 
 Once a change has been implemented, it should be tested against the existing solution and the data measured (with agreed business criteria) to ensure it is performing as intended.
 
+<div class="f-mono black f7 ttu" data-type="notes"><span>Notes</span></div>
 [^1]:Lally, P., van Jaarsveld, C. H. M., Potts, H. W. W. and Wardle, J. (2010), How are habits formed: Modelling habit formation in the real world. Eur. J. Soc. Psychol., 40: 998–1009. doi:10.1002/ejsp.674
