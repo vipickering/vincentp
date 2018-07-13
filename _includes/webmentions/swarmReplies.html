@@ -1,0 +1,27 @@
+{% assign repliesAvailable = false %}
+
+{% for comment in comments %}
+    {% if thisUrl == comment.target and comment.activity.type == "reply"%}
+        {% assign repliesAvailable = true %}
+    {% endif %}
+{% endfor%}
+
+{% if repliesAvailable == true %}
+    <h3 class="f5 red b-dashed-top bt b-light-grey ma0 pt5 mb7">Activity</h3>
+    <div class="b-dashed-bottom bb b-light-grey pb5">
+        {% for comment in comments %}
+        {% if thisUrl == comment.target and comment.activity.type == "reply" %}
+                <article class="h-cite p-comment reply-relation mb5">
+                    <div class="p-author h-card dib">
+                        <img src="{{comment.data.author.photo }}" alt="{{comment.data.author.url  | replace: 'http://', 'https://'}}" class="u-photo photo br-circle fl mr7" width="30" height="30">
+                        <a href="{{comment.data.author.url  | replace: 'http://', 'https://' }}" class="p-name u-url fl" rel="external">{{comment.data.author.name }}</a>
+                    </div>
+                    <div class="e-content p-summary p-name reply-content cf">
+                        <p class="f6">{{comment.data.content}}</p>
+                        <p class="f7"><img src="{{site.url}}/images/swarm/coin-icon.png" width="16" height="16" alt="coin icon" class="fl mr8">{{comment.data.swarm_coins}} coins <a href="{{comment.data.url  | replace: 'http://', 'https://'}}"><time class="published-datetime grey" datetime="{{ comment.verified_date | date_to_xmlschema }}">posted on {{comment.verified_date | date_to_long_string: "ordinal" }} at {{comment.verified_date | date: "%H" }}:{{ comment.verified_date | date: "%M%P" }}</time></a></p>
+                    </div>
+                </article>
+        {% endif %}
+     {% endfor%}
+     </div>
+{% endif %}

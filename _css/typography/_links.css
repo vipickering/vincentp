@@ -7,15 +7,8 @@
     transition: 0.2s;
 }
 
-.hover-menu:hover {
-    color: var(--red);
-    cursor: pointer;
-    transition: 0.2s;
-}
-
 .hover-red:hover {
     color: var(--red);
-    background-color: var(--black);
     cursor: pointer;
     transition: 0.2s;
 }
@@ -33,6 +26,7 @@
 }
 
 .hover-button:hover {
+    color: var(--white);
     background-color: var(--black);
     transition: 0.2s;
     cursor: pointer;

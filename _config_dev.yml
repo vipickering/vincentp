@@ -12,7 +12,7 @@ webmentionTestUrl: true
 # strict_front_matter: true
 
 #Get Webmentions using Jekyll-Get
-jekyll_get:
-  - data: webmention
-    json: '_data/sample.yml'
-    cache: false
+# jekyll_get:
+#   - data: webmention
+#     json: '_data/sample.yml'
+#     cache: false

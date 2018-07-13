@@ -18,9 +18,22 @@
     padding-top: var(--f4);
 }
 
+.pt3 {
+    padding-top: var(--f3);
+}
+
+.pt-fixed-5 {
+    padding-top: 5px;
+}
+
 .pv5 {
     padding-top: var(--f5);
     padding-bottom: var(--f5);
+}
+
+.pv7 {
+    padding-top: var(--f7);
+    padding-bottom: var(--f7);
 }
 
 .ph6 {
@@ -30,6 +43,10 @@
 
 .pb5 {
     padding-bottom: var(--f5);
+}
+
+.pb3 {
+    padding-bottom: var(--f3);
 }
 
 .pb1 {

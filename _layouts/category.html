@@ -6,22 +6,19 @@
 
 <body itemscope itemtype="http://schema.org/WebPage" class="ma0 pa0">
     <div>
-        {% include menuTrigger.html %}
-        {% include hcard.html %}
+        {% include navigation.html %}
 
-        <div class="h-entry mt-header">
-            {% include pageTitle.html %}
-
-            <main>
+        <div class="h-entry">
+            <main id="content">
+                {% include pageTitle.html %}
                 <div class="e-content layoutGrid center">
-                    {% comment %}
-                     if page.type == 'Checkins'
-                        assign pageType = site.categories.Checkins
-                        elseif page.type == 'Notes'
-                    {% endcomment %}
-                    {% if page.type == 'Notes' %}
+                    {% if page.type == 'Checkins' %}
+                        {% assign pageType = site.categories.Checkins %}
+                        {% endif %}
+                    {%  if page.type == 'Notes' %}
                         {% assign pageType = site.categories.Notes %}
-                    {% else %}
+                        {% endif %}
+                      {%  if page.type == 'Articles' %}
                         {% assign pageType = site.categories.Articles %}
                     {% endif %}
 

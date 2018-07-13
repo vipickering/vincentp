@@ -1,28 +1,39 @@
-github :
-  url : https://www.github.com/vipickering
-  repo : https://github.com/vipickering/vincentp
-  username: vipickering
-pinboard :
-  url: https://pinboard.in/u:monkeymajiks/profile/public/
-  username: monkeymajiks
-twitter:
-  url: https://twitter.com/vincentlistens
-  username: vincentlistens
-arena:
-  url: https://www.are.na/vincent-pickering/channels
-instagram:
-  url: https://www.instagram.com/vincentlistens
-linkedin :
-  url : https://www.linkedin.com/in/vipickering
-  username : vipickering
-codepen :
-  url : https://codepen.io/vipickering/
-  username:  vipickering
 email : hello@vincentp.me
-job :  UI/UX Developer and Service Designer
+job :  UX, FED and Node.JS Developer
 name : Vincent Pickering
 profilePicRetina3: /images/profile/vincentp@3x.jpg
 profilePicRetina2: /images/profile/vincentp@2x.jpg
 profilePic: /images/profile/vincentp.jpg
 profilePicLandscape: /images/profile/vincentp-landscape.jpg
 profilePicLandscapeRetina: /images/profile/vincentp-landscape@2x.jpg
+
+github :
+  url : https://www.github.com/vipickering
+  repo : https://github.com/vipickering/vincentp
+  username: vipickering
+
+pinboard :
+    url: https://pinboard.in/u:monkeymajiks/profile/public/
+    username: monkeymajiks
+
+twitter:
+    url: https://twitter.com/vincentlistens
+    username: vincentlistens
+
+arena:
+    url: https://www.are.na/vincent-pickering/channels
+
+instagram:
+    url: https://www.instagram.com/vincentlistens
+
+linkedin :
+    url : https://www.linkedin.com/in/vipickering
+    username : vipickering
+
+codepen :
+    url : https://codepen.io/vipickering/
+    username:  vipickering
+
+mapbox :
+    key : pk.eyJ1IjoidnBpY2tlcmluZyIsImEiOiJjamo1ZWNpbmwwYW1wM3FxaHZ5cHR6N3g3In0.hhrPnSY0r_9fu5QKlhqRHw
+

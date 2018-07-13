@@ -35,4 +35,5 @@ It doesn't matter how well an idea is planned or how much money is spent, a bad 
 
 Avoid being blind-sided by events or circumstances not considered in the context of what you are setting out to achieve. Be mindful that we cannot control environmental situations only the factors acting within. Plan any solution to embrace the restrictions of the landscape they reside within and not to fight them.
 
+<div class="f-mono black f7 ttu" data-type="notes"><span>Notes</span></div>
 [^1]:There is some debate over whether the cat was really hit by a cab or not. The former Director CIA's Office of Technical Service, Robert Wallace made a statement that the cat could not be trained successfully to behave as needed. He claims the equipment was removed, the cat re-sewn, and the rest is an urban myth.
