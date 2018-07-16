@@ -15,7 +15,7 @@
             {% if comment.activity.type == "reply" or comment.activity.type == "link" %}
                 {% if comment.source contains "https://medium.com/@vincentlistens/" %}
                     <article class="h-cite p-comment reply-relation mb5">
-                        <h3 class="f6 p-author h-card ma0 pa0">Also syndicated to: <a href="{{comment.data.url  | replace: 'http://', 'https://'}}" title="Read this story on Medium" rel="external">Medium</a></h3>
+                        <h3 class="f6 p-author h-card ma0 pa0">Also syndicated to: <a href="{{comment.data.url  | replace: 'http://', 'https://'}}" title="Read this story on Medium" rel="external" class="u-syndication">Medium</a></h3>
                     </article>
                 {% else %}
                 <article class="h-cite p-comment reply-relation mb5">
