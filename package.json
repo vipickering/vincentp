@@ -9,6 +9,7 @@
   "private": true,
   "scripts": {
     "start": "bundle exec jekyll serve",
+    "profile:liquid" : "bundle exec jekyll build --profile",
     "build:css": "postcss _css/application.css --config postcss.config.js --output css/application.min.css",
     "watch:css": "postcss _css/application.css -w --config postcss.config.js --output css/application.min.css",
     "dev": "bundle exec jekyll serve --drafts --future --config '_config.yml,_config_dev.yml'",
