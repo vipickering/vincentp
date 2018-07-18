@@ -4,7 +4,7 @@ title: "Carousel No JS"
 date: "2018-04-20 13:01:00 +/-GMT"
 meta: "Create a carousel without the need for JavaScript"
 summary: "Create a carousel without the need for JavaScript"
-category: "Notes"
+category: "Articles"
 modified :
 modifiedReason:
 twitterCard: false

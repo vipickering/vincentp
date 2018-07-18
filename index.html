@@ -31,6 +31,8 @@ tags:
                                         {% include lifestream/checkin.html %}
                                     {% else  if post.layout == "instagram"%}
                                         {% include lifestream/instagram.html %}
+                                     {% else  if post.layout == "notes"%}
+                                        {% include lifestream/notes.html %}
                                     {% else %}
                                         {% include lifestream/article.html %}
                                     {% endif %}
