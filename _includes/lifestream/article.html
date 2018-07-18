@@ -4,4 +4,6 @@
 <h3 itemprop="headline" class="f5 p-name ma0 pa0 lh-one">
         <a href="{{site.url}}{{ post.url }}" class="rm-underline" title="{{ post.title }}">{{ post.title }}</a>
 </h3>
+{% if post.summary %}
 <p class="p-summary f6"><a href="{{site.url}}{{ post.url }}" class="rm-underline" title="{{ post.title }}">{{ post.summary }}</a></p>
+{% endif %}
