@@ -4,7 +4,7 @@ title: "Google Duplex"
 date: "2018-05-09 18:40:00 +/-GMT"
 meta: "Google Duplex"
 summary: "Google Duplex concerns"
-category: "Notes"
+category: "Articles"
 modified :
 modifiedReason:
 twitterCard: false
