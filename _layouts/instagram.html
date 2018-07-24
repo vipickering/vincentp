@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {% include meta.html %}
+    </head>
+
+    <body itemscope itemtype="http://schema.org/WebPage" class="ma0 pa0">
+        <div>
+            {% include navigation.html %}
+
+            <main class="h-entry" id="content">
+                <article class="u-checkin h-card layoutGrid center pv5">
+                    <div class="e-content p-nam">
+                        <div class="mini-two-col-grid mt5 mb5">
+                            <img src="{{site.data.author.profilePic}}" width="40" class="db br-circle" alt="A picture of the site author Vincent Pickering">
+                            <div class="mw-strap-length">
+                                <p class="ma0 pa0 f7 lh-heading">
+                                    <time itemprop="dateCreated" class="dt-published red" datetime="{{ page.date | date_to_xmlschema }}">
+                                        {{ page.date | date_to_string: "ordinal" }} <span>at</span> {{ page.date | date: "%H" }}:{{ page.date | date: "%M%P" }}
+                                    </time>
+                                </p>
+                                <h1 itemprop="headline" class="p-name ma0 pa0 f5 f4-ns lh-heading"><a href="{{page.foursquare}}" class="u-url p-name" rel="external">{{ page.title }}</a> </h1>
+                            </div>
+                        </div>
+
+                        <figure class="ma0 pa0">
+                            <img src="{{page.photo}} " class="w-100" alt="{{page.name}}"/>
+                            <figcaption class="mt5 mb5 tl">{{ content }}</figcaption>
+                        </figure>
+
+                        <div>
+                            <small>Photo via <a href="https://ownyourgram.com">https://ownyourgram.com</a>: Original Post <a href="{{page.syndication}}">{{page.syndication}}</a></small>
+                        </div>
+
+                        {% assign comments = site.data.webmentions.links %}
+                        {% if site.webmentionTestUrl == false %}
+                            {% assign thisUrl =  page.url | absolute_url %}
+                        {% else %}
+                            {% assign thisUrl =  "https://vincentp.me" | append: page.url %}
+                        {% endif %}
+
+                         <div class="center pb5">
+                            <!-- webmentions to go here -->
+                        </div>
+                </article>
+            </main>
+        </div>
+        {% include footer.html %}
+    </body>
+</html>
