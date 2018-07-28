@@ -18,9 +18,6 @@
 <link rel="mask-icon" href="{{site.url}}/safari-pinned-tab.svg" color="#c83539" />
 <meta name="theme-color" content="#ffffff" />
 
-<!-- Microformats -->
-<link rel="profile" href="http://microformats.org/profile/hcard" />
-
 <!-- Twitter Card -->
 {% include twitterCard.html %}
 
@@ -30,7 +27,7 @@
 <!-- Indie.Auth -->
 <link rel="authorization_endpoint" href="https://indieauth.com/auth" />
 <link rel="token_endpoint" href="https://tokens.indieauth.com/token" />
-<link rel="micropub" href="https://vincentp-micropub.herokuapp.com/pesos" />
+<link rel="micropub" href="https://mastr-cntrl.herokuapp.com/micropub" />
 
 <!--Around The Web -->
 <link rel="me" href="{{site.data.author.github.url}}"  />
@@ -41,9 +38,9 @@
 <link rel="me" href="{{site.data.author.codepen.url}}"  />
 
 <!-- Feeds -->
-<link rel="alternate feed" type="application/rss+xml" title="Articles by Vincent Pickering in RSS format" href="{{site.data.feeds.xml.articles}}" />
+<link rel="alternate feed" type="application/rss+xml" title="Articles by Vincent Pickering in RSS format" href="{{site.url}}/feeds/articles.xml" />
 <link rel="alternate feed" type="application/json" title="Articles by Vincent Pickering in JSON format" href="{{site.url}}/feeds/articles.json" />
-<link rel="alternate feed" type="application/rss+xml" title="Notes by Vincent Pickering in RSS format" href="{{site.data.feeds.xml.notes}}" />
+<link rel="alternate feed" type="application/rss+xml" title="Notes by Vincent Pickering in RSS format" href="{{{site.url}}/feeds/notes.xml" />
 <link rel="alternate feed" type="application/json" title="Notes by Vincent Pickering in JSON format" href="{{site.url}}/feeds/notes.json" />
 
 <!-- CSS -->
