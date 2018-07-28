@@ -12,7 +12,7 @@ tags:
         {% include meta.html %}
     </head>
 
-    <body itemscope itemtype="http://schema.org/WebPage" class="pa0 ma0">
+    <body itemscope itemtype="https://schema.org/WebPage" class="pa0 ma0">
         <div>
             {% include navigation.html %}
             {% include hcard.html %}
@@ -22,7 +22,7 @@ tags:
                     <div class="e-content layoutGrid center">
                         <h1 class="ma0 mb5 pa0 lh-heading f4 red">Lifestream</h1>
                         {% for post in site.posts limit:40 %}
-                            <article itemscope itemtype="http://schema.org/Blog" class="h-entry lifestreamGrid">
+                            <article itemscope itemtype="https://schema.org/Blog" class="h-entry lifestreamGrid">
                                 <div class="borderBefore relative {% if forloop.last == true %}mb5{%endif%}">
                                     <div class="circle center db relative br-circle  foreground w-20-fixed h-20-fixed center mt--fixed-6 {% if forloop.first == true %}bg-red {% else %} bg-black {% endif%}"></div>
                                 </div>
