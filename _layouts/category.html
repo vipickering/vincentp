@@ -4,7 +4,7 @@
     {% include meta.html %}
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" class="ma0 pa0">
+<body itemscope itemtype="https://schema.org/WebPage" class="ma0 pa0">
     <div>
         {% include navigation.html %}
 
@@ -23,7 +23,7 @@
                     {% endif %}
 
                     {% for post in pageType %}
-                        <article itemscope itemtype="http://schema.org/Blog" class="h-entry mb5">
+                        <article itemscope itemtype="https://schema.org/Blog" class="h-entry mb5">
                                 <a href="{{site.url}}{{ post.url }}" class="rm-underline pb5" title="{{ post.title }}">
                                     <time itemprop="dateCreated" class="dt-published f7 light-grey" datetime="{{ post.date | date_to_xmlschema }}">
                                         {{ post.date | date_to_string: "ordinal" }} <span>at</span> {{ post.date | date: "%H" }}:{{ post.date | date: "%M%P" }}

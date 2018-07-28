@@ -20,8 +20,8 @@ During my career I have been incredibly fortunate to work on a diverse range of 
 - Virtual reality
 - Sites for major brands and start-ups.
 - Medical systems, doctors systems and UK wide medical systems applications.
-- [A global social media platform](http://www.xt3.com){:rel="external"}
-- [Computer games](http://uk.playstation.com/tag){:rel="external"}
+- A global social media platform
+- Computer games
 
 I love a challenge or complex problems to solve. Tailoring solutions specifically to your business needs and skill levels. An expert at breaking down complex problems, explaining them in simple language. I can help you get to the root of a problem and communicate with all parts of your business what is happening.
 
@@ -31,10 +31,11 @@ If you have something specific to discuss please [contact me directly](mailto:{{
 
 A small sample of clients I've worked with:
 
+- [Numiko](https://numiko.com/){:rel="external"}
 - [Infinity Works](https://www.infinityworks.com){:rel="external"}
 - [UK Government](https://www.gov.uk){:rel="external"}
-- [Capita](http://www.capita.com){:rel="external"}
-- [BBC](http://www.bbc.co.uk){:rel="external"}
+- [Capita](https://www.capita.com/){:rel="external"}
+- [BBC](https://www.bbc.co.uk){:rel="external"}
 - [EE](http://ee.co.uk){:rel="external"}
 - [Emis](https://www.emishealth.com){:rel="external"}
 - [Nokia](https://www.nokia.com){:rel="external"}

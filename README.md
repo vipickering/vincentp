@@ -2,15 +2,15 @@
 
 ## Requirements
 
-This blog runs on [Jekyll](https://jekyllrb.com/).
+This blog runs on [Jekyll](https://jekyllrb.com).
 
-[Node](https://nodejs.org/en/) packages are used with [PostCSS](http://postcss.org/) to compile the CSS.
+[Node](https://nodejs.org) packages are used with [PostCSS](https://postcss.org) to compile the CSS.
 
-It uses [Bundler](http://bundler.io/) to package the Gems.
+It uses [Bundler](https://bundler.io) to package the Gems.
 
-Deployment and hosting is via [Netlify](https://www.netlify.com/).
+Deployment and hosting is via [Netlify](https://www.netlify.com).
 
-The [Micropub API](https://github.com/vipickering/micropub-API) supplies webmentions and other [indieweb](https://indieweb.org/) content
+[Mastr Cntrl](https://github.com/vipickering/micropub-API) supplies webmentions and other [indieweb](https://indieweb.org) content
 
 **Ruby version 2.4.3 is a minimum requirement.**
 
