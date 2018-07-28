@@ -36,14 +36,13 @@ A small sample of clients I've worked with:
 - [UK Government](https://www.gov.uk){:rel="external"}
 - [Capita](https://www.capita.com/){:rel="external"}
 - [BBC](https://www.bbc.co.uk){:rel="external"}
-- [EE](http://ee.co.uk){:rel="external"}
+- [EE](https://ee.co.uk){:rel="external"}
 - [Emis](https://www.emishealth.com){:rel="external"}
 - [Nokia](https://www.nokia.com){:rel="external"}
-- [NHS](http://www.nhs.uk/pages/home.aspx){:rel="external"}{:rel="external"}
-- [The Vatican](http://www.xt3.com){:rel="external"}
+- [NHS](https://www.nhs.uk/pages/home.aspx){:rel="external"}{:rel="external"}
 - [Microsoft](https://www.microsoft.com){:rel="external"}
-- [General Motors](http://www.gm.com/index.html){:rel="external"}
-- [Channel 5](http://www.channel5.com/){:rel="external"}
+- [General Motors](https://www.gm.com/index.html){:rel="external"}
+- Channel 5
 - [Sony](https://www.playstation.com/){:rel="external"}
 - [giffgaff](https://www.giffgaff.com){:rel="external"}
 

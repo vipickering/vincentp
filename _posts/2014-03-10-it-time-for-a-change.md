@@ -27,7 +27,7 @@ So workshops are not the way to handle further debate, but Lea is right. When yo
 
 Currently our industry is terrible at this. We have conferences, which are great for voicing ideas and getting them out in the open, workshops and hackathons for teaching and working together, but nothing to take ideas further or develop them. What we do is the same silly approach to developing ideas that mathematicians or physicists do, disappear in to a room and try to work it out on your own.
 
-[Polymath](http://polymathprojects.org){:rel="external"} is a project started as an effort for mathematicians to stop working individually on problems and come together to share their knowledge on previously unsolved equations. It’s already solved many equations previously deemed unsolvable and is a fantastic example of coming together using group knowledge to achieve the previously unachievable.
+[Polymath](https://polymathprojects.org){:rel="external"} is a project started as an effort for mathematicians to stop working individually on problems and come together to share their knowledge on previously unsolved equations. It’s already solved many equations previously deemed unsolvable and is a fantastic example of coming together using group knowledge to achieve the previously unachievable.
 
 ## Stop Being Dumb
 
@@ -43,7 +43,7 @@ When we lay it out like this, the missing part is quite clear. We don’t have a
 
 ## Work Smarter
 
-What’s needed is a lightning rod to draw people together and discuss ideas after a conference, to raise problems we all have and work smarter to solve them. You see, humans work better together when they can have [meaningful conversation](http://vincentp.me/blog/meaningful-debate) face to face. We are more industrious and iterate faster.
+What’s needed is a lightning rod to draw people together and discuss ideas after a conference, to raise problems we all have and work smarter to solve them. You see, humans work better together when they can have [meaningful conversation](https://vincentp.me/blog/meaningful-debate) face to face. We are more industrious and iterate faster.
 
 In February, at Hey! Stac [I presented my vision](https://speakerdeck.com/vincentp/the-need-for-conversation){:rel="external"} for how this type of event (I am calling Summit) could work.
 
@@ -55,7 +55,7 @@ What I am proposing in the slides is a 2 part idea, comprised of a site and day 
 
 The site would be a mechanism for people to raise questions and ideas that warrant further discussion. These are categorised and up voted to show demand.
 
-Think of it as a mash-up between [Stack Overflow](http://stackoverflow.com){:rel="external"} and [Sony Share](http://share.blog.us.playstation.com/ideas/status/ideas-in-action/){:rel="external"}. What we are doing here is peer reviewing the suggestions and making sure the most needed, desired and valid ideas float to the top.
+Think of it as a mash-up between [Stack Overflow](https://stackoverflow.com){:rel="external"} and [Sony Share](https://share.blog.us.playstation.com/ideas/status/ideas-in-action/){:rel="external"}. What we are doing here is peer reviewing the suggestions and making sure the most needed, desired and valid ideas float to the top.
 
 ## Summit
 

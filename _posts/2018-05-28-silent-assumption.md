@@ -16,7 +16,7 @@ tags: "process productivity thoughts ux"
 <blockquote>
     <p>Critical thinking requires you to be critical in all things, not just what is convenient</p>
     <footer>
-       <cite><a href="http://vincentp.me">Vincent Pickering</a></cite>
+       <cite><a href="https://vincentp.me">Vincent Pickering</a></cite>
     </footer>
 </blockquote>
 

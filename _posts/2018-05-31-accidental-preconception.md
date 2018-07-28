@@ -16,7 +16,7 @@ tags: "process productivity thoughts ux"
 <blockquote>
     <p>I saw someone else do it; Is not a valid reason.</p>
     <footer>
-       <cite><a href="http://vincentp.me">Vincent Pickering</a></cite>
+       <cite><a href="https://vincentp.me">Vincent Pickering</a></cite>
     </footer>
 </blockquote>
 
@@ -36,6 +36,6 @@ Imply that you are the one who is ‘behind’ everyone else and need to catch u
 
 Create time in the day to allow others to explain what they did and why. Not only can you learn from them but if they make a mistake, the act of talking aloud will alert them to this (as the impact of a decision is made real) and they can rectify it avoiding embarrassment.
 
-Encourage designers to share small updates (weekly is best) with teams. Create a feedback loop between the people implementing the design and those crafting the user experience. If the designer hits a problem the weekly sessions work great to fix the problem together, this is in essence, a version of [Jikoda](http://www.toyota-global.com/company/vision_philosophy/toyota_production_system/jidoka.html){:rel="external"}. Many minds on a problem all at once may offer a solution far quicker than a lone individual trying to solve the problem on their own.
+Encourage designers to share small updates (weekly is best) with teams. Create a feedback loop between the people implementing the design and those crafting the user experience. If the designer hits a problem the weekly sessions work great to fix the problem together, this is in essence, a version of [Jikoda](https://www.toyota-global.com/company/vision_philosophy/toyota_production_system/jidoka.html){:rel="external"}. Many minds on a problem all at once may offer a solution far quicker than a lone individual trying to solve the problem on their own.
 
 Teamwork and vigilance are key to staying on top of accidental pre-conceptions and keeping the work free of assumption.

@@ -2197,7 +2197,7 @@
       "data": {
         "author": {
           "name": "Ethan Marcotte",
-          "url": "http://ethanmarcotte.com/",
+          "url": "https://ethanmarcotte.com/",
           "photo": "https://webmention.io/avatar/pbs.twimg.com/3be36673541712658118b95fc2690cacb3fd56011bb23738e6c8944982b40bc2.jpg"
         },
         "url": "https://twitter.com/beep/status/994275380486967367",
@@ -2209,7 +2209,7 @@
       "activity": {
         "type": "reply",
         "sentence": "Ethan Marcotte replied 'Oh, good catch—I’d missed that. Now I’m curious, too. (Maybe it’s old Google Voi...' to a tweet https://vincentp.me/blog/google-duplex",
-        "sentence_html": "<a href=\"http://ethanmarcotte.com/\">Ethan Marcotte</a> replied 'Oh, good catch—I’d missed that. Now I’m curious, too. (Maybe it’s old Google Voi...' to a tweet <a href=\"https://vincentp.me/blog/google-duplex\">https://vincentp.me/blog/google-duplex</a>"
+        "sentence_html": "<a href=\"https://ethanmarcotte.com/\">Ethan Marcotte</a> replied 'Oh, good catch—I’d missed that. Now I’m curious, too. (Maybe it’s old Google Voi...' to a tweet <a href=\"https://vincentp.me/blog/google-duplex\">https://vincentp.me/blog/google-duplex</a>"
       },
       "target": "https://vincentp.me/blog/google-duplex"
     },
@@ -2247,7 +2247,7 @@
       "data": {
         "author": {
           "name": "Anton Andreasson",
-          "url": "http://andreasson.org/",
+          "url": "https://andreasson.org",
           "photo": "https://webmention.io/avatar/pbs.twimg.com/63d7e113812643d3baf7bf55a36345b9805d2eeaf8b30b1d66682f94b6dfb4d2.jpeg"
         },
         "url": "https://twitter.com/nat0n/status/994458097618997249",
@@ -2259,7 +2259,7 @@
       "activity": {
         "type": "link",
         "sentence": "Anton Andreasson posted 'What..?! Answers, please. We want them. #ai #bigdata' linking to https://vincentp.me/blog/google-duplex",
-        "sentence_html": "<a href=\"http://andreasson.org/\">Anton Andreasson</a> posted 'What..?! Answers, please. We want them. #ai #bigdata' linking to <a href=\"https://vincentp.me/blog/google-duplex\">https://vincentp.me/blog/google-duplex</a>"
+        "sentence_html": "<a href=\"https://andreasson.org/\">Anton Andreasson</a> posted 'What..?! Answers, please. We want them. #ai #bigdata' linking to <a href=\"https://vincentp.me/blog/google-duplex\">https://vincentp.me/blog/google-duplex</a>"
       },
       "target": "https://vincentp.me/blog/google-duplex"
     },
@@ -2272,7 +2272,7 @@
       "data": {
         "author": {
           "name": "Faisal Qureshi",
-          "url": "http://fqure.github.io",
+          "url": "https://fqure.github.io",
           "photo": "https://webmention.io/avatar/pbs.twimg.com/1536c245c9048e61033bebd25f19679d804bfe617ebc3e004759da1e52544656.jpg"
         },
         "url": "https://twitter.com/fqure/status/997279024316665857",
@@ -2284,7 +2284,7 @@
       "activity": {
         "type": "reply",
         "sentence": "Faisal Qureshi replied 'Good point. Not sure why twiiter flagged your tweet as possibly offense' to a tweet https://vincentp.me/blog/google-duplex",
-        "sentence_html": "<a href=\"http://fqure.github.io\">Faisal Qureshi</a> replied 'Good point. Not sure why twiiter flagged your tweet as possibly offense' to a tweet <a href=\"https://vincentp.me/blog/google-duplex\">https://vincentp.me/blog/google-duplex</a>"
+        "sentence_html": "<a href=\"https://fqure.github.io\">Faisal Qureshi</a> replied 'Good point. Not sure why twiiter flagged your tweet as possibly offense' to a tweet <a href=\"https://vincentp.me/blog/google-duplex\">https://vincentp.me/blog/google-duplex</a>"
       },
       "target": "https://vincentp.me/blog/google-duplex"
     },

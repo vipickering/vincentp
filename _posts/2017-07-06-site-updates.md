@@ -22,7 +22,7 @@ In redesigning the site I made the following decisions:
 
 I think I managed to achieve all three.
 
-The size of the CSS is down to 1.5kb (Gzipped). I achieved this by rolling my own functional CSS approach similar to [Tachyons](http://tachyons.io). I could reduce this further by replacing the Jekyll rendering with my own that supports my CSS. But at this point it feels like the amount of effort required might not be worth 0.5kb.
+The size of the CSS is down to 1.5kb (Gzipped). I achieved this by rolling my own functional CSS approach similar to [Tachyons](https://tachyons.io). I could reduce this further by replacing the Jekyll rendering with my own that supports my CSS. But at this point it feels like the amount of effort required might not be worth 0.5kb.
 
 Functional CSS has totally won me over as a method to deliver CSS. It is smaller, compact and doesn't suffer from bloat that traditional BEM &amp; OOCSS approaches have.
 

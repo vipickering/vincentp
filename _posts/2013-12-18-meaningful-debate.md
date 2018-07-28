@@ -12,7 +12,7 @@ tags: "thoughts technology meetups social speaking"
 permalink : /blog/:title
 ---
 
-Recently I read the article [Reinventing The Tech Conference Experience](http://coding.smashingmagazine.com/2013/11/20/reinventing-the-tech-conference-experience/){:rel="external"} on Smashing Magazine, and it felt like a classic case of mis-diagnosing a problem.
+Recently I read the article [Reinventing The Tech Conference Experience](https://coding.smashingmagazine.com/2013/11/20/reinventing-the-tech-conference-experience/){:rel="external"} on Smashing Magazine, and it felt like a classic case of mis-diagnosing a problem.
 
 ***Have you ever been to the doctor convinced you had a problem in one part of your body only to be told it is actually originating somewhere else?***
 
@@ -30,7 +30,7 @@ Consider the question:
 
 When a speaker addresses the audience, they are starting a 1 to many conversation, so in order to diagnose the problem let’s first understand how a conversation works and at what points it breaks down.
 
-There has been a great deal of research done on the conversation model, in particular Dr Paul Pangaro has done a [large amount of work](http://vimeo.com/43677920){:rel="external"}in this area, de-constructing the effective conversation model in to it’s constituent components so that we can understand and write software to have meaningful conversation.
+There has been a great deal of research done on the conversation model, in particular Dr Paul Pangaro has done a [large amount of work](https://vimeo.com/43677920){:rel="external"}in this area, de-constructing the effective conversation model in to it’s constituent components so that we can understand and write software to have meaningful conversation.
 
 Dr Paul Pangaro uses the acronym **C-L-E-A-T** which is broken down in to these parts:
 

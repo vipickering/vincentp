@@ -16,7 +16,7 @@ tags: "process thoughts ux failure"
 <blockquote>
     <p>I haven't met a designer alive that wouldn't revise their design thinking or approach if given an opportunity to repeat a project from scratch.</p>
     <footer>
-       <cite><a href="http://vincentp.me">Vincent Pickering</a></cite>
+       <cite><a href="https://vincentp.me">Vincent Pickering</a></cite>
     </footer>
 </blockquote>
 

@@ -17,7 +17,7 @@ permalink : /blog/:title
 <blockquote>
     <p>All ideas should have an elevator pitch. If you can't boil it down; the idea needs more work.</p>
     <footer>
-       <cite><a href="http://vincentp.me">Vincent Pickering</a></cite>
+       <cite><a href="https://vincentp.me">Vincent Pickering</a></cite>
     </footer>
 </blockquote>
 
