@@ -12,9 +12,9 @@ tags: "jekyll"
 permalink : /blog/:title
 ---
 
-I selected [Jekyll](http://jekyllrb.com){:rel="external"} as the platform for my blog after trying out many other options. It’s a great blogging platform, and its balancing between code flexibility and simple blogging software really hits my sweet spot.
+I selected [Jekyll](https://jekyllrb.com){:rel="external"} as the platform for my blog after trying out many other options. It’s a great blogging platform, and its balancing between code flexibility and simple blogging software really hits my sweet spot.
 
-One of the major selling points with Jekyll, is the tight integration with [GitHub Pages](http://pages.github.com){:rel="external"}. The easy deployment and removal of dealing with terrible hosting companies, FTP servers and all the usual deployment issues are a huge boon, especially when most people blog in their spare time. The last thing you want to deal with at 1AM is a server that has exceeded its bandwidth and gone down.
+One of the major selling points with Jekyll, is the tight integration with [GitHub Pages](https://pages.github.com){:rel="external"}. The easy deployment and removal of dealing with terrible hosting companies, FTP servers and all the usual deployment issues are a huge boon, especially when most people blog in their spare time. The last thing you want to deal with at 1AM is a server that has exceeded its bandwidth and gone down.
 
 ## Life Is Always Messy
 
@@ -40,7 +40,7 @@ I have a development environment, this is my standard Jekyll environment and rep
 
 My second repository is my live site. This is my GitHub pages site and only contains the compiled live code, plus things like a CNAME file and various live only files.
 
-The final piece to the puzzle is that I have a very simple <a href="#automater">Automater</a> script that watches the _site compiled folder and copies the data in this to the live site repository. Automater is one of those tools that is quite powerful and often gets overlooked. It worth learning it can save you quite a lot of time in the long run, think [Grunt](http://gruntjs.com){:rel="external"} but for system tasks.
+The final piece to the puzzle is that I have a very simple <a href="#automater">Automater</a> script that watches the _site compiled folder and copies the data in this to the live site repository. Automater is one of those tools that is quite powerful and often gets overlooked. It worth learning it can save you quite a lot of time in the long run, think [Grunt](https://gruntjs.com){:rel="external"} but for system tasks.
 
 When it comes to deploying code from dev to live, I use Jekyll’s inbuilt method of hiding files on compile. If you are not sure how this works all you simply need to do is add an underscore in-front of each file or folder you don’t want live, these are then ignored by Jekyll when compiling.
 

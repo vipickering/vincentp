@@ -2,7 +2,7 @@
 layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="https://www.w3.org2005/Atom">
 <channel>
     <title>Vincentp Notes</title>
      <description>{{ site.description | xml_escape }}</description>
@@ -21,8 +21,8 @@ layout: null
         <link>{{ post.url | prepend: site.url }}</link>
         <description>{{ post.content | xml_escape }}</description>
         <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-        <link rel="hub"  href="https://vincentp.superfeedr.com/" xmlns="http://www.w3.org/2005/Atom" />
-        <link rel="self" href="https://vincentp.me/feeds/articles.xml" xmlns="http://www.w3.org/2005/Atom" />
+        <link rel="hub"  href="https://vincentp.superfeedr.com/" xmlns="https://www.w3.org2005/Atom" />
+        <link rel="self" href="https://vincentp.me/feeds/articles.xml" xmlns="https://www.w3.org2005/Atom" />
         <guid isPermaLink="true">{{ post.url | prepend: site.url }}</guid>
         {% for tag in post.tags %}
         <category>{{tag}}</category>

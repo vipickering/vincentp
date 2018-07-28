@@ -30,7 +30,7 @@ At the bar, we had a choice of some interesting wines, fantastic beers and spark
   <img src="{{site.url}}/images/blog/2013-11-19/pils.jpg " width="612" alt="Madonna Pils"/>
 </figure>
 
-After drinks, [we were shown a short video](http://www.youtube.com/embed/uqvTK-PE3jA){:rel="external"} to illustrate the theme of the evening, which was clearly the inspiration for our first course.
+After drinks, [we were shown a short video](https://www.youtube.com/embed/uqvTK-PE3jA){:rel="external"} to illustrate the theme of the evening, which was clearly the inspiration for our first course.
 
 We were then shown to our seats ready for the theatre to begin.
 
@@ -43,7 +43,7 @@ Each course was served along with accompanying music, which was a fun addition.
 
 ## Don’t Bite The Hand That Feeds You #2
 
-The first course was a fun twist on the previous events course by the same name, where food was served on [porcelain hands](http://ataleoftwosittings.wordpress.com/2013/09/21/pop-up-evening-strano-leeds/){:rel="external"}. On each table were a bib and a plastic glove, when the food arrived the waiter smiled and with a wink of the eye said "You Know What To Do". And with that walked off. It was around this time we realised we didn’t have any cutlery and they weren’t going to bring us *any*.
+The first course was a fun twist on the previous events course by the same name, where food was served on [porcelain hands](https://ataleoftwosittings.wordpress.com/2013/09/21/pop-up-evening-strano-leeds/){:rel="external"}. On each table were a bib and a plastic glove, when the food arrived the waiter smiled and with a wink of the eye said "You Know What To Do". And with that walked off. It was around this time we realised we didn’t have any cutlery and they weren’t going to bring us *any*.
 
 Once we had put on our bibs and plastic gloves we got stuck in to the first course. It was a bowl of spaghetti, topped with sweetbreads and lamb belly. Incredibly soft. I’ve never eaten spaghetti by hand before and it was quite a fun way to set the tone for the evening.
 
@@ -98,4 +98,4 @@ The final course of the night was a desert made from all the things that killed 
 
 - [Twitter](https://twitter.com/stranoleeds){:rel="external"}
 - [Facebook](https://www.facebook.com/StranoLeeds){:rel="external"}
-- [Last Month’s Event](http://ataleoftwosittings.wordpress.com/2013/09/21/pop-up-evening-strano-leeds/){:rel="external"}
+- [Last Month’s Event](https://ataleoftwosittings.wordpress.com/2013/09/21/pop-up-evening-strano-leeds/){:rel="external"}

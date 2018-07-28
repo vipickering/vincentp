@@ -17,7 +17,7 @@ permalink : /blog/:title
 <blockquote>
     <p>Man or machine should matter not. Conversational mechanisms are universal.</p>
     <footer>
-       <cite><a href="http://vincentp.me">Vincent Pickering</a></cite>
+       <cite><a href="https://vincentp.me">Vincent Pickering</a></cite>
     </footer>
 </blockquote>
 
@@ -25,7 +25,7 @@ Design systems exist to facilitate communication between man and machine. Fulfil
 
 Through code, facilitating machines communicating with machines is easily achievable. A designed system will fail when neglecting the human element. Crafting systems that converse with humans clearly and understand feedback received is the primary goal. To achieve this goal we must first analyse how humans speak to each other.
 
-In “[Designing for Conversation](http://pangaro.com/designing-for-conversation.html)” [Dr. Paul Pangaro](http://www.pangaro.com/) and [Hugh Dubberly](http://www.dubberly.com/about) model[^1] human conversation in to the following components:
+In “[Designing for Conversation](https://pangaro.com/designing-for-conversation.html)” [Dr. Paul Pangaro](https://www.pangaro.com/) and [Hugh Dubberly](https://www.dubberly.com/about) model[^1] human conversation in to the following components:
 
 {% include diagrams/cybernetics-conversation-model.html %}
 
@@ -52,7 +52,7 @@ Every conversation should end by participants deciding between them on an agreed
 <blockquote>
     <p>If we don't understand why, where and how. What hope do we have in solving the problem at all?</p>
     <footer>
-       <cite><a href="http://vincentp.me">Vincent Pickering</a></cite>
+       <cite><a href="https://vincentp.me">Vincent Pickering</a></cite>
     </footer>
 </blockquote>
 
@@ -131,7 +131,7 @@ For example, you would be unlikely to attempt a complex discussion while in a lo
 <blockquote>
     <p>Previous interactions with a system, shape the path of future engagements.</p>
     <footer>
-       <cite><a href="http://vincentp.me">Vincent Pickering</a></cite>
+       <cite><a href="https://vincentp.me">Vincent Pickering</a></cite>
     </footer>
 </blockquote>
 
@@ -215,4 +215,4 @@ Productive conversation is a cornerstone in creating a successful system. Once a
 - If you want your system to be loved. It needs to be follow basic human etiquette and earn respect over time.
 
 <div class="f-mono black f7 ttu" data-type="notes"><span>Notes</span></div>
-[^1]: Reference: [http://pangaro.com/presents/Pangaro_IXDA_2017_v5_distro.pdf](http://pangaro.com/presents/Pangaro_IXDA_2017_v5_distro.pdf)
+[^1]: Reference: [https://pangaro.com/presents/Pangaro_IXDA_2017_v5_distro.pdf](https://pangaro.com/presents/Pangaro_IXDA_2017_v5_distro.pdf)

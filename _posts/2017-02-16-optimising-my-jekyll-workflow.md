@@ -55,7 +55,7 @@ Create CSS flexible enough to work with future code additions. Not overly prescr
 
 It’s a fair assumption that anyone reading my blog is in the web industry, and thus, not a leap to assume they are using a modern browser. I decided for this blog to embrace cutting edge web standards and just write CSS.
 
-Sass can be a needless abstraction these days and distance you from writing good code. I settled on using [pleeease](http://pleeease.io/){:rel="external"} a Post CSS plugin.
+Sass can be a needless abstraction these days and distance you from writing good code. I settled on using [pleeease](https://pleeease.io/){:rel="external"} a Post CSS plugin.
 
 Pleeease allows me to write vanilla CSS. But it also provides modern Post CSS tooling such as:
 

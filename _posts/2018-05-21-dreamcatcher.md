@@ -17,7 +17,7 @@ permalink : /blog/dreamcatcher
 <blockquote>
     <p>The age of an idea does not relate to its value.</p>
     <footer>
-       <cite><a href="http://vincentp.me">Vincent Pickering</a></cite>
+       <cite><a href="https://vincentp.me">Vincent Pickering</a></cite>
     </footer>
 </blockquote>
 

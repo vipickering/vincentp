@@ -12,7 +12,7 @@ tags: "process technology html css ux"
 permalink : /blog/:title
 ---
 
-Intended as a companion piece to my previous post on my frontend process, this post discusses my App design processes, there is some overlap so I recommend if you enjoy reading this post you should also [check out](http://vincentp.me/blog/my-front-end-development-process-start-to-finish) the other one.
+Intended as a companion piece to my previous post on my frontend process, this post discusses my App design processes, there is some overlap so I recommend if you enjoy reading this post you should also [check out](https://vincentp.me/blog/my-front-end-development-process-start-to-finish) the other one.
 
 Unlike many App designers, I do not focus exclusively on iOS and have created Apps in the past for multiple platforms and designed some Apps to work across many platforms. This type of App design presents many different challenges you may not be familiar with, which can become especially complex when focusing on mobile Apps and their different interaction methods, App store submission processes, resolution sizes or when you have to design an App that must support multiple platforms.
 
@@ -22,7 +22,7 @@ The majority of designers tend to use either an iPhone or Android for their dail
 
 Not only are each of the interaction models different between these platforms they have their own quirks and nuances, its second nature for an iPhone user to double tap the home button and close an App running in the background, but a Windows Phone user designing on iPhone may not know this.
 
-My daily phone of choice is an [iPhone](http://www.apple.com/iphone){:rel="external"}, but while this has won out in the feature set for me, I try to remain open minded:
+My daily phone of choice is an [iPhone](https://www.apple.com/iphone){:rel="external"}, but while this has won out in the feature set for me, I try to remain open minded:
 
 > My requirements and means are not the same as someone else’s.
 
@@ -62,7 +62,7 @@ So to this end, I start with an blank notebook and quickly begin sketching label
 <img src="{{site.url}}/images/blog/2013-11-11/ui-stencil.jpg" width="612" alt="An image of a UI Stencil next to some wireframes"/>
 </figure>
 
-Once I have something I am roughly OK with, I begin to add more fidelity using a [UI Stencil](http://www.uistencils.com/products/iphone-stencil-kit) they are a great way to focus on a higher fidelity mock-up and not get too distracted by the look and feel but at the same time keeping it neat and fast to draw.
+Once I have something I am roughly OK with, I begin to add more fidelity using a [UI Stencil](https://www.uistencils.com/products/iphone-stencil-kit) they are a great way to focus on a higher fidelity mock-up and not get too distracted by the look and feel but at the same time keeping it neat and fast to draw.
 
 I map out the screens one at a time until I think I have them all, then at this point I create an information map. An information map is like a site-map mashed up with a functional diagram, it’s a great way to map out key functions in Apps. Depending upon the complexity of the App you can map out individual Use Case routes or display all the key routes on one diagram.
 
@@ -91,11 +91,11 @@ Now comes the fun part, I take the Information Map with the sketched wire-frames
 
 Now all the initial UX work is done we can start designing!
 
-I follow the same process for collecting visual inspiration and deciding artistic direction as [I do with sites](http://vincentp.me/blog/my-front-end-development-process-start-to-finish).
+I follow the same process for collecting visual inspiration and deciding artistic direction as [I do with sites](https://vincentp.me/blog/my-front-end-development-process-start-to-finish).
 
 While in my work designing on the web I have been unable to ditch Photoshop yet, I have recently transitioned to [Sketch] for my App designing. It’s a fantastic tool to work with and has a ton of great tools to speed up App design. While designing I also use [Skala Preview] with [this plugin](https://github.com/marcisme/sketch-preview){:rel="external"} to allow me to see the design taking shape in real-time on the phone. Adding this context really helps you get sizing and proportions right. Things that seem a great idea on killer large iMac screen don’t always seem the best idea on a small iPhone 4 screen later.
 
-In my opinion, there still is a gap in the market for a great designer version of [GitHub](http://www.github.com){:rel="external"}. It always makes me nervous when designing that I may loose something I really want to revert or keep later. I have tried [Adobe Creative Cloud](http://www.adobe.com/uk/creativecloud.html){:rel="external"}, which is basically [Dropbox](http://www.dropbox.com){:rel="external"}, with more storage as standard, but goes down constantly and is pretty unreliable. [Layervault](http://www.layervault.com){:rel="external"} was a better alternative, but I also ran in to issues with content not being saved properly and a lot of slowdown every time my computer loaded.
+In my opinion, there still is a gap in the market for a great designer version of [GitHub](https://www.github.com){:rel="external"}. It always makes me nervous when designing that I may loose something I really want to revert or keep later. I have tried [Adobe Creative Cloud](https://www.adobe.com/uk/creativecloud.html){:rel="external"}, which is basically [Dropbox](https://www.dropbox.com){:rel="external"}, with more storage as standard, but goes down constantly and is pretty unreliable. [Layervault](https://www.layervault.com){:rel="external"} was a better alternative, but I also ran in to issues with content not being saved properly and a lot of slowdown every time my computer loaded.
 
 So to recap, now we have:
 
@@ -147,19 +147,19 @@ Finally, a short note on App stores approval. This is often something that gets 
 
 ## Misc Productivity &amp; Planning Tools
 
-- [Pinboard](http://pinboard.in){:rel="external"}
-- [Moleskin](http://www.moleskine.com/gb/collections/model/product/squared-soft-notebook-extra-large){:rel="external"}
-- [UI Stencils](http://www.uistencils.com/products/iphone-stencil-kit){:rel="external"}
+- [Pinboard](https://pinboard.in){:rel="external"}
+- [Moleskin](https://www.moleskine.com/gb/collections/model/product/squared-soft-notebook-extra-large){:rel="external"}
+- [UI Stencils](https://www.uistencils.com/products/iphone-stencil-kit){:rel="external"}
 
 ## Coding Tools
 
--  [Layervault](http://layervault.com){:rel="external"}
+-  [Layervault](https://layervault.com){:rel="external"}
 
 ## App Design &amp; Wireframing Tools
 
--  [Skala Preview](http://bjango.com/mac/skalapreview/){:rel="external"}
--  [Instashare](http://instashareapp.com){:rel="external"}
--  [Sketch](http://www.bohemiancoding.com/sketch/){:rel="external"}
--  [Adobe Creative Cloud](http://www.adobe.com/uk/products/creativecloud.html){:rel="external"}
--  [Keynote](http://www.apple.com/uk/keynote/){:rel="external"} with [Blueprint](https://github.com/vipickering/Blueprint){:rel="external"}
+-  [Skala Preview](https://bjango.com/mac/skalapreview/){:rel="external"}
+-  [Instashare](https://instashareapp.com){:rel="external"}
+-  [Sketch](https://www.bohemiancoding.com/sketch/){:rel="external"}
+-  [Adobe Creative Cloud](https://www.adobe.com/uk/products/creativecloud.html){:rel="external"}
+-  [Keynote](https://www.apple.com/uk/keynote/){:rel="external"} with [Blueprint](https://github.com/vipickering/Blueprint){:rel="external"}
 -  [Flinto](https://www.flinto.com){:rel="external"}

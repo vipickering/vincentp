@@ -17,7 +17,7 @@ permalink : /blog/:title
 <blockquote>
     <p>Inspiration is a muscle like any other, you must learn how to flex it.</p>
     <footer>
-       <cite><a href="http://vincentp.me">Vincent Pickering</a></cite>
+       <cite><a href="https://vincentp.me">Vincent Pickering</a></cite>
     </footer>
 </blockquote>
 

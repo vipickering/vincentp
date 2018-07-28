@@ -20,11 +20,11 @@ There are a plethora of tests you *may* want to do in a project, my tests stub s
 
 * [Mocha](https://mochajs.org) or whatever your preferred test coding framework is.
 * [Istanbul](https://github.com/gotwarlost/istanbul)  for code coverage tests.
-* JavaScript coding style checks, [ESLint](http://eslint.org) is my preferred option.
+* JavaScript coding style checks, [ESLint](https://eslint.org) is my preferred option.
 * Sass coding style checks, [stylelint](https://stylelint.io) is my go to tool.
 * HTML validation tests with [Valimate](https://github.com/jamesseanwright/valimate)
 * [Broken Link Checker](https://github.com/stevenvachon/broken-link-checker).
-* Accessibility Checks with [Pa11y](http://pa11y.org)
+* Accessibility Checks with [Pa11y](https://pa11y.org)
 * Screenshot software, I like [Pageres](https://github.com/sindresorhus/pageres-cli).
 * [Textlint](https://textlint.github.io) to check for typos and writing style.
 
@@ -78,14 +78,14 @@ cd ../
 # Run Broken Link Checker
 for i in "${urls[@]}"
 do
-    blc http://localhost:3000/$i
+    blc https://localhost:3000/$i
 done
 
 # Pa11y accesibility checks
 echo "Starting Pa11y..."
 for i in "${urls[@]}"
 do
-    pa11y http://localhost:3000/$i --reporter html > accessibility/$i.html
+    pa11y https://localhost:3000/$i --reporter html > accessibility/$i.html
     # open -g accessibility/$i.html
     echo $i processed
 done
@@ -133,7 +133,7 @@ The broken link checker is inside a loop. Assign each item to a variable and pas
 # Run Broken Link Checker
 for i in "${urls[@]}"
 do
-    blc http://localhost:3000/$i
+    blc https://localhost:3000/$i
 done
 {% endhighlight %}
 
@@ -144,7 +144,7 @@ Loop through the <abbr title="Uniform Resource Locator">URL</abbr>s. Save each r
 echo "Starting Pa11y..."
 for i in "${urls[@]}"
 do
-    pa11y http://localhost:3000/$i --reporter html > accessibility/$i.html
+    pa11y https://localhost:3000/$i --reporter html > accessibility/$i.html
     echo $i processed
 done
 echo "Finished Pa11y"
