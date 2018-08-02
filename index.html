@@ -27,7 +27,7 @@ tags:
                                     <div class="circle center db relative br-circle  foreground w-20-fixed h-20-fixed center mt--fixed-6 {% if forloop.first == true %}bg-red {% else %} bg-black {% endif%}"></div>
                                 </div>
                                  <div class="pb5">
-                                     {% if post.layout == "checkin" %}
+                                    {% if post.layout == "checkin" %}
                                         {% include lifestream/checkin.html %}
                                     {% else  if post.layout == "instagram"%}
                                         {% include lifestream/instagram.html %}
