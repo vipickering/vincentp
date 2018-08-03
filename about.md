@@ -8,10 +8,6 @@ twitterCard: false
 tags:
 ---
 
-Hello, I'm {{site.data.author.name}} a {{site.data.author.job}} With over 18 years experience. I work across a large breadth of industries and technologies.
-
-## About
-
 During my career I have been incredibly fortunate to work on a diverse range of products and services :
 
 - Enterprise healthcare applications
