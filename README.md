@@ -10,7 +10,7 @@ It uses [Bundler](https://bundler.io) to package the Gems.
 
 Deployment and hosting is via [Netlify](https://www.netlify.com).
 
-[Mastr Cntrl](https://github.com/vipickering/micropub-API) supplies webmentions and other [indieweb](https://indieweb.org) content
+[Mastr Cntrl](https://github.com/vipickering/mastr-cntrl) supplies webmentions and other [indieweb](https://indieweb.org) content
 
 **Ruby version 2.4.3 is a minimum requirement.**
 
@@ -77,7 +77,7 @@ RSS is syndicated to Feedburner, since everything else never works properly. Fee
 
 ## Webmentions
 
-- [Jekyll-Get plugin](https://github.com/18F/jekyll-get) - Replies, reposts and likes are (temporarily) via (to be replaced by the Micropub API at a later date).
+- [Jekyll-Get plugin](https://github.com/18F/jekyll-get) - Replies, reposts and likes are (temporarily) via (to be replaced by Mastr CntrlI at a later date).
 - [Brid.gy](https://brid.gy/)
 - [Webmention.io](https://webmention.io/) - This content is stored in Webmention.io and generated at build, it is not currently cached (working on it).
 
