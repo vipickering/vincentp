@@ -11,8 +11,6 @@ twitterCard: true
 tags: "process thoughts ux failure"
 ---
 
-{% include shapes/split-circle.html %}
-
 <blockquote>
     <p>I haven't met a designer alive that wouldn't revise their design thinking or approach if given an opportunity to repeat a project from scratch.</p>
     <footer>

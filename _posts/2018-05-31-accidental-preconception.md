@@ -11,8 +11,6 @@ twitterCard: true
 tags: "process productivity thoughts ux"
 ---
 
-{% include shapes/polygon.html %}
-
 <blockquote>
     <p>I saw someone else do it; Is not a valid reason.</p>
     <footer>

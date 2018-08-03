@@ -11,8 +11,6 @@ twitterCard: true
 tags: "process thoughts ux failure"
 ---
 
-{% include shapes/kitty.html %}
-
 Failure can happen at many points in a scenario, care must be taken to constantly re-evaluate a solution checking for weakness through testing.
 
 On occasion it is not the outcome we must evaluate, it is our original input.

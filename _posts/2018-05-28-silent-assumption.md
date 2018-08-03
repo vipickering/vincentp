@@ -11,8 +11,6 @@ twitterCard: true
 tags: "process productivity thoughts ux"
 ---
 
-{% include shapes/square-circle.html %}
-
 <blockquote>
     <p>Critical thinking requires you to be critical in all things, not just what is convenient</p>
     <footer>

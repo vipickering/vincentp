@@ -11,8 +11,6 @@ twitterCard: true
 tags: "process thoughts ux ui problem-solving"
 ---
 
-{% include shapes/brain.html %}
-
 Humans on the whole, are uncomfortable with change and find the process unnerving. It is hard wired in to our being to keep us safe. What is familiar can be controlled, managed or manipulated, what we do not understand could yield danger.
 
 People create cyclical behaviours, set patterns that make their brain feel at ease and in control of their life. The weekly meal plan with the same 5 weekday meals re-occurring is a prime example of this. If you were unable to purchase the regular cut of beef for steak night, instead of abandoning the idea of steak entirely your brain will seek to change the meal as little as possible and look for another cut of meat that is as close to the original desire as possible. If you were unable to obtain beef at all breaking the usual cycle, stress begins and the brain spirals, latching on to anything else that may be familiar. A common trick the brain employs is to swap the days the meals occur and return for steak tomorrow instead, a subtle change to the week but overall not too jarring. Maintaining what is expected with the smallest of changes.

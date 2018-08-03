@@ -12,8 +12,6 @@ tags: "thoughts process"
 permalink : /blog/dreamcatcher
 ---
 
-{% include shapes/triangle.html %}
-
 <blockquote>
     <p>The age of an idea does not relate to its value.</p>
     <footer>

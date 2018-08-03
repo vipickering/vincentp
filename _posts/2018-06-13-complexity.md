@@ -11,8 +11,6 @@ twitterCard: true
 tags: "process thoughts ux ui problem-solving"
 ---
 
-{% include shapes/complexity.html %}
-
 The perfect house guest, stays for exactly the right amount of time and only asks for what the host can offer.
 
 While visiting a sandwich store I witnessed the following incident:
