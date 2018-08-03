@@ -12,9 +12,9 @@
                 <main id="content">
                     <article itemscope itemtype="https://schema.org/Blog">
                          <div class="mb5 mt-header">
-                            <h1 itemprop="headline" class="p-name ma0 pa0 f1">{{ page.title }}</h1>
+                            <h1 itemprop="headline" class="p-name ma0 pa0 f1 lh-heading ">{{ page.title }}</h1>
                             <p class="grey fw3 f6 italic lh-heading mb7">{{ page.summary }}</p>
-                            <p class="grey fw3 f7">Published by <a class="p-author u-url black" href="{{site.url}}" rel="author">{{ site.data.author.name }}</a> on               <time itemprop="dateCreated" class="dt-published red" datetime="{{ page.date | date_to_xmlschema }}">
+                            <p class="grey fw3 f7">Published by <a class="p-author u-url black" href="{{site.url}}" rel="author">{{ site.data.author.name }}</a> on <time itemprop="dateCreated" class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">
                                     {{ page.date | date_to_string: "ordinal" }} <span>at</span> {{ page.date | date: "%H" }}:{{ page.date | date: "%M%P" }}
                                 </time></p>
                         </div>
