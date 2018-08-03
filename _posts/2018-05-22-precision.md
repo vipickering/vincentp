@@ -12,8 +12,6 @@ tags: "process productivity thoughts"
 permalink : /blog/:title
 ---
 
-{% include shapes/dot.html %}
-
 <blockquote>
     <p>All ideas should have an elevator pitch. If you can't boil it down; the idea needs more work.</p>
     <footer>

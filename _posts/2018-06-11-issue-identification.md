@@ -11,8 +11,6 @@ twitterCard: true
 tags: "process thoughts ux ui problem-solving"
 ---
 
-{% include shapes/magnify.html %}
-
 Knowledge learnt on a subject does not bestow an ability to immediately solve a given problem on that topic. Previous learning provides a base from which a new solution can be formed, it does not provide a complete picture.
 
 Creatives may attempt to solve a problem by comparing similar solutions and regurgitating them with a tweak or superficial twist. This is not solving a problem correctly, it is more likened to hammering a jigsaw piece that nearly fits in to a hole it was not meant to go.

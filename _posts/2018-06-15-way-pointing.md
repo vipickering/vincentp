@@ -11,8 +11,6 @@ twitterCard: true
 tags: "process thoughts ux ui problem-solving"
 ---
 
-{% include shapes/waypointing.html %}
-
 Consider building a house.
 
 At first there is barren land. The foundations are dug, the walls erected and the roof created. Next, the rooms, plumbing and electrics are added. Finally the rooms are filled with things and the garden is created.

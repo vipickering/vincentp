@@ -11,8 +11,6 @@ twitterCard: true
 tags: "process thoughts ux ui problem-solving"
 ---
 
-{% include shapes/sanity.html %}
-
 If everything was created perfect the first time, the world would already be perfect.
 
 Accepting an answer at face value, can be detrimental to our research. Consider adding sanity checks to your tests to ensure data validity and weed out suspect responses.
