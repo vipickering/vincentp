@@ -44,7 +44,7 @@
 <link rel="alternate feed" type="application/json" title="Notes by Vincent Pickering in JSON format" href="{{site.url}}/feeds/notes.json" />
 
 <!-- CSS -->
-<link  rel="stylesheet" href="{{site.url}}/css/application.min.css" />
+<link  rel="stylesheet" href="{{ "/css/application.min.css" | prepend: site.baseurl }}?{{site.time | date: '%s%N'}}" />
 
 <title>{{ page.title }}</title>
 
