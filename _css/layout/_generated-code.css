@@ -3,7 +3,7 @@ Control styles output by Markdown
 */
 
 [data-type="blog"] > p {
-    margin: 0 0 var(--f7) 0;
+    margin: 0 0 var(--f4) 0;
 }
 
 [data-type="blog"] > h2,
@@ -13,18 +13,18 @@ Control styles output by Markdown
     color: var(--red);
     font-size: var(--f5);
     line-height: 1.25;
-    margin: 0 0 0 0;
+    margin: var(--f4) 0 0 0;
 }
 
 [data-type="blog"] > h3 {
     font-size: var(--f6);
     color: var(--black);
-    margin: var(--f6) 0 0 0;
+    margin: var(--f4) 0 0 0;
 }
 
 [data-type="blog"] > ul,
 [data-type="blog"] > ol {
-    margin: 0 0 var(--f5) 0;
+    margin: var(--f4) 0 var(--f3) 0;
 }
 
 [data-type="notes"] span,

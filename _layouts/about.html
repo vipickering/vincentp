@@ -7,6 +7,7 @@
     <body itemscope itemtype="https://schema.org/WebPage" class="ma0 pa0">
         <div>
             {% include navigation.html %}
+            {% include hcard.html %}
 
              <div class="h-entry">
                 {% include pageTitle.html %}
@@ -14,9 +15,6 @@
                 <main id="content">
                     <article itemscope itemprop="about">
                         <div class="e-content layoutGrid center" data-type="blog">
-                            <div class="pv5">
-                                <img src="{{site.data.author.profilePic}}" width="120" height="120" class="center db br-circle" alt="A picture of the author Vincent Pickering">
-                            </div>
                             {{content}}
                         </div>
                     </article>

@@ -12,8 +12,6 @@ tags: "thoughts technology process cybernetics"
 permalink : /blog/:title
 ---
 
-{% include shapes/circle.html %}
-
 ## Design in all forms is transaction facilitation
 
 Crafting usable, transparent interfaces for websites and software is forged in the facilitation of a shared dialogue between the user and the system.

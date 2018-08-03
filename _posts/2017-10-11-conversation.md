@@ -12,8 +12,6 @@ tags: "thoughts technology process cybernetics"
 permalink : /blog/:title
 ---
 
-{% include shapes/polygon.html %}
-
 <blockquote>
     <p>Man or machine should matter not. Conversational mechanisms are universal.</p>
     <footer>

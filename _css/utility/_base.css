@@ -80,7 +80,6 @@ p {
 a,
 a > h3,
 a > time {
-    font-family: inherit;
     color: currentColor;
     text-decoration-skip-ink: auto;
 }
@@ -98,33 +97,32 @@ a:focus {
 }
 
 blockquote {
-    max-width: 400px;
     color: var(--grey);
-    font-size: var(--f6);
-    margin: var(--f6) auto var(--f5) auto;
-    padding: 0;
-    text-align: center;
+    font-size: var(--f4);
+    margin: var(--f3) auto var(--f3) auto;
+    padding: 0 0 0 1rem;
+    border-left: 1px solid var(--red);
 }
 
 cite {
     color: var(--black);
-    max-width: 300px;
     font-style: normal;
     font-size: var(--f6);
-    font-weight: 100;
 }
 
+/*
 cite::after {
     content: "\2766";
     display: block;
     font-size: var(--f1);
 }
+*/
 
 em,
 blockquote > p,
 figcaption {
     font-style: italic;
-    font-weight: 100;
+    font-weight: 200;
 }
 
 sup {
