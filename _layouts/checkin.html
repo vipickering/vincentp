@@ -4,24 +4,17 @@
         {% include meta.html %}
     </head>
 
-    <body itemscope itemtype="https://schema.org/WebPage" class="ma0 pa0">
+    <body class="ma0 pa0">
         <div>
             {% include navigation.html %}
 
-            <main class="h-entry" id="content">
-                <article class="u-checkin h-card layoutGrid center pv5">
-                    <div class="e-content p-nam">
-                        <div class="mini-two-col-grid mt5 mb5">
-                            <img src="{{site.data.author.profilePic}}" width="40" class="db br-circle" alt="A picture of the site author Vincent Pickering">
-                            <div class="mw-strap-length">
-                                <p class="ma0 pa0 f7 lh-heading">
-                                    <time itemprop="dateCreated" class="dt-published red" datetime="{{ page.date | date_to_xmlschema }}">
-                                        {{ page.date | date_to_string: "ordinal" }} <span>at</span> {{ page.date | date: "%H" }}:{{ page.date | date: "%M%P" }}
-                                    </time>
-                                </p>
-                                <h1 itemprop="headline" class="p-name ma0 pa0 f5 f4-ns lh-heading">Checked in at <a href="{{page.foursquare}}" class="u-url p-name" rel="external">{{ page.title }}</a> </h1>
-                            </div>
-                        </div>
+            <div class="h-entry layoutGrid center">
+            <main id="content">
+                <article>
+                    <div class="mb5 mt-header u-checkin">
+                        <h1  class="p-name mb5 lh-heading">Checked in at <a href="{{page.foursquare}}" class="u-url p-name" rel="external">{{ page.title }}</a></h1>
+                        {% include author.html %}
+                    </div>
 
                         {% if page.photo  != ''%}
                             <figure class="ma0 pa0">
@@ -47,10 +40,8 @@
                             {{comment.data.swarm_coins}}
                         </div>
 
-                        <div>
-                            <small>Checkin via <a href="https://ownyourswarm.p3k.io/">https://ownyourswarm.p3k.io</a></small>
-                            <span class="coins"></span>
-                        </div>
+                       <p><small>Checkin via <a href="https://ownyourswarm.p3k.io/">https://ownyourswarm.p3k.io</a></small></p>
+                        <p><small>Original Post <a href="{{page.syndication}}">{{page.syndication}}</a></small></p>
 
                         {% assign comments = site.data.webmentions.links %}
                         {% if site.webmentionTestUrl == false %}
@@ -60,7 +51,10 @@
                         {% endif %}
 
                          <div class="center pb5">
-                           {% include webmentions/swarmReplies.html %}
+                            {% include webmentions/likes.html %}
+                            {% include webmentions/reposts.html %}
+                            {% include webmentions/webmentionForm.html %}
+                            {% include webmentions/replies.html %}
                         </div>
                 </article>
             </main>

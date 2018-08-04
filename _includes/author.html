@@ -1,0 +1,9 @@
+<div class="u-author h-card mini-two-col-grid mb5 align-items-center">
+  <img src="{{site.data.author.profilePic}}" width="40" class="u-photo br-circle" alt="A picture of the site author Vincent Pickering">
+  <p class="grey fw3 f7">
+    Published by <a class="u-author u-url black" href="{{site.url}}" rel="author">{{ site.data.author.name }}</a> {% if page.replyUrl %}in response to: <a class="u-in-reply-to" href="{{page.replyUrl}}">{{page.replyName}}</a>{% endif %}
+    <br>on <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">
+        {{ page.date | date_to_string: "ordinal" }} <span>at</span> {{ page.date | date: "%H" }}:{{ page.date | date: "%M%P" }}
+    </time></p>
+</div>
+

@@ -1,6 +1,6 @@
-<time itemprop="dateCreated" class="dt-published f7 grey lh-one" datetime="{{ post.date | date_to_xmlschema }}">
+<time class="dt-published f7 grey lh-one" datetime="{{ post.date | date_to_xmlschema }}">
     {{ post.date | date_to_string: "ordinal" }} <span>at</span> {{ post.date | date: "%H" }}:{{ post.date | date: "%M%P" }}
 </time>
-<h3 itemprop="headline" class="f5 p-name ma0 pa0 lh-one">
+<h3 class="f5 p-name ma0 pa0 lh-one">
         <a href="{{site.url}}{{ post.url }}" class="rm-underline" title="{{ post.title }}">{{ post.title }}</a>
 </h3>

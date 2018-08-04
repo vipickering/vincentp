@@ -4,7 +4,7 @@
     {% include meta.html %}
 </head>
 
-<body itemscope itemtype="https://schema.org/WebPage" class="ma0 pa0">
+<body class="ma0 pa0">
     <div>
         {% include navigation.html %}
         {% include hcard.html %}
@@ -12,12 +12,12 @@
         <div class="h-entry">
             <main id="content">
                 <div class="e-content layoutGrid center">
-                    <h1 itemprop="headline" class="ma0 mb5 pa0 lh-heading f4 red">{{ page.title }}</h1>
+                    <h1 class="ma0 mb5 pa0 lh-heading f4 red">{{ page.title }}</h1>
                     {% if page.type == 'Checkins' %}{% assign pageType = site.categories.Checkins %}{% endif %}
                     {%  if page.type == 'Notes' %}{% assign pageType = site.categories.Notes %}{% endif %}
                     {%  if page.type == 'Articles' %}{% assign pageType = site.categories.Articles %}{% endif %}
                     {% for post in pageType %}
-                    <article itemscope itemtype="https://schema.org/Blog" class="h-entry lifestreamGrid">
+                    <article class="h-entry lifestreamGrid">
                         <div class="borderBefore relative {% if forloop.last == true %}mb5{%endif%}">
                             <div class="circle center db relative br-circle  foreground w-20-fixed h-20-fixed center mt--fixed-6 {% if forloop.first == true %}bg-red {% else %} bg-black {% endif%}"></div>
                         </div>

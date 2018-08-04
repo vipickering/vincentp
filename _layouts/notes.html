@@ -4,28 +4,26 @@
         {% include meta.html %}
     </head>
 
-    <body itemscope itemtype="https://schema.org/WebPage" class="ma0 pa0">
+    <body class="ma0 pa0">
         <div>
             {% include navigation.html %}
 
-            <div class="h-entry e-content layoutGrid center">
+            <div class="h-entry layoutGrid center">
                 <main id="content">
-                    <article itemscope itemtype="https://schema.org/Blog">
-                         <div class="mb5 mt-header">
-                            <h1 itemprop="headline" class="p-name mb0">Quick Note</h1>
-                            <p class="grey fw3 f7">Published by <a class="p-author u-url black" href="{{site.url}}" rel="author">{{ site.data.author.name }}</a> on <time itemprop="dateCreated" class="dt-published red" datetime="{{ page.date | date_to_xmlschema }}">
-                                    {{ page.date | date_to_string: "ordinal" }} <span>at</span> {{ page.date | date: "%H" }}:{{ page.date | date: "%M%P" }}
-                                </time></p>
+                    <article>
+                        <div class="mb5 mt-header">
+                            <h1 class="p-name mb0">Quick Note</h1>
+                            {% include author.html %}
                         </div>
 
-                        <div data-type="blog">
+                        <div data-type="blog" class="e-content">
                             {{ content }}
 
                             {% if page.modified %}
                                 <time class="dt-published red f7"  datetime="{{ page.date | date_to_xmlschema }}" title="Page Modified" >{{ page.modified | date_to_string: "ordinal" }} at <span class="dt-updated f7">{{ page.modified | date: "%H" }}:{{ page.modified | date: "%M%P" }}</span></time>
                                 <p class="f7"> {{ page.modifiedReason }}.</p>
                             {% endif %}
-                            </div>
+                        </div>
                     </article>
 
                     <div class="pb5 b-star-before">
@@ -36,10 +34,6 @@
                             {% endfor %}
                         </ul>
                     </div>
-
-                    {% if  page.category !="Notes"%}
-                        {% include recommended.html %}
-                    {% endif %}
 
                     {% assign comments = site.data.webmentions.links %}
 
