@@ -16,6 +16,10 @@ pre {
     grid-column: full;
 }
 
+.align-items-center {
+    align-items: center;
+}
+
 /*
 When embedding CodePens or snippets. Allow them to break out the grid, but not go full screen
 */
