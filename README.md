@@ -1,5 +1,7 @@
 # Vincent Pickering [blog]
 
+![npm Dependencies](https://david-dm.org/vipickering/vincentp.svg)
+
 ## Requirements
 
 This blog runs on [Jekyll](https://jekyllrb.com).
