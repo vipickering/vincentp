@@ -1,4 +1,6 @@
 # Vincent Pickering [blog]
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fvipickering%2Fvincentp.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fvipickering%2Fvincentp?ref=badge_shield)
+
 
 ![npm Dependencies](https://david-dm.org/vipickering/vincentp.svg)
 
@@ -90,3 +92,7 @@ PESOS content is provided by [ownyourswarm](https://ownyourswarm.p3k.io/) and [o
 ## Publish (on your) Own Site, Syndicate Elsewhere (POSSE) Content
 
 ToDo.
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fvipickering%2Fvincentp.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fvipickering%2Fvincentp?ref=badge_large)
