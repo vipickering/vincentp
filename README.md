@@ -1,6 +1,8 @@
 # Vincent Pickering [blog]
 
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fvipickering%2Fvincentp.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fvipickering%2Fvincentp?ref=badge_shield) ![npm Dependencies](https://david-dm.org/vipickering/vincentp.svg)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fvipickering%2Fvincentp.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fvipickering%2Fvincentp?ref=badge_shield) ![npm Dependencies](https://david-dm.org/vipickering/vincentp.svg) [![Known Vulnerabilities](https://snyk.io/test/github/vipickering/vincentp/badge.svg?targetFile=Gemfile.lock)](https://snyk.io/test/github/vipickering/vincentp?targetFile=Gemfile.lock) [![Known Vulnerabilities](https://snyk.io/test/github/vipickering/vincentp/badge.svg?targetFile=package.json)](https://snyk.io/test/github/vipickering/vincentp?targetFile=package.json)
+
+
 
 ## Requirements
 
@@ -79,7 +81,7 @@ Content is syndicated to Twitter and LinkedIn via RSS updates triggering a Zapie
 ## Webmentions
 
 - [Brid.gy](https://brid.gy/)
-- [Webmention.io](https://webmention.io/) - This content is stored in Webmention.io and generated at build, it is not currently 
+- [Webmention.io](https://webmention.io/) - This content is stored in Webmention.io and generated at build, it is not currently
 
 ## Publish Elsewhere, Syndicate (to your) Own Site(PESOS) Content
 
