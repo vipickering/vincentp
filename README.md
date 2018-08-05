@@ -1,8 +1,6 @@
 # Vincent Pickering [blog]
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fvipickering%2Fvincentp.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fvipickering%2Fvincentp?ref=badge_shield)
 
-
-![npm Dependencies](https://david-dm.org/vipickering/vincentp.svg)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fvipickering%2Fvincentp.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fvipickering%2Fvincentp?ref=badge_shield) ![npm Dependencies](https://david-dm.org/vipickering/vincentp.svg)
 
 ## Requirements
 
@@ -77,21 +75,15 @@ Content is syndicated to Medium and pushed to a draft via Zapier and a [custom J
 
 Content is syndicated to Twitter and LinkedIn via RSS updates triggering a Zapier script then pushed to Buffer to prevent spamming.
 
-RSS is syndicated to Feedburner, since everything else never works properly. Feel free to help me out with this if you know this stuff :-)
 
 ## Webmentions
 
-- [Jekyll-Get plugin](https://github.com/18F/jekyll-get) - Replies, reposts and likes are (temporarily) via (to be replaced by Mastr CntrlI at a later date).
 - [Brid.gy](https://brid.gy/)
-- [Webmention.io](https://webmention.io/) - This content is stored in Webmention.io and generated at build, it is not currently cached (working on it).
+- [Webmention.io](https://webmention.io/) - This content is stored in Webmention.io and generated at build, it is not currently 
 
 ## Publish Elsewhere, Syndicate (to your) Own Site(PESOS) Content
 
 PESOS content is provided by [ownyourswarm](https://ownyourswarm.p3k.io/) and [ownyourgram](https://ownyourgram.com/) and synced via the Micropub API
-
-## Publish (on your) Own Site, Syndicate Elsewhere (POSSE) Content
-
-ToDo.
 
 
 ## License
