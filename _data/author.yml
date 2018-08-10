@@ -8,9 +8,9 @@ profilePicLandscape: /images/profile/vincentp-landscape.jpg
 profilePicLandscapeRetina: /images/profile/vincentp-landscape@2x.jpg
 
 github :
-  url : https://www.github.com/vipickering
-  repo : https://github.com/vipickering/vincentp
-  username: vipickering
+    url : https://www.github.com/vipickering
+    repo : https://github.com/vipickering/vincentp
+    username: vipickering
 
 pinboard :
     url: https://pinboard.in/u:monkeymajiks/profile/public/
@@ -18,6 +18,10 @@ pinboard :
 
 twitter:
     url: https://twitter.com/vincentlistens
+    username: vincentlistens
+
+mastodon:
+    url: https://mastodon.social/@vincentlistens
     username: vincentlistens
 
 arena:
@@ -36,4 +40,3 @@ codepen :
 
 mapbox :
     key : pk.eyJ1IjoidnBpY2tlcmluZyIsImEiOiJjamo1ZWNpbmwwYW1wM3FxaHZ5cHR6N3g3In0.hhrPnSY0r_9fu5QKlhqRHw
-
