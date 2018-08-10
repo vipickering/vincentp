@@ -24,6 +24,10 @@ mastodon:
     url: https://mastodon.social/@vincentlistens
     username: vincentlistens
 
+microblog:
+    url: https://micro.blog/vincentp
+    username: vincentp
+
 arena:
     url: https://www.are.na/vincent-pickering/channels
 
