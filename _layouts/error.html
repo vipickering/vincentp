@@ -9,10 +9,11 @@
             {% include navigation.html %}
 
              <div class="h-entry">
+                {% include pageTitle.html %}
+
                 <main id="content">
                     <article class="h-entry">
-                        {% include pageTitle.html %}
-                        <div class="e-content layoutGrid center mb5">
+                        <div class="e-content layoutGrid center">
                             {{ content }}
                         </div>
                     </article>
