@@ -3,12 +3,12 @@ layout: null
 ---
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": {{ site.title | jsonify }},
+    "title": "Vincentp",
     "home_page_url": "{{site.url}}",
     "feed_url": "{{site.url}}/feeds/everything.json",
     "description" : "Web design including: UI, UX, HTML, CSS, JavaScript and Node",
-    "icon" : "{{site.url}}/images/vincentp-300.jpg",
-    "favicon" : "{{site.url}}/images/apple-touch-icon-76x76-precomposed.png",
+    "icon" : "{{site.url}}/images/vincentp.jpg",
+    "favicon" : "{{site.url}}/images/favicons/apple-touch-icon-76x76-precomposed.png",
     "author" : [
         {
             "name" : "{{site.data.author.name}}",

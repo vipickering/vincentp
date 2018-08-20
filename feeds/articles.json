@@ -7,12 +7,15 @@ layout: null
     "home_page_url": "{{site.url}}",
     "feed_url": "{{site.url}}/feeds/articles.json",
     "description" : "Web design including: UI, UX, HTML, CSS, JavaScript and Node",
-    "icon" : "{{site.url}}/images/vincentp-300.jpg",
-    "favicon" : "{{site.url}}/images/apple-touch-icon-76x76-precomposed.png",
-    "author" : {
+    "icon" : "{{site.url}}/images/vincentp.jpg",
+    "favicon" : "{{site.url}}/images/favicons/apple-touch-icon-76x76-precomposed.png",
+    "author" : [
+        {
             "name" : "{{site.data.author.name}}",
-            "url" : "{{site.url}}"
-    },
+            "url" : "{{site.url}}",
+            "avatar" : "{{site.url}}/images/profile/vincentp@2x.jpg"
+        }
+    ],
      "items": [{% for post in site.categories.Articles limit:10 %}
         {
             "title" : {{ post.title | jsonify }},
