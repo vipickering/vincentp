@@ -4,11 +4,5 @@
 <meta name="twitter:creator" content="@{{ site.data.author.twitter.username }}" />
 <meta name="twitter:url" property="og:url" content="{{site.url}}{{ page.url }}" />
 <meta name="twitter:description" property="og:description" content="{{ page.summary}}" />
-{% if page.twitterCard == true %}
 <meta name="twitter:image" property="og:image" content="{{site.url}}/images/blog/{{ page.date | date: '%Y' }}-{{ page.date | date: '%m' }}-{{ page.date | date: '%d' }}/social-card.jpg" />
 <meta name="twitter:image:alt" content="{{page.summary}}" />
-{% else %}
-   <meta name="twitter:image" property="og:image" content="{{site.url}}/images/social-card.jpg" />
-   <meta name="twitter:image:alt" content="A picture depicting thought process as a long path in the wilderness" />
-{% endif %}
-

@@ -17,8 +17,10 @@
 <link rel="mask-icon" href="{{site.url}}/images/favicons/safari-pinned-tab.svg" color="#c83539" />
 <meta name="theme-color" content="#ffffff" />
 
-<!-- Twitter Card -->
-{% include twitterCard.html %}
+{% if page.twitterCard == true %}
+    <!-- Twitter Card -->
+    {% include twitterCard.html %}
+{% endif %}
 
 <!-- Webmention -->
 <link rel="webmention" href="https://webmention.io/vincentp.me/webmention" />
