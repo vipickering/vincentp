@@ -11,9 +11,13 @@ layout: null
     <webMaster>{{site.data.author.email}} ({{site.data.author.name}})</webMaster>
     <image>
         <url>{{site.url}}/images/vincentp.jpg</url>
-        <title>{{ site.url }}</title>
+        <title>Vincent Pickering</title>
         <link>{{ site.url }}</link>
     </image>
+    <webfeeds:cover image="{{ site.url}}/images/social-card.jpg" />
+    <webfeeds:icon>{{ site.url}}/images/favicons/apple-touch-icon-76x76-precomposed.png</webfeeds:icon>
+    <webfeeds:logo>{{ site.url}}/images/favicons/icon-30.svg</webfeeds:logo>
+    <webfeeds:accentColor>c83539</webfeeds:accentColor>
     <atom:link href="{{ site.url }}/feeds/articles.xml" rel="self" type="application/rss+xml"/>
     {% for post in site.categories.Articles limit:10 %}
       <item>
@@ -21,8 +25,6 @@ layout: null
         <link>{{ post.url | prepend: site.url }}</link>
         <description>{{ post.content | xml_escape }}</description>
         <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-        <link rel="hub"  href="https://vincentp.superfeedr.com/" xmlns="https://www.w3.org2005/Atom" />
-        <link rel="self" href="https://vincentp.me/feeds/articles.xml" xmlns="https://www.w3.org2005/Atom" />
         <guid isPermaLink="true">{{ post.url | prepend: site.url }}</guid>
         {% for tag in post.tags %}
         <category>{{tag}}</category>
