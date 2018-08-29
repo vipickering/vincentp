@@ -12,7 +12,7 @@
             <main id="content">
                 <article>
                     <div class="mb5 mt-header u-checkin">
-                        <h1  class="p-name mb5 lh-heading">Checked in at <a href="{{page.foursquare}}" class="u-url p-name" rel="external">{{ page.title }}</a></h1>
+                        <h1  class="p-name mb5 lh-heading">Checked in at <a href="{{page.foursquare}}" class="u-url p-name" rel="external">{{ page.title | truncatewords: 6}}</a></h1>
                         {% include author.html %}
                     </div>
 
