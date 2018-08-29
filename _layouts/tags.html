@@ -22,13 +22,10 @@
                                 <div class="circle center db relative br-circle  foreground w-20-fixed h-20-fixed center mt--fixed-6 {% if forloop.first == true %}bg-red {% else %} bg-black {% endif%}"></div>
                             </div>
                             <div class="pb5">
-                                {% if post.layout == "checkin" %}
-                                {% include lifestream/checkin.html %}
-                                {% else  if post.layout == "notes"%}
-                                {% include lifestream/notes.html %}
-                                {% else %}
-                                {% include lifestream/article.html %}
-                                {% endif %}
+                                  <time class="dt-published f7 grey lh-one" datetime="{{ post.date | date_to_xmlschema }}">
+                                        {{ post.date | date_to_string: "ordinal" }} <span>at</span> {{ post.date | date: "%H" }}:{{ post.date | date: "%M%P" }}
+                                    </time>
+                                   <h3 class="f5 p-name ma0 pa0 lh-one"><a href="{{site.url}}{{ post.url }}" class="rm-underline" title="{{ post.title | truncatewords: 8 }}">{% if post.layout == "checkin" %}Checked in at:{% endif %} {{ post.title | truncatewords: 8 }}</a></h3>
                             </div>
                         </article>
                         {% endfor %}

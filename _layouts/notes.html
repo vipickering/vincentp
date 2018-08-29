@@ -12,7 +12,7 @@
                 <main id="content">
                     <article>
                         <div class="mb5 mt-header">
-                            <h1 class="p-name mb0">Quick Note</h1>
+                            <h1 class="p-name mb0">{{ page.title | truncatewords: 6 }}</h1>
                             {% include author.html %}
                         </div>
 
