@@ -2,6 +2,8 @@
 layout: "post"
 title: "Solving Puzzles"
 date: "2018-05-17 15:10:00 +/-GMT"
+replyUrl: ""
+replyName: ""
 meta: "Learn how to work the problem and get to a solution that satisfies your needs"
 summary: "Work the problem and get to a solution that satisfies your needs"
 category: "Articles"

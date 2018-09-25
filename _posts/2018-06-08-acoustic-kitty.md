@@ -2,6 +2,8 @@
 layout: "post"
 title: "Acoustic kitty"
 date: "2018-06-08 07:00:00 +/-GMT"
+replyUrl: ""
+replyName: ""
 meta: "Constantly re-evaluate a solution checking for weakness through testing"
 summary: "Constantly re-evaluate a solution checking for weakness through testing"
 category: "Articles"

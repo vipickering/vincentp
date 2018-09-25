@@ -2,6 +2,8 @@
 layout: post
 title: "A Smarter Jekyll Workflow"
 date: 2013-11-20 00:00:01 +/-GMT
+replyUrl: ""
+replyName: ""
 meta: A process to work quickly and easily with Jekyll.
 summary:  Trying to work better with Jekyll
 category: "Articles"

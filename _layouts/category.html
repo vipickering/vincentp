@@ -16,6 +16,7 @@
                     {% if page.type == 'Checkins' %}{% assign pageType = site.categories.Checkins %}{% endif %}
                     {% if page.type == 'Notes' %}{% assign pageType = site.categories.Notes %}{% endif %}
                     {% if page.type == 'Articles' %}{% assign pageType = site.categories.Articles %}{% endif %}
+                    {% if page.type == 'Instagram' %}{% assign pageType = site.categories.Instagram %}{% endif %}
                     {% for post in pageType %}
                     <article class="h-entry lifestreamGrid">
                         <div class="borderBefore relative {% if forloop.last == true %}mb5{%endif%}">
