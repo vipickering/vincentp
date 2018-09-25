@@ -2,6 +2,8 @@
 layout: "post"
 title: "Precision"
 date: "2018-05-22 08:25:00 +/-GMT"
+replyUrl: ""
+replyName: ""
 meta: "All ideas should have an elevator pitch. If you can't boil it down; the idea needs more work"
 summary: "The framing of an idea is critical in achieving a favourable response"
 category: "Articles"

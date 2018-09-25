@@ -2,6 +2,8 @@
 layout: "post"
 title: "Silent Assumptions"
 date: "2018-05-28 08:20:00 +/-GMT"
+replyUrl: ""
+replyName: ""
 meta: "Life is full of silent assumptions. Circumstances that are unknowingly or unwittingly accepted without question"
 summary: "Silent Assumptions: Circumstances that are unknowingly or unwittingly accepted without question"
 category: "Articles"

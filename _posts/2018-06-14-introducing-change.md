@@ -2,6 +2,8 @@
 layout: "post"
 title: "Introducing Change"
 date: "2018-06-14 07:00:00 +/-GMT"
+replyUrl: ""
+replyName: ""
 meta: "The human mind embraces familiarity and rejects change in all forms"
 summary: "The human mind embraces familiarity and rejects change in all forms"
 category: "Articles"

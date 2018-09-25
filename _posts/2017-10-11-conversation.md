@@ -2,6 +2,8 @@
 layout: "post"
 title: "Conversation"
 date: "2017-10-11 08:00:00 +/-GMT"
+replyUrl: ""
+replyName: ""
 meta: "Design is Conversation"
 summary: "Thoughts on the Conversation Model by Dr.Paul Pangaro and Hugh Dubberly"
 category: "Articles"
