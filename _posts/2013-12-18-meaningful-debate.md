@@ -2,6 +2,8 @@
 layout: post
 title: "Meaningful Debate"
 date: 2013-12-18 00:00:01 +/-GMT
+replyUrl: ""
+replyName: ""
 meta: Thoughts on how to make conferences better and how to begin to have meaningful debate.
 summary: Thinking about how we could make conferences .
 category: "Articles"
