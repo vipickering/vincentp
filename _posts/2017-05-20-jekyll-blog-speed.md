@@ -2,6 +2,8 @@
 layout: post
 title: "Jekyll Blog Speed"
 date: 2017-05-20 10:15:00 +/-GMT
+replyUrl: ""
+replyName: ""
 meta: time to first paint blog speed .
 summary: Reducing the time to meaningful first paint Jekyll blog
 modified : 2017-07-03 22:01:00 +/-GMT

@@ -2,6 +2,8 @@
 layout: "post"
 title: "Sanity Checking"
 date: "2018-06-12 07:00:00 +/-GMT"
+replyUrl: ""
+replyName: ""
 meta: "Sanity checks ensure data validity and weed out suspect responses"
 summary: "Sanity checks ensure data validity and weed out suspect responses"
 category: "Articles"

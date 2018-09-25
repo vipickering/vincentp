@@ -2,6 +2,8 @@
 layout: post
 title: "Disarming Problem Clients"
 date: 2013-11-12 00:00:01 +/-GMT
+replyUrl: ""
+replyName: ""
 meta: Some techniques and skills to help the designer &amp; client relationship .
 summary: Where I discuss various techniques to disarm problem clients.
 category: "Articles"
