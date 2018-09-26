@@ -2,9 +2,7 @@
 layout: "post"
 title: "Carousel No JS"
 date: "2018-04-20 13:01:00 +/-GMT"
-replyUrl: ""
-replyName: ""
-meta: "Create a carousel without the need for JavaScript"
+meta:  "Create a carousel without the need for JavaScript"
 summary: "Create a carousel without the need for JavaScript"
 category: "Articles"
 modified :
