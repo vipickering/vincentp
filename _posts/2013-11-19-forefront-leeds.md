@@ -2,9 +2,7 @@
 layout: post
 title: "Forefront Leeds"
 date: 2013-11-19 00:00:01 +/-GMT
-replyUrl: ""
-replyName: ""
-meta: A short note about forefront Leeds a new regular event for front end developers
+meta:  A short note about forefront Leeds a new regular event for front end developers
 summary: Forefront Leeds meet-ups
 category: "Articles"
 modified :

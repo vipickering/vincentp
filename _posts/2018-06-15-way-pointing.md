@@ -2,9 +2,7 @@
 layout: "post"
 title: "Way Pointing"
 date: "2018-06-15 07:00:00 +/-GMT"
-replyUrl: ""
-replyName: ""
-meta: "Every machine is made of moving parts"
+meta:  "Every machine is made of moving parts"
 summary: "Every machine is made of moving parts"
 category: "Articles"
 modified :

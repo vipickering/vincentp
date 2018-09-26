@@ -2,9 +2,7 @@
 layout: post
 title: "Use Cases For CSS Calc"
 date: 2015-09-23 00:00:01 +/-GMT
-replyUrl: ""
-replyName: ""
-meta: Some fun use cases for CSS Calc operator
+meta:  Some fun use cases for CSS Calc operator
 summary: Where I play around with CSS calc operations.
 category: "Articles"
 modified :

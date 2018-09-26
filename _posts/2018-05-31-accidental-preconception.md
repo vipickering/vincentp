@@ -2,9 +2,7 @@
 layout: "post"
 title: "Accidental Pre-Conception"
 date: "2018-05-31 07:00:00 +/-GMT"
-replyUrl: ""
-replyName: ""
-meta: "Assumption nudges the project direction towards a detrimental place"
+meta:  "Assumption nudges the project direction towards a detrimental place"
 summary: "Assumption nudges the project direction towards a detrimental place"
 category: "Articles"
 modified :

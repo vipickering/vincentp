@@ -2,9 +2,7 @@
 layout: "post"
 title: "Modal No JS"
 date: "2018-04-16 16:00:00 +/-GMT"
-replyUrl: ""
-replyName: ""
-meta: "Create a modal without the need for JavaScript"
+meta:  "Create a modal without the need for JavaScript"
 summary: "Create a modal without the need for JavaScript"
 category: "Articles"
 modified :

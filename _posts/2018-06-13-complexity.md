@@ -2,9 +2,7 @@
 layout: "post"
 title: "Complexity"
 date: "2018-06-13 07:00:00 +/-GMT"
-replyUrl: ""
-replyName: ""
-meta: "I went to the shop to buy a sandwich"
+meta:  "I went to the shop to buy a sandwich"
 summary: "I went to the shop to buy a sandwich"
 category: "Articles"
 modified :
