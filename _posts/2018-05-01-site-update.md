@@ -2,9 +2,7 @@
 layout: "post"
 title: "Site Updates"
 date: "2018-05-01 14:20:00 +/-GMT"
-replyUrl: ""
-replyName: ""
-meta: "Recent tweaks to the website"
+meta:  "Recent tweaks to the website"
 summary: "Recent tweaks to the website"
 category: "Articles"
 modified :

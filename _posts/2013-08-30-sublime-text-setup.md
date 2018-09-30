@@ -2,9 +2,7 @@
 layout: post
 title: "Sublime Text Set-up"
 date: 2013-08-30 00:00:01 +/-GMT
-replyUrl: ""
-replyName: ""
-meta: My personal set-up for Sublime Text 2
+meta:  My personal set-up for Sublime Text 2
 summary: My set-up for Sublime Text 2
 category: "Articles"
 modified :

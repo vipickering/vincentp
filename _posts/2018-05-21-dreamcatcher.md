@@ -2,9 +2,7 @@
 layout: "post"
 title: "Dreamcatcher"
 date: "2018-05-21 09:30:00 +/-GMT"
-replyUrl: ""
-replyName: ""
-meta: "Thinking about how to share and present ideas"
+meta:  "Thinking about how to share and present ideas"
 summary: "Thinking about how to share and present ideas"
 category: "Articles"
 modified :

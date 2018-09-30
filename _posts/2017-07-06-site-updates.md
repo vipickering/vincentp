@@ -2,9 +2,7 @@
 layout: "post"
 title: "Site Update"
 date: "2017-07-06 08:00:00 +/-GMT"
-replyUrl: ""
-replyName: ""
-meta: "Redesigning my site to be faster, better, smaller"
+meta:  "Redesigning my site to be faster, better, smaller"
 summary: "Redesigning my site to be faster, better, smaller"
 category: "Articles"
 modified :

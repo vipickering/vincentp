@@ -2,9 +2,7 @@
 layout: "post"
 title: "Reflection"
 date: "2018-06-05 07:00:00 +/-GMT"
-replyUrl: ""
-replyName: ""
-meta: "Failure is a process not a condition"
+meta:  "Failure is a process not a condition"
 summary: "Failure is a process not a condition"
 category: "Articles"
 modified :

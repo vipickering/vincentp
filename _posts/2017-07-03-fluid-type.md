@@ -2,9 +2,7 @@
 layout: "post"
 title: "Fluid Type"
 date: "2017-07-03 22:02:00 +/-GMT"
-replyUrl: ""
-replyName: ""
-meta: "Make Your Type Scale With Your Screen Size In Proportion"
+meta:  "Make Your Type Scale With Your Screen Size In Proportion"
 summary: "Make Your Type Scale With Your Screen Size In Proportion"
 category: "Articles"
 modified :
