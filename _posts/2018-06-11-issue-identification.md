@@ -2,9 +2,7 @@
 layout: "post"
 title: "Issue Identification"
 date: "2018-06-11 07:00:00 +/-GMT"
-replyUrl: ""
-replyName: ""
-meta: "The choices made leading to conclusion are both where problems lie and the solution resides"
+meta:  "The choices made leading to conclusion are both where problems lie and the solution resides"
 summary: "The choices made leading to conclusion are both where problems lie and the solution resides"
 category: "Articles"
 modified :

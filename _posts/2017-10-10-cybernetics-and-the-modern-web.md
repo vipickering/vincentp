@@ -2,9 +2,7 @@
 layout: "post"
 title: "Cybernetics And The Modern Web"
 date: "2017-10-10 08:00:00 +/-GMT"
-replyUrl: ""
-replyName: ""
-meta: "An overview of modern Cybernetics and the web"
+meta:  "An overview of modern Cybernetics and the web"
 summary: "To build great user experiences we must understand how to communicate effectively"
 category: "Articles"
 modified :

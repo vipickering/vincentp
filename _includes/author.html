@@ -1,7 +1,12 @@
 <div class="u-author h-card mini-two-col-grid mb5 align-items-center">
   <img src="{{site.data.author.profilePic}}" width="40" class="u-photo br-circle" alt="A picture of the site author Vincent Pickering">
   <p class="grey fw3 f7">
-    Published by <a class="u-author u-url black" href="{{site.url}}" rel="author">{{ site.data.author.name }}</a> {% if page.replyUrl !='' %}in response to: <a class="u-in-reply-to" href="{{page.replyUrl}}">{{page.replyName}}'s post</a>{% endif %}
+    Published by <a class="u-author u-url black" href="{{site.url}}" rel="author">{{ site.data.author.name }}</a>
+    {% if page.replyUrl %}in response to: <a class="u-in-reply-to" href="{{page.replyUrl}}">{{page.replyName}}'s post</a>{% endif %}
+    {% if page.like %}Favourited: <a class="u-like-of" href="{{page.like}}">{{page.likeName}}'s post</a>{% endif %}
+    {% if page.repost %}Reposted: <a class="u-repost-of" href="{{page.repost}}">{{page.repostName}}'s post</a>{% endif %}
+    {% if page.rsvp %}RSVP'd to: <a class="u-rsvp" href="{{page.rsvp}}">{{page.rsvpName}}'s post</a>{% endif %}
+    {% if page.bookmark %}Bookmarked: <a class="u-bookmark-of" href="{{page.bookmark}}">{{page.bookmarkName}}'s post</a>{% endif %}
     <br>on <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">
         {{ page.date | date_to_string: "ordinal" }} <span>at</span> {{ page.date | date: "%H" }}:{{ page.date | date: "%M%P" }}
     </time></p>

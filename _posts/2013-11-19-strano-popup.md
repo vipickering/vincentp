@@ -2,9 +2,7 @@
 layout: post
 title: "Strano Popup Restaurant"
 date: 2013-11-19 00:00:01 +/-GMT
-replyUrl: ""
-replyName: ""
-meta: Strano Pop-up Restaurant
+meta:  Strano Pop-up Restaurant
 summary: A fun night out at Strano
 category: "Articles"
 modified :
