@@ -12,7 +12,7 @@ timezone: Europe/London
 
 # Site Variables
 title : Thoughts On Frontend Development
-description : Web design including UI, UX, HTML, CSS, JavaScript, Node and Cybernetics
+description : Web design including Service design, UI, UX, HTML, CSS, JavaScript, Node and Cybernetics
 url : https://vincentp.me
 available: true
 webmentionTestUrl: false
