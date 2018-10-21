@@ -43,8 +43,11 @@
 <link rel="me" href="{{site.data.author.codepen.url}}"/>
 
 <!-- Feeds -->
+<link rel="home feed" type="application/rss+xml" title="A stream of everything on this site" href="{{site.url}}/feeds/feed.json" />
 <link rel="alternate feed" type="application/rss+xml" title="Articles by Vincent Pickering in RSS format" href="{{site.url}}/feeds/articles.xml" />
 <link rel="alternate feed" type="application/json" title="Articles by Vincent Pickering in JSON format" href="{{site.url}}/feeds/articles.json" />
+<link rel="alternate feed" type="application/rss+xml" title="Notes by Vincent Pickering in RSS format" href="{{site.url}}/feeds/notes.xml" />
+<link rel="alternate feed" type="application/json" title="Notes by Vincent Pickering in JSON format" href="{{site.url}}/feeds/notes.json" />
 
 <!-- CSS -->
 <link  rel="stylesheet" href="{{ "/css/application.min.css" | prepend: site.baseurl }}?{{site.time | date: '%s%N'}}" />
