@@ -20,7 +20,7 @@ layout: null
     <webfeeds:accentColor>c83539</webfeeds:accentColor>
     <webfeeds:related layout="card" target="browser"/>
     <atom:link href="{{ site.url }}/feeds/notes.xml" rel="self" type="application/rss+xml"/>
-    {% for post in site.categories.Notes limit:10 %}
+    {% for post in site.categories.Notes limit:20 %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
         <link>{{ post.url | prepend: site.url }}</link>
