@@ -18,11 +18,15 @@ layout: null
     ],
      "items": [{% for post in site.categories.Articles limit:20 %}
         {
+             "author": {
+                "url": "{{site.url}}"
+            },
             "title" : {{ post.title | jsonify }},
             "date_published" : "{{ post.date  | date_to_xmlschema }}"{% if post.modified %},
             "date_modified" : "{{post.modified  | date_to_xmlschema}}"{% endif%},
             "id": "{{site.url}}{{post.id}}",
             "url": "{{site.url}}{{ post.url }}",
+            "content_text": {{ post.title | jsonify }},
             "content_html": {{ post.content | jsonify}}
         }{% if forloop.last != true %},{% endif %}{% endfor %}
     ]
