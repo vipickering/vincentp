@@ -12,10 +12,12 @@ timezone: Europe/London
 
 # Site Variables
 title : Thoughts On Frontend Development
-description : Web design including Service design, UI, UX, HTML, CSS, JavaScript, Node and Cybernetics
+description : Service design, UI, UX, HTML, CSS and Cybernetics
 url : https://vincentp.me
 available: true
 webmentionTestUrl: false
+
+# keep_files: [images]
 
 #Get Webmentions using Jekyll-Get
 # jekyll_get:
