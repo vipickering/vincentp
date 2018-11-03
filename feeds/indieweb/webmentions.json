@@ -1,7 +1,7 @@
 ---
 layout: null
 ---
-{% assign publishTime = "2018-09-25T00:10:00+01:00" %}{
+{% assign publishTime = "2018-09-25T00:10:00 +/-GMT" %}{
     "published":"{{publishTime}}",
     "webmentions": [{% for post in site.posts %}{% assign postTime = post.date | date_to_xmlschema %}{% if postTime >= publishTime %}{% if post.replyUrl or post.like or post.repost or post.rsvp or post.bookmark -%}{% if forloop.first != true %},{% endif %}{
             "published" : "{{ post.date  | date_to_xmlschema }}",

@@ -8,23 +8,23 @@
         <div>
             {% include navigation.html %}
 
-            <div class="h-entry layoutGrid center">
+            <div class="layoutGrid center">
             <main id="content">
-                <article>
-                    <div class="mb5 mt-header u-checkin">
+                <article class="h-entry">
+                    <div class="mb5 mt-header">
                         <h1  class="p-name mb5 lh-heading">Checked in at <a href="{{page.foursquare}}" class="u-url p-name" rel="external">{{ page.title | truncatewords: 6}}</a></h1>
                         {% include author.html %}
                     </div>
 
                         {% if page.photo  != ''%}
                             <figure class="ma0 pa0">
-                                <img src="{{page.photo}} " class="w-100" alt="{{page.name}}"/>
+                                <img src="{{page.photo}} " class="w-100 u-photo" alt="{{page.name}}"/>
                                 <figcaption class="mt5 mb5 tl">{{ content }}</figcaption>
                             </figure>
                         {% else %}
-                           <img src="https://api.mapbox.com/styles/v1/mapbox/streets-v9/static/pin-l-star+c83539({{page.longitude}},{{page.latitude}})/{{page.longitude}},{{page.latitude}},13,0/600x300@2x?access_token=pk.eyJ1IjoidnBpY2tlcmluZyIsImEiOiJjamo1ZWNpbmwwYW1wM3FxaHZ5cHR6N3g3In0.hhrPnSY0r_9fu5QKlhqRHw&logo=false" alt="Mapbox Map of {{page.longitude}},{{page.latitude}}" class="w-100">
+                           <img src="https://api.mapbox.com/styles/v1/mapbox/streets-v9/static/pin-l-star+c83539({{page.longitude}},{{page.latitude}})/{{page.longitude}},{{page.latitude}},13,0/600x300@2x?access_token=pk.eyJ1IjoidnBpY2tlcmluZyIsImEiOiJjamo1ZWNpbmwwYW1wM3FxaHZ5cHR6N3g3In0.hhrPnSY0r_9fu5QKlhqRHw&logo=false" alt="Mapbox Map of {{page.longitude}},{{page.latitude}}" class="w-100 u-photo">
                             <div class="f7 tr">&copy; <a href='https://www.mapbox.com/map-feedback/'>Mapbox</a> &copy; <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap contributors</a></div>
-                            <div class="mt5 mb5 tl">
+                            <div class="mt5 mb5 tl e-content">
                                {{ content }}
                             </div>
                         {% endif %}

@@ -25,7 +25,7 @@ tags:
                                 <div class="borderBefore relative {% if forloop.last == true %}mb5{%endif%}">
                                     <div class="circle center db relative br-circle  foreground w-20-fixed h-20-fixed center mt--fixed-6 {% if forloop.first == true %}bg-red {% else %} bg-black {% endif%}"></div>
                                 </div>
-                                 <div class="pb5">
+                                 <div class="pb5 {% if post.layout == "checkin" %}u-checkin{% endif %}">
                                       <time class="dt-published f7 grey lh-one" datetime="{{ post.date | date_to_xmlschema }}">
                                             {{ post.date | date_to_string: "ordinal" }} <span>at</span> {{ post.date | date: "%H" }}:{{ post.date | date: "%M%P" }}
                                         </time>
