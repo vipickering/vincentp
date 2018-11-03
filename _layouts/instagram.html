@@ -7,17 +7,17 @@
 <body class="ma0 pa0">
     <div>
         {% include navigation.html %}
-        <div class="h-entry layoutGrid center">
+        <div class="layoutGrid center">
             <main id="content">
-                <article>
-                    <div class="mb5 mt-header u-checkin">
+                <article class="h-entry">
+                    <div class="mb5 mt-header">
                         <h1  class="p-name mb5 lh-heading">{{ page.title }}</h1>
                         {% include author.html %}
                     </div>
 
-                    <figure data-type="blog" class="e-content ma0 pa0">
-                        <img src="{{page.photo}} " class="w-100" alt="{{page.name}}"/>
-                        <figcaption class="mt5 mb5 tl">{{ content }}</figcaption>
+                    <figure class="ma0 pa0">
+                        <img src="{{page.photo}} " class="u-photo w-100" alt="{{page.name}}"/>
+                        <figcaption class="mt5 mb5 tl e-content">{{ content }}</figcaption>
                     </figure>
 
                     <div>

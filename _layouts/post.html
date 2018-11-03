@@ -8,13 +8,13 @@
         <div>
             {% include navigation.html %}
 
-            <div class="h-entry layoutGrid center">
+            <div class="layoutGrid center">
 
-                <main id="content">
+                <main id="content" class="h-entry">
                     <article>
                          <div class="mb5 mt-header">
                             <h1 class="p-name ma0 pa0 f1 lh-heading ">{{ page.title }}</h1>
-                            <p class="grey fw3 f6 italic lh-heading mb7">{{ page.summary }}</p>
+                            <p class="p-summary grey fw3 f6 italic lh-heading mb7 ">{{ page.summary }}</p>
                             {% include author.html %}
                         </div>
 
