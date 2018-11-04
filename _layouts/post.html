@@ -50,9 +50,10 @@
                     {% endif %}
 
                     <div class="pb5">
+                       {% include webmentions/webmentionForm.html %}
                         {% include webmentions/likes.html %}
                         {% include webmentions/reposts.html %}
-                        {% include webmentions/webmentionForm.html %}
+                        {% include webmentions/mention-of.html %}
                         {% include webmentions/replies.html %}
                     </div>
                 </main>
