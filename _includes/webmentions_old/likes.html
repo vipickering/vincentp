@@ -1,0 +1,22 @@
+{% assign likesAvailable = false %}
+
+{% for comment in comments %}
+    {% if thisUrl == comment.target and comment.activity.type == "like" %}
+        {% assign likesAvailable = true %}
+    {% endif %}
+{% endfor%}
+
+{% if likesAvailable == true %}
+<h2 class="lh-one f5 red mb7 pa0">Likes</h2>
+<article class="h-cite p-comment reply-relation mb2">
+    <ul class="ma0 pa0">
+        {% for comment in comments %}
+            {% if thisUrl == comment.target and comment.activity.type == "like" %}
+                <li class="dib list"><a href="{{comment.data.author.url  | replace: 'http://', 'https://'}}" class="p-name u-url" rel="external"><img src="{{comment.data.author.photo }}" alt="{{comment.data.author.name}}" class="u-photo photo br-circle" width="40" height="40"></a></li>
+            {% endif %}
+        {% endfor%}
+    </ul>
+</article>
+{% endif %}
+
+
