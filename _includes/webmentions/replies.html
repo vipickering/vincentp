@@ -9,9 +9,9 @@
 {% if repliesAvailable == true %}
     <h2 class="lh-one f5 red mb7 pa0">Conversation</h2>
     {% for comment in comments %}
-        {% if thisUrl == comment.in-reply-to  %}
+        {% if thisUrl == comment.in-reply-to %}
             {% if comment.wm-property == "in-reply-to" or comment.wm-property == "link" %}
-                {% if comment.source contains "https://medium.com/@vincentlistens/" %}
+                {% if comment.url contains "https://medium.com/@vincentlistens/" %}
                     <article class="h-cite p-comment reply-relation mb5">
                         <h3 class="f6 p-author h-card ma0 pa0">Also syndicated to: <a href="{{comment.url  | replace: 'http://', 'https://'}}" title="Read this story on Medium" rel="external" class="u-syndication">Medium</a></h3>
                     </article>
