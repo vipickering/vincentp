@@ -25,19 +25,9 @@
                         <p><small>Original Post <a href="{{page.syndication}}">{{page.syndication}}</a></small></p>
                     </div>
 
-                    {% assign comments = site.data.webmentions.links %}
-
-                    {% if site.webmentionTestUrl == false %}
-                    {% assign thisUrl =  page.url | absolute_url %}
-                    {% else %}
-                    {% assign thisUrl =  "https://vincentp.me" | append: page.url %}
-                    {% endif %}
-
                     <div class="pb5">
-                        {% include webmentions/likes.html %}
-                        {% include webmentions/reposts.html %}
-                        {% include webmentions/webmentionForm.html %}
-                        {% include webmentions/replies.html %}
+                        {% include webmentionForm.html %}
+                        {% include webmentions.html %}
                     </div>
                 </article>
             </main>
