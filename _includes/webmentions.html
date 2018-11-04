@@ -1,0 +1,132 @@
+{% if site.webmentionTestUrl == false %}
+    {% assign thisUrl =  page.url | absolute_url %}
+{% else %}
+    {% assign thisUrl =  "https://vincentp.me" | append: page.url %}
+{% endif %}
+
+{% assign comments = site.data.webmentions.links %}
+{% assign test = site.data.webmentions.links.wm-property %}
+
+{% assign likesAvailable = false %}
+{% assign mentionsAvailable = false %}
+{% assign repostsAvailable = false %}
+{% assign repliesAvailable = false %}
+{% assign bookmarkAvailable = false %}
+{% assign rsvpAvailable = false %}
+
+{% for comment in comments %}
+    {% case comment.wm-property %}
+        {% when 'in-reply-to' %}
+            {% if thisUrl == comment.in-reply-to %}
+                {% assign repliesAvailable = true %}
+            {% endif %}
+        {% when 'like-of' %}
+            {% if thisUrl == comment.like-of %}
+                {% assign likesAvailable = true %}
+            {% endif %}
+        {% when 'mention-of' %}
+            {% if thisUrl == comment.mention-of %}
+                {% assign mentionsAvailable = true %}
+            {% endif %}
+         {% when 'repost-of' %}
+            {% if thisUrl == comment.repost-of %}
+                {% assign repostsAvailable = true %}
+            {% endif %}
+        {% when 'bookmark-of' %}
+            {% if thisUrl == comment.bookmark-of %}
+                {% assign bookmarkAvailable = true %}
+            {% endif %}
+        {% when 'rsvp' %}
+            {% if thisUrl == comment.rsvp %}
+                {% assign rsvpAvailable = true %}
+            {% endif %}
+        {% else %}
+    {% endcase %}
+{% endfor%}
+
+
+{% if likesAvailable == true %}
+<h2 class="lh-one f5 red mb7 pa0">Likes</h2>
+<article class="h-cite p-comment reply-relation mb2">
+    <ul class="ma0 pa0">
+        {% for comment in comments %}
+            {% if thisUrl == comment.like-of %}
+                <li class="dib list"><a href="{{comment.author.url  | replace: 'http://', 'https://'}}" class="p-name u-url" rel="external"><img src="{{comment.author.photo }}" alt="{{comment.author.name}}" class="u-photo photo br-circle" width="40" height="40"></a></li>
+            {% endif %}
+        {% endfor%}
+    </ul>
+</article>
+{% endif %}
+
+{% if mentionsAvailable == true %}
+    <h2 class="lh-one f5 red mb7 pa0">Mentions</h2>
+    {% for comment in comments %}
+        {% if thisUrl == comment.mention-of %}
+
+            {% if comment.url contains "https://medium.com/@vincentlistens/" %}
+                    <article class="h-cite p-comment reply-relation mb5">
+                        <h3 class="f6 p-author h-card ma0 pa0">Also syndicated to: <a href="{{comment.url  | replace: 'http://', 'https://'}}" title="Read this story on {{comment.url  | replace: 'http://', 'https://'}}" rel="external" class="u-syndication">Medium</a></h3>
+                    </article>
+                </article>
+        {% endif %}
+
+        {% endif %}
+     {% endfor%}
+{% endif %}
+
+{% if repostsAvailable == true %}
+<h2 class="lh-one f5 red mb7 pa0">Shares</h2>
+<article class="h-cite p-comment reply-relation mb2">
+    <ul class="ma0 pa0">
+        {% for comment in comments %}
+            {% if thisUrl == comment.repost-of %}
+                <li class="dib list"><a href="{{comment.author.url  | replace: 'http://', 'https://'}}" class="p-name u-url" rel="external"><img src="{{comment.author.photo }}" alt="{{comment.author.name}}" class="u-photo photo br-circle" width="40" height="40"></a></li>
+            {% endif %}
+        {% endfor%}
+    </ul>
+</article>
+{% endif %}
+
+{% if bookmarkAvailable == true %}
+<h2 class="lh-one f5 red mb7 pa0">Bookmarked</h2>
+<article class="h-cite p-comment reply-relation mb2">
+    <ul class="ma0 pa0">
+        {% for comment in comments %}
+            {% if thisUrl == comment.bookmark-of %}
+                <li class="dib list"><a href="{{comment.author.url  | replace: 'http://', 'https://'}}" class="p-name u-url" rel="external"><img src="{{comment.author.photo }}" alt="{{comment.author.name}}" class="u-photo photo br-circle" width="40" height="40"></a></li>
+            {% endif %}
+        {% endfor%}
+    </ul>
+</article>
+{% endif %}
+
+{% if rsvpAvailable == true %}
+<h2 class="lh-one f5 red mb7 pa0">RSVP</h2>
+<article class="h-cite p-comment reply-relation mb2">
+    <ul class="ma0 pa0">
+        {% for comment in comments %}
+            {% if thisUrl == comment.rsvp %}
+                <li class="dib list"><a href="{{comment.author.url  | replace: 'http://', 'https://'}}" class="p-name u-url" rel="external"><img src="{{comment.author.photo }}" alt="{{comment.author.name}}" class="u-photo photo br-circle" width="40" height="40"></a></li>
+            {% endif %}
+        {% endfor%}
+    </ul>
+</article>
+{% endif %}
+
+{% if repliesAvailable == true %}
+    <h2 class="lh-one f5 red mb7 pa0">Conversation</h2>
+    {% for comment in comments %}
+        {% if thisUrl == comment.in-reply-to %}
+                <article class="h-cite p-comment reply-relation mb5">
+                    <h3 class="f6 u-author h-card ma0 pa0">
+                        <img src="{{comment.author.photo }}" alt="{{comment.author.url  | replace: 'http://', 'https://'}}" class="u-photo photo br-circle fl mr7" width="30" height="30">
+                        <a href="{{comment.author.url  | replace: 'http://', 'https://' }}" class="p-name u-url fl mt--fixed-4" rel="external">{{comment.author.name }}</a>
+                    </h3>
+                    <div class="e-content p-summary p-name reply-content cf mv5">
+                        <p class="f6">{{comment.content.text}}</p>
+                        <p class="f7">{% if comment.swarm-coins %}<img src="{{site.url}}/images/swarm/coin-icon.png" width="16" height="16" alt="coin icon" class="fl mr8">{{comment.swarm-coins}} coins<br>{% endif %}<a href="{{comment.url}}" rel="external"><time class="published-datetime f7" datetime="{{ comment.published | date_to_xmlschema }}">posted on {{comment.published | date_to_long_string: "ordinal" }} at {{comment.published | date: "%H" }}:{{ comment.published | date: "%M%P" }}</time></a></p>
+                    </div>
+                </article>
+            {% endif %}
+     {% endfor%}
+{% endif %}

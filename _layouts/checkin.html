@@ -43,18 +43,9 @@
                        <p><small>Checkin via <a href="https://ownyourswarm.p3k.io/">https://ownyourswarm.p3k.io</a></small></p>
                         <p><small>Original Post <a href="{{page.syndication}}">{{page.syndication}}</a></small></p>
 
-                        {% assign comments = site.data.webmentions.links %}
-                        {% if site.webmentionTestUrl == false %}
-                            {% assign thisUrl =  page.url | absolute_url %}
-                        {% else %}
-                            {% assign thisUrl =  "https://vincentp.me" | append: page.url %}
-                        {% endif %}
-
-                         <div class="center pb5">
-                            {% include webmentions/likes.html %}
-                            {% include webmentions/reposts.html %}
-                            {% include webmentions/webmentionForm.html %}
-                            {% include webmentions/replies.html %}
+                        <div class="pb5">
+                            {% include webmentionForm.html %}
+                            {% include webmentions.html %}
                         </div>
                 </article>
             </main>
