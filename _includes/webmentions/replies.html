@@ -1,31 +1,29 @@
 {% assign repliesAvailable = false %}
 
 {% for comment in comments %}
-    {% if thisUrl == comment.target %}
-        {% if comment.activity.type == "reply" or comment.activity.type == "link" %}
-            {% assign repliesAvailable = true %}
-        {% endif %}
+    {% if thisUrl == comment.in-reply-to %}
+        {% assign repliesAvailable = true %}
     {% endif %}
 {% endfor%}
 
 {% if repliesAvailable == true %}
     <h2 class="lh-one f5 red mb7 pa0">Conversation</h2>
     {% for comment in comments %}
-        {% if thisUrl == comment.target  %}
-            {% if comment.activity.type == "reply" or comment.activity.type == "link" %}
+        {% if thisUrl == comment.in-reply-to  %}
+            {% if comment.wm-property == "in-reply-to" or comment.wm-property == "link" %}
                 {% if comment.source contains "https://medium.com/@vincentlistens/" %}
                     <article class="h-cite p-comment reply-relation mb5">
-                        <h3 class="f6 p-author h-card ma0 pa0">Also syndicated to: <a href="{{comment.data.url  | replace: 'http://', 'https://'}}" title="Read this story on Medium" rel="external" class="u-syndication">Medium</a></h3>
+                        <h3 class="f6 p-author h-card ma0 pa0">Also syndicated to: <a href="{{comment.url  | replace: 'http://', 'https://'}}" title="Read this story on Medium" rel="external" class="u-syndication">Medium</a></h3>
                     </article>
                 {% else %}
                 <article class="h-cite p-comment reply-relation mb5">
                     <h3 class="f6 u-author h-card ma0 pa0">
-                        <img src="{{comment.data.author.photo }}" alt="{{comment.data.author.url  | replace: 'http://', 'https://'}}" class="u-photo photo br-circle fl mr7" width="30" height="30">
-                        <a href="{{comment.data.author.url  | replace: 'http://', 'https://' }}" class="p-name u-url fl mt--fixed-4" rel="external">{{comment.data.author.name }}</a>
+                        <img src="{{comment.author.photo }}" alt="{{comment.author.url  | replace: 'http://', 'https://'}}" class="u-photo photo br-circle fl mr7" width="30" height="30">
+                        <a href="{{comment.author.url  | replace: 'http://', 'https://' }}" class="p-name u-url fl mt--fixed-4" rel="external">{{comment.author.name }}</a>
                     </h3>
                     <div class="e-content p-summary p-name reply-content cf mv5">
-                        <p class="f6">{{comment.data.content}}</p>
-                        <time class="published-datetime f7 grey" datetime="{{ comment.verified_date | date_to_xmlschema }}">posted on {{comment.verified_date | date_to_long_string: "ordinal" }} at {{comment.verified_date | date: "%H" }}:{{ comment.verified_date | date: "%M%P" }}</time>
+                        <p class="f6">{{comment.content.text}}</p>
+                        <p class="f7">{% if comment.swarm-coins %}<img src="{{site.url}}/images/swarm/coin-icon.png" width="16" height="16" alt="coin icon" class="fl mr8">{{comment.swarm-coins}} coins {% endif %}<time class="published-datetime f7 grey" datetime="{{ comment.published | date_to_xmlschema }}">posted on {{comment.published | date_to_long_string: "ordinal" }} at {{comment.published | date: "%H" }}:{{ comment.published | date: "%M%P" }}</time></p>
                     </div>
                 </article>
                 {% endif %}

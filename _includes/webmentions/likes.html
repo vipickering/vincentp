@@ -1,7 +1,7 @@
 {% assign likesAvailable = false %}
 
 {% for comment in comments %}
-    {% if thisUrl == comment.target and comment.activity.type == "like" %}
+    {% if thisUrl == comment.like-of %}
         {% assign likesAvailable = true %}
     {% endif %}
 {% endfor%}
@@ -11,12 +11,10 @@
 <article class="h-cite p-comment reply-relation mb2">
     <ul class="ma0 pa0">
         {% for comment in comments %}
-            {% if thisUrl == comment.target and comment.activity.type == "like" %}
-                <li class="dib list"><a href="{{comment.data.author.url  | replace: 'http://', 'https://'}}" class="p-name u-url" rel="external"><img src="{{comment.data.author.photo }}" alt="{{comment.data.author.name}}" class="u-photo photo br-circle" width="40" height="40"></a></li>
+            {% if thisUrl == comment.like-of %}
+                <li class="dib list"><a href="{{comment.author.url  | replace: 'http://', 'https://'}}" class="p-name u-url" rel="external"><img src="{{comment.author.photo }}" alt="{{comment.author.name}}" class="u-photo photo br-circle" width="40" height="40"></a></li>
             {% endif %}
         {% endfor%}
     </ul>
 </article>
 {% endif %}
-
-
