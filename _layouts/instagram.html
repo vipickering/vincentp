@@ -15,29 +15,27 @@
                         {% include author.html %}
                     </div>
 
-                    <figure class="ma0 pa0">
-                        <img src="{{page.photo}} " class="u-photo w-100" alt="{{page.name}}"/>
-                        <figcaption class="mt5 mb5 tl e-content">{{ content }}</figcaption>
-                    </figure>
+                        <div class="ma0 mb7 pa0">
+                            <img src="{{page.photo}} " class="u-photo w-100" alt="{{page.name}}"/>
+                            <p class="mt5 mb5 tl e-content">{{ content }}</p>
+                        </div>
 
-                    <div>
-                        <p><small>Photo via <a href="https://ownyourgram.com">https://ownyourgram.com</a></small></p>
-                        <p><small>Original Post <a href="{{page.syndication}}">{{page.syndication}}</a></small></p>
-                    </div>
+                        <p class="f7">Photo via <a href="https://ownyourgram.com" rel="external" >https://ownyourgram.com</a></p>
+                        <p class="f7 p-author">Original Post <a href="{{page.syndication}}"  rel="external" class="u-syndication">{{page.syndication}}</a></p>
 
-                     <div class="pb5 b-star-before">
-                        <h3 class="f5 red ma0">Tags</h3>
-                        <ul class="fw3 f6 pa0 ma0">
-                            {% for tag in page.tags %}
-                                <li class="dib list pt3 pb3"><a href="{{site.url}}/tags/{{tag}}" title="read more articles tagged with {{tag}}" class="p-category bg-red white pa7 br-fixed-2 rm-underline hover-button f7 no-wrap">{{tag | replace: '-', ' '}}</a></li>
-                            {% endfor %}
-                        </ul>
-                    </div>
+                         <div class="pb5 b-star-before">
+                            <h3 class="f5 red ma0">Tags</h3>
+                            <ul class="fw3 f6 pa0 ma0">
+                                {% for tag in page.tags %}
+                                    <li class="dib list pt3 pb3"><a href="{{site.url}}/tags/{{tag}}" title="read more articles tagged with {{tag}}" class="p-category bg-red white pa7 br-fixed-2 rm-underline hover-button f7 no-wrap">{{tag | replace: '-', ' '}}</a></li>
+                                {% endfor %}
+                            </ul>
+                        </div>
 
-                    <div class="pb5">
-                        {% include webmentionForm.html %}
-                        {% include webmentions.html %}
-                    </div>
+                        <div class="pb5">
+                            {% include webmentionForm.html %}
+                            {% include webmentions.html %}
+                        </div>
                 </article>
             </main>
         </div>

@@ -8,15 +8,15 @@
         <div>
             {% include navigation.html %}
 
-            <div class="h-entry layoutGrid center">
+            <div class="layoutGrid center">
                 <main id="content">
-                    <article>
+                    <article class="h-entry">
                         <div class="mb5 mt-header">
                             <h1 class="p-name mb0">{{ page.title | truncatewords: 6 }}</h1>
                             {% include author.html %}
                         </div>
 
-                        <div data-type="blog" class="e-content">
+                        <div class="e-content" data-type="blog">
                             {{ content }}
 
                             {% if page.modified %}
