@@ -7,44 +7,42 @@
     <body class="ma0 pa0">
         <div>
             {% include navigation.html %}
-
             <div class="layoutGrid center">
-
-                <main id="content" class="h-entry">
-                    <article>
+                <main id="content">
+                    <article class="h-entry">
                          <div class="mb5 mt-header">
                             <h1 class="p-name ma0 pa0 f1 lh-heading ">{{ page.title }}</h1>
                             <p class="p-summary grey fw3 f6 italic lh-heading mb7 ">{{ page.summary }}</p>
                             {% include author.html %}
                         </div>
 
-                        <div data-type="blog" class="e-content">
+                        <div class="e-content" data-type="blog">
                             {{ content }}
 
                             {% if page.modified %}
                                 <time class="dt-published red f7"  datetime="{{ page.date | date_to_xmlschema }}" title="Page Modified" >{{ page.modified | date_to_string: "ordinal" }} at <span class="dt-updated f7">{{ page.modified | date: "%H" }}:{{ page.modified | date: "%M%P" }}</span></time>
-                                <p class="f7">{{ page.modifiedReason }}.</p>
+                                <p class="f7 dt-updated">{{ page.modifiedReason }}.</p>
                             {% endif %}
-                            </div>
+                        </div>
+
+                        <div class="pb5 b-star-before">
+                            <h3 class="f5 red ma0">Tags</h3>
+                            <ul class="fw3 f6 pa0 ma0">
+                                {% for tag in page.tags %}
+                                    <li class="dib list pt3 pb3"><a href="{{site.url}}/tags/{{tag}}" title="read more articles tagged with {{tag}}" class="p-category bg-red white pa7 br-fixed-2 rm-underline hover-button f7 no-wrap">{{tag | replace: '-', ' '}}</a></li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+
+                        {% if  page.category !="Notes"%}
+                            {% include recommended.html %}
+                        {% endif %}
+
+                        <div class="pb5">
+                            {% include webmentionForm.html %}
+                            {% include webmentions.html %}
+                        </div>
                     </article>
-
-                    <div class="pb5 b-star-before">
-                        <h3 class="f5 red ma0">Tags</h3>
-                        <ul class="fw3 f6 pa0 ma0">
-                            {% for tag in page.tags %}
-                                <li class="dib list pt3 pb3"><a href="{{site.url}}/tags/{{tag}}" title="read more articles tagged with {{tag}}" class="p-category bg-red white pa7 br-fixed-2 rm-underline hover-button f7 no-wrap">{{tag | replace: '-', ' '}}</a></li>
-                            {% endfor %}
-                        </ul>
-                    </div>
-
-                    {% if  page.category !="Notes"%}
-                        {% include recommended.html %}
-                    {% endif %}
-
-                    <div class="pb5">
-                        {% include webmentionForm.html %}
-                        {% include webmentions.html %}
-                    </div>
                 </main>
             </div>
         </div>
