@@ -35,6 +35,10 @@
     margin-bottom: var(--f7);
 }
 
+.mr0 {
+    margin-right: 0;
+}
+
 .mr5 {
     margin-right: var(--f5);
 }
