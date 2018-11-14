@@ -113,6 +113,7 @@ p-rsvp  - see http://microformats.org/wiki/h-entry for data elements
 
 {% if repliesAvailable == true %}
     <h2 class="lh-one f5 red mb7 pa0">Conversation</h2>
+
     {% for comment in comments %}
         {% if thisUrl == comment.in-reply-to %}
                 <article class="h-cite p-comment reply-relation mb5">
