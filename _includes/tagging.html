@@ -3,7 +3,7 @@
     <h3 class="f5 red ma0">Tags</h3>
     <div class="fw3 f6 pa0 ma0 pt3 pb3">
         {% for tag in page.tags %}
-            <a href="{% if tag contains "indienews" %}https://news.indieweb.org/en{% else %}{{site.url}}/tags/{{tag}}{% endif %}" title="read more tagged with {{tag}}" class="u-category bg-red white pa7 br-fixed-2 rm-underline hover-button f7 no-wrap mb7 dib {% if forloop.last == false %}mr7{%endif%}">{{tag | replace: '-', ' '}}</a>
+            <a href="{% if tag contains "indienews" %}https://news.indieweb.org/en{% else %}{{site.url}}/tags/{{tag}}{% endif %}" title="read more tagged with {{tag}}" class="u-category p-category bg-red white pa7 br-fixed-2 rm-underline hover-button f7 no-wrap mb7 dib {% if forloop.last == false %}mr7{%endif%}" rel="tag">{{tag | replace: '-', ' '}}</a>
         {% endfor %}
     </div>
 </div>
