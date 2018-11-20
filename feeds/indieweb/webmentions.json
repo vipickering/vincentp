@@ -3,8 +3,19 @@ layout: null
 ---
 {% assign publishTime = site.data.published.time %}{
     "published":"{{publishTime}}",
-    "webmentions": {% for post in site.posts %}{% assign postTime = post.date | date_to_xmlschema %}{% if postTime >= publishTime %}{% if post.target -%}{
-            "source": "{{site.url}}{{ post.url }}",
-            "target": "{{post.target}}"{% if forloop.first != true %},{% endif %}
-        }{% endif %}{% endif %}{% endfor %}
+    "webmentions":[
+        {%- for post in site.posts -%}
+            {%- assign postTime = post.date | date_to_xmlschema -%}
+            {%- if post.target and postTime >= publishTime -%}
+                {%- for item in post.target %}
+    {
+        "source": "{{site.url}}{{ post.url }}",
+        "target": "{{item}}"
+    }
+                    {%- if forloop.last == false -%},{%- endif -%}
+                {%- endfor -%}
+            {%- endif -%}
+       {%- endfor %}
+    ]
 }
+
