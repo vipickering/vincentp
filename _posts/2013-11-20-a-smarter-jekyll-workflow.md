@@ -8,7 +8,8 @@ category: "Articles"
 modified :
 modifiedReason:
 twitterCard: false
-tags: "jekyll"
+tags:
+- jekyll
 permalink : /blog/:title
 ---
 

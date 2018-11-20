@@ -8,7 +8,10 @@ category: "Articles"
 modified :
 modifiedReason:
 twitterCard: false
-tags: "javascript technology jekyll"
+tags:
+- javascript
+- technology
+- jekyll
 permalink : /blog/:title
 ---
 

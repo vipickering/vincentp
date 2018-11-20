@@ -10,7 +10,10 @@ category: "Articles"
 modified : 2018-05-16 16:50:00 +/-GMT
 modifiedReason: "The current method was a bit hacky. This is a better solution"
 twitterCard: false
-tags: "jekyll thoughts html"
+tags:
+- jekyll
+- thoughts
+- html
 permalink : /blog/:title
 ---
 

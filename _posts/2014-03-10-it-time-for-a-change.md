@@ -8,7 +8,11 @@ category: "Articles"
 modified :
 modifiedReason:
 twitterCard: false
-tags: "thoughts process meetups social"
+tags:
+- thoughts
+- process
+- meetups
+- social
 permalink : /blog/:title
 ---
 

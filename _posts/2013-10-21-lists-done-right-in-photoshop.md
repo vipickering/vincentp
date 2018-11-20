@@ -8,7 +8,11 @@ category: "Articles"
 modified :
 modifiedReason:
 twitterCard: false
-tags: "process technology typography tools"
+tags:
+- process
+- technology
+- typography
+- tools
 permalink : /blog/:title
 ---
 

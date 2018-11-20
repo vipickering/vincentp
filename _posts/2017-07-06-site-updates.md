@@ -8,7 +8,12 @@ category: "Articles"
 modified :
 modifiedReason:
 twitterCard: false
-tags: "jekyll html css process tools"
+tags:
+- jekyll
+- html
+- css
+- process
+- tools
 permalink : /blog/:title
 ---
 

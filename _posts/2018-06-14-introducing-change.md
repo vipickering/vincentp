@@ -8,7 +8,12 @@ category: "Articles"
 modified :
 modifiedReason:
 twitterCard: true
-tags: "process thoughts ux ui problem-solving"
+tags:
+- process
+- thoughts
+- ux
+- ui
+- problem-solving
 ---
 
 Humans on the whole, are uncomfortable with change and find the process unnerving. It is hard wired in to our being to keep us safe. What is familiar can be controlled, managed or manipulated, what we do not understand could yield danger.

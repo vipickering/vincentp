@@ -8,7 +8,9 @@ category: "Articles"
 modified :
 modifiedReason:
 twitterCard: true
-tags: "thoughts process"
+tags:
+- thoughts
+- process
 permalink : /blog/dreamcatcher
 ---
 

@@ -8,7 +8,11 @@ category: "Articles"
 modified :
 modifiedReason:
 twitterCard: true
-tags: "process thoughts ux failure"
+tags:
+- process
+- thoughts
+- ux
+- failure
 ---
 
 <blockquote>

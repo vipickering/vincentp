@@ -8,7 +8,10 @@ category: "Articles"
 modified : 2017-03-20 16:17:00
 modifiedReason: to correct style, readability and punctuation
 twitterCard: false
-tags: "ui ux thoughts"
+tags:
+- ui
+- ux
+- thoughts
 permalink : /blog/:title
 ---
 <p><span class="dt-updated">

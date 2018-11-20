@@ -8,7 +8,12 @@ category: "Articles"
 modified :
 modifiedReason:
 twitterCard: true
-tags: "process thoughts ux ui problem-solving"
+tags:
+- process
+- thoughts
+- ux
+- ui
+- problem-solving
 ---
 
 The perfect house guest, stays for exactly the right amount of time and only asks for what the host can offer.

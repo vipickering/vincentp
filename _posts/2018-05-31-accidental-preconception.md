@@ -8,7 +8,11 @@ category: "Articles"
 modified :
 modifiedReason:
 twitterCard: true
-tags: "process productivity thoughts ux"
+tags:
+- process
+- productivity
+- thoughts
+- ux
 ---
 
 <blockquote>

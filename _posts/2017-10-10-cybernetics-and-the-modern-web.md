@@ -8,7 +8,11 @@ category: "Articles"
 modified :
 modifiedReason:
 twitterCard: true
-tags: "thoughts technology process cybernetics"
+tags:
+- thoughts
+- technology
+- process
+- cybernetics
 permalink : /blog/:title
 ---
 

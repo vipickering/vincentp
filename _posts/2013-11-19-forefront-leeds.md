@@ -8,7 +8,10 @@ category: "Articles"
 modified :
 modifiedReason:
 twitterCard: false
-tags: "meetups speaking social"
+tags:
+- meetups
+- speaking
+- social
 permalink : /blog/:title
 ---
 

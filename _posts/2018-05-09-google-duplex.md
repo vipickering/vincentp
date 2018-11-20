@@ -8,7 +8,9 @@ category: "Articles"
 modified :
 modifiedReason:
 twitterCard: false
-tags: "technology thoughts"
+tags:
+- technology
+- thoughts
 permalink : /blog/:title
 ---
 

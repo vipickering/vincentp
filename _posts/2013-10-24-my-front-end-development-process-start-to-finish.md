@@ -8,7 +8,12 @@ category: "Articles"
 modified :
 modifiedReason:
 twitterCard: false
-tags: "process technology tools html css"
+tags:
+- process
+- technology
+- tools
+- html
+- css
 permalink : /blog/:title
 ---
 

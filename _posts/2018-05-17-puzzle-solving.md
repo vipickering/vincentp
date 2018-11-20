@@ -8,7 +8,10 @@ category: "Articles"
 modified :
 modifiedReason:
 twitterCard: true
-tags: "process thoughts ux"
+tags:
+- process
+- thoughts
+- ux
 permalink : /blog/:title
 ---
 

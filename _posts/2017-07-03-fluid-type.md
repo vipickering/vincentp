@@ -8,7 +8,10 @@ category: "Articles"
 modified :
 modifiedReason:
 twitterCard: false
-tags: "typography css html"
+tags:
+- typography
+- css
+- html
 permalink : /blog/:title
 ---
 

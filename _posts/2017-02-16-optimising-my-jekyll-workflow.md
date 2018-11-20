@@ -10,7 +10,12 @@ category: "Articles"
 modified :
 modifiedReason:
 twitterCard: false
-tags: "jekyll technology tools css html"
+tags:
+- jekyll
+- technology
+- tools
+- css
+- html
 permalink : /blog/:title
 ---
 ## Jekyll, Netlify and HTTPS

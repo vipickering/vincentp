@@ -8,7 +8,10 @@ category: "Articles"
 modified :
 modifiedReason:
 twitterCard: false
-tags: "technology html css"
+tags:
+- technology
+- html
+- css
 permalink : /blog/:title
 ---
 

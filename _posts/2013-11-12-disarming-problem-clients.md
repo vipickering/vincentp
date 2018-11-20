@@ -8,7 +8,9 @@ category: "Articles"
 modified :
 modifiedReason:
 twitterCard: false
-tags: "process consultancy"
+tags:
+- process
+- consultancy
 permalink : /blog/:title
 ---
 

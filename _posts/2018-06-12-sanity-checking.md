@@ -8,7 +8,12 @@ category: "Articles"
 modified :
 modifiedReason:
 twitterCard: true
-tags: "process thoughts ux ui problem-solving"
+tags:
+- process
+- thoughts
+- ux
+- ui
+- problem-solving
 ---
 
 If everything was created perfect the first time, the world would already be perfect.

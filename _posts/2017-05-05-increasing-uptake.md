@@ -8,7 +8,9 @@ category: "Articles"
 modified :
 modifiedReason:
 twitterCard: false
-tags: "thoughts ux"
+tags:
+- thoughts
+- ux
 permalink : /blog/:title
 ---
 I find physical exercise a good way to work through my thoughts. While ripping out weeds from my garden, my mind drifted back to my last contract working for the <abbr title="Department of Work and Pensions">DWP</abbr>.

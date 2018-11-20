@@ -8,7 +8,9 @@ category: "Articles"
 modified :
 modifiedReason:
 twitterCard: false
-tags: "social meetups"
+tags:
+- social
+- meetups
 permalink : /blog/:title
 ---
 

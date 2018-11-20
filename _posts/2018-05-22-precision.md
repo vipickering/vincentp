@@ -8,7 +8,10 @@ category: "Articles"
 modified :
 modifiedReason:
 twitterCard: true
-tags: "process productivity thoughts"
+tags:
+- process
+- productivity
+- thoughts
 permalink : /blog/:title
 ---
 

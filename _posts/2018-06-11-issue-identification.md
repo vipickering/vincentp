@@ -8,7 +8,12 @@ category: "Articles"
 modified :
 modifiedReason:
 twitterCard: true
-tags: "process thoughts ux ui problem-solving"
+tags:
+- process
+- thoughts
+- ux
+- ui
+- problem-solving
 ---
 
 Knowledge learnt on a subject does not bestow an ability to immediately solve a given problem on that topic. Previous learning provides a base from which a new solution can be formed, it does not provide a complete picture.

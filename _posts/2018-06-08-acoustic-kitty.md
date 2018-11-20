@@ -8,7 +8,11 @@ category: "Articles"
 modified :
 modifiedReason:
 twitterCard: true
-tags: "process thoughts ux failure"
+tags:
+- process
+- thoughts
+- ux
+- failure
 ---
 
 Failure can happen at many points in a scenario, care must be taken to constantly re-evaluate a solution checking for weakness through testing.

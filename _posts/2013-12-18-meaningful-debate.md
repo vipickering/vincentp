@@ -8,7 +8,12 @@ category: "Articles"
 modified :
 modifiedReason:
 twitterCard: false
-tags: "thoughts technology meetups social speaking"
+tags:
+- thoughts
+- technology
+- meetups
+- social
+- speaking
 permalink : /blog/:title
 ---
 
