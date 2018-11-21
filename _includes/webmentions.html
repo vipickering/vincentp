@@ -5,57 +5,53 @@
 {% endif %}
 
 {% assign comments = site.data.webmentions.links %}
-{% assign likesAvailable = false %}
-{% assign mentionsAvailable = false %}
-{% assign repostsAvailable = false %}
-{% assign repliesAvailable = false %}
-{% assign bookmarkAvailable = false %}
-{% assign rsvpAvailable = false %}
+
+{% assign repostsCount = 0 %}
+{% assign likesCount = 0 %}
+{% assign replyCount = 0 %}
+{% assign mentionCount = 0 %}
+{% assign bookmarkCount = 0 %}
+{% assign rsvpCount = 0 %}
 
 {% for comment in comments %}
     {% case comment.wm-property %}
         {% when 'in-reply-to' %}
             {% if thisUrl == comment.in-reply-to %}
-                {% assign repliesAvailable = true %}
+                {% assign replyCount = replyCount | plus: 1 %}
             {% endif %}
         {% when 'like-of' %}
             {% if thisUrl == comment.like-of %}
-                {% assign likesAvailable = true %}
+                {% assign likesCount = likesCount | plus: 1 %}
             {% endif %}
         {% when 'mention-of' %}
             {% if thisUrl == comment.mention-of %}
-                {% assign mentionsAvailable = true %}
+                {% assign mentionCount = mentionCount | plus: 1 %}
             {% endif %}
          {% when 'repost-of' %}
             {% if thisUrl == comment.repost-of %}
-                {% assign repostsAvailable = true %}
+                {% assign repostsCount = repostsCount | plus: 1 %}
             {% endif %}
         {% when 'bookmark-of' %}
             {% if thisUrl == comment.bookmark-of %}
-                {% assign bookmarkAvailable = true %}
+                 {% assign bookmarkCount = bookmarkCount | plus: 1 %}
             {% endif %}
         {% when 'rsvp' %}
             {% if thisUrl == comment.rsvp %}
-                {% assign rsvpAvailable = true %}
+                 {% assign rsvpCount = rsvpCount | plus: 1 %}
             {% endif %}
         {% else %}
     {% endcase %}
 {% endfor%}
 
-{% if likesAvailable == true %}
-<h2 class="lh-one f5 red mb7 pa0">Likes</h2>
-<article class="h-cite p-comment reply-relation mb2">
-    <ul class="ma0 pa0">
-        {% for comment in comments %}
-            {% if thisUrl == comment.like-of %}
-                <li class="dib list"><a href="{{comment.author.url  | replace: 'http://', 'https://'}}" class="u-like-of  p-name u-url" rel="external"><img src="{{comment.author.photo }}" alt="{{comment.author.name}}" class="u-photo photo br-circle" width="40" height="40"></a></li>
-            {% endif %}
-        {% endfor%}
-    </ul>
-</article>
+{% if repostsCount > 0 or likesCount > 0  or bookmarkCount > 0 or rsvpCount > 0  %}
+<h2 class="lh-one f5 red mb7 pa0">Webmention data</h2>
 {% endif %}
+{% if repostsCount > 0 %}<p class="h-cite p-comment reply-relation mb2 f6">{{repostsCount}} Reposts</p>{% endif %}
+{% if likesCount > 0 %}<p class="h-cite p-comment reply-relation mb2 f6">{{likesCount}} Likes</p>{% endif %}
+{% if bookmarkCount > 0 %}<p class="h-cite p-comment reply-relation mb2 f6">{{bookmarkCount}} Bookmarks</p>{% endif %}
+{% if rsvpCount > 0 %}<p class="h-cite p-comment reply-relation mb2 f6">{{rsvpCount}} RSVPs</p>{% endif %}
 
-{% if mentionsAvailable == true %}
+{% if mentionCount > 0 %}
     <h2 class="lh-one f5 red mb7 pa0">Elsewhere on the web</h2>
     <article class="h-cite p-comment reply-relation mb5">
         <ul class="ma0 pa0">
@@ -68,56 +64,13 @@
     </article>
 {% endif %}
 
-{% if repostsAvailable == true %}
-<h2 class="lh-one f5 red mb7 pa0">Shares</h2>
-<article class="h-cite p-comment reply-relation mb2">
-    <ul class="ma0 pa0">
-        {% for comment in comments %}
-            {% if thisUrl == comment.repost-of %}
-                <li class="dib list"><a href="{{comment.author.url  | replace: 'http://', 'https://'}}" class="u-repost-of p-name u-url "  rel="external"><img src="{{comment.author.photo }}" alt="{{comment.author.name}}" class="u-photo photo br-circle" width="40" height="40"></a></li>
-            {% endif %}
-        {% endfor%}
-    </ul>
-</article>
-{% endif %}
-
-{% if bookmarkAvailable == true %}
-<h2 class="lh-one f5 red mb7 pa0">Bookmarked</h2>
-<article class="h-cite p-comment reply-relation mb2">
-    <ul class="ma0 pa0">
-        {% for comment in comments %}
-            {% if thisUrl == comment.bookmark-of %}
-                <li class="dib list"><a href="{{comment.author.url  | replace: 'http://', 'https://'}}" class="u-bookmark-of p-name u-url" rel="external"><img src="{{comment.author.photo }}" alt="{{comment.author.name}}" class="u-photo photo br-circle" width="40" height="40"></a></li>
-            {% endif %}
-        {% endfor%}
-    </ul>
-</article>
-{% endif %}
-
-{% if rsvpAvailable == true %}
-<h2 class="lh-one f5 red mb7 pa0">RSVP</h2>
-<article class="h-cite p-comment reply-relation mb2">
-    <ul class="ma0 pa0">
-        {% for comment in comments %}
-            {% if thisUrl == comment.rsvp %}
-                <!-- <li class="dib list"><a href="{{comment.author.url  | replace: 'http://', 'https://'}}" class="p-name u-url" rel="external"><img src="{{comment.author.photo }}" alt="{{comment.author.name}}" class="u-photo photo br-circle" width="40" height="40"></a></li> -->
-                <!--
-p-rsvp  - see http://microformats.org/wiki/h-entry for data elements
-                -->
-            {% endif %}
-        {% endfor%}
-    </ul>
-</article>
-{% endif %}
-
-{% if repliesAvailable == true %}
+{% if replyCount > 0 %}
     <h2 class="lh-one f5 red mb7 pa0">Conversation</h2>
 
     {% for comment in comments %}
         {% if thisUrl == comment.in-reply-to %}
                 <article class="h-cite p-comment reply-relation mb5">
                     <h3 class="f6 u-author h-card ma0 pa0">
-                        <img src="{{comment.author.photo }}" alt="{{comment.author.url  | replace: 'http://', 'https://'}}" class="u-photo photo br-circle fl mr7" width="30" height="30">
                         <a href="{{comment.author.url  | replace: 'http://', 'https://' }}" class="u-in-reply-to p-name u-url fl mt--fixed-4" rel="external">{{comment.author.name }}</a>
                     </h3>
                     <div class="e-content p-summary p-name reply-content cf mv5">
