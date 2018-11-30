@@ -1,8 +1,8 @@
 {% case page.webmention %}
     {% when "reply" %}
         {% assign webmentionType = "u-in-reply-to" %}
-        {% assign wmExtraText = "in " %}
-        {% assign wmText = "response" %}
+        {% assign wmExtraText = "responding to " %}
+        {% assign wmText = page.replyName %}
     {% when "like" %}
         {% assign webmentionType = "u-like-of" %}
         {% assign wmExtraText = "Favourited " %}
@@ -22,7 +22,7 @@
 {% endcase %}
 
 {% capture webmentionText %}
-     {{wmExtraText}}<a class="{{webmentionType}}" href="{{page.target}}">{{wmText}}</a>
+     {{wmExtraText}}<a class="{{webmentionType}}" href="{{page.target[0]}}">{{wmText | default: "this"}}</a>
 {% endcapture %}
 
 <div class="u-author h-card mini-two-col-grid mb5 align-items-center">
