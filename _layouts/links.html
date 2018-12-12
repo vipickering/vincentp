@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {% include meta.html %}
+    </head>
+
+    <body class="ma0 pa0">
+        <div>
+            {% include navigation.html %}
+
+            <div class="layoutGrid center">
+                <main id="content">
+                    <article class="h-entry">
+                        <div class="e-content">
+                        <div class="mb5 mt-header">
+                            <h1 class="p-name mb0"><a href="{{page.target}}" class="u-bookmark-of" rel="external">{{ page.title | truncatewords: 6 }}</a></h1>
+                            {% include author.html %}
+                        </div>
+
+                        <div class="" data-type="blog">
+                            {{ content }}
+
+                            {% if page.modified %}
+                                <time class="dt-published red f7"  datetime="{{ page.date | date_to_xmlschema }}" title="Page Modified" >{{ page.modified | date_to_string: "ordinal" }} at <span class="dt-updated f7">{{ page.modified | date: "%H" }}:{{ page.modified | date: "%M%P" }}</span></time>
+                                <p class="f7"> {{ page.modifiedReason }}.</p>
+                            {% endif %}
+                        </div>
+                    </div>
+                    </article>
+
+                    {% include tagging.html %}
+
+                    <div class="pb5">
+                        {% include webmentionForm.html %}
+                        {% include webmentions.html %}
+                    </div>
+                </main>
+            </div>
+        </div>
+        {% include footer.html %}
+    </body>
+</html>

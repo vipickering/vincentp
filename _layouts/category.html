@@ -13,10 +13,23 @@
             <main id="content">
                 <div class="e-content layoutGrid center">
                     <h1 class="ma0 mb5 pa0 lh-heading f4 red">{{ page.title }}</h1>
-                    {% if page.type == 'Checkins' %}{% assign pageType = site.categories.Checkins %}{% endif %}
-                    {% if page.type == 'Notes' %}{% assign pageType = site.categories.Notes %}{% endif %}
-                    {% if page.type == 'Articles' %}{% assign pageType = site.categories.Articles %}{% endif %}
-                    {% if page.type == 'Instagram' %}{% assign pageType = site.categories.Instagram %}{% endif %}
+                    {% case page.type %}
+                        {% when 'Notes' %}
+                            {% assign pageType = site.categories.Notes %}
+                        {% when 'Articles' %}
+                            {% assign pageType = site.categories.Articles %}
+                        {% when 'Instagram' %}
+                            {% assign pageType = site.categories.Instagram %}
+                        {% when 'Checkins' %}
+                            {% assign pageType = site.categories.Checkins %}
+                        {% when 'Links' %}
+                            {% assign pageType = site.categories.Links %}
+                        {% when 'Favourites' %}
+                            {% assign pageType = site.categories.Favourites %}
+                        {% when 'Replies' %}
+                            {% assign pageType = site.categories.Replies %}
+                    {% endcase %}
+
                     {% for post in pageType %}
                     <article class="h-entry lifestreamGrid">
                         <div class="borderBefore relative {% if forloop.last == true %}mb5{%endif%}">
