@@ -3,7 +3,7 @@ layout: null
 ---
 {% assign publishTime = site.data.published.time %}{
     "published":"{{publishTime}}",
-    "webmentions":[
+    "webmentions":
         {%- for post in site.posts -%}
             {%- assign postTime = post.date | date_to_xmlschema -%}
             {%- if post.target and postTime >= publishTime -%}
@@ -16,5 +16,4 @@ layout: null
                 {%- endfor -%}
             {%- endif -%}
        {%- endfor %}
-    ]
 }
