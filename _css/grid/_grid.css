@@ -20,9 +20,7 @@ pre {
     align-items: center;
 }
 
-/*
-When embedding CodePens or snippets. Allow them to break out the grid, but not go full screen
-*/
+/* When embedding CodePens or snippets. Allow them to break out the grid, but not go full screen */
 .layoutGrid > .cp_embed_wrapper {
     grid-column: full;
     width: 100%;
