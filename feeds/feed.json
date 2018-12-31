@@ -29,9 +29,6 @@ layout: null
             {%- if post.photo %}
             "image": {{ post.photo | jsonify}},
             {%- endif %}
-            {%- if post.tags.size != 0 %}
-            "tags": "{% for tag in post.tags %}{{tag}} {%endfor%}"
-            {%- endif %}
             "content_text": {{ post.title | jsonify }},
             "content_html": {{ post.content | jsonify}}
         }{% if forloop.last != true %},{% endif %}{% endfor %}
