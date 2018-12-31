@@ -9,31 +9,30 @@ layout: null
     "description" : "Web design including: UI, UX, HTML, CSS, JavaScript and Node",
     "icon" : "{{site.url}}/images/vincentp.jpg",
     "favicon" : "{{site.url}}/images/favicons/apple-touch-icon-76x76-precomposed.png",
-    "author" : [
-        {
+    "author" :
+    {
             "name" : "{{site.data.author.name}}",
             "url" : "{{site.url}}",
             "avatar" : "{{site.url}}/images/profile/vincentp@2x.jpg"
-        }
-    ],
+    },
      "items": [{% for post in site.posts limit:20 %}
         {
             "author": {
                 "url": "{{site.url}}"
             },
-            "title" : {{ post.title | jsonify }},
-            "summary": {{ post.meta | jsonify}},
+            "title" : "{{ post.title | jsonify }}",
+            "summary": "{{ post.meta | jsonify}}",
             "date_published" : "{{ post.date  | date_to_xmlschema }}"{% if post.modified %},
             "date_modified" : "{{post.modified  | date_to_xmlschema}}"{% endif%},
             "id": "{{site.url}}{{post.id}}",
             "url": "{{site.url}}{{ post.url }}",
             {%- if post.photo %}
-            "image": {{ post.photo | jsonify}},
+            "image": "{{ post.photo | jsonify}}",
             {%- endif %}
             {%- if post.tags.size != 0 %}
-            "tags": {% for tag in post.tags %}{{tag}} {%endfor%}
+            "tags": "{% for tag in post.tags %}{{tag}} {%endfor%}"
             {%- endif %}
-            "content_text": {{ post.title | jsonify }},
+            "content_text": "{{ post.title | jsonify }}",
             "content_html": {{ post.content | jsonify}}
         }{% if forloop.last != true %},{% endif %}{% endfor %}
     ]
