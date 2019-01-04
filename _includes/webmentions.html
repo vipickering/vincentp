@@ -4,7 +4,9 @@
     {% assign thisUrl =  "https://vincentp.me" | append: page.url %}
 {% endif %}
 
-{% assign comments = site.data.webmentions.links %}
+{% assign dateDay = page.date | date: "%d" %}
+{% assign dateMonth = page.date | date: "%m" %}
+{% assign dateYear = page.date | date: "%Y" %}
 
 {% assign repostsCount = 0 %}
 {% assign likesCount = 0 %}
@@ -13,35 +15,44 @@
 {% assign bookmarkCount = 0 %}
 {% assign rsvpCount = 0 %}
 
-{% for comment in comments %}
-    {% case comment.wm-property %}
-        {% when 'in-reply-to' %}
-            {% if thisUrl == comment.in-reply-to %}
-                {% assign replyCount = replyCount | plus: 1 %}
-            {% endif %}
-        {% when 'like-of' %}
-            {% if thisUrl == comment.like-of %}
-                {% assign likesCount = likesCount | plus: 1 %}
-            {% endif %}
-        {% when 'mention-of' %}
-            {% if thisUrl == comment.mention-of %}
-                {% assign mentionCount = mentionCount | plus: 1 %}
-            {% endif %}
-         {% when 'repost-of' %}
-            {% if thisUrl == comment.repost-of %}
-                {% assign repostsCount = repostsCount | plus: 1 %}
-            {% endif %}
-        {% when 'bookmark-of' %}
-            {% if thisUrl == comment.bookmark-of %}
-                 {% assign bookmarkCount = bookmarkCount | plus: 1 %}
-            {% endif %}
-        {% when 'rsvp' %}
-            {% if thisUrl == comment.rsvp %}
-                 {% assign rsvpCount = rsvpCount | plus: 1 %}
-            {% endif %}
-        {% else %}
-    {% endcase %}
-{% endfor%}
+{% assign webmentions = site.data.webmention %}
+
+{% for yearLoop in webmentions %}
+    {% for monthLoop in yearLoop[1] %}
+        {% for dayLoop in monthLoop[1] %}
+            {% for mention in dayLoop[1] %}
+                {% case mention[1].wm-property %}
+                    {% when 'in-reply-to' %}
+                        {% if thisUrl == mention[1].in-reply-to %}
+                            {% assign replyCount = replyCount | plus: 1 %}
+                        {% endif %}
+                    {% when 'like-of' %}
+                        {% if thisUrl == mention[1].like-of %}
+                            {% assign likesCount = likesCount | plus: 1 %}
+                        {% endif %}
+                    {% when 'mention-of' %}
+                        {% if thisUrl == mention[1].mention-of %}
+                            {% assign mentionCount = mentionCount | plus: 1 %}
+                        {% endif %}
+                     {% when 'repost-of' %}
+                        {% if thisUrl == mention[1].repost-of %}
+                            {% assign repostsCount = repostsCount | plus: 1 %}
+                        {% endif %}
+                    {% when 'bookmark-of' %}
+                        {% if thisUrl == mention[1].bookmark-of %}
+                             {% assign bookmarkCount = bookmarkCount | plus: 1 %}
+                        {% endif %}
+                    {% when 'rsvp' %}
+                        {% if thisUrl == mention[1].rsvp %}
+                             {% assign rsvpCount = rsvpCount | plus: 1 %}
+                        {% endif %}
+                    {% else %}
+                {% endcase %}
+            {% endfor %}
+        {% endfor %}
+    {% endfor %}
+{% endfor %}
+
 
 {% if repostsCount > 0 or likesCount > 0  or bookmarkCount > 0 or rsvpCount > 0  %}
 <h2 class="lh-one f5 red mb7 pa0">Webmention data</h2>
@@ -55,11 +66,17 @@
     <h2 class="lh-one f5 red mb7 pa0">Elsewhere on the web</h2>
     <article class="h-cite p-comment reply-relation mb5">
         <ul class="ma0 pa0">
-            {% for comment in comments %}
-                {% if thisUrl == comment.mention-of %}
-                    <li class="f6"><a href="{{comment.url  | replace: 'http://', 'https://'}}" title="Read this story on {{comment.url  | replace: 'http://', 'https://'}}" rel="external" class="u-syndication">{{comment.author.name}}</a></li>
-                {% endif %}
-            {% endfor%}
+             {% for yearLoop in webmentions %}
+                {% for monthLoop in yearLoop[1] %}
+                    {% for dayLoop in monthLoop[1] %}
+                        {% for mention in dayLoop[1] %}
+                            {% if thisUrl == mention[1].mention-of %}
+                                <li class="f6"><a href="{{mention[1].url  | replace: 'http://', 'https://'}}" title="Read this story on {{mention[1].url  | replace: 'http://', 'https://'}}" rel="external" class="u-syndication">{{mention[1].author.name}}</a></li>
+                            {% endif %}
+                        {% endfor %}
+                    {% endfor %}
+                {% endfor %}
+            {% endfor %}
         </ul>
     </article>
 {% endif %}
@@ -67,17 +84,26 @@
 {% if replyCount > 0 %}
     <h2 class="lh-one f5 red mb7 pa0">Conversation</h2>
 
-    {% for comment in comments %}
-        {% if thisUrl == comment.in-reply-to %}
-                <article class="h-cite p-comment reply-relation mb5">
-                    <h3 class="f6 u-author h-card ma0 pa0">
-                        <a href="{{comment.author.url  | replace: 'http://', 'https://' }}" class="u-in-reply-to p-name u-url fl mt--fixed-4" rel="external">{{comment.author.name }}</a>
-                    </h3>
-                    <div class="e-content p-summary p-name reply-content cf mv5">
-                        <p class="f6">{{comment.content.text}}</p>
-                        <p class="f7">{% if comment.swarm-coins %}<img src="{{site.url}}/images/swarm/coin-icon.png" width="16" height="16" alt="coin icon" class="fl mr8">{{comment.swarm-coins}} coins<br>{% endif %}<a href="{{comment.url}}" rel="external"><time class="published-datetime f7" datetime="{{ comment.published | date_to_xmlschema }}">posted on {{comment.published | date_to_long_string: "ordinal" }} at {{comment.published | date: "%H" }}:{{ comment.published | date: "%M%P" }}</time></a></p>
-                    </div>
-                </article>
-            {% endif %}
-     {% endfor%}
+    {% for yearLoop in webmentions %}
+        {% for monthLoop in yearLoop[1] %}
+            {% for dayLoop in monthLoop[1] %}
+                {% for mention in dayLoop[1] %}
+
+                    {% if thisUrl == mention[1].in-reply-to %}
+                            <article class="h-cite p-mention reply-relation mb5">
+                                <h3 class="f6 u-author h-card ma0 pa0">
+                                    <a href="{{mention[1].author.url  | replace: 'http://', 'https://' }}" class="u-in-reply-to p-name u-url fl mt--fixed-4" rel="external">{{mention[1].author.name }}</a>
+                                </h3>
+                                <div class="e-content p-summary p-name reply-content cf mv5">
+                                    <p class="f6">{{mention[1].content.text}}</p>
+                                    <p class="f7">{% if mention[1].swarm-coins %}<img src="{{site.url}}/images/swarm/coin-icon.png" width="16" height="16" alt="coin icon" class="fl mr8">{{mention[1].swarm-coins}} coins<br>{% endif %}<a href="{{mention[1].url}}" rel="external"><time class="published-datetime f7" datetime="{{ mention[1].published | date_to_xmlschema }}">posted on {{mention[1].published | date_to_long_string: "ordinal" }} at {{mention[1].published | date: "%H" }}:{{ mention[1].published | date: "%M%P" }}</time></a></p>
+                                </div>
+                            </article>
+                        {% endif %}
+
+                {% endfor %}
+            {% endfor %}
+        {% endfor %}
+    {% endfor %}
+
 {% endif %}
