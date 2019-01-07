@@ -13,7 +13,7 @@ Vincent P - Bespoke
     font-family: var(--font-body);
     background-color: var(--white);
     color: var(--light-black);
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     text-rendering: geometricPrecision;
     line-height: 1.6;
@@ -68,7 +68,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: var(--font-body);
+    font-family: var(--font-title);
     color: var(--black);
 }
 
