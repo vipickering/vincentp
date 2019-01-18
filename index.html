@@ -20,7 +20,7 @@ tags:
                 <main id="content">
                     <div class="h-feed e-content layoutGrid center">
                         <h1 class="ma0 mb5 pa0 lh-heading f4 red">Lifestream</h1>
-                        {% for post in site.posts limit:15 %}
+                        {% for post in site.posts limit:40 %}
                             <article class="h-entry lifestreamGrid">
                                 <div class="borderBefore relative {% if forloop.last == true %}mb5{%endif%}">
                                     <div class="circle center db relative br-circle  foreground w-20-fixed h-20-fixed center mt--fixed-6 {% if forloop.first == true %}bg-red {% else %} bg-black {% endif%}"></div>
@@ -32,6 +32,11 @@ tags:
                                         {% if post.title != '-' %}
                                        <h3 class="f5 p-name ma0 pa0"><a href="{{site.url}}{{ post.url }}" class="rm-underline u-url" title="{{ post.title }}">{% if post.layout == "checkin" %}Checked in at:{% endif %} {{ post.title }}</a></h3>
                                        {% endif %}
+                                         {% if post.photo1_url %}<img src="{{post.photo1_url}}" class="u-photo w-100" alt="{{post.photo1_alt}}"/>{% endif %}
+                            {% if post.photo2_url %}<img src="{{post.photo2_url}}" class="u-photo w-100" alt="{{post.photo2_alt}}"/>{% endif %}
+                            {% if post.photo3_url %}<img src="{{post.photo3_url}}" class="u-photo w-100" alt="{{post.photo3_alt}}"/>{% endif %}
+                            {% if post.photo4_url %}<img src="{{post.photo4_url}}" class="u-photo w-100" alt="{{post.photo4_alt}}"/>{% endif %}
+                            {% if post.photo5_url %}<img src="{{post.photo5_url}}" class="u-photo w-100" alt="{{post.photo5_alt}}"/>{% endif %}
                                        {{ post.content }}
                                 </div>
                             </article>
