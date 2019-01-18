@@ -10,13 +10,13 @@ Vincent P - Bespoke
 }
 
 :root {
-    font-family: var(--font-body);
+    font-family: var(--font);
     background-color: var(--white);
     color: var(--light-black);
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     text-rendering: geometricPrecision;
-    line-height: 1.6;
+    line-height: 1.5;
 }
 
 ::selection {
@@ -68,8 +68,16 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: var(--font-body);
+    font-family: var(--font-b);
     color: var(--black);
+    margin: 0;
+}
+
+h2 {
+    color: var(--red);
+    letter-spacing: -1px;
+    text-transform: capitalize;
+    font-size: 1.5rem;
 }
 
 p {

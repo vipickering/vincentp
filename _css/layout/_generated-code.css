@@ -6,15 +6,12 @@ Control styles output by Markdown
     margin: 0 0 var(--f4) 0;
 }
 
-[data-type="blog"] > h2,
+/*[data-type="blog"] > h2,
 [data-type="blog"] > h4,
 [data-type="blog"] > h5,
 [data-type="blog"] > h6 {
-    color: var(--red);
-    font-size: var(--f5);
-    line-height: 1.25;
-    margin: var(--f4) 0 0 0;
-}
+
+}*/
 
 [data-type="blog"] > h3 {
     font-size: var(--f6);
