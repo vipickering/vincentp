@@ -11,13 +11,12 @@
             <div class="layoutGrid center">
                 <main id="content">
                     <article class="h-entry">
-                        <div class="e-content">
                         <div class="mb5 mt-header">
-                            <h1 class="p-name mb0"><a href="{{page.target}}" class="u-bookmark-of" rel="external">{{ page.title | truncatewords: 6 }}</a></h1>
+                            <h1 class="p-name mb0">{{ page.title }}</h1>
                             {% include author.html %}
                         </div>
 
-                        <div class="" data-type="blog">
+                        <div class="e-content" data-type="blog">
                             {% if page.photo1_url %}<img src="{{page.photo1_url}}" class="u-photo w-100" alt="{{page.photo1_alt}}"/>{% endif %}
                             {% if page.photo2_url %}<img src="{{page.photo2_url}}" class="u-photo w-100" alt="{{page.photo2_alt}}"/>{% endif %}
                             {% if page.photo3_url %}<img src="{{page.photo3_url}}" class="u-photo w-100" alt="{{page.photo3_alt}}"/>{% endif %}
@@ -31,7 +30,7 @@
                                 <p class="f7"> {{ page.modifiedReason }}.</p>
                             {% endif %}
                         </div>
-                    </div>
+                     <p>Source: <a class="u-bookmark-of" href="{{page.target}}" rel="external" title="Vincent bookmarked {{page.target}}">{{page.target}}</a></p>
                     </article>
 
                     {% include tagging.html %}

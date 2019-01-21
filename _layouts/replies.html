@@ -12,7 +12,7 @@
                 <main id="content">
                     <article class="h-entry">
                         <div class="mb5 mt-header">
-                            <h1 class="p-name mb0">{{ page.title | truncatewords: 6 }}</h1>
+                            <h1 class="p-name mb0">{{ page.title }}</h1>
                             {% include author.html %}
                         </div>
 
@@ -30,6 +30,7 @@
                                 <p class="f7"> {{ page.modifiedReason }}.</p>
                             {% endif %}
                         </div>
+                        <p>In response to: <a class="u-in-reply-to" href="{{page.target}}" rel="external"  title="Vincent replied to {{page.target}}">{{page.target}}</a></p>
                     </article>
 
                     {% include tagging.html %}
