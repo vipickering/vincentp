@@ -2,25 +2,25 @@
 Control styles output by Markdown
 */
 
-[data-type="blog"] > p {
+[data-type="generated"] > p {
     margin: 0 0 var(--f4) 0;
 }
 
-/*[data-type="blog"] > h2,
-[data-type="blog"] > h4,
-[data-type="blog"] > h5,
-[data-type="blog"] > h6 {
+/* h2,
+ h4,
+ h5,
+ h6 {
 
 }*/
 
-[data-type="blog"] > h3 {
+ /*h3 {
     font-size: var(--f6);
     color: var(--black);
     margin: var(--f4) 0 0 0;
 }
 
-[data-type="blog"] > ul,
-[data-type="blog"] > ol {
+ ul,
+ ol {
     margin: var(--f4) 0 var(--f3) 0;
 }
 
@@ -37,7 +37,7 @@ Control styles output by Markdown
     letter-spacing: 0.1rem;
 }
 
-[data-type="blog"].footnotes li {
+.otnotes li {
     font-size: var(--f7);
     font-family: var(--font-mono);
     font-weight: 100;
@@ -49,7 +49,7 @@ Control styles output by Markdown
     padding: 0 var(--f5) 0 var(--f5);
 }
 
-[data-type="blog"]a:hover {
+a:hover {
     text-decoration: none;
 }
 
@@ -61,4 +61,4 @@ Control styles output by Markdown
     padding-left: 0;
     border-top: 4px solid black;
     border-left: 4px solid black;
-}
+}*/

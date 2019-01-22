@@ -71,13 +71,20 @@ h6 {
     font-family: var(--font-b);
     color: var(--black);
     margin: 0;
+    font-weight: normal;
+}
+
+h1 {
+    color: var(--red);
+    font-size: var(--f1);
+    font-family: var(--font);
+    font-weight: normal;
 }
 
 h2 {
-    color: var(--red);
     letter-spacing: -1px;
     text-transform: capitalize;
-    font-size: 1.5rem;
+    font-size: var(--f2);
 }
 
 p {
@@ -118,13 +125,10 @@ cite {
     font-size: var(--f6);
 }
 
-/*
-cite::after {
-    content: "\2766";
-    display: block;
-    font-size: var(--f1);
+main {
+    max-width: 680px;
+    margin: auto;
 }
-*/
 
 em,
 blockquote > p,
