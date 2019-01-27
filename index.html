@@ -20,6 +20,7 @@ tags:
                 <main id="content">
                     <div class="h-feed e-content layoutGrid center">
                         <h1 class="ma0 mb5 pa0 lh-heading f4 red">Lifestream</h1>
+                        {% include lifestreamFilters.html %}
                         {% for post in site.posts limit:40 %}
                        {% case post.category %}
                         {% when 'Notes' %}
