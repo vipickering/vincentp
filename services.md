@@ -14,20 +14,17 @@ My experience covers a wide range of skill sets and disciplines. I specialise in
 
 Types of work accepted:
 
-- Hiring me to create the initial code-base setting your team and project off in the right direction.
-- Full-site development.
-- Fixed time retainers.
-- Full Service Design.
+- Service Design.
 - UX, interaction and UI Design.
+- HTML, CSS and JavaScript Development.
 - Team coaching and skills development.
-
-I'm always happy to talk and discuss what needs I may be able to help you meet.
 
 Previous clients include:
 
 - [InfinityWorks](https://infinityworks.com)
 - [The UK Government](https://gov.uk)
+- [HMRC](https://www.gov.uk/government/organisations/hm-revenue-customs)
 - [Capita](https://capita.com)
 - [Emis](https://www.emishealth.com/home)
 
-<a href="mailto:{{site.data.author.email}}" class="dib bg-red hover-white white rm-underline pa7 br-fixed-2">Get In Touch</a>
+**Please note: I am no longer accepting contracts**.

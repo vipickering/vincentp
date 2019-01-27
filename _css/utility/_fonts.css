@@ -13,6 +13,12 @@
     font-style: normal;
 }
 @font-face {
+    font-family: 'archivo_thin';
+    src: url('../fonts/Archivo/Archivo-Thin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
     font-family: 'archivo_bold';
     src: url('../fonts/Archivo/Archivo-Bold.ttf') format('truetype');
     font-weight: normal;

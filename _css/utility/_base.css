@@ -13,10 +13,10 @@ Vincent P - Bespoke
     font-family: var(--font-body);
     background-color: var(--white);
     color: var(--light-black);
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     text-rendering: geometricPrecision;
-    line-height: 1.5;
+    line-height: 1.6;
 }
 
 ::selection {
@@ -68,20 +68,8 @@ h3,
 h4,
 h5,
 h6 {
+    font-family: var(--font-body);
     color: var(--black);
-    margin: 0;
-    font-weight: normal;
-}
-
-h1 {
-    color: var(--red);
-    font-size: var(--f1);
-}
-
-h2 {
-    letter-spacing: -1px;
-    text-transform: capitalize;
-    font-size: var(--f2);
 }
 
 p {
@@ -122,10 +110,13 @@ cite {
     font-size: var(--f6);
 }
 
-main {
-    max-width: 680px;
-    margin: auto;
+/*
+cite::after {
+    content: "\2766";
+    display: block;
+    font-size: var(--f1);
 }
+*/
 
 em,
 blockquote > p,

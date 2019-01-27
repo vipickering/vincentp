@@ -16,33 +16,40 @@
                     {% case page.type %}
                         {% when 'Notes' %}
                             {% assign pageType = site.categories.Notes %}
+                              {% for post in pageType %}
+                            {% include category/notes.html %}
+                            {% endfor %}
                         {% when 'Articles' %}
                             {% assign pageType = site.categories.Articles %}
+                              {% for post in pageType %}
+                            {% include category/articles.html %}
+                            {% endfor %}
                         {% when 'Instagram' %}
                             {% assign pageType = site.categories.Instagram %}
+                              {% for post in pageType %}
+                            {% include category/photos.html %}
+                            {% endfor %}
                         {% when 'Checkins' %}
                             {% assign pageType = site.categories.Checkins %}
+                              {% for post in pageType %}
+                            {% include category/checkins.html %}
+                            {% endfor %}
                         {% when 'Links' %}
                             {% assign pageType = site.categories.Links %}
+                              {% for post in pageType %}
+                            {% include category/links.html %}
+                            {% endfor %}
                         {% when 'Favourites' %}
                             {% assign pageType = site.categories.Favourites %}
+                              {% for post in pageType %}
+                            {% include category/favourites.html %}
+                            {% endfor %}
                         {% when 'Replies' %}
                             {% assign pageType = site.categories.Replies %}
+                              {% for post in pageType %}
+                            {% include category/replies.html %}
+                            {% endfor %}
                     {% endcase %}
-
-                    {% for post in pageType %}
-                    <article class="h-entry lifestreamGrid">
-                        <div class="borderBefore relative {% if forloop.last == true %}mb5{%endif%}">
-                            <div class="circle center db relative br-circle  foreground w-20-fixed h-20-fixed center mt--fixed-6 {% if forloop.first == true %}bg-red {% else %} bg-black {% endif%}"></div>
-                        </div>
-                        <div class="pb5">
-                              <time class="dt-published f7 grey lh-one" datetime="{{ post.date | date_to_xmlschema }}">
-                                    {{ post.date | date_to_string: "ordinal" }} <span>at</span> {{ post.date | date: "%H" }}:{{ post.date | date: "%M%P" }}
-                                </time>
-                               <h3 class="f5 p-name ma0 pa0 lh-one"><a href="{{site.url}}{{ post.url }}" class="rm-underline" title="{{ post.title | truncatewords: 8 }}">{% if post.layout == "checkin" %}Checked in at:{% endif %} {{ post.title | truncatewords: 8 }}</a></h3>
-                        </div>
-                    </article>
-                    {% endfor %}
                 </div>
             </main>
         </div>

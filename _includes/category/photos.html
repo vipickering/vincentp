@@ -1,0 +1,16 @@
+  <article class="h-entry lifestreamGrid">
+      <div class="borderBefore relative {% if forloop.last == true %}mb5{%endif%}">
+          <div class="circle center db relative br-circle  foreground w-20-fixed h-20-fixed center mt--fixed-6 {% if forloop.first == true %}bg-red {% else %} bg-black {% endif%}"></div>
+      </div>
+      <div class="pb5">
+        <time class="dt-published f7 grey lh-one" datetime="{{ post.date | date_to_xmlschema }}">
+            <a href="{{site.url}}{{ post.url }}" class="rm-underline" title="{{ post.title }}">{{ post.date | date_to_string: "ordinal" }} <span>at</span> {{ post.date | date: "%H" }}:{{ post.date | date: "%M%P" }}</a>
+      </time>
+      {% if post.photo1_url %}<img src="{{post.photo1_url}}" class="u-photo w-100" alt="{{post.photo1_alt}}"/>{% endif %}
+      {% if post.photo2_url %}<img src="{{post.photo2_url}}" class="u-photo w-100" alt="{{post.photo2_alt}}"/>{% endif %}
+      {% if post.photo3_url %}<img src="{{post.photo3_url}}" class="u-photo w-100" alt="{{post.photo3_alt}}"/>{% endif %}
+      {% if post.photo4_url %}<img src="{{post.photo4_url}}" class="u-photo w-100" alt="{{post.photo4_alt}}"/>{% endif %}
+      {% if post.photo5_url %}<img src="{{post.photo5_url}}" class="u-photo w-100" alt="{{post.photo5_alt}}"/>{% endif %}
+      <div class=" p-name ">{{post.content}}</div>
+  </div>
+</article>
