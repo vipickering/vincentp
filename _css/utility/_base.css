@@ -10,7 +10,7 @@ Vincent P - Bespoke
 }
 
 :root {
-    font-family: var(--font);
+    font-family: var(--font-body);
     background-color: var(--white);
     color: var(--light-black);
     font-size: 18px;
@@ -68,7 +68,6 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: var(--font-b);
     color: var(--black);
     margin: 0;
     font-weight: normal;
@@ -77,8 +76,6 @@ h6 {
 h1 {
     color: var(--red);
     font-size: var(--f1);
-    font-family: var(--font);
-    font-weight: normal;
 }
 
 h2 {
