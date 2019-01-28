@@ -1,17 +1,22 @@
-   <article class="h-entry lifestreamGrid">
-      <div class="borderBefore relative {% if forloop.last == true %}mb5{%endif%}">
-          <div class="circle center db relative br-circle  foreground w-20-fixed h-20-fixed center mt--fixed-6 {% if forloop.first == true %}bg-red {% else %} bg-black {% endif%}"></div>
-      </div>
-      <div class="pb5">
-            <time class="dt-published f7 grey lh-one" datetime="{{ post.date | date_to_xmlschema }}">
-                  {{ post.date | date_to_string: "ordinal" }} <span>at</span> {{ post.date | date: "%H" }}:{{ post.date | date: "%M%P" }}
-              </time>
-             <h3 class="f5 p-name ma0 pa0 lh-one"><a href="{{site.url}}{{ post.url }}" class="rm-underline" title="{{ post.title | truncatewords: 8 }}">{% if post.layout == "checkin" %}{% endif %} {{ post.title | truncatewords: 8 }}</a></h3>
-                     {% if post.photo1_url %}<img src="{{post.photo1_url}}" class="u-photo w-100" alt="{{post.photo1_alt}}"/>{% endif %}
-        {% if post.photo2_url %}<img src="{{post.photo2_url}}" class="u-photo w-100" alt="{{post.photo2_alt}}"/>{% endif %}
-        {% if post.photo3_url %}<img src="{{post.photo3_url}}" class="u-photo w-100" alt="{{post.photo3_alt}}"/>{% endif %}
-        {% if post.photo4_url %}<img src="{{post.photo4_url}}" class="u-photo w-100" alt="{{post.photo4_alt}}"/>{% endif %}
-        {% if post.photo5_url %}<img src="{{post.photo5_url}}" class="u-photo w-100" alt="{{post.photo5_alt}}"/>{% endif %}
-       <div>{{post.content}}</div>
-      </div>
-  </article>
+<article class="h-entry pb5">
+    <div class="u-checkin h-card">
+        <h3 class="p-name f5 ma0 pa0 lh-one"><a href="{{post.foursquare}}" class="u-url p-name">{{post.title}}</a></h3>
+        {% if post.region %}
+        <span class="p-location">{{post.region}}</span>
+        {% endif %}
+        <span>{{ post.date | date_to_string: "ordinal" }} <span>at</span> {{ post.date | date: "%H" }}:{{ post.date | date: "%M%P" }}</span>
+    </div>
+    <div class="e-content p-name">
+        {% if post.photo1_url %}<img src="{{post.photo1_url}}" class="u-photo db w-100" alt="{{post.photo1_alt}}"/>{% endif %}
+        {% if post.photo2_url %}<img src="{{post.photo2_url}}" class="u-photo db w-100" alt="{{post.photo2_alt}}"/>{% endif %}
+        {% if post.photo3_url %}<img src="{{post.photo3_url}}" class="u-photo db w-100" alt="{{post.photo3_alt}}"/>{% endif %}
+        {% if post.photo4_url %}<img src="{{post.photo4_url}}" class="u-photo db w-100" alt="{{post.photo4_alt}}"/>{% endif %}
+        {% if post.photo5_url %}<img src="{{post.photo5_url}}" class="u-photo db w-100" alt="{{post.photo5_alt}}"/>{% endif %}
+        <div>{{post.content}}</div>
+    </div>
+
+    {% if post.region %}
+    <div class="p-location h-adr"">{{post.region}}</div>
+    {% endif %}
+    {% include category/hEntryFooter.html %}
+</article>

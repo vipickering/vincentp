@@ -9,10 +9,11 @@
         {% include navigation.html %}
         {% include hcard.html %}
 
-        <div class="h-entry">
+        <div class="h-feed">
             <main id="content">
                 <div class="e-content layoutGrid center">
                     <h1 class="ma0 mb5 pa0 lh-heading f4 red">{{ page.title }}</h1>
+                    {% include lifestreamFilters.html %}
                     {% case page.type %}
                         {% when 'Notes' %}
                             {% assign pageType = site.categories.Notes %}

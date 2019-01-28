@@ -44,11 +44,11 @@ pre {
     grid-template-columns: 50px 1fr;
 }
 
-.nav-grid [data-type="logo"] {
+/*.nav-grid [data-type="logo"] {
     order: initial;
     text-align: left;
 }
-
+*/
 .recommendedGrid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -56,10 +56,10 @@ pre {
 }
 
 @media (min-width: 600px) {
-    .nav-grid [data-type="logo"] {
+/*    .nav-grid [data-type="logo"] {
         order: 2;
         text-align: right;
-    }
+    }*/
 
     .nav-grid {
         display: grid;
