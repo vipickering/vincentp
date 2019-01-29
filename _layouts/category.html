@@ -25,8 +25,8 @@
                               {% for post in pageType %}
                             {% include category/articles.html %}
                             {% endfor %}
-                        {% when 'Instagram' %}
-                            {% assign pageType = site.categories.Instagram %}
+                        {% when 'Photos' %}
+                            {% assign pageType = site.categories.Photos %}
                               {% for post in pageType %}
                             {% include category/photos.html %}
                             {% endfor %}

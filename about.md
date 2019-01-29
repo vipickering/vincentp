@@ -21,10 +21,6 @@ During my career I have been incredibly fortunate to work on a diverse range of 
 
 I love a challenge or complex problems to solve. Tailoring solutions specifically to your business needs and skill levels. An expert at breaking down complex problems, explaining them in simple language. I can help you get to the root of a problem and communicate with all parts of your business what is happening.
 
-Check out my [services]({{site.url}}/services) or look me up on [LinkedIn]({{site.data.author.linkedin.url}}).
-
-If you have something specific to discuss please [contact me directly](mailto:{{site.data.author.email}}).
-
 A small sample of clients I've worked with:
 
 - [Numiko](https://numiko.com/){:rel="external"}
