@@ -7,19 +7,14 @@
     <body class="ma0 pa0">
         <div>
             {% include navigation.html %}
-            {% include hcard.html %}
-
-             <div class="h-entry">
-                {% include pageTitle.html %}
-
-                <main id="content">
-                    <article>
-                        <div class="e-content layoutGrid center" data-type="blog">
+                <main id="content" class="h-entry">
+                    <article class="e-content">
+                        {% include pageTitle.html %}
+                        <div class="layoutGrid center" data-type="blog">
                             {{content}}
                         </div>
                     </article>
                 </main>
-            </div>
         </div>
         {% include footer.html %}
     </body>

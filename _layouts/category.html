@@ -8,12 +8,12 @@
     <div>
         {% include navigation.html %}
         {% include hcard.html %}
-
-        <div class="h-feed">
-            <main id="content">
-                <div class="e-content layoutGrid center">
-                    <h1 class="ma0 mb5 pa0 lh-heading f4 red">{{ page.title }}</h1>
-                    {% include lifestreamFilters.html %}
+             <main class="h-feed" id="content">
+                    {% include pageTitle.html %}
+                <div class="layoutGrid center">
+                    {% unless page.type == 'Articles'  or  page.type == 'Notes' %}
+                        {% include lifestreamFilters.html %}
+                    {% endunless %}
                     {% case page.type %}
                         {% when 'Notes' %}
                             {% assign pageType = site.categories.Notes %}
@@ -53,7 +53,6 @@
                     {% endcase %}
                 </div>
             </main>
-        </div>
     </div>
     {% include footer.html %}
 </body>

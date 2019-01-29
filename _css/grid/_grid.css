@@ -64,6 +64,6 @@ pre {
     .nav-grid {
         display: grid;
         grid-gap: 1rem;
-        grid-template-columns: minmax(300px, 1fr) 150px;
+        grid-template-columns: minmax(300px, 1fr) 230px;
     }
 }

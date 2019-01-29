@@ -15,7 +15,7 @@
     --f4: 1.355rem;
     --f3: 1.618rem;
     --f2: 2.192rem;
-    --f1: 2.618rem;
+    --f1: 5rem;
     --lh-heading: 1.2;
     --font-body: system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     --font-mono: Menlo, Monaco, Consolas, "Courier New", monospace;
@@ -24,3 +24,6 @@
     --foreground: 10;
     --back: 1;
 }
+
+
+/*#f5f5f5*/

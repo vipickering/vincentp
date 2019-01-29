@@ -2,7 +2,7 @@
 
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fvipickering%2Fvincentp.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fvipickering%2Fvincentp?ref=badge_shield) ![npm Dependencies](https://david-dm.org/vipickering/vincentp.svg) [![Known Vulnerabilities](https://snyk.io/test/github/vipickering/vincentp/badge.svg?targetFile=Gemfile.lock)](https://snyk.io/test/github/vipickering/vincentp?targetFile=Gemfile.lock) [![Known Vulnerabilities](https://snyk.io/test/github/vipickering/vincentp/badge.svg?targetFile=package.json)](https://snyk.io/test/github/vipickering/vincentp?targetFile=package.json)
 
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/379720f4-d38c-4a53-84b1-856d725d8d44/deploy-status)](https://app.netlify.com/sites/vincentp/deploys)
 
 ## Requirements
 
