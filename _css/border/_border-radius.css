@@ -1,2 +1,5 @@
-.br-fixed-2 { border-radius: 2px; }
+.br-2 { border-radius: 2px; }
 .br-circle { border-radius: 50%; }
+.br-5 { border-radius: 5px; }
+.brt-5 { border-radius: 5px 5px 0 0; }
+.brb-5 { border-radius: 0 0 5px 5px; }

@@ -16,6 +16,10 @@ Control styles output by Markdown
     margin: var(--f4) 0 0 0;
 }
 
+.h-feed [data-type="blog"] > h2 {
+    margin: 0;
+}
+
 [data-type="blog"] > h3 {
     font-size: var(--f6);
     color: var(--black);
