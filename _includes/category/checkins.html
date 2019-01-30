@@ -1,37 +1,32 @@
-<article class="h-entry ba b-pale-grey br-5 pa5 mb5">
-    <div class="u-checkin h-card">
-        <h3 class="f5 ma0 pa0 lh-one"><a href="{{post.foursquare}}" class="u-url p-name">{{post.title}}</a></h3>
-        {% if post.region %}
-        <span class="p-location">{{post.region}}</span>
-        {% endif %}
-        <span>{{ post.date | date_to_string: "ordinal" }} <span>at</span> {{ post.date | date: "%H" }}:{{ post.date | date: "%M%P" }}</span>
+<article class="h-entry ba b-pale-grey br-5 mb5 relative">
+    <div class="pa5 absolute bg-white-t w-100 brt-5">
+        <div class="u-checkin h-card">
+            <h3 class="f5 ma0 pa0 lh-one"><a href="{{post.foursquare}}" class="u-url p-name">{{post.title}}</a></h3>
+                {% if post.region %}
+                <small class="p-location h-adr">
+                    {% if post.locality != '' %}<span class="p-locality">{{post.locality}}</span>,{% endif %}
+                    {% if post.region  != '' %}<span class="p-region">{{post.region}}</span>,{% endif %}
+                    {% if post.country  != '' %}<span class="p-country">{{post.country}}</span>{% endif %}
+                    <data class="p-latitude" value="{{post.latitude}}"></data>
+                    <data class="p-longitude" value="{{post.longitude}}"></data>
+                </small>
+                {% endif %}
+        </div>
+        <time class="dt-published f7 grey lh-one" datetime="{{ post.date | date_to_xmlschema }}">
+            <a href="{{site.url}}{{ post.url }}" class="u-url rm-underline" title="{{ post.title }}"> {{ post.date | date_to_string: "ordinal" }} <span>at</span> {{ post.date | date: "%H" }}:{{ post.date | date: "%M%P" }}</a>
+        </time>
+        {{ post.content }}
     </div>
     <div class="e-content">
         {% if post.photo1_url and post.photo1_url != ''%}
-                <figure class="ma0 pa0">
-                    <img src="{{post.photo1_url}}" class="u-photo w-100" alt="{{post.photo1_alt}}"/>
-                    <figcaption class="mt5 mb5 tl">{{ post.content }}</figcaption>
-                </figure>
-            {% else %}
-               <img src="https://api.mapbox.com/styles/v1/mapbox/streets-v9/static/pin-l-star+c83539({{post.longitude}},{{post.latitude}})/{{post.longitude}},{{post.latitude}},13,0/600x300@2x?access_token=pk.eyJ1IjoidnBpY2tlcmluZyIsImEiOiJjamo1ZWNpbmwwYW1wM3FxaHZ5cHR6N3g3In0.hhrPnSY0r_9fu5QKlhqRHw&logo=false" alt="Mapbox Map of {{post.longitude}},{{post.latitude}}" class="w-100 u-photo">
-                <div class="f7 tr">&copy; <a href='https://www.mapbox.com/map-feedback/'>Mapbox</a> &copy; <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap contributors</a></div>
-                <div class="mt5 mb5 tl e-content">
-                   {{ post.content }}
-                </div>
-            {% endif %}
+        <img src="{{post.photo1_url}}" class="u-photo db w-100 br-5" alt="{{post.photo1_alt}}"/>
+        {% else %}
+        <img src="https://api.mapbox.com/styles/v1/mapbox/streets-v9/static/pin-l-star+c83539({{post.longitude}},{{post.latitude}})/{{post.longitude}},{{post.latitude}},13,0/600x300@2x?access_token=pk.eyJ1IjoidnBpY2tlcmluZyIsImEiOiJjamo1ZWNpbmwwYW1wM3FxaHZ5cHR6N3g3In0.hhrPnSY0r_9fu5QKlhqRHw&logo=false" alt="Mapbox Map of {{post.longitude}},{{post.latitude}}" class="w-100 u-photo">
+        <div class="f7 tr">&copy; <a href='https://www.mapbox.com/map-feedback/'>Mapbox</a> &copy; <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap contributors</a></div>
+        {% endif %}
     </div>
 
-    {% if post.region %}
-    <div class="p-location h-adr">
-        <small>
-            {% if post.locality != '' %}<span class="p-locality">{{post.locality}}</span>,{% endif %}
-            {% if post.region  != '' %}<span class="p-region">{{post.region}}</span>,{% endif %}
-            {% if post.country  != '' %}<span class="p-country">{{post.country}}</span>{% endif %}
-            <data class="p-latitude" value="{{post.latitude}}"></data>
-            <data class="p-longitude" value="{{post.longitude}}"></data>
-        </small>
-        {{comment.data.swarm_coins}}
+    <div class="absolute bottom-0  pa5 left-0 bg-white-t w-100 brb-5">
+        show likes on left, like, bookmark, replyand repost buttons on right
     </div>
-    {% endif %}
-    {% include category/hEntryFooter.html %}
 </article>
