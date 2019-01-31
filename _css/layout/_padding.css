@@ -10,6 +10,10 @@
     padding: var(--f5);
 }
 
+.pa-fixed-1 {
+    padding: 1px;
+}
+
 .pt5 {
     padding-top: var(--f5);
 }

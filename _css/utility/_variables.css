@@ -1,7 +1,7 @@
 :root {
     --black: rgba(0, 0, 0, 1);
     --white: rgba(255, 255, 255, 1);
-    --transparent-white: rgba(255, 255, 255, 0.8);
+    --transparent-white: rgba(255, 255, 255, 0.9);
     --red: rgba(200, 53, 57, 1);
     --red-50: rgba(200, 53, 57, 0.5);
     --light-black: rgba(50, 50, 50, 1);

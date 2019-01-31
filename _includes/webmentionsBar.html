@@ -60,62 +60,59 @@
             {% for dayLoop in monthLoop[1] %}
                 {% for mention in dayLoop[1] %}
                     {% if thisUrl == mention[1].like-of %}
-                        <img width="20" height="20" src="{{mention[1].author.photo }}" alt="{{mention[1].author.name }}">
+                        <img width="30" height="30" src="{{mention[1].author.photo }}" alt="{{mention[1].author.name }}" class="pa-fixed-1 br-circle avatar-stack b-light-grey ba bg-white">
                    {% endif %}
                 {% endfor %}
                 {% endfor %}
                 {% endfor %}
                 {% endfor %}
+<p class="h-cite p-comment reply-relation mb2 f6">{{likesCount}} Likes</p>
 {% endif %}
 
-{% if likesCount > 0 %}
-    {% for yearLoop in webmentions %}
-        {% for monthLoop in yearLoop[1] %}
-            {% for dayLoop in monthLoop[1] %}
-                {% for mention in dayLoop[1] %}
-                    {% if thisUrl == mention[1].reply-to %}
-                        <img width="20" height="20" src="{{mention[1].author.photo }}" alt="{{mention[1].author.name }}">
-                   {% endif %}
-                {% endfor %}
-                {% endfor %}
-                {% endfor %}
-                {% endfor %}
-{% endif %}
-
-{% if likesCount > 0 %}
-    {% for yearLoop in webmentions %}
-        {% for monthLoop in yearLoop[1] %}
-            {% for dayLoop in monthLoop[1] %}
-                {% for mention in dayLoop[1] %}
-                    {% if thisUrl == mention[1].bookmark-of %}
-                        <img width="20" height="20" src="{{mention[1].author.photo }}" alt="{{mention[1].author.name }}">
-                   {% endif %}
-                {% endfor %}
-                {% endfor %}
-                {% endfor %}
-                {% endfor %}
-{% endif %}
-
-{% if repostsCount > 0 %}<p class="h-cite p-comment reply-relation mb2 f6">{{repostsCount}} Reposts</p>{% endif %}
-{% if likesCount > 0 %}<p class="h-cite p-comment reply-relation mb2 f6">{{likesCount}} Likes</p>{% endif %}
-{% if bookmarkCount > 0 %}<p class="h-cite p-comment reply-relation mb2 f6">{{bookmarkCount}} Bookmarks</p>{% endif %}
-{% if replyCount > 0 %}<p class="h-cite p-comment reply-relation mb2 f6">{{replyCount}} Replies</p>{% endif %}
 
 {% if replyCount > 0 %}
     {% for yearLoop in webmentions %}
         {% for monthLoop in yearLoop[1] %}
             {% for dayLoop in monthLoop[1] %}
                 {% for mention in dayLoop[1] %}
-
                     {% if thisUrl == mention[1].in-reply-to %}
-                        <img width="20" height="20" src="{{mention[1].author.photo }}" alt="{{mention[1].author.name }}">
-                    {% endif %}
-
+                        <img width="30" height="30" src="{{mention[1].author.photo }}" alt="{{mention[1].author.name }}" class="pa-fixed-1 br-circle avatar-stack b-light-grey ba bg-white">
+                   {% endif %}
                 {% endfor %}
             {% endfor %}
         {% endfor %}
     {% endfor %}
+<p class="h-cite p-comment reply-relation mb2 f6">{{replyCount}} Replies</p>
+{% endif %}
 
+{% if bookmarkCount > 0 %}
+    {% for yearLoop in webmentions %}
+        {% for monthLoop in yearLoop[1] %}
+            {% for dayLoop in monthLoop[1] %}
+                {% for mention in dayLoop[1] %}
+                    {% if thisUrl == mention[1].bookmark-of %}
+                        <img width="30" height="30" src="{{mention[1].author.photo }}" alt="{{mention[1].author.name }}" class="pa-fixed-1 br-circle avatar-stack b-light-grey ba bg-white">
+                   {% endif %}
+                {% endfor %}
+                {% endfor %}
+                {% endfor %}
+                {% endfor %}
+<p class="h-cite p-comment reply-relation mb2 f6">{{bookmarkCount}} Bookmarks</p>
+{% endif %}
+
+{% if repostsCount > 0 %}
+    {% for yearLoop in webmentions %}
+        {% for monthLoop in yearLoop[1] %}
+            {% for dayLoop in monthLoop[1] %}
+                {% for mention in dayLoop[1] %}
+                    {% if thisUrl == mention[1].repost-of %}
+                        <img width="30" height="30" src="{{mention[1].author.photo }}" alt="{{mention[1].author.name }}" class="pa-fixed-1 br-circle avatar-stack b-light-grey ba bg-white">
+                    {% endif %}
+                {% endfor %}
+            {% endfor %}
+        {% endfor %}
+    {% endfor %}
+<p class="h-cite p-comment reply-relation mb2 f6">{{repostsCount}} Reposts</p>
 {% endif %}
 
 
