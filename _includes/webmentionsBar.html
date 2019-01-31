@@ -1,0 +1,121 @@
+
+{% if site.webmentionTestUrl == false %}
+    {% assign thisUrl =  post.url | absolute_url %}
+{% else %}
+    {% assign thisUrl =  "https://vincentp.me" | append: post.url %}
+{% endif %}
+
+{% assign dateDay = post.date | date: "%d" %}
+{% assign dateMonth = post.date | date: "%m" %}
+{% assign dateYear = post.date | date: "%Y" %}
+
+{% assign repostsCount = 0 %}
+{% assign likesCount = 0 %}
+{% assign replyCount = 0 %}
+{% assign mentionCount = 0 %}
+{% assign bookmarkCount = 0 %}
+{% assign rsvpCount = 0 %}
+
+{% assign webmentions = site.data.webmention %}
+
+{% for yearLoop in webmentions %}
+    {% for monthLoop in yearLoop[1] %}
+        {% for dayLoop in monthLoop[1] %}
+            {% for mention in dayLoop[1] %}
+                {% case mention[1].wm-property %}
+                    {% when 'in-reply-to' %}
+                        {% if thisUrl == mention[1].in-reply-to %}
+                            {% assign replyCount = replyCount | plus: 1 %}
+                        {% endif %}
+                    {% when 'like-of' %}
+                        {% if thisUrl == mention[1].like-of %}
+                            {% assign likesCount = likesCount | plus: 1 %}
+                        {% endif %}
+                    {% when 'mention-of' %}
+                        {% if thisUrl == mention[1].mention-of %}
+                            {% assign mentionCount = mentionCount | plus: 1 %}
+                        {% endif %}
+                     {% when 'repost-of' %}
+                        {% if thisUrl == mention[1].repost-of %}
+                            {% assign repostsCount = repostsCount | plus: 1 %}
+                        {% endif %}
+                    {% when 'bookmark-of' %}
+                        {% if thisUrl == mention[1].bookmark-of %}
+                             {% assign bookmarkCount = bookmarkCount | plus: 1 %}
+                        {% endif %}
+                    {% when 'rsvp' %}
+                        {% if thisUrl == mention[1].rsvp %}
+                             {% assign rsvpCount = rsvpCount | plus: 1 %}
+                        {% endif %}
+                    {% else %}
+                {% endcase %}
+            {% endfor %}
+        {% endfor %}
+    {% endfor %}
+{% endfor %}
+
+{% if likesCount > 0 %}
+    {% for yearLoop in webmentions %}
+        {% for monthLoop in yearLoop[1] %}
+            {% for dayLoop in monthLoop[1] %}
+                {% for mention in dayLoop[1] %}
+                    {% if thisUrl == mention[1].like-of %}
+                        <img width="20" height="20" src="{{mention[1].author.photo }}" alt="{{mention[1].author.name }}">
+                   {% endif %}
+                {% endfor %}
+                {% endfor %}
+                {% endfor %}
+                {% endfor %}
+{% endif %}
+
+{% if likesCount > 0 %}
+    {% for yearLoop in webmentions %}
+        {% for monthLoop in yearLoop[1] %}
+            {% for dayLoop in monthLoop[1] %}
+                {% for mention in dayLoop[1] %}
+                    {% if thisUrl == mention[1].reply-to %}
+                        <img width="20" height="20" src="{{mention[1].author.photo }}" alt="{{mention[1].author.name }}">
+                   {% endif %}
+                {% endfor %}
+                {% endfor %}
+                {% endfor %}
+                {% endfor %}
+{% endif %}
+
+{% if likesCount > 0 %}
+    {% for yearLoop in webmentions %}
+        {% for monthLoop in yearLoop[1] %}
+            {% for dayLoop in monthLoop[1] %}
+                {% for mention in dayLoop[1] %}
+                    {% if thisUrl == mention[1].bookmark-of %}
+                        <img width="20" height="20" src="{{mention[1].author.photo }}" alt="{{mention[1].author.name }}">
+                   {% endif %}
+                {% endfor %}
+                {% endfor %}
+                {% endfor %}
+                {% endfor %}
+{% endif %}
+
+{% if repostsCount > 0 %}<p class="h-cite p-comment reply-relation mb2 f6">{{repostsCount}} Reposts</p>{% endif %}
+{% if likesCount > 0 %}<p class="h-cite p-comment reply-relation mb2 f6">{{likesCount}} Likes</p>{% endif %}
+{% if bookmarkCount > 0 %}<p class="h-cite p-comment reply-relation mb2 f6">{{bookmarkCount}} Bookmarks</p>{% endif %}
+{% if replyCount > 0 %}<p class="h-cite p-comment reply-relation mb2 f6">{{replyCount}} Replies</p>{% endif %}
+
+{% if replyCount > 0 %}
+    {% for yearLoop in webmentions %}
+        {% for monthLoop in yearLoop[1] %}
+            {% for dayLoop in monthLoop[1] %}
+                {% for mention in dayLoop[1] %}
+
+                    {% if thisUrl == mention[1].in-reply-to %}
+                        <img width="20" height="20" src="{{mention[1].author.photo }}" alt="{{mention[1].author.name }}">
+                    {% endif %}
+
+                {% endfor %}
+            {% endfor %}
+        {% endfor %}
+    {% endfor %}
+
+{% endif %}
+
+

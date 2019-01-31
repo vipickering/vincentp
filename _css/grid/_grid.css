@@ -46,6 +46,11 @@ When embedding CodePens or snippets. Allow them to break out the grid, but not g
     grid-template-columns: 50px 1fr;
 }
 
+.feed-header-grid {
+    display: grid;
+    grid-template-columns: 1fr 160px;
+}
+
 .recommendedGrid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
