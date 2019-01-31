@@ -1,7 +1,8 @@
 <article class="h-entry ba b-pale-grey br-5 pa5 mb5">
-    <p class="p-name f5 ma0 pa0 lh-one"><a href="{{site.url}}{{ post.url }}" class="rm-underline" title="{{ post.title }}">{{ post.title }}</a></p>
-    <time class="dt-published f7 grey lh-one" datetime="{{ post.date | date_to_xmlschema }}">
-        {{ post.date | date_to_string: "ordinal" }} <span>at</span> {{ post.date | date: "%H" }}:{{ post.date | date: "%M%P" }}
-    </time>
-     {% include webmentionsBar.html %}
+    <div class="e-content">
+        <p class="p-name f5 ma0 pa0 lh-one"><a href="{{site.url}}{{ post.url }}" class="rm-underline" title="{{ post.title }}">{{ post.title }}</a></p>
+        <time class="dt-published f7 grey lh-one" datetime="{{ post.date | date_to_xmlschema }}">
+            {{ post.date | date_to_string: "ordinal" }} <span>at</span> {{ post.date | date: "%H" }}:{{ post.date | date: "%M%P" }}
+        </time>
+    </div>
 </article>

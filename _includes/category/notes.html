@@ -1,13 +1,8 @@
 <article class="h-entry ba b-pale-grey br-5 pa5 mb5">
-    <div class="w-100 brt-5 feed-header-grid">
-        <div>note icon</div>
-        <time class="dt-published f7 grey lh-one tr" datetime="{{ post.date | date_to_xmlschema }}">
+    <div class="e-content" data-type="blog">{{ post.content }}
+        {% include webmentionsBar.html %}
+            <time class="dt-published f7 grey lh-one tr" datetime="{{ post.date | date_to_xmlschema }}">
             <a href="{{site.url}}{{ post.url }}" class="u-url rm-underline" title="Note for {{ post.date | date: '%H' }}:{{ post.date | date: '%M%P' }}">{{ post.date | date_to_string: "ordinal" }} <span>at</span> {{ post.date | date: "%H" }}:{{ post.date | date: "%M%P" }}</a>
         </time>
-    </div>
-    <div class="e-content" data-type="blog">{{ post.content }}</div>
-
-    <div class="db pa5 w-100 brb-5">
-        {% include webmentionsBar.html %}
     </div>
 </article>

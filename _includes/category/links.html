@@ -1,12 +1,10 @@
 <article class="h-entry ba b-pale-grey br-5 pa5 mb5">
-    <div class="e-content feed-header-grid">
-        <div>
-           <h3 class="p-name f5 ma0 pa0 lh-one">{{ post.title}}</h3><a href="{{post.target}}" title="bookmarked from: {{post.target}}" class="" rel="external">arrow</a>
-            <span class="u-bookmark-of dn">{{post.target}}</span>
-        </div>
+    <div class="e-content">
+        <p class="p-name f5 ma0 pa0">{{ post.title}}</p>
+        <p><a href="{{post.target}}" title="bookmarked from: {{post.target}}" class="" rel="external">Link</a></p>
+        <span class="u-bookmark-of dn">{{post.target}}</span>
         <time class="dt-published f7 grey lh-one tr" datetime="{{ post.date | date_to_xmlschema }}">
             <a href="{{site.url}}{{ post.url }}" class="u-url rm-underline" title="{{ post.title }}">{{ post.date | date_to_string: "ordinal" }} <span>at</span> {{ post.date | date: "%H" }}:{{ post.date | date: "%M%P" }}</a>
         </time>
     </div>
-    {% include webmentionsBar.html %}
 </article>
