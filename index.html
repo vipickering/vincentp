@@ -19,7 +19,7 @@ tags:
                 <main class="h-feed" id="content">
                     {% include pageTitle.html %}
                     <div class="e-content layoutGrid center">
-                        {% include lifestreamFilters.html %}
+                        {% include lifestream/filters.html %}
                         {% for post in site.posts limit:40 %}
                        {% case post.category %}
                         {% when 'Notes' %}

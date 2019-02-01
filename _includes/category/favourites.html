@@ -1,9 +1,6 @@
 <article class="h-entry ba b-pale-grey br-5 pa5 mb5">
     <div class="e-content">
-        <p class="p-name f5 ma0 pa0 u-like-of "><span class="red">Favourited</span>: <a href="{{post.target}}" title="Favourited: {{post.target}}" class="u-url" rel="external">{{post.target}}</a></p>
-
-        <time class="dt-published f7 grey lh-on tr" datetime="{{ post.date | date_to_xmlschema }}">
-            <a href="{{site.url}}{{ post.url }}" class="rm-underline u-url" title="{{ post.title }}">{{ post.date | date_to_string: "ordinal" }} <span>at</span> {{ post.date | date: "%H" }}:{{ post.date | date: "%M%P" }}</a>
-        </time>
+        <p class="p-name f5 ma0 pa0 u-like-of mb5 "><span class="red">Favourited</span>: <a href="{{post.target}}" title="Favourited: {{post.target}}" class="u-url underline-no-hover" rel="external">{{post.target}}</a></p>
+        {% include lifestream/published.html %}
     </div>
 </article>

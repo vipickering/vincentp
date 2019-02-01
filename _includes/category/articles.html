@@ -1,11 +1,8 @@
 <article class="h-entry ba b-pale-grey br-5 pa5 mb5">
         <div class="e-content">
-        <h2 class="p-name ma0 pa0"><a href="{{site.url}}{{ post.url }}" class="rm-underline red f5" title="{{ post.title }}">{{ post.title }}</a></h2>
-        <p class="p-summary mb5">{{ post.summary}}</p>
-
-            {% include webmentionsBar.html %}
-            <time class="dt-published f7 grey tr" datetime="{{ post.date | date_to_xmlschema }}">
-                <a href="{{site.url}}{{ post.url }}" class="u-url rm-underline" title="{{ post.title }}">{{ post.date | date_to_string: "ordinal" }} <span>at</span> {{ post.date | date: "%H" }}:{{ post.date | date: "%M%P" }}</a>
-            </time>
+            <h2 class="p-name ma0 pa0"><a href="{{site.url}}{{ post.url }}" class="rm-underline red f5" title="{{ post.title }}">{{ post.title }}</a></h2>
+            <p class="p-summary mb5">{{ post.summary}}</p>
+            {% include lifestream/webmentions.html %}
+            {% include lifestream/published.html %}
         </div>
 </article>

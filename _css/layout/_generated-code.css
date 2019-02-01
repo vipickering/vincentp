@@ -56,10 +56,6 @@ Control styles output by Markdown
     padding: 0 var(--f5) 0 var(--f5);
 }
 
-[data-type="blog"]a:hover {
-    text-decoration: none;
-}
-
 [data-type="notes"]::before {
     content: '';
     display: block;

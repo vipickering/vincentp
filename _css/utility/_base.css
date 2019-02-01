@@ -86,6 +86,7 @@ a > time {
 
 a:hover {
     color: var(--red);
+    text-decoration: none;
 }
 
 a:focus {
