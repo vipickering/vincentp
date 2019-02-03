@@ -101,7 +101,7 @@
             {% for dayLoop in monthLoop[1] %}
                 {% for mention in dayLoop[1] %}
                     {% if thisUrl == mention[1].bookmark-of %}
-                    <div class="p-like h-cite dib">
+                    <div class="p-bookmark h-cite dib">
                         <a href="{{mention[1].url}}" class="u-url">
                             <span class="p-author h-card">
                                 <img width="30" height="30" src="{{mention[1].author.photo }}" alt="{{mention[1].author.name }}" class="u-photo pa-fixed-1 br-circle b-light-grey ba bg-white">
@@ -123,7 +123,7 @@
             {% for dayLoop in monthLoop[1] %}
                 {% for mention in dayLoop[1] %}
                     {% if thisUrl == mention[1].repost-of %}
-                       <div class="p-like h-cite dib">
+                       <div class="p-repost h-cite dib">
                         <a href="{{mention[1].url}}" class="u-url">
                             <span class="p-author h-card">
                                 <img width="30" height="30" src="{{mention[1].author.photo }}" alt="{{mention[1].author.name }}" class="u-photo pa-fixed-1 br-circle b-light-grey ba bg-white">

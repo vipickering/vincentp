@@ -10,27 +10,17 @@
 
             <div class="dg layout-grid center">
                 <main id="content">
-                    <article class="h-entry">
-                        <div class="mb5 mt-header">
-                            <h1 class="p-name mb0">{{ page.title }}</h1>
+                    <article class="h-entry ba b-pale-grey br-5 pa5">
+                        <div class="mb5">
+                            <h1 class="p-name dn">{{ page.title }}</h1>
                             {% include author.html %}
                         </div>
+                        <p class="ma0 pa0"><a class="u-like-of p-content p-namef" href="{{page.target}}" rel="external"  title="Vincent Favourited {{page.target}}">{{page.target}}</a></p>
 
-                        <div class="e-content" data-type="blog">
-                            {% if page.photo1_url %}<img src="{{page.photo1_url}}" class="u-photo w-100" alt="{{page.photo1_alt}}"/>{% endif %}
-                            {% if page.photo2_url %}<img src="{{page.photo2_url}}" class="u-photo w-100" alt="{{page.photo2_alt}}"/>{% endif %}
-                            {% if page.photo3_url %}<img src="{{page.photo3_url}}" class="u-photo w-100" alt="{{page.photo3_alt}}"/>{% endif %}
-                            {% if page.photo4_url %}<img src="{{page.photo4_url}}" class="u-photo w-100" alt="{{page.photo4_alt}}"/>{% endif %}
-                            {% if page.photo5_url %}<img src="{{page.photo5_url}}" class="u-photo w-100" alt="{{page.photo5_alt}}"/>{% endif %}
-
-                            {{ content }}
-
-                            {% if page.modified %}
-                                <time class="dt-published red f7"  datetime="{{ page.date | date_to_xmlschema }}" title="Page Modified" >{{ page.modified | date_to_string: "ordinal" }} at <span class="dt-updated f7">{{ page.modified | date: "%H" }}:{{ page.modified | date: "%M%P" }}</span></time>
-                                <p class="f7"> {{ page.modifiedReason }}.</p>
-                            {% endif %}
-                        </div>
-                    <p>Favourited: <a class="u-like-of" href="{{page.target}}" rel="external"  title="Vincent Favourited {{page.target}}">{{page.target}}</a></p>
+                        {% if page.modified %}
+                            <time class="dt-published red f7"  datetime="{{ page.date | date_to_xmlschema }}" title="Page Modified" >{{ page.modified | date_to_string: "ordinal" }} at <span class="dt-updated f7">{{ page.modified | date: "%H" }}:{{ page.modified | date: "%M%P" }}</span></time>
+                            <p class="f7"> {{ page.modifiedReason }}.</p>
+                        {% endif %}
                     </article>
 
                     {% include tagging.html %}
