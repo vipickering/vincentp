@@ -18,7 +18,7 @@ tags:
             {% include hcard.html %}
                 <main class="h-feed" id="content">
                     {% include pageTitle.html %}
-                    <div class="e-content layoutGrid center">
+                    <div class="e-content dg layout-grid center">
                         {% include lifestream/filters.html %}
                         {% for post in site.posts limit:40 %}
                        {% case post.category %}

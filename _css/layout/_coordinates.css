@@ -17,7 +17,3 @@
 .left-0 {
     left: 0;
 }
-
-.avatar-stack:not(:first-of-type) {
-    margin-left: -20px;
-}

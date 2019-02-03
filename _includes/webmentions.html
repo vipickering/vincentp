@@ -54,58 +54,82 @@
 {% endfor %}
 
 {% if likesCount > 0 %}
+    <h3>Likes</h3>
     {% for yearLoop in webmentions %}
         {% for monthLoop in yearLoop[1] %}
             {% for dayLoop in monthLoop[1] %}
                 {% for mention in dayLoop[1] %}
                     {% if thisUrl == mention[1].like-of %}
-                        <img width="30" height="30" src="{{mention[1].author.photo }}" alt="{{mention[1].author.name }}" class="pa-fixed-1 br-circle avatar-stack b-light-grey ba bg-white">
-                   {% endif %}
-                {% endfor %}
-                {% endfor %}
-                {% endfor %}
-                {% endfor %}
-<p class="h-cite p-comment reply-relation mb2 f6">{{likesCount}} Likes</p>
-{% endif %}
-
-
-{% if replyCount > 0 %}
-    {% for yearLoop in webmentions %}
-        {% for monthLoop in yearLoop[1] %}
-            {% for dayLoop in monthLoop[1] %}
-                {% for mention in dayLoop[1] %}
-                    {% if thisUrl == mention[1].in-reply-to %}
-                        <img width="30" height="30" src="{{mention[1].author.photo }}" alt="{{mention[1].author.name }}" class="pa-fixed-1 br-circle avatar-stack b-light-grey ba bg-white">
+                    <div class="p-like h-cite dib">
+                        <a href="{{mention[1].url}}" class="u-url">
+                            <span class="p-author h-card">
+                                <img width="30" height="30" src="{{mention[1].author.photo }}" alt="{{mention[1].author.name }}" class="u-photo pa-fixed-1 br-circle b-light-grey ba bg-white">
+                            </span>
+                        </a>
+                    </div>
                    {% endif %}
                 {% endfor %}
             {% endfor %}
         {% endfor %}
     {% endfor %}
-<p class="h-cite p-comment reply-relation mb2 f6">{{replyCount}} Replies</p>
+{% endif %}
+
+
+{% if replyCount > 0 %}
+<h3>Replies</h3>
+    {% for yearLoop in webmentions %}
+        {% for monthLoop in yearLoop[1] %}
+            {% for dayLoop in monthLoop[1] %}
+                {% for mention in dayLoop[1] %}
+                    {% if thisUrl == mention[1].in-reply-to %}
+                    <div class="p-comment h-cite mb5">
+                        <h3 class="p-author h-card dg ma0 pa0 webmention-mini-two-col-grid"><img width="30" height="30" src="{{mention[1].author.photo }}" alt="{{mention[1].author.name }}" class="u-photo pa-fixed-1 br-circle avatar-stack b-light-grey ba bg-white"> <a href="{{mention[1].author.url}}" class="p-name u-url f5 red ma0 pa0 rm-underline" rel="external">{{mention[1].author.name}}</a></h3>
+                        <div class="e-content p-name">{{mention[1].content.text}}</div>
+                        <time class="dt-published db f7" datetime="{{mention[1].published | date_to_xmlschema}}"><a href="{{mention[1].url}}" class="grey  rm-underline " rel="external">{{ mention[1].published | date_to_string: "ordinal" }} <span>at</span> {{ mention[1].published | date: "%H" }}:{{ mention[1 ].published | date: "%M%P" }}</a></time>
+                    </div>
+                   {% endif %}
+                {% endfor %}
+            {% endfor %}
+        {% endfor %}
+    {% endfor %}
 {% endif %}
 
 {% if bookmarkCount > 0 %}
+<h3>Bookmarks</h3>
     {% for yearLoop in webmentions %}
         {% for monthLoop in yearLoop[1] %}
             {% for dayLoop in monthLoop[1] %}
                 {% for mention in dayLoop[1] %}
                     {% if thisUrl == mention[1].bookmark-of %}
-                        <img width="30" height="30" src="{{mention[1].author.photo }}" alt="{{mention[1].author.name }}" class="pa-fixed-1 br-circle avatar-stack b-light-grey ba bg-white">
+                    <div class="p-like h-cite dib">
+                        <a href="{{mention[1].url}}" class="u-url">
+                            <span class="p-author h-card">
+                                <img width="30" height="30" src="{{mention[1].author.photo }}" alt="{{mention[1].author.name }}" class="u-photo pa-fixed-1 br-circle b-light-grey ba bg-white">
+                            </span>
+                        </a>
+                    </div>
                    {% endif %}
                 {% endfor %}
-                {% endfor %}
-                {% endfor %}
-                {% endfor %}
+            {% endfor %}
+        {% endfor %}
+    {% endfor %}
 <p class="h-cite p-comment reply-relation mb2 f6">{{bookmarkCount}} Bookmarks</p>
 {% endif %}
 
 {% if repostsCount > 0 %}
+    <h3>Reposts</h3>
     {% for yearLoop in webmentions %}
         {% for monthLoop in yearLoop[1] %}
             {% for dayLoop in monthLoop[1] %}
                 {% for mention in dayLoop[1] %}
                     {% if thisUrl == mention[1].repost-of %}
-                        <img width="30" height="30" src="{{mention[1].author.photo }}" alt="{{mention[1].author.name }}" class="pa-fixed-1 br-circle avatar-stack b-light-grey ba bg-white">
+                       <div class="p-like h-cite dib">
+                        <a href="{{mention[1].url}}" class="u-url">
+                            <span class="p-author h-card">
+                                <img width="30" height="30" src="{{mention[1].author.photo }}" alt="{{mention[1].author.name }}" class="u-photo pa-fixed-1 br-circle b-light-grey ba bg-white">
+                            </span>
+                        </a>
+                    </div>
                     {% endif %}
                 {% endfor %}
             {% endfor %}
