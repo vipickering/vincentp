@@ -2,8 +2,8 @@
 layout: null
 ---
 {% assign webmentionsCount = 0 %}
-{% assign publishTime = site.data.published.time %}{
-    "published" : "{{publishTime}}+00:00",
+{% assign publishTime = site.data.published.time  | date_to_xmlschema %}{
+    "published" : "{{publishTime}}",
     "webmentions" :
         {%- for post in site.posts -%}
             {%- assign postTime = post.date | date_to_xmlschema -%}
@@ -13,7 +13,9 @@ layout: null
                     {%- for item in post.target %}
     {
         "source": "{{site.url}}{{ post.url }}",
-        "target": "{{item}}"
+        "target": "{{item}}",
+        "postTime" : "{{postTime}}",
+        "publishTime" : "{{publishTime}}"
     }
                         {%- if forloop.last == false -%},{%- endif -%}
                     {%- endfor -%}
