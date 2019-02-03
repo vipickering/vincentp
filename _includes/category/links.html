@@ -1,7 +1,8 @@
 <article class="h-entry ba b-pale-grey br-5 pa5 mb5">
     <div class="e-content">
-        <p class="p-name f5 ma0 pa0">{{ post.title}}</p>
-        <p class="f7 mb5"><span class="red">Source</span>: <a href="{{post.target}}" title="bookmarked from: {{post.target}}" class="u-bookmark-of underline-no-hover" rel="external">{{post.target}}</a></p>
+        <h2 class="p-name f5 red ma0 pa0">{{ post.title}}</h2>
+        <p>{{post.content}}</p>
+        <p class="f7 mb5"><a href="{{post.target}}" title="bookmarked from: {{post.target}}" class="u-bookmark-of underline-no-hover" rel="external">{{post.target}}</a></p>
         {% include lifestream/published.html %}
     </div>
 </article>
