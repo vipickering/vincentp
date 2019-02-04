@@ -5,13 +5,13 @@
     </head>
 
     <body class="ma0 pa0">
-        <div>
+        <div class="mb5">
             {% include navigation.html %}
                 <main id="content" class="h-entry">
-                    <article class="e-content">
-                        {% include pageTitle.html %}
+                    <article>
                         <div class="dg layout-grid center" data-type="blog">
-                            {{content}}
+                            {% include pageTitle.html %}
+                            <div class="e-content">{{content}}</div>
                         </div>
                     </article>
                 </main>

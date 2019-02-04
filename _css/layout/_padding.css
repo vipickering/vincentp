@@ -2,12 +2,16 @@
     padding: 0;
 }
 
+.pa5 {
+    padding: var(--f5);
+}
+
 .pa7 {
     padding: var(--f7);
 }
 
-.pa5 {
-    padding: var(--f5);
+.pa8 {
+    padding: var(--f7);
 }
 
 .pa-fixed-1 {
@@ -63,4 +67,10 @@
 
 .pr7 {
     padding-right: var(--f7);
+}
+
+@media (--not-mobile) {
+    .pa5-ns {
+        padding: var(--f5);
+    }
 }

@@ -9,13 +9,12 @@ layout: null
     "description" : "Web design including: UI, UX, HTML, CSS, JavaScript and Node",
     "icon" : "{{site.url}}/images/vincentp.jpg",
     "favicon" : "{{site.url}}/images/favicons/apple-touch-icon-76x76-precomposed.png",
-    "author" : [
-        {
+    "author" :
+    {
             "name" : "{{site.data.author.name}}",
             "url" : "{{site.url}}",
             "avatar" : "{{site.url}}/images/profile/vincentp@2x.jpg"
-        }
-    ],
+    },
      "items": [{% for post in site.categories.Favourites limit:20 %}
         {
              "author": {

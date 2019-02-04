@@ -9,13 +9,12 @@ layout: null
     "description" : "Web design including: UI, UX, HTML, CSS, JavaScript and Node",
     "icon" : "{{site.url}}/images/vincentp.jpg",
     "favicon" : "{{site.url}}/images/favicons/apple-touch-icon-76x76-precomposed.png",
-    "author" : [
-        {
+    "author" :
+    {
             "name" : "{{site.data.author.name}}",
             "url" : "{{site.url}}",
             "avatar" : "{{site.url}}/images/profile/vincentp@2x.jpg"
-        }
-    ],
+    },
      "items": [{% for post in site.categories.Notes limit:20 %}
         {
              "author": {
@@ -26,6 +25,9 @@ layout: null
             "date_modified" : "{{post.modified  | date_to_xmlschema}}"{% endif%},
             "id": "{{site.url}}{{post.id}}",
             "url": "{{site.url}}{{ post.url }}",
+            {%- if post.photo1_url %}
+            "image": {{ post.photo1_url | jsonify}},
+            {%- endif %}
             "content_text": {{ post.title | jsonify }},
             "content_html": {{ post.content | jsonify}}
         }{% if forloop.last != true %},{% endif %}{% endfor %}

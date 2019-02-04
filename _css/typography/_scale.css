@@ -59,6 +59,10 @@ small {
 }
 
 @media (--not-mobile) {
+    .f1-ns {
+        font-size: var(--f1);
+    }
+
     .f3-ns {
         font-size: var(--f3);
     }

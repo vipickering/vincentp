@@ -7,18 +7,14 @@
     <body class="ma0 pa0">
         <div>
             {% include navigation.html %}
-
-             <div class="h-entry">
-                {% include pageTitle.html %}
-
-                <main id="content">
-                    <article class="h-entry">
-                        <div class="e-content dg layout-grid center">
-                            {{ content }}
+                <main id="content" class="h-entry">
+                    <article>
+                        <div class="dg layout-grid center" data-type="blog">
+                            {% include pageTitle.html %}
+                            <div class="e-content">{{content}}</div>
                         </div>
                     </article>
                 </main>
-            </div>
         </div>
         {% include footer.html %}
     </body>

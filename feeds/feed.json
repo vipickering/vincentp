@@ -26,8 +26,8 @@ layout: null
             "date_modified" : "{{post.modified  | date_to_xmlschema}}"{% endif%},
             "id": "{{site.url}}{{post.id}}",
             "url": "{{site.url}}{{ post.url }}",
-            {%- if post.photo %}
-            "image": {{ post.photo | jsonify}},
+            {%- if post.photo1_url %}
+            "image": {{ post.photo1_url | jsonify}},
             {%- endif %}
             "content_text": {{ post.title | jsonify }},
             "content_html": {{ post.content | jsonify}}

@@ -3,16 +3,14 @@
     <head>
         {% include meta.html %}
     </head>
-
     <body class="ma0 pa0">
         <div>
             {% include navigation.html %}
-
             <div class="dg layout-grid center">
                 <main id="content">
-                    <article class="h-entry  ba b-pale-grey br-5 pa5 ">
-                        <div class="mb5">
-                            <h1 class="p-name mb0 dn">Note for {{ page.modified | date_to_string: "ordinal" }} at {{ page.modified | date: "%H" }}:{{ page.modified | date: "%M%P" }}</h1>
+                    <article class="h-entry">
+                        <div class="mb5 mt5">
+                            <h1 class="p-name ma0 pa0 f3 f1-ns lh-heading dn">Note for {{ page.date | date_to_string: "ordinal" }} at {{ page.date | date: "%H" }}:{{ page.date | date: "%M%P" }}</h1>
                             {% include author.html %}
                         </div>
 

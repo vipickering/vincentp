@@ -11,13 +11,16 @@ pre {
     grid-column: main;
 }
 
-.layout-grid > figure {
-    grid-column: full;
-}
-
 .align-items-center {
     align-items: center;
 }
+
+/*
+.layout-grid > figure,
+.layout-grid > .highlighter-rouge {
+    grid-column: full;
+}
+*/
 
 /*
 When embedding CodePens or snippets. Allow them to break out the grid, but not go full screen

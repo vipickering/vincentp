@@ -31,10 +31,6 @@
     margin-top: 6px;
 }
 
-.mb7 {
-    margin-bottom: var(--f7);
-}
-
 .mr0 {
     margin-right: 0;
 }
@@ -59,18 +55,21 @@
     margin-bottom: 0;
 }
 
-.mb5 {
-    margin-bottom: var(--f5);
-}
-
 .mb3 {
     margin-bottom: var(--f3);
+}
+
+.mb5 {
+    margin-bottom: var(--f5);
 }
 
 .mb7 {
     margin-bottom: var(--f7);
 }
 
-.mt-header {
-    margin-top: 2.618rem;
+
+@media (--not-mobile) {
+    .mt2-ns {
+        margin-top: var(--f2);
+    }
 }

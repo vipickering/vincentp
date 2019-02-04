@@ -17,8 +17,8 @@ tags:
             {% include navigation.html %}
             {% include hcard.html %}
                 <main class="h-feed" id="content">
-                    {% include pageTitle.html %}
                     <div class="e-content dg layout-grid center">
+                        {% include pageTitle.html %}
                         {% include lifestream/filters.html %}
                         {% for post in site.posts limit:40 %}
                        {% case post.category %}
