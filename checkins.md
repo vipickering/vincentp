@@ -7,5 +7,8 @@ meta : "All content tagged Checkins by Vincent Pickering"
 summary : "All content tagged Checkins by Vincent Pickering"
 type : "Checkins"
 twitterCard: false
+pagination:
+  enabled: true
+  category: checkins
 tags:
 ---

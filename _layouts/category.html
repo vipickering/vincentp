@@ -14,43 +14,39 @@
                     {% unless page.type == 'Articles'  or  page.type == 'Notes' %}
                         {% include lifestream/filters.html %}
                     {% endunless %}
+
                     {% case page.type %}
                         {% when 'Notes' %}
-                            {% assign pageType = site.categories.Notes %}
-                            {% for post in pageType %}
+                            {% for post in paginator.posts %}
                                 {% include category/notes.html %}
                             {% endfor %}
                         {% when 'Articles' %}
-                            {% assign pageType = site.categories.Articles %}
-                            {% for post in pageType %}
+                            {% for post in paginator.posts %}
                                 {% include category/articles.html %}
                             {% endfor %}
                         {% when 'Photos' %}
-                            {% assign pageType = site.categories.Photos %}
-                            {% for post in pageType %}
+                            {% for post in paginator.posts %}
                                 {% include category/photos.html %}
                             {% endfor %}
                         {% when 'Checkins' %}
-                            {% assign pageType = site.categories.Checkins %}
-                            {% for post in pageType %}
+                            {% for post in paginator.posts %}
                                 {% include category/checkins.html %}
                             {% endfor %}
                         {% when 'Links' %}
-                            {% assign pageType = site.categories.Links %}
-                            {% for post in pageType %}
+                            {% for post in paginator.posts %}
                                 {% include category/links.html %}
                             {% endfor %}
                         {% when 'Favourites' %}
-                            {% assign pageType = site.categories.Favourites %}
-                            {% for post in pageType %}
+                            {% for post in paginator.posts %}
                                 {% include category/favourites.html %}
                             {% endfor %}
                         {% when 'Replies' %}
-                            {% assign pageType = site.categories.Replies %}
-                            {% for post in pageType %}
+                            {% for post in paginator.posts %}
                                 {% include category/replies.html %}
                             {% endfor %}
                     {% endcase %}
+
+                    {% include pagination.html %}
                 </div>
             </main>
     </div>

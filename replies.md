@@ -7,5 +7,8 @@ meta : "All content tagged Replies by Vincent Pickering"
 summary : "All content tagged Replies by Vincent Pickering"
 type : "Replies"
 twitterCard: false
+pagination:
+  enabled: true
+  category: replies
 tags:
 ---

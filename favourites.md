@@ -7,5 +7,8 @@ meta : "All content tagged Favourites by Vincent Pickering"
 summary : "All content tagged Favourites by Vincent Pickering"
 type : "Favourites"
 twitterCard: false
+pagination:
+  enabled: true
+  category: favourites
 tags:
 ---

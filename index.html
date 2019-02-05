@@ -4,6 +4,8 @@ subtitle: "A feed of my life"
 meta: "A blog about Service Design, My life, UX, Cybernetics, HTML, CSS and Javascript"
 summary :  "A blog about Service Design, My life, UX, Cybernetics, HTML, CSS and Javascript"
 twitterCard: false
+pagination:
+  enabled: true
 tags:
 ---
 <!DOCTYPE html>
@@ -20,26 +22,27 @@ tags:
                     <div class="e-content dg layout-grid center">
                         {% include pageTitle.html %}
                         {% include lifestream/filters.html %}
-                        {% for post in site.posts limit:40 %}
-                       {% case post.category %}
-                        {% when 'Notes' %}
-                            {% include category/notes.html %}
-                        {% when 'Articles' %}
-                            {% include category/articles.html %}
-                        {% when 'Photos' %}
-                            {% include category/photos.html %}
-                        {% when 'Checkins' %}
-                            {% include category/checkins.html %}
-                        {% when 'Links' %}
-                            {% include category/links.html %}
-                        {% when 'Favourites' %}
-                            {% include category/favourites.html %}
-                        {% when 'Replies' %}
-                            {% include category/replies.html %}
-                    {% endcase %}
+                        {% for post in paginator.posts %}
+                            {% case post.category %}
+                                {% when 'Notes' %}
+                                    {% include category/notes.html %}
+                                {% when 'Articles' %}
+                                    {% include category/articles.html %}
+                                {% when 'Photos' %}
+                                    {% include category/photos.html %}
+                                {% when 'Checkins' %}
+                                    {% include category/checkins.html %}
+                                {% when 'Links' %}
+                                    {% include category/links.html %}
+                                {% when 'Favourites' %}
+                                    {% include category/favourites.html %}
+                                {% when 'Replies' %}
+                                    {% include category/replies.html %}
+                            {% endcase %}
                         {% endfor %}
-                    </div>
-                </main>
+                        {% include pagination.html %}
+                </div>
+            </main>
         </div>
         {% include footer.html %}
 

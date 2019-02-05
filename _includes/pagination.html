@@ -1,0 +1,9 @@
+{% if paginator.total_pages > 1 %}
+    <div class="w-120-fixed tc center mt5 mb5">
+    {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl }}"  class="f5 red" rel="previous">Older</a>
+    {% endif %}
+    {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="f5 red" rel="next">Newer</a>
+    {% endif %}
+{% endif %}
