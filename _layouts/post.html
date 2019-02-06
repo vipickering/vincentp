@@ -14,8 +14,8 @@
                             {% include author.html %}
                         </div>
 
-                        <div data-type="blog">
-                            <div class="e-content">{{ content }}</div>
+                        <div data-type="blog" class="e-content">
+                            {{ content }}
 
                             {% if page.modified %}
                                 <time class="dt-published red f7"  datetime="{{ page.date | date_to_xmlschema }}" title="Page Modified" >{{ page.modified | date_to_string: "ordinal" }} at <span class="dt-updated f7">{{ page.modified | date: "%H" }}:{{ page.modified | date: "%M%P" }}</span></time>
