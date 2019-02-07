@@ -24,7 +24,7 @@ layout: null
             "date_published" : "{{ post.date  | date_to_xmlschema }}"{% if post.modified %},
             "date_modified" : "{{post.modified  | date_to_xmlschema}}"{% endif%},
             "id": "{{site.url}}{{post.id}}",
-            "url": "{{site.url}}{{ post.url }}",
+            "url": "{{ post.target }}",
             "content_text": {{ post.title | jsonify }},
             "content_html": {{ post.content | jsonify}}
         }{% if forloop.last != true %},{% endif %}{% endfor %}

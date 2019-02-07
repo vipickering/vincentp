@@ -17,9 +17,11 @@ layout: null
         "postTime" : "{{postTime}}",
         "publishTime" : "{{publishTime}}"
     }
-                        {%- if forloop.last == false -%},{%- endif -%}
+
                     {%- endfor -%}
+                    {%- if forloop.last == false -%},{%- endif -%}
                 {%- endif -%}
             {%- endif -%}
+
        {%- endfor %}{%- if webmentionsCount == 0 -%}""{%- endif -%}
 }
