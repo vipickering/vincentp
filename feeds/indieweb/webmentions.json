@@ -19,7 +19,6 @@ layout: null
     }
 
                     {%- endfor -%}
-                    {%- if forloop.last == false -%},{%- endif -%}
                 {%- endif -%}
             {%- endif -%}
 
