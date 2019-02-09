@@ -17,10 +17,7 @@
 <link rel="mask-icon" href="{{site.url}}/images/favicons/safari-pinned-tab.svg" color="#c83539" />
 <meta name="theme-color" content="#ffffff" />
 
-{% if page.twitterCard == true %}
-    <!-- Twitter Card -->
-    {% include twitterCard.html %}
-{% endif %}
+{% include twitterCard.html %}
 
 <!-- Webmention -->
 <link rel="webmention" href="https://webmention.io/vincentp.me/webmention" />
@@ -44,6 +41,7 @@
 <link rel="home alternate feed" type="application/json" title="A stream of everything on this site" href="{{site.url}}/feeds/feed.json" />
 <link rel="alternate feed" type="application/json" title="Articles by Vincent Pickering" href="{{site.url}}/feeds/articles.json" />
 <link rel="alternate feed" type="application/json" title="Notes by Vincent Pickering" href="{{site.url}}/feeds/notes.json" />
+<link rel="alternate feed" type="application/json" title="Links found by Vincent Pickering" href="{{site.url}}/feeds/links.json" />
 
 <!-- CSS -->
 <link  rel="stylesheet" href="{{ '/css/application.min.css' | prepend: site.baseurl }}?v={{site.time | date: '%s%N'}}" />
