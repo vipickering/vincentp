@@ -29,7 +29,7 @@ layout: null
             {%- if post.photo1_url %}
             "image": {{ post.photo1_url | jsonify}},
             {%- endif %}
-            "content_text": {{ post.title | jsonify }},
+            "content_text": {{ post.content | jsonify | strip_html }},
             "content_html": {{ post.content | jsonify}}
         }{% if forloop.last != true %},{% endif %}{% endfor %}
     ]

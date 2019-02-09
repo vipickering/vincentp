@@ -25,7 +25,7 @@ layout: null
             "date_modified" : "{{post.modified  | date_to_xmlschema}}"{% endif%},
             "id": "{{site.url}}{{post.id}}",
             "url": "{{ post.target }}",
-            "content_text": {{ post.title | jsonify }},
+            "content_text": {{ post.content | jsonify | strip_html }},
             "content_html": {{ post.content | jsonify}}
         }{% if forloop.last != true %},{% endif %}{% endfor %}
     ]
