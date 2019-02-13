@@ -1,5 +1,5 @@
 <article class="h-entry ba b-pale-grey br-5 mb5 relative">
-    <div class="pa8 pa5-ns absolute bg-white-t w-100 brt-5">
+    <div class="pa8 pa5-ns absolute-ns bg-white-t w-100 brt-5">
         <div class="u-checkin h-card">
             <h2 class="ma0 pa0 lh-one"><a href="{{post.foursquare}}" class="u-url red f5 p-name rm-underline">{{post.title}}</a></h2>
                 {% if post.region %}
@@ -22,7 +22,7 @@
         <div class="f7 tr">&copy; <a href='https://www.mapbox.com/map-feedback/'>Mapbox</a> &copy; <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap contributors</a></div>
     {% endif %}
 
-    <div class="absolute bottom-0 pa8 pa5-ns left-0 bg-white-t w-100 brb-5">
+    <div class="absolute-ns bottom-0 pa8 pa5-ns left-0 bg-white-t w-100 brb-5">
         {% include lifestream/webmentions.html %}
         {% include lifestream/published.html %}
     </div>
