@@ -9,3 +9,9 @@
 .relative {
     position: relative;
 }
+
+@media (min-width: 600px) {
+    .absolute-ns {
+        position: absolute;
+    }
+}
