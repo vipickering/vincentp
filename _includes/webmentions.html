@@ -53,7 +53,7 @@
     {% endfor %}
 {% endfor %}
 
-{% if likesCount > 0 %}
+{% if likesCount > 0 and page.disableWebmention != true %}
     <h3>Likes</h3>
     {% for yearLoop in webmentions %}
         {% for monthLoop in yearLoop[1] %}
@@ -75,7 +75,7 @@
 {% endif %}
 
 
-{% if replyCount > 0 %}
+{% if replyCount > 0 and page.disableWebmention != true %}
 <h3>Replies</h3>
     {% for yearLoop in webmentions %}
         {% for monthLoop in yearLoop[1] %}
@@ -94,7 +94,7 @@
     {% endfor %}
 {% endif %}
 
-{% if bookmarkCount > 0 %}
+{% if bookmarkCount > 0 and page.disableWebmention != true %}
 <h3>Bookmarks</h3>
     {% for yearLoop in webmentions %}
         {% for monthLoop in yearLoop[1] %}
@@ -116,7 +116,7 @@
 <p class="h-cite p-comment reply-relation mb2 f6">{{bookmarkCount}} Bookmarks</p>
 {% endif %}
 
-{% if repostsCount > 0 %}
+{% if repostsCount > 0 and page.disableWebmention != true %}
     <h3>Reposts</h3>
     {% for yearLoop in webmentions %}
         {% for monthLoop in yearLoop[1] %}
