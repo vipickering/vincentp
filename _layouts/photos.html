@@ -15,11 +15,11 @@
                         {% include author.html %}
                     </div>
                         <div class="ma0 mb7 pa0">
-                            {% if page.photo1_url %}<img src="{{page.photo1_url}}" class="u-photo w-100" alt="{{page.photo1_alt}}"/>{% endif %}
-                            {% if page.photo2_url %}<img src="{{page.photo2_url}}" class="u-photo w-100" alt="{{page.photo2_alt}}"/>{% endif %}
-                            {% if page.photo3_url %}<img src="{{page.photo3_url}}" class="u-photo w-100" alt="{{page.photo3_alt}}"/>{% endif %}
-                            {% if page.photo4_url %}<img src="{{page.photo4_url}}" class="u-photo w-100" alt="{{page.photo4_alt}}"/>{% endif %}
-                            {% if page.photo5_url %}<img src="{{page.photo5_url}}" class="u-photo w-100" alt="{{page.photo5_alt}}"/>{% endif %}
+                            {% if page.photo1_url %}<img src="{{site.url}}/{{page.photo1_url}}" class="u-photo w-100" alt="{{page.photo1_alt}}"/>{% endif %}
+                            {% if page.photo2_url %}<img src="{{site.url}}/{{page.photo2_url}}" class="u-photo w-100" alt="{{page.photo2_alt}}"/>{% endif %}
+                            {% if page.photo3_url %}<img src="{{site.url}}/{{page.photo3_url}}" class="u-photo w-100" alt="{{page.photo3_alt}}"/>{% endif %}
+                            {% if page.photo4_url %}<img src="{{site.url}}/{{page.photo4_url}}" class="u-photo w-100" alt="{{page.photo4_alt}}"/>{% endif %}
+                            {% if page.photo5_url %}<img src="{{site.url}}/{{page.photo5_url}}" class="u-photo w-100" alt="{{page.photo5_alt}}"/>{% endif %}
                             <p class="mt5 mb5 tl e-content">{{ content }}</p>
                         </div>
 
