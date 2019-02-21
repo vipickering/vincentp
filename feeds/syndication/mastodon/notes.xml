@@ -1,0 +1,35 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="https://www.w3.org2005/Atom" xmlns:webfeeds="http://webfeeds.org/rss/1.0">
+<channel>
+    <title>Vincentp Notes</title>
+    <description>{{ site.description | xml_escape }}</description>
+    <link>{{ site.url }}</link>
+    <managingEditor>{{site.data.author.email}} ({{site.data.author.name}})</managingEditor>
+    <webMaster>{{site.data.author.email}} ({{site.data.author.name}})</webMaster>
+    <image>
+        <url>{{site.url}}/images/vincentp.jpg</url>
+         <title>Vincent Pickering</title>
+        <link>{{ site.url }}</link>
+    </image>
+    <webfeeds:cover image="{{ site.url}}/images/social-card.jpg" />
+    <webfeeds:icon>{{ site.url}}/images/favicons/apple-touch-icon-76x76-precomposed.png</webfeeds:icon>
+    <webfeeds:logo>{{ site.url}}/images/favicons/icon-30.svg</webfeeds:logo>
+    <webfeeds:accentColor>c83539</webfeeds:accentColor>
+    <webfeeds:related layout="card" target="browser"/>
+    <atom:link href="{{ site.url }}/feeds/notes.xml" rel="self" type="application/rss+xml"/>
+    {% for post in site.categories.Notes limit:20 %}
+        {% if post.mastodon ==  true %}
+      <item>
+        <title>{{ post.title | xml_escape }}</title>
+        <link>{{ post.url | prepend: site.url }}</link>
+        <description>{{ post.content | xml_escape }}</description>
+        <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+        <guid isPermaLink="true">{{ post.url | prepend: site.url }}</guid>
+      </item>
+        {% endif %}
+    {% endfor %}
+  </channel>
+</rss>
