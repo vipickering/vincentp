@@ -80,6 +80,8 @@ Content is syndicated to Medium and pushed to a draft via Zapier and a [custom J
 - [Brid.gy](https://brid.gy/)
 - [Webmention.io](https://webmention.io/) - Webmentions are managed by Webmention.io and sent to Mastr Cntrl; Which creates a unique file for each Webmention in the data folder.
 
+- Webmentions can be disabled on a per page basis by adding ```disableWebmention: true``` in the frontmatter
+
 ## Publish Elsewhere, Syndicate (to your) Own Site(PESOS) Content
 
 Backfeed content is provided by [ownyourswarm](https://ownyourswarm.p3k.io/) and [ownyourgram](https://ownyourgram.com/) and published to the site via the Micropub API in Mastr Cntrl
