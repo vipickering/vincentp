@@ -18,7 +18,7 @@ layout: null
         <guid isPermaLink="true">{{ post.url | prepend: site.url }}</guid>
       </item>
         {%- endif -%}
-    {%- endfor -%}
+    {%- endfor %}
   </channel>
 </rss>
 
