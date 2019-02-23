@@ -1,3 +1,3 @@
-<time class="dt-published db f7 grey lh-one" datetime="{{ post.date | date_to_xmlschema }}">
+<time class="dt-published db f7 grey" datetime="{{ post.date | date_to_xmlschema }}">
     <a href="{{site.url}}{{ post.url }}" class="u-url rm-underline" title="{{ post.title }}"> {{ post.date | date_to_string: "ordinal" }} <span>at</span> {{ post.date | date: "%H" }}:{{ post.date | date: "%M%P" }}</a>
 </time>

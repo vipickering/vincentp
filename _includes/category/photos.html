@@ -2,7 +2,8 @@
     <div class="pa5 absolute-ns bg-white-t w-100 brt-5">
         <div class="e-content  f5 ma0 pa0">{{post.content}}</div>
     </div>
-    {% if post.photo1_url %}<img src="{{post.photo1_url}}" class="u-photo db w-100 br-5" alt="{{post.photo1_alt}}"/>{% endif %}
+
+    {% if post.photo1_url %}<img src="{{site.url}}/{{post.photo1_url}}" class="u-photo db w-100 br-5" alt="{{post.photo1_alt}}"/>{% endif %}
     <div class="absolute-ns bottom-0  pa5 left-0 bg-white-t w-100 brb-5">
         {% include lifestream/webmentions.html %}
         {% include lifestream/published.html %}
