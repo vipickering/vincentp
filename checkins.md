@@ -2,9 +2,8 @@
 layout : "category"
 permalink : "/categories/checkins/"
 title : "Checkins"
-subtitle: "Places I've been, things I've seen"
 meta : "All content tagged Checkins by Vincent Pickering"
-summary : "All content tagged Checkins by Vincent Pickering"
+summary : "Places I've been, things I've seen"
 type : "Checkins"
 twitterCard: false
 pagination:
