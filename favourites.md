@@ -2,9 +2,8 @@
 layout : "category"
 permalink : "/categories/favourites/"
 title : "Favourites"
-subtitle: "Things I like"
 meta : "All content tagged Favourites by Vincent Pickering"
-summary : "All content tagged Favourites by Vincent Pickering"
+summary : "Things I like"
 type : "Favourites"
 twitterCard: false
 pagination:

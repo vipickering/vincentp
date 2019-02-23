@@ -1,7 +1,6 @@
 ---
 layout : "about"
 title : "Services"
-subtitle: "We Should Work Together On Your Next Project"
 meta : "Vincent Pickering Consultant Front-end Architect and Developer Services"
 summary : "Vincent Pickering Consultant Front-end Architect and Developer Services"
 twitterCard: false

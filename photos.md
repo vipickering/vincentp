@@ -2,9 +2,8 @@
 layout : "category"
 permalink : "/categories/photos/"
 title : "Photos"
-subtitle: "photo posts"
 meta : "All content tagged photo by Vincent Pickering"
-summary : "All content tagged photo by Vincent Pickering"
+summary : "Photo posts"
 type : "Photos"
 twitterCard: false
 pagination:

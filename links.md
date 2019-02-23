@@ -2,9 +2,8 @@
 layout : "category"
 permalink : "/categories/links/"
 title : "Links"
-subtitle: "Shared Links"
 meta : "All content tagged Links by Vincent Pickering"
-summary : "All content tagged Links by Vincent Pickering"
+summary : "Shared Links"
 type : "Links"
 twitterCard: false
 pagination:

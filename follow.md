@@ -1,9 +1,8 @@
 ---
 layout : "about"
 title : "Follow Me"
-subtitle: "Follow Vincent Pickering"
+summary: "Follow Vincent Pickering"
 meta : "Vincent Pickering feeds and ways to follow"
-summary : "Vincent Pickering feeds and ways to follow"
 twitterCard: false
 tags:
 ---
