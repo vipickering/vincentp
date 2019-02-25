@@ -5,3 +5,8 @@
 .overflow-hidden {
     overflow: hidden;
 }
+
+
+.overflow-w-bw {
+    overflow-wrap: break-word;
+}

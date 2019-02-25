@@ -1,0 +1,58 @@
+{% if site.webmentionTestUrl == false %}
+    {% assign thisUrl =  page.url | absolute_url %}
+{% else %}
+    {% assign thisUrl =  "https://vincentp.me" | append: page.url %}
+{% endif %}
+
+{% assign articleCounter = 0 %}
+{% assign notesCounter = 0 %}
+{% assign photoCounter = 0 %}
+{% assign bookmarksCounter = 0 %}
+{% assign checkinsCounter = 0 %}
+{% assign favouritesCounter = 0 %}
+
+{% assign currentYear = site.time | date: "%Y" %}
+{% assign currentWeek = site.time | date: "%W" %}
+
+{%- for post in site.posts -%}
+    {% assign postYear = post.date | date: "%Y" %}
+    {% assign postWeek = post.date | date: "%W" %}
+
+    {%- if currentYear == postYear and currentWeek == postWeek -%}
+         {% case post.category %}
+            {% when 'Articles' %}
+                {% assign articleCounter = articleCounter | plus: 1 %}
+            {% when 'Notes' %}
+                {% assign notesCounter = notesCounter | plus: 1 %}
+            {% when 'Checkins' %}
+                {% assign checkinsCounter = notesCounter | plus: 1 %}
+            {% when 'Photo' %}
+                {% assign photoCounter = photoCounter | plus: 1 %}
+            {% when 'Links' %}
+                {% assign bookmarksCounter = bookmarksCounter | plus: 1 %}
+            {% when 'Favourites' %}
+                {% assign favouritesCounter = favouritesCounter | plus: 1 %}
+        {% else %}
+        {% endcase %}
+    {%- endif -%}
+{%- endfor -%}
+
+{% assign articleCounter = articleCounter | plus: 1 %}
+{% assign notesCounter = notesCounter | plus: 1 %}
+{% assign checkinsCounter = checkinsCounter | plus: 1 %}
+{% assign photoCounter = photoCounter | plus: 1 %}
+{% assign bookmarksCounter = bookmarksCounter | plus: 1 %}
+{% assign favouritesCounter = favouritesCounter | plus: 1 %}
+
+<svg width="80" height="45" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 45" >
+    <title>A Sparkline graph showing the number of each type of category created this week</title>
+    <desc>the graph shows that {{articleCounter }} Articles, {{notesCounter }} Notes, {{photoCounter }} Photo posts, {{checkinsCounter }} Checkins, {{bookmarksCounter }} Bookmarks and {{favouritesCounter }} favourites have been created.</desc>
+    <g fill="#333">
+        <rect  x="0"   width="10"  y="{{ 45 | minus: articleCounter }}"           height="{{articleCounter }}"></rect>
+        <rect  x="12" width="10"  y="{{ 45 | minus: notesCounter }}"            height="{{notesCounter}}"></rect>
+        <rect  x="24" width="10"  y="{{ 45 | minus: photoCounter }}"           height="{{photoCounter}}"></rect>
+        <rect  x="36" width="10"  y="{{ 45 | minus: checkinsCounter }}"      height="{{checkinsCounter}}"></rect>
+        <rect  x="48" width="10"  y="{{ 45 | minus: bookmarksCounter }}" height="{{bookmarksCounter}}"></rect>
+        <rect  x="60" width="10"  y="{{ 45 | minus: favouritesCounter }}"    height="{{favouritesCounter}}"></rect>
+    </g>
+</svg>

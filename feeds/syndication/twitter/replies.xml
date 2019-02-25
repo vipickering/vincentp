@@ -4,11 +4,11 @@ layout: null
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-    <title>Vincentp Notes</title>
+    <title>Vincentp Replies</title>
     <description>Syndication feed</description>
     <link>{{ site.url }}</link>
-    <atom:link href="{{ site.url }}/feeds/syndication/twitter/notes.xml" rel="self" type="application/rss+xml"/>
-    {% for post in site.categories.Notes limit:20 -%}
+    <atom:link href="{{ site.url }}/feeds/syndication/twitter/replies.xml" rel="self" type="application/rss+xml"/>
+    {% for post in site.categories.Replies limit:20 -%}
         {%- if post.twitter ==  true -%}
       <item>
         <title>{{ post.title | xml_escape }}</title>
