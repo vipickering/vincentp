@@ -44,6 +44,10 @@
                             {% for post in paginator.posts %}
                                 {% include category/replies.html %}
                             {% endfor %}
+                         {% when 'Rsvp' %}
+                            {% for post in paginator.posts %}
+                                {% include category/rsvp.html %}
+                            {% endfor %}
                     {% endcase %}
 
                     {% include pagination.html %}

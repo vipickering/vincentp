@@ -1,0 +1,13 @@
+<article class="h-entry ba b-pale-grey br-5 pa5 mb5">
+    <div class="e-content">
+        <h2 class="f5 ma0 pa0 red">{{post.title}}</h2>
+        <div class="e-content">
+            <div class="e-content">
+                <data class="p-rsvp" value="{{post.rsvpStatus}}"></data>
+                {{post.content}}
+            </div>
+        </div>
+        <p class="p-name f7 ma0 pa0 mb5 "><a href="{{post.target}}" title="RSVP'd: {{post.target}}" class="u-in-reply-to underline-no-hover overflow-w-bw" rel="external">{{post.target}}</a></p>
+        {% include lifestream/published.html %}
+    </div>
+</article>
