@@ -2,12 +2,8 @@
     <div class="e-content">
         <h2 class="f5 ma0 pa0 red">{{post.title}}</h2>
         <div class="e-content">
-            <div class="e-content">
-                <data class="p-rsvp" value="{{post.rsvpStatus}}"></data>
-                {{post.content}}
-            </div>
+            <p class="p-name f5 ma0 pa0 mb5 "><data class="p-rsvp" value="{{post.rsvpStatus}}"></data>Tracking</data> <a href="{{post.target}}" class="u-in-reply-to underline-no-hover overflow-w-bw" rel="external">{{post.title}}</a>!</p>
         </div>
-        <p class="p-name f7 ma0 pa0 mb5 "><a href="{{post.target}}" title="RSVP'd: {{post.target}}" class="u-in-reply-to underline-no-hover overflow-w-bw" rel="external">{{post.target}}</a></p>
         {% include lifestream/published.html %}
     </div>
 </article>

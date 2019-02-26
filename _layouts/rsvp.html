@@ -15,9 +15,9 @@
                             <h1 class="p-name f5 red ma0 pa0 mb5">{{ page.title }}</h1>
                             {% include author.html %}
                         </div>
+
                         <div class="e-content">
-                            <data class="p-rsvp" value="{{page.rsvpStatus}}"></data>
-                            {{content}}
+                            <p class="p-name f5 ma0 pa0 mb5 "><data class="p-rsvp" value="{{page.rsvpStatus}}"></data>Tracking</data> <a href="{{page.target}}" class="u-in-reply-to underline-no-hover overflow-w-bw" rel="external">{{page.title}}</a>!</p>
                         </div>
 
                         {% if page.modified %}
