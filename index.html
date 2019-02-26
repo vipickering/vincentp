@@ -37,6 +37,8 @@ tags:
                                     {% include category/favourites.html %}
                                 {% when 'Replies' %}
                                     {% include category/replies.html %}
+                                {% when 'Rsvp' %}
+                                    {% include category/rsvp.html %}
                             {% endcase %}
                         {% endfor %}
                         {% include pagination.html %}

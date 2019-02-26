@@ -17,7 +17,6 @@ layout: null
         "postTime" : "{{postTime}}",
         "publishTime" : "{{publishTime}}"
     }
-
                     {%- endfor -%}
                 {%- endif -%}
             {%- endif -%}
