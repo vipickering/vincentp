@@ -15,20 +15,22 @@
                         {% include author.html %}
                         {% include audience.html %}
                     </div>
+
+                    <div class="e-content" data-type="blog">
                         <div class="ma0 mb7 pa0">
                             {% if page.photo1_url %}<img src="{{site.url}}/{{page.photo1_url}}" class="u-photo w-100" alt="{{page.photo1_alt}}"/>{% endif %}
                             {% if page.photo2_url %}<img src="{{site.url}}/{{page.photo2_url}}" class="u-photo w-100" alt="{{page.photo2_alt}}"/>{% endif %}
                             {% if page.photo3_url %}<img src="{{site.url}}/{{page.photo3_url}}" class="u-photo w-100" alt="{{page.photo3_alt}}"/>{% endif %}
                             {% if page.photo4_url %}<img src="{{site.url}}/{{page.photo4_url}}" class="u-photo w-100" alt="{{page.photo4_alt}}"/>{% endif %}
                             {% if page.photo5_url %}<img src="{{site.url}}/{{page.photo5_url}}" class="u-photo w-100" alt="{{page.photo5_alt}}"/>{% endif %}
-                            <p class="mt5 mb5 tl e-content">{{ content }}</p>
+                            <p class="mt5 mb5 tl">{{ content }}</p>
                         </div>
+                    </div>
+                    {% include tagging.html %}
 
-                        {% include tagging.html %}
-
-                        <div class="pb5">
-                            {% include webmentions.html %}
-                        </div>
+                    <div class="pb5">
+                        {% include webmentions.html %}
+                    </div>
                 </article>
             </main>
         </div>

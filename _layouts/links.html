@@ -26,13 +26,9 @@
                                 <p class="f7"> {{ page.modifiedReason }}.</p>
                             {% endif %}
                         </div>
+                        {% include tagging.html %}
+                        <div class="pb5">{% include webmentions.html %}</div>
                     </article>
-
-                    {% include tagging.html %}
-
-                    <div class="pb5">
-                        {% include webmentions.html %}
-                    </div>
                 </main>
             </div>
         </div>
