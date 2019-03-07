@@ -9,6 +9,7 @@
         {% include navigation.html %}
         <div class="dg layout-grid center">
             <main id="content">
+                {% include hcard.html %}
                 <article class="h-entry">
                     <div class="mb5 mt5">
                         <h1 class="p-name ma0 pa0 f3 f1-ns lh-heading dn">Note for {{ page.date | date_to_string: "ordinal" }} at {{ page.date | date: "%H" }}:{{ page.date | date: "%M%P" }}</h1>
