@@ -12,6 +12,7 @@
                         <div class="mb5 mt5">
                             <h1 class="p-name ma0 pa0 f3 f1-ns lh-heading dn">Note for {{ page.date | date_to_string: "ordinal" }} at {{ page.date | date: "%H" }}:{{ page.date | date: "%M%P" }}</h1>
                             {% include author.html %}
+                            {% include audience.html %}
                         </div>
 
                         <div class="e-content" data-type="blog">
