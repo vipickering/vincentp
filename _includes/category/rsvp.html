@@ -4,6 +4,7 @@
         <div class="e-content">
             <p class="p-name f5 ma0 pa0 mb5 "><data class="p-rsvp" value="{{post.rsvpStatus}}"></data>Tracking</data> <a href="{{post.target}}" class="u-in-reply-to underline-no-hover overflow-w-bw" rel="external">{{post.title}}</a>!</p>
         </div>
+        {% include lifestream/webmentions.html %}
         {% include lifestream/published.html %}
     </div>
 </article>

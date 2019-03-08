@@ -3,6 +3,7 @@
         <h2 class="p-name f5 red ma0 pa0">{{ post.title}}</h2>
         {{post.content}}
         <p class="f7 mb5"><a href="{{post.target}}" title="bookmarked from: {{post.target}}" class="u-bookmark-of underline-no-hover overflow-w-bw" rel="external">{{post.target}}</a></p>
+        {% include lifestream/webmentions.html %}
         {% include lifestream/published.html %}
     </div>
 </article>
