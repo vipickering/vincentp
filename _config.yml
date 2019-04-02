@@ -8,7 +8,7 @@ highlighter: rouge
 
 # Outputting
 permalink : pretty
-timezone: NZ
+timezone: UTC
 
 # Site Variables
 title : Thoughts On Frontend Development
