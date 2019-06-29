@@ -133,3 +133,25 @@
     {% endfor %}
 <p class="h-cite p-comment reply-relation mb2 f6">{{repostsCount}} Reposts</p>
 {% endif %}
+
+{% if mentionCount > 0 and page.disableWebmention != true %}
+    <h3>Mentions</h3>
+    {% for yearLoop in webmentions %}
+        {% for monthLoop in yearLoop[1] %}
+            {% for dayLoop in monthLoop[1] %}
+                {% for mention in dayLoop[1] %}
+                    {% if thisUrl == mention[1].mention-of %}
+                       <div class="p-mention h-cite dib">
+                        <a href="{{mention[1].wm-source}}" class="u-url">
+                            <span class="p-author h-card">
+                                <img width="30" height="30" src="{{mention[1].author.photo }}" alt="{{mention[1].author.name }}" class="u-photo pa-fixed-1 br-circle b-light-grey ba bg-white">
+                            </span>
+                        </a>
+                    </div>
+                    {% endif %}
+                {% endfor %}
+            {% endfor %}
+        {% endfor %}
+    {% endfor %}
+<p class="h-cite p-comment reply-relation mb2 f6">{{mentionCount}} Mentions</p>
+{% endif %}
