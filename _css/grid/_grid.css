@@ -16,13 +16,6 @@ pre {
 }
 
 /*
-.layout-grid > figure,
-.layout-grid > .highlighter-rouge {
-    grid-column: full;
-}
-*/
-
-/*
 When embedding CodePens or snippets. Allow them to break out the grid, but not go full screen
 */
 .layout-grid > .cp_embed_wrapper {

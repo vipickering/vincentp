@@ -2,6 +2,10 @@
     overflow-y: auto;
 }
 
+.overflow-x-scroll {
+    overflow-x: auto;
+}
+
 .overflow-hidden {
     overflow: hidden;
 }
