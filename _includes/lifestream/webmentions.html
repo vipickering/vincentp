@@ -12,42 +12,47 @@
 {% assign bookmarkCount = 0 %}
 {% assign rsvpCount = 0 %}
 
-{% assign webmentions = site.data.webmention %}
+{% assign bookmarks = site.data.bookmarks %}
+{% assign likes = site.data.likes %}
+{% assign mentions = site.data.mentions %}
+{% assign replies = site.data.replies %}
+{% assign reposts = site.data.reposts %}
+{% assign rsvps = site.data.rsvps %}
 
-{% for yearLoop in webmentions %}
-    {% for monthLoop in yearLoop[1] %}
-        {% for dayLoop in monthLoop[1] %}
-            {% for mention in dayLoop[1] %}
-                {% case mention[1].wm-property %}
-                    {% when 'in-reply-to' %}
-                        {% if thisUrl == mention[1].in-reply-to %}
-                            {% assign replyCount = replyCount | plus: 1 %}
-                        {% endif %}
-                    {% when 'like-of' %}
-                        {% if thisUrl == mention[1].like-of %}
-                            {% assign likesCount = likesCount | plus: 1 %}
-                        {% endif %}
-                    {% when 'mention-of' %}
-                        {% if thisUrl == mention[1].mention-of %}
-                            {% assign mentionCount = mentionCount | plus: 1 %}
-                        {% endif %}
-                     {% when 'repost-of' %}
-                        {% if thisUrl == mention[1].repost-of %}
-                            {% assign repostsCount = repostsCount | plus: 1 %}
-                        {% endif %}
-                    {% when 'bookmark-of' %}
-                        {% if thisUrl == mention[1].bookmark-of %}
-                             {% assign bookmarkCount = bookmarkCount | plus: 1 %}
-                        {% endif %}
-                    {% when 'rsvp' %}
-                        {% if thisUrl == mention[1].rsvp %}
-                             {% assign rsvpCount = rsvpCount | plus: 1 %}
-                        {% endif %}
-                    {% else %}
-                {% endcase %}
-            {% endfor %}
-        {% endfor %}
-    {% endfor %}
+{% for bookmark in bookmarks %}
+    {% if thisUrl == bookmark[1].bookmark-of %}
+        {% assign bookmarkCount = bookmarkCount | plus: 1 %}
+    {% endif %}
+{% endfor %}
+
+{% for like in likes %}
+    {% if thisUrl == like[1].like-of %}
+        {% assign likesCount = likesCount | plus: 1 %}
+    {% endif %}
+{% endfor %}
+
+{% for mention in mentions %}
+    {% if thisUrl == mention[1].mention-of %}
+        {% assign mentionCount = mentionCount | plus: 1 %}
+    {% endif %}
+{% endfor %}
+
+{% for reply in replies %}
+    {% if thisUrl == reply[1].in-reply-to %}
+        {% assign replyCount = replyCount | plus: 1 %}
+    {% endif %}
+{% endfor %}
+
+{% for repost in reposts %}
+    {% if thisUrl == repost[1].repost-of %}
+        {% assign repostsCount = repostsCount | plus: 1 %}
+    {% endif %}
+{% endfor %}
+
+{% for rsvpMention in rsvps %}
+    {% if thisUrl == rsvpMention[1].rsvp%}
+        {% assign rsvpCount = rsvpCount | plus: 1 %}
+    {% endif %}
 {% endfor %}
 
 {% if likesCount > 0 %}
