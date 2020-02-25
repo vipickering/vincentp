@@ -10,8 +10,6 @@ This blog runs on [Eleventy](https://www.11ty.dev/).
 
 [Node](https://nodejs.org) packages are used with [PostCSS](https://postcss.org) to compile the CSS.
 
-It uses [Bundler](https://bundler.io) to package the Gems.
-
 Deployment and hosting is via [Netlify](https://www.netlify.com).
 
 [Mastr Cntrl](https://github.com/vipickering/mastr-cntrl) supplies webmentions and other [indieweb](https://indieweb.org) content such as Micropub, syndication and a media endpoint.
@@ -20,7 +18,7 @@ Deployment and hosting is via [Netlify](https://www.netlify.com).
 
 Clone the directory and install the Node packages:
 
-```
+```bash
 npm install
 ```
 
@@ -28,13 +26,13 @@ npm install
 
 To run in the development environment run the command:
 
-```
+```bash
 npm run dev
 ```
 
 If you need to modify the CSS in any way, you can run the command:
 
-```
+```bash
 npm run build:css
 ```
 
@@ -57,6 +55,6 @@ The site is served by Netlify. Deployment happens automatically when the master 
 
 Backfeed content is provided by [ownyourswarm](https://ownyourswarm.p3k.io/) and published to the site via the Micropub API in Mastr Cntrl
 
-
 ## License
+
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fvipickering%2Fvincentp.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fvipickering%2Fvincentp?ref=badge_large)
