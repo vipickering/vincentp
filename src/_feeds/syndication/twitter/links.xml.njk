@@ -1,0 +1,33 @@
+---json
+{
+  "permalink": "/feeds/syndication/twitter/links.xml",
+  "eleventyExcludeFromCollections": true,
+  "metadata": {
+    "title": "Vincentp links",
+    "description": "Syndication feed",
+    "url": "https://vincentp.me/",
+    "feedUrl": "https://vincentp.me/feeds/syndication/twitter/links.xml"
+  }
+}
+---
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+    <title>{{metadata.title}}</title>
+    <description>{{metadata.description}}</description>
+    <link>{{ metadata.url }}</link>
+    <atom:link href="{{ metadata.feedUrl }}" rel="self" type="application/rss+xml"/>
+    {% for post in collections.links | reverse -%}
+    {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
+        {%- if post.data.twitter ==  true -%}
+      <item>
+        <title>{{ post.data.title }}</title>
+        <link>{{ absolutePostUrl }}</link>
+        <description>{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) | safe }}</description>
+        <pubDate>{{ post.date | dateToRFC }}</pubDate>
+        <guid isPermaLink="true">{{ absolutePostUrl }}</guid>
+      </item>
+        {%- endif -%}
+    {%- endfor %}
+  </channel>
+</rss>

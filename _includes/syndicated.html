@@ -1,9 +1,0 @@
-{% if page.twitter ==  true  or page.indienews == true %}<h3 class="grey fw7 f7">Content syndication</h3>{% endif %}
-
-{% if page.twitter ==  true %}
-<a href="{{site.data.author.twitter.url}}" class="u-syndication rm-underline white dib w-30-fixed mr--fixed-4 hover-red black dib" title="Syndicated to Twitter"><span class="offscreen">Twitter</span><svg viewBox="0 0 30 30" xmlns="https://www.w3.org/2000/svg" class="w-100 h-100"><path fill="currentColor" d="M9.424 27.394c11.32 0 17.515-9.388 17.515-17.515 0-.264 0-.528-.012-.793A12.541 12.541 0 0 0 30 5.893a12.476 12.476 0 0 1-3.541.973 6.193 6.193 0 0 0 2.713-3.41 12.245 12.245 0 0 1-3.914 1.489A6.144 6.144 0 0 0 20.768 3a6.163 6.163 0 0 0-6.158 6.158c0 .48.06.949.156 1.405-5.114-.252-9.652-2.713-12.69-6.435a6.157 6.157 0 0 0-.828 3.098 6.172 6.172 0 0 0 2.738 5.126 6.227 6.227 0 0 1-2.786-.769v.084a6.169 6.169 0 0 0 4.934 6.039 6.002 6.002 0 0 1-1.62.216c-.396 0-.78-.036-1.153-.108a6.156 6.156 0 0 0 5.75 4.274 12.347 12.347 0 0 1-7.646 2.64c-.493 0-.985-.023-1.465-.083a17.51 17.51 0 0 0 9.424 2.749"/></svg></a>
-{% endif %}
-
-{% if page.indienews == true %}
-<a href="https://news.indieweb.org/en" class="u-syndication fw7 f5 dib br-circle pa3 bg-black white  hover-red rm-underline w-30-fixed h-30-fixed tc mr--fixed-4 lh-one-eight vh-top" title="Syndicated to indienews">IN</a>
-{% endif %}

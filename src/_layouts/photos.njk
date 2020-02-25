@@ -1,0 +1,28 @@
+{% extends "src/_layouts/base.njk" %}
+{% block pageTitle %}{% endblock %}
+{% block main %}
+      <article class="h-entry">
+            <div class="mb5 mt5">
+                 <h1 class="ma0 pa0 f3 f1-ns lh-heading dn">Note for {{ date | dateToISO}} at {{ date | date('hh:mma') }}</h1>
+                {% include "structure/author.njk" %}
+                {% include "structure/audience.njk" %}
+            </div>
+
+            <div class="e-content" data-type="blog">
+                <div class="ma0 mb7 pa0">
+                      {% if photo1_url %}<img src="/{{photo1_url}}" class="u-photo w-100" alt="{{photo1_alt}}"/>{% endif %}
+                    {% if photo2_url %}<img src="/{{photo2_url}}" class="u-photo w-100" alt="{{photo2_alt}}"/>{% endif %}
+                    {% if photo3_url %}<img src="/{{photo3_url}}" class="u-photo w-100" alt="{{photo3_alt}}"/>{% endif %}
+                    {% if photo4_url %}<img src="/{{photo4_url}}" class="u-photo w-100" alt="{{photo4_alt}}"/>{% endif %}
+                    {% if photo5_url %}<img src="/{{photo5_url}}" class="u-photo w-100" alt="{{photo5_alt}}"/>{% endif %}
+                    <p class="mt5 mb5 tl">{{ content | safe }}</p>
+                </div>
+            </div>
+
+            {% include "structure/tagging.njk" %}
+            {% include "social/syndicated.njk" %}
+            <div class="pb5">
+                {% include "social/webmentions.njk" %}
+            </div>
+        </article>
+{% endblock %}

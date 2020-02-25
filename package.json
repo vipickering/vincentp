@@ -8,13 +8,12 @@
   "license": "ISC",
   "private": true,
   "scripts": {
-    "start": "npm run build:css &&  exec jekyll serve JEKYLL_ENV=production",
-    "profile:liquid": "bundle exec jekyll build --profile",
-    "build:css": "postcss _css/application.css --config postcss.config.js --output css/application.min.css",
-    "watch:css": "postcss _css/application.css -w --config postcss.config.js --output css/application.min.css",
-    "dev": "npm run build:css && bundle exec jekyll serve --drafts --future --config '_config.yml,_config_dev.yml'",
-    "debug": "bundle exec jekyll serve --verbose --trace",
-    "production": "bundle exec jekyll serve JEKYLL_ENV=production"
+    "clean": "rimraf dist",
+    "debug": "DEBUG=Eleventy* npx eleventy --serve",
+    "build:css": "postcss post-process/css/application.css --config configs/postcss.config.js --output src/css/application.min.css",
+    "dev": "rimraf dist && postcss post-process/css/application.css --config configs/postcss.config.js --output src/css/application.min.css && npx eleventy --serve",
+    "start": "npx eleventy --serve",
+    "production": "npx eleventy --serve"
   },
   "repository": {
     "type": "git",
@@ -27,14 +26,31 @@
     "css-mqpacker": "^7.0.0",
     "cssnano": "^4.1.10",
     "immutable-css": "^1.1.2",
-    "postcss": "^7.0.18",
-    "postcss-cli": "^6.1.3",
+    "postcss": "^7.0.26",
+    "postcss-cli": "^7.1.0",
     "postcss-copy": "^7.1.0",
     "postcss-custom-media": "^7.0.8",
     "postcss-import": "^12.0.1",
     "postcss-preset-env": "^6.7.0",
     "postcss-reporter": "^6.0.1",
     "postcss-syntax": "^0.36.2",
-    "stylelint": "^11.1.1"
-  }
+    "stylelint": "^13.2.0"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^0.10.0",
+    "@11ty/eleventy-plugin-rss": "^1.0.7",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
+    "markdown-it": "^10.0.0",
+    "markdown-it-attrs": "^3.0.2",
+    "markdown-it-emoji": "^1.4.0",
+    "markdown-it-footnote": "^3.0.2",
+    "moment-timezone": "^0.5.27",
+    "rimraf": "^3.0.2"
+  },
+  "browserslist": [
+    "last 1 Chrome versions",
+    "last 1 Firefox versions",
+    "last 1 Safari versions",
+    "last 1 Edge versions"
+  ]
 }

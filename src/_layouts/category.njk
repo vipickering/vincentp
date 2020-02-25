@@ -1,0 +1,20 @@
+{% extends "src/_layouts/base-category.njk" %}
+
+{% block main %}
+ <main class="h-feed" id="content">
+    <div class="dg layout-grid center">
+        {% include "structure/page-title.njk" %}
+        {% if type !== 'Articles' %}
+            {% if type !== 'Notes' %}
+                {% include "lifestream/filters.njk" %}
+            {% endif %}
+        {% endif %}
+
+        {% for post in posts  %}
+            {% include cardname %}
+        {% endfor %}
+
+        {% include "structure/pagination.njk" %}
+    </div>
+</main>
+{% endblock %}

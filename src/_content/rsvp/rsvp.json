@@ -1,0 +1,6 @@
+{
+"layout": "rsvp",
+"category": "Rsvp",
+"twitterCard": false,
+"permalink": "/rsvp/{{date | date: '%Y/%m/%d/%H-%M'}}/index.html"
+}

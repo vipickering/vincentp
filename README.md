@@ -6,7 +6,7 @@
 
 ## Requirements
 
-This blog runs on [Jekyll](https://jekyllrb.com).
+This blog runs on [Eleventy](https://www.11ty.dev/).
 
 [Node](https://nodejs.org) packages are used with [PostCSS](https://postcss.org) to compile the CSS.
 
@@ -16,20 +16,12 @@ Deployment and hosting is via [Netlify](https://www.netlify.com).
 
 [Mastr Cntrl](https://github.com/vipickering/mastr-cntrl) supplies webmentions and other [indieweb](https://indieweb.org) content such as Micropub, syndication and a media endpoint.
 
-**Ruby version 2.4.3 is a minimum requirement.**
-
 ## Setup
 
 Clone the directory and install the Node packages:
 
 ```
 npm install
-```
-
-Install the gems you need:
-
-```
-bundle install
 ```
 
 ## Running
@@ -41,14 +33,6 @@ npm run dev
 ```
 
 If you need to modify the CSS in any way, you can run the command:
-
-```
-npm run watch:css
-```
-
-To watch the CSS for any changes and recompile automatically.
-
-If you just want to (re)build the CSS run:
 
 ```
 npm run build:css
@@ -64,27 +48,14 @@ npm run build:css
 
 The site is served by Netlify. Deployment happens automatically when the master branch is pushed to GitHub.
 
-If you want to manually see the live compiled site with HTTPS URLs run:
-
-```
-jekyll build
-```
-
-## Syndication
-
-Content is syndicated to Medium and pushed to a draft via Zapier and a [custom Javascript](https://gist.github.com/reganstarr/153968d6444b9281a9bc291277984be1).
-
-
 ## Webmentions
 
 - [Brid.gy](https://brid.gy/)
 - [Webmention.io](https://webmention.io/) - Webmentions are managed by Webmention.io and sent to Mastr Cntrl; Which creates a unique file for each Webmention in the data folder.
 
-- Webmentions can be disabled on a per page basis by adding ```disableWebmention: true``` in the frontmatter
-
 ## Publish Elsewhere, Syndicate (to your) Own Site(PESOS) Content
 
-Backfeed content is provided by [ownyourswarm](https://ownyourswarm.p3k.io/) and [ownyourgram](https://ownyourgram.com/) and published to the site via the Micropub API in Mastr Cntrl
+Backfeed content is provided by [ownyourswarm](https://ownyourswarm.p3k.io/) and published to the site via the Micropub API in Mastr Cntrl
 
 
 ## License

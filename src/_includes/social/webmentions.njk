@@ -1,0 +1,88 @@
+{# setup the webmenton urls to match as the live url #}
+{% set urlMatch = site.url + page.url %}
+
+{% set likesCount = [0] %}
+{% set repliesCount = [0] %}
+{% set bookmarksCount = [0] %}
+{% set repostsCount = [0] %}
+{% set mentionsCount = [0] %}
+
+
+{% for key, like  in likes %}
+  {% if urlMatch === like['like-of'] %}
+    {% set likesCount = likesCount + 1 %}
+    {% if  likesCount.length == 2 %}<h3>Likes</h3>{% endif %}
+     <div class="p-like h-cite dib">
+        <a href="{{like.url}}" class="u-url">
+            <span class="p-author h-card">
+                <img width="30" height="30" src="{{like.author.photo }}" alt="{{like.author.name }}" class="u-photo pa-fixed-1 br-circle b-light-grey ba bg-white">
+            </span>
+        </a>
+    </div>
+   {% endif %}
+{% endfor %}
+
+{% for key, reply  in replies %}
+    {% if urlMatch === reply['in-reply-to'] %}
+    {% set repliesCount = repliesCount + 1 %}
+    {% if  repliesCount.length == 2 %}<h3>Replies</h3>{% endif %}
+        <div class="p-comment h-cite mb5">
+            <h3 class="p-author h-card dg ma0 pa0 webmention-mini-two-col-grid"><img width="30" height="30" src="{{reply.author.photo }}" alt="{{reply.author.name }}" class="u-photo pa-fixed-1 br-circle avatar-stack b-light-grey ba bg-white"> <a href="{{reply.author.url}}" class="p-name u-url f5 red ma0 pa0 rm-underline" rel="external">{{reply.author.name}}</a></h3>
+            <div class="e-content p-name">{{reply.content.text}}</div>
+           <time class="dt-published db f7" datetime="{{ date | dateToISO}}"><a href="{{reply.url}}" class="grey  rm-underline " rel="external">{{ date | date('Do MMM YYYY') }} <span>at</span> {{ date | date('hh:mma') }}</a></time>
+        </div>
+    {% endif %}
+{% endfor %}
+
+{% for key, bookmark  in bookmarks %}
+    {% if urlMatch === bookmark['bookmark-of'] %}
+      {% set bookmarksCount = bookmarksCount + 1 %}
+      {% if  bookmarksCount.length == 2 %}<h3>Bookmarks</h3>{% endif %}
+         <div class="p-bookmark h-cite dib">
+            <a href="{{bookmark.url}}" class="u-url">
+                <span class="p-author h-card">
+                    <img width="30" height="30" src="{{bookmark.author.photo }}" alt="{{bookmark.author.name }}" class="u-photo pa-fixed-1 br-circle b-light-grey ba bg-white">
+                </span>
+            </a>
+        </div>
+        <p class="h-cite p-comment reply-relation mb2 f6">{{loop.count}} Bookmarks</p>
+    {% endif %}
+{% endfor %}
+
+{% for key, repost  in reposts %}
+    {% if urlMatch === repost['repost-of'] %}
+        {% set bookmarksCount = bookmarksCount + 1 %}
+        {% if  bookmarksCount.length == 2 %}<h3>Reposts</h3>{% endif %}
+        <div class="p-repost h-cite dib">
+            <a href="{{repost.url}}" class="u-url">
+                <span class="p-author h-card">
+                    <img width="30" height="30" src="{{repost.author.photo }}" alt="{{repost.author.name }}" class="u-photo pa-fixed-1 br-circle b-light-grey ba bg-white">
+                </span>
+            </a>
+        </div>
+        <p class="h-cite p-comment reply-relation mb2 f6">{{loop.count}} Reposts</p>
+    {% endif %}
+{% endfor %}
+
+{% for key, mention  in mentions %}
+    {% if urlMatch === mention['mention-of'] %}
+        {% set mentionsCount = mentionsCount + 1 %}
+        {% if  mentionsCount.length == 2 %}<h3>Mentions</h3>{% endif %}
+       <div class="p-mention h-cite dib">
+            <a href="{{mention['wm-source']}}" class="u-url">
+             <span class="p-author h-card">
+                  <img width="30" height="30" src="{{mention.author.photo }}" alt="{{mention.author.name }}" class="u-photo pa-fixed-1 br-circle b-light-grey ba bg-white">
+              </span>
+            </a>
+    </div>
+    <p class="h-cite p-comment reply-relation mb2 f6">{{loop.count}} Mentions</p>
+    {% endif %}
+{% endfor %}
+
+{# Currently not implemented #}
+{#<h3>RSVPs</h3>
+ {% for key, rsvp  in rsvps %}
+    {% if urlMatch === rsvp['rsvp-of'] %}
+        {% set rsvpExist = true %}
+    {% endif %}
+{% endfor %} #}

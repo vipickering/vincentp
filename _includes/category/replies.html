@@ -1,9 +1,0 @@
-<article class="h-entry ba b-pale-grey br-5 pa5 mb5">
-    <div class="e-content">
-        <h2 class="f5 ma0 pa0 red">Replying</h2>
-        <div class="p-summary mb5">{{ post.content}}</div>
-        <p class="f7 mb5">In response to: <a class="u-in-reply-to" href="{{post.target}}" rel="external"  title="Vincent replied to {{post.target}}">{{post.target}}</a></p>
-     </div>
-    {% include lifestream/webmentions.html %}
-    {% include lifestream/published.html %}
-</article>

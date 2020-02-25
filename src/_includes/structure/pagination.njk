@@ -1,0 +1,8 @@
+{%- set totalPages = pagination.hrefs | length -%}
+{%- set currentPage = pagination.pageNumber + 1 -%}
+{%- if totalPages > 1 -%}
+<div class="w-120-fixed tc center mt5 mb5">
+    {% if pagination.href.next -%}<a href="{{ pagination.href.next }}" class="f5 red" rel="prev">Previous</a>{%- endif %}
+    {% if pagination.href.previous -%}<a href="{{ pagination.href.previous }}" class="f5 red" rel="next">Next</a>{%- endif %}
+</div>
+{% endif %}

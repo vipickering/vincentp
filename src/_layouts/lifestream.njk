@@ -1,0 +1,31 @@
+{% extends "src/_layouts/base-category.njk" %}
+{% block main %}
+<main class="h-feed" id="content">
+    <div class="e-content dg layout-grid center">
+        {% include "structure/page-title.njk" %}
+        {% include "lifestream/filters.njk" %}
+        
+        {% for post in posts %}
+            {% if post.data.category == 'Article' %}
+                {% include "cards/article.njk" %}
+            {% elif post.data.category == 'Notes' %}
+                {% include "cards/note.njk" %}
+            {% elif post.data.category == 'Photos' %}
+                {% include "cards/photo.njk" %}
+            {% elif post.data.category == 'Checkins' %}
+                {% include "cards/checkin.njk" %}
+            {% elif post.data.category == 'Links' %}
+                {% include "cards/link.njk" %}
+            {% elif post.data.category == 'Favourites' %}
+                {% include "cards/favourite.njk" %}
+            {% elif post.data.category == 'Replies' %}
+                {% include "cards/reply.njk" %}
+            {% elif post.data.category == 'Rsvp' %}
+                {% include "cards/rsvp.njk" %}
+            {% endif %}
+        {% endfor %}
+ 
+        {% include "structure/pagination.njk" %}
+    </div>
+</main>
+{% endblock %}

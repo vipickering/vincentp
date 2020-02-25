@@ -1,0 +1,7 @@
+{
+  "layout" : "weeknotes",
+  "category" : "Weeknotes",
+  "twitterCard" : false,
+  "twitter" : true,
+  "permalink": "/weeknotes/{{date | date: '%Y/%m/%d/%H-%M'}}/index.html"
+}

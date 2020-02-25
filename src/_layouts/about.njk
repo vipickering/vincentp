@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{{ title }}</title>
+    {% include "structure/meta.njk" %}
+    {% block meta %}{% endblock %}
+    <!-- CSS -->
+    <link  rel="stylesheet" href="/css/application.min.css" />
+
+    <title>{{ title }}</title>
+    <!-- Great to see you here! -->
+    <!-- Feel free to poke around and see what's going on, It's a great way to learn -->
+    <!-- Any questions, feel free to contact me: hello at vincentp dot me -->
+</head>
+
+<body class="ma0 pa0">
+    <div class="mb5">
+        {% include "structure/navigation.njk" %}
+        <main id="content" class="h-entry">
+            <article>
+                <div class="dg layout-grid center" data-type="blog">
+                    {% include "structure/page-title.njk" %}
+                    <div class="e-content">
+                        {{content | safe}}
+                    </div>
+                </div>
+            </article>
+        </main>
+    </div>
+    {% include "structure/footer.njk" %}
+</body>
+</html>

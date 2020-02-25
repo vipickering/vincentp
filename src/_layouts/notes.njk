@@ -1,0 +1,33 @@
+{% extends "src/_layouts/base.njk" %}
+{% block pageTitle %}{% endblock %}
+{% block main %}
+      <main id="content">
+        <article class="h-entry ba b-pale-grey br-5 pa5 mb5">
+            <div class="mb5">
+                <h1 class="ma0 pa0 f3 f1-ns lh-heading dn">Note for {{ date | date('Do MMM YYYY') }} at {{ post.date | date('HH:mm') }}</h1>
+                {% include "structure/author.njk" %}
+                {% include "structure/audience.njk" %}
+            </div>
+
+            <div class="e-content"-type="blog">
+                {% if photo1_url %}<img src="/{{photo1_url}}" class="u-photo w-100" alt="{{photo1_alt}}"/>{% endif %}
+                {% if photo2_url %}<img src="/{{photo2_url}}" class="u-photo w-100" alt="{{photo2_alt}}"/>{% endif %}
+                {% if photo3_url %}<img src="/{{photo3_url}}" class="u-photo w-100" alt="{{photo3_alt}}"/>{% endif %}
+                {% if photo4_url %}<img src="/{{photo4_url}}" class="u-photo w-100" alt="{{photo4_alt}}"/>{% endif %}
+                {% if photo5_url %}<img src="/{{photo5_url}}" class="u-photo w-100" alt="{{photo5_alt}}"/>{% endif %}
+                <span class="p-name">{{ content | safe }}</span>
+
+                {% if modified %}
+                    <time class="dt-published red f7"  datetime="{{ post.date | dateToISO}}" title="Page Modified" >{{ modified | date('MMM Do YYYY') }} at <span class="dt-updated f7">{{ modified | date('HH:mm') }}</span></time>
+                    <p class="f7 dt-updated">{{ modifiedReason }}.</p>
+                {% endif %}
+            </div>
+
+            {% include "structure/tagging.njk" %}
+            {% include "social/syndicated.njk" %}
+            <div class="pb5">
+                {% include "social/webmentions.njk" %}
+            </div>
+        </article>
+    </main>
+{% endblock %}

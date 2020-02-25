@@ -1,0 +1,55 @@
+.layout-grid {
+    grid-template-columns:
+        [full-start] minmax(1em, 1fr)
+        [main-start] minmax(0, var(--column-width))
+        [main-end] minmax(1em, 1fr)
+        [full-end];
+}
+
+.layout-grid > *,
+pre {
+    grid-column: main;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+/*
+When embedding CodePens or snippets. Allow them to break out the grid, but not go full screen
+*/
+.layout-grid > .cp_embed_wrapper {
+    grid-column: full;
+    width: 100%;
+    margin: auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+.lifestream-grid {
+    grid-template-columns: 3em minmax(1em, 1fr);
+}
+
+.two-col-grid {
+    grid-template-columns: 110px 1fr;
+}
+
+.mini-two-col-grid {
+    grid-template-columns: 50px 1fr;
+}
+
+.webmention-mini-two-col-grid {
+    grid-template-columns: 40px 1fr;
+}
+
+.recommended-grid {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 1rem;
+}
+
+@media (min-width: 600px) {
+    .nav-grid {
+        grid-gap: 1rem;
+        grid-template-columns: minmax(300px, 1fr) 240px;
+    }
+}

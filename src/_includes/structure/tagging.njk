@@ -1,0 +1,13 @@
+{% if tags %}
+<div class="pb5 b-star-before">
+    <h3 class="f5 red ma0 mb7">Tags</h3>
+    <div class="fw3 f6 pa0 ma0">
+        {% for tag in tags %}
+            <a href="{% if tag === 'indienews' %}https://news.indieweb.org/en{% else %}/tags/{{tag}}{% endif %}" title="read more tagged with {{tag}}" class="u-category p-category bg-red white pa7 br-2 rm-underline hover-button f7 no-wrap mb7 dib {% if loop.last %}mr7{% endif %}" rel="tag">{{tag | replace("-", " ")}}</a>
+        {% endfor %}
+    </div>
+</div>
+{% endif %}
+
+
+

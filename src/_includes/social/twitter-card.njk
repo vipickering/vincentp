@@ -1,0 +1,17 @@
+{% if twitterCard %}
+    {% set cardSize = "summary_large_image" %}
+    {% set cardImageUrl = site.url ~"/images/blog/" ~  date  | date('YYYY') ~"-" ~ date  | date('MM') ~"-" ~ date  | date('DD') ~"/social-card.jpg" %}
+{% else %}
+    {% set cardSize = "summary" %}
+    {% set cardImageUrl = site.url ~ "/images/profile/vincentp.jpg" %}
+{% endif %}
+
+<!-- Twitter Card -->
+<meta name="twitter:site" content="@{{ site.author.twitter.username }}" />
+<meta name="twitter:title" property="og:title" content="{{ page.title }}" />
+<meta name="twitter:creator" content="@{{ site.author.twitter.username }}" />
+<meta name="twitter:url" property="og:url" content="{{site.url}}{{ page.url }}" />
+<meta name="twitter:description" property="og:description" content="{{ page.summary}}" />
+<meta name="twitter:card" content="{{cardSize}}" />
+<meta name="twitter:image" property="og:image" content="{{cardImageUrl}}" />
+<meta name="twitter:image:alt" content="{{page.summary}}" />

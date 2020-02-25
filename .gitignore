@@ -1,9 +1,6 @@
-.jekyll-metadata
 .DS_Store
-_site
+dist
 .sublime-project
 .sublime-workspace
 npm-debug.log
-vincentp.sublime-project
-vincentp.sublime-workspace
 node_modules

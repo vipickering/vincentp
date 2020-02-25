@@ -1,0 +1,9 @@
+<article class="h-entry ba b-pale-grey br-5 pa5 mb5">
+    <div class="e-content">
+        <h2 class="f5 ma0 pa0 red">{{post.data.title}}</h2>
+        <div class="e-content">
+            <p class="p-name f5 ma0 pa0 mb5 "><data class="p-rsvp" value="{{post.data.rsvpStatus}}">Tracking</data> <a href="{{post.data.target}}" class="u-in-reply-to underline-no-hover overflow-w-bw" rel="external">{{post.data.title}}</a>!</p>
+        </div>
+        {% include "lifestream/published.njk" %}
+    </div>
+</article>

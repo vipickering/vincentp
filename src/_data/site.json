@@ -1,0 +1,31 @@
+{
+    "title": "A blog about My life, UX, Service Design, HTML, CSS and Javascript by Vincent Pickering",
+    "description": "Service design, UI, UX, HTML, CSS and Cybernetics",
+    "url": "https://vincentp.me",
+    "author": {
+        "email" :"hello@vincentp.me",
+        "job" : "Service Designer & UI/UX Consultant",
+        "name" : "Vincent Pickering",
+        "profilePic": "images/profile/vincentp.jpg",
+        "github" : {
+            "url" : "https://www.github.com/vipickering",
+            "repo" : "https://github.com/vipickering/vincentp"
+        },
+        "pinboard" : {
+            "url" : "https://pinboard.in/u:monkeymajiks/profile/public/"
+        },
+        "twitter": {
+            "url" : "https://twitter.com/vincentlistens",
+            "username" : "vincentlistens"
+        },
+        "arena" : {
+            "url" : "https://www.are.na/vincent-pickering/channels"
+        },
+        "codepen" : {
+            "url" : "https://codepen.io/vipickering/"
+        },
+        "mapbox" : {
+            "key" : "pk.eyJ1IjoidnBpY2tlcmluZyIsImEiOiJjamo1ZWNpbmwwYW1wM3FxaHZ5cHR6N3g3In0.hhrPnSY0r_9fu5QKlhqRHw"
+        }
+    }
+}

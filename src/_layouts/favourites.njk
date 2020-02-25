@@ -1,0 +1,25 @@
+{% extends "src/_layouts/base.njk" %}
+{% block pageTitle %}{% endblock %}
+{% block main %}
+      <article class="h-entry ba b-pale-grey br-5 pa5">
+        <div class="e-content">
+            <div class="mb5">
+                <h1 class="p-name dn">{{ title }}</h1>
+                {% include "structure/author.njk" %}
+                {% include "structure/audience.njk" %}
+            </div>
+            <p class="ma0 pa0"><a class="u-like-of p-content p-name" href="{{target}}" rel="external"  title="Vincent Favourited {{target}}">{{target}}</a></p>
+
+            {% if modified %}
+               <time class="dt-published red f7"  datetime="{{ date | dateToISO}}" title="Page Modified" >{{ modified | date('MMM Do YYYY') }} at <span class="dt-updated f7">{{ modified | date('hh:mma') }}</span></time>
+                <p class="f7"> {{ modifiedReason }}.</p>
+            {% endif %}
+        </div>
+
+        {% include "structure/tagging.njk" %}
+
+            <div class="pb5">
+                {% include "social/webmentions.njk" %}
+            </div>
+    </article>
+{% endblock %}
