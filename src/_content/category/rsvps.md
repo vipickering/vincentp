@@ -1,5 +1,6 @@
 ---
 layout : "category"
+category : "RSVPS"
 permalink : "/rsvp{% if pagination.pageNumber > 0 %}/{{ pagination.pageNumber + 1}}{% endif %}/"
 title : "Events"
 cardname: "cards/rsvp.njk"

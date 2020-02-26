@@ -1,5 +1,6 @@
 ---
 layout : "category"
+category : "Photos"
 permalink : "/photos{% if pagination.pageNumber > 0 %}/{{ pagination.pageNumber + 1}}{% endif %}/"
 title : "Photos"
 cardname: "cards/photo.njk"

@@ -1,5 +1,6 @@
 ---
 layout : "category"
+category : "Weeknotes"
 permalink : "/weeknotes{% if pagination.pageNumber > 0 %}/{{ pagination.pageNumber + 1}}{% endif %}/"
 title : "Weeknotes"
 cardname: "cards/article.njk"

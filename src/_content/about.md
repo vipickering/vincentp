@@ -1,6 +1,7 @@
 ---
 layout : "about"
 title : "About"
+category: "About"
 permalink: "/about/"
 meta : "About Vincent Pickering Service Designer"
 summary : "About Vincent Pickering Service Designer"

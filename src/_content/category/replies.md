@@ -1,5 +1,6 @@
 ---
 layout : "category"
+category : "Replies"
 permalink : "/replies{% if pagination.pageNumber > 0 %}/{{ pagination.pageNumber + 1}}{% endif %}/"
 title : "Replies"
 cardname: "cards/reply.njk"

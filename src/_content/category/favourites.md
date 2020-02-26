@@ -1,5 +1,6 @@
 ---
 layout : "category"
+category : "Favourites"
 permalink : "/favourites{% if pagination.pageNumber > 0 %}/{{ pagination.pageNumber + 1}}{% endif %}/"
 title : "Favourites"
 cardname: "cards/favourite.njk"
