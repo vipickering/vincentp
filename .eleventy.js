@@ -1,77 +1,26 @@
-const moment = require("moment");
-const fs = require("fs");
+const fs = require("fs"); // Used by BrowserSync
 
 module.exports = function(eleventyConfig) {
-   // Configure Markdown
-    let markdownIt = require("markdown-it");
-    let markdownItFootnote = require("markdown-it-footnote");
-    let markdownItEmoji = require("markdown-it-emoji");
-    let markdownItAttrs = require('markdown-it-attrs');
-    let options = {
-        html: true,
-        linkify: true,
-        typographer: true
-    };
-    let markdownLib = markdownIt(options)
-        .use(markdownItEmoji)
-        .use(markdownItFootnote)
-        .use(markdownItAttrs, { leftDelimiter: '{', rightDelimiter: '}', allowedAttributes: ['id', 'class', 'hcard'] });
-
-    markdownLib.renderer.rules.footnote_block_open = () => (
-    '<div class="f-mono black f7 ttu" data-type="notes"><span>Notes</span></div>\n' +
-    '<section class="footnotes">\n' +
-    '<ol class="footnotes-list">\n'
-    );
-
     // Libraries
-    eleventyConfig.setLibrary("md", markdownLib);
+    eleventyConfig.setLibrary("md", require('./lib/parsers/markdown/markdown.js'));
 
-    // Configure Plugins
+    // 11ty Plugins
     eleventyConfig.addPlugin(require('@11ty/eleventy-plugin-syntaxhighlight'));
     eleventyConfig.addPlugin(require('@11ty/eleventy-plugin-rss'));
 
-    //Collections
-    eleventyConfig.addCollection("articles", function(collection) {
-        return collection.getFilteredByGlob(["src/_content/articles/*.md", "src/_content/articles/legacy/*.md"]);
-    });
+    // Collections
+    eleventyConfig.addCollection("articles", require('./lib/collections/articles.js'));
+    eleventyConfig.addCollection("checkins", require('./lib/collections/checkins.js'));
+    eleventyConfig.addCollection("favourites", require('./lib/collections/favourites.js'));
+    eleventyConfig.addCollection("links", require('./lib/collections/links.js'));
+    eleventyConfig.addCollection("notes", require('./lib/collections/notes.js'));
+    eleventyConfig.addCollection("photos", require('./lib/collections/photos.js'));
+    eleventyConfig.addCollection("replies", require('./lib/collections/replies.js'));
+    eleventyConfig.addCollection("rsvps", require('./lib/collections/rsvps.js'));
+    eleventyConfig.addCollection("weeknotes", require('./lib/collections/weeknotes.js'));
+    eleventyConfig.addCollection("lifestream", require('./lib/collections/lifestream.js'));
 
-    eleventyConfig.addCollection("checkins", function(collection) {
-        return collection.getFilteredByGlob(["src/_content/checkins/*.md"]);
-    });
-
-    eleventyConfig.addCollection("favourites", function(collection) {
-        return collection.getFilteredByGlob(["src/_content/favourites/*.md"]);
-    });
-
-    eleventyConfig.addCollection("links", function(collection) {
-        return collection.getFilteredByGlob(["src/_content/links/*.md"]);
-    });
-
-    eleventyConfig.addCollection("notes", function(collection) {
-        return collection.getFilteredByGlob(["src/_content/notes/*.md"]);
-    });
-
-    eleventyConfig.addCollection("photos", function(collection) {
-        return collection.getFilteredByGlob(["src/_content/photos/*.md"]);
-    });
-
-    eleventyConfig.addCollection("replies", function(collection) {
-        return collection.getFilteredByGlob(["src/_content/replies/*.md"]);
-    });
-
-    eleventyConfig.addCollection("rsvps", function(collection) {
-        return collection.getFilteredByGlob(["src/_content/rsvp/*.md"]);
-    });
-
-    eleventyConfig.addCollection("weeknotes", function(collection) {
-        return collection.getFilteredByGlob(["src/_content/weeknotes/*.md"]);
-    });
-
-    eleventyConfig.addCollection("lifestream", function(collection) {
-        return collection.getFilteredByGlob(["src/_content/articles/*.md", "src/_content/articles/legacy/*.md", "src / _content / rsvp/*.md", "src/_content/checkins/*.md", "src/_content/favourites/*.md", "src/_content/links/*.md","src/_content/notes/*.md", "src/_content/photos/*.md", "src/_content/replies/*.md", "src/_content/weeknotes/*.md"]);
-    });
-
-    //Copy in to site
+    // Copy to site
     eleventyConfig.addPassthroughCopy('src/css');
     eleventyConfig.addPassthroughCopy('src/images');
     eleventyConfig.addPassthroughCopy('src/humans.txt');
@@ -80,37 +29,17 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy('src/browserconfig.xml');
     eleventyConfig.addPassthroughCopy('src/manifest.webmanifest');
 
+    // Nunjucks Filters
+    eleventyConfig.addNunjucksFilter("date", require('./lib/parsers/nunjucks/filters/date.js')); // Date formatter for pretty dates
+    eleventyConfig.addNunjucksFilter("dateToISO", require('./lib/parsers/nunjucks/filters/date-to-iso.js')); // Convert dates to  ISO format for html Dates
+    eleventyConfig.addNunjucksFilter("dateToRFC", require('./lib/parsers/nunjucks/filters/date-to-rfc.js')); // Convert dates RFC for JSON feeds
+    eleventyConfig.addNunjucksFilter("dateToW3C", require('./lib/parsers/nunjucks/filters/date-to-w3c.js')); // Convert dates to W3C format for XML feeds
+    eleventyConfig.addNunjucksFilter("jsonify", require('./lib/parsers/nunjucks/filters/jsonify.js'));
+
     // Enable Deep Merge
     eleventyConfig.setDataDeepMerge(true);
 
-    // Nunjucks Date formatter for pretty dates
-    eleventyConfig.addNunjucksFilter("date", function(date, format) {
-        return moment(date).format(format);
-    });
-
-    // Nunjucks convert dates to  ISO format for html Dates
-    eleventyConfig.addNunjucksFilter("dateToISO", function(date) {
-        return moment(date).toISOString();
-    });
-
-    // Nunjucks convert dates RFC for JSON feeds
-    eleventyConfig.addNunjucksFilter("dateToRFC", function(date) {
-        return moment(date).toDate().toUTCString();
-    });
-
-    // Nunjucks convert dates W3C for XML feeds
-    eleventyConfig.addNunjucksFilter("dateToW3C", function (date) {
-        return moment(date).format();
-    });
-
-    // Nunjucks convert content safe for JSON feeds
-    eleventyConfig.addNunjucksFilter('jsonify', function (value, spaces){
-        value = value.toString();
-        const jsonString = JSON.stringify(value, null, spaces).replace(/</g, '\\u003c')
-        return jsonString;
-    });
-
-    //  This is only needed in dev. Can we isolate it?
+    // Browser Sync Redirect for 404 testing.
     eleventyConfig.setBrowserSyncConfig({
         callbacks: {
             ready: function(err, bs) {
