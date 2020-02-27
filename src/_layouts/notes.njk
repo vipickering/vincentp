@@ -15,7 +15,7 @@
                 {% if photo3_url %}<img src="/{{photo3_url}}" class="u-photo w-100" alt="{{photo3_alt}}"/>{% endif %}
                 {% if photo4_url %}<img src="/{{photo4_url}}" class="u-photo w-100" alt="{{photo4_alt}}"/>{% endif %}
                 {% if photo5_url %}<img src="/{{photo5_url}}" class="u-photo w-100" alt="{{photo5_alt}}"/>{% endif %}
-                <span class="p-name">{{ content | safe }}</span>
+                <span class="p-name">{{ content | safe | urlize }}</span>
 
                 {% if modified %}
                     <time class="dt-published red f7"  datetime="{{ post.date | dateToISO}}" title="Page Modified" >{{ modified | date('MMM Do YYYY') }} at <span class="dt-updated f7">{{ modified | date('HH:mm') }}</span></time>

@@ -6,11 +6,11 @@
             <div class="e-content">
                 <div class="mb5">
                     <h1 class="p-name f5 red ma0 pa0 mb5">{{ title }}</h1>
-                        {% include "structure/author.njk" %}
-                        {% include "structure/audience.njk" %}
+                    {% include "structure/author.njk" %}
+                    {% include "structure/audience.njk" %}
                 </div>
 
-                {{ content | safe }}
+                {{ content | safe | urlize }}
                 <p class="f7 mb5"><a class="u-bookmark-of underline-no-hover" href="{{target}}" rel="external" title="Vincent bookmarked {{target}}">{{target}}</a></p>
 
                  {% if modified %}

@@ -15,7 +15,7 @@
                     {% if photo3_url %}<img src="/{{photo3_url}}" class="u-photo w-100" alt="{{photo3_alt}}"/>{% endif %}
                     {% if photo4_url %}<img src="/{{photo4_url}}" class="u-photo w-100" alt="{{photo4_alt}}"/>{% endif %}
                     {% if photo5_url %}<img src="/{{photo5_url}}" class="u-photo w-100" alt="{{photo5_alt}}"/>{% endif %}
-                    <div class="mt5 mb5 tl">{{ content | safe }}</div>
+                    <div class="mt5 mb5 tl">{{ content | safe | urlize }}</div>
                 </div>
             </div>
 
