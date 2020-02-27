@@ -26,7 +26,7 @@
     "css-mqpacker": "^7.0.0",
     "cssnano": "^4.1.10",
     "immutable-css": "^1.1.2",
-    "postcss": "^7.0.26",
+    "postcss": "^7.0.27",
     "postcss-cli": "^7.1.0",
     "postcss-copy": "^7.1.0",
     "postcss-custom-media": "^7.0.8",
@@ -44,7 +44,7 @@
     "markdown-it-attrs": "^3.0.2",
     "markdown-it-emoji": "^1.4.0",
     "markdown-it-footnote": "^3.0.2",
-    "moment-timezone": "^0.5.27",
+    "moment-timezone": "^0.5.28",
     "rimraf": "^3.0.2"
   },
   "browserslist": [

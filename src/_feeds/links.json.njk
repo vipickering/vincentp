@@ -39,11 +39,10 @@
             },
             "title" : "{{ post.data.title }}",
             "date_published" : "{{ post.date | dateToISO  }}"{% if post.data.modified %},
-            "date_modified" : "{{ post.modified  | dateToISO}}"{% endif%},
+            "date_modified" : "{{ post.modified | dateToISO}}"{% endif%},
             "id": "{{absolutePostUrl }}",
             "url": "{{absolutePostUrl }}",
-            "content_text": "{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) | dump }}",
-            "content_html": "{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) | jsonify }}"
+            "content_html": {{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) | doubleToSingleQuotes | dump | safe }}
         }{% if loop.last != true %},{% endif %}{% endfor %}
     ]
 }

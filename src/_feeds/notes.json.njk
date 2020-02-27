@@ -43,10 +43,9 @@
             "id": "{{absolutePostUrl }}",
             "url": "{{absolutePostUrl }}",
             {%- if post.data.photo1_url %}
-            "image": "{{ post.data.photo1_url | jsonify}}",
+            "image": "{{metadata.url -}}{{- post.data.photo1_url }}",
             {%- endif %}
-            "content_text": "{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) | dump }}",
-            "content_html": "{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) | jsonify }}"
+            "content_html": {{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) | doubleToSingleQuotes | dump | safe }}
         }{% if loop.last != true %},{% endif %}{% endfor %}
     ]
 }
