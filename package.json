@@ -13,7 +13,7 @@
     "build:css": "postcss post-process/css/application.css --config configs/postcss.config.js --output src/css/application.min.css",
     "dev": "rimraf dist && postcss post-process/css/application.css --config configs/postcss.config.js --output src/css/application.min.css && npx eleventy --serve",
     "start": "npx eleventy --serve",
-    "production": "npx eleventy --serve"
+    "production": "eleventy --serve"
   },
   "repository": {
     "type": "git",
