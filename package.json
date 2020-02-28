@@ -12,8 +12,7 @@
     "debug": "DEBUG=Eleventy* npx eleventy --serve",
     "build:css": "postcss post-process/css/application.css --config configs/postcss.config.js --output src/css/application.min.css",
     "dev": "rimraf _site && postcss post-process/css/application.css --config configs/postcss.config.js --output src/css/application.min.css && npx eleventy --serve",
-    "start": "npx eleventy --serve",
-    "production": "eleventy --serve"
+    "start": "npx eleventy --serve"
   },
   "repository": {
     "type": "git",
