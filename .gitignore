@@ -1,6 +1,4 @@
 .DS_Store
 _site
-.sublime-project
-.sublime-workspace
 npm-debug.log
 node_modules
