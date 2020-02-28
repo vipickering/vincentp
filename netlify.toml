@@ -6,5 +6,5 @@
     X-Content-Type-Options = "nosniff"
     Cache-Control = "public, max-age=31536000"
 [build]
-  publish = "dist"
+  publish = "_site"
   command = "eleventy"
