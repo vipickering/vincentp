@@ -34,9 +34,7 @@
     "postcss-preset-env": "^6.7.0",
     "postcss-reporter": "^6.0.1",
     "postcss-syntax": "^0.36.2",
-    "stylelint": "^13.2.0"
-  },
-  "dependencies": {
+    "stylelint": "^13.2.0",
     "@11ty/eleventy": "^0.10.0",
     "@11ty/eleventy-plugin-rss": "^1.0.7",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
@@ -46,6 +44,9 @@
     "markdown-it-footnote": "^3.0.2",
     "moment-timezone": "^0.5.28",
     "rimraf": "^3.0.2"
+  },
+  "dependencies": {
+    
   },
   "browserslist": [
     "last 1 Chrome versions",
