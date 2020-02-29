@@ -10,7 +10,7 @@
                     {% include "structure/audience.njk" %}
                 </div>
 
-                {{ content | safe | urlize }}
+                {{ content | safe }}
                 <p class="f7 mb5"><a class="u-bookmark-of underline-no-hover" href="{{target}}" rel="external" title="Vincent bookmarked {{target}}">{{target}}</a></p>
 
                  {% if modified %}
