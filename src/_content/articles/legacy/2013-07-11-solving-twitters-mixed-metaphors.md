@@ -1,8 +1,8 @@
 ---
-title: Solving Twitters Mixed Metaphors
-date: 2013-07-11T00:00:01
-meta:  How to solve the problem of intent in a textual medium
-summary: Where I discuss Twitters mixed UI metaphors.
+title: "Solving Twitters Mixed Metaphors"
+date: "2013-07-11T00:00:01"
+meta:  "How to solve the problem of intent in a textual medium"
+summary: "Where I discuss Twitters mixed UI metaphors."
 tags:
 - ui
 - ux
@@ -12,13 +12,14 @@ tags:
 It's highly likely that you found this blog post through Twitter, or at the very least you use Twitter on a daily basis. As social networks go, it's the one that has hit the sweet spot, indispensable for disseminating information and finding like minded people. Every day millions of people use it, every day somebody somewhere says something that grabs other peoples attention and at that point they reach for the "favourite" and "re-tweet" buttons…And that's when UX people like myself start to get a bit 'twitchy'.
 
 ## What's in a word?
+
 Ever since the early days of Twitter the "favourite" button has bothered me, it's a confused metaphor that doesn't really know what it is. Try the following question to a group of people you know:
 
 When you click the favourite button on a tweet are you:
 
-1.  "Liking" the tweet, in the same way you use the Like Facebook button or +1 on Google Plus?
+1. "Liking" the tweet, in the same way you use the Like Facebook button or +1 on Google Plus?
 
-2.  Bookmarking the tweet, saving it for later?
+2. Bookmarking the tweet, saving it for later?
 
 I guarantee the answers will be mixed, especially if you ask a group of non-technical people. The problem really doesn't lie in the question or the users, is the dual use of this button to do both things in the context of Twitter where the metaphor breaks down and users are confused.
 
@@ -26,15 +27,15 @@ Extrapolating this further, let's look at some Use Cases for people pressing the
 
 ## Scenario 1: The Blogger
 
--  User sees in their stream a series of controversial tweets from someone in the public eye. They disagree with them greatly and want to bookmark them for a blog post later.
--  The user clicks "favourite" on each tweet.
+- User sees in their stream a series of controversial tweets from someone in the public eye. They disagree with them greatly and want to bookmark them for a blog post later.
+- The user clicks "favourite" on each tweet.
 
 Clicking "favourite" isn't something that makes sense when you simply want to save something for later, the metaphor breaks down and is confusing, Twitter newbies are often unaware they can save a tweet at all.
 
 ## Scenario 2: Public Relations
 
--  A user is upset with a service and tweets at the company's Twitter account of the product to register their dis-satisfaction while pointing out a problem with the service received.
--  The Public relations person, responds to the tweet to placate the customer but would also like to bookmark this conversation for future reference, so they "favourite" the tweets.
+- A user is upset with a service and tweets at the company's Twitter account of the product to register their dis-satisfaction while pointing out a problem with the service received.
+- The Public relations person, responds to the tweet to placate the customer but would also like to bookmark this conversation for future reference, so they "favourite" the tweets.
 
 In this scenario not only is the company "favouriting" a complaint against their own company, this favourite is publicly available on their Twitter stream for all their customers to see! It's hardly an ideal scenario for a company (or individual for that matter) to be saying:
 
@@ -44,6 +45,7 @@ By now, it's clear "favourite" and bookmark in a social context shouldn't really
 Um. No. Sorry, it's also a muddled mess.
 
 ## Share and Share Alike
+
 Re-tweeting is an odd beast, the first instinct is to think that if someone in your stream re-tweets something that implies automatic buy-in to the tweet.
 
 "I like this, you should read it".
@@ -56,17 +58,17 @@ Use Case time!
 
 ## Scenario 1: Celebrity Faux Pas
 
--  Female celebrity X tweets "If you're not size zero, it's time to hit the gym".
--  Female celebrity x tweets "Double-D's too, seriously girls get some".
--  Women's rights group re-tweets both messages.
--  Women's rights group responds to female celebrity X "comments like that degrade women everywhere, be happy with who you are".
+- Female celebrity X tweets "If you're not size zero, it's time to hit the gym".
+- Female celebrity x tweets "Double-D's too, seriously girls get some".
+- Women's rights group re-tweets both messages.
+- Women's rights group responds to female celebrity X "comments like that degrade women everywhere, be happy with who you are".
 
 In this instance, the women's rights group is implying the context of disagreement by who they are, but not everyone may be familiar with their organisation and understand their position unless they read the final tweet back to the celebrity. Re-tweeting isn't implying agreement and context is unclear if all parts of the conversation are missing from a user's stream.
 
 ## Scenario 2: The big announcement
 
--  A popular band announces they are reforming for one last show.
--  Their followers all re-tweet the announcement.
+- A popular band announces they are reforming for one last show.
+- Their followers all re-tweet the announcement.
 
 In this scenario users are implying "I like this tweet, I have to share it". Re-tweeting in this scenario does imply agreement and a desire to share the "good news".
 
@@ -76,9 +78,9 @@ It's not quite as straight forward as it should be is it? Both these buttons hav
 
 What we need to do is:
 
--  Maintain all the existing functionality.
--  Remove the ambiguity around what "favouriting" is.
--  Add context to re-tweeting so intent is obvious.
+- Maintain all the existing functionality.
+- Remove the ambiguity around what "favouriting" is.
+- Add context to re-tweeting so intent is obvious.
 
 What we want to do is show intent when a user clicks, we can do this by separating out functionality of bookmarking a tweet and "liking".
 

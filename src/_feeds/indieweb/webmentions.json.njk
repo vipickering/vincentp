@@ -1,0 +1,30 @@
+---json
+{
+    "permalink": "/feeds/indieweb/webmentions.json",
+    "eleventyExcludeFromCollections": true,
+    "metadata": {
+        "url": "https://vincentp.me/"
+    }
+}
+---
+{%- set lastpublished -%}{{pubdate.time | dateToISO}}{% endset -%}
+
+{%- set webmentionsToSend -%}[
+    {%- for post in collections.lifestream | reverse -%}
+        {%- set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset -%}
+        {%- if post.data.date > lastpublished -%}
+        {%- if post.data.target -%}{%if loop.first != true %},{% endif%}{
+            "source": "{{ absolutePostUrl }}",
+            "target": "{{ post.data.target }}",
+            "postTime": "{{ post.data.date | dateToISO }}",
+            "publishTime": "{{ lastpublished }}"
+        }
+        {%- endif -%} 
+        {%- endif -%}
+    {%- endfor -%}
+]
+{% endset -%}
+{
+    "published" : "{{lastpublished}}",
+    "webmentions" :{{ webmentionsToSend | safe }} 
+}
