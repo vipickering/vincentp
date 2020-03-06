@@ -46,7 +46,7 @@
             {%- if post.data.photo1_url %}
             "image": "{{metadata.url -}}{{- post.data.photo1_url }}",
             {%- endif %}
-            "content_html": {{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) | doubleToSingleQuotes | dump | safe }}"
+            "content_html": {{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) | doubleToSingleQuotes | dump | safe }}
         }{% if loop.last != true %},{% endif %}{% endfor %}
     ]
 }

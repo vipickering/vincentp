@@ -36,7 +36,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addNunjucksFilter("dateToW3C", require('./lib/parsers/nunjucks/filters/date-to-w3c.js')); // Convert dates to W3C format for XML feeds
     eleventyConfig.addNunjucksFilter("jsonify", require('./lib/parsers/nunjucks/filters/jsonify.js'));
     eleventyConfig.addNunjucksFilter("doubleToSingleQuotes", require('./lib/parsers/nunjucks/filters/double-to-single-quotes.js')); //Swap double quotes to singles so JSON remains valid
-
+    
     // Enable Deep Merge
     eleventyConfig.setDataDeepMerge(true);
 
