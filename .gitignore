@@ -1,4 +1,5 @@
 .DS_Store
 _site
+_draft
 npm-debug.log
 node_modules
