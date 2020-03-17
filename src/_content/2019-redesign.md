@@ -12,50 +12,72 @@ twitterCard: false
 - [Planning Out The Redesign](/articles/2019/06/19/21-00/)
 - [The Static Website](/articles/2019/06/30/22-00/)
 - [Mapping out my IndieWeb functionality](/articles/2019/09/07/12-00/)
+- [Migrating from Jekyll to Eleventy](/articles/2020/03/16/16-00/)
 
 ## Recap
 
 ### Research Notes
 
-- [#1](/articles/2019/06/19/21-00/)
-    - I need to make what I build adaptive. Do not assume one type of content will be utilised more than another because that is what I do right now.
-    - The design is not doing the heavy lifting I require from it.
-    - While I have the overall trajectory in the right direction, the website needs fine tuning in all areas.
-- [#2](/articles/2019/06/30/22-00/)
-    - I am happy in general with the technical way the static website works.
-    - I need to re-examine the technology it is built upon, [Eleventy](https://www.11ty.io/) looks to be the favoured platform to switch.
-    - Build time needs to be reduced it is creeping up and taking too long.
-    - I have some custom areas of my Jekyll build that need to be documented and ascertained if I can get feature parity by it's replacement.
-- [#3](/articles/2019/09/07/12-00/)
-    - The static site model on Netlify is working well
-    - Github as my singular code source is the right choice
-    - Flow on effects from Mastr Cntrl can cause all sorts of consequences (see below)
-    - The architecture I built organically isn't bad for a first attempt.
-    - Heroku feels like it could be an unnecessary complication.
-    - Can Lambda functions replace Mastr Cntrl or key functions?
-    - Can I reduce 3 ecosystems?
+[Planning Out The Redesign](/articles/2019/06/19/21-00/)
+
+- I need to make what I build adaptive. Do not assume one type of content will be utilised more than another because that is what I do right now.
+- The design is not doing the heavy lifting I require from it.
+- While I have the overall trajectory in the right direction, the website needs fine tuning in all areas.
+
+[The Static Website](/articles/2019/06/30/22-00/)
+
+- I am happy in general with the technical way the static website works.
+- I need to re-examine the technology it is built upon, [Eleventy](https://www.11ty.io/) looks to be the favoured platform to switch.
+- Build time needs to be reduced it is creeping up and taking too long.
+- I have some custom areas of my Jekyll build that need to be documented and ascertained if I can get feature parity by it's replacement.
+
+[Mapping out my IndieWeb functionality](/articles/2019/09/07/12-00/)
+
+- The static site model on Netlify is working well
+- Github as my singular code source is the right choice
+- Flow on effects from Mastr Cntrl can cause all sorts of consequences (see below)
+- The architecture I built organically isn't bad for a first attempt.
+- Heroku feels like it could be an unnecessary complication.
+- Can Lambda functions replace Mastr Cntrl or key functions?
+- Can I reduce 3 ecosystems?
+
+[Migrating from Jekyll to Eleventy](/articles/2020/03/16/16-00/)
+
+- The move to Eleventy was a good idea
+- I have reduced my build time
+- There is a lot of flexibility in the new platform for me to do what I need to do
 
 ### Future Actions
 
-- [#1](/articles/2019/06/19/21-00/)
-    - Do a deep dive on the UX.
-    - Look in to the user interface design at a later date, once I understand requirements better.
-    - I have yet to review where Mastr Cntrl is not meeting my requirements.
-    - I have not looked at the overall architecture and this needs reviewing.
-- [#2](/articles/2019/06/30/22-00/)
-    - Explore [Eleventy](https://www.11ty.io/) and build a POC to demonstrate I can migrate successfully.
-    - Revisit the design and UX of the current site. Explore this in detail to design a system that works for my needs.
-    - Investigate improving the quality of my RSS feeds and general syndication content.
-    - Investigate Avatar loading, caching and progressive loading techniques.
-    - Minimise external load content such as Mapbox images and Avatars.
-    - Set some time to review my Netlify integration and set-up. How can this be improved?
-    - Set some time to review future integrations and what I will be accommodating.
-    - Automate syndicating to IndieNews.
-- [#3](/articles/2019/09/07/12-00)
-    - Explore the possibility of Lambda functions instead of Mastr Cntrl.
-    - Explore the possibility of splitting Mastr Cntrl in to discreet modules with Mastr Cntrl acting as the gatekeeper.
-    - Add testing coverage to Mastr Cntrl
-    - Investigate the recurring issues
+[Planning Out The Redesign](/articles/2019/06/19/21-00/)
+
+- Do a deep dive on the UX.
+- Look in to the user interface design at a later date, once I understand requirements better.
+- I have yet to review where Mastr Cntrl is not meeting my requirements.
+- I have not looked at the overall architecture and this needs reviewing.
+
+[The Static Website](/articles/2019/06/30/22-00/)
+
+- Explore [Eleventy](https://www.11ty.io/) and build a POC to demonstrate I can migrate successfully.
+- Revisit the design and UX of the current site. Explore this in detail to design a system that works for my needs.
+- Investigate improving the quality of my RSS feeds and general syndication content.
+- Investigate Avatar loading, caching and progressive loading techniques.
+- Minimise external load content such as Mapbox images and Avatars.
+- Set some time to review my Netlify integration and set-up. How can this be improved?
+- Set some time to review future integrations and what I will be accommodating.
+- Automate syndicating to IndieNews.
+
+[Mapping out my IndieWeb functionality](/articles/2019/09/07/12-00/)
+
+- Explore the possibility of Lambda functions instead of Mastr Cntrl.
+- Explore the possibility of splitting Mastr Cntrl in to discreet modules with Mastr Cntrl acting as the gatekeeper.
+- Add testing coverage to Mastr Cntrl
+- Investigate the recurring issues
+
+[Migrating from Jekyll to Eleventy](/articles/2020/03/16/16-00/)
+
+- Plan the redesign based on what I have learned in the rebuild.
+- Work on Mastr Cntrl to better support the redesign.
 
 ## Diagrams and Data
 
