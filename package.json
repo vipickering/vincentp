@@ -42,7 +42,9 @@
     "postcss-reporter": "^6.0.1",
     "postcss-syntax": "^0.36.2",
     "rimraf": "^3.0.2",
-    "stylelint": "^13.2.1"
+    "stylelint": "^13.2.1",
+    "acorn": ">=5.7.4",
+    "minimist": ">=1.2.2"
   },
   "dependencies": {},
   "browserslist": [
