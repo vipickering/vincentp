@@ -19,7 +19,7 @@
     <atom:link href="{{ metadata.feedUrl }}" rel="self" type="application/rss+xml"/>
     {% for post in collections.notes | reverse -%}
     {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
-        {%- if post.data.twitter ==  true -%}
+        {%- if post.data.syndication ==  true -%}
       <item>
         <title>{{ post.data.title }}</title>
         <link>{{ absolutePostUrl }}</link>
