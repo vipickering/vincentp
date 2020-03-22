@@ -41,12 +41,12 @@
             {%- if post.data.summary %}"summary": "{{ post.data.summary }}",  {%- endif %}
             "date_published" : "{{ post.date | dateToISO  }}"{% if post.data.modified %},
             "date_modified" : "{{ post.modified  | dateToISO}}"{% endif%},
-            "id": "{{absolutePostUrl }}",
+            "id": {{loop.revindex}},
             "url": "{{absolutePostUrl }}",
             {%- if post.data.photo1_url %}
             "image": "{{metadata.url -}}{{- post.data.photo1_url }}",
             {%- endif %}
             "content_html": {{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) | doubleToSingleQuotes | dump | safe }}
-        }{% if loop.last != true %},{% endif %}{% endfor %}
+        }{%- if not loop.last -%},{%- endif -%}{% endfor %}
     ]
 }
