@@ -1,6 +1,5 @@
 {
   "layout": "notes",
   "category": "Notes",
-  "twitterCard": false,
   "permalink": "/notes/{{date | date: '%Y/%m/%d/%H-%M'}}/index.html"
 }

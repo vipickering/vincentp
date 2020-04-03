@@ -7,7 +7,6 @@ cardname: "cards/note.njk"
 meta : "All content tagged Notes by Vincent Pickering"
 summary : "Short form notes"
 type : "Notes"
-twitterCard: false
 pagination:
     data: collections.notes
     size: 10

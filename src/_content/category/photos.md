@@ -7,7 +7,6 @@ cardname: "cards/photo.njk"
 meta : "All content tagged photo by Vincent Pickering"
 summary : "Photo posts"
 type : "Photos"
-twitterCard: false
 pagination:
     data: collections.photos
     size: 10

@@ -7,7 +7,6 @@ cardname: "cards/reply.njk"
 meta : "All replies by Vincent Pickering"
 summary : "All replies by Vincent Pickering"
 type : "Replies"
-twitterCard: false
 pagination:
     data: collections.replies
     size: 10

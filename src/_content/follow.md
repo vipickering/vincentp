@@ -4,7 +4,6 @@ permalink: "/follow/"
 title : "Follow Me"
 summary: "Follow Vincent Pickering"
 meta : "Vincent Pickering feeds and ways to follow"
-twitterCard: false
 ---
 
 All my available feeds to follow. Pick and choose what interests you.

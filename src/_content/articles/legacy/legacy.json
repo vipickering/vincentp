@@ -1,6 +1,6 @@
 {
-"layout": "post",
-"category": "Articles",
-"permalink" : "/blog/{{title | downcase | replace: ' ', '-' }}/index.html",
-"twitterCard": false
+    "layout": "post",
+    "category": "Articles",
+    "largeTwitterCard": true,
+    "permalink" : "/blog/{{title | downcase | replace: ' ', '-' }}/index.html"
 }

@@ -1,6 +1,5 @@
 {
   "layout": "replies",
   "category": "Replies",
-  "twitterCard": false,
   "permalink": "/replies/{{date | date: '%Y/%m/%d/%H-%M'}}/index.html"
 }

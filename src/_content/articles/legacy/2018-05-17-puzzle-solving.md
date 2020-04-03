@@ -8,7 +8,6 @@ tags:
 - thoughts
 - ux
 ---
-{{twitterCard}}<br>
 <blockquote>
     <p>Inspiration is a muscle like any other, you must learn how to flex it.</p>
     <footer>

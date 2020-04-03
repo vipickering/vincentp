@@ -1,6 +1,5 @@
 {
     "layout": "favourites",
     "category": "Favourites",
-    "twitter": false,
     "permalink": "/favourites/{{date | date: '%Y/%m/%d/%H-%M'}}/index.html"
 }

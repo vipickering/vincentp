@@ -1,6 +1,5 @@
 {
   "layout": "links",
   "category": "Links",
-  "twitterCard": false,
   "permalink": "/links/{{date | date: '%Y/%m/%d/%H-%M'}}/index.html"
 }

@@ -1,6 +1,5 @@
 {
   "layout" : "checkin",
   "category" : "Checkins",
-  "twitterCard" : false,
   "permalink": "/checkins/{{date | date: '%Y/%m/%d/%H-%M'}}/index.html"
 }

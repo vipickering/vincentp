@@ -18,5 +18,4 @@ pagination:
     - links
 permalink: "/tags/{{ tag }}/"
 meta : "Tagged content"
-twitterCard: false
---- 
+---

@@ -7,7 +7,6 @@ cardname: "cards/rsvp.njk"
 meta : "All content tagged RSVP by Vincent Pickering"
 summary : "My attendance to events"
 type : "Rsvp"
-twitterCard: false
 pagination:
     data: collections.rsvps
     size: 10

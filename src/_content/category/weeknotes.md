@@ -7,7 +7,6 @@ cardname: "cards/article.njk"
 meta : "All content tagged Articles by Vincent Pickering"
 summary : "Weeknotes"
 type : "Weeknotes"
-twitterCard: false
 pagination:
     data: collections.weeknotes
     size: 10

@@ -1,6 +1,5 @@
 {
   "layout": "photos",
   "category": "photos",
-  "twitterCard": false,
   "permalink": "/photos/{{date | date: '%Y/%m/%d/%H-%M'}}/index.html"
 }

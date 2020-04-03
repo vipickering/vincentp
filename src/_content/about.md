@@ -5,8 +5,6 @@ category: "About"
 permalink: "/about/"
 meta : "About Vincent Pickering Service Designer"
 summary : "About Vincent Pickering Service Designer"
-twitterCard: false
-tags:
 ---
 
 During my career I have been incredibly fortunate to work on a diverse range of products and services :
