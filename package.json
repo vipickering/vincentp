@@ -44,7 +44,7 @@
     "rimraf": "^3.0.2",
     "stylelint": "^13.2.1",
     "acorn": ">=5.7.4",
-    "minimist": ">=1.2.2"
+    "minimist": ">=1.2.3"
   },
   "dependencies": {},
   "browserslist": [
