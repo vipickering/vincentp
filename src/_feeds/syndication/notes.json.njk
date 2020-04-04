@@ -15,8 +15,8 @@
         "date": "{{ note.date |  dateToISO }}",
         "url": "{{absoluteNoteUrl }}",
         "content": {{ note.templateContent | htmlToAbsoluteUrls(absoluteNoteUrl) | doubleToSingleQuotes | dump | safe }},
-        "tags": "{{ note.data.tags }}",
-        "syndicate" : {{ note.data.syndication | string }}
+        "tags": "{{ note.data.tags }}"{% if note.data.syndication %},
+        "syndicate" : "{{ note.data.syndication | string }}"{% endif %}
     }
     {%- if not loop.last -%},{%- endif -%}
     {% endfor %}

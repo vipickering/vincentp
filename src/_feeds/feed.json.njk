@@ -43,8 +43,8 @@
             "date_modified" : "{{ post.modified  | dateToISO}}"{% endif%},
             "id": {{loop.revindex}},
             "url": "{{absolutePostUrl }}",
-            {%- if post.data.photo1_url %}
-            "image": "{{metadata.url -}}{{- post.data.photo1_url }}",
+            {%- if post.data.photo1Url %}
+            "image": "{{metadata.url -}}{{- post.data.photo1Url }}",
             {%- endif %}
             "content_html": {{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) | doubleToSingleQuotes | dump | safe }}
         }{%- if not loop.last -%},{%- endif -%}{% endfor %}

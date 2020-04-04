@@ -8,9 +8,9 @@
             {% include "structure/audience.njk" %}
         </div>
 
-            {% if photo1_url and photo1_url != ''%}
+            {% if photo1Url and photo1Url != ''%}
                 <figure class="ma0 pa0">
-                    <img src="/{{photo1_url}}" class="u-photo w-100" alt="{{photo1_alt}}"/>
+                    <img src="/{{photo1Url}}" class="u-photo w-100" alt="{{photo1Alt}}"/>
                     <figcaption class="mt5 mb5 tl">{{ content | safe}}</figcaption>
                 </figure>
             {% else %}

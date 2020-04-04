@@ -3,7 +3,7 @@
         <div class="e-content  f5 ma0 pa0">{{post.templateContent | safe}}</div>
     </div>
 
-    {% if post.data.photo1_url %}<img src="/{{post.data.photo1_url}}" class="u-photo db w-100 br-5" alt="{{post.data.photo1_alt}}"/>{% endif %}
+    {% if post.data.photo1Url %}<img src="/{{post.data.photo1Url}}" class="u-photo db w-100 br-5" alt="{{post.data.photo1Alt}}"/>{% endif %}
     <div class="absolute-ns bottom-0  pa5 left-0 bg-white-t w-100 brb-5">
         {% include "lifestream/published.njk" %}
     </div>
