@@ -8,7 +8,7 @@
             {% include "structure/audience.njk" %}
         </div>
 
-            {% if photo1Url and photo1Url != ''%}
+            {% if photo1Url and photo1Url %}
                 <figure class="ma0 pa0">
                     <img src="/{{photo1Url}}" class="u-photo w-100" alt="{{photo1Alt}}"/>
                     <figcaption class="mt5 mb5 tl">{{ content | safe}}</figcaption>
@@ -23,9 +23,9 @@
 
             <div class="p-location h-adr">
                 <small>
-                    {% if locality != '' %}<span class="p-locality">{{locality}}</span>,{% endif %}
-                    {% if region  != '' %}<span class="p-region">{{region}}</span>,{% endif %}
-                    {% if country  != '' %}<span class="p-country">{{country}}</span>{% endif %}
+                    {% if locality %}<span class="p-locality">{{locality}}</span>,{% endif %}
+                    {% if region  %}<span class="p-region">{{region}}</span>,{% endif %}
+                    {% if country  %}<span class="p-country">{{country}}</span>{% endif %}
                     <data class="p-latitude" value="{{latitude}}"></data>
                     <data class="p-longitude" value="{{longitude}}"></data>
                 </small>
@@ -33,7 +33,7 @@
             </div>
 
            <p><small>Checkin via <a href="https://ownyourswarm.p3k.io/">https://ownyourswarm.p3k.io</a></small></p>
-            <p><small>Original Post <a href="{{syndication}}">{{syndication}}</a></small></p>
+            <p><small>Original Post <a href="{{syndicatedFrom}}">Swarm</a></small></p>
 
           {% include "structure/tagging.njk" %}
 

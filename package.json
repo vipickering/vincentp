@@ -25,6 +25,7 @@
     "@11ty/eleventy": "^0.10.0",
     "@11ty/eleventy-plugin-rss": "^1.0.7",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
+    "acorn": ">=5.7.4",
     "css-mqpacker": "^7.0.0",
     "cssnano": "^4.1.10",
     "immutable-css": "^1.1.2",
@@ -32,6 +33,7 @@
     "markdown-it-attrs": "^3.0.2",
     "markdown-it-emoji": "^1.4.0",
     "markdown-it-footnote": "^3.0.2",
+    "minimist": "^1.2.5",
     "moment-timezone": "^0.5.28",
     "postcss": "^7.0.27",
     "postcss-cli": "^7.1.0",
@@ -42,9 +44,7 @@
     "postcss-reporter": "^6.0.1",
     "postcss-syntax": "^0.36.2",
     "rimraf": "^3.0.2",
-    "stylelint": "^13.2.1",
-    "acorn": ">=5.7.4",
-    "minimist": ">=1.2.2"
+    "stylelint": "^13.2.1"
   },
   "dependencies": {},
   "browserslist": [
