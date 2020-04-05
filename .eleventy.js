@@ -18,7 +18,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addCollection("replies", require('./lib/collections/replies.js'));
     eleventyConfig.addCollection("rsvps", require('./lib/collections/rsvps.js'));
     eleventyConfig.addCollection("weeknotes", require('./lib/collections/weeknotes.js'));
-    eleventyConfig.addCollection("lifestream", require('./lib/collections/lifestream.js'));
+    eleventyConfig.addCollection("lifestream", require('./lib/collections/lifestream.js')); //Builds everything in to a date ordered list for the Lifestream. This is expensive for the build time. Review.
 
     // Copy to site
     eleventyConfig.addPassthroughCopy('src/css');
