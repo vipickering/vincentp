@@ -8,3 +8,4 @@
 [build]
   publish = "_site"
   command = "eleventy"
+  functions = "functions"
