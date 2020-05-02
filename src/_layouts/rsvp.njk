@@ -9,7 +9,7 @@
     </div>
 
     <div class="e-content">
-        <p class="p-name f5 ma0 pa0 mb5 "><data class="p-rsvp" value="{{rsvpStatus}}"></data>Tracking</data> <a href="{{target}}" class="u-in-reply-to underline-no-hover overflow-w-bw" rel="external">{{title}}</a></p>
+        <p class="p-name f5 ma0 pa0 mb5 "><data class="p-rsvp" value="{{rsvpStatus}}"></data>Tracking</data> <a href="{{webmentionTarget}}" class="u-in-reply-to underline-no-hover overflow-w-bw" rel="external">{{title}}</a></p>
         {% if modified %}
         <time class="dt-published red f7"  datetime="{{ date | dateToISO}}" title="Page Modified">{{ modified | date('MMM Do YYYY') }} at <span class="dt-updated f7">{{ modified | date('hh:mma') }}</span></time>
         <p class="f7 dt-updated">{{ modifiedReason }}.</p>

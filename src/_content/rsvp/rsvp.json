@@ -1,5 +1,8 @@
 {
 "layout": "rsvp",
 "category": "Rsvps",
-"permalink": "/rsvp/{{date | date: '%Y/%m/%d/%H-%M'}}/index.html"
+"permalink": "/rsvp/{{date | date: '%Y/%m/%d/%H-%M'}}/index.html",
+"tags": [
+    "webmentions"
+]
 }

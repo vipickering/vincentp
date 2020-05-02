@@ -7,24 +7,17 @@
     }
 }
 ---
-{%- set lastpublished -%}{{pubdate.time | dateToISO }}{% endset -%}
-{%- set webmentionsToSend -%}[
-    {%- for post in collections.lifestream | reverse -%}
+{%- set webmentionsToSend -%}
+    {%- for post in collections.webmentions -%}
         {%- set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset -%}
-        {%- set postTime -%}{{ post.data.date | dateToISO }}{% endset -%}
-        {%- if postTime > lastpublished -%}
-        {%- if post.data.webmentionTarget -%}{%- if loop.first -%},{%- endif -%}{
+        {%- if post.data.webmentionTarget -%}{
+            "date" : "{{ post.date | dateToISO  }}",
             "source": "{{ absolutePostUrl }}",
-            "target": "{{ post.data.webmentionTarget }}",
-            "postTime": "{{ postTime }}",
-            "publishTime": "{{ lastpublished }}"
-        }
-        {%- endif -%}
-        {%- endif -%}
-    {%- endfor -%}
-]
+            "target": "{{ post.data.webmentionTarget }}"
+        }{%- if not loop.last -%},{% endif  %}
+        {% endif %}
+    {% endfor %}
 {% endset -%}
-{
-    "published" : "{{lastpublished}}",
-    "webmentions" :{{ webmentionsToSend | safe }}
-}
+
+[{{ webmentionsToSend | safe }}]
+

@@ -1,5 +1,8 @@
 {
   "layout": "links",
   "category": "Links",
-  "permalink": "/links/{{date | date: '%Y/%m/%d/%H-%M'}}/index.html"
+  "permalink": "/links/{{date | date: '%Y/%m/%d/%H-%M'}}/index.html",
+    "tags": [
+      "webmentions"
+    ]
 }

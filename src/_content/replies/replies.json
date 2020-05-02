@@ -1,5 +1,8 @@
 {
   "layout": "replies",
   "category": "Replies",
-  "permalink": "/replies/{{date | date: '%Y/%m/%d/%H-%M'}}/index.html"
+  "permalink": "/replies/{{date | date: '%Y/%m/%d/%H-%M'}}/index.html",
+  "tags": [
+    "webmentions"
+  ]
 }
