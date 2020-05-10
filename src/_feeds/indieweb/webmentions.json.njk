@@ -15,9 +15,9 @@
             "source": "{{ absolutePostUrl }}",
             "target": "{{ post.data.webmentionTarget }}"
         }{%- if not loop.last -%},{% endif  %}
-        {% endif %}
+        {% endif -%}
     {% endfor %}
 {% endset -%}
-
-[{{ webmentionsToSend | safe }}]
-
+[
+{{ webmentionsToSend | safe }}
+]
