@@ -171,3 +171,9 @@ blockquote > p + p {
     -webkit-appearance: none;
     -moz-appearance: none;
 }
+
+/* Fix when I forget to uppercase first letter in posts */
+.e-content > p::first-letter,
+.e-content > .p-name > p::first-letter {
+    text-transform: uppercase;
+}
