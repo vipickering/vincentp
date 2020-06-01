@@ -34,7 +34,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addNunjucksFilter("dateToISO", require('./lib/parsers/nunjucks/filters/date-to-iso.js')); // Convert dates to  ISO format for html Dates
     eleventyConfig.addNunjucksFilter("dateToRFC", require('./lib/parsers/nunjucks/filters/date-to-rfc.js')); // Convert dates RFC for JSON feeds
     eleventyConfig.addNunjucksFilter("dateToW3C", require('./lib/parsers/nunjucks/filters/date-to-w3c.js')); // Convert dates to W3C format for XML feeds
-    eleventyConfig.addNunjucksFilter("jsonify", require('./lib/parsers/nunjucks/filters/jsonify.js')); //Make it JSON friendly - Needed??
+    eleventyConfig.addNunjucksFilter("jsonify", require('./lib/parsers/nunjucks/filters/jsonify.js')); //Make it JSON friendly
     eleventyConfig.addNunjucksFilter("doubleToSingleQuotes", require('./lib/parsers/nunjucks/filters/double-to-single-quotes.js')); //Swap double quotes to singles so JSON remains valid
 
     // Enable Deep Merge
