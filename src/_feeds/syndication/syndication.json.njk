@@ -1,0 +1,26 @@
+---json
+{
+    "permalink" : "/feeds/syndication.json",
+    "eleventyExcludeFromCollections" : true,
+    "metadata" : {
+        "url": "https://vincentp.me/"
+    }
+}
+---
+[
+{%- for post in collections.syndicated | reverse -%}
+     {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
+     {%for item in post.data.syndicationTargets%}
+    {
+        "id": {{loop.index}},
+        "date": "{{ post.date |  dateToISO }}",
+        "url": "{{absolutePostUrl }}",
+         "content": "{{ post.templateContent | striptags(true) | escape | nl2br }}",
+         "target" : "{{item}}"
+    }
+    {%- if not loop.last -%},{%- endif -%}{%endfor%}
+    {%- if not loop.last -%},{%- endif -%}
+    {% endfor %}
+]
+
+{# Use the targets as a separate loop, within the posts. One entry for each syndication entry #}
