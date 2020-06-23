@@ -2,7 +2,7 @@
     <div class="e-content">
         <h2 class="f5 ma0 pa0 red">{{post.data.title}}</h2>
         <div class="e-content">
-            <p class="p-name f5 ma0 pa0 mb5 "><data class="p-rsvp" value="{{post.data.rsvpStatus}}">Tracking</data> <a href="{{post.data.webmentionTarget}}" class="u-in-reply-to underline-no-hover overflow-w-bw" rel="external">{{post.data.title}}</a>!</p>
+            <p class="p-name f5 ma0 pa0 mb5 ">RSVP: <data class="p-rsvp" value="{{post.data.rsvpStatus}}">{{post.data.rsvpStatus}}</data> for <a href="{{post.data.webmentionTarget}}" class="u-in-reply-to underline-no-hover overflow-w-bw" rel="external">{{post.data.title}}</a>!</p>
         </div>
         {% include "lifestream/published.njk" %}
     </div>
