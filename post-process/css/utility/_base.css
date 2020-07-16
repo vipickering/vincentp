@@ -177,3 +177,8 @@ blockquote > p + p {
 .e-content > .p-name > p::first-letter {
     text-transform: uppercase;
 }
+
+.e-content > p img {
+    width: 100%;
+    height: 100%;
+}
