@@ -11,6 +11,7 @@ summary : "This page will be updated after each blog post"
 - [The Static Website](/articles/2019/06/30/22-00/)
 - [Mapping out my IndieWeb functionality](/articles/2019/09/07/12-00/)
 - [Migrating from Jekyll to Eleventy](/articles/2020/03/16/16-00/)
+- [From Indieweb Monolith to Microservices](/articles/2020/07/16/16-20/)
 
 ## Recap
 
@@ -310,3 +311,8 @@ summary : "This page will be updated after each blog post"
 </tbody>
 </table>
 </div>
+
+
+## The New Architecture
+
+[![My new architecture](/images/blog/2020-07-16/new-architecture.jpg "My new architecture")](/images/blog/2020-07-16/new-architecture.jpg)
