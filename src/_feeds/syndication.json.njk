@@ -12,10 +12,9 @@
      {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
      {%for item in post.data.syndicationTargets%}
     {
-        "id": {{loop.index}},
         "date": "{{ post.date |  dateToISO }}",
         "url": "{{absolutePostUrl }}",
-         "content": "{{ post.templateContent | striptags(true) | escape | nl2br }}",
+        "content": "{{ post.templateContent | truncate(220) | striptags(false) | escape }}",
          "target" : "{{item}}"
     }
     {%- if not loop.last -%},{%- endif -%}{%endfor%}
