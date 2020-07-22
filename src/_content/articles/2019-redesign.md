@@ -1,5 +1,4 @@
 ---
-layout : "about"
 permalink : "/2019-redesign/"
 title : "2019 Redesign Notes"
 meta : "All the notes so far on my 2019 redesign"
@@ -311,7 +310,6 @@ summary : "This page will be updated after each blog post"
 </tbody>
 </table>
 </div>
-
 
 ## The New Architecture
 

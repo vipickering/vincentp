@@ -1,0 +1,19 @@
+{
+  "type":"entry",
+  "author":{
+    "type":"card",
+  "name":"Ana Rodrigues",
+  "photo":"https://webmention.io/avatar/pbs.twimg.com/fc885e5ff4cb71287c4384f7b208bb425af1a7a3139bbd8baf8f11923e168aa2.jpg",
+  "url":"https://twitter.com/ohhelloana"},
+"url":"https://twitter.com/ohhelloana/status/1285727329885597696",
+  "published":"2020-07-22T00:04:17+00:00",
+  "wm-received":"2020-07-22T00:06:42Z",
+  "wm-id":829813,
+  "wm-source":"https://brid-gy.appspot.com/comment/twitter/vincentlistens/1283625132527767553/1285727329885597696",
+  "wm-target":"https://vincentp.me/2019-redesign",
+  "content":{
+    "html":"I absolutely love this! I can't wait to have free time to binge read everything. Thank you so much for sharing!\\n<a class=\\\"u-mention\\\" href=\\\"http://vincentp.me/\\\"></a>\\n<a class=\\\"u-mention\\\" href=\\\"https://twitter.com/vincentlistens\\\"></a>",
+  "text":"I absolutely love this! I can't wait to have free time to binge read everything. Thank you so much for sharing!"},
+"in-reply-to":"https://vincentp.me/2019-redesign",
+  "wm-property":"in-reply-to",
+  "wm-private":false}

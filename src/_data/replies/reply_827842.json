@@ -1,0 +1,25 @@
+    {
+      "type":"entry",
+      "author":{
+        "type":"card",
+        "name":"Kevin Marks",
+        "photo":"https://webmention.io/avatar/known.kevinmarks.com/f893d11435a62200ec9585e0ea3d84b2bdc478aa0a056dda35a43ce4c04d58a0.jpg",
+        "url":"http://known.kevinmarks.com/profile/kevinmarks"
+      },
+      "url":"http://known.kevinmarks.com/2020/nice-bit-of-reconstruction-and-that-youre",
+        "published":"2020-07-16T05:10:30+00:00",
+        "wm-received":"2020-07-16T07:06:05Z",
+        "wm-id":827842,
+        "wm-source":"http://known.kevinmarks.com/2020/nice-bit-of-reconstruction-and-that-youre",
+        "wm-target":"https://vincentp.me/articles/2020/07/16/16-20/",
+        "content":{
+          "html":"<a href=\"http://known.kevinmarks.com/profile/kevinmarks\">Kevin Marks</a> commented 'Nice bit of reconstruction, and that you're factoring at the indieweb protocol l...' on a post <a href=\"https://vincentp.me/articles/2020/07/16/16-20/\">https://vincentp.me/articles/2020/07/16/16-20/</a>",
+        "text":"Nice bit of reconstruction, and that you're factoring at the indieweb protocol level makes sense. Another protocol you may want to look at is WebSub so you don't need to poll your feeds so often, but can call web hooks when they are updated."}
+       ,
+      "in-reply-to":"https://vincentp.me/articles/2020/07/16/16-20/",
+        "wm-property":"in-reply-to",
+        "wm-private":false,
+        "rels":{
+          "canonical":"https://www.jvt.me/mf2/2020/07/kt3lb/"
+        }
+        }
