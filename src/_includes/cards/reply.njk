@@ -2,7 +2,7 @@
     <div class="e-content">
         <h2 class="f5 ma0 pa0 red">Replying</h2>
         <div class="p-summary mb5">{{ post.content | safe}}</div>
-        <p class="f7 mb5">In response to: <a class="u-in-reply-to" href="{{post.data.webmentionTarget}}" rel="external"  title="Vincent replied to {{post.data.webmentionTarget}}">{{post.data.webmentionTarget}}</a></p>
+        <p class="f7 mb5">In response to: <a class="u-in-reply-to" href="{{post.data.target}}" rel="external"  title="Vincent replied to {{post.data.target}}">{{post.data.target}}</a></p>
      </div>
     {% include "lifestream/published.njk" %}
 </article>
