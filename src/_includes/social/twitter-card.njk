@@ -1,10 +1,5 @@
-{% if largeTwitterCard %}
-    {% set cardSize = "summary_large_image" %}
-    {% set cardImageUrl = site.url ~"/images/blog/" ~  date  | date('YYYY') ~"-" ~ date  | date('MM') ~"-" ~ date  | date('DD') ~"/social-card.jpg" %}
-{% else %}
-    {% set cardSize = "summary" %}
-    {% set cardImageUrl = site.url ~ "/images/profile/vincentp.jpg" %}
-{% endif %}
+{% set cardSize = "summary" %}
+{% set cardImageUrl = site.url ~ "/images/profile/vincentp.jpg" %}
 
 <!-- Twitter Card -->
 <meta name="twitter:site" content="@{{ site.author.twitter.username }}" />

@@ -1,12 +1,12 @@
 ---json
 {
-    "permalink": "/feeds/feed.json",
+    "permalink": "/feeds/articles.json",
     "eleventyExcludeFromCollections": true,
     "metadata": {
         "version": "https://jsonfeed.org/version/1",
-        "title": "Vincentp Lifestream",
+        "title": "Articles by Vincent Pickering",
         "url": "https://vincentp.me/",
-        "feedUrl": "https://vincentp.me/feeds/feed.json",
+        "feedUrl": "https://vincentp.me/feeds/articles.json",
         "description" : "Web design including: UI, UX, HTML, CSS, JavaScript and Node",
         "icon" : "https://vincentp.me/images/vincentp.jpg",
         "favicon" : "https://vincentp.me/images/favicons/apple-touch-icon-76x76-precomposed.png",
@@ -31,7 +31,7 @@
             "url" : "{{metadata.author.url}}",
             "avatar" : "{{metadata.author.avatar}}"
     },
-     "items": [{% for post in collections.lifestream | reverse -%}
+     "items": [{% for post in collections.articles | reverse -%}
     {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
           {
             "author": {
