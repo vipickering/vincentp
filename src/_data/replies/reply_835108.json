@@ -1,0 +1,18 @@
+{"type":"entry",
+"author":{"type":"card",
+"name":"Jon Roobottom",
+"photo":"https://webmention.io/avatar/pbs.twimg.com/522190635261fbb7ed7203c4db1085075bd47fbbbf2c2c2f569e7ccc91853732.jpg",
+"url":"https://twitter.com/roobottom"},
+"url":"https://twitter.com/roobottom/status/1289923639819689984",
+"published":"2020-08-02T13:58:56+00:00",
+"wm-received":"2020-08-02T14:20:58:18Z",
+"wm-id":835108,
+"wm-source":"https://brid-gy.appspot.com/comment/twitter/vincentlistens/1283625132527767553/1286081447728742401",
+"wm-target":"https://vincentp.me/articles/2020/07/16/16-20/",
+"content":{
+    "html":"<a href=\"https://twitter.com/roobottom\">Jon Roobottom</a> replied 'Nice! Thanks.' to a tweet <a href=\"https://vincentp.me/articles/2020/07/16/16-20/\">https://vincentp.me/articles/2020/07/16/16-20/</a>",
+"text":"Nice! Thanks."},
+"in-reply-to":"https://vincentp.me/articles/2020/07/16/16-20/",
+"wm-property":"in-reply-to",
+"wm-private":false
+}

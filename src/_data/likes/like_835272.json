@@ -1,0 +1,15 @@
+{"type":"entry","author":{
+  "type":"card",
+  "name":"Jon Roobottom",
+  "photo":"https://webmention.io/avatar/pbs.twimg.com/522190635261fbb7ed7203c4db1085075bd47fbbbf2c2c2f569e7ccc91853732.jpg",
+  "url":"https://twitter.com/roobottom"
+},
+"url":"https://twitter.com/vincentlistens/status/1289871851498303488#favorited-by-138433702",
+  "published":null,
+  "wm-received":"2020-08-02T21:32:29Z",
+  "wm-id":835272,
+  "wm-source":"https://brid-gy.appspot.com/like/twitter/vincentlistens/1289871851498303488/138433702",
+  "wm-target":"https://vincentp.me/articles/2020/07/16/16-20/",
+  "like-of":"https://vincentp.me/articles/2020/07/16/16-20/",
+  "wm-property":"like-of",
+  "wm-private":false}
