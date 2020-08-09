@@ -1,0 +1,15 @@
+{"type":"entry","author":{
+  "type":"card",
+  "name":"Tomáš Jakl",
+  "photo":"https://webmention.io/avatar/nest.jakl.one/97b994b41ea14d3870e55e1afea0591022af9e9024f8098dd655e428200a732b.jpg",
+  "url":"https://nest.jakl.one/"
+},
+"url":"ttps://nest.jakl.one/likes/2020-08-04-hr9fn/",
+  "published":null,
+  "wm-received":"22020-08-04T22:05:36Z",
+  "wm-id":835984,
+  "wm-source":"https://nest.jakl.one/likes/2020-08-04-hr9fn/",
+  "wm-target":"https://vincentp.me/articles/2020/07/16/16-20/",
+  "like-of":"https://vincentp.me/articles/2020/07/16/16-20/",
+  "wm-property":"like-of",
+  "wm-private":false}
