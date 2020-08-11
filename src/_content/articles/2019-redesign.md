@@ -1,8 +1,8 @@
 ---
 permalink : "/2019-redesign/"
 title : "2019 Redesign Notes"
-meta : "All the notes so far on my 2019 re-architecture"
-summary : "All the notes so on my 2019 re-architecture"
+meta : "All the notes on my 2019 re-architecture"
+summary : "All the notes on my 2019 re-architecture"
 ---
 ## Previous Posts
 
@@ -313,4 +313,4 @@ summary : "All the notes so on my 2019 re-architecture"
 
 ## The New Architecture
 
-[![My new architecture](/images/blog/2020-07-16/new-architecture.jpg "My new architecture")](/images/blog/2020-07-16/new-architecture.jpg)
+[![My new architecture](/images/blog/2020-07-16/new-architecture-v2.jpg "My new architecture")](/images/blog/2020-07-16/new-architecture-v2.jpg)
