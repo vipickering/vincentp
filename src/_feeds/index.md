@@ -3,10 +3,12 @@ layout : "about"
 title : "Feeds List"
 category: "Feed"
 permalink: "/feeds/"
-meta : "Feeds provided for Vincent's content"
-summary : "Feeds provided for Vincent's content"
+meta : "Follow Vincent Pickering"
+summary : "Subscribe to Feeds provided for Vincent's content"
 ---
-I try to provide feeds to the major content I create, subscribe to anything that takes your fancy, in either XML or JSON flavours.
+I try to provide feeds to the major content I create.
+
+Subscribe to anything that takes your fancy, in either XML or JSON flavours.
 
 ## JSON
 - [Everything](/feeds/feed.json)
