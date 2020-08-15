@@ -4,7 +4,8 @@
     "url": "https://vincentp.me",
     "author": {
         "email" :"hello@vincentp.me",
-        "job" : "Service Designer & UI/UX Consultant",
+        "job" : "Service Designer",
+        "employer" : "Ministry of Justice",
         "name" : "Vincent Pickering",
         "profilePic": "images/profile/vincentp.jpg",
         "github" : {
@@ -23,6 +24,15 @@
         },
         "codepen" : {
             "url" : "https://codepen.io/vipickering/"
+        },
+        "untappd" :{
+          "url" : "https://untappd.com/user/monkeymajiks"
+        },
+        "lastfm" : {
+            "url" : "https://www.last.fm/user/monkeymajiks"
+        },
+        "trakt" : {
+            "url" : "https://trakt.tv/users/monkeymajiks"
         },
         "mapbox" : {
             "key" : "pk.eyJ1IjoidnBpY2tlcmluZyIsImEiOiJjamo1ZWNpbmwwYW1wM3FxaHZ5cHR6N3g3In0.hhrPnSY0r_9fu5QKlhqRHw"
