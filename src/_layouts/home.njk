@@ -3,7 +3,8 @@
 <main class="h-feed" id="content">
     <div class="e-content dg layout-grid center">
         {% include "structure/page-title.njk" %}
-        {% include "lifestream/filters.njk" %}
+{{content | safe}}
+        {# {% include "lifestream/filters.njk" %}
 
         {% for post in posts %}
             {% if post.data.category == 'Articles' %}
@@ -25,7 +26,7 @@
             {% endif %}
         {% endfor %}
 
-        {% include "structure/pagination.njk" %}
+        {% include "structure/pagination.njk" %} #}
     </div>
 </main>
 {% endblock %}
