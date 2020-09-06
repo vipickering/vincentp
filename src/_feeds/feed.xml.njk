@@ -16,7 +16,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>{{ metadata.feedUrl }}</id>
   <title>{{metadata.description}}</title>
-  <updated>{{post.date}}</updated>
+  <updated>{{ collections.lifestream | rssLastUpdatedDate }}</updated>
   <author>
     <name>{{ metadata.author }}</name>
     <email>{{metadata.contact}}</email>
@@ -26,7 +26,7 @@
   <link rel="alternate" href="{{ metadata.url }}" type="text/html"/>
   <icon>{{metadata.image}}</icon>
   <rights>Unless specified, the content on this site is published under a MIT License</rights>
-    {% for post in collections.lifestream | reverse -%}
+    {% for post in collections.lifestream | reverse | limit(10) -%}
     {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
         <entry>
             <id>{{ absolutePostUrl }}</id>
