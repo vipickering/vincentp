@@ -46,7 +46,9 @@
     "rimraf": "^3.0.2",
     "stylelint": "^13.7.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "moment-timezone": "^0.5.31"
+  },
   "browserslist": [
     "last 1 Chrome versions",
     "last 1 Firefox versions",
