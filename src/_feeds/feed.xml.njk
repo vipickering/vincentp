@@ -33,9 +33,7 @@
             <title>{{ post.data.title }}</title>
             <updated>{{ post.data.date | dateToRFC }}</updated>
             <link href="{{ absolutePostUrl }}" rel="related" type="text/html"/>
-            <content type="html"><![CDATA[
-            {{ post.templateContent  | htmlToAbsoluteUrls(absolutePostUrl) | doubleToSingleQuotes | dump | safe }}
-            ]]></content>
+            <content type="html"><![CDATA[{{ post.templateContent  | htmlToAbsoluteUrls(absolutePostUrl) | doubleToSingleQuotes | dump | safe }}]]></content>
         </entry>
 {%- endfor %}
 </feed>
