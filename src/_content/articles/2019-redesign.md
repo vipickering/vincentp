@@ -1,6 +1,7 @@
 ---
 permalink : "/2019-redesign/"
 title : "2019 Redesign Notes"
+date: "2019-06-19T22:00:00"
 meta : "All the notes on my 2019 re-architecture"
 summary : "All the notes on my 2019 re-architecture"
 ---
