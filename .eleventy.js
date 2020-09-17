@@ -30,7 +30,9 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy('src/manifest.webmanifest');
 
     // Nunjucks Filters
+    eleventyConfig.addFilter("limit", (array, limit) => array.slice(0, limit));
     eleventyConfig.addNunjucksFilter("date", require('./lib/parsers/nunjucks/filters/date.js')); // Date formatter for pretty dates
+    eleventyConfig.addNunjucksFilter("dateNow", require('./lib/parsers/nunjucks/filters/date-now.js')); // Date now
     eleventyConfig.addNunjucksFilter("dateToISO", require('./lib/parsers/nunjucks/filters/date-to-iso.js')); // Convert dates to  ISO format for html Dates
     eleventyConfig.addNunjucksFilter("dateToRFC", require('./lib/parsers/nunjucks/filters/date-to-rfc.js')); // Convert dates RFC for JSON feeds
     eleventyConfig.addNunjucksFilter("dateToW3C", require('./lib/parsers/nunjucks/filters/date-to-w3c.js')); // Convert dates to W3C format for XML feeds

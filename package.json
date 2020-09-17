@@ -34,7 +34,7 @@
     "markdown-it-emoji": "^1.4.0",
     "markdown-it-footnote": "^3.0.2",
     "minimist": "^1.2.5",
-    "moment-timezone": "^0.5.31",
+    "moment": "^2.27.0",
     "postcss": "^7.0.32",
     "postcss-cli": "^7.1.2",
     "postcss-copy": "^7.1.0",
@@ -46,7 +46,9 @@
     "rimraf": "^3.0.2",
     "stylelint": "^13.7.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "moment-timezone": "^0.5.31"
+  },
   "browserslist": [
     "last 1 Chrome versions",
     "last 1 Firefox versions",
