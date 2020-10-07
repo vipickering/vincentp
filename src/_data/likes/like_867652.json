@@ -1,1 +1,15 @@
-[object Object]
+{"type":"entry","author":{
+    "type":"card",
+    "name":"Chris Burnell",
+    "photo":"https://webmention.io/avatar/chrisburnell.com/433faf60e9553c7a386ada09c26623110215180b0b0061a272f01efc334c82a6.jpg",
+    "url":"https://chrisburnell.com/"
+  },
+  "url":"https://chrisburnell.com/like/1602054491",
+    "published":null,
+    "wm-received":"2020-10-07T07:15:22Z",
+    "wm-id":835984,
+    "wm-source":"https://chrisburnell.com/like/1602054491/",
+    "wm-target":"https://vincentp.me/notes/2020/10/07/19-28/",
+    "like-of":"https://vincentp.me/notes/2020/10/07/19-28/",
+    "wm-property":"like-of",
+    "wm-private":false}
