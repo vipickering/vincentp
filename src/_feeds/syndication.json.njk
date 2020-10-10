@@ -8,7 +8,7 @@
 }
 ---
 [
-{%- for post in collections.syndicated | reverse -%}
+{%- for post in collections.syndicated | reverse | limit(5) -%}
      {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
      {%for item in post.data.syndicationTargets%}
     {
