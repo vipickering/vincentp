@@ -1,4 +1,5 @@
 const fs = require("fs"); // Used by BrowserSync
+const { DateTime } = require("luxon");
 
 module.exports = function(eleventyConfig) {
     // Libraries
@@ -10,7 +11,6 @@ module.exports = function(eleventyConfig) {
 
     // Collections
     eleventyConfig.addCollection("articles", require('./lib/collections/articles.js'));
-    eleventyConfig.addCollection("checkins", require('./lib/collections/checkins.js'));
     eleventyConfig.addCollection("favourites", require('./lib/collections/favourites.js'));
     eleventyConfig.addCollection("links", require('./lib/collections/links.js'));
     eleventyConfig.addCollection("notes", require('./lib/collections/notes.js'));
@@ -32,6 +32,10 @@ module.exports = function(eleventyConfig) {
     // Nunjucks Filters
     eleventyConfig.addFilter("limit", (array, limit) => array.slice(0, limit)); // limit array to first X items
     eleventyConfig.addFilter("lastly", (array, limit) => array.slice(-limit)); //limit array to last X items
+    eleventyConfig.addFilter('htmlDateString', (dateObj) => { return DateTime.fromJSDate(dateObj, {zone: 'Pacific/Auckland'}).toFormat('yyyy-LL-dd'); }); // https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
+    eleventyConfig.addFilter("longDate", dateObj => { return DateTime.fromJSDate(dateObj, {zone: 'Pacific/Auckland'}).toFormat('dd LLL yyyy, HH:mm ZZ (ZZZZZ)'); });
+    eleventyConfig.addFilter("shortDate", dateObj => { return DateTime.fromJSDate(dateObj, {zone: 'Pacific/Auckland'}).toFormat('dd LLL yyyy, HH:mm'); });
+
     eleventyConfig.addNunjucksFilter("date", require('./lib/parsers/nunjucks/filters/date.js')); // Date formatter for pretty dates
     eleventyConfig.addNunjucksFilter("dateNow", require('./lib/parsers/nunjucks/filters/date-now.js')); // Date now
     eleventyConfig.addNunjucksFilter("dateToISO", require('./lib/parsers/nunjucks/filters/date-to-iso.js')); // Convert dates to  ISO format for html Dates

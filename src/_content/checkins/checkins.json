@@ -1,5 +1,0 @@
-{
-  "layout" : "checkin",
-  "category" : "Checkins",
-  "permalink": "/checkins/{{date | date: '%Y/%m/%d/%H-%M'}}/index.html"
-}

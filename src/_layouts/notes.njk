@@ -4,7 +4,7 @@
       <main id="content">
         <article class="h-entry ba b-pale-grey br-5 pa5 mb5">
             <div class="mb5">
-                <h1 class="ma0 pa0 f3 f1-ns lh-heading dn">Note for {{ date | date('Do MMM YYYY') }} at {{ post.date | date('HH:mm') }}</h1>
+                <h1 class="ma0 pa0 f3 f1-ns lh-heading dn">Note for {{ page.date | shortDate }}</h1>
                 {% include "structure/author.njk" %}
                 {% include "structure/audience.njk" %}
             </div>
@@ -18,7 +18,7 @@
                 <div class="p-name">{{ content | safe }}</div>
 
                 {% if modified %}
-                    <time class="dt-published red f7"  datetime="{{ post.date | dateToISO}}" title="Page Modified" >{{ modified | date('MMM Do YYYY') }} at <span class="dt-updated f7">{{ modified | date('HH:mm') }}</span></time>
+                    <time class="dt-published red f7"  datetime="{{ page.date | htmlDateString }}" title="Page Modified">{{ page.date | longDate }}</span></time>
                     <p class="f7 dt-updated">{{ modifiedReason }}.</p>
                 {% endif %}
             </div>

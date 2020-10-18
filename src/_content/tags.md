@@ -10,7 +10,6 @@ pagination:
     - articles
     - favourites
     - notes
-    - checkins
     - rsvps
     - weeknotes
     - replies

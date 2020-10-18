@@ -44,12 +44,11 @@
     "postcss-reporter": "^7.0.1",
     "postcss-syntax": "^0.36.2",
     "rimraf": "^3.0.2",
-    "stylelint": "^13.7.2"
-  },
-  "dependencies": {
+    "stylelint": "^13.7.2",
+    "luxon": "^1.25.0",
     "moment-timezone": "^0.5.31"
   },
-  "browserslist": [
+    "browserslist": [
     "last 1 Chrome versions",
     "last 1 Firefox versions",
     "last 1 Safari versions",
