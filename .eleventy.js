@@ -1,5 +1,6 @@
 const fs = require("fs"); // Used by BrowserSync
-const { DateTime } = require("luxon");
+const dayjs = require('dayjs');
+
 
 module.exports = function(eleventyConfig) {
     // Libraries
@@ -32,17 +33,12 @@ module.exports = function(eleventyConfig) {
     // Nunjucks Filters
     eleventyConfig.addFilter("limit", (array, limit) => array.slice(0, limit)); // limit array to first X items
     eleventyConfig.addFilter("lastly", (array, limit) => array.slice(-limit)); //limit array to last X items
-    eleventyConfig.addFilter('htmlDateString', (dateObj) => { return DateTime.fromJSDate(dateObj, {zone: 'Pacific/Auckland'}).toFormat('yyyy-LL-dd'); }); // https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
-    eleventyConfig.addFilter("longDate", dateObj => { return DateTime.fromJSDate(dateObj, {zone: 'Pacific/Auckland'}).toFormat('dd LLL yyyy, HH:mm ZZ (ZZZZZ)'); });
-    eleventyConfig.addFilter("shortDate", dateObj => { return DateTime.fromJSDate(dateObj, {zone: 'Pacific/Auckland'}).toFormat('dd LLL yyyy, HH:mm'); });
-
-    eleventyConfig.addNunjucksFilter("date", require('./lib/parsers/nunjucks/filters/date.js')); // Date formatter for pretty dates
-    eleventyConfig.addNunjucksFilter("dateNow", require('./lib/parsers/nunjucks/filters/date-now.js')); // Date now
-    eleventyConfig.addNunjucksFilter("dateToISO", require('./lib/parsers/nunjucks/filters/date-to-iso.js')); // Convert dates to  ISO format for html Dates
-    eleventyConfig.addNunjucksFilter("dateToRFC", require('./lib/parsers/nunjucks/filters/date-to-rfc.js')); // Convert dates RFC for JSON feeds
-    eleventyConfig.addNunjucksFilter("dateToW3C", require('./lib/parsers/nunjucks/filters/date-to-w3c.js')); // Convert dates to W3C format for XML feeds
     eleventyConfig.addNunjucksFilter("jsonify", require('./lib/parsers/nunjucks/filters/jsonify.js')); //Make it JSON friendly
     eleventyConfig.addNunjucksFilter("doubleToSingleQuotes", require('./lib/parsers/nunjucks/filters/double-to-single-quotes.js')); //Swap double quotes to singles so JSON remains valid
+
+    eleventyConfig.addNunjucksFilter("date", require('./lib/parsers/nunjucks/filters/date.js')); // Date formatter for pretty dates
+    eleventyConfig.addNunjucksFilter("dateToISO", require('./lib/parsers/nunjucks/filters/date-to-iso.js')); // Convert dates to  ISO format for html Dates
+    eleventyConfig.addNunjucksFilter("dateToRFC", require('./lib/parsers/nunjucks/filters/date-to-json.js')); // Convert dates for JSON feeds
 
     // Enable Deep Merge
     eleventyConfig.setDataDeepMerge(true);
