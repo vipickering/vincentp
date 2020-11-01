@@ -1,6 +1,4 @@
 const fs = require("fs"); // Used by BrowserSync
-const dayjs = require('dayjs');
-
 
 module.exports = function(eleventyConfig) {
     // Libraries
@@ -36,9 +34,8 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addNunjucksFilter("jsonify", require('./lib/parsers/nunjucks/filters/jsonify.js')); //Make it JSON friendly
     eleventyConfig.addNunjucksFilter("doubleToSingleQuotes", require('./lib/parsers/nunjucks/filters/double-to-single-quotes.js')); //Swap double quotes to singles so JSON remains valid
 
-    eleventyConfig.addNunjucksFilter("date", require('./lib/parsers/nunjucks/filters/date.js')); // Date formatter for pretty dates
-    eleventyConfig.addNunjucksFilter("dateToISO", require('./lib/parsers/nunjucks/filters/date-to-iso.js')); // Convert dates to  ISO format for html Dates
-    eleventyConfig.addNunjucksFilter("dateToRFC", require('./lib/parsers/nunjucks/filters/date-to-json.js')); // Convert dates for JSON feeds
+    eleventyConfig.addNunjucksFilter("kiwiDate", require('./lib/parsers/nunjucks/filters/kiwi-date.js')); // UTC Date formatter for pretty dates Kiwi Time
+    eleventyConfig.addNunjucksFilter("ukDate", require('./lib/parsers/nunjucks/filters/gmt-date.js')); // UTC Date formatter for pretty dates UK Time
 
     // Enable Deep Merge
     eleventyConfig.setDataDeepMerge(true);

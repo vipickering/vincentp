@@ -1,5 +1,0 @@
-{
-  "layout": "notes",
-  "category": "Notes",
-  "permalink": "/notes/{{date | date: '%Y/%m/%d/%H-%M'}}/index.html"
-}

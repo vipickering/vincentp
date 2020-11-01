@@ -1,1 +1,1 @@
-<p class="grey fw3 f7">Published by <a class="u-author black u-url" href="{{site.url}}">{{ site.author.name }}</a><br>on <time class="dt-published" datetime="{{ date | dateToISO}}">{{ date | date('Do MMM YYYY') }} <span>at</span> {{ date | date('HH:mm') }}</time></p>
+<p class="grey fw3 f7">Published by <a class="u-author black u-url" href="{{site.url}}">{{ site.author.name }}</a><br>on <time class="dt-published" datetime="{{ post.data.date }}">{{ date | kiwiDate }}</time></p>

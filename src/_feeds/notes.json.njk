@@ -39,8 +39,8 @@
             },
             "title" : "{{ post.data.title }}",
             {%- if post.data.summary %}"summary": "{{ post.data.summary }}",  {%- endif %}
-            "date_published" : "{{ post.date | dateToISO  }}"{% if post.data.modified %},
-            "date_modified" : "{{ post.modified  | dateToISO}}"{% endif%},
+            "date_published" : "{{ post.date  }}"{% if post.data.modified %},
+            "date_modified" : "{{ post.modified }}"{% endif%},
             "id": {{loop.revindex}},
             "url": "{{absolutePostUrl }}",
             {%- if post.data.photo1Url %}

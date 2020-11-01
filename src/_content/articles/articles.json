@@ -1,6 +1,0 @@
-{
-    "layout" : "post",
-    "category" : "Articles",
-    "largeTwitterCard": true,
-    "permalink": "/articles/{{date | date: '%Y/%m/%d/%H-%M'}}/index.html"
-}

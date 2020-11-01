@@ -1,5 +1,0 @@
-{
-  "layout": "photos",
-  "category": "photos",
-  "permalink": "/photos/{{date | date: '%Y/%m/%d/%H-%M'}}/index.html"
-}

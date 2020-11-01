@@ -28,7 +28,7 @@
         <div class="p-comment h-cite mb5">
             <h3 class="p-author h-card dg ma0 pa0 webmention-mini-two-col-grid"><img width="30" height="30" src="{{reply.author.photo }}" alt="{{reply.author.name }}" class="u-photo pa-fixed-1 br-circle avatar-stack b-light-grey ba bg-white"> <a href="{{reply.author.url}}" class="p-name u-url f5 red ma0 pa0 rm-underline" rel="external">{{reply.author.name}}</a></h3>
             <div class="e-content p-name">{{reply.content.text | urlize }}</div>
-            <time class="dt-published db f7" datetime="{{ date | dateToISO}}"><a href="{{reply.url}}" class="grey  rm-underline " rel="external">{{ date | date('Do MMM YYYY') }} <span>at</span> {{ date | date('hh:mma') }}</a></time>
+            <time class="dt-published db f7" datetime="{{ date }}"><a href="{{reply.url}}" class="grey  rm-underline " rel="external">{{ date }} <span>at</span> {{ date}}</a></time>
         </div>
     {% endif %}
 {% endfor %}

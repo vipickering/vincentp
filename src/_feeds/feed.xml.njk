@@ -31,7 +31,7 @@
         <entry>
             <id>{{ absolutePostUrl }}</id>
             <title>{{ post.data.title }}</title>
-            <updated>{{ post.data.date | dateToRFC }}</updated>
+            <updated>{{ post.data.date }}</updated>
             <link href="{{ absolutePostUrl }}" rel="related" type="text/html"/>
             <content type="text">{{ post.templateContent }}</content>
         </entry>

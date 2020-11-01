@@ -23,7 +23,7 @@
         <title>{{ post.data.title }}</title>
         <link>{{ absolutePostUrl }}</link>
         <description>{{ post.templateContent  }}</description>
-        <pubDate>{{ post.date | dateToRFC }}</pubDate>
+        <pubDate>{{ post.date }}</pubDate>
         <guid isPermaLink="true">{{ absolutePostUrl }}</guid>
       </item>
     {%- endfor %}

@@ -3,9 +3,8 @@
 {% block main %}
       <article class="h-entry">
             <div class="mb5 mt5">
-                <h1 class="ma0 pa0 f3 f1-ns lh-heading dn">Note for {{ date | dateToISO}} at {{ date | date('hh:mma') }}</h1>
+                <h1 class="ma0 pa0 f3 f1-ns lh-heading dn">Note for {{ page.data.date}} }}</h1>
                 {% include "structure/author.njk" %}
-                {% include "structure/audience.njk" %}
             </div>
 
             <div class="e-content" data-type="blog">
