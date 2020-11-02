@@ -28,7 +28,6 @@
     "acorn": "^8.0.4",
     "css-mqpacker": "^7.0.0",
     "cssnano": "^4.1.10",
-    "dayjs": "^1.9.4",
     "immutable-css": "^1.1.2",
     "markdown-it": "^12.0.2",
     "markdown-it-attrs": "^3.0.3",
