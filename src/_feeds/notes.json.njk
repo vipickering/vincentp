@@ -31,7 +31,7 @@
             "url" : "{{metadata.author.url}}",
             "avatar" : "{{metadata.author.avatar}}"
     },
-     "items": [{% for post in collections.notes | reverse -%}
+     "items": [{% for post in collections.notes | reverse | limit(5) -%}
     {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
           {
             "author": {
@@ -39,8 +39,7 @@
             },
             "title" : "{{ post.data.title }}",
             {%- if post.data.summary %}"summary": "{{ post.data.summary }}",  {%- endif %}
-            "date_published" : "{{ post.date  }}"{% if post.data.modified %},
-            "date_modified" : "{{ post.modified }}"{% endif%},
+            "date_published" : "{{ post.data.date  }}",
             "id": {{loop.revindex}},
             "url": "{{absolutePostUrl }}",
             {%- if post.data.photo1Url %}

@@ -10,12 +10,6 @@
 
         <div data-type="blog" class="e-content">
             {{ content | safe }}
-
-            {% if modified %}
-                <h3>Update Notes</h3>
-                <time class="dt-published red f7"  datetime="{{ date }}" title="Page Modified" >{{ modified}} at <span class="dt-updated f7">{{ modified}}</span></time>
-                <p class="f7 dt-updated">{{ modifiedReason }}.</p>
-            {% endif %}
         </div>
 
         {% include "structure/tagging.njk" %}

@@ -17,7 +17,7 @@
     <description>{{metadata.description}}</description>
     <link>{{ metadata.url }}</link>
     <atom:link href="{{ metadata.feedUrl }}" rel="self" type="application/rss+xml"/>
-    {% for post in collections.notes | reverse -%}
+    {% for post in collections.notes | reverse | limit(5) -%}
     {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
       <item>
         <title>{{ post.data.title }}</title>

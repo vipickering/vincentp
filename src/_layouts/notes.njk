@@ -15,11 +15,6 @@
                 {% if photo4_url %}<img src="/{{photo4_url}}" class="u-photo w-100" alt="{{photo4_alt}}"/>{% endif %}
                 {% if photo5_url %}<img src="/{{photo5_url}}" class="u-photo w-100" alt="{{photo5_alt}}"/>{% endif %}
                 <div class="p-name">{{ content | safe }}</div>
-
-                {% if modified %}
-                    <time class="dt-published red f7"  datetime="{{ page.date }}" title="Page Modified">{{ page.data.date}}</span></time>
-                    <p class="f7 dt-updated">{{ modifiedReason }}.</p>
-                {% endif %}
             </div>
 
             {% include "structure/tagging.njk" %}
