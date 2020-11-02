@@ -1,4 +1,8 @@
-<article class="h-entry ba b-pale-grey br-5 pa5 mb5 overflow-hidden">
-    <div class="e-content" data-type="blog">{{post.templateContent | safe}}</div>
-    {% include "lifestream/published.njk" %}
+<article class="h-entry ba b-pale-grey br-5 mb5 relative">
+    {% if post.data.photo1Url %}<img src="/{{post.data.photo1Url}}" class="u-photo db w-100" alt="{{post.data.photo1Alt}}"/>{% endif %}
+    <div class="pa5 bg-white-t w-100 brt-5">
+        <div class="e-content  f5 ma0 pa0">{{post.templateContent | safe}}</div>
+        {% include "lifestream/published.njk" %}
+    </div>
 </article>
+

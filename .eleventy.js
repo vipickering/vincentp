@@ -11,7 +11,6 @@ module.exports = function(eleventyConfig) {
     // Collections
     eleventyConfig.addCollection("articles", require('./lib/collections/articles.js'));
     eleventyConfig.addCollection("notes", require('./lib/collections/notes.js'));
-    eleventyConfig.addCollection("photos", require('./lib/collections/photos.js'));
     eleventyConfig.addCollection("lifestream", require('./lib/collections/lifestream.js')); //Builds everything in to a date ordered list
 
     // Copy to site
