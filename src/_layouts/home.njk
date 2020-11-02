@@ -12,10 +12,6 @@
                 {% include "cards/note.njk" %}
             {% elif post.data.category == 'Photos' %}
                 {% include "cards/photo.njk" %}
-            {% elif post.data.category == 'Links' %}
-                {% include "cards/link.njk" %}
-            {% elif post.data.category == 'Favourites' %}
-                {% include "cards/favourite.njk" %}
             {% elif post.data.category == 'Replies' %}
                 {% include "cards/reply.njk" %}
             {% elif post.data.category == 'Rsvps' %}

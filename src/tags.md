@@ -8,13 +8,11 @@ pagination:
     - feeds
     - all
     - articles
-    - favourites
     - notes
     - rsvps
     - weeknotes
     - replies
     - lifestream
-    - links
 permalink: "/tags/{{ tag }}/"
 meta : "Tagged content"
 ---

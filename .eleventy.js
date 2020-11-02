@@ -10,8 +10,6 @@ module.exports = function(eleventyConfig) {
 
     // Collections
     eleventyConfig.addCollection("articles", require('./lib/collections/articles.js'));
-    eleventyConfig.addCollection("favourites", require('./lib/collections/favourites.js'));
-    eleventyConfig.addCollection("links", require('./lib/collections/links.js'));
     eleventyConfig.addCollection("notes", require('./lib/collections/notes.js'));
     eleventyConfig.addCollection("photos", require('./lib/collections/photos.js'));
     eleventyConfig.addCollection("replies", require('./lib/collections/replies.js'));

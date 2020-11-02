@@ -1,8 +1,0 @@
-<article class="h-entry ba b-pale-grey br-5 pa5 mb5">
-    <div class="e-content">
-        <h2 class="p-name f5 red ma0 pa0">{{ post.data.title}}</h2>
-        {{post.templateContent | safe}}
-        <p class="f7 mb5 overflow-w-bw"><a href="{{post.data.webmentionTarget}}" title="bookmarked from: {{post.data.webmentionTarget}}" class="u-bookmark-of underline-no-hover overflow-w-bw" rel="external">{{post.data.webmentionTarget}}</a></p>
-        {% include "lifestream/published.njk" %}
-    </div>
-</article>
