@@ -1,21 +1,25 @@
 ---
-title : "Tagged {{tag}}"
+title: "Tagged Content"
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+permalink: /tags/{{ tag }}/
 ---
 {% extends "src/_layouts/base-category.njk" %}
-
 {% block main %}
- <main id="content">
+<main id="content">
     <div class="dg layout-grid center">
-      <h1 class="p-name ma0 pa0 mb3 f3 f1-ns lh-heading">Tagged: {{ tag }}</h1>
-      <p class="p-summary grey fw3 f6 italic lh-heading mb7 ">All content tagged with {{tag}}</p>
-      <div>
-      <ol>
-      {% set taglist = collections[ tag ] %}
-      {% for post in taglist | reverse %}
-        <li><a href="{{ post.url | url }}">{{ post.data.title }}</a></li>
-      {% endfor %} 
-      </ol>
-      </div>
-  </div>
+        <h1 class="p-name ma0 pa0 mb3 f3 f1-ns lh-heading">{{ tag }}</h1>
+        <p class="p-summary grey fw3 f6 italic lh-heading mb7 ">All content tagged with {{tag}}</p>
+        <div>
+        <ol>
+            {% set taglist = collections[ tag ] %}
+            {% for post in taglist | reverse %}
+                <li><a href="{{ post.url | url }}">{{ post.data.title }}</a></li>
+            {% endfor %}
+        </ol>
+        </div>
+    </div>
 </main>
 {% endblock %}
