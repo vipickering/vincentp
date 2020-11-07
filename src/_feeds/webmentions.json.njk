@@ -8,13 +8,14 @@
 }
 ---
 {%- set webmentionsToSend -%}
-    {%- for post in collections.webmentions | lastly(5)  -%}
+    {%- for post in collections.webmention | lastly(5)  -%}
         {%- set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset -%}
-        {%- if post.data.webmentionTarget -%}{
-            "date" : "{{ post.date  }}",
+       {%- if post.data.webmentionTarget -%}
+       {%- if not loop.first -%},{% endif  %}{
+            "date" : "{{ post.data.date  }}",
             "source": "{{ absolutePostUrl }}",
             "target": "{{ post.data.webmentionTarget }}"
-        }{%- if not loop.last -%},{% endif  %}
+        }
         {% endif -%}
     {% endfor %}
 {% endset -%}
