@@ -30,6 +30,7 @@
     "cssnano": "^4.1.10",
     "immutable-css": "^1.1.2",
     "markdown-it": "^12.0.2",
+    "markdown-it-anchor": "^6.0.1",
     "markdown-it-attrs": "^3.0.3",
     "markdown-it-emoji": "^2.0.0",
     "markdown-it-footnote": "^3.0.2",
@@ -50,5 +51,6 @@
     "last 1 Firefox versions",
     "last 1 Safari versions",
     "last 1 Edge versions"
-  ]
+  ],
+  "dependencies": {}
 }
