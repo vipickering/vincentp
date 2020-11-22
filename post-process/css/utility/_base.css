@@ -178,6 +178,10 @@ blockquote > p + p {
     text-transform: uppercase;
 }
 
+.e-content > p {
+    margin: 0 0 var(--f4) 0;
+}
+
 .e-content > p img {
     width: 100%;
     height: 100%;
