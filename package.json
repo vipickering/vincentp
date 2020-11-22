@@ -34,8 +34,8 @@
     "markdown-it-emoji": "^2.0.0",
     "markdown-it-footnote": "^3.0.2",
     "minimist": "^1.2.5",
-    "postcss": "^8.1.6",
-    "postcss-cli": "^8.2.0",
+    "postcss": "^8.1.9",
+    "postcss-cli": "^8.3.0",
     "postcss-copy": "^7.1.0",
     "postcss-custom-media": "^7.0.8",
     "postcss-import": "^13.0.0",
@@ -43,7 +43,7 @@
     "postcss-reporter": "^7.0.1",
     "postcss-syntax": "^0.36.2",
     "rimraf": "^3.0.2",
-    "stylelint": "^13.7.2"
+    "stylelint": "^13.8.0"
   },
   "browserslist": [
     "last 1 Chrome versions",
