@@ -178,7 +178,8 @@ blockquote > p + p {
     text-transform: uppercase;
 }
 
-.e-content > p {
+.e-content > p,
+.p-name > p {
     margin: 0 0 var(--f4) 0;
 }
 
