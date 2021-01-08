@@ -8,12 +8,6 @@ This blog runs on [Eleventy](https://www.11ty.dev/).
 
 Deployment and hosting is via [Netlify](https://www.netlify.com).
 
-- [Mastr Cntrl](https://github.com/vipickering/mastr-cntrl) is the Microservice responsible for recieving Micropub and social content.
-- [MC Webmebtion](https://github.com/vipickering/mc-webmention) is the webmention service. Designed to send and recieve [Webmentions](https://indieweb.org/Webmention).
-- [MC Syndication](https://github.com/vipickering/mc-syndicate-content) is the syndication service. Designed to syndicate content to other platforms.
-
-These service operate independantly to the website, adding additonal content and are not required to run it.
-
 ## Setup
 
 Clone the directory and install the Node packages:
