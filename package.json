@@ -29,7 +29,7 @@
     "css-mqpacker": "^7.0.0",
     "cssnano": "^5.0.11",
     "immutable-css": "^1.1.2",
-    "markdown-it": "^12.2.0",
+    "markdown-it": "^12.3.2",
     "markdown-it-anchor": "^8.4.1",
     "markdown-it-attrs": "^4.1.0",
     "markdown-it-emoji": "^2.0.0",
