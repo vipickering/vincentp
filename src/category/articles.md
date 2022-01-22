@@ -1,7 +1,7 @@
 ---
 layout : "category"
 category : "Articles"
-permalink : "/articles{% if pagination.pageNumber > 0 %}/{{ pagination.pageNumber + 1}}{% endif %}/"
+permalink : "/articles{% if pagination.pageNumber > 0 %}/{{ pagination.pageNumber  | plus: 1}}{% endif %}/"
 title : "Articles"
 cardname: "cards/article.njk"
 meta : "All content tagged Articles by Vincent Pickering"
