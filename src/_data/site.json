@@ -15,15 +15,6 @@
         "arena" : {
             "url" : "https://www.are.na/vincent-pickering/channels"
         },
-        "codepen" : {
-            "url" : "https://codepen.io/vipickering/"
-        },
-        "lastfm" : {
-            "url" : "https://www.last.fm/user/monkeymajiks"
-        },
-        "trakt" : {
-            "url" : "https://trakt.tv/users/monkeymajiks"
-        },
         "mapbox" : {
             "key" : "pk.eyJ1IjoidnBpY2tlcmluZyIsImEiOiJjamo1ZWNpbmwwYW1wM3FxaHZ5cHR6N3g3In0.hhrPnSY0r_9fu5QKlhqRHw"
         }

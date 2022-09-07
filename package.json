@@ -22,7 +22,7 @@
     "url": "https://github.com/vipickering/vincentp/issues"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.1",
+    "@11ty/eleventy": "^1.0.2",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.1.0",
     "acorn": "^8.8.0",
@@ -39,12 +39,12 @@
     "postcss-cli": "^10.0.0",
     "postcss-copy": "^7.1.0",
     "postcss-custom-media": "^8.0.2",
-    "postcss-import": "^14.1.0",
-    "postcss-preset-env": "^7.7.2",
+    "postcss-import": "^15.0.0",
+    "postcss-preset-env": "^7.8.1",
     "postcss-reporter": "^7.0.5",
     "postcss-syntax": "^0.36.2",
     "rimraf": "^3.0.2",
-    "stylelint": "^14.10.0",
+    "stylelint": "^14.11.0",
     "trim-newlines": ">=4.0.2"
   },
   "browserslist": [
