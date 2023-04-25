@@ -22,7 +22,7 @@
     "url": "https://github.com/vipickering/vincentp/issues"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.2",
+    "@11ty/eleventy": "^2.0.1",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.2.0",
     "acorn": "^8.8.1",
