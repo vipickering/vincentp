@@ -44,7 +44,7 @@
     "postcss-reporter": "^7.0.5",
     "postcss-syntax": "^0.36.2",
     "rimraf": "^5.0.0",
-    "stylelint": "^15.6.0",
+    "stylelint": "^15.10.1",
     "trim-newlines": ">=5.0.0"
   },
   "browserslist": [
