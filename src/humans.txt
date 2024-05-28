@@ -1,6 +1,6 @@
 Author : Vincent Pickering
 Contact : hello@vincentp.me
-Location: UK
+Location: New Zealand
 Github: https://github.com/vipickering/vincentp
 Standards: HTML5, CSS3, JavaScript, Accessibility
 Software: Jekyll
