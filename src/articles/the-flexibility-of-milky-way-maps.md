@@ -45,4 +45,4 @@ The event went without a hitch and everything worked as intended. Later I was ap
 
 <a href="/images/blog/2024-05-28/money.png" title="click or tap for a larger image"><img src="/images/blog/2024-05-28/money.png" width="612" alt="Activity Cost" class="w-100"/></a>
 
-I keep finding new ways to express the different information through this means that can help to give a consistent picture of what is happening over a complex service. If your not using Milky Way Maps I would encourage you to give them ago.
+I keep finding new ways to express the different information through this means that can help to give a consistent picture of what is happening over a complex service. If you're not using Milky Way Maps I would encourage you to give them ago.
