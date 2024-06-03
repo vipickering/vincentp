@@ -28,8 +28,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addNunjucksFilter("jsonify", require('./lib/parsers/nunjucks/filters/jsonify.js')); //Make it JSON friendly
     eleventyConfig.addNunjucksFilter("doubleToSingleQuotes", require('./lib/parsers/nunjucks/filters/double-to-single-quotes.js')); //Swap double quotes to singles so JSON remains valid
 
-    eleventyConfig.addNunjucksFilter("kiwiDate", require('./lib/parsers/nunjucks/filters/kiwi-date.js')); // UTC Date formatter for pretty dates Kiwi Time
-    eleventyConfig.addNunjucksFilter("ukDate", require('./lib/parsers/nunjucks/filters/gmt-date.js')); // UTC Date formatter for pretty dates UK Time
+    eleventyConfig.addNunjucksFilter("niceDate", require('./lib/parsers/nunjucks/filters/nice-date.js')); // UTC Date formatter for pretty dates
 
     // Enable Deep Merge
     eleventyConfig.setDataDeepMerge(true);
