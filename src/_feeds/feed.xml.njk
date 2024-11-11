@@ -16,7 +16,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>{{ metadata.feedUrl }}</id>
   <title>{{metadata.description}}</title>
-  <updated>{{ collections.lifestream | rssLastUpdatedDate }}</updated>
+  <updated>{{ collections.lifestream | getNewestCollectionItemDate | dateToRfc822 }}</updated>
   <author>
     <name>{{ metadata.author }}</name>
     <email>{{metadata.contact}}</email>
