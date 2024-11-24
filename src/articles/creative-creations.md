@@ -16,10 +16,10 @@ Creative Creations is a deck of cards I designed to help foster creativity, thro
 
 I’ve been testing the current set of cards with adults and kids of all ages, with a lot of success in both formal and informal settings. It feels like I have found the sweet spot in what I am aiming for. Version 1 is now ready for release. 
 
-The game is available as print and play **[totally for free from my website](/downloads/Creative-Creations-v1.0.pdf)**, I would love to know how you get on, feel free to reach out and share your creations!
+The game is available as print and play **[totally for free from my website](/downloads/creative-creations-v1.0.pdf)**, I would love to know how you get on, feel free to reach out and share your creations!
 
 ## Print Instructions
-The card file is arranged so all you need to do is set your printer to **[print it out](/downloads/Creative-Creations-v1.0.pdf)** *double sided* and *9 slides on each page*.
+The card file is arranged so all you need to do is set your printer to **[print it out](/downloads/creative-creations-v1.0.pdf)** *double sided* and *9 slides on each page*.
 You should find the cards line up perfectly.
 
 Alternativey, if you want large size cards print them *double sided* and *1 per-page* for jumbo fun. 
