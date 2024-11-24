@@ -1,7 +1,7 @@
 ---
-title: "The flexibility of Milky Way Maps"
+title: "The Flexibility of Milky Way Maps"
 date: "2024-05-28T04:00:00Z"
-meta:  "The flexibility of Milky Way Maps"
+meta:  "The Flexibility of Milky Way Maps"
 summary: "Reflecting on a unique service I designed"
 tags:
 - enterprise-design
