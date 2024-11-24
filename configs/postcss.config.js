@@ -2,7 +2,6 @@ module.exports = {
   map: false,
   plugins: [
     require('postcss-import'),
-    require('stylelint'),
     require('css-mqpacker'),
     require('postcss-custom-media'),
     require('cssnano')({ autoprefixer: false }),
