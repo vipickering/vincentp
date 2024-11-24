@@ -22,6 +22,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy('src/browserconfig.xml');
     eleventyConfig.addPassthroughCopy('src/manifest.webmanifest');
     eleventyConfig.addPassthroughCopy('src/downloads');
+    eleventyConfig.addPassthroughCopy('src/.well-known');
 
     // Nunjucks Filters
     eleventyConfig.addFilter("limit", (array, limit) => array.slice(0, limit)); // limit array to first X items
