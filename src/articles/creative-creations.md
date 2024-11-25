@@ -10,11 +10,13 @@ tags:
 - cards
 ---
 
-<img src="/images/blog/creative-creations/banner.jpg" width="612" alt="Creative Creations cards scattered on the floor"/>
+<img src="/images/blog/creative-creations/banner.jpg" width="612" alt="Creative Creations cards scattered on the floor" class="w-100"/>
 
-Creative Creations is a deck of cards I designed to help foster creativity, through bonding, laughter and fun. It can be used as a short game to spark creativity, a quick icebreaker, a more formalised training session or just for fun. Play your way, to suit your needs.
+Creative Creations is a deck of cards I designed to help foster creativity, through bonding, laughter and fun. It can be used as a way to spark creativity, a quick icebreaker, a more formalised training session or just for fun. Play your way, to suit your needs.
 
-I’ve been testing the current set of cards with adults and kids of all ages, with a lot of success in both formal and informal settings. It feels like I have found the sweet spot in what I am aiming for. Version 1 is now ready for release. 
+I’ve been testing the current set of cards with adults and kids of all ages, and after a lengthy testing period in both formal and informal settings, version 1 is now ready for release!
+
+You play the game by each player drawing a card from the deck, you then all have 4 minutes to simultaneously write or draw your solution. Once the time is up, people share back one at a time. Super simple to learn, but the results can be quite unpredictable!
 
 The game is available as print and play **[totally for free from my website](/downloads/creative-creations-v1.0.pdf)**, I would love to know how you get on, feel free to reach out and share your creations!
 
