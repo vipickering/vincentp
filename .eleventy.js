@@ -1,12 +1,14 @@
 const fs = require("fs"); // Used by BrowserSync
+const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+const pluginRss = require("@11ty/eleventy-plugin-rss");
 
 module.exports = function(eleventyConfig) {
     // Libraries
     eleventyConfig.setLibrary("md", require('./lib/parsers/markdown/markdown.js'));
 
     // 11ty Plugins
-    eleventyConfig.addPlugin(require('@11ty/eleventy-plugin-syntaxhighlight'));
-    eleventyConfig.addPlugin(require('@11ty/eleventy-plugin-rss'));
+    eleventyConfig.addPlugin(pluginSyntaxHighlight);  
+  	eleventyConfig.addPlugin(pluginRss);
 
     // Collections
     eleventyConfig.addCollection("articles", require('./lib/collections/articles.js'));

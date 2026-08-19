@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.1.6",
-    "@11ty/eleventy-plugin-rss": "^3.0.0",
+    "@11ty/eleventy-plugin-rss": "^2.0.3",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.2",
     "acorn": "^8.18.0",
     "css-mqpacker": "^7.0.0",
@@ -52,5 +52,8 @@
     "last 1 Firefox versions",
     "last 1 Safari versions",
     "last 1 Edge versions"
-  ]
+  ],
+  "dependencies": {
+    "@11ty/eleventy-upgrade-help": "^3.0.2"
+  }
 }
