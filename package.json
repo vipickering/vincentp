@@ -55,5 +55,8 @@
   ],
   "dependencies": {
     "@11ty/eleventy-upgrade-help": "^3.0.2"
+  },
+  "allowScripts": {
+    "fsevents@2.3.3": true
   }
 }
